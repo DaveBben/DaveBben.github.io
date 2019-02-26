@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mouse on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/mouse/</link>
+    <description>Recent content in Mouse on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Tue, 22 Nov 2016 21:03:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/mouse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Control Multiple Computers</title>
+      <link>https://bennettnotes.com/control-multiple-computers/</link>
+      <pubDate>Tue, 22 Nov 2016 21:03:42 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/control-multiple-computers/</guid>
+      <description>{{ youtube -St2Ew8oJzE {}
+Does your workstation setup contain more than one computer? I have my main desktop along with my surface setting in front of my at all times. I sometimes hate that I have to reach across my desk and switch between keyboards to type something. Luckily, USB sharing between the two devices is not difficult. Thanks to a garage app by Microsoft, you can control multiple computers with one mouse and keyboard very easily.</description>
+    </item>
+    
+  </channel>
+</rss>

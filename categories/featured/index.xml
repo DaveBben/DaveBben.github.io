@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Featured on Bennett Notes</title>
+    <link>https://bennettnotes.com/categories/featured/</link>
+    <description>Recent content in Featured on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 15 May 2016 16:00:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/categories/featured/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Run Windows 7 on Android</title>
+      <link>https://bennettnotes.com/run-windows-7-android/</link>
+      <pubDate>Sun, 15 May 2016 16:00:31 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-windows-7-android/</guid>
+      <description>I can&amp;#8217;t believe I&amp;#8217;m saying it, but you can run Windows 7 on your Android device. To be honest, I was convinced that running Windows XP on Android would be the final step in Windows emulation, but I was wrong. Before you get too excited about playing the latest AAA title on your phone, keep in mind that this is nothing further than a proof of concept. The performance is painfully sluggish and the app might crash if Windows starts using too much memory.</description>
+    </item>
+    
+    <item>
+      <title>Laser Keyboard</title>
+      <link>https://bennettnotes.com/laser-keyboard/</link>
+      <pubDate>Sun, 01 May 2016 14:51:49 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/laser-keyboard/</guid>
+      <description>{{ youtube 7kJFKcgi4Bo {}
+Are laser keyboards the new thing?
+AGS Laser Keyboard: http://goo.gl/DItpbm</description>
+    </item>
+    
+    <item>
+      <title>College Students try VR Horror and Porn</title>
+      <link>https://bennettnotes.com/college-students-try-vr-horror-porn/</link>
+      <pubDate>Sat, 09 Apr 2016 15:04:37 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/college-students-try-vr-horror-porn/</guid>
+      <description>{{ youtube ZIw_UXnmwLc {}
+So I gathered a couple of friends to try out Virtual Reality Horror Games and of course porn. In the end, a bunch of laughter ensues.
+VR Headets Used:
+Grear VR: http://goo.gl/LgIkl5
+Ling VR: http://goo.gl/3OQVPp</description>
+    </item>
+    
+    <item>
+      <title>Install Kodi on Chromebook</title>
+      <link>https://bennettnotes.com/install-kodi-on-chromebook/</link>
+      <pubDate>Wed, 13 Jan 2016 04:04:12 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/install-kodi-on-chromebook/</guid>
+      <description>Kodi (formely Xbmc) has become a popular in-home media platform. Luckily, getting it on your Chromebook is not much of a challenge. However, you will need to make sure that you have Linux installed on your Chromebook first. Here&amp;#8217;s a short video on how to install Kodi on Chromebook.
+Terminal commands:
+sudo apt-get install software-properties-common sudo add-apt-repository ppa:team-xbmc/ppa sudo apt-get update sudo apt-get install kodi </description>
+    </item>
+    
+    <item>
+      <title>How to build a Supercomputer</title>
+      <link>https://bennettnotes.com/how-to-build-a-supercomputer/</link>
+      <pubDate>Wed, 13 Jan 2016 03:20:26 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-build-a-supercomputer/</guid>
+      <description>{{ youtube F8U4TrOlwEQ {}
+So you want to build a supercomputer? Well, if you checked out my video on quantum computing you&amp;#8217;ll know that scientist are working to make computers stronger and faster than ever. Unfortunately, building a quantum computer is not something you can do at home, unless your home is a laboratory of course. All hope isn&amp;#8217;t lost though, you can still go on to build your very own supercomputer.</description>
+    </item>
+    
+    <item>
+      <title>Cast Android Screen to PC</title>
+      <link>https://bennettnotes.com/cast-android-screen-to-pc/</link>
+      <pubDate>Fri, 18 Dec 2015 03:29:00 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/cast-android-screen-to-pc/</guid>
+      <description>{{ youtube 8Gzy-2M9i00 {}
+Have you ever had a moment where you wish that you could view a picture/video or even a game on a display larger than your phone? Maybe you haven&amp;#8217;t, but it&amp;#8217;s still something really cool to try it. This tutorial will take you through the basics on how to casts Android screen to PC.
+Before we begin, I do want to mention that those of you who are using one of the latest Samsung phones already have this feature built in.</description>
+    </item>
+    
+    <item>
+      <title>How to install Mac OS X Yosemite on any PC</title>
+      <link>https://bennettnotes.com/how-to-install-mac-os-x-yosemite-on-any-pc/</link>
+      <pubDate>Tue, 18 Aug 2015 01:51:04 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-install-mac-os-x-yosemite-on-any-pc/</guid>
+      <description>{{ youtube NIgDNCBdoBM {}
+I will be the first to admit that I prefer Windows over Mac OS any day. Besides being a slight Microsoft fanboy, I do prefer Windows because it meets all of my software and gaming needs, but I digress. In any case, there are still some unfortunate situations when I need to have access to Mac OS.
+[adinserter block=&amp;#8221;5&amp;#8243;]
+Luckily, I&amp;#8217;ll show you an easy way on how to install Mac OS X Yosemite on any pc, regardless of the hardware that you currently have installed (even if it is an AMD CPU).</description>
+    </item>
+    
+    <item>
+      <title>Play Half Life on Android Wear</title>
+      <link>https://bennettnotes.com/play-half-life-on-android-wear/</link>
+      <pubDate>Thu, 23 Jul 2015 00:50:43 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-half-life-on-android-wear/</guid>
+      <description>{{ youtube VnGscfbCz1g {}
+Just because you can, doesn&amp;#8217;t mean you should. But in this case, you totally should. If you recall, I demonstrated how to play Team Fortress Classic on Android using the SDLash app. The app is able to emulate the GoldSource game engine, which was used in many of the classic valve games such as Half-Life and Team Fortress. Right now, I am putting together a tutorial on how to play Half-life on Android, but in the meantime, check out how to do it on Android Wear (albeit a little more complicated).</description>
+    </item>
+    
+    <item>
+      <title>Play Team Fortress Classic on Android</title>
+      <link>https://bennettnotes.com/play-team-fortress-classic-on-android/</link>
+      <pubDate>Sat, 18 Jul 2015 07:00:51 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-team-fortress-classic-on-android/</guid>
+      <description>Have you ever imagined that you would be able to play a Steam game on your phone? Well, I hope so, because I already demonstrated how to play Portal on your Android device. In any case, it&amp;#8217;s even easier to play Team Fortress Classic on Android. This is all thanks to an app called SDLash3D which uses the SDL library that allows you to do some really cool emulation such as running Windows 95 on your device.</description>
+    </item>
+    
+    <item>
+      <title>Play PS2 Games on Android</title>
+      <link>https://bennettnotes.com/play-ps2-games-on-android/</link>
+      <pubDate>Sat, 04 Jul 2015 20:24:58 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-ps2-games-on-android/</guid>
+      <description>I am not lying when I tell you that there is an actual PS2 emulator available for Android. No, I am not talking about one of the many fake ones that you see in the Play Store. I am talking about an actual app with the purpose of emulating the PlayStation 2. Now don&amp;#8217;t get too excited. This app is still in the very early stages. The only commercial title that I have got booting so far has been Final Fantasy X.</description>
+    </item>
+    
+    <item>
+      <title>Install Windows 10 on Chromebook</title>
+      <link>https://bennettnotes.com/install-windows-10-on-chromebook/</link>
+      <pubDate>Fri, 03 Apr 2015 19:31:58 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/install-windows-10-on-chromebook/</guid>
+      <description>So let&amp;#8217;s say that you bought a Chromebook and realized just how limiting Chrome OS can be, or perhaps you are perfectly content with Chrome OS but want to do a little more with it. Whatever your situation may be, I am here to inform you that you can run Windows 10 on your Chromebook. Yes, I am talking about a complete and nearly functional version of Windows 10. In my quick time of using it, I was able to download and play League of Legends (unbearable frame rate though) watch a couple of YouTube videos and use a few lightweight programs.</description>
+    </item>
+    
+    <item>
+      <title>How to Build Custom Cyanogenmod Rom</title>
+      <link>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</link>
+      <pubDate>Fri, 04 Jul 2014 08:12:40 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</guid>
+      <description>{{ youtube GAyxypK7_K8 {}
+Build Custom Cyanogenmod Rom? So are you ready to take on Rom Development? That&amp;#8217;s okay if you&amp;#8217;re not, because I&amp;#8217;ll help walk you through it. In this tutorial, I&amp;#8217;m going to show you how to build your own Cyanogenmod Rom right from source. This sounds a lot more complicated than it actually is though. However, keep in mind that you will need a lot of patience when doing this.</description>
+    </item>
+    
+  </channel>
+</rss>

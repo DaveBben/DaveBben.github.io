@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chrome Os on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/chrome-os/</link>
+    <description>Recent content in Chrome Os on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Mon, 23 Jan 2017 22:53:34 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/chrome-os/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Replace Chrome OS with Windows</title>
+      <link>https://bennettnotes.com/replace-chrome-os-with-windows/</link>
+      <pubDate>Mon, 23 Jan 2017 22:53:34 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/replace-chrome-os-with-windows/</guid>
+      <description>I love Chrome OS but I also realize that it&amp;#8217;s pretty useless without an internet connection. Okay&amp;#8230;maybe not pretty useless but _mostly useless._ I can&amp;#8217;t game, program or do anything useful on Chrome OS other than browse the web. Luckily, if you are using a Chromebook with an Intel CPU (sorry Samsung Chromebook users) you can replace Chrome OS with Windows. Previously, I did a tutorial on How to install Windows on a Chromebook.</description>
+    </item>
+    
+    <item>
+      <title>Install Kodi on Chromebook</title>
+      <link>https://bennettnotes.com/install-kodi-on-chromebook/</link>
+      <pubDate>Wed, 13 Jan 2016 04:04:12 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/install-kodi-on-chromebook/</guid>
+      <description>Kodi (formely Xbmc) has become a popular in-home media platform. Luckily, getting it on your Chromebook is not much of a challenge. However, you will need to make sure that you have Linux installed on your Chromebook first. Here&amp;#8217;s a short video on how to install Kodi on Chromebook.
+Terminal commands:
+sudo apt-get install software-properties-common sudo add-apt-repository ppa:team-xbmc/ppa sudo apt-get update sudo apt-get install kodi </description>
+    </item>
+    
+    <item>
+      <title>How to install Chrome OS on PC</title>
+      <link>https://bennettnotes.com/how-to-install-chrome-os-on-pc/</link>
+      <pubDate>Thu, 20 Aug 2015 02:49:32 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-install-chrome-os-on-pc/</guid>
+      <description>I recently came to the realization that Chrome OS is in some ways a perfect operating system. No, I swear I&amp;#8217;m not taking any hallucinogens. Here is a scenario that really opened my mind. I have an aunt who uses a basic low spec PC running Windows XP. All she does is check her email and check Facebook once per day, and that&amp;#8217;s it. Unfortunately, her PC barely meets the requirements to run Windows XP effectively and is constantly cluttered from maleware, Trojans, etc.</description>
+    </item>
+    
+    <item>
+      <title>Counter Strike Global Offensive on Chromebook</title>
+      <link>https://bennettnotes.com/counter-strike-global-offensive-on-chromebook/</link>
+      <pubDate>Sun, 05 Apr 2015 15:44:44 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/counter-strike-global-offensive-on-chromebook/</guid>
+      <description>{{ youtube qvYVZQPwGxI {}
+Counter Strike Global Offensive on Chromebook? Are you tired of playing the same old games on your Chromebook? Well, with a little help from Linux and Steam you can play CS:Go on your Chromebook. Of course, this will only work with the Intel powered Chromebooks. As far as performance, it&amp;#8217;s playable. On average, I am getting around 23-30 fps in games. It&amp;#8217;s nowhere close to the performance that I get on my desktop, but is still playable none the less.</description>
+    </item>
+    
+    <item>
+      <title>Install Windows 10 on Chromebook</title>
+      <link>https://bennettnotes.com/install-windows-10-on-chromebook/</link>
+      <pubDate>Fri, 03 Apr 2015 19:31:58 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/install-windows-10-on-chromebook/</guid>
+      <description>So let&amp;#8217;s say that you bought a Chromebook and realized just how limiting Chrome OS can be, or perhaps you are perfectly content with Chrome OS but want to do a little more with it. Whatever your situation may be, I am here to inform you that you can run Windows 10 on your Chromebook. Yes, I am talking about a complete and nearly functional version of Windows 10. In my quick time of using it, I was able to download and play League of Legends (unbearable frame rate though) watch a couple of YouTube videos and use a few lightweight programs.</description>
+    </item>
+    
+    <item>
+      <title>Install Windows 8 on Chromebook</title>
+      <link>https://bennettnotes.com/install-windows-8-on-chromebook/</link>
+      <pubDate>Fri, 11 Jul 2014 17:18:23 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/install-windows-8-on-chromebook/</guid>
+      <description>Windows 8 is old news now, look at running Windows 10 on your Chromebook! So you want to run Windows 8 on your Chromebook? Well congratulations, you clicked on the right link. Let me first ask you a question. Are you looking for a fully responsive, practical and reliable Windows 8 chromebook system? If so, then go out and buy a Windows netbook. While running Windows 8 on your Chromebook is feasible, there are a lot of driver hurdles and hardware limitations (depending on your Chromebook model) that you will have to overcome before this becomes a practical solution.</description>
+    </item>
+    
+  </channel>
+</rss>

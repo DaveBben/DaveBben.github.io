@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vnc on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/vnc/</link>
+    <description>Recent content in Vnc on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Fri, 19 Aug 2016 18:31:47 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/vnc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Use Android as Second Monitor</title>
+      <link>https://bennettnotes.com/use-android-as-second-monitor/</link>
+      <pubDate>Fri, 19 Aug 2016 18:31:47 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/use-android-as-second-monitor/</guid>
+      <description>{{ youtube POpctRaXkrk {}
+Having more than one monitor is useful for any power user (porn on one, games on another). So it&amp;#8217;s possible to use an android device as a secondary monitor, but I recommend actually buying one if you want an easy setup. With that said, if you have a spare Android device laying around, you can use it as another monitor in your setup. To do this, we are going to use Windows and &amp;#8220;trick&amp;#8221; it into thinking that you have another monitor connected and then use TeamViewer to access the &amp;#8220;fake&amp;#8221; monitor.</description>
+    </item>
+    
+  </channel>
+</rss>

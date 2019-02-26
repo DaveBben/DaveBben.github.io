@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tribute on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/tribute/</link>
+    <description>Recent content in Tribute on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Thu, 05 May 2016 14:46:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/tribute/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fallout 4 Tribute</title>
+      <link>https://bennettnotes.com/fallout-4-tribute/</link>
+      <pubDate>Thu, 05 May 2016 14:46:23 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/fallout-4-tribute/</guid>
+      <description>{{ youtube YHL2e1zpd_g {}
+So I had some leftover Fallout 4 footage lying around and I came across Lune by NCS. I feel like this song would be the perfect soundtrack for this game. So here&amp;#8217;s a short video montage of a few action shots.</description>
+    </item>
+    
+  </channel>
+</rss>

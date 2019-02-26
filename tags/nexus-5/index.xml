@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nexus 5 on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/nexus-5/</link>
+    <description>Recent content in Nexus 5 on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Wed, 02 Jul 2014 04:08:11 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/nexus-5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android Boost Speaker Volume</title>
+      <link>https://bennettnotes.com/android-boost-speaker-volume/</link>
+      <pubDate>Wed, 02 Jul 2014 04:08:11 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-boost-speaker-volume/</guid>
+      <description>Let&amp;#8217;s face it. Even at max volume, sometimes the speaker on your phone just isn&amp;#8217;t loud enough (Yes, I&amp;#8217;m looking at you Nexus 5). However, you could digitally raise the maximum volume that the speaker allows itself to go to. This will require a rooted android device and could run the risk of damaging your speakers if you go too high, so be warned.
+What You will Need:  A rooted Android Device ES File Explorer  Step 1: Mounting the System Open up ES file explorer and enable the root explorer.</description>
+    </item>
+    
+  </channel>
+</rss>

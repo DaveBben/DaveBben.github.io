@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Science on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/computer-science/</link>
+    <description>Recent content in Computer Science on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Fri, 07 Sep 2018 13:07:44 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/computer-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Computer Science Degree Was Not Worth the Cost</title>
+      <link>https://bennettnotes.com/my-computer-science-degree-was-not-worth-the-cost/</link>
+      <pubDate>Fri, 07 Sep 2018 13:07:44 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/my-computer-science-degree-was-not-worth-the-cost/</guid>
+      <description>I am a 2018 college graduate with a bachelor&amp;#8217;s degree in computer science. I recently got hired for my first full-time software developer job. As any new graduate, I was eager to go to work and put this shiny new degree to good use. After just a few weeks on the job, I had a horrible realization. Four years of undergrad and \$80K taught me nothing of value for today&amp;#8217;s job market.</description>
+    </item>
+    
+  </channel>
+</rss>

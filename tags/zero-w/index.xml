@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zero W on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/zero-w/</link>
+    <description>Recent content in Zero W on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Fri, 24 Mar 2017 03:31:24 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/zero-w/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cheapest Computer You Can Buy</title>
+      <link>https://bennettnotes.com/cheapest-computer-can-buy/</link>
+      <pubDate>Fri, 24 Mar 2017 03:31:24 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/cheapest-computer-can-buy/</guid>
+      <description>If you are in the market for a computer that will cost you about the same price as a large Starbucks iced coffee, then you are at the right place. Introducing, the Raspberry Pi Zero W. The Raspberry Pu Zero W is the cheapest computer you can buy. This computer isn&amp;#8217;t made for gaming or bitcoin mining. It&amp;#8217;s aimed at developers and enthusiasts to use in their projects. It would also make for a great setup for a small home server.</description>
+    </item>
+    
+  </channel>
+</rss>

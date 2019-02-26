@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>April Update on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/april-update/</link>
+    <description>Recent content in April Update on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Wed, 16 May 2018 13:27:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/april-update/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Enable Ultimate Performance Mode in Windows 10</title>
+      <link>https://bennettnotes.com/how-to-enable-ultimate-performance-mode-in-windows-10/</link>
+      <pubDate>Wed, 16 May 2018 13:27:31 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-enable-ultimate-performance-mode-in-windows-10/</guid>
+      <description>The Windows 10 April update brought a lot of new features. One of the little-known features is a new power plan called ultimate performance mode. According to Microsoft, this mode decreases the micro-latency between the OS and the hardware. Exactly what that means, I&amp;#8217;m not too sure. However, this mode is more than just made up fluff.
+I ran a couple of benchmarks between using the default balanced mode on my PC and the ultimate performance mode.</description>
+    </item>
+    
+  </channel>
+</rss>

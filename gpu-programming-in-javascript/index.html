@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>GPU Programming in Javascript - Bennett Notes</title>
+  <meta property="og:title" content="GPU Programming in Javascript" />
+  <meta name="twitter:title" content="GPU Programming in Javascript" />
+  <meta name="description" content="You probably don&#8217;t think about Javascript when you hear the words GPU programming. However, it should come as no surprise that there is a library to do anything and that includes GPU Programming in Javascript. Let&#8217;s get one thing clear though, you should probably not do this if you are looking to do serious GPU programming. For serious GPU programming, I recommended that you work with Nvidia&#8217;s CUDA in C and C&#43;&#43;.">
+  <meta property="og:description" content="You probably don&#8217;t think about Javascript when you hear the words GPU programming. However, it should come as no surprise that there is a library to do anything and that includes GPU Programming in Javascript. Let&#8217;s get one thing clear though, you should probably not do this if you are looking to do serious GPU programming. For serious GPU programming, I recommended that you work with Nvidia&#8217;s CUDA in C and C&#43;&#43;.">
+  <meta name="twitter:description" content="You probably don&#8217;t think about Javascript when you hear the words GPU programming. However, it should come as no surprise that there is a library to do anything and that includes GPU Programming …">
+  <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bennett Notes",
+    
+    "url": "https://bennettnotes.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https://bennettnotes.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://bennettnotes.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://bennettnotes.com/gpu-programming-in-javascript/",
+          "name": "G p u programming in javascript"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "dave"
+  },
+  "headline": "GPU Programming in Javascript",
+  "description" : "You probably don&amp;#8217;t think about Javascript when you hear the words GPU programming. However, it should come as no surprise that there is a library to do anything and that includes GPU Programming in Javascript. Let&amp;#8217;s get one thing clear though, you should probably not do this if you are looking to do serious GPU programming. For serious GPU programming, I recommended that you work with Nvidia&amp;#8217;s CUDA in C and C&#43;&#43;.",
+  "inLanguage" : "en",
+  "wordCount": 668,
+  "datePublished" : "2017-12-26T16:58:09",
+  "dateModified" : "2017-12-26T16:58:09",
+  "image" : "https://bennettnotes.com/img/avatar-icon.png",
+  "keywords" : [ "cuda, gpu, javascript" ],
+  "mainEntityOfPage" : "https://bennettnotes.com/gpu-programming-in-javascript/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https://bennettnotes.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https://bennettnotes.com/img/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="GPU Programming in Javascript" />
+<meta property="og:description" content="You probably don&#8217;t think about Javascript when you hear the words GPU programming. However, it should come as no surprise that there is a library to do anything and that includes GPU Programming in Javascript. Let&#8217;s get one thing clear though, you should probably not do this if you are looking to do serious GPU programming. For serious GPU programming, I recommended that you work with Nvidia&#8217;s CUDA in C and C&#43;&#43;.">
+<meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://bennettnotes.com/gpu-programming-in-javascript/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bennett Notes" />
+  <meta name="twitter:title" content="GPU Programming in Javascript" />
+  <meta name="twitter:description" content="You probably don&#8217;t think about Javascript when you hear the words GPU programming. However, it should come as no surprise that there is a library to do anything and that includes GPU Programming …">
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <link href='https://bennettnotes.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <meta property="og:url" content="https://bennettnotes.com/gpu-programming-in-javascript/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="https://bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bennettnotes.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://bennettnotes.com/css/syntax.css" /><link rel="stylesheet" href="https://bennettnotes.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><link rel="stylesheet" href="https://bennettnotes.com/css/override.css" />
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://bennettnotes.com">Bennett Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Programming" href="/categories/programming">Programming</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Technology</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories/android">Android</a>
+                
+                  <a href="/categories/chrome-os">Chrome OS</a>
+                
+                  <a href="/categories/gadgets">Gadgets</a>
+                
+                  <a href="/categories/linux">Linux</a>
+                
+                  <a href="/categories/windows">Windows</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Life" href="/categories/life">Life</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/page/search/">Search</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bennett Notes" href="https://bennettnotes.com">
+            <img class="avatar-img" src="https://bennettnotes.com/img/avatar-icon.png" alt="Bennett Notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>GPU Programming in Javascript</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on December 26, 2017
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;4&nbsp;minutes
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;dave
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+            
+            <img src="/wp-content/uploads/2017/12/how-gpu-acceleration-works.png" class="thumbnail img-responsive">
+            <hr>
+            
+                <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6594501022141871"
+                data-ad-slot="6223025728"
+                data-ad-format="link"></ins>
+            <hr>
+            
+        
+
+<p>You probably don&#8217;t think about Javascript when you hear the words GPU programming. However, it should come as no surprise that there is a library to do anything and that includes GPU Programming in Javascript. Let&#8217;s get one thing clear though, you should probably not do this if you are looking to do serious GPU programming. For serious GPU programming, I recommended that you work with Nvidia&#8217;s CUDA in C and C++. See, the only way to get direct access to the GPU in Javascript is through WebGL. That means that anything you do will essentially be converted to pixels and shaders to run on the GPU then converted back to your desired output. Luckily, a library called <a href="http://gpu.rocks/" target="_blank" rel="noopener">gpu.js</a> simplifies all of this for us, but it&#8217;s still not an ideal situation.</p>
+
+<p>Here&#8217;s another thing to keep in mind before you jump in. Just because something can run on the GPU doesn&#8217;t mean that it should. The GPU really excels with doing simple things in parallel on large amounts of data. For example, multiplication on very large matrices is a perfect example of the power of GPU processing over the CPU. So let&#8217;s implement some simple GPU programming in Javascript using matrix multiplication.</p>
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-format="fluid"
+data-ad-layout="in-article"
+data-ad-client="ca-pub-6594501022141871"
+data-ad-slot="6999463098"></ins>
+
+
+<h2 id="index-html">Index HTML</h2>
+
+<p>SInce we are designing this to run in the browser, we will need to create a simple index.html file. If you want to work with NodeJS you can, but you will fallback on CPU support because WebGL is currently not accessible in NodeJS, which is required for this library to work. Begin by creating a simple Index.html file and linking the gpu.js library and a custom javascript file that we will write.</p>
+
+<pre>&lt;!DOCTYPE html&gt;
+ &lt;html lang="en"&gt;
+ &lt;head&gt;
+ &lt;title&gt;&lt;/title&gt;
+ &lt;meta charset="UTF-8"&gt;
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+ &lt;link href="css/style.css" rel="stylesheet"&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+ &lt;script src="./gpu.min.js"&gt;&lt;/script&gt;
+ &lt;script src="./gpu.js"&gt;&lt;/script&gt;
+ &lt;/body&gt;
+ &lt;/html&gt;</pre>
+
+<h2 id="gpu-programming">GPU Programming</h2>
+
+<p>Now let&#8217;s start writing our first GPU program. We are going to multiple a very large matrix agaisnt itself. Begin by createing an instance of the GPU library.</p>
+
+<pre>const gpu = new GPU();</pre>
+
+<p>Next, we are going to define a constant that will determine the size of the matrix (length and width).</p>
+
+<pre>const SIZE = 1000;</pre>
+
+<p>Now, let&#8217;s create a 2D array to represent our matrix. I am going to fill this array with random numbers.</p>
+
+<pre>const value = [];
+for (let i = 0; i &lt; SIZE; i++) {
+const row = [];
+for (j = 0; j &lt; SIZE; j++) {
+row.push(Math.random() * (1000 - 1 + 1) + 1);
+}
+value.push(row);
+}</pre>
+
+<p>If we were to print this, you will see a matrix containing 1000 rows and 1000 columns. We are going to multiply this matrix by itself. Now, let&#8217;s invoke the kernel function on the GPU.</p>
+
+<pre>const matMult = gpu.createKernel(function (a, b) {
+let sum = 0;
+for (let i = 0; i &lt; size; i++) {
+sum += a[this.thread.y][i] * b[i][this.thread.x];
+}
+return sum;
+} , {
+constants: { size: SIZE },
+output: [SIZE,SIZE],
+});</pre>
+
+<p>I&#8217;m creating a function on the kernel that will traverse two matrices (in this case our same matrix against itself). This.thread.x and this.thread.y refers to the x and y position of each of the matrices. Since this will be running on WebGL, you are limited to the math operations at your disposal. Also, all loops need to be bound. So you can&#8217;t do for(i=0;i&lt;n;i+=1), instead of that <em>n</em> either needs to be a hardcoded number or a fixed constant.</p>
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-format="fluid"
+data-ad-layout="in-article"
+data-ad-client="ca-pub-6594501022141871"
+data-ad-slot="6999463098"></ins>
+
+
+<p>Finally, we are declaring the output size of the matrix. Now, let&#8217;s log the output.</p>
+
+<pre>const result = matMult(value, value);
+console.log(result);</pre>
+
+<p>When you launch the index.html file and run this you will notice your GPU usage spike for half a second, and then you will have the product of the matrix multiplication. Now, if you tried this exact code using NodeJS (which will keep you CPU bound) you will notice that it will take roughly 10 seconds to solve. That&#8217;s a big difference in time from using the GPU.</p>
+
+<p><a href="https://github.com/DaveBben/gpu-programming" target="_blank" rel="noopener">You can find this code over on GitHub.</a></p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://bennettnotes.com/tags/cuda/">cuda</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/gpu/">gpu</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/javascript/">javascript</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fbennettnotes.com%2fgpu-programming-in-javascript%2f&amp;text=GPU%20Programming%20in%20Javascript&amp;via=_davebennett" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fbennettnotes.com%2fgpu-programming-in-javascript%2f" target="_blank" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbennettnotes.com%2fgpu-programming-in-javascript%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fbennettnotes.com%2fgpu-programming-in-javascript%2f&amp;title=GPU%20Programming%20in%20Javascript" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fbennettnotes.com%2fgpu-programming-in-javascript%2f&amp;title=GPU%20Programming%20in%20Javascript" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fbennettnotes.com%2fgpu-programming-in-javascript%2f&amp;title=GPU%20Programming%20in%20Javascript" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fbennettnotes.com%2fgpu-programming-in-javascript%2f&amp;description=GPU%20Programming%20in%20Javascript" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+              </div>
+            </section>
+        
+
+        
+          
+          
+          <h4 class="see-also">See also</h4>
+          <ul>
+          
+            <li><a href="/javascript-vs-vs/">Javascript for of vs for in vs for each</a></li>
+          
+            <li><a href="/build-a-mmo-game-with-javascript-and-nodejs/">Build a Multiplayer game using Javascript</a></li>
+          
+            <li><a href="/javascript-hashcash-proof-work/">Javascript Hashcash Proof of Work</a></li>
+          
+          </ul>
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://bennettnotes.com/image-classification-using-nvidia-digits-deep-learning/" data-toggle="tooltip" data-placement="top" title="Image Classification using Nvidia Digits – Deep Learning">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://bennettnotes.com/php-insert-sql-database-fetch-post/" data-toggle="tooltip" data-placement="top" title="PHP insert into SQL database from Fetch POST">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:dave@bennettnotes.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DaveBben" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_davebennett" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DaveBben" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/opensourcegangster" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://bennettnotes.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="bennettnotes.com">Dave Bennett</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://bennettnotes.com">Bennett Notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Theme by adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/main.js"></script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+<script
+  async
+  src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6594501022141871",
+    enable_page_level_ads: true
+  });
+</script>
+<script>
+  function init() {
+    var vidDefer = document.getElementsByTagName("iframe");
+    for (var i = 0; i < vidDefer.length; i++) {
+      if (vidDefer[i].getAttribute("data-src")) {
+        vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
+      }
+    }
+  }
+  window.onload = init;
+</script>
+
+
+  </body>
+</html>
+

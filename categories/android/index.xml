@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on Bennett Notes</title>
+    <link>https://bennettnotes.com/categories/android/</link>
+    <description>Recent content in Android on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sat, 20 Oct 2018 14:37:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Share WiFi Connection on Android</title>
+      <link>https://bennettnotes.com/how-to-share-wifi-connection-on-android/</link>
+      <pubDate>Sat, 20 Oct 2018 14:37:18 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-share-wifi-connection-on-android/</guid>
+      <description>Last summer, I was staying at a beautiful resort in the Dominican Republic with no access to mobile data, so I needed to depend on WiFi. Unfortunately, my network access only allowed me to have one device at a time on the network. This was a huge pain because I wanted to connect both my phone and laptop to the network. After some searching, I found out a simple way to share wifi from an android device.</description>
+    </item>
+    
+    <item>
+      <title>How to Control Android from Android</title>
+      <link>https://bennettnotes.com/how-to-control-android-from-android/</link>
+      <pubDate>Sat, 29 Sep 2018 12:51:47 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-control-android-from-android/</guid>
+      <description>There is an easy way that you can control one Android device from another Android device. This is useful if you need to perform any type of tech support for someone else&amp;#8217;s device. To control Android from Android we can use the free app TeamViewer Quick Support.
+Compatibility: This is not compatible with every Android device. TeamViewer has a full list of the supported manufacturers. Unfortunately, if you have a Google Pixel device then you will not be able to take advantage of the remote control capabilities; you will only be able to share your screen.</description>
+    </item>
+    
+    <item>
+      <title>How to Block All Ads on Android without ROOT</title>
+      <link>https://bennettnotes.com/how-to-block-all-ads-on-android-without-root-2/</link>
+      <pubDate>Wed, 27 Jun 2018 00:04:21 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-block-all-ads-on-android-without-root-2/</guid>
+      <description>I don&amp;#8217;t think that I have ever encountered anyone who said that they like ads (other than maybe the Super Bowl ads). Nonetheless, ads are a necessary evil which must be tolerated in order to compensate for various internet endeavors. However, there are many apps, games, and websites which abuse ads and destroy the entire experience. In the past, blocking ads from these apps required that you root your device.</description>
+    </item>
+    
+    <item>
+      <title>How to Block All Ads on Android without ROOT</title>
+      <link>https://bennettnotes.com/how-to-block-all-ads-on-android-without-root/</link>
+      <pubDate>Wed, 27 Jun 2018 00:04:21 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-block-all-ads-on-android-without-root/</guid>
+      <description>I don&amp;#8217;t think that I have ever encountered anyone who said that they like ads (other than maybe the Super Bowl ads). Nonetheless, ads are a necessary evil which must be tolerated in order to compensate for various internet endeavors. However, there are many apps, games, and websites which abuse ads and destroy the entire experience. In the past, blocking ads from these apps required that you root your device.</description>
+    </item>
+    
+    <item>
+      <title>How to theme and customize Windows 10</title>
+      <link>https://bennettnotes.com/how-to-theme-and-customize-windows-10/</link>
+      <pubDate>Fri, 08 Jun 2018 10:15:45 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-theme-and-customize-windows-10/</guid>
+      <description>Windows 10 doesn&amp;#8217;t have many cool options when it comes to theming. Fortunately, there are developers out there who went the extra step to create theme patchers and ither awesome skins. In this tutorial, I want to show you how you can get your Windows 10 desktop looking like the image below.
+Dark Theme The dark theme I used is called After Dark CC. Although it&amp;#8217;s a paid theme ($2.</description>
+    </item>
+    
+    <item>
+      <title>How to Enable Ultimate Performance Mode in Windows 10</title>
+      <link>https://bennettnotes.com/how-to-enable-ultimate-performance-mode-in-windows-10/</link>
+      <pubDate>Wed, 16 May 2018 13:27:31 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-enable-ultimate-performance-mode-in-windows-10/</guid>
+      <description>The Windows 10 April update brought a lot of new features. One of the little-known features is a new power plan called ultimate performance mode. According to Microsoft, this mode decreases the micro-latency between the OS and the hardware. Exactly what that means, I&amp;#8217;m not too sure. However, this mode is more than just made up fluff.
+I ran a couple of benchmarks between using the default balanced mode on my PC and the ultimate performance mode.</description>
+    </item>
+    
+    <item>
+      <title>Run Windows Applications (EXE Files) on Android</title>
+      <link>https://bennettnotes.com/run-windows-applications-exe-files-on-android/</link>
+      <pubDate>Mon, 29 Jan 2018 01:11:40 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-windows-applications-exe-files-on-android/</guid>
+      <description>If I had a dollar for the number of times someone asked how to run Windows Exe Files on Android, I would be richer than your top Bitcoin miners. Most of the time, my response would have simply been that it&amp;#8217;s not possible, end of story. Well, that sort of changed this week.
+If you are a Linux user, you have probably heard of Wine. The tl;dr is that Wine allows you to run Windows apps in Linux (it&amp;#8217;s a Windows compatibility layer).</description>
+    </item>
+    
+    <item>
+      <title>Run Linux on Surface Laptop</title>
+      <link>https://bennettnotes.com/run-linux-on-surface-laptop/</link>
+      <pubDate>Fri, 22 Dec 2017 15:17:48 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-linux-on-surface-laptop/</guid>
+      <description>It might be crazy to run Linux on Surface Laptop, but there is a way to do it. If you have extra RAM to spare on your Surface Laptop, just use Virtual Box because you&amp;#8217;ll have all the driver support you need and you will not have to change your boot configuration. For the brave, here&amp;#8217;s how to install Linux on Surface Laptop the more traditional way.
+Be Careful! Once we change the boot configuration on your Surface Laptop, you will need to enter your recovery key to unlock your hard drive (which is locked by BitLocker by default).</description>
+    </item>
+    
+    <item>
+      <title>Google Pixel 2 XL vs Galaxy Note 8</title>
+      <link>https://bennettnotes.com/google-pixel-2-xl-vs-galaxy-note-8/</link>
+      <pubDate>Sat, 25 Nov 2017 17:15:31 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/google-pixel-2-xl-vs-galaxy-note-8/</guid>
+      <description>The Google Pixel 2 XL and the Galaxy Note 8 are two excellent devices. They are so good, that I would be lying if I told you that it was easy to make a decision between these two devices. Deciding which one to buy is going to come down to a lot of personal preference and trivial differences. So let&amp;#8217;s do a comparison of the Google Pixel 2 XL vs Galaxy Note 8.</description>
+    </item>
+    
+    <item>
+      <title>Run Kali Linux 2 on Android</title>
+      <link>https://bennettnotes.com/run-kali-linux-2-android/</link>
+      <pubDate>Sun, 29 Oct 2017 03:47:36 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-kali-linux-2-android/</guid>
+      <description>Kali Linux is a popular security-focused operating system that has many tools which could be used for penetration testing. In the past, I demonstrated how to Run Kali Linux on Android (version 1.0) via the terminal. Now let&amp;#8217;s take a look at how to run Kali Linux 2 on Android without root. To do this, we will be using Limbo PC Emulator. It makes use of the SDL library to emulate Kali Linux 2 on Android.</description>
+    </item>
+    
+    <item>
+      <title>Run Android Nougat on PC</title>
+      <link>https://bennettnotes.com/run-android-nougat-on-pc/</link>
+      <pubDate>Thu, 19 Oct 2017 02:49:19 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-android-nougat-on-pc/</guid>
+      <description>Do you have an old computer laying around that you need to find a use for? How about running Android Nougat on your PC? The Android x86 team has successfully ported Android 7.1 over to the desktop CPU architecture. This means you can enjoy your favorite apps and games on any pc or laptop.
+Run Android Nougat on PC The first thing that you need to do is download the Android Nougat x86 ISO file.</description>
+    </item>
+    
+    <item>
+      <title>Stop Windows from Compressing Wallpaper</title>
+      <link>https://bennettnotes.com/stop-windows-from-compressing-wallpaper/</link>
+      <pubDate>Thu, 14 Sep 2017 13:38:15 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/stop-windows-from-compressing-wallpaper/</guid>
+      <description>By default, Windows compresses your desktop wallpaper by up to 85% of its original quality. This is done to maximize performance because most people don&amp;#8217;t need a 50 MB image eating up precious RAM. There are two methods that you can use to stop Windows from compressing wallpapers. The first (unconfirmed) method is to use a PNG image file. There have been some reports that on the latest Windows 10 Creator&amp;#8217;s update, PNG images are immune to Windows compression.</description>
+    </item>
+    
+    <item>
+      <title>Dark Theme any App</title>
+      <link>https://bennettnotes.com/dark-theme-any-app/</link>
+      <pubDate>Mon, 04 Sep 2017 13:49:37 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/dark-theme-any-app/</guid>
+      <description>I absolutely love dark themes in my apps. Not only is it easier on the eyes, but having a true amoled black theme could save you battery life on certain devices like the Galaxy S8. Unfortunately, not every app comes with a dark theme option. So if you want to dark theme any app on your device you will need to use the theme engine called Substratum. Substratum could give you a dark theme Instagram, dark them Facebook, dark theme Inbox, etc.</description>
+    </item>
+    
+    <item>
+      <title>Android Freeform Mode</title>
+      <link>https://bennettnotes.com/android-freeform-mode/</link>
+      <pubDate>Tue, 04 Jul 2017 19:27:12 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-freeform-mode/</guid>
+      <description>Android Freeform mode is a new hidden feature in Android Nougat (7.0). According to the Android developer guide, &amp;#8220;Manufacturers of larger devices can choose to enable freeform mode, in which the user can freely resize each activity. If the manufacturer enables this feature, the device offers freeform mode in addition to split-screen mode.&amp;#8221; Although the developer guides species larger devices, this could be enabled on smaller devices as well.</description>
+    </item>
+    
+    <item>
+      <title>Play 4K YouTube Videos on Android</title>
+      <link>https://bennettnotes.com/play-4k-youtube-videos-android/</link>
+      <pubDate>Wed, 14 Jun 2017 23:38:25 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-4k-youtube-videos-android/</guid>
+      <description>So we have these impressive ultra-high resolution smartphones, yet we still can&amp;#8217;t seem to play 4k youtube videos on Android. Some devices can&amp;#8217;t even play 1440p YouTube videos despite having the appropriate screen resolution. Luckily, there is a simple trick that you can do to get a higher resolution format via the YouTube app on your phone, even if your screen resolution is not 4k. Essentially, we are going to add a line to the build prop that &amp;#8220;tricks&amp;#8221; the YouTube app into thinking you have a different display size.</description>
+    </item>
+    
+    <item>
+      <title>Android WiFi Jammer</title>
+      <link>https://bennettnotes.com/android-wifi-jammer/</link>
+      <pubDate>Sun, 28 May 2017 03:43:01 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-wifi-jammer/</guid>
+      <description>For less than $10, you can have an Android WiFI Jammer up and running. To get started, you are going to need to have the NodeMCU. It&amp;#8217;s a WiFI development chip that&amp;#8217;s usually used in Raspberry Pi and Arduino projects. However, the chip can also be used as a standalone device (it has its own CPU and memory) as long as you give it sufficient power. This means you can power it through another Android phone, your computer, power bank or any device that&amp;#8217;s capable of supplying power over USB.</description>
+    </item>
+    
+    <item>
+      <title>5 Actually Cool Android Tricks</title>
+      <link>https://bennettnotes.com/5-actually-cool-android-tricks/</link>
+      <pubDate>Thu, 11 May 2017 23:41:52 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/5-actually-cool-android-tricks/</guid>
+      <description>Here are 5 actually cool Android tricks that you can try on your device. A couple of these tricks will require that you have adb installed on your computer. None of these tricks require root.
+Hide Soft Keys Softkeys are usually convenient to have but can eat up precious screen real estate. Unfortunately, not many android developers give users to ability to use their app in immersive mode (which autohides the softkeys).</description>
+    </item>
+    
+    <item>
+      <title>Change NavBar Color Android</title>
+      <link>https://bennettnotes.com/change-navbar-color-android/</link>
+      <pubDate>Sun, 16 Apr 2017 13:48:18 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/change-navbar-color-android/</guid>
+      <description>I don&amp;#8217;t like when OEM Skins change the Android Navbar Color. I like the Android Navbar color to always be black. It goes well with most apps and is easy on the eyes at night. Unfortunately, LG made the default color an ugly off white/gray. Using an app called Navbar apps, you can change the Android navigation bar color.
+Link: https://goo.gl/Rt6myl</description>
+    </item>
+    
+    <item>
+      <title>LG G6 Unboxing</title>
+      <link>https://bennettnotes.com/lg-g6-unboxing/</link>
+      <pubDate>Sat, 15 Apr 2017 15:50:06 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/lg-g6-unboxing/</guid>
+      <description>The LG G6 is a phone with little bezel and lots of curves. The rounded corners of the LG G6 look nice but definitely take some time to get used to. Is the LG G6 better than the Samsung Galaxy S8? Who will win the ultimate battle of LG G6 vs Samsung Galaxy S8? Only time will tell.</description>
+    </item>
+    
+    <item>
+      <title>Android Reverse Tether</title>
+      <link>https://bennettnotes.com/android-reverse-tether/</link>
+      <pubDate>Fri, 07 Apr 2017 19:55:11 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-reverse-tether/</guid>
+      <description>There might come a time when you need to access the internet from your phone, but you don&amp;#8217;t have access to WiFi or mobile data. When that happens, Android Reverse Tether would be a useful thing to know. Reverse tethering means to share your computer internet connection with your phone (rather than the other way around). There are a couple of ways that you can do it. One way is to create a WiFi hotspot from your computer.</description>
+    </item>
+    
+    <item>
+      <title>How to Install ADB</title>
+      <link>https://bennettnotes.com/how-to-install-adb/</link>
+      <pubDate>Fri, 07 Apr 2017 18:46:32 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-install-adb/</guid>
+      <description>The Android Development Bridge (ADB) is a vital part of Android App development, along with Android modding. Learning how to install ADB can help you later down the line. ADB allows you to access your Android phone via USB and issue commands to it. This can be really helpful for flashing roms, automated scripts or if your device is inaccessible through the normal Android interface. For this tutorial, we are going to focus on how to install ADB on Windows.</description>
+    </item>
+    
+    <item>
+      <title>No More Internet Privacy</title>
+      <link>https://bennettnotes.com/no-more-internet-privacy/</link>
+      <pubDate>Sun, 02 Apr 2017 21:12:48 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/no-more-internet-privacy/</guid>
+      <description>This video is different that my usual content. In light of recent events, I wanted to highlight some of the concerns of privacy that is being challenged through companies and congress. I don&amp;#8217;t want to persuade you either way, but I just want to make you an informed consumer as to what&amp;#8217;s going on. There has been the recent incident of Verizon installing spyware on Android devices and the repeal of internet privacy laws (S.</description>
+    </item>
+    
+    <item>
+      <title>What’s new in Android O?</title>
+      <link>https://bennettnotes.com/whats-new-android-o/</link>
+      <pubDate>Wed, 22 Mar 2017 02:36:52 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/whats-new-android-o/</guid>
+      <description>Google has just released the details of Android 0, the next version of Android. So what&amp;#8217;s new in Android O? You can find an overview of all the features over on the Android developer website. However, I want to share my favorite features slated to be in Android O.
+App Auto Fill Framework This new app autofill framework will allow users to select an app as their fill app.</description>
+    </item>
+    
+    <item>
+      <title>Top 7 Android Apps March 2017</title>
+      <link>https://bennettnotes.com/top-7-android-apps-march-2017/</link>
+      <pubDate>Sun, 12 Mar 2017 22:46:30 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/top-7-android-apps-march-2017/</guid>
+      <description>Here is my pick for top 7 Android apps for March 2017.
+Energy Bar No this is not a snack. This app will display your battery level as a small line above your status bar. You can adjust the thickness and position of the line. At first it&amp;#8217;s kinda distracting to look at, however, I&amp;#8217;m quickly getting used it; I just love how subtle it is. I also think it&amp;#8217;s easier to estimate my battery using this rather than looking at the battery icon in the status bar.</description>
+    </item>
+    
+    <item>
+      <title>Control your Android Phone without Touching It</title>
+      <link>https://bennettnotes.com/control-android-phone-without-touching/</link>
+      <pubDate>Sun, 12 Mar 2017 04:01:23 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/control-android-phone-without-touching/</guid>
+      <description>If you are looking for something cool to try, then download Eva Facial Mouse. This app allows you to control your android phone using your face. Using your face as an anchor point, the app moves the cursor on your phone relative to that point. Essentially, you are using your face to control the mouse pointer. While this is not something you should use in a practical setup, it&amp;#8217;s still a cool app to show off to your friends.</description>
+    </item>
+    
+    <item>
+      <title>Stream Steam Games to Android 2017</title>
+      <link>https://bennettnotes.com/stream-steam-games-android-2017/</link>
+      <pubDate>Wed, 01 Feb 2017 02:52:58 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/stream-steam-games-android-2017/</guid>
+      <description>{{ youtube XQBTBsZZRTI {}
+If all Android phones came with DirectX and desktop graphics, then playing native games would be a breeze. Unfortautnetly, that is far from the case. So while you might not be able to play Fallout 4 on android, there is nothing stopping you from streaming it to your device. Here&amp;#8217;s how you can Stream Steams Games to Android.
+What You Will Need:  Nvidia 600 series or better graphics Card GeForce Experience App Moonlight  If your graphics card doesn&amp;#8217;t fit the requirements, then check out my other tutorial on how to Stream Steam Games to Android.</description>
+    </item>
+    
+    <item>
+      <title>Play Pokemon on Android Smartwatch</title>
+      <link>https://bennettnotes.com/play-pokemon-android-smartwatch/</link>
+      <pubDate>Sat, 31 Dec 2016 16:03:24 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-pokemon-android-smartwatch/</guid>
+      <description>{{ youtube IbWyIl3yDus {}
+Have you ever thought about playing Pokemon on your Android Wear Smartwatch? Neither have I. However, an app called Wear GBC makes this all possible. It is a Gameboy color emulator for Android Wear.
+How to Play Pokemon on Android Smartwatch Here&amp;#8217;s a quick tutorial on how I got this up and running. First download a GBC ROM (.gbc). Then add it via the phone app (you might have to unzip it first if it&amp;#8217;s in a zip file).</description>
+    </item>
+    
+    <item>
+      <title>Best Android Smartwatch 2016</title>
+      <link>https://bennettnotes.com/best-android-smartwatch-2016/</link>
+      <pubDate>Thu, 22 Dec 2016 15:39:25 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/best-android-smartwatch-2016/</guid>
+      <description>{{ youtube Y7ubDt_UTPA }}
+I have been using the Huawei Watch for over two months now and I can safely say that it&amp;#8217;s the best Android smartwatch that I have ever owned. It features a high-quality aluminum design with a crisp 400 x 400 AMOLED display. There&amp;#8217;s even a speaker so that you can make phone calls and listen to music right from the watch. The only two things that I don&amp;#8217;t like about this watch is the weak vibration motor and the annoying pin charging mechanism.</description>
+    </item>
+    
+    <item>
+      <title>Top Android Holiday Apps</title>
+      <link>https://bennettnotes.com/top-android-holiday-apps/</link>
+      <pubDate>Tue, 20 Dec 2016 15:45:26 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/top-android-holiday-apps/</guid>
+      <description> {{ youtube CIS3N-PhIk8 {}
+Weather Timeline Reuters TV (Sponsored) Circle Sidebar Google Photoscan  GeoQpons Krazy Coupon Lady Dingless </description>
+    </item>
+    
+    <item>
+      <title>Best Extensions for Google Chrome</title>
+      <link>https://bennettnotes.com/best-extensions-google-chrome/</link>
+      <pubDate>Sun, 11 Dec 2016 00:12:15 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/best-extensions-google-chrome/</guid>
+      <description>{{ youtube ZZPjCvOrzGo {}
+The best thing about Google Chrome is all the extensions that are available for it. Now I recently learned that Microsoft Edge also has extensions, but nowhere near as many as google chrome. By no means is this an exhaustive list of all the best extensions for Google Chrome; just a few of my favorites that I use every day.
+Ghostery 
+If you are concerned about your privacy on the internet, then Ghostery is the perfect app for you.</description>
+    </item>
+    
+    <item>
+      <title>Android Battery Saving Tips – Restrict Snapchat Background Data</title>
+      <link>https://bennettnotes.com/android-battery-saving-tips-disable-snapchat-background-data/</link>
+      <pubDate>Tue, 29 Nov 2016 04:31:03 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-battery-saving-tips-disable-snapchat-background-data/</guid>
+      <description>Battery life on Android is a nightmare to deal with unless you know exactly what to look for. Android&amp;#8217;s vague battery statistics can be frustrating for a novice and seasoned user alike. For example, a battery drain labeled as Android System could be Google Play Services performing something in the background, or the Facebook app using the camera, or any other app that makes any API call. And speaking of Facebook, there&amp;#8217;s a lot of conflicting research and anecdotal reports on whether the app is responsible for any sort of excessive battery drain.</description>
+    </item>
+    
+    <item>
+      <title>Moto Z Play vs Oneplus 3</title>
+      <link>https://bennettnotes.com/moto-z-play-vs-oneplus-3/</link>
+      <pubDate>Tue, 01 Nov 2016 03:12:05 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/moto-z-play-vs-oneplus-3/</guid>
+      <description>{{ youtube wmRnnXiaqLU {}
+Watch this hands-on comparison of the Moto Z Play vs Oneplus 3 and decide which device is better for you.</description>
+    </item>
+    
+    <item>
+      <title>Your Android Actual Battery Capacity</title>
+      <link>https://bennettnotes.com/actual-android-battery-capacity/</link>
+      <pubDate>Sun, 23 Oct 2016 23:22:33 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/actual-android-battery-capacity/</guid>
+      <description>{{ youtube TSSxQOCka_4 {}
+You might think that your battery is fine, but your capacity could be less than when you first bought it. What is your android actual battery capacity?</description>
+    </item>
+    
+    <item>
+      <title>Moto Z Play Unboxing</title>
+      <link>https://bennettnotes.com/moto-z-play-unboxing/</link>
+      <pubDate>Fri, 21 Oct 2016 13:51:57 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/moto-z-play-unboxing/</guid>
+      <description>{{ youtube JKRVqh4ew1s {}
+An Unboxing of the Moto Z Play. Motorola&amp;#8217;s surprisingly good mid-Range smartphone.</description>
+    </item>
+    
+    <item>
+      <title>Galaxy Note 7 Discontinued</title>
+      <link>https://bennettnotes.com/galaxy-note-7-discontinued/</link>
+      <pubDate>Wed, 12 Oct 2016 00:34:12 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/galaxy-note-7-discontinued/</guid>
+      <description>{{ youtube mVRaNiTCKHQ {}
+It&amp;#8217;s over. The Galaxy Note 7 is discontinued. So what should we expect now?</description>
+    </item>
+    
+    <item>
+      <title>Google Pixel Phone Disappointment</title>
+      <link>https://bennettnotes.com/google-pixel-phone-disappointment/</link>
+      <pubDate>Wed, 05 Oct 2016 03:02:54 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/google-pixel-phone-disappointment/</guid>
+      <description>{{ youtube YFUYina5h-o {}
+Google has announced their new phone, the Pixel. It&amp;#8217;s coming off the heels of the forever loved Nexus program. IMO, this new Google Phone is asking too much while offering too little.</description>
+    </item>
+    
+    <item>
+      <title>Kodi on Firestick</title>
+      <link>https://bennettnotes.com/kodi-on-firestick/</link>
+      <pubDate>Fri, 30 Sep 2016 14:59:45 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/kodi-on-firestick/</guid>
+      <description>{{ youtube tCcWNIRI0qM {}
+Kodi on Firestick? Kodi (formerly XMBC) is a very popular platform for video entertainment that is designed to work on almost all operating systems. Previously, I shown how you can get Kodi on the Chromebook. You can also install Kodi on Android and Windows. For this tutorial, let&amp;#8217;s take a look at how to install Kodi on the Amazon Firestick.
+The Easy Way: If you have an Android device, do yourself a favor and use this method.</description>
+    </item>
+    
+    <item>
+      <title>Do we need imessage for Android</title>
+      <link>https://bennettnotes.com/need-imessage-android/</link>
+      <pubDate>Wed, 28 Sep 2016 03:12:18 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/need-imessage-android/</guid>
+      <description>{{ youtube AhtOgCX8w1A {}
+Everyone has been talking about having an iMessage for Android. With the recent release of Google Allo, many people were disappointed that Allo did not have SMS fallback? But, do we really need an iMessage for Android?</description>
+    </item>
+    
+    <item>
+      <title>Use Android as Microphone</title>
+      <link>https://bennettnotes.com/use-android-as-microphone/</link>
+      <pubDate>Fri, 23 Sep 2016 15:59:58 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/use-android-as-microphone/</guid>
+      <description>{{ youtube gN_d-1OVwoU {}
+Have you ever needed a microphone, but did not have one available? Have you ever searched for a way to make a cheap wireless microphone? Needless to say, you can use your Android device as a microphone. There are two ways that this can be accomplished. The first is through traditional cables, and the second is through additional software. If you want to use your Android device as a microphone through USB, Wifi or Bluetooth, then skip to the second method.</description>
+    </item>
+    
+    <item>
+      <title>Android cSploit</title>
+      <link>https://bennettnotes.com/android-csploit-2/</link>
+      <pubDate>Fri, 16 Sep 2016 15:59:21 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-csploit-2/</guid>
+      <description>{{ youtube s8yk05hrt4Q {}
+A little while ago, there was this awesome program called dSploit. It was a network security app that provided users with an abundance of tools and operations to test the strength of their network security. Recently, dSploit was merged with a proprietary closed source app that isn&amp;#8217;t free. While you can find older copies of dSploit floating around on the internet, none of them are up to date.</description>
+    </item>
+    
+    <item>
+      <title>Android cSploit</title>
+      <link>https://bennettnotes.com/android-csploit/</link>
+      <pubDate>Fri, 16 Sep 2016 15:59:21 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-csploit/</guid>
+      <description>{{ youtube s8yk05hrt4Q {}
+A little while ago, there was this awesome program called dSploit. It was a network security app that provided users with an abundance of tools and operations to test the strength of their network security. Recently, dSploit was merged with a proprietary closed source app that isn&amp;#8217;t free. While you can find older copies of dSploit floating around on the internet, none of them are up to date.</description>
+    </item>
+    
+    <item>
+      <title>Galaxy Note 7 Exploding</title>
+      <link>https://bennettnotes.com/galaxy-note-7-exploding/</link>
+      <pubDate>Sat, 03 Sep 2016 14:06:03 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/galaxy-note-7-exploding/</guid>
+      <description>{{ youtube XdylvXX2G0g {}
+Samsung has recalled Galaxy Note 7 devices world wide due to incidents of explosion. What causes these devices and other Lithium-ion batteries to malfunction?</description>
+    </item>
+    
+    <item>
+      <title>Use Android as Second Monitor</title>
+      <link>https://bennettnotes.com/use-android-as-second-monitor/</link>
+      <pubDate>Fri, 19 Aug 2016 18:31:47 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/use-android-as-second-monitor/</guid>
+      <description>{{ youtube POpctRaXkrk {}
+Having more than one monitor is useful for any power user (porn on one, games on another). So it&amp;#8217;s possible to use an android device as a secondary monitor, but I recommend actually buying one if you want an easy setup. With that said, if you have a spare Android device laying around, you can use it as another monitor in your setup. To do this, we are going to use Windows and &amp;#8220;trick&amp;#8221; it into thinking that you have another monitor connected and then use TeamViewer to access the &amp;#8220;fake&amp;#8221; monitor.</description>
+    </item>
+    
+    <item>
+      <title>Oneplus 3 Unboxing</title>
+      <link>https://bennettnotes.com/oneplus-3-unboxing/</link>
+      <pubDate>Fri, 08 Jul 2016 14:24:11 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/oneplus-3-unboxing/</guid>
+      <description>{{ youtube oqM0seHyd9c {}
+Let&amp;#8217;s unbox the Oneplus 3!</description>
+    </item>
+    
+    <item>
+      <title>USB Condom &amp; MicFlip</title>
+      <link>https://bennettnotes.com/usb-condom-micflip/</link>
+      <pubDate>Mon, 04 Jul 2016 14:35:32 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/usb-condom-micflip/</guid>
+      <description>{{ youtube I-tBo2_eR48 {}
+So here is some interesting tech under $25 that I have been using.
+USB Condom: https://goo.gl/HkUacx
+MicFlip: https://goo.gl/Ui7fkb</description>
+    </item>
+    
+    <item>
+      <title>Top Samsung Galaxy Apps</title>
+      <link>https://bennettnotes.com/top-samsung-galaxy-android-apps/</link>
+      <pubDate>Sun, 03 Jul 2016 14:36:59 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/top-samsung-galaxy-android-apps/</guid>
+      <description>{{ youtube oaJq5gZN-cU {}
+Here is my pick for some of the most useful Samsung Galaxy apps.</description>
+    </item>
+    
+    <item>
+      <title>What’s on my Phone</title>
+      <link>https://bennettnotes.com/whats-on-my-phone/</link>
+      <pubDate>Sun, 26 Jun 2016 14:25:42 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/whats-on-my-phone/</guid>
+      <description>{{ youtube ryVhhmHLX7Q {}
+What&amp;#8217;s on my phone? I want to share with you some of the Android apps that I use on my phone everyday.
+Android Customization:  Nova Launcher Iride UI is Hipster Zooper Widget Zooper Widget Theme  Productivity:  Google Keep Todoist Inbox Evernote Calendar Widget  Texting:  Textra  Social:  Buffer Fenix Sync for Reddit  &amp;nbsp;
+&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Least Used Android Features</title>
+      <link>https://bennettnotes.com/least-used-android-features/</link>
+      <pubDate>Fri, 17 Jun 2016 14:40:49 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/least-used-android-features/</guid>
+      <description>{{ youtube JTIpsu6nPkw {}
+There are a lot of cool features on Android, but you might not actually have a use for them. Here are some of my least used features of Android.</description>
+    </item>
+    
+    <item>
+      <title>Save Battery Life on Android</title>
+      <link>https://bennettnotes.com/save-battery-life-android/</link>
+      <pubDate>Fri, 10 Jun 2016 14:59:15 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/save-battery-life-android/</guid>
+      <description>{{ youtube MU_sKjN6rz4 {}
+Every year, smartphones get better and better. We live in the age where the average smartphone has better specs than a two year old computer. Despite all of this technological innovation, battery life is still a major concern for many consumers. It&amp;#8217;s simple, we need longer lasting batteries. Unfortunately, until there is a scientific breakthrough with battery technology, this is unlikely to change. Fortunately, there is a way that you can get the most out of your battery.</description>
+    </item>
+    
+    <item>
+      <title>Hack Android Apps and Games</title>
+      <link>https://bennettnotes.com/hack-android-apps-and-games/</link>
+      <pubDate>Fri, 03 Jun 2016 14:59:06 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/hack-android-apps-and-games/</guid>
+      <description>Wouldn&amp;#8217;t it be great if every game had cheat codes? Well, this might be closer than you think. Using the app Game Guardian, we can change the value of any numerical data within Android games. Yes, you can now achieve an unbeatable high score in your favorite game.
+To do this you will need to have a rooted Android device. The process for this is fairly simple. We need to find the location of the desired attribute then change its value.</description>
+    </item>
+    
+    <item>
+      <title>Run Windows 7 on Android</title>
+      <link>https://bennettnotes.com/run-windows-7-android/</link>
+      <pubDate>Sun, 15 May 2016 16:00:31 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-windows-7-android/</guid>
+      <description>I can&amp;#8217;t believe I&amp;#8217;m saying it, but you can run Windows 7 on your Android device. To be honest, I was convinced that running Windows XP on Android would be the final step in Windows emulation, but I was wrong. Before you get too excited about playing the latest AAA title on your phone, keep in mind that this is nothing further than a proof of concept. The performance is painfully sluggish and the app might crash if Windows starts using too much memory.</description>
+    </item>
+    
+    <item>
+      <title>Fallout 4 Tribute</title>
+      <link>https://bennettnotes.com/fallout-4-tribute/</link>
+      <pubDate>Thu, 05 May 2016 14:46:23 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/fallout-4-tribute/</guid>
+      <description>{{ youtube YHL2e1zpd_g {}
+So I had some leftover Fallout 4 footage lying around and I came across Lune by NCS. I feel like this song would be the perfect soundtrack for this game. So here&amp;#8217;s a short video montage of a few action shots.</description>
+    </item>
+    
+    <item>
+      <title>Counter Strike on Android</title>
+      <link>https://bennettnotes.com/counter-strike-android/</link>
+      <pubDate>Sun, 17 Apr 2016 17:00:20 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/counter-strike-android/</guid>
+      <description>&amp;nbsp;
+How would you like to play one of the most popular PC games of all time on your Android device? So, maybe playing Half-Life 2 and Team-Fortress classic on Android isn&amp;#8217;t cool enough for you. Well, how about Counter Strike on Android? Of course, this isn&amp;#8217;t going to be the latest Counter Strike Global Offensive with the Source Engine. It&amp;#8217;s going to be the old school original counter strike from the late 90s.</description>
+    </item>
+    
+    <item>
+      <title>VPN Server on Android</title>
+      <link>https://bennettnotes.com/vpn-server-android/</link>
+      <pubDate>Sun, 17 Apr 2016 02:30:12 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/vpn-server-android/</guid>
+      <description>If you&amp;#8217;re not using a VPN, you should consider using one. A Virtual Private Network (VPN) extends a private network across a public network. This gives you an added layer of security and privacy. Imagine if you are sitting at a Starbucks on their free public WiFi. Well, someone could have a program such as Wireshark or any other application open and sniff traffic across the network. Potentially, information such as usernames, passwords and other sensitive data could be exposed.</description>
+    </item>
+    
+    <item>
+      <title>Read Car Computer with Android</title>
+      <link>https://bennettnotes.com/read-car-computer-android/</link>
+      <pubDate>Sat, 02 Apr 2016 15:10:06 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/read-car-computer-android/</guid>
+      <description>{{ youtube 5CznLF7JvU0 {}
+You can use a bluetooth OBD II tool with your Android device to read important information from your car&amp;#8217;s computer and even see real time data.
+OBD II: https://goo.gl/rQb68v
+Torque App: https://goo.gl/UDNCDT</description>
+    </item>
+    
+    <item>
+      <title>Top Features Android N</title>
+      <link>https://bennettnotes.com/top-features-android-n/</link>
+      <pubDate>Sat, 26 Mar 2016 15:18:48 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/top-features-android-n/</guid>
+      <description>{{ youtube Rjbi1TkNLDI {}
+The Android N Developer Preview has arrived. Here are some of the top new features you can find in Android N.
+&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Computer on Fire!</title>
+      <link>https://bennettnotes.com/computer-fire-giveaway/</link>
+      <pubDate>Tue, 22 Mar 2016 15:22:40 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/computer-fire-giveaway/</guid>
+      <description>{{ youtube S8n006am9-g {}
+My Computer Caught on Fire! Oh&amp;#8230;and here&amp;#8217;s a giveaway too.
+Giveaway is now closed! Thanks to all who entered!
+You can also purchase the 8000Mah ToughTested case here:
+http://goo.gl/d4WlSH</description>
+    </item>
+    
+    <item>
+      <title>Silent Boot Android</title>
+      <link>https://bennettnotes.com/silent-boot-android/</link>
+      <pubDate>Fri, 18 Mar 2016 15:27:33 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/silent-boot-android/</guid>
+      <description>{{ youtube NuDiqttzrm4 {}
+I hate the carrier boot sound when restarting my phone. Here&amp;#8217;s how to boot without hearing it.
+This video includes a Sponsored Message from Norton.
+Check out Norton&amp;#8217;s The Most Dangerous Town Ep. 2 &amp;#8211; http://full.sc/MDT-OSG</description>
+    </item>
+    
+    <item>
+      <title>Connect Floppy Drive to Galaxy S7</title>
+      <link>https://bennettnotes.com/connect-floppy-drive-galaxy-s7/</link>
+      <pubDate>Tue, 15 Mar 2016 15:33:05 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/connect-floppy-drive-galaxy-s7/</guid>
+      <description>{{ youtube 7eVbovqn0Jk {}
+Yes, you can connect a floppy drive to the Galaxy S7 or any Android device really. Just something random and simple I wanted to share. Of course&amp;#8230;I don&amp;#8217;t know why you would actually want to connect a floppy drive to your device.</description>
+    </item>
+    
+    <item>
+      <title>Galaxy S7 RAM Management</title>
+      <link>https://bennettnotes.com/galaxy-s7-ram-management/</link>
+      <pubDate>Sun, 13 Mar 2016 15:57:35 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/galaxy-s7-ram-management/</guid>
+      <description>{{ youtube oodCHShweYY {}
+Here&amp;#8217;s a look at the Galaxy S7 RAM Management. Has Samsung improved over the S6&amp;#8217;s terribly aggressive memory management?</description>
+    </item>
+    
+    <item>
+      <title>Galaxy S7 Features: Game Launcher</title>
+      <link>https://bennettnotes.com/galaxy-s7-features-game-launcher/</link>
+      <pubDate>Sun, 13 Mar 2016 15:46:26 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/galaxy-s7-features-game-launcher/</guid>
+      <description>{{ youtube O9_0DBVH0Xc {}
+The Galaxy S7 features a Game Launcher that is actually very convenient and easy to use while adding useful features during gameplay.</description>
+    </item>
+    
+    <item>
+      <title>Galaxy S7 Unboxing</title>
+      <link>https://bennettnotes.com/galaxy-s7-unboxing/</link>
+      <pubDate>Sat, 12 Mar 2016 17:04:32 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/galaxy-s7-unboxing/</guid>
+      <description>{{ youtube MZRXTrEPNiY {}
+A Galaxy S7 Unboxing.</description>
+    </item>
+    
+    <item>
+      <title>Watercooling in Smartphones Explained</title>
+      <link>https://bennettnotes.com/watercooling-smartphones-explained/</link>
+      <pubDate>Tue, 23 Feb 2016 17:10:18 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/watercooling-smartphones-explained/</guid>
+      <description>{{ youtube NCACUuzeecA {}
+How does watercooling work in Smartphones like the Galaxy S7?</description>
+    </item>
+    
+    <item>
+      <title>My Top Android Apps 2016</title>
+      <link>https://bennettnotes.com/top-android-apps-2016/</link>
+      <pubDate>Sun, 21 Feb 2016 17:14:33 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/top-android-apps-2016/</guid>
+      <description>{{ youtube MS9gHxtCe14 {}
+Here are some of the apps that I use everyday on my device.</description>
+    </item>
+    
+    <item>
+      <title>Root any Android</title>
+      <link>https://bennettnotes.com/root-any-android/</link>
+      <pubDate>Sun, 14 Feb 2016 19:33:24 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/root-any-android/</guid>
+      <description>{{ youtube sI0HiXPLamk {}
+I always get a lot of questions asking for instructions on how to root a particular device. Unfortunately, the root exploit that worked on one device might now work on another. This usually means that the user will have to spend hours searching for a method to root their device. This tasks becomes even more challenging if their device from a little known company without a development community.</description>
+    </item>
+    
+    <item>
+      <title>Run Linux on Android</title>
+      <link>https://bennettnotes.com/run-linux-on-android/</link>
+      <pubDate>Thu, 21 Jan 2016 00:50:08 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-linux-on-android/</guid>
+      <description>One of the coolest things that you could possibly do with your Android device is to run Linux on it (A full desktop operating system, in the palm of your hand). If you are asking yourself what Linux is exactly, this might help give you a quick explanation.
+So what advantages would you get out of running Linux on your Android device? Well, besides doing things like running a Minecraft server and building your own cloud, you have a full suite of applications and&amp;#8230;.</description>
+    </item>
+    
+    <item>
+      <title>Lock Computer from Android</title>
+      <link>https://bennettnotes.com/lock-computer-android/</link>
+      <pubDate>Thu, 31 Dec 2015 16:34:05 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/lock-computer-android/</guid>
+      <description>Consider this, you are sitting across the room chilling on your couch and you&amp;#8217;re starting to fall asleep. Here&amp;#8217;s the problem, your couch feels so good and you don&amp;#8217;t want to get up to lock your computer, but you need to because you have nosy roommates. So wouldn&amp;#8217;t it be great if you could remotely lock it from your phone? Okay, so even if this situation is completely unbelievable, this is still something cool to try and do.</description>
+    </item>
+    
+    <item>
+      <title>Cast Android Screen to PC</title>
+      <link>https://bennettnotes.com/cast-android-screen-to-pc/</link>
+      <pubDate>Fri, 18 Dec 2015 03:29:00 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/cast-android-screen-to-pc/</guid>
+      <description>{{ youtube 8Gzy-2M9i00 {}
+Have you ever had a moment where you wish that you could view a picture/video or even a game on a display larger than your phone? Maybe you haven&amp;#8217;t, but it&amp;#8217;s still something really cool to try it. This tutorial will take you through the basics on how to casts Android screen to PC.
+Before we begin, I do want to mention that those of you who are using one of the latest Samsung phones already have this feature built in.</description>
+    </item>
+    
+    <item>
+      <title>Fallout 4 Tweaks</title>
+      <link>https://bennettnotes.com/fallout-4-tweaks/</link>
+      <pubDate>Thu, 17 Dec 2015 16:41:21 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/fallout-4-tweaks/</guid>
+      <description>{{ youtube o1URARqhV0k {}
+Fallout 4 has been one of my favorite games of the year, but it isn&amp;#8217;t perfect. Everyone is aware how&amp;#8230;lacking&amp;#8230; Bethesda can be with their games. However, thanks to the modding community, many of the issues that you might encounter in Fallout 4 can be fixed.
+[adinserter block=&amp;#8221;5&amp;#8243;]
+One of the biggest complaints about Fallout 4 has been the FPS lock and not supporting 21:9 widescreen monitors.</description>
+    </item>
+    
+    <item>
+      <title>Connect Android to Ethernet</title>
+      <link>https://bennettnotes.com/connect-android-to-ethernet/</link>
+      <pubDate>Thu, 17 Dec 2015 15:16:42 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/connect-android-to-ethernet/</guid>
+      <description>Do you want to get the fastest speed available on your Android device? Sure, LTE is fast and all but you&amp;#8217;re hit with really small data caps. WiFi doesn&amp;#8217;t impose the same limitations, but the speed is never consistent. So why not just connect Android to Ethernet?
+Luckily, Android Marshmallow comes to the rescue. Android Marshmallow introduces new drivers that allow you to connect your Android device directly to an Ethernet cable without needing root!</description>
+    </item>
+    
+    <item>
+      <title>ios Emojis on Android</title>
+      <link>https://bennettnotes.com/ios-emojis-on-android/</link>
+      <pubDate>Mon, 26 Oct 2015 15:49:19 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/ios-emojis-on-android/</guid>
+      <description>{{ youtube 2EJ-29-sRjo {}
+Everyone loves those new iOS emojis. One annoying thing about dealing with emojis is that they look different on every platform. Android has the green blobs while ios has the yellow faces.
+[adinserter block=&amp;#8221;5&amp;#8243;]
+In any case, getting the new ios 90 emojis on your Android device is not that difficult, provided that you have a rooted Android device. Keep in mind though, this will only allow you to receive and interpret ios emojis on your device (so no more boxes with X&amp;#8217;s in them when you receive an emoji from your ios friend) but you will not be able to send the new emojis.</description>
+    </item>
+    
+    <item>
+      <title>Super Smash Bros Meele on Android</title>
+      <link>https://bennettnotes.com/super-smash-bros-meele-on-android/</link>
+      <pubDate>Sun, 04 Oct 2015 22:06:53 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/super-smash-bros-meele-on-android/</guid>
+      <description>One of the best things about Android is that there are a lot of emulators for the platform. You can play games from the PS2, Nintendo DS, PSP, etc. No other mobile platform comes close to the same amount of emulation apps. With that said, one popular emulator that has been lurking around for quite some time is the Dolphin Emulator. It&amp;#8217;s capable of emulating GameCube and Wii games.</description>
+    </item>
+    
+    <item>
+      <title>Half Life 2 on Android</title>
+      <link>https://bennettnotes.com/half-life-2-on-android/</link>
+      <pubDate>Sat, 29 Aug 2015 19:35:38 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/half-life-2-on-android/</guid>
+      <description>Let&amp;#8217;s talk about playing Half Life 2 on Android. If you are lucky enough to own an Nvidia Tegra device (such as the Shield) then you can completely ignore this tutorial because it doesn&amp;#8217;t apply to you. Half Life 2 exists as an exclusive for Nvidia&amp;#8217;s Shield device. Unfortunately, not everyone owns a device that is running the Tegra cpu. Luckily, using the app GlTools, you can emulate the Tegra graphics driver on your device.</description>
+    </item>
+    
+    <item>
+      <title>Play Half Life on Android Wear</title>
+      <link>https://bennettnotes.com/play-half-life-on-android-wear/</link>
+      <pubDate>Thu, 23 Jul 2015 00:50:43 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-half-life-on-android-wear/</guid>
+      <description>{{ youtube VnGscfbCz1g {}
+Just because you can, doesn&amp;#8217;t mean you should. But in this case, you totally should. If you recall, I demonstrated how to play Team Fortress Classic on Android using the SDLash app. The app is able to emulate the GoldSource game engine, which was used in many of the classic valve games such as Half-Life and Team Fortress. Right now, I am putting together a tutorial on how to play Half-life on Android, but in the meantime, check out how to do it on Android Wear (albeit a little more complicated).</description>
+    </item>
+    
+    <item>
+      <title>Play Team Fortress Classic on Android</title>
+      <link>https://bennettnotes.com/play-team-fortress-classic-on-android/</link>
+      <pubDate>Sat, 18 Jul 2015 07:00:51 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-team-fortress-classic-on-android/</guid>
+      <description>Have you ever imagined that you would be able to play a Steam game on your phone? Well, I hope so, because I already demonstrated how to play Portal on your Android device. In any case, it&amp;#8217;s even easier to play Team Fortress Classic on Android. This is all thanks to an app called SDLash3D which uses the SDL library that allows you to do some really cool emulation such as running Windows 95 on your device.</description>
+    </item>
+    
+    <item>
+      <title>Install Android on Old PC</title>
+      <link>https://bennettnotes.com/install-android-on-pc/</link>
+      <pubDate>Tue, 14 Jul 2015 14:33:01 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/install-android-on-pc/</guid>
+      <description>Do you have an old computer just sitting around? If you are like me, then you probably have a couple of old PC&amp;#8217;s that once ran Windows XP but serve no useful purpose now. Of course, I could always just install and very lite version of Linux on it and call it a day. However, Linux takes a lot of time (compared to Windows) to set up and is a big learning curve for people who are unfamiliar with it.</description>
+    </item>
+    
+    <item>
+      <title>Lock Phone From Android Wear</title>
+      <link>https://bennettnotes.com/lock-phone-from-android-wear/</link>
+      <pubDate>Mon, 13 Jul 2015 14:41:56 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/lock-phone-from-android-wear/</guid>
+      <description>{{ youtube LBZS9zTJZoM {}
+Security means everything to me. I am that guy who uses two step authentication on everything, along with safety backups and more. When it comes to security on Android, things aren&amp;#8217;t as tight as I would like them to be. On my S6, my favorite thing to use is the fingerprint scanner. I am aware that the fingerprint scanner does not offer better security than a strong password or lock pattern (although you could easily bypass the Android Lockscreen pattern), however, it will deter most people from trying to snoop around in my phone.</description>
+    </item>
+    
+    <item>
+      <title>Coolest Apps Android wear 2015</title>
+      <link>https://bennettnotes.com/coolest-apps-android-wear-2015/</link>
+      <pubDate>Thu, 09 Jul 2015 14:16:31 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/coolest-apps-android-wear-2015/</guid>
+      <description>{{ youtube MSUDGwWJFUI {}
+I love trying out new things with my smartwatch. Here is a video featuring the coolest Android wear apps 2015. If apps aren&amp;#8217;t your thing, no problem. Check out my video on the Top Android wear games for your device.
+PixToCam  Video for Android Wear Wear Audio recorder Web Browser for Android wear Staylit Wear Have any other cool apps? Feel free to share below.</description>
+    </item>
+    
+    <item>
+      <title>Play PS2 Games on Android</title>
+      <link>https://bennettnotes.com/play-ps2-games-on-android/</link>
+      <pubDate>Sat, 04 Jul 2015 20:24:58 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-ps2-games-on-android/</guid>
+      <description>I am not lying when I tell you that there is an actual PS2 emulator available for Android. No, I am not talking about one of the many fake ones that you see in the Play Store. I am talking about an actual app with the purpose of emulating the PlayStation 2. Now don&amp;#8217;t get too excited. This app is still in the very early stages. The only commercial title that I have got booting so far has been Final Fantasy X.</description>
+    </item>
+    
+    <item>
+      <title>Stream Steam Games to Android</title>
+      <link>https://bennettnotes.com/stream-steam-games-to-android/</link>
+      <pubDate>Mon, 29 Jun 2015 13:51:36 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/stream-steam-games-to-android/</guid>
+      <description>{{ youtube BmjMOCTU6YA {}
+Have you ever wanted to play Team Fortress or PlanetSide 2 on your Android device? Well, there is no way to do that, unless you&amp;#8217;re looking to play Team Fortress Classic on your Android device. However, you could stream these games from your computer to your Android device.
+[adinserter block=&amp;#8221;5&amp;#8243;]
+Currently, the most popular method used to stream games to Android is some combination of limelight and Nvidia&amp;#8217;s Game Stream.</description>
+    </item>
+    
+    <item>
+      <title>Play Sega Genesis Games on Android</title>
+      <link>https://bennettnotes.com/play-sega-genesis-games-on-android/</link>
+      <pubDate>Sat, 13 Jun 2015 03:53:16 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-sega-genesis-games-on-android/</guid>
+      <description>The Sega Genesis was my very first game console. What my gaming PC is to me now, was what my Sega Genesis meant to me back in 1999 (if that makes sense). There are so many old titles that I used to love playing. And those cartridges&amp;#8230;damn&amp;#8230;I loved those cartridges. The best thing was that there used to be a huge bin at stores like GameStop, where I could easily pick up a bunch of them for under $10.</description>
+    </item>
+    
+    <item>
+      <title>Play Dreamcast Games on Android</title>
+      <link>https://bennettnotes.com/play-dreamcast-games-on-android/</link>
+      <pubDate>Sat, 13 Jun 2015 03:35:35 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-dreamcast-games-on-android/</guid>
+      <description>Ah, the Sega Dreamcast, it brings back old memories. Who am I kidding, I never had the Dreamcast myself. So unfortunately, my personal experience is limited to the only game (Sonic Adventures) that I have ever played on it. But, what I do know is that you can play Dreamcast games on Android!
+What You Will Need:  Reicast or use This One if you are running a Lollipop Device and Experience Crashes with the Play Store version.</description>
+    </item>
+    
+    <item>
+      <title>6 Fun Facts About Android</title>
+      <link>https://bennettnotes.com/6-fun-facts-about-android/</link>
+      <pubDate>Sun, 07 Jun 2015 23:33:29 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/6-fun-facts-about-android/</guid>
+      <description>{{ youtube gGLi65QRKcQ {}
+Android is full of surprises! Even when you think you know everything something new gets discovered. While you might be up to date with all the latest information, I am going to attempt to astonish you with 6 fun facts about android that you probably didn&amp;#8217;t know.
+1. The Android Logo used to be scary We all know that Bugdroid is the official Android logo. However, before Android was officially launched, dandroid was the temporary logo used to represent the operating system.</description>
+    </item>
+    
+    <item>
+      <title>LG G4 Quick Review</title>
+      <link>https://bennettnotes.com/lg-g4-quick-review/</link>
+      <pubDate>Wed, 03 Jun 2015 02:13:03 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/lg-g4-quick-review/</guid>
+      <description>{{ youtube ysvFJYHgSoE {}
+tl;dr
+The LG G4 is seriously one of the best Android smartphones of 2015. It might not have the most attractive design on the outside and in the UI, but it is very responsive and can last you through a whole day with moderate-heavy usage.
+The LG G4 Quick Review: Here is a quick review of the LG G4.
+Screen: The LG G4 has a 2560x1440p display.</description>
+    </item>
+    
+    <item>
+      <title>LG G4 Gaming Performance</title>
+      <link>https://bennettnotes.com/lg-g4-gaming-performance/</link>
+      <pubDate>Sat, 23 May 2015 15:07:48 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/lg-g4-gaming-performance/</guid>
+      <description>{{ youtube o5Ka-wVYTxo {}
+LG G4 Gaming Performance: Here is a quick look at the LG G4 gaming performance. If you are worried with LG&amp;#8217;s decision to use the Snapdragon 808 over the Snapdragon 810, don&amp;#8217;t be. In my testing, I used graphics heavy games such as GTA Vice City and Goat Simulator along with Real Racing 3. I could not get the device to lag, even with all the in game settings set to the max.</description>
+    </item>
+    
+    <item>
+      <title>Windows XP on Android Wear Smartwatch</title>
+      <link>https://bennettnotes.com/windows-xp-on-android-wear-smartwatch/</link>
+      <pubDate>Tue, 19 May 2015 15:12:16 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/windows-xp-on-android-wear-smartwatch/</guid>
+      <description>{{ youtube UY2CZc1ul8U {}
+Alan Turing, the great father of computer science, had once said that, &amp;#8220;Machines take me by surprise with great frequency.&amp;#8221; I think we could all relate to that statement in one way or another. From the age of early gaming, to the development of PDA&amp;#8217;s, Smartphones, Smartwatches and even Smart Glasses, there never seems to be a point where technology fails to impress us. What is even more astonishing is how outdated technology can easily become to us within a small amount of time.</description>
+    </item>
+    
+    <item>
+      <title>Run Minecraft Server on Android</title>
+      <link>https://bennettnotes.com/run-minecraft-server-on-android/</link>
+      <pubDate>Mon, 18 May 2015 04:22:26 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-minecraft-server-on-android/</guid>
+      <description>{{ youtube UY2CZc1ul8U {}
+Here is how you can run Minecraft server on your Android device. This will allow anyone playing Minecraft on the desktop to connect to the server running on your device. To do this, you will first need to install Linux to your Android device then install java and run the Minecraft server jar file. It is actually a fairly easy process and takes no more than 15 minutes altogether.</description>
+    </item>
+    
+    <item>
+      <title>Galaxy S6 Slow Motion Video</title>
+      <link>https://bennettnotes.com/galaxy-s6-slow-motion-video/</link>
+      <pubDate>Sat, 18 Apr 2015 16:09:34 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/galaxy-s6-slow-motion-video/</guid>
+      <description>{{ youtube i9srWjFM-OQ {}
+Slow Motion seems to be all the rage these days. Every one is trying to do it. It should come as no surprise that the Galaxy S6 also features this. While the Galaxy S6 slow motion video capabilities don&amp;#8217;t exactly rival those of the iPhone, it&amp;#8217;s still pretty good in its own right. In this video, I use the built in slow motion editor. Of course, a much better way would have been to record the video in 60fps then slow it down in Adobe Premiere.</description>
+    </item>
+    
+    <item>
+      <title>Would you only buy a Galaxy or iPhone?</title>
+      <link>https://bennettnotes.com/would-you-only-buy-a-galaxy-or-iphone/</link>
+      <pubDate>Fri, 06 Mar 2015 05:20:35 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/would-you-only-buy-a-galaxy-or-iphone/</guid>
+      <description>Would you only buy a Galaxy or iPhone? {{ youtube xel2VBrEkC8 {}
+So the other day, I was chatting with my friend about new smartphones. He currently owns the Galaxy S5 and was thinking about either upgrading to the Galaxy S6 or the iPhone. I jokingly informed him that there are other Android smartphone manufacturers such as HTC, LG, Motorola, etc. However he told me, &amp;#8220;Dave, honestly, unless it&amp;#8217;s a Galaxy or iPhone, I wouldn&amp;#8217;t consider buying it.</description>
+    </item>
+    
+    <item>
+      <title>Play PSP Games on Android</title>
+      <link>https://bennettnotes.com/play-psp-games-android/</link>
+      <pubDate>Tue, 17 Feb 2015 19:56:15 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-psp-games-android/</guid>
+      <description>{{ youtube d9NxlMTDi88 {}
+Play PSP Games on Android Yes, you can play PSP games on your Android device. This is not a gimmick, nor some sort of absurd remote VNC. This is pure emulation right on your Android device. It is all thanks to the app PPSSPP. Surprisingly, some games work with excellent frame rate and graphics quality (Naruto for example). Keep in mind though, not every game will be compatible and it will not work with every device.</description>
+    </item>
+    
+    <item>
+      <title>Run Python on Android</title>
+      <link>https://bennettnotes.com/run-python-android/</link>
+      <pubDate>Tue, 17 Feb 2015 19:14:44 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-python-android/</guid>
+      <description>{{ youtube hhgF3ioY-zU {}
+Have you ever wanted to program on your phone? Well, believe it or not, you can craft code right in the palm of your hands. Python is not only a flexible programming language, it is also capable of running on your Android phone thanks to the app QPython3.
+[adinserter block=&amp;#8221;5&amp;#8243;]
+Run Python on Android What You&amp;#8217;ll Need:  QPython3  With QPython3 you have access you to a multitude of tools.</description>
+    </item>
+    
+    <item>
+      <title>Play Portal on any Android</title>
+      <link>https://bennettnotes.com/play-portal-on-any-android/</link>
+      <pubDate>Thu, 08 Jan 2015 19:33:18 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-portal-on-any-android/</guid>
+      <description>Ah yes, who doesn&amp;#8217;t love a good game of Portal? If you are lucky enough to own an Nvidia Shield (or any Tegra 4 device), you already have access to the game plus more exclusives. But what if you do not own an Nvidia Shield? Well there is still a way to play Portal thanks to an app called GLTools. GLtTools will emulate the Tegra 4 drivers, so that the app thinks you are using a Tegra 4 device.</description>
+    </item>
+    
+    <item>
+      <title>Bypass Android Lock screen</title>
+      <link>https://bennettnotes.com/bypass-android-lock-screen/</link>
+      <pubDate>Mon, 05 Jan 2015 04:59:02 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/bypass-android-lock-screen/</guid>
+      <description>{{ youtube 2ti6QLmDZc8 {}
+Locked out of your phone? Well you are in luck. There is a way to bypass your Android lock screen. Now before you get too excited, there are a few stipulations. First, this only works when your security is set to pattern lock. Secondly, you must have a rooted android device. And finally, you need to have adb debugging enabled. I know this might only be a small percentage of people out there, so for those of you who do, here&amp;#8217;s how you can bypass Android lock screen.</description>
+    </item>
+    
+    <item>
+      <title>Adobe Flash Player Android Lollipop</title>
+      <link>https://bennettnotes.com/adobe-flash-player-android-lollipop/</link>
+      <pubDate>Mon, 29 Dec 2014 05:03:07 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/adobe-flash-player-android-lollipop/</guid>
+      <description>{{ youtube videoseries?list=PLuaiNB9QarHwYJ_XIbMaIchpfWF1XTeat {}
+Adobe Flash Player Android Lollipop: At one time, Android fully supported adobe flash player. However, official support ended by the time KitKat was released (though there were still a few hacks that you could use to get it). Of course, HTML5 video players are the preferred option, but unfortunately, there are some porn sites that still rely heavily on adobe flash content.
+[adinserter block=&amp;#8221;5&amp;#8243;]
+&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Tor for Android</title>
+      <link>https://bennettnotes.com/tor-android/</link>
+      <pubDate>Sun, 21 Dec 2014 05:34:15 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/tor-android/</guid>
+      <description>{{ youtube X0kAEwKJfhs {}
+Let&amp;#8217;s talk about internet privacy. So as you might be aware of, when you open up a tab in incognito mode you&amp;#8217;re not really browsing anonymously. Your ISP and and any one else who is monitoring your internet can get your location and see the sites you visited. To truly browse the internet privately, you need to use tor.
+[adinserter block=&amp;#8221;5&amp;#8243;]
+To keep it brief, Tor is a mesh of proxy servers that bounces your IP to different locations across the globe.</description>
+    </item>
+    
+    <item>
+      <title>Boot Computer from Android Phone</title>
+      <link>https://bennettnotes.com/boot-computer-from-android-phone/</link>
+      <pubDate>Thu, 02 Oct 2014 02:09:50 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/boot-computer-from-android-phone/</guid>
+      <description>{{ youtube 8Y0T2zxTtnU {}
+Have you ever found yourself in a situation where you didn&amp;#8217;t have a flash drive handy? Well, the other day I was trying to re-install Windows on my laptop, and sure enough, my USB flash drive conveniently went missing. Luckily, I was able to use my Nexus 5 to mount the ISO and boot my laptop from it. So here&amp;#8217;s how you can boot computer from Android phone:</description>
+    </item>
+    
+    <item>
+      <title>Best Paranoid Android Features</title>
+      <link>https://bennettnotes.com/best-paranoid-android-features/</link>
+      <pubDate>Tue, 16 Sep 2014 17:28:03 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/best-paranoid-android-features/</guid>
+      <description>{{ youtube //www.youtube.com/embed/3YDYy9FsncI {}
+Paranoid Android is by far one of my favorite custom roms.. It provides a stock like experience with added functionality. Each month the PA team has added a new signature feature to this amazing rom. So here&amp;#8217;s a look at some of the best paranoid android features.
+Dynamic System Bars:   The newest feature found on Paranoid Android is Dynamic System bars. DSB allows you to tint your status and navigation bars to the color of the foreground app.</description>
+    </item>
+    
+    <item>
+      <title>Android Lock Screen Notifications</title>
+      <link>https://bennettnotes.com/android-lock-screen-notifications/</link>
+      <pubDate>Wed, 03 Sep 2014 22:56:32 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-lock-screen-notifications/</guid>
+      <description>{{ youtube //www.youtube.com/embed/CzYG1RJdwTE {}
+If you&amp;#8217;re looking for a way to get notifications on your lock screen, then check out this video: Android Lock Screen Notifications. Using an app called echo Lockscreen, you can get notifications on your device&amp;#8217;s lock screen. It also turns on your screen when you get a notification such as a text message; I think that&amp;#8217;s one of the major advantages to this app. Give it a try and tell me what you think about it.</description>
+    </item>
+    
+    <item>
+      <title>Disable Lock screen at Home</title>
+      <link>https://bennettnotes.com/disable-lock-screen-at-home/</link>
+      <pubDate>Sat, 26 Jul 2014 15:13:45 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/disable-lock-screen-at-home/</guid>
+      <description>{{ youtube DGIbx8dA7_M {}
+Let&amp;#8217;s face it, at home, there might not be a huge risk to leaving your phone unlocked. Yes, a sibling could snoop into your phone and take a look at those risque pictures you have saved or see who you have been texting, but that might not be the absolute worst security breach to deal with. Luckily, Android Lollipop adds a trusted device feature that allows you to automatically disable your lock screen if you are on a trusted wifi network or connected to a trusted Bluetooth device.</description>
+    </item>
+    
+    <item>
+      <title>Windows XP on Android</title>
+      <link>https://bennettnotes.com/windows-xp-android/</link>
+      <pubDate>Sat, 19 Jul 2014 13:21:33 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/windows-xp-android/</guid>
+      <description>{{ youtube auIZtmbPu_Y {}
+Yes Virginia, you can run Windows XP on your Android device. What once took cutting edge hardware to boot, can now work on your typical Android smartphone. Don&amp;#8217;t get too excited though, this will not replace your desktop pc any time soon. The emulation speed is unbearably slow, and you lack any sort of network connectivity. So how does this work? One word, Bochs. Bochs is an app that can emulate practically any 32 bit operating system.</description>
+    </item>
+    
+    <item>
+      <title>Run Windows 95 on Android</title>
+      <link>https://bennettnotes.com/run-windows-95-on-android/</link>
+      <pubDate>Fri, 11 Jul 2014 20:05:14 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-windows-95-on-android/</guid>
+      <description>The 90s called, and they want their operating system back. Windows 95 was unique for its time. However, what once took cutting edge hardware to run can now easily operate on a typical Android device. Yes Virginia, you can run Windows 95 on Android.
+What You Will Need:  Windows 95 Image File Limbo PC Emulator  Step 1: Download Stuff If you have your own bootable image file that you would like to use, feel free to do so.</description>
+    </item>
+    
+    <item>
+      <title>How to Root Any Android Device</title>
+      <link>https://bennettnotes.com/how-to-root-any-android-device-2014/</link>
+      <pubDate>Mon, 07 Jul 2014 14:13:13 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-root-any-android-device-2014/</guid>
+      <description>There are some things in life that sound too good to be true. However, this isn&amp;#8217;t one of them. George Hortz, a hacker made famous by his iOS jailbreaks and PlayStation hacks has managed to root the Verizon Galaxy S5. So why should you care? Well, he used a recently discovered exploit found in all Linux kernels that were built prior to June 3rd. So in theory (and in practice) his app should work on any Android device that has a kernel build date prior to June 3rd.</description>
+    </item>
+    
+    <item>
+      <title>Android Reverse Tether</title>
+      <link>https://bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</link>
+      <pubDate>Sun, 06 Jul 2014 23:22:29 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</guid>
+      <description>{{ youtube _pmoYJrTgnM {}
+Everyone is familiar with tethering. However, many people overlook the ability to reverse tether. Reverse tethering allows you to share your computer&amp;#8217;s internet connection with your phone or tablet. This is useful if you&amp;#8217;re on a metered data plan or in an area which has no wifi and a weak mobile signal. 
+What You Will Need:  A rooted Android Device A Windows PC USB Driver Reverse Tether Zip (Go to this thread to download or direct download here)  Step 1: Install USB Drivers If you don&amp;#8217;t have any device drivers already installed on your computer and you never used adb before, then you will need to install the USB drivers.</description>
+    </item>
+    
+    <item>
+      <title>Run Ubuntu 13.10 on Android</title>
+      <link>https://bennettnotes.com/run-ubuntu-13-10-on-android/</link>
+      <pubDate>Fri, 04 Jul 2014 15:57:44 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-ubuntu-13-10-on-android/</guid>
+      <description>How would it feel to have the power of a desktop operating system in the palm of your hands? If you&amp;#8217;re a power user, and also a fan of Linux, then you came to the right place. Running Ubuntu 13.10 on your Android device is not very hard to do. Don&amp;#8217;t think that this is some slow or stripped down version of Ubuntu. You will have access to all your favorite Linux apps and commands.</description>
+    </item>
+    
+    <item>
+      <title>How to Build Custom Cyanogenmod Rom</title>
+      <link>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</link>
+      <pubDate>Fri, 04 Jul 2014 08:12:40 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</guid>
+      <description>{{ youtube GAyxypK7_K8 {}
+Build Custom Cyanogenmod Rom? So are you ready to take on Rom Development? That&amp;#8217;s okay if you&amp;#8217;re not, because I&amp;#8217;ll help walk you through it. In this tutorial, I&amp;#8217;m going to show you how to build your own Cyanogenmod Rom right from source. This sounds a lot more complicated than it actually is though. However, keep in mind that you will need a lot of patience when doing this.</description>
+    </item>
+    
+    <item>
+      <title>Enable Ultra High Graphics Dead Trigger 2</title>
+      <link>https://bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</link>
+      <pubDate>Wed, 02 Jul 2014 15:17:46 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</guid>
+      <description>It&amp;#8217;s not surprising that certain games purposefully limit the maximum graphics level that the user could set. However, it becomes an issue when the device you&amp;#8217;re playing on is more than capable of handling the maximum graphics level, even though the developers didn&amp;#8217;t think so. Unfortunately, Dead Trigger 2 is a perfect example of this scenario. Fortunately, with a little file modification you can enable the secret &amp;#8220;ultra&amp;#8221; graphics mode only accessible to latest generation iPhones and Tegra devices.</description>
+    </item>
+    
+    <item>
+      <title>How to Install Xposed Framework</title>
+      <link>https://bennettnotes.com/how-to-install-xposed-framework/</link>
+      <pubDate>Wed, 02 Jul 2014 14:38:13 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-install-xposed-framework/</guid>
+      <description>Xposed is a popular framework that allows you to modify and customize your Android device without having to flash a new rom. It allows you to use a variety of apps and tools (such as gravity box) that extend what you can achieve with your Android device. If you&amp;#8217;re tinkerer or someone who thrives on complete control, than Xposed it what you want. For more techinical details on Xposed read this.</description>
+    </item>
+    
+    <item>
+      <title>Android Boost Speaker Volume</title>
+      <link>https://bennettnotes.com/android-boost-speaker-volume/</link>
+      <pubDate>Wed, 02 Jul 2014 04:08:11 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-boost-speaker-volume/</guid>
+      <description>Let&amp;#8217;s face it. Even at max volume, sometimes the speaker on your phone just isn&amp;#8217;t loud enough (Yes, I&amp;#8217;m looking at you Nexus 5). However, you could digitally raise the maximum volume that the speaker allows itself to go to. This will require a rooted android device and could run the risk of damaging your speakers if you go too high, so be warned.
+What You will Need:  A rooted Android Device ES File Explorer  Step 1: Mounting the System Open up ES file explorer and enable the root explorer.</description>
+    </item>
+    
+    <item>
+      <title>How to Play Nintendo DS Games on Android</title>
+      <link>https://bennettnotes.com/how-to-play-nintendo-ds-games-on-android/</link>
+      <pubDate>Tue, 01 Jul 2014 15:52:32 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-play-nintendo-ds-games-on-android/</guid>
+      <description>The Nintendo DS was by far one of my favorite portable game systems. However, these were the days before smartphone gaming became the norm. If you&amp;#8217;re feeling nostalgic and in the mood to play some DS games on your Android device, it&amp;#8217;s very easy thanks to the DraStic DS emulator. Here&amp;#8217;s how to play Nintendo DS games on Android:
+What You&amp;#8217;ll Need:  A Nintendo Game (nds Rom)(You can Google it) DraStic DS Emulator (Demo) DraStic DS Emulator (Full)  Step 1: Transferring the Rom to Your Device The first thing you need to do is transfer the Rom to your device.</description>
+    </item>
+    
+    <item>
+      <title>Android Floating Window</title>
+      <link>https://bennettnotes.com/android-floating-window/</link>
+      <pubDate>Tue, 01 Jul 2014 04:51:01 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-floating-window/</guid>
+      <description>One of the most iconic features of the Galaxy Note 3, is the multi-window feature. It&amp;#8217;s extremely cool and makes great use of the abundance of screen real estate. Unfortunately, that&amp;#8217;s not a native Android feature. However, with the help of an Xposed Module, you can achieve the floating affect on any android device. Here&amp;#8217;s how to get Android floating window display:
+What You Will Need:  A rooted Android Device Xposed Installer App Halo App(Android 4.</description>
+    </item>
+    
+    <item>
+      <title>Play PlayStation Games on Android</title>
+      <link>https://bennettnotes.com/play-playstation-games-on-android/</link>
+      <pubDate>Sat, 31 Aug 2013 03:01:03 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-playstation-games-on-android/</guid>
+      <description>{{ youtube UA9WCJO6X44 {}
+Do you miss the good old PlayStation days? I am talking about the original PlayStation with the 1MB Memory cards (I had a lot of those) and the boring yet simplistic outer-body design? If so, there is hope for you. Thanks to multiple apps in the Play Store, you can play PlayStation games on Android.
+[adinserter block=&amp;#8221;5&amp;#8243;]
+Emulation has come so far on Android. It amazes me at just how many titles are compatible with the PlayStation emulators.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/life/</link>
+    <description>Recent content in Life on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Tue, 29 Nov 2016 04:31:03 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android Battery Saving Tips – Restrict Snapchat Background Data</title>
+      <link>https://bennettnotes.com/android-battery-saving-tips-disable-snapchat-background-data/</link>
+      <pubDate>Tue, 29 Nov 2016 04:31:03 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-battery-saving-tips-disable-snapchat-background-data/</guid>
+      <description>Battery life on Android is a nightmare to deal with unless you know exactly what to look for. Android&amp;#8217;s vague battery statistics can be frustrating for a novice and seasoned user alike. For example, a battery drain labeled as Android System could be Google Play Services performing something in the background, or the Facebook app using the camera, or any other app that makes any API call. And speaking of Facebook, there&amp;#8217;s a lot of conflicting research and anecdotal reports on whether the app is responsible for any sort of excessive battery drain.</description>
+    </item>
+    
+    <item>
+      <title>Half Life 2 on Android</title>
+      <link>https://bennettnotes.com/half-life-2-on-android/</link>
+      <pubDate>Sat, 29 Aug 2015 19:35:38 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/half-life-2-on-android/</guid>
+      <description>Let&amp;#8217;s talk about playing Half Life 2 on Android. If you are lucky enough to own an Nvidia Tegra device (such as the Shield) then you can completely ignore this tutorial because it doesn&amp;#8217;t apply to you. Half Life 2 exists as an exclusive for Nvidia&amp;#8217;s Shield device. Unfortunately, not everyone owns a device that is running the Tegra cpu. Luckily, using the app GlTools, you can emulate the Tegra graphics driver on your device.</description>
+    </item>
+    
+    <item>
+      <title>Play Half Life on Android Wear</title>
+      <link>https://bennettnotes.com/play-half-life-on-android-wear/</link>
+      <pubDate>Thu, 23 Jul 2015 00:50:43 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-half-life-on-android-wear/</guid>
+      <description>{{ youtube VnGscfbCz1g {}
+Just because you can, doesn&amp;#8217;t mean you should. But in this case, you totally should. If you recall, I demonstrated how to play Team Fortress Classic on Android using the SDLash app. The app is able to emulate the GoldSource game engine, which was used in many of the classic valve games such as Half-Life and Team Fortress. Right now, I am putting together a tutorial on how to play Half-life on Android, but in the meantime, check out how to do it on Android Wear (albeit a little more complicated).</description>
+    </item>
+    
+  </channel>
+</rss>

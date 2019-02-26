@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Bennett Notes</title>
+    <link>https://bennettnotes.com/categories/</link>
+    <description>Recent content in Categories on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sat, 20 Oct 2018 14:37:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android</title>
+      <link>https://bennettnotes.com/categories/android/</link>
+      <pubDate>Sat, 20 Oct 2018 14:37:18 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/categories/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chrome Os</title>
+      <link>https://bennettnotes.com/categories/chrome-os/</link>
+      <pubDate>Wed, 16 May 2018 13:31:10 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/categories/chrome-os/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Featured</title>
+      <link>https://bennettnotes.com/categories/featured/</link>
+      <pubDate>Sun, 15 May 2016 16:00:31 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/categories/featured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gadgets</title>
+      <link>https://bennettnotes.com/categories/gadgets/</link>
+      <pubDate>Fri, 26 Oct 2018 16:49:11 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/categories/gadgets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>https://bennettnotes.com/categories/life/</link>
+      <pubDate>Fri, 07 Sep 2018 13:07:44 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/categories/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://bennettnotes.com/categories/linux/</link>
+      <pubDate>Thu, 14 Dec 2017 04:01:38 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://bennettnotes.com/categories/programming/</link>
+      <pubDate>Sun, 22 Apr 2018 17:53:29 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming Native</title>
+      <link>https://bennettnotes.com/categories/programming-native/</link>
+      <pubDate>Wed, 07 Mar 2018 01:11:04 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/categories/programming-native/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://bennettnotes.com/categories/windows/</link>
+      <pubDate>Sat, 17 Nov 2018 02:15:11 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/categories/windows/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

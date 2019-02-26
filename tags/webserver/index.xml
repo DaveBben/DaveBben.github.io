@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webserver on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/webserver/</link>
+    <description>Recent content in Webserver on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 07 May 2017 00:19:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/webserver/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi Webserver</title>
+      <link>https://bennettnotes.com/raspberry-pi-webserver/</link>
+      <pubDate>Sun, 07 May 2017 00:19:41 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/raspberry-pi-webserver/</guid>
+      <description>One of the reasons that I purchased a Raspberry Pi was so that I can do local website development. Of course, I could have easily set this all up with Windows, but my desktop is already cluttered enough. And with a Raspberry Pi Webserver, I can set up scipts to run independently of my desktop. Here&amp;#8217;s how to setup a Raspberry Pi Webserver
+What You Will Need:  Raspberry Pi  Setup Static IP Address It would be very annoying to have a website that always changes its address.</description>
+    </item>
+    
+  </channel>
+</rss>

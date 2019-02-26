@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/internet/</link>
+    <description>Recent content in Internet on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 02 Apr 2017 21:12:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>No More Internet Privacy</title>
+      <link>https://bennettnotes.com/no-more-internet-privacy/</link>
+      <pubDate>Sun, 02 Apr 2017 21:12:48 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/no-more-internet-privacy/</guid>
+      <description>This video is different that my usual content. In light of recent events, I wanted to highlight some of the concerns of privacy that is being challenged through companies and congress. I don&amp;#8217;t want to persuade you either way, but I just want to make you an informed consumer as to what&amp;#8217;s going on. There has been the recent incident of Verizon installing spyware on Android devices and the repeal of internet privacy laws (S.</description>
+    </item>
+    
+    <item>
+      <title>Reverse Tether</title>
+      <link>https://bennettnotes.com/reverse-tether/</link>
+      <pubDate>Sat, 02 Jul 2016 13:58:13 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/reverse-tether/</guid>
+      <description>{{ youtube ueM2yAPGKBk {}
+Have you ever been stuck in a situation that you needed WiFi but only had an Ethernet connection available? Unless you&amp;#8217;re looking to connect your phone to an Ethernet connection, you would be all out of options. I found myself in a similar situation when I needed to setup a live stream using a bunch of laptops and only one Ethernet connection with no WiFi available.</description>
+    </item>
+    
+    <item>
+      <title>Connect Android to Ethernet</title>
+      <link>https://bennettnotes.com/connect-android-to-ethernet/</link>
+      <pubDate>Thu, 17 Dec 2015 15:16:42 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/connect-android-to-ethernet/</guid>
+      <description>Do you want to get the fastest speed available on your Android device? Sure, LTE is fast and all but you&amp;#8217;re hit with really small data caps. WiFi doesn&amp;#8217;t impose the same limitations, but the speed is never consistent. So why not just connect Android to Ethernet?
+Luckily, Android Marshmallow comes to the rescue. Android Marshmallow introduces new drivers that allow you to connect your Android device directly to an Ethernet cable without needing root!</description>
+    </item>
+    
+    <item>
+      <title>Tor for Android</title>
+      <link>https://bennettnotes.com/tor-android/</link>
+      <pubDate>Sun, 21 Dec 2014 05:34:15 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/tor-android/</guid>
+      <description>{{ youtube X0kAEwKJfhs {}
+Let&amp;#8217;s talk about internet privacy. So as you might be aware of, when you open up a tab in incognito mode you&amp;#8217;re not really browsing anonymously. Your ISP and and any one else who is monitoring your internet can get your location and see the sites you visited. To truly browse the internet privately, you need to use tor.
+[adinserter block=&amp;#8221;5&amp;#8243;]
+To keep it brief, Tor is a mesh of proxy servers that bounces your IP to different locations across the globe.</description>
+    </item>
+    
+    <item>
+      <title>Android Reverse Tether</title>
+      <link>https://bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</link>
+      <pubDate>Sun, 06 Jul 2014 23:22:29 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</guid>
+      <description>{{ youtube _pmoYJrTgnM {}
+Everyone is familiar with tethering. However, many people overlook the ability to reverse tether. Reverse tethering allows you to share your computer&amp;#8217;s internet connection with your phone or tablet. This is useful if you&amp;#8217;re on a metered data plan or in an area which has no wifi and a weak mobile signal. 
+What You Will Need:  A rooted Android Device A Windows PC USB Driver Reverse Tether Zip (Go to this thread to download or direct download here)  Step 1: Install USB Drivers If you don&amp;#8217;t have any device drivers already installed on your computer and you never used adb before, then you will need to install the USB drivers.</description>
+    </item>
+    
+  </channel>
+</rss>

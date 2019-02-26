@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Build a Multiplayer game using Javascript - Bennett Notes</title>
+  <meta property="og:title" content="Build a Multiplayer game using Javascript" />
+  <meta name="twitter:title" content="Build a Multiplayer game using Javascript" />
+  <meta name="description" content="In this tutorial, we will take a look at how to build a multiplayer game using Javascript and NodeJS. My goal is to take you through the basic setup so that you can begin focusing on the actual gameplay. When building a full-scale MMO, there are a lot of things to consider like load balancing, network contingencies, etc. For now, we are going to focus on the bare minimum just to help you get an understanding of how you can creatively and effectively use the available tools of NodeJS to get started.">
+  <meta property="og:description" content="In this tutorial, we will take a look at how to build a multiplayer game using Javascript and NodeJS. My goal is to take you through the basic setup so that you can begin focusing on the actual gameplay. When building a full-scale MMO, there are a lot of things to consider like load balancing, network contingencies, etc. For now, we are going to focus on the bare minimum just to help you get an understanding of how you can creatively and effectively use the available tools of NodeJS to get started.">
+  <meta name="twitter:description" content="In this tutorial, we will take a look at how to build a multiplayer game using Javascript and NodeJS. My goal is to take you through the basic setup so that you can begin focusing on the actual …">
+  <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bennett Notes",
+    
+    "url": "https://bennettnotes.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https://bennettnotes.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://bennettnotes.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/",
+          "name": "Build a multiplayer game using javascript"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "dave"
+  },
+  "headline": "Build a Multiplayer game using Javascript",
+  "description" : "In this tutorial, we will take a look at how to build a multiplayer game using Javascript and NodeJS. My goal is to take you through the basic setup so that you can begin focusing on the actual gameplay. When building a full-scale MMO, there are a lot of things to consider like load balancing, network contingencies, etc. For now, we are going to focus on the bare minimum just to help you get an understanding of how you can creatively and effectively use the available tools of NodeJS to get started.",
+  "inLanguage" : "en",
+  "wordCount": 2093,
+  "datePublished" : "2017-12-10T22:27:10",
+  "dateModified" : "2017-12-10T22:27:10",
+  "image" : "https://bennettnotes.com/img/avatar-icon.png",
+  "keywords" : [ "build, game, javascript, mmo, nodejs, socket, websocket" ],
+  "mainEntityOfPage" : "https://bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https://bennettnotes.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https://bennettnotes.com/img/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Build a Multiplayer game using Javascript" />
+<meta property="og:description" content="In this tutorial, we will take a look at how to build a multiplayer game using Javascript and NodeJS. My goal is to take you through the basic setup so that you can begin focusing on the actual gameplay. When building a full-scale MMO, there are a lot of things to consider like load balancing, network contingencies, etc. For now, we are going to focus on the bare minimum just to help you get an understanding of how you can creatively and effectively use the available tools of NodeJS to get started.">
+<meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bennett Notes" />
+  <meta name="twitter:title" content="Build a Multiplayer game using Javascript" />
+  <meta name="twitter:description" content="In this tutorial, we will take a look at how to build a multiplayer game using Javascript and NodeJS. My goal is to take you through the basic setup so that you can begin focusing on the actual …">
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <link href='https://bennettnotes.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <meta property="og:url" content="https://bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="https://bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bennettnotes.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://bennettnotes.com/css/syntax.css" /><link rel="stylesheet" href="https://bennettnotes.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><link rel="stylesheet" href="https://bennettnotes.com/css/override.css" />
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://bennettnotes.com">Bennett Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Programming" href="/categories/programming">Programming</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Technology</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories/android">Android</a>
+                
+                  <a href="/categories/chrome-os">Chrome OS</a>
+                
+                  <a href="/categories/gadgets">Gadgets</a>
+                
+                  <a href="/categories/linux">Linux</a>
+                
+                  <a href="/categories/windows">Windows</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Life" href="/categories/life">Life</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/page/search/">Search</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bennett Notes" href="https://bennettnotes.com">
+            <img class="avatar-img" src="https://bennettnotes.com/img/avatar-icon.png" alt="Bennett Notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Build a Multiplayer game using Javascript</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on December 10, 2017
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;10&nbsp;minutes
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;dave
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+            
+            <img src="/wp-content/uploads/2017/12/build-a-mmo-game.jpg" class="thumbnail img-responsive">
+            <hr>
+            
+                <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6594501022141871"
+                data-ad-slot="6223025728"
+                data-ad-format="link"></ins>
+            <hr>
+            
+        
+
+<p>In this tutorial, we will take a look at how to build a multiplayer game using Javascript and NodeJS. My goal is to take you through the basic setup so that you can begin focusing on the actual gameplay. When building a full-scale MMO, there are a lot of things to consider like load balancing, network contingencies, etc. For now, we are going to focus on the bare minimum just to help you get an understanding of how you can creatively and effectively use the available tools of NodeJS to get started.</p>
+
+<h2 id="overview">Overview</h2>
+
+<p>We are first going to put together a NodeJS server. This server will host our application (index.html) and also communicate with the web page via <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API" target="_blank" rel="noopener">web sockets.</a> Then we will create a simple HTML5 page with a canvas. The canvas will draw all the players (as squares) on the map. When the player connects, he will receive spawn on the map at a random position with a random color. The player will also be able to move freely around the map using the <strong>WASD</strong> keys. Finally, when a player disconnects we must make sure that we remove him from the map. So let&#8217;s build a Multiplayer game using Javascript!</p>
+
+<h2 id="putting-together-the-server">Putting Together the Server</h2>
+
+<p>Begin by creating a new NodeJS project, and a file called <strong>app.js.</strong> Afterward, install the following dependencies:</p>
+
+<pre>npm install express --save
+
+npm install socket.io --save</pre>
+
+<p>We will be using <em>express</em> to server our web application and <em>socket io</em> for its web sockets functionality. Another reason that I chose socket.io is that it&#8217;s able to fall back to long-polling if your browser doesn&#8217;t support web sockets. It is also capable of gracefully handling network reconnects on signal disruption. Put the following in app.js:</p>
+
+<pre>const express = require('express');
+const app = express();
+const server = require('http').Server(app);
+const io = require('socket.io')(server);
+
+const socketClients = require('./controllers/client')(io);
+
+app.use(express.static('public'));
+
+server.listen(3000, () =&gt; console.log('Game running'));</pre>
+
+<p>The code above is creating an express server and binding it together with socket.io. We are also exposing a folder called public. Inside of that folder, we will put all the files of our web application. Also, note my use of the following line:</p>
+
+<pre>const socketClients = require('./controllers/client')(io);</pre>
+
+<p>To keep everything clean, I am going to put all of my socket.io event handlers inside of another file that called <strong>client.js</strong>. This file will be located in a folder called <strong>controllers</strong>.</p>
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-format="fluid"
+data-ad-layout="in-article"
+data-ad-client="ca-pub-6594501022141871"
+data-ad-slot="6999463098"></ins>
+
+
+<h2 id="webpage">Webpage</h2>
+
+<p>Inside of the public folder, create a file called index.html. This will be the HTML for our main application. Put the following in that file:</p>
+
+<pre>&lt;!DOCTYPE html&gt;
+&lt;!--[if lt IE 7]&gt; &lt;html class="no-js lt-ie9 lt-ie8 lt-ie7"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 7]&gt; &lt;html class="no-js lt-ie9 lt-ie8"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 8]&gt; &lt;html class="no-js lt-ie9"&gt; &lt;![endif]--&gt;
+&lt;!--[if gt IE 8]&gt;&lt;!--&gt;
+&lt;html class="no-js"&gt;
+&lt;!--&lt;![endif]--&gt;
+
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+&lt;title&gt;MMORPG Game&lt;/title&gt;
+&lt;meta name="description" content=""&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+&lt;link rel="stylesheet" href="./styles/games.css" type="text/css" /&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;!--[if lt IE 7]&gt;
+&lt;p class="browsehappy"&gt;You are using an &lt;strong&gt;outdated&lt;/strong&gt; browser. Please &lt;a href="#"&gt;upgrade your browser&lt;/a&gt; to improve your experience.&lt;/p&gt;
+&lt;![endif]--&gt;
+&lt;canvas id="canvas"&gt;&lt;/canvas&gt;
+&lt;script src="http://192.168.50.48:3000/socket.io/socket.io.js"&gt;&lt;/script&gt;
+&lt;script src="./scripts/player.js"&gt;&lt;/script&gt;
+&lt;script src="./scripts/game.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</pre>
+
+<p>Most of the above is simple HTML5 boilerplate code. You will notice that I created a canvas in the body but I did not give it a height or width. We will define that in our javascript code. Also, the following line loads the socket.io client library:</p>
+
+<pre>&lt;script src="http://192.168.50.48:3000/socket.io/socket.io.js"&gt;&lt;/script&gt;</pre>
+
+<p>I am only planning on running this locally, so I am not worried about the local IP address. Keep in mind that if you want to test this on other devices, you will not be able to use <strong>localhost</strong> because it will be local to the client&#8217;s device. Therefore, for testing on another device on my network, I need to define the IP of the computer that&#8217;s running NodeJS.</p>
+
+<p>I also load two additional scripts. One for the player and another one for the game.</p>
+
+<p>Finally, I have a simple <strong>game.css </strong>which contains the following:</p>
+
+<pre>canvas {
+ background-color: #000;
+ position: absolute;
+ top:0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin:auto;
+ }</pre>
+
+<h2 id="player-class">Player Class</h2>
+
+<p>Let&#8217;s create a simple player class. This will go in the <strong>player.js</strong> file.We will put this file under <strong>public &#8211;&gt; scripts &#8211;&gt; player.js. </strong>Because we are not going to use any transpiling tools, we are going to stick with constructor functions. Here are the contents of this file:</p>
+
+<pre>function Player() {
+this.id = '';
+this.x = 0;
+this.y = 0;
+this.width = 50;
+this.height = 50;
+this.color = '#666';
+}</pre>
+
+<p>The properties of each player will get filled by the server.</p>
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-format="fluid"
+data-ad-layout="in-article"
+data-ad-client="ca-pub-6594501022141871"
+data-ad-slot="6999463098"></ins>
+
+
+<h2 id="game-class">Game Class</h2>
+
+<p>The final file that we need for our application is the game class. We will put this file under <strong>public &#8211;&gt; scripts &#8211;&gt; game.js. </strong>Let&#8217;s break this file down into parts:</p>
+
+<pre>const socket = io.connect('http://192.168.50.48:3000');
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+canvas.width = 0;
+canvas.height = 0;
+
+const myPlayer = new Player();
+
+let otherPlayers = [];</pre>
+
+<p>The first line connects to socket.io running on our NodeJS server. The next couple of lines define the canvas. Finally, we initialize a new player along with an array of other players. Let&#8217;s add some more:</p>
+
+<pre>(function () {
+gameLoop();// Start the cycle
+}());
+
+function gameLoop() {
+window.requestAnimationFrame(gameLoop);
+drawRect();
+}</pre>
+
+<p>This is the <a href="https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame" target="_blank" rel="noopener">recommended way of initiating a game loop</a> in Javascript. You might have seen many bad examples of using while(true), but don&#8217;t do that. We call a self-invoking function which then calls our gameLoop function. Inside of the gameLoop() we call this cool thing called <strong>requestAnimationFrame.</strong> Basically, this hooks into the browser&#8217;s refresh cycle and runs on every refresh. This is better because it&#8217;s non-UI blocking and doesn&#8217;t drain your system&#8217;s resources. We also call this function drawRect() which does that actual painting.</p>
+
+<p>Here&#8217;s the drawRect() function:</p>
+
+<pre>function drawRect() {
+ctx.clearRect(0, 0, 800, 600);
+ctx.fillStyle = myPlayer.color; // Fill color of rectangle drawn
+ctx.fillRect(myPlayer.x, myPlayer.y, myPlayer.width, myPlayer.height); // draw main player
+otherPlayers.forEach((p) =&gt; {
+ctx.fillStyle = p.color;
+ctx.fillRect(p.x, p.y, 50, 50);
+});
+}</pre>
+
+<p>This function clear the canvas and draws the main player along with all the other players in the otherPlayers array. Now, let&#8217;s add in some movement:</p>
+
+<pre>function move(direction) {
+socket.emit('requestmove', direction);
+}
+
+// move rectangle inside the canvas using arrow keys
+window.onkeydown = function (event) {
+const keyPr = event.keyCode; // Key code of key pressed
+if (keyPr === 68) {
+move(0);
+} else if (keyPr === 65) {
+move(180);
+} else if (keyPr === 87) {
+move(90);
+} else if (keyPr === 83) {
+move(270);
+}
+};</pre>
+
+<p>Let&#8217;s focus first on the onKeydown function. On the key press, it&#8217;s sending in a direction to the move function. This direction correspodings to left, up, right or down (0,180,90,270). The move function sends a request to our server that we want to move, along with the direction. When developing a game (or any web application really) you need to remember that the client is not a trusted source. So you should take information from the client (like increase the x coordinate) and just pass it to the server. It&#8217;s better if you just pass the server the intended input, and let the server decide whether it will grant your request. That allows the server to also be able to validate the coordinates before moving and checking for collision if you wanted.</p>
+
+<p>Finally, let&#8217;s add the Socket.IO event listeners:</p>
+
+<pre>socket.on('create', (data) =&gt; {
+canvas.width = data.canvasWidth;
+canvas.height = data.canvasHeight;
+myPlayer.id = data.id;
+});
+
+socket.on('gamedata', (data) =&gt; {
+console.log(data);
+otherPlayers = [];
+data.forEach((p) =&gt; {
+if (p.id == myPlayer.id) {
+myPlayer.x = p.x;
+myPlayer.y = p.y;
+myPlayer.width = p.width;
+myPlayer.height = p.height;
+myPlayer.color = p.color;
+} else {
+otherPlayers.push(p);
+}
+});
+});</pre>
+
+<p>The oncreate event listener sets the initial height and width of the canvas along with the player id. We will trigger this event in our server after a client successfully connects. The game data listener gets information for all players and puts them an array. If the player.id is equal to your player, it will update your player&#8217;s coordinates. We also get the color and dimensions from the server.</p>
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-format="fluid"
+data-ad-layout="in-article"
+data-ad-client="ca-pub-6594501022141871"
+data-ad-slot="6999463098"></ins>
+
+
+<h2 id="game-settings">Game Settings:</h2>
+
+<p>Now let&#8217;s move back to the server side. We are going to create a simple file which will hold the universal game settings. Create a folder called controllers and create a file called <strong>gameSettings.js</strong> in that folder.** **Put the following in it:</p>
+
+<pre>module.exports = {
+playerWidth: 50,
+playerHeight: 50,
+gameWidth: 800,
+gameHeight: 600,
+fps: 16, //16.6 ms for about 60 fps
+};</pre>
+
+<h2 id="player-controller">Player Controller</h2>
+
+<p>Now create a file called <strong>player.js</strong> and put it in controllers (<strong>controllers &#8211;&gt; player.js).</strong> The player controller will contain all the functions that we will need to interact with the player from the server-side:</p>
+
+<pre>const gameSettings = require('./gameSettings');
+
+const players = [];
+
+module.exports = {
+getRandomColor() {
+const color = [0, 0, 0];
+for (let i = 0; i &lt; 3; i += 1) {
+color[i] = Math.floor(Math.random() * (256 - 0)) + 0;
+}
+return color;
+},
+
+getRandomPosition() {
+const x = Math.floor(Math.random() * (gameSettings.gameWidth - gameSettings.playerWidth)) + gameSettings.playerWidth;
+const y = Math.floor(Math.random() * (gameSettings.gameHeight - gameSettings.playerHeight)) + gameSettings.playerHeight;
+return [x, y];
+},</pre>
+
+<p>We first import the gameSettings controller and create two functions. getRandomColor() and getRandomPosition(). The getRandomColor() returns an array of 3 random values for rgb. The getRandomPosition() returns a random x,y array that the player will spawn at. Let&#8217;s add some more functionality:</p>
+
+<pre>addPlayer(id) {
+const xyCoordinates = this.getRandomPosition();
+const rgbArray = this.getRandomColor();
+if (!this.exisitingPlayer(id)) {
+players.push({
+id,
+width: gameSettings.playerWidth,
+height: gameSettings.playerHeight,
+x: xyCoordinates[0],
+y: xyCoordinates[1],
+color: `rgba(${rgbArray[0]},${rgbArray[1]},${rgbArray[2]},1)`,
+});
+}
+},
+
+move(id, direction) {
+const player = this.getPlayerById(id);
+if (player) {
+switch (direction) {
+case 0:
+if ((player.x + 20) &lt; (gameSettings.gameWidth - (gameSettings.playerWidth / 2))) { player.x += 20; }
+break;
+case 90:
+if ((player.y - 20) &gt; 0) { player.y -= 20; }
+break;
+case 180:
+if ((player.x - 20) &gt; 0) { player.x -= 20; }
+break;
+case 270:
+if ((player.y + 20) &lt; (gameSettings.gameHeight - (gameSettings.playerWidth / 2))) { player.y += 20; }
+break;
+default:
+console.log('no action');
+}
+}
+},
+
+getPlayerById(id) {
+let player;
+players.forEach(((element, index, array) =&gt; {
+if (element.id == id) {
+player = array[index];
+}
+}));
+return player;
+},
+
+exisitingPlayer(id) {
+let existing = false;
+players.forEach(((element) =&gt; {
+if (element.id == id) {
+existing = true;
+}
+}));
+return existing;
+},
+
+getAllplayers() {
+return players;
+},
+
+removePlayer(id) {
+let index = -1;
+for (let i = 0; i &lt; players.length; i++) {
+if (players[i].id == id) {
+index = i;
+}
+}
+players.splice(index, 1);
+},
+};</pre>
+
+<p>The addPlayer() checks if the id already exists, if it doesn&#8217;t, it adds a new player to the array of players. The move() function detects the direction that the player wants to and updates the coordinates if it&#8217;s valid. The getPlayerById gets the player by the specified Id and returns it (as an object reference) to the move() function to use. The removePlayer() removes a player from the array.</p>
+
+<h2 id="client-controller">Client Controller</h2>
+
+<p>Finally, create that file called <strong>client.js </strong>(which we specified in the beginning of this tutorial) inside of the controller folder. In this file, we will put all the events for Socket.IO. Begin by writing the following:</p>
+
+<pre>const playerController = require('./player');
+const gameSettings = require('./gameSettings');
+
+module.exports = function (io) {
+setInterval(() =&gt; {
+io.sockets.emit('gamedata', playerController.getAllplayers());
+}, gameSettings.fps);
+//more to come......</pre>
+
+<p>Like before, we import the game settings. We also import the player controller. Inside of the module.exports we create a setInterval function so that we can send game updates each on a defined interval to all clients. This will be the game loop for our server. You will notiice that gameSettings.fps is defined for 16 ms, which roughly corresponds to 60 fps. <a href="http://www.david-amador.com/2011/08/hurry-you-only-have-16-ms-to-render-everything/" target="_blank" rel="noopener">This post will explain why</a>.</p>
+
+<p>Finally, let&#8217;s add the rest of the event handlers:</p>
+
+<pre>io.on('connection', (socket) =&gt; {
+console.log(`New connection ${socket.id}`);
+socket.emit(
+'create',
+{
+canvasWidth: gameSettings.gameWidth,
+canvasHeight: gameSettings.gameHeight,
+id: socket.id
+}
+);
+playerController.addPlayer(socket.id);
+socket.on('requestmove', (direction) =&gt; {
+playerController.move(socket.id, direction);
+});
+socket.on('disconnect', () =&gt; {
+console.log('Client left');
+playerController.removePlayer(socket.id);
+});
+});
+};</pre>
+
+<p>It might look a little messy, but we only define two event handlers. When the client connects, we emit out a create event with the specified canvas height and width along with the player id (socket id in this case). Next, when the client called requestmove we send the ID and direction to our player controller. Remeber that every 16ms game data is submitting all the players&#8217; updated coordinates. Finally, we handle the client disconnect event.</p>
+
+<p>That&#8217;s it! When you run the project, you will have a working MMO Game in Javascript and NodeJS. Now all you need to do is add in some actual gameplay and objectives.</p>
+
+<p><a href="https://github.com/DaveBben/mmorpg-game/tree/master" target="_blank" rel="noopener">You can find the full project on GitHub.</a></p>
+
+<p>&nbsp;</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://bennettnotes.com/tags/build/">build</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/game/">game</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/javascript/">javascript</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/mmo/">mmo</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/nodejs/">nodejs</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/socket/">socket</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/websocket/">websocket</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fbennettnotes.com%2fbuild-a-mmo-game-with-javascript-and-nodejs%2f&amp;text=Build%20a%20Multiplayer%20game%20using%20Javascript&amp;via=_davebennett" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fbennettnotes.com%2fbuild-a-mmo-game-with-javascript-and-nodejs%2f" target="_blank" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbennettnotes.com%2fbuild-a-mmo-game-with-javascript-and-nodejs%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fbennettnotes.com%2fbuild-a-mmo-game-with-javascript-and-nodejs%2f&amp;title=Build%20a%20Multiplayer%20game%20using%20Javascript" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fbennettnotes.com%2fbuild-a-mmo-game-with-javascript-and-nodejs%2f&amp;title=Build%20a%20Multiplayer%20game%20using%20Javascript" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fbennettnotes.com%2fbuild-a-mmo-game-with-javascript-and-nodejs%2f&amp;title=Build%20a%20Multiplayer%20game%20using%20Javascript" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fbennettnotes.com%2fbuild-a-mmo-game-with-javascript-and-nodejs%2f&amp;description=Build%20a%20Multiplayer%20game%20using%20Javascript" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+              </div>
+            </section>
+        
+
+        
+          
+          
+          <h4 class="see-also">See also</h4>
+          <ul>
+          
+            <li><a href="/javascript-hashcash-proof-work/">Javascript Hashcash Proof of Work</a></li>
+          
+            <li><a href="/javascript-blockchain/">Build a Javascript Blockchain</a></li>
+          
+            <li><a href="/multithreaded-javascript/">Multithreaded Javascript</a></li>
+          
+          </ul>
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://bennettnotes.com/javascript-hashcash-proof-work/" data-toggle="tooltip" data-placement="top" title="Javascript Hashcash Proof of Work">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://bennettnotes.com/ubuntu-install-hangs-splash-screen-fix/" data-toggle="tooltip" data-placement="top" title="Ubuntu install Hangs on Splash Screen Fix">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:dave@bennettnotes.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DaveBben" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_davebennett" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DaveBben" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/opensourcegangster" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://bennettnotes.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="bennettnotes.com">Dave Bennett</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://bennettnotes.com">Bennett Notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Theme by adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/main.js"></script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+<script
+  async
+  src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6594501022141871",
+    enable_page_level_ads: true
+  });
+</script>
+<script>
+  function init() {
+    var vidDefer = document.getElementsByTagName("iframe");
+    for (var i = 0; i < vidDefer.length; i++) {
+      if (vidDefer[i].getAttribute("data-src")) {
+        vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
+      }
+    }
+  }
+  window.onload = init;
+</script>
+
+
+  </body>
+</html>
+

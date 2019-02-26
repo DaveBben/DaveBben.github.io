@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usb Booting on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/usb-booting/</link>
+    <description>Recent content in Usb Booting on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Thu, 12 Oct 2017 13:37:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/usb-booting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Run any OS on Chromebook</title>
+      <link>https://bennettnotes.com/run-os-chromebook/</link>
+      <pubDate>Thu, 12 Oct 2017 13:37:00 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-os-chromebook/</guid>
+      <description>If Chrome OS is not fulfilling your needs, all hope isn&amp;#8217;t lost. You can run any OS on a Chromebook as long as it has an x86 processor (Chromebooks with an Intel Processor). That means you can run Windows on your Chromebook or even run Mint Linux on your Chromebook.
+You will need to have developer mode enabled on your Chromebook  Run Any OS on Chromebook In order to run any OS on your Chromebook, you will have to enable the legacy bios with USB booting.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usb on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/usb/</link>
+    <description>Recent content in Usb on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Mon, 04 Jul 2016 14:35:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/usb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>USB Condom &amp; MicFlip</title>
+      <link>https://bennettnotes.com/usb-condom-micflip/</link>
+      <pubDate>Mon, 04 Jul 2016 14:35:32 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/usb-condom-micflip/</guid>
+      <description>{{ youtube I-tBo2_eR48 {}
+So here is some interesting tech under $25 that I have been using.
+USB Condom: https://goo.gl/HkUacx
+MicFlip: https://goo.gl/Ui7fkb</description>
+    </item>
+    
+    <item>
+      <title>Connect Floppy Drive to Galaxy S7</title>
+      <link>https://bennettnotes.com/connect-floppy-drive-galaxy-s7/</link>
+      <pubDate>Tue, 15 Mar 2016 15:33:05 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/connect-floppy-drive-galaxy-s7/</guid>
+      <description>{{ youtube 7eVbovqn0Jk {}
+Yes, you can connect a floppy drive to the Galaxy S7 or any Android device really. Just something random and simple I wanted to share. Of course&amp;#8230;I don&amp;#8217;t know why you would actually want to connect a floppy drive to your device.</description>
+    </item>
+    
+    <item>
+      <title>Connect Android to Ethernet</title>
+      <link>https://bennettnotes.com/connect-android-to-ethernet/</link>
+      <pubDate>Thu, 17 Dec 2015 15:16:42 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/connect-android-to-ethernet/</guid>
+      <description>Do you want to get the fastest speed available on your Android device? Sure, LTE is fast and all but you&amp;#8217;re hit with really small data caps. WiFi doesn&amp;#8217;t impose the same limitations, but the speed is never consistent. So why not just connect Android to Ethernet?
+Luckily, Android Marshmallow comes to the rescue. Android Marshmallow introduces new drivers that allow you to connect your Android device directly to an Ethernet cable without needing root!</description>
+    </item>
+    
+    <item>
+      <title>Boot Computer from Android Phone</title>
+      <link>https://bennettnotes.com/boot-computer-from-android-phone/</link>
+      <pubDate>Thu, 02 Oct 2014 02:09:50 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/boot-computer-from-android-phone/</guid>
+      <description>{{ youtube 8Y0T2zxTtnU {}
+Have you ever found yourself in a situation where you didn&amp;#8217;t have a flash drive handy? Well, the other day I was trying to re-install Windows on my laptop, and sure enough, my USB flash drive conveniently went missing. Luckily, I was able to use my Nexus 5 to mount the ISO and boot my laptop from it. So here&amp;#8217;s how you can boot computer from Android phone:</description>
+    </item>
+    
+    <item>
+      <title>Install Windows 8 on Chromebook</title>
+      <link>https://bennettnotes.com/install-windows-8-on-chromebook/</link>
+      <pubDate>Fri, 11 Jul 2014 17:18:23 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/install-windows-8-on-chromebook/</guid>
+      <description>Windows 8 is old news now, look at running Windows 10 on your Chromebook! So you want to run Windows 8 on your Chromebook? Well congratulations, you clicked on the right link. Let me first ask you a question. Are you looking for a fully responsive, practical and reliable Windows 8 chromebook system? If so, then go out and buy a Windows netbook. While running Windows 8 on your Chromebook is feasible, there are a lot of driver hurdles and hardware limitations (depending on your Chromebook model) that you will have to overcome before this becomes a practical solution.</description>
+    </item>
+    
+  </channel>
+</rss>

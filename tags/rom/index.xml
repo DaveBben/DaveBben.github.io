@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rom on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/rom/</link>
+    <description>Recent content in Rom on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sat, 13 Jun 2015 03:53:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/rom/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Play Sega Genesis Games on Android</title>
+      <link>https://bennettnotes.com/play-sega-genesis-games-on-android/</link>
+      <pubDate>Sat, 13 Jun 2015 03:53:16 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-sega-genesis-games-on-android/</guid>
+      <description>The Sega Genesis was my very first game console. What my gaming PC is to me now, was what my Sega Genesis meant to me back in 1999 (if that makes sense). There are so many old titles that I used to love playing. And those cartridges&amp;#8230;damn&amp;#8230;I loved those cartridges. The best thing was that there used to be a huge bin at stores like GameStop, where I could easily pick up a bunch of them for under $10.</description>
+    </item>
+    
+    <item>
+      <title>Play Dreamcast Games on Android</title>
+      <link>https://bennettnotes.com/play-dreamcast-games-on-android/</link>
+      <pubDate>Sat, 13 Jun 2015 03:35:35 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-dreamcast-games-on-android/</guid>
+      <description>Ah, the Sega Dreamcast, it brings back old memories. Who am I kidding, I never had the Dreamcast myself. So unfortunately, my personal experience is limited to the only game (Sonic Adventures) that I have ever played on it. But, what I do know is that you can play Dreamcast games on Android!
+What You Will Need:  Reicast or use This One if you are running a Lollipop Device and Experience Crashes with the Play Store version.</description>
+    </item>
+    
+    <item>
+      <title>Best Paranoid Android Features</title>
+      <link>https://bennettnotes.com/best-paranoid-android-features/</link>
+      <pubDate>Tue, 16 Sep 2014 17:28:03 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/best-paranoid-android-features/</guid>
+      <description>{{ youtube //www.youtube.com/embed/3YDYy9FsncI {}
+Paranoid Android is by far one of my favorite custom roms.. It provides a stock like experience with added functionality. Each month the PA team has added a new signature feature to this amazing rom. So here&amp;#8217;s a look at some of the best paranoid android features.
+Dynamic System Bars:   The newest feature found on Paranoid Android is Dynamic System bars. DSB allows you to tint your status and navigation bars to the color of the foreground app.</description>
+    </item>
+    
+    <item>
+      <title>How to Build Custom Cyanogenmod Rom</title>
+      <link>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</link>
+      <pubDate>Fri, 04 Jul 2014 08:12:40 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</guid>
+      <description>{{ youtube GAyxypK7_K8 {}
+Build Custom Cyanogenmod Rom? So are you ready to take on Rom Development? That&amp;#8217;s okay if you&amp;#8217;re not, because I&amp;#8217;ll help walk you through it. In this tutorial, I&amp;#8217;m going to show you how to build your own Cyanogenmod Rom right from source. This sounds a lot more complicated than it actually is though. However, keep in mind that you will need a lot of patience when doing this.</description>
+    </item>
+    
+  </channel>
+</rss>

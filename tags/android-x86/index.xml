@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android X86 on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/android-x86/</link>
+    <description>Recent content in Android X86 on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Thu, 19 Oct 2017 02:49:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/android-x86/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Run Android Nougat on PC</title>
+      <link>https://bennettnotes.com/run-android-nougat-on-pc/</link>
+      <pubDate>Thu, 19 Oct 2017 02:49:19 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-android-nougat-on-pc/</guid>
+      <description>Do you have an old computer laying around that you need to find a use for? How about running Android Nougat on your PC? The Android x86 team has successfully ported Android 7.1 over to the desktop CPU architecture. This means you can enjoy your favorite apps and games on any pc or laptop.
+Run Android Nougat on PC The first thing that you need to do is download the Android Nougat x86 ISO file.</description>
+    </item>
+    
+    <item>
+      <title>Install Android on Old PC</title>
+      <link>https://bennettnotes.com/install-android-on-pc/</link>
+      <pubDate>Tue, 14 Jul 2015 14:33:01 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/install-android-on-pc/</guid>
+      <description>Do you have an old computer just sitting around? If you are like me, then you probably have a couple of old PC&amp;#8217;s that once ran Windows XP but serve no useful purpose now. Of course, I could always just install and very lite version of Linux on it and call it a day. However, Linux takes a lot of time (compared to Windows) to set up and is a big learning curve for people who are unfamiliar with it.</description>
+    </item>
+    
+  </channel>
+</rss>

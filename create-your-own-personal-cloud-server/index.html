@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Create Your Own Personal Cloud Server - Bennett Notes</title>
+  <meta property="og:title" content="Create Your Own Personal Cloud Server" />
+  <meta name="twitter:title" content="Create Your Own Personal Cloud Server" />
+  <meta name="description" content="{{ youtube UY2CZc1ul8U {}
+Whether it is Dropbox, Google Drive, Skydrive or iCloud, I am sure that we all have our favorite cloud server. Cloud Servers are great because they allow us to easily sync files between all the devices on our network and access content from anywhere. However, a growing concern over cloud servers is privacy. You could be banned from hosting certain content and companies could easily sort through what you are uploading and create targeted ads based on it.">
+  <meta property="og:description" content="{{ youtube UY2CZc1ul8U {}
+Whether it is Dropbox, Google Drive, Skydrive or iCloud, I am sure that we all have our favorite cloud server. Cloud Servers are great because they allow us to easily sync files between all the devices on our network and access content from anywhere. However, a growing concern over cloud servers is privacy. You could be banned from hosting certain content and companies could easily sort through what you are uploading and create targeted ads based on it.">
+  <meta name="twitter:description" content="{{ youtube UY2CZc1ul8U {}
+Whether it is Dropbox, Google Drive, Skydrive or iCloud, I am sure that we all have our favorite cloud server. Cloud Servers are great because they allow us to easily sync …">
+  <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bennett Notes",
+    
+    "url": "https://bennettnotes.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https://bennettnotes.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://bennettnotes.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://bennettnotes.com/create-your-own-personal-cloud-server/",
+          "name": "Create your own personal cloud server"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "dave"
+  },
+  "headline": "Create Your Own Personal Cloud Server",
+  "description" : "{{ youtube UY2CZc1ul8U {}
+Whether it is Dropbox, Google Drive, Skydrive or iCloud, I am sure that we all have our favorite cloud server. Cloud Servers are great because they allow us to easily sync files between all the devices on our network and access content from anywhere. However, a growing concern over cloud servers is privacy. You could be banned from hosting certain content and companies could easily sort through what you are uploading and create targeted ads based on it.",
+  "inLanguage" : "en",
+  "wordCount": 1098,
+  "datePublished" : "2015-05-09T20:34:24",
+  "dateModified" : "2015-05-09T20:34:24",
+  "image" : "https://bennettnotes.com/img/avatar-icon.png",
+  "keywords" : [ "cloud, host, linux, make, owncloud, pi, raspberry, tutorial, web" ],
+  "mainEntityOfPage" : "https://bennettnotes.com/create-your-own-personal-cloud-server/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https://bennettnotes.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https://bennettnotes.com/img/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Create Your Own Personal Cloud Server" />
+<meta property="og:description" content="{{ youtube UY2CZc1ul8U {}
+Whether it is Dropbox, Google Drive, Skydrive or iCloud, I am sure that we all have our favorite cloud server. Cloud Servers are great because they allow us to easily sync files between all the devices on our network and access content from anywhere. However, a growing concern over cloud servers is privacy. You could be banned from hosting certain content and companies could easily sort through what you are uploading and create targeted ads based on it.">
+<meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://bennettnotes.com/create-your-own-personal-cloud-server/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bennett Notes" />
+  <meta name="twitter:title" content="Create Your Own Personal Cloud Server" />
+  <meta name="twitter:description" content="{{ youtube UY2CZc1ul8U {}
+Whether it is Dropbox, Google Drive, Skydrive or iCloud, I am sure that we all have our favorite cloud server. Cloud Servers are great because they allow us to easily sync …">
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <link href='https://bennettnotes.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <meta property="og:url" content="https://bennettnotes.com/create-your-own-personal-cloud-server/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="https://bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bennettnotes.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://bennettnotes.com/css/syntax.css" /><link rel="stylesheet" href="https://bennettnotes.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><link rel="stylesheet" href="https://bennettnotes.com/css/override.css" />
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://bennettnotes.com">Bennett Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Programming" href="/categories/programming">Programming</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Technology</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories/android">Android</a>
+                
+                  <a href="/categories/chrome-os">Chrome OS</a>
+                
+                  <a href="/categories/gadgets">Gadgets</a>
+                
+                  <a href="/categories/linux">Linux</a>
+                
+                  <a href="/categories/windows">Windows</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Life" href="/categories/life">Life</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/page/search/">Search</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bennett Notes" href="https://bennettnotes.com">
+            <img class="avatar-img" src="https://bennettnotes.com/img/avatar-icon.png" alt="Bennett Notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Create Your Own Personal Cloud Server</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on May 9, 2015
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;6&nbsp;minutes
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;dave
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+            
+        
+
+<p>{{ youtube UY2CZc1ul8U {}</p>
+
+<p>Whether it is Dropbox, Google Drive, Skydrive or iCloud, I am sure that we all have our favorite cloud server. Cloud Servers are great because they allow us to easily sync files between all the devices on our network and access content from anywhere. However, a growing concern over cloud servers is privacy. You could be banned from hosting certain content and companies could easily sort through what you are uploading and create targeted ads based on it. Also, each service provides only a limited amount of free space that is quickly filled.</p>
+
+<p>[adinserter block=&#8221;5&#8243;]</p>
+
+<p>Whatever your situation may be, you should try to create your own personal cloud server. It gives you all the privacy that you want and does not limit you in terms of storage. In order to build an effective cloud server you will need a device that can be always on. For this reason, I am going to use the raspberry pi. You can keep it running all year long and it hardly has any noticeable impact on your electric bill. Of course you could also use any desktop computer that you might have sitting around. We are going to use the popular software <em>OwnCloud.</em> Owncloud is very easy to setup, but only works on machines running Linux. However, you can connect a client to any operating System on desktop and mobile.</p>
+
+<h3 id="what-you-will-need">What You Will Need:</h3>
+
+<ul>
+<li>A computer running Linux</li>
+<li>Wired or Wireless Network</li>
+</ul>
+
+<h2 id="step-1-static-all-the-way">Step 1: Static all the way</h2>
+
+<p>First you will need to setup a static IP address, so that whenever you access your cloud it will always use the same address. Imagine having 20 clients connected to the server and the address changes; you would have to manually reconnect all of those clients! To do this, you can either go through your router settings (the simplest way) or change the network interfaces. To change the network interface type in:</p>
+
+<p><code>ifconfig</code></p>
+
+<p><img src="/wp-content/uploads/2015/05/config-300x169.jpg" alt="" /></p>
+
+<p>This will display the eth0, broadcast and mask address. Take note of all of these. Then to get the internet IP and gateway type in:</p>
+
+<p><code>netstat -nr </code></p>
+
+<p><img src="/wp-content/uploads/2015/05/netstat-300x169.jpg" alt="" /></p>
+
+<p>Make sure to record this information somewhere. Now go  into network interfaces and fill in the information you obtained. Also remember to change <strong>dhcp</strong> <strong>to static.</strong></p>
+
+<p><code>nano /etc/network/interface</code></p>
+
+<p><img src="/wp-content/uploads/2015/05/interface2-300x169.jpg" alt="" /></p>
+
+<p>Type CRTL +O to save and CRTL + X to exit.</p>
+
+<p>Then reboot your computer/raspberry pi for the changes to take effect.</p>
+
+<h2 id="step-2-packages">Step 2: Packages</h2>
+
+<p>If you have not already, update your packages.</p>
+
+<p><code>sudo apt-get update</code></p>
+
+<p>Now, time to download and install a crapload of stuff. Here is what you need (Thanks <a href="http://www.instructables.com/id/Raspberry-Pi-Owncloud-dropbox-clone/" target="_blank">inscrutables </a>for providing all of this on one line):</p>
+
+<p><code>sudo apt-get install apache2 php5 php5-json php5-gd php5-sqlite curl libcurl3 libcurl4-openssl-dev php5-curl php5-gd php5-cgi php-pear php5-dev build-essential libpcre3-dev php5 libapache2-mod-php5 php-apc gparted</code></p>
+
+<p>Step 3: PHP Accelerator</p>
+
+<p>To make things go a little faster, you are going to want to install the PHP accelerator:</p>
+
+<p><code>sudo pecl install apc</code></p>
+
+<p><img src="/wp-content/uploads/2015/05/php-aceeleora-300x169.jpg" alt="" /></p>
+
+<p>Just hit enter to use the default options for everything it asks.</p>
+
+<h2 id="step-4-max-defaults">Step 4: Max Defaults:</h2>
+
+<p>Now let&#8217;s set the max file upload and post size. Type in:</p>
+
+<p><code>nano /etc/php5/apache2/php.ini </code></p>
+
+<p><img src="/wp-content/uploads/2015/05/max-file-siize-300x169.jpg" alt="" /></p>
+
+<p>Then change the max upload size to whatever you desire. I am going to use 4096M (4 GB). Do the same for the max post size.  Then go to the part of the file that says extensions and add in the following:</p>
+
+<p><code>extension=apc.so</code></p>
+
+<p><img src="/wp-content/uploads/2015/05/extension-300x169.jpg" alt="" /></p>
+
+<p>Then close and save the file (CRTL + O and CRL + X).</p>
+
+<h2 id="step-5-ssl">Step 5: SSL</h2>
+
+<p>Next you need to setup the SSL certificate.</p>
+
+<p><code>sudo nano  /etc/apache2/sites-enabled/000-default </code></p>
+
+<p><img src="/wp-content/uploads/2015/05/ovverride-300x169.jpg" alt="" /></p>
+
+<div>
+  And change the AllowOvveride from None to All. Then type in the following commands:
+</div>
+
+<div>
+  <p>
+    <code>sudo a2enmod rewrite sudo a2enmod headers</code>
+  </p>
+  
+  <p>
+    Good. You&#8217;re almost done with apache. Now the next steps will pretty much get all the necessary information to sign the key. It was also asks for things such as your name, email, etc. It will also ask you to make a password. (Again, thanks instructables).
+  </p>
+  
+  <p>
+    <code>sudo openssl genrsa -des3 -out server.key 1024; sudo openssl rsa -in server.key -out server.key.insecure;sudo openssl req -new -key server.key -out server.csr;sudo openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt;sudo cp server.crt /etc/ssl/certs;sudo cp server.key /etc/ssl/private;sudo a2enmod ssl;sudo a2ensite default-ssl</code>
+  </p>
+  
+  <p>
+    Afterwards, restart the apache server:<code>&lt;br />
+service apache2 reload&lt;br />
+</code>
+  </p>
+</div>
+
+<h2 id="step-6-setting-up-owncloud">Step 6: Setting up Owncloud</h2>
+
+<p>Now, time to download and setup owncloud. To download tpye in:</p>
+
+<p><code>wget &lt;a href=&quot;https://download.owncloud.org/community/owncloud-8.0.3.tar.bz2&quot;&gt;https://download.owncloud.org/community/owncloud-8.0.3.tar.bz2&lt;/a&gt;</code></p>
+
+<div>
+</div>
+
+<p>Then unzip it:</p>
+
+<p><code>sudo tar -xfj owncloud....</code></p>
+
+<div>
+</div>
+
+<p>And move it to the web root:</p>
+
+<div>
+  <p>
+    <code>sudo cp -r owncloud /var/www</code>
+  </p>
+</div>
+
+<div>
+</div>
+
+<p>Finally, change the ownership:</p>
+
+<p><code>sudo chown -R www-data:www-data /var/www/owncloud/</code></p>
+
+<div>
+</div>
+
+<p>Now, change the htcaccess file in the web root to match the upload size that you specified earlier:</p>
+
+<p><code>sudo nano /var/www/owncloud/.htaccess</code></p>
+
+<div>
+</div>
+
+<div>
+![](/wp-content/uploads/2015/05/htcaccess-post-300x169.jpg)
+</div>
+
+<p>Remember to save the file.</p>
+
+<h2 id="step-7-storage">Step 7: Storage</h2>
+
+<p>If you have not already, connect the device that you are using for storage. I am connecting a 500GB hard drive to my raspberry pi. Using the program GParted (or whatever partition software you desire) format and partition the drive. It does not matter whether you use EXT <sup>3</sup>&frasl;<sub>4</sub> or NTFS.</p>
+
+<p><img src="/wp-content/uploads/2015/05/gparted-300x169.jpg" alt="" /></p>
+
+<p>Now mount the drive. My drive is listed as sda2 but your drive letter might be different. Make sure to check with <strong>fdisk -l.</strong></p>
+
+<p><code>mkdir /mnt/cloudDrive</code></p>
+
+<p><code>mount /dev/sda2 /mnt/cloudDrive</code></p>
+
+<p>Now, let&#8217;s make some edits so that it will automatically mount on boot. Type in:</p>
+
+<p><code>sudo nano /etc/fstab</code></p>
+
+<p>Add the drive followed by the mount directory along with 0 0 for the defaults.</p>
+
+<p><img src="/wp-content/uploads/2015/05/fstab-300x169.jpg" alt="" /></p>
+
+<h2 id="step-8-logging-in">Step 8: Logging In</h2>
+
+<p>You can now log in to your owncloud server. In any browser, type in the IP address of the computer that owncloud is running on. It will prompt you to create a username and password.</p>
+
+<p><img src="/wp-content/uploads/2015/05/owcloud-login-300x169.jpg" alt="" /></p>
+
+<h2 id="step-9-one-last-thing">Step 9: One last thing</h2>
+
+<p>There is one small thing that we have to do before we are done. We have to point tot he drive that we want to contain the data for owncloud. First, stop the web service:</p>
+
+<p><code>sudo /etc/init.d/apache2 stop</code></p>
+
+<p>Then navigate to the owncloud config file:</p>
+
+<div>
+</div>
+
+<div>
+  <code>cd /var/www/owncloud/config</code>
+</div>
+
+<div>
+  <code>nano config.php</code>
+</div>
+
+<div>
+</div>
+
+<p>In the data directory, specify the directory that you want to use. I am going to point to a folder that does not exist yet. Finally, move all the existing content to that subfolder.</p>
+
+<div>
+</div>
+
+<div>
+  <code>mv /var/www/owncloud/data /mnt/cloudDrive/data</code>
+</div>
+
+<div>
+  <code>sudo chown -R www-data: ww-data /mnt/cloudDrive/data</code>
+</div>
+
+<div>
+</div>
+
+<div>
+![](/wp-content/uploads/2015/05/datadirectory-300x169.jpg)
+</div>
+
+<div>
+</div>
+
+<h2 id="step-10-finish">Step 10: Finish</h2>
+
+<p>And you are done. All that is left is to isntall clients on your Windows, Mac, Linux or Android device and connect to the server. If you want to connect to the server outside of your local network than use port-forwarding or setup a VPN. If you have any questions or comments feel free to leave them below.</p>
+
+<div>
+![](/wp-content/uploads/2015/05/windows-client-300x169.jpg)
+</div>
+
+<div>
+</div>
+
+<div>
+</div>
+
+<div>
+</div>
+
+<div>
+  sources:
+</div>
+
+<div>
+  <a href="http://www.modmypi.com/blog/tutorial-how-to-give-your-raspberry-pi-a-static-ip-address" target="_blank">http://www.modmypi.com/blog/tutorial-how-to-give-your-raspberry-pi-a-static-ip-address</a>
+</div>
+
+<div>
+  <a href="http://www.linuxuser.co.uk/tutorials/raspberry-pi-private-cloud" target="_blank">http://www.linuxuser.co.uk/tutorials/raspberry-pi-private-cloud</a>
+</div>
+
+<div>
+  <a href="http://www.instructables.com/id/Raspberry-Pi-Owncloud-dropbox-clone/?ALLSTEPS" target="_blank">http://www.instructables.com/id/Raspberry-Pi-Owncloud-dropbox-clone/?ALLSTEPS</a>
+</div>
+
+<div>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://bennettnotes.com/tags/cloud/">cloud</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/host/">host</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/linux/">linux</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/make/">make</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/owncloud/">owncloud</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/pi/">pi</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/raspberry/">raspberry</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/tutorial/">tutorial</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/web/">web</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fbennettnotes.com%2fcreate-your-own-personal-cloud-server%2f&amp;text=Create%20Your%20Own%20Personal%20Cloud%20Server&amp;via=_davebennett" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fbennettnotes.com%2fcreate-your-own-personal-cloud-server%2f" target="_blank" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbennettnotes.com%2fcreate-your-own-personal-cloud-server%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fbennettnotes.com%2fcreate-your-own-personal-cloud-server%2f&amp;title=Create%20Your%20Own%20Personal%20Cloud%20Server" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fbennettnotes.com%2fcreate-your-own-personal-cloud-server%2f&amp;title=Create%20Your%20Own%20Personal%20Cloud%20Server" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fbennettnotes.com%2fcreate-your-own-personal-cloud-server%2f&amp;title=Create%20Your%20Own%20Personal%20Cloud%20Server" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fbennettnotes.com%2fcreate-your-own-personal-cloud-server%2f&amp;description=Create%20Your%20Own%20Personal%20Cloud%20Server" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+              </div>
+            </section>
+        
+
+        
+          
+          
+          <h4 class="see-also">See also</h4>
+          <ul>
+          
+            <li><a href="/install-ubuntu-14-04-on-chromebook/">Install Ubuntu 14.04 on Chromebook</a></li>
+          
+            <li><a href="/counter-strike-global-offensive-on-chromebook/">Counter Strike Global Offensive on Chromebook</a></li>
+          
+            <li><a href="/enable-developer-mode-on-chromebook/">Enable Developer mode on Chromebook</a></li>
+          
+          </ul>
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://bennettnotes.com/galaxy-s6-slow-motion-video/" data-toggle="tooltip" data-placement="top" title="Galaxy S6 Slow Motion Video">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://bennettnotes.com/run-minecraft-server-on-android/" data-toggle="tooltip" data-placement="top" title="Run Minecraft Server on Android">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:dave@bennettnotes.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DaveBben" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_davebennett" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DaveBben" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/opensourcegangster" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://bennettnotes.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="bennettnotes.com">Dave Bennett</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://bennettnotes.com">Bennett Notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Theme by adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/main.js"></script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+<script
+  async
+  src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6594501022141871",
+    enable_page_level_ads: true
+  });
+</script>
+<script>
+  function init() {
+    var vidDefer = document.getElementsByTagName("iframe");
+    for (var i = 0; i < vidDefer.length; i++) {
+      if (vidDefer[i].getAttribute("data-src")) {
+        vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
+      }
+    }
+  }
+  window.onload = init;
+</script>
+
+
+  </body>
+</html>
+

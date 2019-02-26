@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Planetside 2 on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/planetside-2/</link>
+    <description>Recent content in Planetside 2 on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Wed, 01 Feb 2017 02:52:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/planetside-2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stream Steam Games to Android 2017</title>
+      <link>https://bennettnotes.com/stream-steam-games-android-2017/</link>
+      <pubDate>Wed, 01 Feb 2017 02:52:58 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/stream-steam-games-android-2017/</guid>
+      <description>{{ youtube XQBTBsZZRTI {}
+If all Android phones came with DirectX and desktop graphics, then playing native games would be a breeze. Unfortautnetly, that is far from the case. So while you might not be able to play Fallout 4 on android, there is nothing stopping you from streaming it to your device. Here&amp;#8217;s how you can Stream Steams Games to Android.
+What You Will Need:  Nvidia 600 series or better graphics Card GeForce Experience App Moonlight  If your graphics card doesn&amp;#8217;t fit the requirements, then check out my other tutorial on how to Stream Steam Games to Android.</description>
+    </item>
+    
+  </channel>
+</rss>

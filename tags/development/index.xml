@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/development/</link>
+    <description>Recent content in Development on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Fri, 18 Aug 2017 13:10:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JavaScript Read USB</title>
+      <link>https://bennettnotes.com/javascript-read-usb/</link>
+      <pubDate>Fri, 18 Aug 2017 13:10:40 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/javascript-read-usb/</guid>
+      <description>You can now officially use JavaScript to read USB devices that are connected to your computer. This is using the new WebUSB API that is still in early draft. As being so, the API could later change or be removed altogether until it receives the final verification.
+In order to use WebUSB you need to be running the latest version of Google Chrome, with the experimental web platform features flag enabled.</description>
+    </item>
+    
+    <item>
+      <title>How to Install ADB</title>
+      <link>https://bennettnotes.com/how-to-install-adb/</link>
+      <pubDate>Fri, 07 Apr 2017 18:46:32 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-install-adb/</guid>
+      <description>The Android Development Bridge (ADB) is a vital part of Android App development, along with Android modding. Learning how to install ADB can help you later down the line. ADB allows you to access your Android phone via USB and issue commands to it. This can be really helpful for flashing roms, automated scripts or if your device is inaccessible through the normal Android interface. For this tutorial, we are going to focus on how to install ADB on Windows.</description>
+    </item>
+    
+    <item>
+      <title>Top Linux Apps</title>
+      <link>https://bennettnotes.com/top-linux-apps/</link>
+      <pubDate>Tue, 28 Mar 2017 15:28:08 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/top-linux-apps/</guid>
+      <description>I spent a couple of months using Linux as my secondary operating system. During that time, I came across some really useful Linux apps that satisfied my needs. So here&amp;#8217;s my list of the top Linux Apps.
+HTOP To view the running tasks in Linux, all you need to do is open up a terminal window and type in the command top. This will give you a quick running view of all the active processes on your system.</description>
+    </item>
+    
+  </channel>
+</rss>

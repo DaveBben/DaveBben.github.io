@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/new/</link>
+    <description>Recent content in New on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Wed, 22 Mar 2017 02:36:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/new/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What’s new in Android O?</title>
+      <link>https://bennettnotes.com/whats-new-android-o/</link>
+      <pubDate>Wed, 22 Mar 2017 02:36:52 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/whats-new-android-o/</guid>
+      <description>Google has just released the details of Android 0, the next version of Android. So what&amp;#8217;s new in Android O? You can find an overview of all the features over on the Android developer website. However, I want to share my favorite features slated to be in Android O.
+App Auto Fill Framework This new app autofill framework will allow users to select an app as their fill app.</description>
+    </item>
+    
+  </channel>
+</rss>

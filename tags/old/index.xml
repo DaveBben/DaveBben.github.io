@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Old on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/old/</link>
+    <description>Recent content in Old on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Tue, 14 Jul 2015 14:33:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/old/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install Android on Old PC</title>
+      <link>https://bennettnotes.com/install-android-on-pc/</link>
+      <pubDate>Tue, 14 Jul 2015 14:33:01 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/install-android-on-pc/</guid>
+      <description>Do you have an old computer just sitting around? If you are like me, then you probably have a couple of old PC&amp;#8217;s that once ran Windows XP but serve no useful purpose now. Of course, I could always just install and very lite version of Linux on it and call it a day. However, Linux takes a lot of time (compared to Windows) to set up and is a big learning curve for people who are unfamiliar with it.</description>
+    </item>
+    
+    <item>
+      <title>Play Sega Genesis Games on Android</title>
+      <link>https://bennettnotes.com/play-sega-genesis-games-on-android/</link>
+      <pubDate>Sat, 13 Jun 2015 03:53:16 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-sega-genesis-games-on-android/</guid>
+      <description>The Sega Genesis was my very first game console. What my gaming PC is to me now, was what my Sega Genesis meant to me back in 1999 (if that makes sense). There are so many old titles that I used to love playing. And those cartridges&amp;#8230;damn&amp;#8230;I loved those cartridges. The best thing was that there used to be a huge bin at stores like GameStop, where I could easily pick up a bunch of them for under $10.</description>
+    </item>
+    
+  </channel>
+</rss>

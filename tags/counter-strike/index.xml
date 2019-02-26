@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Counter Strike on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/counter-strike/</link>
+    <description>Recent content in Counter Strike on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Wed, 01 Feb 2017 02:52:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/counter-strike/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stream Steam Games to Android 2017</title>
+      <link>https://bennettnotes.com/stream-steam-games-android-2017/</link>
+      <pubDate>Wed, 01 Feb 2017 02:52:58 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/stream-steam-games-android-2017/</guid>
+      <description>{{ youtube XQBTBsZZRTI {}
+If all Android phones came with DirectX and desktop graphics, then playing native games would be a breeze. Unfortautnetly, that is far from the case. So while you might not be able to play Fallout 4 on android, there is nothing stopping you from streaming it to your device. Here&amp;#8217;s how you can Stream Steams Games to Android.
+What You Will Need:  Nvidia 600 series or better graphics Card GeForce Experience App Moonlight  If your graphics card doesn&amp;#8217;t fit the requirements, then check out my other tutorial on how to Stream Steam Games to Android.</description>
+    </item>
+    
+    <item>
+      <title>Counter Strike on Android</title>
+      <link>https://bennettnotes.com/counter-strike-android/</link>
+      <pubDate>Sun, 17 Apr 2016 17:00:20 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/counter-strike-android/</guid>
+      <description>&amp;nbsp;
+How would you like to play one of the most popular PC games of all time on your Android device? So, maybe playing Half-Life 2 and Team-Fortress classic on Android isn&amp;#8217;t cool enough for you. Well, how about Counter Strike on Android? Of course, this isn&amp;#8217;t going to be the latest Counter Strike Global Offensive with the Source Engine. It&amp;#8217;s going to be the old school original counter strike from the late 90s.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Replace Chrome OS with Windows - Bennett Notes</title>
+  <meta property="og:title" content="Replace Chrome OS with Windows" />
+  <meta name="twitter:title" content="Replace Chrome OS with Windows" />
+  <meta name="description" content="I love Chrome OS but I also realize that it&#8217;s pretty useless without an internet connection. Okay&#8230;maybe not pretty useless but _mostly useless._ I can&#8217;t game, program or do anything useful on Chrome OS other than browse the web. Luckily, if you are using a Chromebook with an Intel CPU (sorry Samsung Chromebook users) you can replace Chrome OS with Windows. Previously, I did a tutorial on How to install Windows on a Chromebook.">
+  <meta property="og:description" content="I love Chrome OS but I also realize that it&#8217;s pretty useless without an internet connection. Okay&#8230;maybe not pretty useless but _mostly useless._ I can&#8217;t game, program or do anything useful on Chrome OS other than browse the web. Luckily, if you are using a Chromebook with an Intel CPU (sorry Samsung Chromebook users) you can replace Chrome OS with Windows. Previously, I did a tutorial on How to install Windows on a Chromebook.">
+  <meta name="twitter:description" content="I love Chrome OS but I also realize that it&#8217;s pretty useless without an internet connection. Okay&#8230;maybe not pretty useless but _mostly useless._ I can&#8217;t game, program or do anything …">
+  <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bennett Notes",
+    
+    "url": "https://bennettnotes.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https://bennettnotes.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://bennettnotes.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://bennettnotes.com/replace-chrome-os-with-windows/",
+          "name": "Replace chrome o s with windows"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "dave"
+  },
+  "headline": "Replace Chrome OS with Windows",
+  "description" : "I love Chrome OS but I also realize that it&amp;#8217;s pretty useless without an internet connection. Okay&amp;#8230;maybe not pretty useless but _mostly useless._ I can&amp;#8217;t game, program or do anything useful on Chrome OS other than browse the web. Luckily, if you are using a Chromebook with an Intel CPU (sorry Samsung Chromebook users) you can replace Chrome OS with Windows. Previously, I did a tutorial on How to install Windows on a Chromebook.",
+  "inLanguage" : "en",
+  "wordCount": 846,
+  "datePublished" : "2017-01-23T22:53:34",
+  "dateModified" : "2017-01-23T22:53:34",
+  "image" : "https://bennettnotes.com/img/avatar-icon.png",
+  "keywords" : [ "bios, chrome os, chromebook, install windows 10, install windows 10 on chromebook, replace chrome os, windows 10" ],
+  "mainEntityOfPage" : "https://bennettnotes.com/replace-chrome-os-with-windows/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https://bennettnotes.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https://bennettnotes.com/img/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Replace Chrome OS with Windows" />
+<meta property="og:description" content="I love Chrome OS but I also realize that it&#8217;s pretty useless without an internet connection. Okay&#8230;maybe not pretty useless but _mostly useless._ I can&#8217;t game, program or do anything useful on Chrome OS other than browse the web. Luckily, if you are using a Chromebook with an Intel CPU (sorry Samsung Chromebook users) you can replace Chrome OS with Windows. Previously, I did a tutorial on How to install Windows on a Chromebook.">
+<meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://bennettnotes.com/replace-chrome-os-with-windows/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bennett Notes" />
+  <meta name="twitter:title" content="Replace Chrome OS with Windows" />
+  <meta name="twitter:description" content="I love Chrome OS but I also realize that it&#8217;s pretty useless without an internet connection. Okay&#8230;maybe not pretty useless but _mostly useless._ I can&#8217;t game, program or do anything …">
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <link href='https://bennettnotes.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <meta property="og:url" content="https://bennettnotes.com/replace-chrome-os-with-windows/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="https://bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bennettnotes.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://bennettnotes.com/css/syntax.css" /><link rel="stylesheet" href="https://bennettnotes.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><link rel="stylesheet" href="https://bennettnotes.com/css/override.css" />
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://bennettnotes.com">Bennett Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Programming" href="/categories/programming">Programming</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Technology</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories/android">Android</a>
+                
+                  <a href="/categories/chrome-os">Chrome OS</a>
+                
+                  <a href="/categories/gadgets">Gadgets</a>
+                
+                  <a href="/categories/linux">Linux</a>
+                
+                  <a href="/categories/windows">Windows</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Life" href="/categories/life">Life</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/page/search/">Search</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bennett Notes" href="https://bennettnotes.com">
+            <img class="avatar-img" src="https://bennettnotes.com/img/avatar-icon.png" alt="Bennett Notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Replace Chrome OS with Windows</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on January 23, 2017
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;4&nbsp;minutes
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;dave
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+            
+            
+            <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" width="300" height="150" allowfullscreen="allowfullscreen" data-src="//www.youtube.com/embed/SyrNH_qcvJg "></iframe></div>
+            <hr>
+            
+                <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6594501022141871"
+                data-ad-slot="6223025728"
+                data-ad-format="link"></ins>
+            <hr>
+
+            
+        
+
+<p>I love Chrome OS but I also realize that it&#8217;s pretty useless without an internet connection. Okay&#8230;maybe not <em>pretty useless</em> but _mostly useless._  I can&#8217;t game, program or do anything useful on Chrome OS other than browse the web. Luckily, if you are using a Chromebook with an <strong>Intel CPU</strong> (sorry Samsung Chromebook users)  you can replace Chrome OS with Windows. Previously, I did a tutorial on <a href="http://davebennett.tech/install-windows-10-on-chromebook/" target="_blank" rel="noopener">How to install Windows on a Chromebook</a>. I would recommend that you try that tutorial first because it involves a little less work and you&#8217;ll be able to go back to Chrome OS.</p>
+
+<h3 id="span-style-color-3366ff-differences-between-a-style-color-3366ff-href-http-davebennett-tech-install-windows-10-on-chromebook-target-blank-rel-noopener-how-to-install-windows-on-a-chromebook-a-and-this-tutorial-span"><span style="color: #3366ff;">Differences between <a style="color: #3366ff;" href="http://davebennett.tech/install-windows-10-on-chromebook/" target="_blank" rel="noopener">How to Install Windows on a Chromebook</a> and this tutorial:</span></h3>
+
+<p>In the first tutorial, I showed you how to install Windows without _completely_ removing Chrome OS. Yes, Chrome OS was no longer installed but the stock firmware stayed intact. In my opinion, this is the preferable way to install Windows 10 on a Chromebook. However, in that tutorial I (mistakenly) assumed that everyone would have SeaBios installed on their Chromebook. Seabios is what would allow you to type in CRTL + L to boot from other devices after you enabled developer mode and USB booting. To my dismay, only some Chromebook models (such as my Acer 720) come with SeaBios pre-installed. Therefore, the previous tutorial will not work for every Chromebook model.</p>
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-format="fluid"
+data-ad-layout="in-article"
+data-ad-client="ca-pub-6594501022141871"
+data-ad-slot="6999463098"></ins>
+
+
+<p>In this tutorial, we are going to avoid SeaBios altogether. Instead, we are going to flash custom firmware that will allow you to boot Windows in UEFI mode (something seabios couldn&#8217;t do). The advantage is that you will be able to use things like the HDMI out, virtualization and other hardware features available to Windows. In addition, your Chromebook will essentially be wiped of any trace of Chrome OS and you can also get rid of that scary OS Verification screen that displays every time you boot your Chromebook. Essentially, flashing new firmware (Full ROM) means that your Chromebook can be used like a normal laptop with practically any operating system, including Mac OS. The disadvantage is that <strong>you won&#8217;t <em>easily</em> be able to go back to Chrome OS</strong>. Got that? Good.</p>
+
+<h3 id="what-you-will-need">What You Will Need:</h3>
+
+<ul>
+<li>Chromebook</li>
+</ul>
+
+<h2 id="step-1-make-bootable-usb-drive">Step 1: Make Bootable USB Drive</h2>
+
+<p>First, you need to make a bootable USB drive of Windows 10. I&#8217;m going to let you in on a little secret, you can still download the <a href="https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced" target="_blank" rel="noopener">Windows 10 insider preview</a> straight from Microsoft for free. Now use a program called <a href="https://rufus.akeo.ie/" target="_blank" rel="noopener">Rufus </a>to make the bootable USB drive. Make sure to set your partition scheme for <strong>GPT for UEFI.</strong></p>
+
+<p><img src="/wp-content/uploads/2017/01/rufus-1.png" alt="" /></p>
+
+<h2 id="step-2-developer-mode">Step 2: Developer Mode</h2>
+
+<p>Next, you need to <a href="http://davebennett.tech/enable-developer-mode-on-chromebook/" target="_blank" rel="noopener">enable developer mode</a> on your Chromebook. You do not need to enable USB booting.</p>
+
+<h2 id="step-3-write-protect-screw">Step 3: Write Protect Screw</h2>
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-format="fluid"
+data-ad-layout="in-article"
+data-ad-client="ca-pub-6594501022141871"
+data-ad-slot="6999463098"></ins>
+
+
+<p>This step sounds really scary, but it&#8217;s not. Because you will be flashing a Full ROM firmware to your Chromebook, you will need to remove the write protect screw. Do a quick Google search to find where your write protect screw is located. On the Acer C720 it&#8217;s located near the SSD.</p>
+
+<p><img src="/wp-content/uploads/2017/01/Write-protect-screw-acer-c720-1.png" alt="" /></p>
+
+<h2 id="step-4-flashing-new-firmware">Step 4: Flashing new Firmware</h2>
+
+<p>Now we&#8217;re at the fun step. Open up a Chrome window and hold <strong>CRTL + Alt + T</strong> to go into the terminal window. Type in the following:</p>
+
+<pre>shell</pre>
+
+<pre>cd; curl -L -O https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh</pre>
+
+<p>That will downlaod the firmware utility script. Once it runs, you should see a main window appear. Press option <strong>3</strong> to install the new firmware. Remember, <strong>you will not be able to go back to Chrome OS&#8230;easily</strong>.</p>
+
+<p>When it ask you for the version of the bios, make sure you <strong>type in U.</strong> You want UEFI and not legacy (though you could use legacy and still be able to boot Chrome OS and Windows, but then&#8230;what&#8217;s the point of doing this whole tutorial? If that&#8217;s what you want to do, simply read through <a href="http://davebennett.tech/enable-developer-mode-on-chromebook/" target="_blank" rel="noopener">How to Install Windows 10 on a Chromebook</a>. Ignore that whole statement if your Chromebook does not have seabios installed though).</p>
+
+<p>Once it gets done, turn off your Chromebook.</p>
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-format="fluid"
+data-ad-layout="in-article"
+data-ad-client="ca-pub-6594501022141871"
+data-ad-slot="6999463098"></ins>
+
+
+<h2 id="step-5-windows-installation">Step 5: Windows Installation</h2>
+
+<p>Now it&#8217;s time to install Windows. Make sure the USB drive is inserted. You will also need to connect an external USB mouse and keyboard for the installation. Before you install windows, you must wipe your hard drive. Go to <strong>repair your computer.</strong></p>
+
+<p>Go to <strong>troubleshoot</strong>, <strong>advanced</strong> and select <strong>command promp</strong>t. Type in the following:</p>
+
+<pre>Diskpart</pre>
+
+<pre>List Disk</pre>
+
+<pre>Select Disk 0 (this could be different depending on your setup, but most likely will be 0. Your main HDD)</pre>
+
+<pre>clean</pre>
+
+<p>Afterward, reboot your computer and resume the installation.</p>
+
+<h2 id="step-6-drivers">Step 6: Drivers</h2>
+
+<p>So a developer by the name of Coolstar wrote drivers for many Chromebook modules out there. I am going <a href="https://coolstar.org/chromebook/windows-install.html" target="_blank" rel="noopener">to link you to his website</a> so that you can download his drivers and use the onboard trackpad and keyboard on your Chromebook.</p>
+
+<p>Before you install the drivers though, open up command prompt and type in the following:</p>
+
+<pre>bcdedit -set testsigning on</pre>
+
+<p>That&#8217;s it! You have successfully replaced Chrome OS with Windows 10. Leave your thoughts and comments below!</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://bennettnotes.com/tags/bios/">bios</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/chrome-os/">chrome os</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/chromebook/">chromebook</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/install-windows-10/">install windows 10</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/install-windows-10-on-chromebook/">install windows 10 on chromebook</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/replace-chrome-os/">replace chrome os</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/windows-10/">windows 10</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fbennettnotes.com%2freplace-chrome-os-with-windows%2f&amp;text=Replace%20Chrome%20OS%20with%20Windows&amp;via=_davebennett" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fbennettnotes.com%2freplace-chrome-os-with-windows%2f" target="_blank" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbennettnotes.com%2freplace-chrome-os-with-windows%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fbennettnotes.com%2freplace-chrome-os-with-windows%2f&amp;title=Replace%20Chrome%20OS%20with%20Windows" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fbennettnotes.com%2freplace-chrome-os-with-windows%2f&amp;title=Replace%20Chrome%20OS%20with%20Windows" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fbennettnotes.com%2freplace-chrome-os-with-windows%2f&amp;title=Replace%20Chrome%20OS%20with%20Windows" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fbennettnotes.com%2freplace-chrome-os-with-windows%2f&amp;description=Replace%20Chrome%20OS%20with%20Windows" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+              </div>
+            </section>
+        
+
+        
+          
+          
+          <h4 class="see-also">See also</h4>
+          <ul>
+          
+            <li><a href="/install-windows-10-on-chromebook/">Install Windows 10 on Chromebook</a></li>
+          
+            <li><a href="/install-kodi-on-chromebook/">Install Kodi on Chromebook</a></li>
+          
+            <li><a href="/counter-strike-global-offensive-on-chromebook/">Counter Strike Global Offensive on Chromebook</a></li>
+          
+          </ul>
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://bennettnotes.com/create-shared-network-folde-linux-r/" data-toggle="tooltip" data-placement="top" title="Create Shared Network Folder Linux">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://bennettnotes.com/stream-steam-games-android-2017/" data-toggle="tooltip" data-placement="top" title="Stream Steam Games to Android 2017">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:dave@bennettnotes.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DaveBben" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_davebennett" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DaveBben" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/opensourcegangster" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://bennettnotes.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="bennettnotes.com">Dave Bennett</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://bennettnotes.com">Bennett Notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Theme by adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/main.js"></script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+<script
+  async
+  src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6594501022141871",
+    enable_page_level_ads: true
+  });
+</script>
+<script>
+  function init() {
+    var vidDefer = document.getElementsByTagName("iframe");
+    for (var i = 0; i < vidDefer.length; i++) {
+      if (vidDefer[i].getAttribute("data-src")) {
+        vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
+      }
+    }
+  }
+  window.onload = init;
+</script>
+
+
+  </body>
+</html>
+

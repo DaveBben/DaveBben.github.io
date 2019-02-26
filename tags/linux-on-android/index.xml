@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Android on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/linux-on-android/</link>
+    <description>Recent content in Linux on Android on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Thu, 21 Jan 2016 00:50:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/linux-on-android/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Run Linux on Android</title>
+      <link>https://bennettnotes.com/run-linux-on-android/</link>
+      <pubDate>Thu, 21 Jan 2016 00:50:08 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-linux-on-android/</guid>
+      <description>One of the coolest things that you could possibly do with your Android device is to run Linux on it (A full desktop operating system, in the palm of your hand). If you are asking yourself what Linux is exactly, this might help give you a quick explanation.
+So what advantages would you get out of running Linux on your Android device? Well, besides doing things like running a Minecraft server and building your own cloud, you have a full suite of applications and&amp;#8230;.</description>
+    </item>
+    
+  </channel>
+</rss>

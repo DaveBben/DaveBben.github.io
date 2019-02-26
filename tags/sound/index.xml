@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sound on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/sound/</link>
+    <description>Recent content in Sound on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Fri, 18 Mar 2016 15:27:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/sound/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Silent Boot Android</title>
+      <link>https://bennettnotes.com/silent-boot-android/</link>
+      <pubDate>Fri, 18 Mar 2016 15:27:33 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/silent-boot-android/</guid>
+      <description>{{ youtube NuDiqttzrm4 {}
+I hate the carrier boot sound when restarting my phone. Here&amp;#8217;s how to boot without hearing it.
+This video includes a Sponsored Message from Norton.
+Check out Norton&amp;#8217;s The Most Dangerous Town Ep. 2 &amp;#8211; http://full.sc/MDT-OSG</description>
+    </item>
+    
+    <item>
+      <title>Android Boost Speaker Volume</title>
+      <link>https://bennettnotes.com/android-boost-speaker-volume/</link>
+      <pubDate>Wed, 02 Jul 2014 04:08:11 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-boost-speaker-volume/</guid>
+      <description>Let&amp;#8217;s face it. Even at max volume, sometimes the speaker on your phone just isn&amp;#8217;t loud enough (Yes, I&amp;#8217;m looking at you Nexus 5). However, you could digitally raise the maximum volume that the speaker allows itself to go to. This will require a rooted android device and could run the risk of damaging your speakers if you go too high, so be warned.
+What You will Need:  A rooted Android Device ES File Explorer  Step 1: Mounting the System Open up ES file explorer and enable the root explorer.</description>
+    </item>
+    
+  </channel>
+</rss>

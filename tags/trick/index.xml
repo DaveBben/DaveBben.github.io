@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trick on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/trick/</link>
+    <description>Recent content in Trick on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sat, 26 Nov 2016 04:21:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/trick/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Make Cortana use Google</title>
+      <link>https://bennettnotes.com/make-cortana-use-google/</link>
+      <pubDate>Sat, 26 Nov 2016 04:21:40 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/make-cortana-use-google/</guid>
+      <description>{{ youtube 8QrzRbx87wk {}
+As you know, Microsoft Cortana has become an integral part of Windows 10. I wouldn&amp;#8217;t mind Cortana so much if Microsoft didn&amp;#8217;t force it upon us. One thing which really bothers me about Cortana is that it defaults to Microsoft Edge and Bing. I am a Google person, so I would prefer if it used Google Search and Google Chrome. Before the Windows 10 Anniversary update, there used to be a way to change the default behavior.</description>
+    </item>
+    
+    <item>
+      <title>Use Android as Second Monitor</title>
+      <link>https://bennettnotes.com/use-android-as-second-monitor/</link>
+      <pubDate>Fri, 19 Aug 2016 18:31:47 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/use-android-as-second-monitor/</guid>
+      <description>{{ youtube POpctRaXkrk {}
+Having more than one monitor is useful for any power user (porn on one, games on another). So it&amp;#8217;s possible to use an android device as a secondary monitor, but I recommend actually buying one if you want an easy setup. With that said, if you have a spare Android device laying around, you can use it as another monitor in your setup. To do this, we are going to use Windows and &amp;#8220;trick&amp;#8221; it into thinking that you have another monitor connected and then use TeamViewer to access the &amp;#8220;fake&amp;#8221; monitor.</description>
+    </item>
+    
+  </channel>
+</rss>

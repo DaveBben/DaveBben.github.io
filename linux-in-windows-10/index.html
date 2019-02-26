@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Linux in Windows 10 - Bennett Notes</title>
+  <meta property="og:title" content="Linux in Windows 10" />
+  <meta name="twitter:title" content="Linux in Windows 10" />
+  <meta name="description" content="Microsoft has done something really cool in the Windows 10 Anniversary Update. They gave users the ability to use the Linux Bash Command Line from within Windows. This is not through a virtual machine nor container, but a subsystem that they previously added in an earlier Windows update. Here&#8217;s how you can enable Linux in Windows 10:
+What You Will Need:  Windows 10 Anniversary Update  How To: ­">
+  <meta property="og:description" content="Microsoft has done something really cool in the Windows 10 Anniversary Update. They gave users the ability to use the Linux Bash Command Line from within Windows. This is not through a virtual machine nor container, but a subsystem that they previously added in an earlier Windows update. Here&#8217;s how you can enable Linux in Windows 10:
+What You Will Need:  Windows 10 Anniversary Update  How To: ­">
+  <meta name="twitter:description" content="Microsoft has done something really cool in the Windows 10 Anniversary Update. They gave users the ability to use the Linux Bash Command Line from within Windows. This is not through a virtual machine …">
+  <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bennett Notes",
+    
+    "url": "https://bennettnotes.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https://bennettnotes.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://bennettnotes.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://bennettnotes.com/linux-in-windows-10/",
+          "name": "Linux in windows 10"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "dave"
+  },
+  "headline": "Linux in Windows 10",
+  "description" : "Microsoft has done something really cool in the Windows 10 Anniversary Update. They gave users the ability to use the Linux Bash Command Line from within Windows. This is not through a virtual machine nor container, but a subsystem that they previously added in an earlier Windows update. Here&amp;#8217;s how you can enable Linux in Windows 10:
+What You Will Need:  Windows 10 Anniversary Update  How To: ­",
+  "inLanguage" : "en",
+  "wordCount": 165,
+  "datePublished" : "2016-08-27T03:15:02",
+  "dateModified" : "2016-08-27T03:15:02",
+  "image" : "https://bennettnotes.com/img/avatar-icon.png",
+  "keywords" : [ "anniversary, bash, emulate, linux, ubuntu, update, windows 10" ],
+  "mainEntityOfPage" : "https://bennettnotes.com/linux-in-windows-10/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https://bennettnotes.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https://bennettnotes.com/img/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Linux in Windows 10" />
+<meta property="og:description" content="Microsoft has done something really cool in the Windows 10 Anniversary Update. They gave users the ability to use the Linux Bash Command Line from within Windows. This is not through a virtual machine nor container, but a subsystem that they previously added in an earlier Windows update. Here&#8217;s how you can enable Linux in Windows 10:
+What You Will Need:  Windows 10 Anniversary Update  How To: ­">
+<meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://bennettnotes.com/linux-in-windows-10/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bennett Notes" />
+  <meta name="twitter:title" content="Linux in Windows 10" />
+  <meta name="twitter:description" content="Microsoft has done something really cool in the Windows 10 Anniversary Update. They gave users the ability to use the Linux Bash Command Line from within Windows. This is not through a virtual machine …">
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <link href='https://bennettnotes.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <meta property="og:url" content="https://bennettnotes.com/linux-in-windows-10/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="https://bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bennettnotes.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://bennettnotes.com/css/syntax.css" /><link rel="stylesheet" href="https://bennettnotes.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><link rel="stylesheet" href="https://bennettnotes.com/css/override.css" />
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://bennettnotes.com">Bennett Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Programming" href="/categories/programming">Programming</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Technology</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories/android">Android</a>
+                
+                  <a href="/categories/chrome-os">Chrome OS</a>
+                
+                  <a href="/categories/gadgets">Gadgets</a>
+                
+                  <a href="/categories/linux">Linux</a>
+                
+                  <a href="/categories/windows">Windows</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Life" href="/categories/life">Life</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/page/search/">Search</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bennett Notes" href="https://bennettnotes.com">
+            <img class="avatar-img" src="https://bennettnotes.com/img/avatar-icon.png" alt="Bennett Notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Linux in Windows 10</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on August 27, 2016
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;dave
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+            
+            
+            <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" width="300" height="150" allowfullscreen="allowfullscreen" data-src="//www.youtube.com/embed/M_zrMcbaIAY "></iframe></div>
+            <hr>
+            
+                <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6594501022141871"
+                data-ad-slot="6223025728"
+                data-ad-format="link"></ins>
+            <hr>
+
+            
+        
+
+<p>Microsoft has done something really cool in the Windows 10 Anniversary Update. They gave users the ability to use the Linux Bash Command Line from within Windows. This is not through a virtual machine nor container, but a subsystem that they previously added in an earlier Windows update. Here&#8217;s how you can enable Linux in Windows 10:</p>
+
+<h3 id="what-you-will-need">What You Will Need:</h3>
+
+<ul>
+<li><a href="https://support.microsoft.com/en-us/help/12387/windows-10-update-history" target="_blank" rel="noopener">Windows 10 Anniversary Update</a></li>
+</ul>
+
+<h2 id="how-to">How To:</h2>
+
+<p>­</p>
+
+<p>First, go into the start menu and search for the Windows Update Settings.</p>
+
+<p><img class="alignnone size-large wp-image-1659" src="http://www.davebennett.tech/wp-content/uploads/2016/08/Windows-Update-Settings-1024x576.jpg" alt="Windows Update Settings" width="640" height="360" srcset="http://localhost/wordpress/wp-content/uploads/2016/08/Windows-Update-Settings-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/08/Windows-Update-Settings-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/08/Windows-Update-Settings-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/08/Windows-Update-Settings.jpg 1280w" sizes="(max-width: 640px) 100vw, 640px" /></p>
+
+<p>Go to the tab that says “For Developers” and enable <em>Developer mode.</em></p>
+
+<p><img class="alignnone size-large wp-image-1658" src="http://www.davebennett.tech/wp-content/uploads/2016/08/Developer-Mode-1024x576.jpg" alt="Developer Mode" width="640" height="360" srcset="http://localhost/wordpress/wp-content/uploads/2016/08/Developer-Mode-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/08/Developer-Mode-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/08/Developer-Mode-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/08/Developer-Mode.jpg 1280w" sizes="(max-width: 640px) 100vw, 640px" /></p>
+
+<p>Then go into Programs and Features. Select the option to turn Widows features on or off. In the Window, select the option “Windows Subsystem for Linux” then <strong>reboot</strong> your computer.</p>
+
+<p><img class="alignnone size-large wp-image-1657" src="http://www.davebennett.tech/wp-content/uploads/2016/08/Windows-Features-1024x576.jpg" alt="Windows Features" width="640" height="360" srcset="http://localhost/wordpress/wp-content/uploads/2016/08/Windows-Features-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/08/Windows-Features-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/08/Windows-Features-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/08/Windows-Features.jpg 1280w" sizes="(max-width: 640px) 100vw, 640px" /></p>
+
+<p>Now, when you type in bash in the start menu, you should see the bash command line. When you launch it, it will run the setup.</p>
+
+<p>That’s it, now you have access to the Linux command line and even the apt repository.</p>
+
+<p><img class="alignnone wp-image-1656 size-large" src="http://www.davebennett.tech/wp-content/uploads/2016/08/bash-1024x576.jpg" alt="Linux in Windows 10" width="640" height="360" srcset="http://localhost/wordpress/wp-content/uploads/2016/08/bash-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/08/bash-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/08/bash-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/08/bash.jpg 1280w" sizes="(max-width: 640px) 100vw, 640px" /></p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://bennettnotes.com/tags/anniversary/">anniversary</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/bash/">bash</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/emulate/">emulate</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/linux/">linux</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/ubuntu/">ubuntu</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/update/">update</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/windows-10/">windows 10</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fbennettnotes.com%2flinux-in-windows-10%2f&amp;text=Linux%20in%20Windows%2010&amp;via=_davebennett" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fbennettnotes.com%2flinux-in-windows-10%2f" target="_blank" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbennettnotes.com%2flinux-in-windows-10%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fbennettnotes.com%2flinux-in-windows-10%2f&amp;title=Linux%20in%20Windows%2010" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fbennettnotes.com%2flinux-in-windows-10%2f&amp;title=Linux%20in%20Windows%2010" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fbennettnotes.com%2flinux-in-windows-10%2f&amp;title=Linux%20in%20Windows%2010" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fbennettnotes.com%2flinux-in-windows-10%2f&amp;description=Linux%20in%20Windows%2010" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+              </div>
+            </section>
+        
+
+        
+          
+          
+          <h4 class="see-also">See also</h4>
+          <ul>
+          
+            <li><a href="/run-ubuntu-13-10-on-android/">Run Ubuntu 13.10 on Android</a></li>
+          
+            <li><a href="/mac-os-on-chromebook/">Mac OS on Chromebook</a></li>
+          
+            <li><a href="/remotely-turn-on-computer-with-linux/">Remotely Turn on Computer with Linux</a></li>
+          
+          </ul>
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://bennettnotes.com/use-android-as-second-monitor/" data-toggle="tooltip" data-placement="top" title="Use Android as Second Monitor">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://bennettnotes.com/galaxy-note-7-exploding/" data-toggle="tooltip" data-placement="top" title="Galaxy Note 7 Exploding">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:dave@bennettnotes.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DaveBben" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_davebennett" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DaveBben" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/opensourcegangster" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://bennettnotes.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="bennettnotes.com">Dave Bennett</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://bennettnotes.com">Bennett Notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Theme by adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/main.js"></script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+<script
+  async
+  src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6594501022141871",
+    enable_page_level_ads: true
+  });
+</script>
+<script>
+  function init() {
+    var vidDefer = document.getElementsByTagName("iframe");
+    for (var i = 0; i < vidDefer.length; i++) {
+      if (vidDefer[i].getAttribute("data-src")) {
+        vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
+      }
+    }
+  }
+  window.onload = init;
+</script>
+
+
+  </body>
+</html>
+

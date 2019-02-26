@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/game/</link>
+    <description>Recent content in Game on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 10 Dec 2017 22:27:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build a Multiplayer game using Javascript</title>
+      <link>https://bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/</link>
+      <pubDate>Sun, 10 Dec 2017 22:27:10 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/</guid>
+      <description>In this tutorial, we will take a look at how to build a multiplayer game using Javascript and NodeJS. My goal is to take you through the basic setup so that you can begin focusing on the actual gameplay. When building a full-scale MMO, there are a lot of things to consider like load balancing, network contingencies, etc. For now, we are going to focus on the bare minimum just to help you get an understanding of how you can creatively and effectively use the available tools of NodeJS to get started.</description>
+    </item>
+    
+    <item>
+      <title>Hearthstone on Chromebook</title>
+      <link>https://bennettnotes.com/hearthstone-on-chromebook-2/</link>
+      <pubDate>Thu, 23 Jun 2016 20:10:19 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/hearthstone-on-chromebook-2/</guid>
+      <description>Hearthstone is a very popular game which I coincidentally don&amp;#8217;t play. However, I do spend quite a lot of time on my Chromebook and love seeing how far I can push its compatibility with software. Naturally, the idea of running Hearthstone on Chromebook appealed to me. After all, Counter Strike, TeamFortress and PlayStation 2 games work, so I don&amp;#8217;t see why Hearthstone wouldn&amp;#8217;t.
+If you haven&amp;#8217;t guessed already, we are going to be using Linux to make this work.</description>
+    </item>
+    
+    <item>
+      <title>Hearthstone on Chromebook</title>
+      <link>https://bennettnotes.com/hearthstone-on-chromebook/</link>
+      <pubDate>Thu, 23 Jun 2016 20:10:19 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/hearthstone-on-chromebook/</guid>
+      <description>Hearthstone is a very popular game which I coincidentally don&amp;#8217;t play. However, I do spend quite a lot of time on my Chromebook and love seeing how far I can push its compatibility with software. Naturally, the idea of running Hearthstone on Chromebook appealed to me. After all, Counter Strike, TeamFortress and PlayStation 2 games work, so I don&amp;#8217;t see why Hearthstone wouldn&amp;#8217;t.
+If you haven&amp;#8217;t guessed already, we are going to be using Linux to make this work.</description>
+    </item>
+    
+    <item>
+      <title>Galaxy S7 Features: Game Launcher</title>
+      <link>https://bennettnotes.com/galaxy-s7-features-game-launcher/</link>
+      <pubDate>Sun, 13 Mar 2016 15:46:26 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/galaxy-s7-features-game-launcher/</guid>
+      <description>{{ youtube O9_0DBVH0Xc {}
+The Galaxy S7 features a Game Launcher that is actually very convenient and easy to use while adding useful features during gameplay.</description>
+    </item>
+    
+    <item>
+      <title>Play Half Life on Android Wear</title>
+      <link>https://bennettnotes.com/play-half-life-on-android-wear/</link>
+      <pubDate>Thu, 23 Jul 2015 00:50:43 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-half-life-on-android-wear/</guid>
+      <description>{{ youtube VnGscfbCz1g {}
+Just because you can, doesn&amp;#8217;t mean you should. But in this case, you totally should. If you recall, I demonstrated how to play Team Fortress Classic on Android using the SDLash app. The app is able to emulate the GoldSource game engine, which was used in many of the classic valve games such as Half-Life and Team Fortress. Right now, I am putting together a tutorial on how to play Half-life on Android, but in the meantime, check out how to do it on Android Wear (albeit a little more complicated).</description>
+    </item>
+    
+    <item>
+      <title>Play Team Fortress Classic on Android</title>
+      <link>https://bennettnotes.com/play-team-fortress-classic-on-android/</link>
+      <pubDate>Sat, 18 Jul 2015 07:00:51 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-team-fortress-classic-on-android/</guid>
+      <description>Have you ever imagined that you would be able to play a Steam game on your phone? Well, I hope so, because I already demonstrated how to play Portal on your Android device. In any case, it&amp;#8217;s even easier to play Team Fortress Classic on Android. This is all thanks to an app called SDLash3D which uses the SDL library that allows you to do some really cool emulation such as running Windows 95 on your device.</description>
+    </item>
+    
+    <item>
+      <title>Play Runescape on Chromebook</title>
+      <link>https://bennettnotes.com/play-runescape-on-chromebook/</link>
+      <pubDate>Sat, 20 Jun 2015 23:24:45 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-runescape-on-chromebook/</guid>
+      <description>{{ youtube HLdPepraVGA {}
+Back in fourth grade, I used to spend hours playing Runescape. At the time, I thought it was the most exciting and adventurous game out there. However, it&amp;#8217;s been about nine years since I have last played the game, so I am very behind on the latest additions and enhancements. In any case, if you are an active player, you will be happy to know that you can play this on your Chromebook.</description>
+    </item>
+    
+    <item>
+      <title>Run Minecraft Server on Android</title>
+      <link>https://bennettnotes.com/run-minecraft-server-on-android/</link>
+      <pubDate>Mon, 18 May 2015 04:22:26 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-minecraft-server-on-android/</guid>
+      <description>{{ youtube UY2CZc1ul8U {}
+Here is how you can run Minecraft server on your Android device. This will allow anyone playing Minecraft on the desktop to connect to the server running on your device. To do this, you will first need to install Linux to your Android device then install java and run the Minecraft server jar file. It is actually a fairly easy process and takes no more than 15 minutes altogether.</description>
+    </item>
+    
+    <item>
+      <title>Counter Strike Global Offensive on Chromebook</title>
+      <link>https://bennettnotes.com/counter-strike-global-offensive-on-chromebook/</link>
+      <pubDate>Sun, 05 Apr 2015 15:44:44 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/counter-strike-global-offensive-on-chromebook/</guid>
+      <description>{{ youtube qvYVZQPwGxI {}
+Counter Strike Global Offensive on Chromebook? Are you tired of playing the same old games on your Chromebook? Well, with a little help from Linux and Steam you can play CS:Go on your Chromebook. Of course, this will only work with the Intel powered Chromebooks. As far as performance, it&amp;#8217;s playable. On average, I am getting around 23-30 fps in games. It&amp;#8217;s nowhere close to the performance that I get on my desktop, but is still playable none the less.</description>
+    </item>
+    
+    <item>
+      <title>Play Portal on any Android</title>
+      <link>https://bennettnotes.com/play-portal-on-any-android/</link>
+      <pubDate>Thu, 08 Jan 2015 19:33:18 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-portal-on-any-android/</guid>
+      <description>Ah yes, who doesn&amp;#8217;t love a good game of Portal? If you are lucky enough to own an Nvidia Shield (or any Tegra 4 device), you already have access to the game plus more exclusives. But what if you do not own an Nvidia Shield? Well there is still a way to play Portal thanks to an app called GLTools. GLtTools will emulate the Tegra 4 drivers, so that the app thinks you are using a Tegra 4 device.</description>
+    </item>
+    
+  </channel>
+</rss>

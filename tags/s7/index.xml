@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S7 on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/s7/</link>
+    <description>Recent content in S7 on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 13 Mar 2016 15:57:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/s7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Galaxy S7 RAM Management</title>
+      <link>https://bennettnotes.com/galaxy-s7-ram-management/</link>
+      <pubDate>Sun, 13 Mar 2016 15:57:35 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/galaxy-s7-ram-management/</guid>
+      <description>{{ youtube oodCHShweYY {}
+Here&amp;#8217;s a look at the Galaxy S7 RAM Management. Has Samsung improved over the S6&amp;#8217;s terribly aggressive memory management?</description>
+    </item>
+    
+    <item>
+      <title>Galaxy S7 Features: Game Launcher</title>
+      <link>https://bennettnotes.com/galaxy-s7-features-game-launcher/</link>
+      <pubDate>Sun, 13 Mar 2016 15:46:26 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/galaxy-s7-features-game-launcher/</guid>
+      <description>{{ youtube O9_0DBVH0Xc {}
+The Galaxy S7 features a Game Launcher that is actually very convenient and easy to use while adding useful features during gameplay.</description>
+    </item>
+    
+    <item>
+      <title>Galaxy S7 Review – Don’t Buy into Hype</title>
+      <link>https://bennettnotes.com/galaxy-s7-review-dont-buy-hype/</link>
+      <pubDate>Sun, 13 Mar 2016 15:42:22 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/galaxy-s7-review-dont-buy-hype/</guid>
+      <description>{{ youtube dWxHDh51zDs {}
+The Galaxy S7 Review is here. Although I am very critical on Samsung&amp;#8217;s skin, I would say that the S7/S7 edge might be the best smartphone of 2016.</description>
+    </item>
+    
+    <item>
+      <title>Galaxy S7 Unboxing</title>
+      <link>https://bennettnotes.com/galaxy-s7-unboxing/</link>
+      <pubDate>Sat, 12 Mar 2016 17:04:32 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/galaxy-s7-unboxing/</guid>
+      <description>{{ youtube MZRXTrEPNiY {}
+A Galaxy S7 Unboxing.</description>
+    </item>
+    
+  </channel>
+</rss>

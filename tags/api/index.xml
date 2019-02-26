@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Api on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/api/</link>
+    <description>Recent content in Api on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Thu, 22 Mar 2018 03:53:44 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React Context API</title>
+      <link>https://bennettnotes.com/react-context-api/</link>
+      <pubDate>Thu, 22 Mar 2018 03:53:44 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/react-context-api/</guid>
+      <description>I&amp;#8217;m sure you have probably heard of the fancy new React Context API. It&amp;#8217;s a new way for you to manage application state. If you are building a large react application, you have probably encountered a problem where you needed to access and share data across multiple components. For example, we might have information on the currently authenticated user that multiple components need information on. To solve this issue, you might use a library like Redux or Mobx.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Read USB</title>
+      <link>https://bennettnotes.com/javascript-read-usb-2/</link>
+      <pubDate>Sun, 15 Oct 2017 17:49:06 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/javascript-read-usb-2/</guid>
+      <description>You can now officially use JavaScript to read USB devices that are connected to your computer. This is using the new WebUSB API that is still in early draft. As being so, the API could later change or be removed altogether until it receives the final verification.
+In order to use WebUSB you need to be running the latest version of Google Chrome, with the experimental web platform features flag enabled.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Read USB</title>
+      <link>https://bennettnotes.com/javascript-read-usb/</link>
+      <pubDate>Fri, 18 Aug 2017 13:10:40 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/javascript-read-usb/</guid>
+      <description>You can now officially use JavaScript to read USB devices that are connected to your computer. This is using the new WebUSB API that is still in early draft. As being so, the API could later change or be removed altogether until it receives the final verification.
+In order to use WebUSB you need to be running the latest version of Google Chrome, with the experimental web platform features flag enabled.</description>
+    </item>
+    
+  </channel>
+</rss>

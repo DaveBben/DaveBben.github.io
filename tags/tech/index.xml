@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/tech/</link>
+    <description>Recent content in Tech on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Mon, 04 Jul 2016 14:35:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>USB Condom &amp; MicFlip</title>
+      <link>https://bennettnotes.com/usb-condom-micflip/</link>
+      <pubDate>Mon, 04 Jul 2016 14:35:32 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/usb-condom-micflip/</guid>
+      <description>{{ youtube I-tBo2_eR48 {}
+So here is some interesting tech under $25 that I have been using.
+USB Condom: https://goo.gl/HkUacx
+MicFlip: https://goo.gl/Ui7fkb</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu 16.04 on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/ubuntu-16.04/</link>
+    <description>Recent content in Ubuntu 16.04 on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Wed, 15 Mar 2017 02:03:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/ubuntu-16.04/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dual Boot Windows 10 and Ubuntu</title>
+      <link>https://bennettnotes.com/dual-boot-windows-10-and-ubuntu/</link>
+      <pubDate>Wed, 15 Mar 2017 02:03:23 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/dual-boot-windows-10-and-ubuntu/</guid>
+      <description>I woke up Sunday Morning with a cool project in mind. I wanted to dual boot Windows 10 and Ubuntu. The real reason for this was because I decided to give Jekyll a try and it was going to be my replacement for WordPress, but I digress. Another major reason to dual-boot Windows 10 and Ubuntu was so that I could keep all of my Android development and Web development stuff within Ubuntu and use Windows solely for video editing and gaming.</description>
+    </item>
+    
+  </channel>
+</rss>

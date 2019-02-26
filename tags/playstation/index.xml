@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Playstation on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/playstation/</link>
+    <description>Recent content in Playstation on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 06 Nov 2016 15:00:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/playstation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Play PlayStation 3 Games on PC</title>
+      <link>https://bennettnotes.com/play-playstation-3-games-on-pc/</link>
+      <pubDate>Sun, 06 Nov 2016 15:00:15 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-playstation-3-games-on-pc/</guid>
+      <description>{{ youtube JrIdxHpAUm8 {}
+Although the PlayStation 4 is the latest console from Sony, the PlayStation 3 is still a popular game system that is enjoyed by many. One group of developers have been actively working to bring the PlayStation 3 experience to your PC. RPCS3 is an open source PlayStation 3 emulator. The emulator is still in early alpha stages, so don&amp;#8217;t expect many commercial titles to be compatible.</description>
+    </item>
+    
+    <item>
+      <title>Play PS2 Games on Android</title>
+      <link>https://bennettnotes.com/play-ps2-games-on-android/</link>
+      <pubDate>Sat, 04 Jul 2015 20:24:58 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-ps2-games-on-android/</guid>
+      <description>I am not lying when I tell you that there is an actual PS2 emulator available for Android. No, I am not talking about one of the many fake ones that you see in the Play Store. I am talking about an actual app with the purpose of emulating the PlayStation 2. Now don&amp;#8217;t get too excited. This app is still in the very early stages. The only commercial title that I have got booting so far has been Final Fantasy X.</description>
+    </item>
+    
+    <item>
+      <title>How to Play PS2 Games on Chromebook</title>
+      <link>https://bennettnotes.com/how-to-play-ps2-games-on-chromebook/</link>
+      <pubDate>Fri, 29 May 2015 03:55:05 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-play-ps2-games-on-chromebook/</guid>
+      <description>{{ youtube WbiInD2oB5I {}
+I always said to never underestimate the power of Chromebooks, and here is another reason not to. You can play play PlayStation 2 Games on your Chromebook. In order to do this, you will need to have Linux** installed on your Chromebook. **We are going to use the popular PCSX2 emulator for Linux. So it&amp;#8217;s also important that you have an Intel powered chromebook.
+[adinserter block=&amp;#8221;5&amp;#8243;]</description>
+    </item>
+    
+    <item>
+      <title>Play PSP Games on Android</title>
+      <link>https://bennettnotes.com/play-psp-games-android/</link>
+      <pubDate>Tue, 17 Feb 2015 19:56:15 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-psp-games-android/</guid>
+      <description>{{ youtube d9NxlMTDi88 {}
+Play PSP Games on Android Yes, you can play PSP games on your Android device. This is not a gimmick, nor some sort of absurd remote VNC. This is pure emulation right on your Android device. It is all thanks to the app PPSSPP. Surprisingly, some games work with excellent frame rate and graphics quality (Naruto for example). Keep in mind though, not every game will be compatible and it will not work with every device.</description>
+    </item>
+    
+    <item>
+      <title>Play PlayStation Games on Android</title>
+      <link>https://bennettnotes.com/play-playstation-games-on-android/</link>
+      <pubDate>Sat, 31 Aug 2013 03:01:03 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-playstation-games-on-android/</guid>
+      <description>{{ youtube UA9WCJO6X44 {}
+Do you miss the good old PlayStation days? I am talking about the original PlayStation with the 1MB Memory cards (I had a lot of those) and the boring yet simplistic outer-body design? If so, there is hope for you. Thanks to multiple apps in the Play Store, you can play PlayStation games on Android.
+[adinserter block=&amp;#8221;5&amp;#8243;]
+Emulation has come so far on Android. It amazes me at just how many titles are compatible with the PlayStation emulators.</description>
+    </item>
+    
+  </channel>
+</rss>

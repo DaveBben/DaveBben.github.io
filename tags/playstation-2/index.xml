@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Playstation 2 on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/playstation-2/</link>
+    <description>Recent content in Playstation 2 on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sat, 04 Jul 2015 20:24:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/playstation-2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Play PS2 Games on Android</title>
+      <link>https://bennettnotes.com/play-ps2-games-on-android/</link>
+      <pubDate>Sat, 04 Jul 2015 20:24:58 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-ps2-games-on-android/</guid>
+      <description>I am not lying when I tell you that there is an actual PS2 emulator available for Android. No, I am not talking about one of the many fake ones that you see in the Play Store. I am talking about an actual app with the purpose of emulating the PlayStation 2. Now don&amp;#8217;t get too excited. This app is still in the very early stages. The only commercial title that I have got booting so far has been Final Fantasy X.</description>
+    </item>
+    
+  </channel>
+</rss>

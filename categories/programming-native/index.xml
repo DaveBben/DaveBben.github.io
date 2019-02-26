@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming Native on Bennett Notes</title>
+    <link>https://bennettnotes.com/categories/programming-native/</link>
+    <description>Recent content in Programming Native on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Wed, 07 Mar 2018 01:11:04 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/categories/programming-native/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React Native Android App Receive Data from Share Intent</title>
+      <link>https://bennettnotes.com/react-native-android-receive-data-from-share-intent/</link>
+      <pubDate>Wed, 07 Mar 2018 01:11:04 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/react-native-android-receive-data-from-share-intent/</guid>
+      <description>This whole problem started when I was working with an app in React Native. I wanted the app to be able to open when it received data from another app through the &amp;#8220;share with&amp;#8221; intent. For example, if I share an URL through the YouTube app, I wanted my app to be recognized as one of the apps that could handle the URL and open it.
+I am going to spoil the fun and tell you that there&amp;#8217;s no easy way to do it straight through javascript with React Native.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enable on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/enable/</link>
+    <description>Recent content in Enable on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sat, 04 Apr 2015 16:31:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/enable/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Enable Developer mode on Chromebook</title>
+      <link>https://bennettnotes.com/enable-developer-mode-on-chromebook/</link>
+      <pubDate>Sat, 04 Apr 2015 16:31:05 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/enable-developer-mode-on-chromebook/</guid>
+      <description>Are you looking to install Linux on your Chromebook or Windows 10? If so, the first thing that you will need to do is enable developer mode on your Chromebook. Also, these instructions could differ depending on your Chromebook model. For this tutorial, I am going to be using the Acer C720.
+Enable Developer Mode on Chromebook: This process will erase everything on your Chromebook. So backup anything that you might need.</description>
+    </item>
+    
+  </channel>
+</rss>

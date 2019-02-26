@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/react/</link>
+    <description>Recent content in React on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Wed, 04 Apr 2018 22:14:49 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React Login with Google Firebase</title>
+      <link>https://bennettnotes.com/react-login-with-google-firebase/</link>
+      <pubDate>Wed, 04 Apr 2018 22:14:49 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/react-login-with-google-firebase/</guid>
+      <description>There are many opinionated solutions for building a React Login with Google Firebase. I generally prefer an approach where the user isn&amp;#8217;t shown the main UI until he is logged in. And if the user logs out, we immediately kick him back to the login screen. Luckily, this isn&amp;#8217;t hard to do at all.
+Dependencies The only dependency you will need is the Firebase API. You can install this form the Node Package Manager.</description>
+    </item>
+    
+    <item>
+      <title>React Native StackNavigator Tutorial</title>
+      <link>https://bennettnotes.com/react-native-stacknavigator-tutorial/</link>
+      <pubDate>Mon, 26 Mar 2018 02:00:19 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/react-native-stacknavigator-tutorial/</guid>
+      <description>I have spent hours trying to figure out how to actually use the React Native Stacknavigator to navigate between screens. All the tutorials and guides seem to be missing important information, and the official React Native documentation is truly lacking in substance. So I want to save you some headache and give you a quick and easy setup to using the React Native StackNavigator.
+You need to Eject If you created your react-native project using the command:</description>
+    </item>
+    
+    <item>
+      <title>React Context API</title>
+      <link>https://bennettnotes.com/react-context-api/</link>
+      <pubDate>Thu, 22 Mar 2018 03:53:44 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/react-context-api/</guid>
+      <description>I&amp;#8217;m sure you have probably heard of the fancy new React Context API. It&amp;#8217;s a new way for you to manage application state. If you are building a large react application, you have probably encountered a problem where you needed to access and share data across multiple components. For example, we might have information on the currently authenticated user that multiple components need information on. To solve this issue, you might use a library like Redux or Mobx.</description>
+    </item>
+    
+  </channel>
+</rss>

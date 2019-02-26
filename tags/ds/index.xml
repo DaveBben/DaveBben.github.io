@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ds on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/ds/</link>
+    <description>Recent content in Ds on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Tue, 01 Jul 2014 15:52:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/ds/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Play Nintendo DS Games on Android</title>
+      <link>https://bennettnotes.com/how-to-play-nintendo-ds-games-on-android/</link>
+      <pubDate>Tue, 01 Jul 2014 15:52:32 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-play-nintendo-ds-games-on-android/</guid>
+      <description>The Nintendo DS was by far one of my favorite portable game systems. However, these were the days before smartphone gaming became the norm. If you&amp;#8217;re feeling nostalgic and in the mood to play some DS games on your Android device, it&amp;#8217;s very easy thanks to the DraStic DS emulator. Here&amp;#8217;s how to play Nintendo DS games on Android:
+What You&amp;#8217;ll Need:  A Nintendo Game (nds Rom)(You can Google it) DraStic DS Emulator (Demo) DraStic DS Emulator (Full)  Step 1: Transferring the Rom to Your Device The first thing you need to do is transfer the Rom to your device.</description>
+    </item>
+    
+  </channel>
+</rss>

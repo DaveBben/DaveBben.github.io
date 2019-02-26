@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>How to build a Supercomputer - Bennett Notes</title>
+  <meta property="og:title" content="How to build a Supercomputer" />
+  <meta name="twitter:title" content="How to build a Supercomputer" />
+  <meta name="description" content="{{ youtube F8U4TrOlwEQ {}
+So you want to build a supercomputer? Well, if you checked out my video on quantum computing you&#8217;ll know that scientist are working to make computers stronger and faster than ever. Unfortunately, building a quantum computer is not something you can do at home, unless your home is a laboratory of course. All hope isn&#8217;t lost though, you can still go on to build your very own supercomputer.">
+  <meta property="og:description" content="{{ youtube F8U4TrOlwEQ {}
+So you want to build a supercomputer? Well, if you checked out my video on quantum computing you&#8217;ll know that scientist are working to make computers stronger and faster than ever. Unfortunately, building a quantum computer is not something you can do at home, unless your home is a laboratory of course. All hope isn&#8217;t lost though, you can still go on to build your very own supercomputer.">
+  <meta name="twitter:description" content="{{ youtube F8U4TrOlwEQ {}
+So you want to build a supercomputer? Well, if you checked out my video on quantum computing you&#8217;ll know that scientist are working to make computers stronger and …">
+  <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bennett Notes",
+    
+    "url": "https://bennettnotes.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https://bennettnotes.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://bennettnotes.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://bennettnotes.com/how-to-build-a-supercomputer/",
+          "name": "How to build a supercomputer"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "dave"
+  },
+  "headline": "How to build a Supercomputer",
+  "description" : "{{ youtube F8U4TrOlwEQ {}
+So you want to build a supercomputer? Well, if you checked out my video on quantum computing you&amp;#8217;ll know that scientist are working to make computers stronger and faster than ever. Unfortunately, building a quantum computer is not something you can do at home, unless your home is a laboratory of course. All hope isn&amp;#8217;t lost though, you can still go on to build your very own supercomputer.",
+  "inLanguage" : "en",
+  "wordCount": 1077,
+  "datePublished" : "2016-01-13T03:20:26",
+  "dateModified" : "2016-01-13T03:20:26",
+  "image" : "https://bennettnotes.com/img/avatar-icon.png",
+  "keywords" : [ "build, computer, how to, linux, supercomputer, tutorial, ubuntu" ],
+  "mainEntityOfPage" : "https://bennettnotes.com/how-to-build-a-supercomputer/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https://bennettnotes.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https://bennettnotes.com/img/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="How to build a Supercomputer" />
+<meta property="og:description" content="{{ youtube F8U4TrOlwEQ {}
+So you want to build a supercomputer? Well, if you checked out my video on quantum computing you&#8217;ll know that scientist are working to make computers stronger and faster than ever. Unfortunately, building a quantum computer is not something you can do at home, unless your home is a laboratory of course. All hope isn&#8217;t lost though, you can still go on to build your very own supercomputer.">
+<meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://bennettnotes.com/how-to-build-a-supercomputer/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bennett Notes" />
+  <meta name="twitter:title" content="How to build a Supercomputer" />
+  <meta name="twitter:description" content="{{ youtube F8U4TrOlwEQ {}
+So you want to build a supercomputer? Well, if you checked out my video on quantum computing you&#8217;ll know that scientist are working to make computers stronger and …">
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <link href='https://bennettnotes.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <meta property="og:url" content="https://bennettnotes.com/how-to-build-a-supercomputer/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="https://bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bennettnotes.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://bennettnotes.com/css/syntax.css" /><link rel="stylesheet" href="https://bennettnotes.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><link rel="stylesheet" href="https://bennettnotes.com/css/override.css" />
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://bennettnotes.com">Bennett Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Programming" href="/categories/programming">Programming</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Technology</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories/android">Android</a>
+                
+                  <a href="/categories/chrome-os">Chrome OS</a>
+                
+                  <a href="/categories/gadgets">Gadgets</a>
+                
+                  <a href="/categories/linux">Linux</a>
+                
+                  <a href="/categories/windows">Windows</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Life" href="/categories/life">Life</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/page/search/">Search</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bennett Notes" href="https://bennettnotes.com">
+            <img class="avatar-img" src="https://bennettnotes.com/img/avatar-icon.png" alt="Bennett Notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>How to build a Supercomputer</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on January 13, 2016
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;6&nbsp;minutes
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;dave
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+            
+            <img src="/wp-content/uploads/2016/01/How-to-build-a-superocmputer.jpg" class="thumbnail img-responsive">
+            <hr>
+            
+                <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6594501022141871"
+                data-ad-slot="6223025728"
+                data-ad-format="link"></ins>
+            <hr>
+            
+        
+
+<p>{{ youtube F8U4TrOlwEQ {}</p>
+
+<p>So you want to build a supercomputer?  Well, if you checked out my video on quantum computing you&#8217;ll know that scientist are working to make computers stronger and faster than ever. Unfortunately, building a quantum computer is not something you can do at home, unless your home is a laboratory of course. All hope isn&#8217;t lost though, you can still go on to build your very own supercomputer. To do this, we will be making a Linux cluster. A cluster is a set of loosely or tightly connected computers that work together so that they can be viewed as a single system.</p>
+
+<p>[adinserter block=&#8221;5&#8243;]</p>
+
+<p>For this Linux cluster, we will be using the program called <a href="https://www.mpich.org/" target="_blank">MPICH</a>. MPICH is an implmentation of the Message Passing Interface (MPI) standard. This system is widely used in parallel computing in order to pass information to different worker nodes on the network. One thing to note for this tutorial, I will not be making use of a shared file system. However, using a shared file system will make your life a lot easier. Without using a shared file system (as I will show below), you will need to have the file paths and usernames the same on both system. Now, let&#8217;s take a look at how to build a supercomputer.</p>
+
+<h3 id="what-you-will-need">What You Will Need:</h3>
+
+<ul>
+<li>At least two devices running Linux</li>
+<li><a href="http://www.mpich.org/downloads/" target="_blank">MPICH</a></li>
+</ul>
+
+<p><span style="color: #999999;"><em><strong>I am going to assume that you are running a debian based distro</strong></em></span></p>
+
+<h2 id="step-1-download-prerequisites">Step 1: Download Prerequisites</h2>
+
+<p>Before we get started, you will need to make sure that you have the GCC, G++, Openssh and Fortran compiler installed. Type in the following:</p>
+
+<pre>sudo apt-get update
+
+sudo apt-get upgrade
+
+sudo apt-get install gcc
+
+sudo apt-get install g++
+
+sudo apt-get install openssh-server
+
+sudo apt-get install gfortran</pre>
+
+<h2 id="step-2-create-new-user">Step 2: Create New User</h2>
+
+<p>Next, you need to create a new user and add them to the sudo group. Keep in mind, <strong>the username must be exactly the same on both systems</strong> (this is where using a shared file system would save some time).</p>
+
+<pre>sudo adduser dave
+
+sudo adduser dave sudo</pre>
+
+<p><img src="/wp-content/uploads/2016/01/Adduser-dave-1024x576.jpg" alt="" /></p>
+
+<p>This will create a new user called Dave and add him to the sudo group. Remember, repeat this process on all the other computers that you are planning to use in the final super computer (use the same username). Now log out and back in to that user.</p>
+
+<h2 id="step-3-edit-hosts-file">Step 3: Edit Hosts File</h2>
+
+<p>To make life a little easier, we are going to give names to all the computers on the network instead of just referring to them by their IP address. To do this, you must edit the host file. I am first going to install the nano text editor</p>
+
+<pre>sudo apt-get install nano
+
+sudo nano /etc/hosts</pre>
+
+<p>Make sure that your hosts file looks similar to mine. Of course, replace the IP addresses (and names if you desire) to the appropriate values matching your network. Hit CRTL +O to save and CRTL + X to exit.</p>
+
+<p><img src="/wp-content/uploads/2016/01/host-file-1024x576.jpg" alt="" /></p>
+
+<p>To test is type in the following:</p>
+
+<pre>ping worker0</pre>
+
+<p>Of course, replace worker0 with whatever you called the other computer. It should be able to communicate with the other computer without failure.</p>
+
+<p><img src="/wp-content/uploads/2016/01/ping-test-1024x576.jpg" alt="" /></p>
+
+<h2 id="step-4-configure-mpich-program">Step 4: Configure MPICH Program</h2>
+
+<p>Download the mpich.tar.gz file for your system. Unzip it using whatever method you like (I prefer just to use the gui).</p>
+
+<p><img src="/wp-content/uploads/2016/01/Extract-1024x576.jpg" alt="" /></p>
+
+<p>Make a directory in your <strong>home</strong> folder called mpich.</p>
+
+<pre>mkdir mpich</pre>
+
+<p>Then navigate to the mpich.zip that you just extracted and run the configure file.</p>
+
+<pre>cd Downloads
+
+cd mpich.your.version
+
+./configure --prefix=/home/dave/mpich</pre>
+
+<p>This will configure the files and put them in the mpich folder that you made in your home directory. Now, make the program:</p>
+
+<pre>make
+
+make install</pre>
+
+<p>Finally, copy the examples folder (located inside the mpich.your.version.tar.gz that you extracted) and moved that to the MPICH folder inside of your home directory. I am going to use the GUI (explorer) rather than doing it from terminal.</p>
+
+<p><em><strong>**Remember, all of these steps must be repeated on all Systems on the network**</strong></em></p>
+
+<h2 id="step-5-bashrc">Step 5: Bashrc</h2>
+
+<p>Next, you need to export that paths to your .bashrc file.In your <strong>home</strong> directory type in the following:</p>
+
+<pre>nano .bashrc</pre>
+
+<p>At the bottom of the file, add in the following lines:</p>
+
+<pre>export PATH=/home/dave/mpich/bin:$PATH
+
+export PATH
+
+LD_LIBRARY_PATH="/home/dave/mpich/lib:$LD_LIBRARY)PATH"
+
+export LD_LIBRARY_PATH</pre>
+
+<p>Then, type CRTL + O to save and CRTL + X to exit.</p>
+
+<p><img src="/wp-content/uploads/2016/01/nashrc-1024x576.jpg" alt="" /></p>
+
+<p>To test that it works type in:</p>
+
+<pre>which mpicc</pre>
+
+<p>You should see the folder path. Do it again with mpiexec</p>
+
+<pre>which mpiexec</pre>
+
+<p><img src="/wp-content/uploads/2016/01/bashrctest-1024x576.jpg" alt="" /></p>
+
+<h2 id="step-6-processor-file">Step 6: Processor file</h2>
+
+<p>We need to have a file that specifies to MPICH the computers on the network and the number of processes that we want them to handle. Navigate to the MPICH directory in your home folder. Create a file (I&#8217;ll call it hosts) and within that file identify the computer name with the number of processes.</p>
+
+<pre>cd Mpich
+
+nano hosts</pre>
+
+<p>Then, type CRTL + O to save and CRTL + X to exit.</p>
+
+<p><img src="/wp-content/uploads/2016/01/computerfile-1024x576.jpg" alt="" /></p>
+
+<h2 id="step-7-password-less-ssh">Step 7: Password-less SSH</h2>
+
+<p>The final thing that we need to do is make sure that you can connect via ssh to the other computer(s) without needing a password. Let&#8217;s generate the ssh key.</p>
+
+<pre>ssh-keygen</pre>
+
+<p>Keep all the following values default and don&#8217;t specify a pass phrase. Finally, type in:</p>
+
+<pre>ssh-copy-id worker0</pre>
+
+<p>Replace &#8220;worker0&#8221; with the appropriate computer on your network. This will copy the ssh-key to that computer. It might prompt you to log in using the password for the first-time. In any case, try to ssh into that computer and make sure that you don&#8217;t need to enter a password.</p>
+
+<pre>ssh worker0</pre>
+
+<p>If it works, type &#8220;exit&#8221; to exit the ssh.</p>
+
+<h2 id="step-8-testing">Step 8: Testing</h2>
+
+<p>Now it&#8217;s time for us to test the super computer. Just to summarize, the above steps were all so that we can set up all the computers to effectively communicate to each other on the network using the MPICH interface. Navigate to the Examples folder inside of the Mpich directory in your home folder and run the pi example program. Within the run command, you can specify the number of processes that you want to use:</p>
+
+<pre>cd Mpich
+
+cd Examples
+
+mpi exec -n 4 -f /home/dave/mpi/hosts ./cpi</pre>
+
+<p>If everything works, you should see a similar output.</p>
+
+<p><img src="/wp-content/uploads/2016/01/output-1024x576.jpg" alt="" /></p>
+
+<p>As you can see, the computer splits up the tasks to each individual computer on the network. Now keep in mind, this is just a simple program that calculates the absolute value of pi. Imagine if we developed a more complex program with many devices on the network, this would be extraordinary!</p>
+
+<p>&nbsp;</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://bennettnotes.com/tags/build/">build</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/computer/">computer</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/how-to/">how to</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/linux/">linux</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/supercomputer/">supercomputer</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/tutorial/">tutorial</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/ubuntu/">ubuntu</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fbennettnotes.com%2fhow-to-build-a-supercomputer%2f&amp;text=How%20to%20build%20a%20Supercomputer&amp;via=_davebennett" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fbennettnotes.com%2fhow-to-build-a-supercomputer%2f" target="_blank" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbennettnotes.com%2fhow-to-build-a-supercomputer%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fbennettnotes.com%2fhow-to-build-a-supercomputer%2f&amp;title=How%20to%20build%20a%20Supercomputer" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fbennettnotes.com%2fhow-to-build-a-supercomputer%2f&amp;title=How%20to%20build%20a%20Supercomputer" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fbennettnotes.com%2fhow-to-build-a-supercomputer%2f&amp;title=How%20to%20build%20a%20Supercomputer" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fbennettnotes.com%2fhow-to-build-a-supercomputer%2f&amp;description=How%20to%20build%20a%20Supercomputer" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+              </div>
+            </section>
+        
+
+        
+          
+          
+          <h4 class="see-also">See also</h4>
+          <ul>
+          
+            <li><a href="/how-to-play-ps2-games-on-chromebook/">How to Play PS2 Games on Chromebook</a></li>
+          
+            <li><a href="/league-of-legends-on-linux/">League of Legends on Linux</a></li>
+          
+            <li><a href="/create-your-own-personal-cloud-server/">Create Your Own Personal Cloud Server</a></li>
+          
+          </ul>
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://bennettnotes.com/lock-computer-android/" data-toggle="tooltip" data-placement="top" title="Lock Computer from Android">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://bennettnotes.com/install-kodi-on-chromebook/" data-toggle="tooltip" data-placement="top" title="Install Kodi on Chromebook">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:dave@bennettnotes.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DaveBben" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_davebennett" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DaveBben" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/opensourcegangster" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://bennettnotes.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="bennettnotes.com">Dave Bennett</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://bennettnotes.com">Bennett Notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Theme by adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/main.js"></script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+<script
+  async
+  src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6594501022141871",
+    enable_page_level_ads: true
+  });
+</script>
+<script>
+  function init() {
+    var vidDefer = document.getElementsByTagName("iframe");
+    for (var i = 0; i < vidDefer.length; i++) {
+      if (vidDefer[i].getAttribute("data-src")) {
+        vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
+      }
+    }
+  }
+  window.onload = init;
+</script>
+
+
+  </body>
+</html>
+

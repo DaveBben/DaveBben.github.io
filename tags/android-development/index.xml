@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android Development on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/android-development/</link>
+    <description>Recent content in Android Development on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sat, 13 Jan 2018 15:06:53 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/android-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android Recyclerview for Installed Apps with Checkbox</title>
+      <link>https://bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/</link>
+      <pubDate>Sat, 13 Jan 2018 15:06:53 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/</guid>
+      <description>One of the most common reasons that you would want to use the android recyclerview is if you want to show a list of some sort. In this example, let&amp;#8217;s take a look at how you can use the android recyclerview to show a list of installed apps on your device. Within each item, we will also include a checkbox. Here&amp;#8217;s what it will look like:
+Layout Let&amp;#8217;s first take care of creating the layout files.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android Hacks on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/android-hacks/</link>
+    <description>Recent content in Android Hacks on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 28 May 2017 03:43:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/android-hacks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android WiFi Jammer</title>
+      <link>https://bennettnotes.com/android-wifi-jammer/</link>
+      <pubDate>Sun, 28 May 2017 03:43:01 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-wifi-jammer/</guid>
+      <description>For less than $10, you can have an Android WiFI Jammer up and running. To get started, you are going to need to have the NodeMCU. It&amp;#8217;s a WiFI development chip that&amp;#8217;s usually used in Raspberry Pi and Arduino projects. However, the chip can also be used as a standalone device (it has its own CPU and memory) as long as you give it sufficient power. This means you can power it through another Android phone, your computer, power bank or any device that&amp;#8217;s capable of supplying power over USB.</description>
+    </item>
+    
+    <item>
+      <title>5 Actually Cool Android Tricks</title>
+      <link>https://bennettnotes.com/5-actually-cool-android-tricks/</link>
+      <pubDate>Thu, 11 May 2017 23:41:52 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/5-actually-cool-android-tricks/</guid>
+      <description>Here are 5 actually cool Android tricks that you can try on your device. A couple of these tricks will require that you have adb installed on your computer. None of these tricks require root.
+Hide Soft Keys Softkeys are usually convenient to have but can eat up precious screen real estate. Unfortunately, not many android developers give users to ability to use their app in immersive mode (which autohides the softkeys).</description>
+    </item>
+    
+  </channel>
+</rss>

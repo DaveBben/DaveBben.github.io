@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emulaiton on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/emulaiton/</link>
+    <description>Recent content in Emulaiton on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Mon, 06 Apr 2015 03:18:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/emulaiton/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install Ubuntu 14.04 on Chromebook</title>
+      <link>https://bennettnotes.com/install-ubuntu-14-04-on-chromebook/</link>
+      <pubDate>Mon, 06 Apr 2015 03:18:10 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/install-ubuntu-14-04-on-chromebook/</guid>
+      <description>{{ youtube 3u_QolSJYoY {}
+I am always looking for different ways that I can extend the capability of my Chromebook. It&amp;#8217;s not that I don&amp;#8217;t like Chrome OS, but sometimes I need to launch a C compiler or run java apps when I am away from home. I might even get in the mood to play Minecraft during a long car ride. Luckily, there is an easy answer to all of this.</description>
+    </item>
+    
+  </channel>
+</rss>

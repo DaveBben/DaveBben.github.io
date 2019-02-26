@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smash on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/smash/</link>
+    <description>Recent content in Smash on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 04 Oct 2015 22:06:53 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/smash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Super Smash Bros Meele on Android</title>
+      <link>https://bennettnotes.com/super-smash-bros-meele-on-android/</link>
+      <pubDate>Sun, 04 Oct 2015 22:06:53 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/super-smash-bros-meele-on-android/</guid>
+      <description>One of the best things about Android is that there are a lot of emulators for the platform. You can play games from the PS2, Nintendo DS, PSP, etc. No other mobile platform comes close to the same amount of emulation apps. With that said, one popular emulator that has been lurking around for quite some time is the Dolphin Emulator. It&amp;#8217;s capable of emulating GameCube and Wii games.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dvice on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/dvice/</link>
+    <description>Recent content in Dvice on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Tue, 17 Feb 2015 19:14:44 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/dvice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Run Python on Android</title>
+      <link>https://bennettnotes.com/run-python-android/</link>
+      <pubDate>Tue, 17 Feb 2015 19:14:44 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-python-android/</guid>
+      <description>{{ youtube hhgF3ioY-zU {}
+Have you ever wanted to program on your phone? Well, believe it or not, you can craft code right in the palm of your hands. Python is not only a flexible programming language, it is also capable of running on your Android phone thanks to the app QPython3.
+[adinserter block=&amp;#8221;5&amp;#8243;]
+Run Python on Android What You&amp;#8217;ll Need:  QPython3  With QPython3 you have access you to a multitude of tools.</description>
+    </item>
+    
+  </channel>
+</rss>

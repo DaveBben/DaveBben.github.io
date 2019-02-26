@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Query on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/query/</link>
+    <description>Recent content in Query on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Wed, 27 Dec 2017 15:15:04 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/query/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PHP Query SQL Database return JSON</title>
+      <link>https://bennettnotes.com/php-query-sql-database-return-json/</link>
+      <pubDate>Wed, 27 Dec 2017 15:15:04 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/php-query-sql-database-return-json/</guid>
+      <description>As a Javascript developer, I always prefer to use NodeJS as my API endpoint when interacting with a backend database. Unfortunately, it&amp;#8217;s not always feasible to use NodeJS (especially in a shared hosting environment) and you might have to fall back to good old PHP. So here&amp;#8217;s a quick refresher on how you can perform queries to a SQL database using PHP from an Ajax or Fetch call.
+Fetch Call Suppose I have the following XMLhttp request using the fetch API:</description>
+    </item>
+    
+  </channel>
+</rss>

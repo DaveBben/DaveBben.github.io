@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Engine on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/engine/</link>
+    <description>Recent content in Engine on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Mon, 04 Sep 2017 13:49:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/engine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dark Theme any App</title>
+      <link>https://bennettnotes.com/dark-theme-any-app/</link>
+      <pubDate>Mon, 04 Sep 2017 13:49:37 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/dark-theme-any-app/</guid>
+      <description>I absolutely love dark themes in my apps. Not only is it easier on the eyes, but having a true amoled black theme could save you battery life on certain devices like the Galaxy S8. Unfortunately, not every app comes with a dark theme option. So if you want to dark theme any app on your device you will need to use the theme engine called Substratum. Substratum could give you a dark theme Instagram, dark them Facebook, dark theme Inbox, etc.</description>
+    </item>
+    
+    <item>
+      <title>Read Car Computer with Android</title>
+      <link>https://bennettnotes.com/read-car-computer-android/</link>
+      <pubDate>Sat, 02 Apr 2016 15:10:06 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/read-car-computer-android/</guid>
+      <description>{{ youtube 5CznLF7JvU0 {}
+You can use a bluetooth OBD II tool with your Android device to read important information from your car&amp;#8217;s computer and even see real time data.
+OBD II: https://goo.gl/rQb68v
+Torque App: https://goo.gl/UDNCDT</description>
+    </item>
+    
+    <item>
+      <title>Best Paranoid Android Features</title>
+      <link>https://bennettnotes.com/best-paranoid-android-features/</link>
+      <pubDate>Tue, 16 Sep 2014 17:28:03 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/best-paranoid-android-features/</guid>
+      <description>{{ youtube //www.youtube.com/embed/3YDYy9FsncI {}
+Paranoid Android is by far one of my favorite custom roms.. It provides a stock like experience with added functionality. Each month the PA team has added a new signature feature to this amazing rom. So here&amp;#8217;s a look at some of the best paranoid android features.
+Dynamic System Bars:   The newest feature found on Paranoid Android is Dynamic System bars. DSB allows you to tint your status and navigation bars to the color of the foreground app.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Top on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/top/</link>
+    <description>Recent content in Top on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 03 Jul 2016 14:36:59 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/top/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Top Samsung Galaxy Apps</title>
+      <link>https://bennettnotes.com/top-samsung-galaxy-android-apps/</link>
+      <pubDate>Sun, 03 Jul 2016 14:36:59 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/top-samsung-galaxy-android-apps/</guid>
+      <description>{{ youtube oaJq5gZN-cU {}
+Here is my pick for some of the most useful Samsung Galaxy apps.</description>
+    </item>
+    
+    <item>
+      <title>Top Features Android N</title>
+      <link>https://bennettnotes.com/top-features-android-n/</link>
+      <pubDate>Sat, 26 Mar 2016 15:18:48 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/top-features-android-n/</guid>
+      <description>{{ youtube Rjbi1TkNLDI {}
+The Android N Developer Preview has arrived. Here are some of the top new features you can find in Android N.
+&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Best Paranoid Android Features</title>
+      <link>https://bennettnotes.com/best-paranoid-android-features/</link>
+      <pubDate>Tue, 16 Sep 2014 17:28:03 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/best-paranoid-android-features/</guid>
+      <description>{{ youtube //www.youtube.com/embed/3YDYy9FsncI {}
+Paranoid Android is by far one of my favorite custom roms.. It provides a stock like experience with added functionality. Each month the PA team has added a new signature feature to this amazing rom. So here&amp;#8217;s a look at some of the best paranoid android features.
+Dynamic System Bars:   The newest feature found on Paranoid Android is Dynamic System bars. DSB allows you to tint your status and navigation bars to the color of the foreground app.</description>
+    </item>
+    
+  </channel>
+</rss>

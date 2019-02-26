@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>League on Chromebook on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/league-on-chromebook/</link>
+    <description>Recent content in League on Chromebook on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Thu, 16 Jun 2016 15:40:26 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/league-on-chromebook/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>League on Chromebook</title>
+      <link>https://bennettnotes.com/league-on-chromebook/</link>
+      <pubDate>Thu, 16 Jun 2016 15:40:26 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/league-on-chromebook/</guid>
+      <description>I have received many requests to do a video of League on Chromebook. Well, it shouldn&amp;#8217;t be too surprising that it works. All it takes is running Windows on your Chromebook. The biggest limitation that I face was the insufficient hard drive space on my Chromebook (Acer C720). To solve that issue, I installed League to a flash drive. Of course, this had a negative effect on the game&amp;#8217;s load time.</description>
+    </item>
+    
+  </channel>
+</rss>

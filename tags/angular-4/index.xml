@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angular 4 on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/angular-4/</link>
+    <description>Recent content in Angular 4 on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sat, 13 Jan 2018 15:12:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/angular-4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Angular 4 Forms</title>
+      <link>https://bennettnotes.com/angular-4-forms-2/</link>
+      <pubDate>Sat, 13 Jan 2018 15:12:40 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/angular-4-forms-2/</guid>
+      <description>One of my favorite features in Angular are forms. Using Angular 4 forms or Angular 5 forms are very helpful because they provide for quick validation and object mapping. Here&amp;#8217;s how you can create a basic angular 4 form (also works with angular 2, and angular 5).
+HTML You will also notice that I am using Bootstrap for some styling, that is completely optional. Let&amp;#8217;s look at the form HTML:</description>
+    </item>
+    
+    <item>
+      <title>Angular 4 Forms</title>
+      <link>https://bennettnotes.com/angular-4-forms/</link>
+      <pubDate>Sat, 13 Jan 2018 15:12:40 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/angular-4-forms/</guid>
+      <description>One of my favorite features in Angular are forms. Using Angular 4 forms or Angular 5 forms are very helpful because they provide for quick validation and object mapping. Here&amp;#8217;s how you can create a basic angular 4 form (also works with angular 2, and angular 5).
+HTML You will also notice that I am using Bootstrap for some styling, that is completely optional. Let&amp;#8217;s look at the form HTML:</description>
+    </item>
+    
+    <item>
+      <title>Subscribe to variable change in Angular 4 Service</title>
+      <link>https://bennettnotes.com/subscribe-to-variable-change-in-angular-4-service/</link>
+      <pubDate>Fri, 22 Dec 2017 14:40:18 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/subscribe-to-variable-change-in-angular-4-service/</guid>
+      <description>If you want to subscribe to variable change in Angular 4 service or Angular 5 service, you can use something called the BehaviorSubject from the rxjs library. A behavior subject is like an observable, except that it must be created with an initial value as it is must always return a value even if the subject hasn&amp;#8217;t been updated. A behavior subject will always emit it&amp;#8217;s first value as soon as it&amp;#8217;s described.</description>
+    </item>
+    
+  </channel>
+</rss>

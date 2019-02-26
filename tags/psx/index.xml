@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Psx on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/psx/</link>
+    <description>Recent content in Psx on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 06 Nov 2016 15:00:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/psx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Play PlayStation 3 Games on PC</title>
+      <link>https://bennettnotes.com/play-playstation-3-games-on-pc/</link>
+      <pubDate>Sun, 06 Nov 2016 15:00:15 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-playstation-3-games-on-pc/</guid>
+      <description>{{ youtube JrIdxHpAUm8 {}
+Although the PlayStation 4 is the latest console from Sony, the PlayStation 3 is still a popular game system that is enjoyed by many. One group of developers have been actively working to bring the PlayStation 3 experience to your PC. RPCS3 is an open source PlayStation 3 emulator. The emulator is still in early alpha stages, so don&amp;#8217;t expect many commercial titles to be compatible.</description>
+    </item>
+    
+    <item>
+      <title>Play PlayStation Games on Android</title>
+      <link>https://bennettnotes.com/play-playstation-games-on-android/</link>
+      <pubDate>Sat, 31 Aug 2013 03:01:03 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-playstation-games-on-android/</guid>
+      <description>{{ youtube UA9WCJO6X44 {}
+Do you miss the good old PlayStation days? I am talking about the original PlayStation with the 1MB Memory cards (I had a lot of those) and the boring yet simplistic outer-body design? If so, there is hope for you. Thanks to multiple apps in the Play Store, you can play PlayStation games on Android.
+[adinserter block=&amp;#8221;5&amp;#8243;]
+Emulation has come so far on Android. It amazes me at just how many titles are compatible with the PlayStation emulators.</description>
+    </item>
+    
+  </channel>
+</rss>

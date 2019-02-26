@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry Pi on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 07 May 2017 00:19:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi Webserver</title>
+      <link>https://bennettnotes.com/raspberry-pi-webserver/</link>
+      <pubDate>Sun, 07 May 2017 00:19:41 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/raspberry-pi-webserver/</guid>
+      <description>One of the reasons that I purchased a Raspberry Pi was so that I can do local website development. Of course, I could have easily set this all up with Windows, but my desktop is already cluttered enough. And with a Raspberry Pi Webserver, I can set up scipts to run independently of my desktop. Here&amp;#8217;s how to setup a Raspberry Pi Webserver
+What You Will Need:  Raspberry Pi  Setup Static IP Address It would be very annoying to have a website that always changes its address.</description>
+    </item>
+    
+    <item>
+      <title>Delete Pi User on Raspberry Pi</title>
+      <link>https://bennettnotes.com/delete-pi-user-on-raspberry-pi/</link>
+      <pubDate>Sun, 07 May 2017 00:13:45 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/delete-pi-user-on-raspberry-pi/</guid>
+      <description>One of the first things you should do when setting up the Raspberry Pi is to change the default password for the pi user. Personally, I would rather just delete the user altogether and create my own user. So here&amp;#8217;s how I deleted the Pi user on Raspberry Pi.
+Make sure that you backup any important data from your Pi user that you might need.  Step 1: Create a New User Before you begin, make sure that you can SSH into your Raspberry Pi.</description>
+    </item>
+    
+    <item>
+      <title>Cheapest Computer You Can Buy</title>
+      <link>https://bennettnotes.com/cheapest-computer-can-buy/</link>
+      <pubDate>Fri, 24 Mar 2017 03:31:24 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/cheapest-computer-can-buy/</guid>
+      <description>If you are in the market for a computer that will cost you about the same price as a large Starbucks iced coffee, then you are at the right place. Introducing, the Raspberry Pi Zero W. The Raspberry Pu Zero W is the cheapest computer you can buy. This computer isn&amp;#8217;t made for gaming or bitcoin mining. It&amp;#8217;s aimed at developers and enthusiasts to use in their projects. It would also make for a great setup for a small home server.</description>
+    </item>
+    
+  </channel>
+</rss>

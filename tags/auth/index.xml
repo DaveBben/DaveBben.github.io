@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Auth on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/auth/</link>
+    <description>Recent content in Auth on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Wed, 04 Apr 2018 22:14:49 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/auth/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React Login with Google Firebase</title>
+      <link>https://bennettnotes.com/react-login-with-google-firebase/</link>
+      <pubDate>Wed, 04 Apr 2018 22:14:49 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/react-login-with-google-firebase/</guid>
+      <description>There are many opinionated solutions for building a React Login with Google Firebase. I generally prefer an approach where the user isn&amp;#8217;t shown the main UI until he is logged in. And if the user logs out, we immediately kick him back to the login screen. Luckily, this isn&amp;#8217;t hard to do at all.
+Dependencies The only dependency you will need is the Firebase API. You can install this form the Node Package Manager.</description>
+    </item>
+    
+  </channel>
+</rss>

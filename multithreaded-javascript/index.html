@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Multithreaded Javascript - Bennett Notes</title>
+  <meta property="og:title" content="Multithreaded Javascript" />
+  <meta name="twitter:title" content="Multithreaded Javascript" />
+  <meta name="description" content="For the longest time, Javascript has always been implemented using a single thread in your browser. For the most part, this wasn&#8217;t a problem. If you&#8217;re just using javascript for simple DOM manipulations or form submissions then a single thread is all you need. However, once developers started getting more advanced with their Javascript usage, this eventually led to an issue.
+Let&#8217;s say I have the following single page application (SPA) that shows a list of prime numbers from 1 to 600,000:">
+  <meta property="og:description" content="For the longest time, Javascript has always been implemented using a single thread in your browser. For the most part, this wasn&#8217;t a problem. If you&#8217;re just using javascript for simple DOM manipulations or form submissions then a single thread is all you need. However, once developers started getting more advanced with their Javascript usage, this eventually led to an issue.
+Let&#8217;s say I have the following single page application (SPA) that shows a list of prime numbers from 1 to 600,000:">
+  <meta name="twitter:description" content="For the longest time, Javascript has always been implemented using a single thread in your browser. For the most part, this wasn&#8217;t a problem. If you&#8217;re just using javascript for simple DOM …">
+  <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bennett Notes",
+    
+    "url": "https://bennettnotes.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https://bennettnotes.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://bennettnotes.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://bennettnotes.com/multithreaded-javascript/",
+          "name": "Multithreaded javascript"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "dave"
+  },
+  "headline": "Multithreaded Javascript",
+  "description" : "For the longest time, Javascript has always been implemented using a single thread in your browser. For the most part, this wasn&amp;#8217;t a problem. If you&amp;#8217;re just using javascript for simple DOM manipulations or form submissions then a single thread is all you need. However, once developers started getting more advanced with their Javascript usage, this eventually led to an issue.
+Let&amp;#8217;s say I have the following single page application (SPA) that shows a list of prime numbers from 1 to 600,000:",
+  "inLanguage" : "en",
+  "wordCount": 752,
+  "datePublished" : "2017-10-22T15:59:58",
+  "dateModified" : "2017-10-22T15:59:58",
+  "image" : "https://bennettnotes.com/img/avatar-icon.png",
+  "keywords" : [ "multithread, ux, web workers, javascript" ],
+  "mainEntityOfPage" : "https://bennettnotes.com/multithreaded-javascript/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https://bennettnotes.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https://bennettnotes.com/img/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Multithreaded Javascript" />
+<meta property="og:description" content="For the longest time, Javascript has always been implemented using a single thread in your browser. For the most part, this wasn&#8217;t a problem. If you&#8217;re just using javascript for simple DOM manipulations or form submissions then a single thread is all you need. However, once developers started getting more advanced with their Javascript usage, this eventually led to an issue.
+Let&#8217;s say I have the following single page application (SPA) that shows a list of prime numbers from 1 to 600,000:">
+<meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://bennettnotes.com/multithreaded-javascript/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bennett Notes" />
+  <meta name="twitter:title" content="Multithreaded Javascript" />
+  <meta name="twitter:description" content="For the longest time, Javascript has always been implemented using a single thread in your browser. For the most part, this wasn&#8217;t a problem. If you&#8217;re just using javascript for simple DOM …">
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <link href='https://bennettnotes.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <meta property="og:url" content="https://bennettnotes.com/multithreaded-javascript/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="https://bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bennettnotes.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://bennettnotes.com/css/syntax.css" /><link rel="stylesheet" href="https://bennettnotes.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><link rel="stylesheet" href="https://bennettnotes.com/css/override.css" />
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://bennettnotes.com">Bennett Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Programming" href="/categories/programming">Programming</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Technology</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories/android">Android</a>
+                
+                  <a href="/categories/chrome-os">Chrome OS</a>
+                
+                  <a href="/categories/gadgets">Gadgets</a>
+                
+                  <a href="/categories/linux">Linux</a>
+                
+                  <a href="/categories/windows">Windows</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Life" href="/categories/life">Life</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/page/search/">Search</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bennett Notes" href="https://bennettnotes.com">
+            <img class="avatar-img" src="https://bennettnotes.com/img/avatar-icon.png" alt="Bennett Notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Multithreaded Javascript</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on October 22, 2017
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;4&nbsp;minutes
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;dave
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+            
+            <img src="/wp-content/uploads/2014/07/TAG-Jan-2.jpg" class="thumbnail img-responsive">
+            <hr>
+            
+                <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6594501022141871"
+                data-ad-slot="6223025728"
+                data-ad-format="link"></ins>
+            <hr>
+            
+        
+
+<p>For the longest time, Javascript has always been implemented using a single thread in your browser. For the most part, this wasn&#8217;t a problem. If you&#8217;re just using javascript for simple DOM manipulations or form submissions then a single thread is all you need. However, once developers started getting more advanced with their Javascript usage, this eventually led to an issue.</p>
+
+<p>Let&#8217;s say I have the following single page application (SPA) that shows a list of prime numbers from 1 to 600,000:</p>
+
+<h3 id="index-html">Index.html</h3>
+
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+ &lt;head&gt;
+ &lt;title&gt;Multithread Example&lt;/title&gt;
+ &lt;meta charset="UTF-8"&gt;
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+ &lt;h1&gt;List of Primes from 1 to 600000&lt;/h1&gt;
+ &lt;ul&gt;
+
+&lt;/ul&gt;
+ &lt;script src="./single-thread.js"&gt;&lt;/script&gt;
+ &lt;/body&gt;
+&lt;/html&gt;</pre>
+
+<p>My Index.html has an empty <ul> element that I want to append all the primes that I find to it. I call my single-thread.js file which does all the work.</p>
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-format="fluid"
+data-ad-layout="in-article"
+data-ad-client="ca-pub-6594501022141871"
+data-ad-slot="6999463098"></ins>
+
+
+<h3 id="single-thread-js">Single-Thread.js</h3>
+
+<pre>function isPrime(n) {
+ if (n &gt; 1) {
+ for (let i = 2; i &lt; n; i += 1) {
+ if (n % i === 0) {
+ return false;
+ }
+ }
+ return true;
+ }
+
+return false;
+}
+
+(function () {
+ for (let i = 1; i &lt; 600000; i += 1) {
+ if (isPrime(i)) {
+ const li = document.createElement('li');
+ li.innerHTML = i;
+ document.querySelector('ul').appendChild(li);
+ }
+ }
+
+}());</pre>
+
+<p>My single-thread.js file loops through all the numbers from 1 to 600,000 and prints out any prime that it finds and appends it to the <ul> element.</p>
+
+<h2 id="the-single-thread-problem">The Single Thread Problem</h2>
+
+<p>If you run this in your browser, it will work as intended (printing out all the primes from 1 to 600,000) but will cause for a terrible user experience. The UI will simply lock up until this script finishes executing. In fact, Chrome might even warn you that the page has become unresponsive. So even though I am telling Javascript to append my number to the list in the loop, all UI rendering gets paused until the script completes. Thus, the user is just staring at a blank loading window.</p>
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-format="fluid"
+data-ad-layout="in-article"
+data-ad-client="ca-pub-6594501022141871"
+data-ad-slot="6999463098"></ins>
+
+
+<h2 id="multithreaded-javascript-using-web-workers">Multithreaded Javascript Using Web Workers</h2>
+
+<p>Javascript Web Workers are the solution to this problem. A Web Worker is basically a task that runs in the background, separate from the UI thread. From the Web Worker, you can pass messages back and forth from the UI thread. Let&#8217;s redo the previous example using Web Workers.</p>
+
+<h2 id="multi-thread-js">Multi-thread.js</h2>
+
+<p>Create a new file called Multi-thread.js and post the following in there:</p>
+
+<pre>if (window.Worker) {
+ const myWorker = new Worker('./single-thread.js');
+ myWorker.onmessage = function (e) {
+ const li = document.createElement('li');
+ li.innerHTML = e.data;
+ document.querySelector('ul').appendChild(li);
+ };
+}</pre>
+
+<p>The if statement checks to see if the browser supports web workers. Unsurprisingly, browsers that are running IE 9 or older do not support Web Workers.</p>
+
+<p>I then initialize a new Web Worker by calling my single-thread.js in the worker&#8217;s constructor. You can initialize as many workers as you want. Finally, for my worker, I implement an onMessage callback. This is so I can handle any messages passed from my web worker back to my multi-thread.js file. Anything that I do in this file will run on the UI thread. In this case, I append the result to the <ul> element.</p>
+
+<h2 id="single-thread-js-1">Single-thread.js</h2>
+
+<p>I made the following changes to my single-thread.js file:</p>
+
+<pre>function isPrime(n) {
+ if (n &gt; 1) {
+ for (let i = 2; i &lt; n; i += 1) {
+   if (n % i === 0) {
+    return false;
+   }
+  }
+  return true;
+ }
+ return false;
+}
+
+(function () {
+ for (let i = 1; i &lt; 600000; i += 1) {
+  if (isPrime(i)) {
+   <strong>postMessage(i);</strong>
+  }
+ }
+}());</pre>
+
+<p>The only thing that I changed was calling the postMessage() function (and removing the <ul> append). Although this function is part of the window&#8217;s properties, you don&#8217;t have to call it with window.postMessage() because you are already inside of a Web Worker context.</p>
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-format="fluid"
+data-ad-layout="in-article"
+data-ad-client="ca-pub-6594501022141871"
+data-ad-slot="6999463098"></ins>
+
+
+<h3 id="index-html-1">Index.html</h3>
+
+<p>Finally, make sure that you change your index.hmtl to point to the mult-thread.js file instread of your single-thread.js file:</p>
+
+<pre>&lt;script src="./multi-thread.js"&gt;&lt;/script&gt;</pre>
+
+<h2 id="the-result">The result</h2>
+
+<p>In order to make this work, you need to make sure that you are <strong>running in a web server. </strong>Loading the files through your documents directory in your browser will give you a cross origin exception in Chrome and Firefox.</p>
+
+<p>Once everything is set up and you access the webpage, you will notice that items get appended to the list as soon as a new prime number is found. Unlike before, the user is not staring at a blank window and they can see the list getting updated in real-time.</p>
+
+<p><a href="https://github.com/DaveBben/multithread-js" target="_blank" rel="noopener">You can view the full project on GitHub.</a></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://bennettnotes.com/tags/multithread/">multithread</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/ux/">ux</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/web-workers/">web workers</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/javascript/">javascript</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fbennettnotes.com%2fmultithreaded-javascript%2f&amp;text=Multithreaded%20Javascript&amp;via=_davebennett" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fbennettnotes.com%2fmultithreaded-javascript%2f" target="_blank" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbennettnotes.com%2fmultithreaded-javascript%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fbennettnotes.com%2fmultithreaded-javascript%2f&amp;title=Multithreaded%20Javascript" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fbennettnotes.com%2fmultithreaded-javascript%2f&amp;title=Multithreaded%20Javascript" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fbennettnotes.com%2fmultithreaded-javascript%2f&amp;title=Multithreaded%20Javascript" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fbennettnotes.com%2fmultithreaded-javascript%2f&amp;description=Multithreaded%20Javascript" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+              </div>
+            </section>
+        
+
+        
+          
+          
+          <h4 class="see-also">See also</h4>
+          <ul>
+          
+            <li><a href="/javascript-read-usb-2/">JavaScript Read USB</a></li>
+          
+            <li><a href="/snapchat-using-javascript/">Snapchat using Javascript – Zuck.js</a></li>
+          
+            <li><a href="/reddit-api-application-oauth-javascript/">Reddit API Application only OAuth in Javascript</a></li>
+          
+          </ul>
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://bennettnotes.com/run-android-nougat-on-pc/" data-toggle="tooltip" data-placement="top" title="Run Android Nougat on PC">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://bennettnotes.com/run-kali-linux-2-android/" data-toggle="tooltip" data-placement="top" title="Run Kali Linux 2 on Android">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:dave@bennettnotes.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DaveBben" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_davebennett" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DaveBben" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/opensourcegangster" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://bennettnotes.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="bennettnotes.com">Dave Bennett</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://bennettnotes.com">Bennett Notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Theme by adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/main.js"></script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+<script
+  async
+  src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6594501022141871",
+    enable_page_level_ads: true
+  });
+</script>
+<script>
+  function init() {
+    var vidDefer = document.getElementsByTagName("iframe");
+    for (var i = 0; i < vidDefer.length; i++) {
+      if (vidDefer[i].getAttribute("data-src")) {
+        vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
+      }
+    }
+  }
+  window.onload = init;
+</script>
+
+
+  </body>
+</html>
+

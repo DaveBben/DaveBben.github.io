@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Driver on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/driver/</link>
+    <description>Recent content in Driver on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Fri, 11 Jul 2014 17:18:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/driver/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install Windows 8 on Chromebook</title>
+      <link>https://bennettnotes.com/install-windows-8-on-chromebook/</link>
+      <pubDate>Fri, 11 Jul 2014 17:18:23 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/install-windows-8-on-chromebook/</guid>
+      <description>Windows 8 is old news now, look at running Windows 10 on your Chromebook! So you want to run Windows 8 on your Chromebook? Well congratulations, you clicked on the right link. Let me first ask you a question. Are you looking for a fully responsive, practical and reliable Windows 8 chromebook system? If so, then go out and buy a Windows netbook. While running Windows 8 on your Chromebook is feasible, there are a lot of driver hurdles and hardware limitations (depending on your Chromebook model) that you will have to overcome before this becomes a practical solution.</description>
+    </item>
+    
+  </channel>
+</rss>

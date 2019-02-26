@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Method on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/method/</link>
+    <description>Recent content in Method on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Mon, 07 Jul 2014 14:13:13 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/method/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Root Any Android Device</title>
+      <link>https://bennettnotes.com/how-to-root-any-android-device-2014/</link>
+      <pubDate>Mon, 07 Jul 2014 14:13:13 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-root-any-android-device-2014/</guid>
+      <description>There are some things in life that sound too good to be true. However, this isn&amp;#8217;t one of them. George Hortz, a hacker made famous by his iOS jailbreaks and PlayStation hacks has managed to root the Verizon Galaxy S5. So why should you care? Well, he used a recently discovered exploit found in all Linux kernels that were built prior to June 3rd. So in theory (and in practice) his app should work on any Android device that has a kernel build date prior to June 3rd.</description>
+    </item>
+    
+  </channel>
+</rss>

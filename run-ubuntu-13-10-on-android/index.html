@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Run Ubuntu 13.10 on Android - Bennett Notes</title>
+  <meta property="og:title" content="Run Ubuntu 13.10 on Android" />
+  <meta name="twitter:title" content="Run Ubuntu 13.10 on Android" />
+  <meta name="description" content="How would it feel to have the power of a desktop operating system in the palm of your hands? If you&#8217;re a power user, and also a fan of Linux, then you came to the right place. Running Ubuntu 13.10 on your Android device is not very hard to do. Don&#8217;t think that this is some slow or stripped down version of Ubuntu. You will have access to all your favorite Linux apps and commands.">
+  <meta property="og:description" content="How would it feel to have the power of a desktop operating system in the palm of your hands? If you&#8217;re a power user, and also a fan of Linux, then you came to the right place. Running Ubuntu 13.10 on your Android device is not very hard to do. Don&#8217;t think that this is some slow or stripped down version of Ubuntu. You will have access to all your favorite Linux apps and commands.">
+  <meta name="twitter:description" content="How would it feel to have the power of a desktop operating system in the palm of your hands? If you&#8217;re a power user, and also a fan of Linux, then you came to the right place. Running Ubuntu …">
+  <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bennett Notes",
+    
+    "url": "https://bennettnotes.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https://bennettnotes.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://bennettnotes.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://bennettnotes.com/run-ubuntu-13-10-on-android/",
+          "name": "Run ubuntu 13.10 on android"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "dave"
+  },
+  "headline": "Run Ubuntu 13.10 on Android",
+  "description" : "How would it feel to have the power of a desktop operating system in the palm of your hands? If you&amp;#8217;re a power user, and also a fan of Linux, then you came to the right place. Running Ubuntu 13.10 on your Android device is not very hard to do. Don&amp;#8217;t think that this is some slow or stripped down version of Ubuntu. You will have access to all your favorite Linux apps and commands.",
+  "inLanguage" : "en",
+  "wordCount": 709,
+  "datePublished" : "2014-07-04T15:57:44",
+  "dateModified" : "2014-07-04T15:57:44",
+  "image" : "https://bennettnotes.com/img/avatar-icon.png",
+  "keywords" : [ "android, complete linux installer, debian, easy way, emulate, galaxy, gui, how, htc, install, linux, nexus, opensourcegangster, run, smartphone, software, tablet, terminal, to, ubuntu" ],
+  "mainEntityOfPage" : "https://bennettnotes.com/run-ubuntu-13-10-on-android/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https://bennettnotes.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https://bennettnotes.com/img/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Run Ubuntu 13.10 on Android" />
+<meta property="og:description" content="How would it feel to have the power of a desktop operating system in the palm of your hands? If you&#8217;re a power user, and also a fan of Linux, then you came to the right place. Running Ubuntu 13.10 on your Android device is not very hard to do. Don&#8217;t think that this is some slow or stripped down version of Ubuntu. You will have access to all your favorite Linux apps and commands.">
+<meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://bennettnotes.com/run-ubuntu-13-10-on-android/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bennett Notes" />
+  <meta name="twitter:title" content="Run Ubuntu 13.10 on Android" />
+  <meta name="twitter:description" content="How would it feel to have the power of a desktop operating system in the palm of your hands? If you&#8217;re a power user, and also a fan of Linux, then you came to the right place. Running Ubuntu …">
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <link href='https://bennettnotes.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <meta property="og:url" content="https://bennettnotes.com/run-ubuntu-13-10-on-android/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="https://bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bennettnotes.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://bennettnotes.com/css/syntax.css" /><link rel="stylesheet" href="https://bennettnotes.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><link rel="stylesheet" href="https://bennettnotes.com/css/override.css" />
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://bennettnotes.com">Bennett Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Programming" href="/categories/programming">Programming</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Technology</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories/android">Android</a>
+                
+                  <a href="/categories/chrome-os">Chrome OS</a>
+                
+                  <a href="/categories/gadgets">Gadgets</a>
+                
+                  <a href="/categories/linux">Linux</a>
+                
+                  <a href="/categories/windows">Windows</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Life" href="/categories/life">Life</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/page/search/">Search</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bennett Notes" href="https://bennettnotes.com">
+            <img class="avatar-img" src="https://bennettnotes.com/img/avatar-icon.png" alt="Bennett Notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Run Ubuntu 13.10 on Android</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on July 4, 2014
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;4&nbsp;minutes
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;dave
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+            
+        
+
+<p><img src="/wp-content/uploads/2014/07/ubuntu-13.10-on-android-1024x576.jpg" alt="" /></p>
+
+<p><span style="color: #2a1e1e;">How would it feel to have the power of a desktop operating system in the palm of your hands? If you&#8217;re a power user, and also a fan of Linux, then you came to the right place. Running Ubuntu 13.10 on your Android device is not very hard to do. Don&#8217;t think that this is some slow or stripped down version of Ubuntu. You will have access to all your favorite Linux apps and commands. However, you will need to have a rooted Android device in order to do this. Here&#8217;s how to run Ubuntu 13.10 on Android:</span></p>
+
+<h2 id="what-you-will-need">What You Will Need:</h2>
+
+<ul>
+<li><a href="https://play.google.com/store/apps/details?id=com.zpwebsites.linuxonandroid&hl=en" target="_blank">Complete Linux Installer</a></li>
+<li><a href="https://play.google.com/store/search?q=terminal%20emulator&c=apps&hl=en" target="_blank">Terminal Emulator</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.realvnc.viewer.android" target="_blank">Android VNC</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.metago.astro&hl=en" target="_blank">Astro File Manager</a>(or any of your choice)</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.mrbimc.selinux&hl=en" target="_blank">SE Linux Mode Changer</a>(If you&#8217;re running Android 4.4 or above).</li>
+<li>A rooted Android Device</li>
+<li>1-4GB of Free Space</li>
+</ul>
+
+<h2 id="step-1-enabling-usb-debugging-and-installing-complete-linux-installer">Step 1: Enabling USB Debugging and Installing Complete Linux Installer</h2>
+
+<p><span style="color: #2a1e1e;">First thing first, download Complete Linux Installer and all the other applications above.  Then open Complete Linux Installer. Go to the install tab and choose Ubuntu 13.10.  On page 2, it will prompt you to enable USB debugging.  To enable USB debugging, go to your </span><strong style="color: #2a1e1e;">settings, </strong><span style="color: #2a1e1e;">then go to </span><strong style="color: #2a1e1e;">about phone/tablet.</strong><span style="color: #2a1e1e;">  Tap on the </span><strong style="color: #2a1e1e;">build number</strong><span style="color: #2a1e1e;"> 10 times.It will prompt you with &#8220;<em>You are now a developer</em>&#8220;.  Go back into settings, you should see a tab called developer options. Within that tab enable USB debugging.</span></p>
+
+<p><img src="/wp-content/uploads/2014/07/l11-300x168.jpg" alt="" /></p>
+
+<h2 id="step-2-downloading-the-image">Step 2: Downloading the Image</h2>
+
+<p><span style="color: #000000;">Now go back to Complete Linux installer on Page 2. Select the button that says Download Image. It will ask you to choose the image size that you want to download.  If you want complete customization and prefer interacting with Linux via the terminal then I recommend that you download the core image.  Else, you should download the full image (Large Image).  I also suggest that you choose the option to download the image via sourceforge.  </span></p>
+
+<p><img src="/wp-content/uploads/2014/07/l5-300x168.jpg" alt="" /></p>
+
+<h2 id="step-3-extracting-the-image">Step 3: Extracting the Image</h2>
+
+<p><span style="color: #2a1e1e;">Once the image has finished downloading, you will need to extract it.  To do this, navigate to your downloads folder via your favorite file browser and extract the contents.  You should end up with two items. Ubuntu.13.10~&#8230;img and Ubuntu.13.10~&#8230;.img.md5.</span></p>
+
+<p><img src="/wp-content/uploads/2014/07/l6-300x168.jpg" alt="" /></p>
+
+<h2 id="step-4-make-ubuntu-folder">Step 4: Make Ubuntu Folder</h2>
+
+<p><span style="color: #2a1e1e;">After extracting the contents, you will need to make a folder at the root of your sdcard directory and call it </span><strong style="color: #2a1e1e;">ubuntu.</strong><span style="color: #2a1e1e;">  Transfer the files you extracted to this folder.</span></p>
+
+<p><img src="/wp-content/uploads/2014/07/l6-1-300x168.jpg" alt="" /></p>
+
+<h2 id="step-5-changing-files">Step 5: Changing Files</h2>
+
+<p><span style="color: #2a1e1e;">Finally, change the file name of the .img to </span><strong style="color: #2a1e1e;">Ubuntu.img</strong><span style="color: #2a1e1e;"> and the .img.md5 file to </span><strong style="color: #2a1e1e;"> Ubuntu.img.md5.</strong></p>
+
+<p><img src="/wp-content/uploads/2014/07/l10-300x168.jpg" alt="" /></p>
+
+<h2 id="step-6-changing-se-linux-mode-kitkat-only">Step 6: Changing SE Linux Mode (Kitkat Only)</h2>
+
+<p><span style="color: #2a1e1e;">If you&#8217;re running android 4.4 or above, the extra security measures will interfere with your ability to boot Ubuntu.  So open the SE Linux Mode changer app that you downloaded earlier and select </span><strong style="color: #2a1e1e;">permissive.</strong><span style="color: #2a1e1e;">  (Don&#8217;t forget to change this back once you&#8217;re done using Ubuntu)</span></p>
+
+<p><img src="/wp-content/uploads/2014/07/permissive-300x168.jpg" alt="" /></p>
+
+<h2 id="step-7-starting-ubuntu">Step 7: Starting Ubuntu</h2>
+
+<p><span style="color: #2a1e1e;">Now go back into Complete Linux Installer and in the sidebar select the launch button.  Change the distribution to Ubuntu and hit the &#8220;<em>start linux</em>&#8221; button.</span></p>
+
+<p><img src="/wp-content/uploads/2014/07/l12-300x168.jpg" alt="" /></p>
+
+<h2 id="step-8-booting-into-ubuntu">Step 8: Booting into Ubuntu</h2>
+
+<p><span style="color: #2a1e1e;">Terminal Emulator will open and it will begin to run the script to boot Ubuntu.  It will ask you whether you want to start the </span><strong style="color: #2a1e1e;">vnc server.  Type Y then hit enter.</strong><span style="color: #2a1e1e;">  Then it will ask whether you would like to start a SSH server, you can type n for no.  Finally, it&#8217;ll ask you to enter your desired resolution.  Since I&#8217;m using the Nexus 7 (2013), I typed in 1920&#215;1080, but of course your device might be different.  Finally, if you see </span><strong style="color: #2a1e1e;">root@localhost</strong><span style="color: #2a1e1e;"> then you have successfully booted Ubuntu.</span></p>
+
+<p><img src="/wp-content/uploads/2014/07/l13-300x168.jpg" alt="" /></p>
+
+<h2 id="step-9-accessing-the-gui">Step 9: Accessing the GUI</h2>
+
+<p><span style="color: #2a1e1e;">The final step is to get to the actual GUI. To access the GUI launch Android VNC Viewer.  In the nickname field you can enter whatever you want. The password is </span><strong style="color: #2a1e1e;">ubuntu.</strong><span style="color: #2a1e1e;">  You can keep the address field blank or type in </span><strong style="color: #2a1e1e;">localhost</strong><span style="color: #2a1e1e;">.  The port is </span><strong style="color: #2a1e1e;">5900.  </strong><span style="color: #2a1e1e;">(In some rare cases, your port might be 5901 or even 5902).  Finally, change the color format to 24bit (4 bpp).  Then hit connect. If all goes well, you should be looking at the Ubuntu KDE desktop.  Of course you&#8217;re free to change it to something more eye-catching such as gnome. In addition,  if you have a USB OTG Adapter you can connect an external keyboard and mouse for the extra convenience. </span></p>
+
+<p><img src="/wp-content/uploads/2014/07/l18-300x168.jpg" alt="" /></p>
+
+<p>{{ youtube //www.youtube.com/embed/b17Bfza1X3A {}</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://bennettnotes.com/tags/android/">android</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/complete-linux-installer/">complete linux installer</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/debian/">debian</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/easy-way/">easy way</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/emulate/">emulate</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/galaxy/">galaxy</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/gui/">gui</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/how/">how</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/htc/">htc</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/install/">install</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/linux/">linux</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/nexus/">nexus</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/opensourcegangster/">opensourcegangster</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/run/">run</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/smartphone/">smartphone</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/software/">software</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/tablet/">tablet</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/terminal/">terminal</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/to/">to</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/ubuntu/">ubuntu</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fbennettnotes.com%2frun-ubuntu-13-10-on-android%2f&amp;text=Run%20Ubuntu%2013.10%20on%20Android&amp;via=_davebennett" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fbennettnotes.com%2frun-ubuntu-13-10-on-android%2f" target="_blank" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbennettnotes.com%2frun-ubuntu-13-10-on-android%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fbennettnotes.com%2frun-ubuntu-13-10-on-android%2f&amp;title=Run%20Ubuntu%2013.10%20on%20Android" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fbennettnotes.com%2frun-ubuntu-13-10-on-android%2f&amp;title=Run%20Ubuntu%2013.10%20on%20Android" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fbennettnotes.com%2frun-ubuntu-13-10-on-android%2f&amp;title=Run%20Ubuntu%2013.10%20on%20Android" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fbennettnotes.com%2frun-ubuntu-13-10-on-android%2f&amp;description=Run%20Ubuntu%2013.10%20on%20Android" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+              </div>
+            </section>
+        
+
+        
+          
+          
+          <h4 class="see-also">See also</h4>
+          <ul>
+          
+            <li><a href="/how-to-install-xposed-framework/">How to Install Xposed Framework</a></li>
+          
+            <li><a href="/how-to-play-nintendo-ds-games-on-android/">How to Play Nintendo DS Games on Android</a></li>
+          
+            <li><a href="/how-to-build-custom-cyanogenmod-rom/">How to Build Custom Cyanogenmod Rom</a></li>
+          
+          </ul>
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/" data-toggle="tooltip" data-placement="top" title="How to Build Custom Cyanogenmod Rom">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/" data-toggle="tooltip" data-placement="top" title="Android Reverse Tether">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:dave@bennettnotes.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DaveBben" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_davebennett" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DaveBben" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/opensourcegangster" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://bennettnotes.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="bennettnotes.com">Dave Bennett</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://bennettnotes.com">Bennett Notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Theme by adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/main.js"></script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+<script
+  async
+  src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6594501022141871",
+    enable_page_level_ads: true
+  });
+</script>
+<script>
+  function init() {
+    var vidDefer = document.getElementsByTagName("iframe");
+    for (var i = 0; i < vidDefer.length; i++) {
+      if (vidDefer[i].getAttribute("data-src")) {
+        vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
+      }
+    }
+  }
+  window.onload = init;
+</script>
+
+
+  </body>
+</html>
+

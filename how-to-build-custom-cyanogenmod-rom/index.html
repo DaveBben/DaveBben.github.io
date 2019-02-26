@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>How to Build Custom Cyanogenmod Rom - Bennett Notes</title>
+  <meta property="og:title" content="How to Build Custom Cyanogenmod Rom" />
+  <meta name="twitter:title" content="How to Build Custom Cyanogenmod Rom" />
+  <meta name="description" content="{{ youtube GAyxypK7_K8 {}
+Build Custom Cyanogenmod Rom? So are you ready to take on Rom Development? That&#8217;s okay if you&#8217;re not, because I&#8217;ll help walk you through it. In this tutorial, I&#8217;m going to show you how to build your own Cyanogenmod Rom right from source. This sounds a lot more complicated than it actually is though. However, keep in mind that you will need a lot of patience when doing this.">
+  <meta property="og:description" content="{{ youtube GAyxypK7_K8 {}
+Build Custom Cyanogenmod Rom? So are you ready to take on Rom Development? That&#8217;s okay if you&#8217;re not, because I&#8217;ll help walk you through it. In this tutorial, I&#8217;m going to show you how to build your own Cyanogenmod Rom right from source. This sounds a lot more complicated than it actually is though. However, keep in mind that you will need a lot of patience when doing this.">
+  <meta name="twitter:description" content="{{ youtube GAyxypK7_K8 {}
+Build Custom Cyanogenmod Rom? So are you ready to take on Rom Development? That&#8217;s okay if you&#8217;re not, because I&#8217;ll help walk you through it. In this …">
+  <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bennett Notes",
+    
+    "url": "https://bennettnotes.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https://bennettnotes.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://bennettnotes.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/",
+          "name": "How to build custom cyanogenmod rom"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "dave"
+  },
+  "headline": "How to Build Custom Cyanogenmod Rom",
+  "description" : "{{ youtube GAyxypK7_K8 {}
+Build Custom Cyanogenmod Rom? So are you ready to take on Rom Development? That&amp;#8217;s okay if you&amp;#8217;re not, because I&amp;#8217;ll help walk you through it. In this tutorial, I&amp;#8217;m going to show you how to build your own Cyanogenmod Rom right from source. This sounds a lot more complicated than it actually is though. However, keep in mind that you will need a lot of patience when doing this.",
+  "inLanguage" : "en",
+  "wordCount": 1101,
+  "datePublished" : "2014-07-04T08:12:40",
+  "dateModified" : "2014-07-04T08:12:40",
+  "image" : "https://bennettnotes.com/img/avatar-icon.png",
+  "keywords" : [ "android, build, compile, custome, cyanogenmod, developer, device, flash, from, galaxy, guide, lg, linux, mac, nexus, recovery, rom, root, source, straight, tablet, virtualbox, windows" ],
+  "mainEntityOfPage" : "https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https://bennettnotes.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https://bennettnotes.com/img/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="How to Build Custom Cyanogenmod Rom" />
+<meta property="og:description" content="{{ youtube GAyxypK7_K8 {}
+Build Custom Cyanogenmod Rom? So are you ready to take on Rom Development? That&#8217;s okay if you&#8217;re not, because I&#8217;ll help walk you through it. In this tutorial, I&#8217;m going to show you how to build your own Cyanogenmod Rom right from source. This sounds a lot more complicated than it actually is though. However, keep in mind that you will need a lot of patience when doing this.">
+<meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bennett Notes" />
+  <meta name="twitter:title" content="How to Build Custom Cyanogenmod Rom" />
+  <meta name="twitter:description" content="{{ youtube GAyxypK7_K8 {}
+Build Custom Cyanogenmod Rom? So are you ready to take on Rom Development? That&#8217;s okay if you&#8217;re not, because I&#8217;ll help walk you through it. In this …">
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <link href='https://bennettnotes.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <meta property="og:url" content="https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="https://bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bennettnotes.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://bennettnotes.com/css/syntax.css" /><link rel="stylesheet" href="https://bennettnotes.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><link rel="stylesheet" href="https://bennettnotes.com/css/override.css" />
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://bennettnotes.com">Bennett Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Programming" href="/categories/programming">Programming</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Technology</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories/android">Android</a>
+                
+                  <a href="/categories/chrome-os">Chrome OS</a>
+                
+                  <a href="/categories/gadgets">Gadgets</a>
+                
+                  <a href="/categories/linux">Linux</a>
+                
+                  <a href="/categories/windows">Windows</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Life" href="/categories/life">Life</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/page/search/">Search</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bennett Notes" href="https://bennettnotes.com">
+            <img class="avatar-img" src="https://bennettnotes.com/img/avatar-icon.png" alt="Bennett Notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>How to Build Custom Cyanogenmod Rom</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on July 4, 2014
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;6&nbsp;minutes
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;dave
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+            
+        
+
+<p>{{ youtube GAyxypK7_K8 {}</p>
+
+<p>Build Custom Cyanogenmod Rom? So are you ready to take on Rom Development? That&#8217;s okay if you&#8217;re not, because I&#8217;ll help walk you through it. In this tutorial, I&#8217;m going to show you how to build your own Cyanogenmod Rom right from source. This sounds a lot more complicated than it actually is though. However, keep in mind that you will need a lot of patience when doing this. For this tutorial, I&#8217;m going to assume that you have Linux up and running and you&#8217;re familiar with basic Linux and Android operations.</p>
+
+<p>[adinserter block=&#8221;5&#8243;]</p>
+
+<p><span style="line-height: 1.5;">Depending on your computer and internet speeds this could take anywhere from 5 hours (no less than that) to 5 days to complete. You&#8217;re going to be downloading over 15 GB in source code. In addition, your computer hardware will determine how fast your compiling process will take.  I have a Core i7 3770k along with 16GB of ram and it took 45min-1 hour. So just be aware that this isn&#8217;t a ten minute process. One final note, I compiled this tutorial with the help of several references found </span><a style="line-height: 1.5;" href="http://wiki.cyanogenmod.org/w/Build_for_m7att" target="_blank">here</a><span style="line-height: 1.5;">, </span><a style="line-height: 1.5;" href="http://forum.xda-developers.com/showthread.php?t=1971645" target="_blank">here</a><span style="line-height: 1.5;"> and </span><a style="line-height: 1.5;" href="http://ding34.blogspot.com/2013/05/extract-filessh-remote-object-does-not.html" target="_blank">here</a><span style="line-height: 1.5;">; so if you don&#8217;t like the way I do things feel free to pull information from any of those other guides.</span></p>
+
+<h2 id="what-you-will-need">What You Will Need:</h2>
+
+<ul>
+<li><span style="color: #2a1e1e;">An already built CyanogenMod Zip for your device (Doesn&#8217;t matter if it&#8217;s a nightly or stable).</span></li>
+<li>A Computer running Linux or OSX (Virtualbox is acceptable too).</li>
+<li>At least 35GB of free space on your Hard Drive</li>
+<li>Patience!</li>
+</ul>
+
+<h2 id="step-1-setting-up-bashrc">Step 1: Setting up Bashrc</h2>
+
+<p style="color: #2a1e1e;">
+  To make life easier, let&#8217;s add bin as a path.  In a terminal window type in
+</p>
+
+<blockquote style="color: #2a1e1e;">
+  <p>
+    sudo gedit ~/.bashrc
+  </p>
+</blockquote>
+
+<p style="color: #2a1e1e;">
+   At the very end of the file add the following:
+</p>
+
+<blockquote style="color: #2a1e1e;">
+  <p>
+    export PATH=${PATH}:~/bin
+  </p>
+</blockquote>
+
+<p style="color: #2a1e1e;">
+  In just a little bit we&#8217;re going to be creating a bin directory, so it&#8217;s helpful to do it now.
+</p>
+
+<p style="color: #2a1e1e;">
+![](/wp-content/uploads/2014/07/bashrc-300x210.png)
+</p>
+
+<p>Hit save once your done and close it.  Now in terminal type in</p>
+
+<blockquote>
+<p>~/.bashrc</p>
+</blockquote>
+
+<p>This will re-load your bashrc. (Rebooting would do the same thing, but that&#8217;s no fun).</p>
+
+<h2 id="step-2-preparing-your-build-environment">Step 2: Preparing Your Build Environment</h2>
+
+<p style="color: #2a1e1e;">
+  Alright, there are multiple things you&#8217;re going to need to install before you can start cooking.  Simply copy and paste this into terminal.  (This was taken straight from the Cyanogen wiki page)
+</p>
+
+<blockquote style="color: #2a1e1e;">
+  <p>
+    sudo apt-get install git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk2.8-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev openjdk-6-jre openjdk-6-jdk pngcrush schedtool libxml2 libxml2-utils xsltproc
+  </p>
+</blockquote>
+
+<p style="color: #2a1e1e;">
+  And if you&#8217;re running a 64 bit System, paste this into terminal as well:
+</p>
+
+<blockquote style="color: #2a1e1e;">
+  <p>
+    g++-multilib lib32z1-dev lib32ncurses5-dev lib32readline-gplv2-dev gcc-multilib
+  </p>
+</blockquote>
+
+<h2 id="step-3-directories">Step 3:Directories</h2>
+
+<p><span style="color: #2a1e1e;">Alright, time to make some directories. In your home folder, let&#8217;s create a directory called </span><em style="color: #2a1e1e;">bin</em><span style="color: #2a1e1e;">. That will hold the repo stuff.  For the actual source files let&#8217;s create a directory called </span><em style="color: #2a1e1e;">CM10.2</em><span style="color: #2a1e1e;">(You don&#8217;t have to call it cm10.2, you can name it to whatever you want, just note that I&#8217;m always going to refer to it as cm10.2 in this tutorial).  You can create these directories easily by typing the following in terminal:</span></p>
+
+<blockquote style="color: #2a1e1e;">
+  <p>
+    mkdir -p ~/bin
+  </p>
+</blockquote>
+
+<blockquote style="color: #2a1e1e;">
+  <p>
+    mkdir -p ~/CM10.2
+  </p>
+</blockquote>
+
+<h2 id="step-4-installing-repo"> Step 4: Installing Repo</h2>
+
+<p style="color: #2a1e1e;">
+  Now let&#8217;s download the repo file and change its permissions so that we can execute it.  In terminal type in:
+</p>
+
+<blockquote id="yui_3_17_2_1_1404704780469_904" style="color: #2a1e1e;">
+  <p id="yui_3_17_2_1_1404704780469_903">
+    curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo <br /><br /> chmod a+x ~/bin/repo
+  </p>
+</blockquote>
+
+<p><img src="/wp-content/uploads/2014/07/repo-300x187.png" alt="" /></p>
+
+<h2 id="step-5-span-style-color-2a1e1e-iniinitialize-cm-source-and-downloading-the-source-code-span">Step 5: <span style="color: #2a1e1e;">Iniinitialize CM Source and Downloading the Source Code</span></h2>
+
+<p style="color: #2a1e1e;">
+  Now it&#8217;s time to initialize the source code to download.  In terminal change to your CM10.2 directory.  So type:
+</p>
+
+<blockquote style="color: #2a1e1e;">
+  <p>
+    cd ~/CM10.2
+  </p>
+</blockquote>
+
+<p style="color: #2a1e1e;">
+  Now we need to decide what version of cyanogenmod we want to get.  I&#8217;m going to go with 10.2 since I know there is source available for my device, but you can choose whichever build you like.  So type in:
+</p>
+
+<blockquote style="color: #2a1e1e;">
+  <p>
+    repo init -u git://github.com/CyanogenMod/android.git -b cm-10.2
+  </p>
+</blockquote>
+
+<p style="color: #2a1e1e;">
+  Just a quick note, if this is your first time using repo you might be prompted to type in your email address and name. Finally, when you&#8217;re ready type in:
+</p>
+
+<blockquote style="color: #2a1e1e;">
+  <p>
+    repo sync
+  </p>
+</blockquote>
+
+<p style="color: #2a1e1e;">
+  This will begin long process of downloading over 15GB of source code.  This will take anywhere between 4 hours to 4 days depending on your internet speed.  Get that coffee ready!
+</p>
+
+<p style="color: #2a1e1e;">
+![](/wp-content/uploads/2014/07/repo-sync-300x196.png)
+</p>
+
+<p style="color: #2a1e1e;">
+  <em>Note: If repo gets stuck or freezes during the download, just hit control + z to stop it, and type &#8220;repo sync&#8221; again.</em>
+</p>
+
+<h2 style="color: #2a1e1e;">
+  Step 6: Prebuilt Apps
+</h2>
+
+<p style="color: #2a1e1e;">
+  Congratulations! You made it through one of the longest steps! You&#8217;re halfway there. Now let&#8217;s get the prebuilt apps.  In terminal type in the following:
+</p>
+
+<blockquote style="color: #2a1e1e;">
+  <p>
+    cd ~/cm10.2/vendor/cm
+  </p>
+  
+  <p>
+    ./get-prebuilts
+  </p>
+</blockquote>
+
+<p style="color: #2a1e1e;">
+  Cool. No Confirmation will appear so you&#8217;ll just have to trust it happened.
+</p>
+
+<h2 style="color: #2a1e1e;">
+  Step 7: Device Specific Code
+</h2>
+
+<p>Now it&#8217;s time to prepare the device specific code. In terminal type the following:</p>
+
+<blockquote id="yui_3_17_2_1_1404704780469_1006">
+  <p id="yui_3_17_2_1_1404704780469_1005">
+    cd ~/cm10.2
+  </p>
+  
+  <p>
+    source build/envsetup.sh
+  </p>
+  
+  <p>
+    breakfast m7spr (After breakfast you&#8217;re typing in your device&#8217;s name.  Look it up if you&#8217;re not sure. I&#8217;m using a sprint htc one, so it&#8217;s m7spr)
+  </p>
+</blockquote>
+
+<p>The device specific code will download.</p>
+
+<p><img src="/wp-content/uploads/2014/07/m7spr-300x191.png" alt="" /></p>
+
+<h2 id="step-8-extract-proprietary-blobs">Step 8: Extract Proprietary Blobs</h2>
+
+<p style="color: #2a1e1e;">
+  In order to get the device specific files, you&#8217;re going to need to have an already built CyanogenMod rom for your device.  Now this process could be accomplished through the actual device but I&#8217;m going to show your through the zip (it&#8217;s easier and less of a hassle).  Make a new folder called original in your home folder, and extract the zip to that folder.
+</p>
+
+<blockquote style="color: #2a1e1e;">
+  <p>
+    mkdir -p ~/original
+  </p>
+</blockquote>
+
+<p style="color: #2a1e1e;">
+  Then in terminal type in the following commands:
+</p>
+
+<blockquote style="color: #2a1e1e;">
+  <p>
+    cd ~/cm10.2/device/htc/m7spr
+  </p>
+  
+  <p>
+    ./extract-files.sh ~/original
+  </p>
+</blockquote>
+
+<p style="color: #2a1e1e;">
+  Of course replace m7spr and cm10.2 with the appropriate device and zip you used.
+</p>
+
+<p style="color: #2a1e1e;">
+![](/wp-content/uploads/2014/07/extract-300x183.png)
+</p>
+
+<p>Great! You&#8217;re almost done.  According to the CyanongenMod wiki we can also turn on cache building to speed up subsequent builds after this one.  Type in:</p>
+
+<blockquote>
+<p>export USE_CCACHE=1</p>
+</blockquote>
+
+<h2 id="step-9-starting-the-build"> Step 9: Starting the Build</h2>
+
+<p style="color: #2a1e1e;">
+  Now the moment you have been waiting for. It&#8217;s time to start building your CM Rom. Type in the following:
+</p>
+
+<blockquote style="color: #2a1e1e;">
+  <p>
+    croot
+  </p>
+  
+  <p>
+    brunch m7spr
+  </p>
+</blockquote>
+
+<p style="color: #2a1e1e;">
+  Again, replace m7spr with your device.  If you get any errors, here are some helpful tips taken right from wiki.cyanogenmod.org:
+</p>
+
+<blockquote style="color: #2a1e1e;">
+  <p>
+    <em>If the build doesn&#8217;t start, try lunch and choose your device from the menu. If that doesn&#8217;t work, try breakfast and choose from the menu. The command make m7att should then work. A second, bonus tip! If you get a command not found error for croot or brunch or lunch, be sure you&#8217;ve done the &#8220;<strong>. build/envsetup.sh</strong>”command in this Terminal session from the ~/cm10.2 directory</em>
+  </p>
+</blockquote>
+
+<h2 style="font-weight: 400; color: #e81139;">
+  <span style="color: #000000;">Step 10: That&#8217;s it!</span>
+</h2>
+
+<p><span style="color: #2a1e1e;">Hopefully your build completed without errors. If you have any errors refer to </span><a style="color: #e5562e;" href="http://wiki.cyanogenmod.org/w/Build_for_m7att" target="_blank">here</a><span style="color: #2a1e1e;"> if you have any trouble. Now the last thing to do is grab your newly built cyanogenmod zip.  Simply go into the </span><em style="color: #2a1e1e;">out/target/product/m7spr</em><span style="color: #2a1e1e;"> folder and you should see your cyanogenmod zip.  From here you can flash it in recovery on your phone.  Hope you enjoyed and have fun! </span></p>
+
+<p><img src="/wp-content/uploads/2014/07/out.png" alt="" /></p>
+
+<p>&nbsp;</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://bennettnotes.com/tags/android/">android</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/build/">build</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/compile/">compile</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/custome/">custome</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/cyanogenmod/">cyanogenmod</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/developer/">developer</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/device/">device</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/flash/">flash</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/from/">from</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/galaxy/">galaxy</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/guide/">guide</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/lg/">lg</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/linux/">linux</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/mac/">mac</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/nexus/">nexus</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/recovery/">recovery</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/rom/">rom</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/root/">root</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/source/">source</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/straight/">straight</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/tablet/">tablet</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/virtualbox/">virtualbox</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/windows/">windows</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fbennettnotes.com%2fhow-to-build-custom-cyanogenmod-rom%2f&amp;text=How%20to%20Build%20Custom%20Cyanogenmod%20Rom&amp;via=_davebennett" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fbennettnotes.com%2fhow-to-build-custom-cyanogenmod-rom%2f" target="_blank" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbennettnotes.com%2fhow-to-build-custom-cyanogenmod-rom%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fbennettnotes.com%2fhow-to-build-custom-cyanogenmod-rom%2f&amp;title=How%20to%20Build%20Custom%20Cyanogenmod%20Rom" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fbennettnotes.com%2fhow-to-build-custom-cyanogenmod-rom%2f&amp;title=How%20to%20Build%20Custom%20Cyanogenmod%20Rom" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fbennettnotes.com%2fhow-to-build-custom-cyanogenmod-rom%2f&amp;title=How%20to%20Build%20Custom%20Cyanogenmod%20Rom" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fbennettnotes.com%2fhow-to-build-custom-cyanogenmod-rom%2f&amp;description=How%20to%20Build%20Custom%20Cyanogenmod%20Rom" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+              </div>
+            </section>
+        
+
+        
+          
+          
+          <h4 class="see-also">See also</h4>
+          <ul>
+          
+            <li><a href="/how-to-install-xposed-framework/">How to Install Xposed Framework</a></li>
+          
+            <li><a href="/enable-ultra-high-graphics-dead-trigger-2/">Enable Ultra High Graphics Dead Trigger 2</a></li>
+          
+            <li><a href="/android-boost-speaker-volume/">Android Boost Speaker Volume</a></li>
+          
+          </ul>
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/" data-toggle="tooltip" data-placement="top" title="Enable Ultra High Graphics Dead Trigger 2">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://bennettnotes.com/run-ubuntu-13-10-on-android/" data-toggle="tooltip" data-placement="top" title="Run Ubuntu 13.10 on Android">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:dave@bennettnotes.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DaveBben" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_davebennett" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DaveBben" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/opensourcegangster" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://bennettnotes.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="bennettnotes.com">Dave Bennett</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://bennettnotes.com">Bennett Notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Theme by adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/main.js"></script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+<script
+  async
+  src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6594501022141871",
+    enable_page_level_ads: true
+  });
+</script>
+<script>
+  function init() {
+    var vidDefer = document.getElementsByTagName("iframe");
+    for (var i = 0; i < vidDefer.length; i++) {
+      if (vidDefer[i].getAttribute("data-src")) {
+        vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
+      }
+    }
+  }
+  window.onload = init;
+</script>
+
+
+  </body>
+</html>
+

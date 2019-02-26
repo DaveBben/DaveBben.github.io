@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Replace Chrome Os on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/replace-chrome-os/</link>
+    <description>Recent content in Replace Chrome Os on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Mon, 23 Jan 2017 22:53:34 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/replace-chrome-os/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Replace Chrome OS with Windows</title>
+      <link>https://bennettnotes.com/replace-chrome-os-with-windows/</link>
+      <pubDate>Mon, 23 Jan 2017 22:53:34 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/replace-chrome-os-with-windows/</guid>
+      <description>I love Chrome OS but I also realize that it&amp;#8217;s pretty useless without an internet connection. Okay&amp;#8230;maybe not pretty useless but _mostly useless._ I can&amp;#8217;t game, program or do anything useful on Chrome OS other than browse the web. Luckily, if you are using a Chromebook with an Intel CPU (sorry Samsung Chromebook users) you can replace Chrome OS with Windows. Previously, I did a tutorial on How to install Windows on a Chromebook.</description>
+    </item>
+    
+  </channel>
+</rss>

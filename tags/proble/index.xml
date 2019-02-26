@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proble on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/proble/</link>
+    <description>Recent content in Proble on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Thu, 14 Dec 2017 04:01:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/proble/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ubuntu install Hangs on Splash Screen Fix</title>
+      <link>https://bennettnotes.com/ubuntu-install-hangs-splash-screen-fix/</link>
+      <pubDate>Thu, 14 Dec 2017 04:01:38 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/ubuntu-install-hangs-splash-screen-fix/</guid>
+      <description>When I was trying to install Ubuntu I experienced a very strange issue. The Ubuntu install hangs on splash screen for a very long time. I would select the option to try Ubuntu in the grub menu, and then I would get this strange screen with broken graphics. It looked like the graphics failed to load or something. The Ubuntu install freezes on that screen and would not advance.
+I eventually found out that this issue will occur if you are using an Nvidia Graphics card.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blockchain on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/blockchain/</link>
+    <description>Recent content in Blockchain on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Mon, 26 Mar 2018 16:34:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blockchain and Decentralization will NOT fix the Internet</title>
+      <link>https://bennettnotes.com/blockchain-and-decentralization-will-not-fix-the-internet/</link>
+      <pubDate>Mon, 26 Mar 2018 16:34:40 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/blockchain-and-decentralization-will-not-fix-the-internet/</guid>
+      <description>Stop saying that blockchain and decentralizing everything will fix the Internet. There has been a lot of news around Cambridge Analytica abusing Facebook profile data, and Facebook for mining user data without explicit permission. Yes, I agree that these are very bad things that need to be addressed. And I also agree that while Facebook is at the front-lines of this digital privacy war, we could also blame many other companies like Google, Twitter, Amazon, etc for similar practices.</description>
+    </item>
+    
+    <item>
+      <title>Javascript Hashcash Proof of Work</title>
+      <link>https://bennettnotes.com/javascript-hashcash-proof-work/</link>
+      <pubDate>Mon, 04 Dec 2017 22:39:00 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/javascript-hashcash-proof-work/</guid>
+      <description>Suppose that you developed an app that will give users free stuff when they click a button. Obviously, there&amp;#8217;s nothing stopping one user from spamming the button one million times and collecting a whole bunch of free stuff. If you wanted to prevent that, you could use something like a CAPTCHA, or perhaps give each user a session and cool off period. You could also implement something called a proof of work system.</description>
+    </item>
+    
+    <item>
+      <title>Build a Javascript Blockchain</title>
+      <link>https://bennettnotes.com/javascript-blockchain/</link>
+      <pubDate>Mon, 04 Dec 2017 22:33:00 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/javascript-blockchain/</guid>
+      <description>Blockchain! It&amp;#8217;s the mystical buzzword that every company is saying right now. At its core, the basic concept of blockchain is not hard to understand; it&amp;#8217;s essentially a distributed linked list. It&amp;#8217;s also used by the popular cryptocurrency called Bitcoin. The advantages of Blockchain is that it allows for a decentralized collection of data whose integrity is easily verifiable, and the data itself is immutable Keep in mind that a fully robust blockchain will also contain smart contracts, mining algorithms (proof of work/proof of stake) and other flavorful elements that you could enhance the chain with.</description>
+    </item>
+    
+  </channel>
+</rss>

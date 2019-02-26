@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Android Recyclerview for Installed Apps with Checkbox - Bennett Notes</title>
+  <meta property="og:title" content="Android Recyclerview for Installed Apps with Checkbox" />
+  <meta name="twitter:title" content="Android Recyclerview for Installed Apps with Checkbox" />
+  <meta name="description" content="One of the most common reasons that you would want to use the android recyclerview is if you want to show a list of some sort. In this example, let&#8217;s take a look at how you can use the android recyclerview to show a list of installed apps on your device. Within each item, we will also include a checkbox. Here&#8217;s what it will look like:
+Layout Let&#8217;s first take care of creating the layout files.">
+  <meta property="og:description" content="One of the most common reasons that you would want to use the android recyclerview is if you want to show a list of some sort. In this example, let&#8217;s take a look at how you can use the android recyclerview to show a list of installed apps on your device. Within each item, we will also include a checkbox. Here&#8217;s what it will look like:
+Layout Let&#8217;s first take care of creating the layout files.">
+  <meta name="twitter:description" content="One of the most common reasons that you would want to use the android recyclerview is if you want to show a list of some sort. In this example, let&#8217;s take a look at how you can use the android …">
+  <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bennett Notes",
+    
+    "url": "https://bennettnotes.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https://bennettnotes.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://bennettnotes.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/",
+          "name": "Android recyclerview for installed apps with checkbox"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "dave"
+  },
+  "headline": "Android Recyclerview for Installed Apps with Checkbox",
+  "description" : "One of the most common reasons that you would want to use the android recyclerview is if you want to show a list of some sort. In this example, let&amp;#8217;s take a look at how you can use the android recyclerview to show a list of installed apps on your device. Within each item, we will also include a checkbox. Here&amp;#8217;s what it will look like:
+Layout Let&amp;#8217;s first take care of creating the layout files.",
+  "inLanguage" : "en",
+  "wordCount": 1075,
+  "datePublished" : "2018-01-13T15:06:53",
+  "dateModified" : "2018-01-13T15:06:53",
+  "image" : "https://bennettnotes.com/img/avatar-icon.png",
+  "keywords" : [ "android development, java, recyclerview" ],
+  "mainEntityOfPage" : "https://bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https://bennettnotes.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https://bennettnotes.com/img/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Android Recyclerview for Installed Apps with Checkbox" />
+<meta property="og:description" content="One of the most common reasons that you would want to use the android recyclerview is if you want to show a list of some sort. In this example, let&#8217;s take a look at how you can use the android recyclerview to show a list of installed apps on your device. Within each item, we will also include a checkbox. Here&#8217;s what it will look like:
+Layout Let&#8217;s first take care of creating the layout files.">
+<meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bennett Notes" />
+  <meta name="twitter:title" content="Android Recyclerview for Installed Apps with Checkbox" />
+  <meta name="twitter:description" content="One of the most common reasons that you would want to use the android recyclerview is if you want to show a list of some sort. In this example, let&#8217;s take a look at how you can use the android …">
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <link href='https://bennettnotes.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <meta property="og:url" content="https://bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="https://bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bennettnotes.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://bennettnotes.com/css/syntax.css" /><link rel="stylesheet" href="https://bennettnotes.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><link rel="stylesheet" href="https://bennettnotes.com/css/override.css" />
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://bennettnotes.com">Bennett Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Programming" href="/categories/programming">Programming</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Technology</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories/android">Android</a>
+                
+                  <a href="/categories/chrome-os">Chrome OS</a>
+                
+                  <a href="/categories/gadgets">Gadgets</a>
+                
+                  <a href="/categories/linux">Linux</a>
+                
+                  <a href="/categories/windows">Windows</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Life" href="/categories/life">Life</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/page/search/">Search</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bennett Notes" href="https://bennettnotes.com">
+            <img class="avatar-img" src="https://bennettnotes.com/img/avatar-icon.png" alt="Bennett Notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Android Recyclerview for Installed Apps with Checkbox</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on January 13, 2018
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;6&nbsp;minutes
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;dave
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+            
+            <img src="/wp-content/uploads/2018/01/android-recyclerview.jpg" class="thumbnail img-responsive">
+            <hr>
+            
+                <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6594501022141871"
+                data-ad-slot="6223025728"
+                data-ad-format="link"></ins>
+            <hr>
+            
+        
+
+<p>One of the most common reasons that you would want to use the android recyclerview is if you want to show a list of some sort. In this example, let&#8217;s take a look at how you can use the android recyclerview to show a list of installed apps on your device. Within each item, we will also include a checkbox. Here&#8217;s what it will look like:</p>
+
+<p><img src="/wp-content/uploads/2018/01/Screenshot_1515419105-150x300.png" alt="" /></p>
+
+<h2 id="layout">Layout</h2>
+
+<p>Let&#8217;s first take care of creating the layout files. Here is my layout file for the <strong>main activity (activity_main.xml)</strong>. I am using a <strong>FrameLayout</strong>, with the <strong>Recyclerview </strong>and <strong>F**</strong>loating Action Button.** The floating action button is not necessary for this tutorial.</p>
+
+<pre>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+
+&lt;FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"&gt;
+
+
+    &lt;android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" /&gt;
+
+
+    &lt;android.support.design.widget.FloatingActionButton
+        android:id="@+id/sharebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        app:elevation="6dp"
+        app:fabSize="normal"
+
+        app:srcCompat="@android:drawable/ic_menu_share" /&gt;
+
+
+&lt;/FrameLayout&gt;</pre>
+
+<p>Next, let&#8217;s take care of the layout for each individual item in the list. I am calling this <strong>main_line_view.xml.</strong> It contains the following contents:</p>
+
+<pre>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+
+&lt;RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"&gt;
+
+    &lt;LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"&gt;
+
+        &lt;RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"&gt;
+
+            &lt;ImageView
+                android:id="@+id/packageImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="6dp"
+                android:src="@mipmap/ic_launcher" /&gt;
+
+            &lt;TextView
+                android:id="@+id/Apk_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@id/packageImage"
+                android:layout_toRightOf="@id/packageImage"
+                android:textColor="#000" /&gt;
+
+            &lt;TextView
+                android:id="@+id/Apk_Package_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Apk_Name"
+                android:layout_marginLeft="4dp"
+                android:layout_toEndOf="@id/packageImage"
+                android:layout_toRightOf="@id/packageImage"
+                android:textColor="#795548"
+
+                /&gt;
+
+            &lt;CheckBox
+                android:id="@+id/appSelect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true" /&gt;
+        &lt;/RelativeLayout&gt;
+
+    &lt;/LinearLayout&gt;
+
+
+&lt;/RelativeLayout&gt;</pre>
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-format="fluid"
+data-ad-layout="in-article"
+data-ad-client="ca-pub-6594501022141871"
+data-ad-slot="6999463098"></ins>
+
+
+<h2 id="build-grade">Build Grade</h2>
+
+<p>In your build Gradle (of the module: App), make sure that you include the following:</p>
+
+<pre>implementation 'com.android.support:recyclerview-v7:26.1.0'
+implementation 'com.android.support:design:26.1.0'</pre>
+
+<p>Update the version to match the SDK that you are targeting.</p>
+
+<h2 id="viewing-installed-apps">Viewing Installed Apps</h2>
+
+<p>Now let&#8217;s work on getting the list of apps installed on your device. The only important line of code that you will need is the following:</p>
+
+<pre>List&lt;ApplicationInfo&gt; packages = mContext.getPackageManager().getInstalledApplications(0);</pre>
+
+<p>However, I also want to grab app name and icon. To keep things easy and re-usable, I created a class called <strong>AppManager</strong> and added the following contents:</p>
+
+<pre>public class AppsManager {
+    private Context mContext;
+    private AppInfo appInfo;
+    private ArrayList&lt;AppInfo&gt; myApps;
+
+    public AppsManager(Context c) {
+        mContext = c;
+        myApps = new ArrayList&lt;AppInfo&gt;();
+    }
+
+    public ArrayList&lt;AppInfo&gt; getApps() {
+        loadApps();
+        return myApps;
+    }
+
+
+    private void loadApps() {
+
+        List&lt;ApplicationInfo&gt; packages = mContext.getPackageManager().getInstalledApplications(0);
+        for (ApplicationInfo packageInfo : packages) {
+            AppInfo newApp = new AppInfo();
+            newApp.setAppName(getApplicationLabelByPackageName(packageInfo.packageName));
+            newApp.setAppPackage(packageInfo.packageName);
+            newApp.setAppIcon(getAppIconByPackageName(packageInfo.packageName));
+            myApps.add(newApp);
+        }
+
+        Collections.sort(myApps, new Comparator&lt;AppInfo&gt;() {
+            @Override
+            public int compare(AppInfo s1, AppInfo s2) {
+                return s1.getAppName().compareToIgnoreCase(s2.getAppName());
+
+            }
+        });
+
+    }
+
+
+    // Custom method to get application icon by package name
+    private Drawable getAppIconByPackageName(String packageName) {
+        Drawable icon;
+        try {
+            icon = mContext.getPackageManager().getApplicationIcon(packageName);
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+            // Get a default icon
+            icon = ContextCompat.getDrawable(mContext, R.drawable.ic_launcher_background);
+        }
+        return icon;
+    }
+
+    // Custom method to get application label by package name
+    private String getApplicationLabelByPackageName(String packageName) {
+        PackageManager packageManager = mContext.getPackageManager();
+        ApplicationInfo applicationInfo;
+        String label = "Unknown";
+        try {
+            applicationInfo = packageManager.getApplicationInfo(packageName, 0);
+            if (applicationInfo != null) {
+                label = (String) packageManager.getApplicationLabel(applicationInfo);
+            }
+
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        return label;
+    }
+}</pre>
+
+<p>The first function called <strong>loadApps</strong> gets the list of installed applications on the device. You will notice that I created my own custom class called <strong>AppInfo.</strong> This is because I wanted to store particular values and info from each class. Here is what the class <strong>AppInfo</strong> looks like:</p>
+
+<pre>public class AppInfo {
+    private String appName;
+    private String appPackage;
+    private Drawable appIcon;
+    private boolean isSelected;
+
+    public String getAppPackage() {
+        return appPackage;
+    }
+
+    public void setAppPackage(String appPackage) {
+        this.appPackage = appPackage;
+    }
+
+    public Drawable getAppIcon() {
+        return appIcon;
+    }
+
+    public void setAppIcon(Drawable appIcon) {
+        this.appIcon = appIcon;
+    }
+
+    public boolean isSelected() {
+        return isSelected;
+    }
+
+    public void setSelected(boolean selected) {
+        isSelected = selected;
+    }
+
+    public String getAppName() {
+        return appName;
+    }
+
+    public void setAppName(String appName) {
+        this.appName = appName;
+    }
+}</pre>
+
+<p>So <strong>loadApps</strong> essentially saves a list of type AppInfo. I also implement a custom sort method that will sort the apps by their app name. You can then grab the list using the <strong>getApps</strong> method.</p>
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-format="fluid"
+data-ad-layout="in-article"
+data-ad-client="ca-pub-6594501022141871"
+data-ad-slot="6999463098"></ins>
+
+
+<h2 id="view-adapter">View Adapter</h2>
+
+<p>Now it&#8217;s time to implement a view adapter. If you worked with listviews in the pass, then this will look very familiar. Essentially, a view adapter controls how the recyclerview will show the view. It also maps all of our items from the main_line_view.xml to functions in the adapter. So here&#8217;s what the adapter looks like:</p>
+
+<pre>public class InstalledAppsAdapter extends RecyclerView.Adapter&lt;InstalledAppsAdapter.ViewHolder&gt; {
+
+    private Context mContext;
+    private ArrayList&lt;AppInfo&gt; mDataSet;
+
+    public InstalledAppsAdapter(Context context, ArrayList&lt;AppInfo&gt; list) {
+        mContext = context;
+        mDataSet = list;
+    }
+
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+
+        public TextView mTextViewLabel;
+        public TextView mTextViewPackage;
+        public ImageView mImageViewIcon;
+        public CheckBox mAppSelect;
+        public RelativeLayout mItem;
+
+        public ViewHolder(View v) {
+            super(v);
+            // Get the widgets reference from custom layout
+            mTextViewLabel = (TextView) v.findViewById(R.id.Apk_Name);
+            mTextViewPackage = (TextView) v.findViewById(R.id.Apk_Package_Name);
+            mImageViewIcon = (ImageView) v.findViewById(R.id.packageImage);
+            mAppSelect = (CheckBox) v.findViewById(R.id.appSelect);
+            mItem = (RelativeLayout) v.findViewById(R.id.item);
+        }
+
+    }
+
+    @Override
+    public InstalledAppsAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View v = LayoutInflater.from(mContext).inflate(R.layout.main_line_view, parent, false);
+        ViewHolder vh = new ViewHolder(v);
+        return vh;
+    }
+
+    @Override
+    public void onBindViewHolder(ViewHolder holder, final int position) {
+
+        // Get the current package name
+        final String packageName = mDataSet.get(position).getAppPackage();
+
+        // Get the current app icon
+        Drawable icon = mDataSet.get(position).getAppIcon();
+
+        // Get the current app label
+        String label = mDataSet.get(position).getAppName();
+
+        // Set the current app label
+        holder.mTextViewLabel.setText(label);
+
+        // Set the current app package name
+        holder.mTextViewPackage.setText(packageName);
+
+        // Set the current app icon
+        holder.mImageViewIcon.setImageDrawable(icon);
+
+        holder.mAppSelect.setChecked(mDataSet.get(position).isSelected());
+
+        holder.mItem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mDataSet.get(position).setSelected(!mDataSet.get(position).isSelected());
+                InstalledAppsAdapter.this.notifyDataSetChanged();
+            }
+        });
+
+
+    }
+
+    @Override
+    public int getItemCount() {
+        // Count the installed apps
+        return mDataSet.size();
+    }
+
+}</pre>
+
+<p>The only thing I want to point out if how I am handling the checkbox click. You will see the I implemented a listener that wraps the entire item. When it&#8217;s clicked, I set the selected boolean to the opposite of what it was. Finally, I used the line <strong>notifyDataSetChanged</strong> so that the recyclerview will refresh the list.</p>
+
+<h2 id="main-activity">Main Activity</h2>
+
+<p>Finally, we can finish it up in our main activity by using the following lines:</p>
+
+<pre>public class MainActivity extends AppCompatActivity {
+
+    private RelativeLayout mRelativeLayout;
+
+    private RecyclerView mRecyclerView;
+    private RecyclerView.LayoutManager mLayoutManager;
+    private RecyclerView.Adapter mAdapter;
+    private ArrayList&lt;AppInfo&gt; installedApps;
+    private FloatingActionButton shareButton;
+    private AppsManager appManager;
+    private final String baseURL = "http://192.168.50.48/post.php";
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        installedApps = new ArrayList&lt;AppInfo&gt;();
+        mRecyclerView = (RecyclerView) findViewById(R.id.recycleView);
+        shareButton = (FloatingActionButton) findViewById(R.id.sharebutton);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        mRecyclerView.setLayoutManager(layoutManager);
+        appManager = new AppsManager(this);
+        installedApps = appManager.getApps();
+
+        // Initialize a new adapter for RecyclerView
+        mAdapter = new InstalledAppsAdapter(
+                getApplicationContext(),
+                installedApps
+        );
+
+
+        mRecyclerView.setAdapter(mAdapter);
+      
+    }
+}</pre>
+
+<p>That&#8217;s it! You can now have an android app that will display a list of installed apps using the recyclerview with a checkbox next to each item.</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://bennettnotes.com/tags/android-development/">android development</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/java/">java</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/recyclerview/">recyclerview</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fbennettnotes.com%2fandroid-recyclerview-for-installed-apps-with-checkbox%2f&amp;text=Android%20Recyclerview%20for%20Installed%20Apps%20with%20Checkbox&amp;via=_davebennett" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fbennettnotes.com%2fandroid-recyclerview-for-installed-apps-with-checkbox%2f" target="_blank" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbennettnotes.com%2fandroid-recyclerview-for-installed-apps-with-checkbox%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fbennettnotes.com%2fandroid-recyclerview-for-installed-apps-with-checkbox%2f&amp;title=Android%20Recyclerview%20for%20Installed%20Apps%20with%20Checkbox" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fbennettnotes.com%2fandroid-recyclerview-for-installed-apps-with-checkbox%2f&amp;title=Android%20Recyclerview%20for%20Installed%20Apps%20with%20Checkbox" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fbennettnotes.com%2fandroid-recyclerview-for-installed-apps-with-checkbox%2f&amp;title=Android%20Recyclerview%20for%20Installed%20Apps%20with%20Checkbox" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fbennettnotes.com%2fandroid-recyclerview-for-installed-apps-with-checkbox%2f&amp;description=Android%20Recyclerview%20for%20Installed%20Apps%20with%20Checkbox" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+              </div>
+            </section>
+        
+
+        
+          
+          
+          <h4 class="see-also">See also</h4>
+          <ul>
+          
+            <li><a href="/play-runescape-on-chromebook/">Play Runescape on Chromebook</a></li>
+          
+            <li><a href="/install-ubuntu-14-04-on-chromebook/">Install Ubuntu 14.04 on Chromebook</a></li>
+          
+          </ul>
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://bennettnotes.com/use-machine-learning-to-predict-the-value-of-bitcoin/" data-toggle="tooltip" data-placement="top" title="Use Machine Learning to Predict the Value of Bitcoin">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://bennettnotes.com/angular-4-forms/" data-toggle="tooltip" data-placement="top" title="Angular 4 Forms">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:dave@bennettnotes.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DaveBben" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_davebennett" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DaveBben" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/opensourcegangster" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://bennettnotes.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="bennettnotes.com">Dave Bennett</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://bennettnotes.com">Bennett Notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Theme by adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/main.js"></script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+<script
+  async
+  src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6594501022141871",
+    enable_page_level_ads: true
+  });
+</script>
+<script>
+  function init() {
+    var vidDefer = document.getElementsByTagName("iframe");
+    for (var i = 0; i < vidDefer.length; i++) {
+      if (vidDefer[i].getAttribute("data-src")) {
+        vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
+      }
+    }
+  }
+  window.onload = init;
+</script>
+
+
+  </body>
+</html>
+

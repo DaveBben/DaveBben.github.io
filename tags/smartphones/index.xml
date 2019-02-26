@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smartphones on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/smartphones/</link>
+    <description>Recent content in Smartphones on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Tue, 23 Feb 2016 17:10:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/smartphones/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Watercooling in Smartphones Explained</title>
+      <link>https://bennettnotes.com/watercooling-smartphones-explained/</link>
+      <pubDate>Tue, 23 Feb 2016 17:10:18 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/watercooling-smartphones-explained/</guid>
+      <description>{{ youtube NCACUuzeecA {}
+How does watercooling work in Smartphones like the Galaxy S7?</description>
+    </item>
+    
+  </channel>
+</rss>

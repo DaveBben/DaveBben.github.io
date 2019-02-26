@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cool Android Tricks on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/cool-android-tricks/</link>
+    <description>Recent content in Cool Android Tricks on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Thu, 11 May 2017 23:41:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/cool-android-tricks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5 Actually Cool Android Tricks</title>
+      <link>https://bennettnotes.com/5-actually-cool-android-tricks/</link>
+      <pubDate>Thu, 11 May 2017 23:41:52 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/5-actually-cool-android-tricks/</guid>
+      <description>Here are 5 actually cool Android tricks that you can try on your device. A couple of these tricks will require that you have adb installed on your computer. None of these tricks require root.
+Hide Soft Keys Softkeys are usually convenient to have but can eat up precious screen real estate. Unfortunately, not many android developers give users to ability to use their app in immersive mode (which autohides the softkeys).</description>
+    </item>
+    
+  </channel>
+</rss>

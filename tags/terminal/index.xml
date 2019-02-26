@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/terminal/</link>
+    <description>Recent content in Terminal on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Wed, 14 Jun 2017 23:38:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Play 4K YouTube Videos on Android</title>
+      <link>https://bennettnotes.com/play-4k-youtube-videos-android/</link>
+      <pubDate>Wed, 14 Jun 2017 23:38:25 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-4k-youtube-videos-android/</guid>
+      <description>So we have these impressive ultra-high resolution smartphones, yet we still can&amp;#8217;t seem to play 4k youtube videos on Android. Some devices can&amp;#8217;t even play 1440p YouTube videos despite having the appropriate screen resolution. Luckily, there is a simple trick that you can do to get a higher resolution format via the YouTube app on your phone, even if your screen resolution is not 4k. Essentially, we are going to add a line to the build prop that &amp;#8220;tricks&amp;#8221; the YouTube app into thinking you have a different display size.</description>
+    </item>
+    
+    <item>
+      <title>Top Linux Apps</title>
+      <link>https://bennettnotes.com/top-linux-apps/</link>
+      <pubDate>Tue, 28 Mar 2017 15:28:08 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/top-linux-apps/</guid>
+      <description>I spent a couple of months using Linux as my secondary operating system. During that time, I came across some really useful Linux apps that satisfied my needs. So here&amp;#8217;s my list of the top Linux Apps.
+HTOP To view the running tasks in Linux, all you need to do is open up a terminal window and type in the command top. This will give you a quick running view of all the active processes on your system.</description>
+    </item>
+    
+    <item>
+      <title>Run Ubuntu 13.10 on Android</title>
+      <link>https://bennettnotes.com/run-ubuntu-13-10-on-android/</link>
+      <pubDate>Fri, 04 Jul 2014 15:57:44 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-ubuntu-13-10-on-android/</guid>
+      <description>How would it feel to have the power of a desktop operating system in the palm of your hands? If you&amp;#8217;re a power user, and also a fan of Linux, then you came to the right place. Running Ubuntu 13.10 on your Android device is not very hard to do. Don&amp;#8217;t think that this is some slow or stripped down version of Ubuntu. You will have access to all your favorite Linux apps and commands.</description>
+    </item>
+    
+  </channel>
+</rss>

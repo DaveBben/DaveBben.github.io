@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mmo on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/mmo/</link>
+    <description>Recent content in Mmo on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 10 Dec 2017 22:27:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/mmo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build a Multiplayer game using Javascript</title>
+      <link>https://bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/</link>
+      <pubDate>Sun, 10 Dec 2017 22:27:10 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/</guid>
+      <description>In this tutorial, we will take a look at how to build a multiplayer game using Javascript and NodeJS. My goal is to take you through the basic setup so that you can begin focusing on the actual gameplay. When building a full-scale MMO, there are a lot of things to consider like load balancing, network contingencies, etc. For now, we are going to focus on the bare minimum just to help you get an understanding of how you can creatively and effectively use the available tools of NodeJS to get started.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cortana on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/cortana/</link>
+    <description>Recent content in Cortana on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sat, 26 Nov 2016 04:21:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/cortana/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Make Cortana use Google</title>
+      <link>https://bennettnotes.com/make-cortana-use-google/</link>
+      <pubDate>Sat, 26 Nov 2016 04:21:40 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/make-cortana-use-google/</guid>
+      <description>{{ youtube 8QrzRbx87wk {}
+As you know, Microsoft Cortana has become an integral part of Windows 10. I wouldn&amp;#8217;t mind Cortana so much if Microsoft didn&amp;#8217;t force it upon us. One thing which really bothers me about Cortana is that it defaults to Microsoft Edge and Bing. I am a Google person, so I would prefer if it used Google Search and Google Chrome. Before the Windows 10 Anniversary update, there used to be a way to change the default behavior.</description>
+    </item>
+    
+  </channel>
+</rss>

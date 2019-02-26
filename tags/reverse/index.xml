@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reverse on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/reverse/</link>
+    <description>Recent content in Reverse on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Fri, 07 Apr 2017 19:55:11 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/reverse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android Reverse Tether</title>
+      <link>https://bennettnotes.com/android-reverse-tether/</link>
+      <pubDate>Fri, 07 Apr 2017 19:55:11 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-reverse-tether/</guid>
+      <description>There might come a time when you need to access the internet from your phone, but you don&amp;#8217;t have access to WiFi or mobile data. When that happens, Android Reverse Tether would be a useful thing to know. Reverse tethering means to share your computer internet connection with your phone (rather than the other way around). There are a couple of ways that you can do it. One way is to create a WiFi hotspot from your computer.</description>
+    </item>
+    
+    <item>
+      <title>Reverse Tether</title>
+      <link>https://bennettnotes.com/reverse-tether/</link>
+      <pubDate>Sat, 02 Jul 2016 13:58:13 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/reverse-tether/</guid>
+      <description>{{ youtube ueM2yAPGKBk {}
+Have you ever been stuck in a situation that you needed WiFi but only had an Ethernet connection available? Unless you&amp;#8217;re looking to connect your phone to an Ethernet connection, you would be all out of options. I found myself in a similar situation when I needed to setup a live stream using a bunch of laptops and only one Ethernet connection with no WiFi available.</description>
+    </item>
+    
+    <item>
+      <title>Android Reverse Tether</title>
+      <link>https://bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</link>
+      <pubDate>Sun, 06 Jul 2014 23:22:29 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</guid>
+      <description>{{ youtube _pmoYJrTgnM {}
+Everyone is familiar with tethering. However, many people overlook the ability to reverse tether. Reverse tethering allows you to share your computer&amp;#8217;s internet connection with your phone or tablet. This is useful if you&amp;#8217;re on a metered data plan or in an area which has no wifi and a weak mobile signal. 
+What You Will Need:  A rooted Android Device A Windows PC USB Driver Reverse Tether Zip (Go to this thread to download or direct download here)  Step 1: Install USB Drivers If you don&amp;#8217;t have any device drivers already installed on your computer and you never used adb before, then you will need to install the USB drivers.</description>
+    </item>
+    
+  </channel>
+</rss>

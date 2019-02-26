@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Moto Z Play on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/moto-z-play/</link>
+    <description>Recent content in Moto Z Play on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Tue, 01 Nov 2016 03:12:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/moto-z-play/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Moto Z Play vs Oneplus 3</title>
+      <link>https://bennettnotes.com/moto-z-play-vs-oneplus-3/</link>
+      <pubDate>Tue, 01 Nov 2016 03:12:05 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/moto-z-play-vs-oneplus-3/</guid>
+      <description>{{ youtube wmRnnXiaqLU {}
+Watch this hands-on comparison of the Moto Z Play vs Oneplus 3 and decide which device is better for you.</description>
+    </item>
+    
+    <item>
+      <title>Moto Z Play Review</title>
+      <link>https://bennettnotes.com/moto-z-play-review/</link>
+      <pubDate>Sun, 30 Oct 2016 14:54:17 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/moto-z-play-review/</guid>
+      <description>{{ youtube 4c-yQIDlFBw {}
+Are you looking for a phone that will give you the best battery life? If so, the $450 unlocked Moto Z Play is what you need. Check out this video of the Moto Z Play.</description>
+    </item>
+    
+  </channel>
+</rss>

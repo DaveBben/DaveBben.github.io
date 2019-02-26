@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Remove Bloatware on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/remove-bloatware/</link>
+    <description>Recent content in Remove Bloatware on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sat, 10 Nov 2018 15:41:56 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/remove-bloatware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Remove Bloatware from Windows 10</title>
+      <link>https://bennettnotes.com/how-to-remove-bloatware-from-windows-10/</link>
+      <pubDate>Sat, 10 Nov 2018 15:41:56 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-remove-bloatware-from-windows-10/</guid>
+      <description>Believe it or not, Windows 10 comes with a lot of bloatware pre-installed on it. Things like Candy crash, Bing Weather, Bing Sports, etc. If you really wanted to, you could go through the programs and features tool and remove each app individually. However, that would take a lot of unnecessary time and some apps wouldn&amp;#8217;t show up in that menu. To overcome this challenge, a user on GitHub created a Windows 10 bloatware removal script that uses PowerShell to remove the unnecessary apps.</description>
+    </item>
+    
+  </channel>
+</rss>

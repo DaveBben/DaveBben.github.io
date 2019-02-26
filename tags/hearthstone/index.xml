@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hearthstone on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/hearthstone/</link>
+    <description>Recent content in Hearthstone on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Thu, 23 Jun 2016 20:10:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/hearthstone/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hearthstone on Chromebook</title>
+      <link>https://bennettnotes.com/hearthstone-on-chromebook-2/</link>
+      <pubDate>Thu, 23 Jun 2016 20:10:19 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/hearthstone-on-chromebook-2/</guid>
+      <description>Hearthstone is a very popular game which I coincidentally don&amp;#8217;t play. However, I do spend quite a lot of time on my Chromebook and love seeing how far I can push its compatibility with software. Naturally, the idea of running Hearthstone on Chromebook appealed to me. After all, Counter Strike, TeamFortress and PlayStation 2 games work, so I don&amp;#8217;t see why Hearthstone wouldn&amp;#8217;t.
+If you haven&amp;#8217;t guessed already, we are going to be using Linux to make this work.</description>
+    </item>
+    
+    <item>
+      <title>Hearthstone on Chromebook</title>
+      <link>https://bennettnotes.com/hearthstone-on-chromebook/</link>
+      <pubDate>Thu, 23 Jun 2016 20:10:19 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/hearthstone-on-chromebook/</guid>
+      <description>Hearthstone is a very popular game which I coincidentally don&amp;#8217;t play. However, I do spend quite a lot of time on my Chromebook and love seeing how far I can push its compatibility with software. Naturally, the idea of running Hearthstone on Chromebook appealed to me. After all, Counter Strike, TeamFortress and PlayStation 2 games work, so I don&amp;#8217;t see why Hearthstone wouldn&amp;#8217;t.
+If you haven&amp;#8217;t guessed already, we are going to be using Linux to make this work.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Touchwiz on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/touchwiz/</link>
+    <description>Recent content in Touchwiz on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Wed, 02 Jul 2014 14:38:13 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/touchwiz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Install Xposed Framework</title>
+      <link>https://bennettnotes.com/how-to-install-xposed-framework/</link>
+      <pubDate>Wed, 02 Jul 2014 14:38:13 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-install-xposed-framework/</guid>
+      <description>Xposed is a popular framework that allows you to modify and customize your Android device without having to flash a new rom. It allows you to use a variety of apps and tools (such as gravity box) that extend what you can achieve with your Android device. If you&amp;#8217;re tinkerer or someone who thrives on complete control, than Xposed it what you want. For more techinical details on Xposed read this.</description>
+    </item>
+    
+    <item>
+      <title>Android Floating Window</title>
+      <link>https://bennettnotes.com/android-floating-window/</link>
+      <pubDate>Tue, 01 Jul 2014 04:51:01 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-floating-window/</guid>
+      <description>One of the most iconic features of the Galaxy Note 3, is the multi-window feature. It&amp;#8217;s extremely cool and makes great use of the abundance of screen real estate. Unfortunately, that&amp;#8217;s not a native Android feature. However, with the help of an Xposed Module, you can achieve the floating affect on any android device. Here&amp;#8217;s how to get Android floating window display:
+What You Will Need:  A rooted Android Device Xposed Installer App Halo App(Android 4.</description>
+    </item>
+    
+  </channel>
+</rss>

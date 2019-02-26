@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Remove Linux Chromebook on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/remove-linux-chromebook/</link>
+    <description>Recent content in Remove Linux Chromebook on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 14 May 2017 13:58:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/remove-linux-chromebook/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Remove Linux on Chromebook</title>
+      <link>https://bennettnotes.com/remove-linux-on-chromebook/</link>
+      <pubDate>Sun, 14 May 2017 13:58:12 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/remove-linux-on-chromebook/</guid>
+      <description>Tired of crouton? If you installed Linux on your Chromebook using the crouton installer and you’re ready to delete it, here&amp;#8217;s how to remove Linux on Chromebook.
+Super Simple On your Chromebook, open up the Chrome browser. Then open up the terminal by typing in the following:
+CRTL + ALT + T Inside of the terminal, type in:
+shell Finally, type in the following command to delete Linux from your Chromebook.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Foreach on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/foreach/</link>
+    <description>Recent content in Foreach on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Fri, 22 Dec 2017 14:54:56 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/foreach/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Javascript for of vs for in vs for each</title>
+      <link>https://bennettnotes.com/javascript-vs-vs/</link>
+      <pubDate>Fri, 22 Dec 2017 14:54:56 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/javascript-vs-vs/</guid>
+      <description>If you are new to Javascript (or even a seasoned js developer), you will probably get confused when trying to understand the different types of for loops. So let&amp;#8217;s go through the javascript for of vs for in vs for each loop.
+Standard for loop Suppose we have an array called myArray. Here&amp;#8217;s how you would iterate through it using the standard for loop:
+var myArray = [&#39;Cat&#39;,&#39;Dog&#39;,&#39;Horse&#39;]; for(let i =0; i&amp;lt; myArray.</description>
+    </item>
+    
+  </channel>
+</rss>

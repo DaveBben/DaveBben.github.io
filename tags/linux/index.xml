@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/linux/</link>
+    <description>Recent content in Linux on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Tue, 20 Feb 2018 14:48:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to build a forum</title>
+      <link>https://bennettnotes.com/how-to-build-a-forum/</link>
+      <pubDate>Tue, 20 Feb 2018 14:48:40 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-build-a-forum/</guid>
+      <description>Practically every online community has a forum. It makes sense though because forums are a great way to facilitate online discussion. Now let&amp;#8217;s say that you wanted to build your own online forum. Well, building a very basic forum wouldn&amp;#8217;t be too complicated. Just script together some PHP with an MYSQL database and you will be all set. Unfortunately, this would likely leave you vulnerable to many potential security holes and a terrible user experience.</description>
+    </item>
+    
+    <item>
+      <title>Run Linux on Surface Laptop</title>
+      <link>https://bennettnotes.com/run-linux-on-surface-laptop/</link>
+      <pubDate>Fri, 22 Dec 2017 15:17:48 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-linux-on-surface-laptop/</guid>
+      <description>It might be crazy to run Linux on Surface Laptop, but there is a way to do it. If you have extra RAM to spare on your Surface Laptop, just use Virtual Box because you&amp;#8217;ll have all the driver support you need and you will not have to change your boot configuration. For the brave, here&amp;#8217;s how to install Linux on Surface Laptop the more traditional way.
+Be Careful! Once we change the boot configuration on your Surface Laptop, you will need to enter your recovery key to unlock your hard drive (which is locked by BitLocker by default).</description>
+    </item>
+    
+    <item>
+      <title>Run Kali Linux 2 on Android</title>
+      <link>https://bennettnotes.com/run-kali-linux-2-android/</link>
+      <pubDate>Sun, 29 Oct 2017 03:47:36 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-kali-linux-2-android/</guid>
+      <description>Kali Linux is a popular security-focused operating system that has many tools which could be used for penetration testing. In the past, I demonstrated how to Run Kali Linux on Android (version 1.0) via the terminal. Now let&amp;#8217;s take a look at how to run Kali Linux 2 on Android without root. To do this, we will be using Limbo PC Emulator. It makes use of the SDL library to emulate Kali Linux 2 on Android.</description>
+    </item>
+    
+    <item>
+      <title>Delete Pi User on Raspberry Pi</title>
+      <link>https://bennettnotes.com/delete-pi-user-on-raspberry-pi/</link>
+      <pubDate>Sun, 07 May 2017 00:13:45 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/delete-pi-user-on-raspberry-pi/</guid>
+      <description>One of the first things you should do when setting up the Raspberry Pi is to change the default password for the pi user. Personally, I would rather just delete the user altogether and create my own user. So here&amp;#8217;s how I deleted the Pi user on Raspberry Pi.
+Make sure that you backup any important data from your Pi user that you might need.  Step 1: Create a New User Before you begin, make sure that you can SSH into your Raspberry Pi.</description>
+    </item>
+    
+    <item>
+      <title>Top Linux Apps</title>
+      <link>https://bennettnotes.com/top-linux-apps/</link>
+      <pubDate>Tue, 28 Mar 2017 15:28:08 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/top-linux-apps/</guid>
+      <description>I spent a couple of months using Linux as my secondary operating system. During that time, I came across some really useful Linux apps that satisfied my needs. So here&amp;#8217;s my list of the top Linux Apps.
+HTOP To view the running tasks in Linux, all you need to do is open up a terminal window and type in the command top. This will give you a quick running view of all the active processes on your system.</description>
+    </item>
+    
+    <item>
+      <title>Dual Boot Windows 10 and Ubuntu</title>
+      <link>https://bennettnotes.com/dual-boot-windows-10-and-ubuntu/</link>
+      <pubDate>Wed, 15 Mar 2017 02:03:23 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/dual-boot-windows-10-and-ubuntu/</guid>
+      <description>I woke up Sunday Morning with a cool project in mind. I wanted to dual boot Windows 10 and Ubuntu. The real reason for this was because I decided to give Jekyll a try and it was going to be my replacement for WordPress, but I digress. Another major reason to dual-boot Windows 10 and Ubuntu was so that I could keep all of my Android development and Web development stuff within Ubuntu and use Windows solely for video editing and gaming.</description>
+    </item>
+    
+    <item>
+      <title>Create Shared Network Folder Linux</title>
+      <link>https://bennettnotes.com/create-shared-network-folde-linux-r/</link>
+      <pubDate>Sat, 31 Dec 2016 16:27:11 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/create-shared-network-folde-linux-r/</guid>
+      <description>One of the most convenient ways to share data across a network is using a shared network folder. In Windows, setting up a shared network is usually an easy process. However, it&amp;#8217;s not a straightforward to do in Linux (no surprise).
+Create Shared Network Folder Linux To begin, you are going to need to download and install samba
+apt-get install samba apt-get install samba-common-bin Next, create the folder that you want to share.</description>
+    </item>
+    
+    <item>
+      <title>Create a VPN Server</title>
+      <link>https://bennettnotes.com/create-a-vpn-server/</link>
+      <pubDate>Thu, 08 Dec 2016 01:54:17 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/create-a-vpn-server/</guid>
+      <description>There are three routes that you can take when setting up a VPN. You can either use a free one, buy a paid service or make your own. The advantage of free VPNs is that they are easy to setup; just install and they are ready to be used. My favorite VPN on Android is Opera VPN. The downside of Free VPNs is that they typically come with a 500 &amp;#8211; 1GB data cap and are very slow.</description>
+    </item>
+    
+    <item>
+      <title>Linux in Windows 10</title>
+      <link>https://bennettnotes.com/linux-in-windows-10/</link>
+      <pubDate>Sat, 27 Aug 2016 03:15:02 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/linux-in-windows-10/</guid>
+      <description>Microsoft has done something really cool in the Windows 10 Anniversary Update. They gave users the ability to use the Linux Bash Command Line from within Windows. This is not through a virtual machine nor container, but a subsystem that they previously added in an earlier Windows update. Here&amp;#8217;s how you can enable Linux in Windows 10:
+What You Will Need:  Windows 10 Anniversary Update  How To: ­</description>
+    </item>
+    
+    <item>
+      <title>Hearthstone on Chromebook</title>
+      <link>https://bennettnotes.com/hearthstone-on-chromebook-2/</link>
+      <pubDate>Thu, 23 Jun 2016 20:10:19 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/hearthstone-on-chromebook-2/</guid>
+      <description>Hearthstone is a very popular game which I coincidentally don&amp;#8217;t play. However, I do spend quite a lot of time on my Chromebook and love seeing how far I can push its compatibility with software. Naturally, the idea of running Hearthstone on Chromebook appealed to me. After all, Counter Strike, TeamFortress and PlayStation 2 games work, so I don&amp;#8217;t see why Hearthstone wouldn&amp;#8217;t.
+If you haven&amp;#8217;t guessed already, we are going to be using Linux to make this work.</description>
+    </item>
+    
+    <item>
+      <title>Hearthstone on Chromebook</title>
+      <link>https://bennettnotes.com/hearthstone-on-chromebook/</link>
+      <pubDate>Thu, 23 Jun 2016 20:10:19 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/hearthstone-on-chromebook/</guid>
+      <description>Hearthstone is a very popular game which I coincidentally don&amp;#8217;t play. However, I do spend quite a lot of time on my Chromebook and love seeing how far I can push its compatibility with software. Naturally, the idea of running Hearthstone on Chromebook appealed to me. After all, Counter Strike, TeamFortress and PlayStation 2 games work, so I don&amp;#8217;t see why Hearthstone wouldn&amp;#8217;t.
+If you haven&amp;#8217;t guessed already, we are going to be using Linux to make this work.</description>
+    </item>
+    
+    <item>
+      <title>VPN Server on Android</title>
+      <link>https://bennettnotes.com/vpn-server-android/</link>
+      <pubDate>Sun, 17 Apr 2016 02:30:12 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/vpn-server-android/</guid>
+      <description>If you&amp;#8217;re not using a VPN, you should consider using one. A Virtual Private Network (VPN) extends a private network across a public network. This gives you an added layer of security and privacy. Imagine if you are sitting at a Starbucks on their free public WiFi. Well, someone could have a program such as Wireshark or any other application open and sniff traffic across the network. Potentially, information such as usernames, passwords and other sensitive data could be exposed.</description>
+    </item>
+    
+    <item>
+      <title>Mac OS on Chromebook</title>
+      <link>https://bennettnotes.com/mac-os-on-chromebook/</link>
+      <pubDate>Sat, 13 Feb 2016 19:21:42 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/mac-os-on-chromebook/</guid>
+      <description>Do you ever come across some crazy ideas? Well, this is certainly one of them. Running Mac OS on Chromebook is a lot easier than you think. Now keep in mind, you aren&amp;#8217;t going to be able to do anything intensive on this. This is more a proof concept (like a lot of things that I do) and something just to admire.
+To do this, we are going to be doing some very convoluted emulation.</description>
+    </item>
+    
+    <item>
+      <title>Remotely Turn on Computer with Linux</title>
+      <link>https://bennettnotes.com/remotely-turn-on-computer-with-linux/</link>
+      <pubDate>Mon, 01 Feb 2016 22:07:03 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/remotely-turn-on-computer-with-linux/</guid>
+      <description>{{ youtube 2vP7z0X0NUc {}
+I really wish more people used WOL. It is probably one of the most underrated things in the world of wired networking. If you aren&amp;#8217;t familiar, WOL (Wake on Lan) allows you to remotely turn on your computer. This could be from another computer or even your Android device. It works by supplying a little bit of power to your Ethernet card to allow it to listen for the &amp;#8220;wake up&amp;#8221; signal.</description>
+    </item>
+    
+    <item>
+      <title>How to Install Linux</title>
+      <link>https://bennettnotes.com/how-to-install-linux/</link>
+      <pubDate>Mon, 01 Feb 2016 22:02:30 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-install-linux/</guid>
+      <description>{{ youtube TkxBKFJZnBA {}
+Now that you are familiar with Linux, how do you go about installing it? Well, the beauty of Linux is that there are many different flavors at your disposal, in the form of distributions. Each distribution offers its own pre-installed software and default desktop and environment. There are thousands of different Linux distributions to choose from. If you are looking for a distribution that fits your needs, check out this list of the top 11 best Linux distributions.</description>
+    </item>
+    
+    <item>
+      <title>Run Linux on Android</title>
+      <link>https://bennettnotes.com/run-linux-on-android/</link>
+      <pubDate>Thu, 21 Jan 2016 00:50:08 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-linux-on-android/</guid>
+      <description>One of the coolest things that you could possibly do with your Android device is to run Linux on it (A full desktop operating system, in the palm of your hand). If you are asking yourself what Linux is exactly, this might help give you a quick explanation.
+So what advantages would you get out of running Linux on your Android device? Well, besides doing things like running a Minecraft server and building your own cloud, you have a full suite of applications and&amp;#8230;.</description>
+    </item>
+    
+    <item>
+      <title>Install Kodi on Chromebook</title>
+      <link>https://bennettnotes.com/install-kodi-on-chromebook/</link>
+      <pubDate>Wed, 13 Jan 2016 04:04:12 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/install-kodi-on-chromebook/</guid>
+      <description>Kodi (formely Xbmc) has become a popular in-home media platform. Luckily, getting it on your Chromebook is not much of a challenge. However, you will need to make sure that you have Linux installed on your Chromebook first. Here&amp;#8217;s a short video on how to install Kodi on Chromebook.
+Terminal commands:
+sudo apt-get install software-properties-common sudo add-apt-repository ppa:team-xbmc/ppa sudo apt-get update sudo apt-get install kodi </description>
+    </item>
+    
+    <item>
+      <title>How to build a Supercomputer</title>
+      <link>https://bennettnotes.com/how-to-build-a-supercomputer/</link>
+      <pubDate>Wed, 13 Jan 2016 03:20:26 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-build-a-supercomputer/</guid>
+      <description>{{ youtube F8U4TrOlwEQ {}
+So you want to build a supercomputer? Well, if you checked out my video on quantum computing you&amp;#8217;ll know that scientist are working to make computers stronger and faster than ever. Unfortunately, building a quantum computer is not something you can do at home, unless your home is a laboratory of course. All hope isn&amp;#8217;t lost though, you can still go on to build your very own supercomputer.</description>
+    </item>
+    
+    <item>
+      <title>Stream Steam Games Chromebook</title>
+      <link>https://bennettnotes.com/stream-steam-games-chromebook/</link>
+      <pubDate>Tue, 27 Oct 2015 15:04:47 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/stream-steam-games-chromebook/</guid>
+      <description>{{ youtube x6oLsxNcM78 {}
+Hopefully it is clear by now that Chromebooks are not meant for gaming of any type. However, that hasn&amp;#8217;t stopped many of you from accomplishing things like playing CS:GO on your Chromebook or PS2 Games. However, games like CS:GO and TF2 will work on almost any piece of hardware, but something like Fallout 4 won&amp;#8217;t.
+[adinserter block=&amp;#8221;5&amp;#8243;]
+If you&amp;#8217;re still determined to game from your Chromebook, you can do so via streaming.</description>
+    </item>
+    
+    <item>
+      <title>League of Legends on Linux</title>
+      <link>https://bennettnotes.com/league-of-legends-on-linux/</link>
+      <pubDate>Tue, 25 Aug 2015 16:08:04 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/league-of-legends-on-linux/</guid>
+      <description>{{ youtube TUB0soeTAuw {}
+League players are everywhere. Sure, the majority of them are PC users, but there&amp;#8217;s a growing population of Linux gamers out there who want in on the action. Thanks to the program Play On Linux, which makes use of Wine (a popular program that allows many Windows applications to run on Linux), anyone can play League on their alinux computer.
+[adinserter block=&amp;#8221;5&amp;#8243;]
+I should also add that this procedure will also work on an x86 Chromebook with Crouton installed.</description>
+    </item>
+    
+    <item>
+      <title>Run Minecraft Server on Chromebook</title>
+      <link>https://bennettnotes.com/run-minecraft-server-on-chomebook/</link>
+      <pubDate>Mon, 20 Jul 2015 18:49:28 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-minecraft-server-on-chomebook/</guid>
+      <description>{{ youtube _J7FiQPVM6I {}
+So do you have a Chromebook sitting around that you have absolutely no idea what to do with? Well, if you or your buddies are minecraft junkies, then why not consider turning your Chromebook into a Minecraft server. It runs slightly faster than using your Android phone as a minecraft server, and offers a playable speed(though it can lag occasionally).
+[adinserter block=&amp;#8221;5&amp;#8243;]
+Now before you do this, you need to make sure that you have Ubuntu Installed on your Chromebook.</description>
+    </item>
+    
+    <item>
+      <title>Play Runescape on Chromebook</title>
+      <link>https://bennettnotes.com/play-runescape-on-chromebook/</link>
+      <pubDate>Sat, 20 Jun 2015 23:24:45 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/play-runescape-on-chromebook/</guid>
+      <description>{{ youtube HLdPepraVGA {}
+Back in fourth grade, I used to spend hours playing Runescape. At the time, I thought it was the most exciting and adventurous game out there. However, it&amp;#8217;s been about nine years since I have last played the game, so I am very behind on the latest additions and enhancements. In any case, if you are an active player, you will be happy to know that you can play this on your Chromebook.</description>
+    </item>
+    
+    <item>
+      <title>How to Play PS2 Games on Chromebook</title>
+      <link>https://bennettnotes.com/how-to-play-ps2-games-on-chromebook/</link>
+      <pubDate>Fri, 29 May 2015 03:55:05 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-play-ps2-games-on-chromebook/</guid>
+      <description>{{ youtube WbiInD2oB5I {}
+I always said to never underestimate the power of Chromebooks, and here is another reason not to. You can play play PlayStation 2 Games on your Chromebook. In order to do this, you will need to have Linux** installed on your Chromebook. **We are going to use the popular PCSX2 emulator for Linux. So it&amp;#8217;s also important that you have an Intel powered chromebook.
+[adinserter block=&amp;#8221;5&amp;#8243;]</description>
+    </item>
+    
+    <item>
+      <title>Run Minecraft Server on Android</title>
+      <link>https://bennettnotes.com/run-minecraft-server-on-android/</link>
+      <pubDate>Mon, 18 May 2015 04:22:26 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-minecraft-server-on-android/</guid>
+      <description>{{ youtube UY2CZc1ul8U {}
+Here is how you can run Minecraft server on your Android device. This will allow anyone playing Minecraft on the desktop to connect to the server running on your device. To do this, you will first need to install Linux to your Android device then install java and run the Minecraft server jar file. It is actually a fairly easy process and takes no more than 15 minutes altogether.</description>
+    </item>
+    
+    <item>
+      <title>Create Your Own Personal Cloud Server</title>
+      <link>https://bennettnotes.com/create-your-own-personal-cloud-server/</link>
+      <pubDate>Sat, 09 May 2015 20:34:24 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/create-your-own-personal-cloud-server/</guid>
+      <description>{{ youtube UY2CZc1ul8U {}
+Whether it is Dropbox, Google Drive, Skydrive or iCloud, I am sure that we all have our favorite cloud server. Cloud Servers are great because they allow us to easily sync files between all the devices on our network and access content from anywhere. However, a growing concern over cloud servers is privacy. You could be banned from hosting certain content and companies could easily sort through what you are uploading and create targeted ads based on it.</description>
+    </item>
+    
+    <item>
+      <title>Install Ubuntu 14.04 on Chromebook</title>
+      <link>https://bennettnotes.com/install-ubuntu-14-04-on-chromebook/</link>
+      <pubDate>Mon, 06 Apr 2015 03:18:10 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/install-ubuntu-14-04-on-chromebook/</guid>
+      <description>{{ youtube 3u_QolSJYoY {}
+I am always looking for different ways that I can extend the capability of my Chromebook. It&amp;#8217;s not that I don&amp;#8217;t like Chrome OS, but sometimes I need to launch a C compiler or run java apps when I am away from home. I might even get in the mood to play Minecraft during a long car ride. Luckily, there is an easy answer to all of this.</description>
+    </item>
+    
+    <item>
+      <title>Counter Strike Global Offensive on Chromebook</title>
+      <link>https://bennettnotes.com/counter-strike-global-offensive-on-chromebook/</link>
+      <pubDate>Sun, 05 Apr 2015 15:44:44 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/counter-strike-global-offensive-on-chromebook/</guid>
+      <description>{{ youtube qvYVZQPwGxI {}
+Counter Strike Global Offensive on Chromebook? Are you tired of playing the same old games on your Chromebook? Well, with a little help from Linux and Steam you can play CS:Go on your Chromebook. Of course, this will only work with the Intel powered Chromebooks. As far as performance, it&amp;#8217;s playable. On average, I am getting around 23-30 fps in games. It&amp;#8217;s nowhere close to the performance that I get on my desktop, but is still playable none the less.</description>
+    </item>
+    
+    <item>
+      <title>Enable Developer mode on Chromebook</title>
+      <link>https://bennettnotes.com/enable-developer-mode-on-chromebook/</link>
+      <pubDate>Sat, 04 Apr 2015 16:31:05 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/enable-developer-mode-on-chromebook/</guid>
+      <description>Are you looking to install Linux on your Chromebook or Windows 10? If so, the first thing that you will need to do is enable developer mode on your Chromebook. Also, these instructions could differ depending on your Chromebook model. For this tutorial, I am going to be using the Acer C720.
+Enable Developer Mode on Chromebook: This process will erase everything on your Chromebook. So backup anything that you might need.</description>
+    </item>
+    
+    <item>
+      <title>Install Ubuntu on Chromebook</title>
+      <link>https://bennettnotes.com/intsall-ubuntu-on-chromebook/</link>
+      <pubDate>Thu, 10 Jul 2014 15:44:26 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/intsall-ubuntu-on-chromebook/</guid>
+      <description>Everyone has their own opinion of Chrome OS. Some find it extremely useful and others think it&amp;#8217;s complete garbage. While I would consider myself part of the former group, I can admit that there are places where Chrome OS falls short of a desktop operating system. For exampling, I&amp;#8217;m not able to open a java compiler on Chrome OS or use Wine to play Steam games. However, you can do all these things on Linux.</description>
+    </item>
+    
+    <item>
+      <title>Run Ubuntu 13.10 on Android</title>
+      <link>https://bennettnotes.com/run-ubuntu-13-10-on-android/</link>
+      <pubDate>Fri, 04 Jul 2014 15:57:44 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-ubuntu-13-10-on-android/</guid>
+      <description>How would it feel to have the power of a desktop operating system in the palm of your hands? If you&amp;#8217;re a power user, and also a fan of Linux, then you came to the right place. Running Ubuntu 13.10 on your Android device is not very hard to do. Don&amp;#8217;t think that this is some slow or stripped down version of Ubuntu. You will have access to all your favorite Linux apps and commands.</description>
+    </item>
+    
+    <item>
+      <title>How to Build Custom Cyanogenmod Rom</title>
+      <link>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</link>
+      <pubDate>Fri, 04 Jul 2014 08:12:40 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</guid>
+      <description>{{ youtube GAyxypK7_K8 {}
+Build Custom Cyanogenmod Rom? So are you ready to take on Rom Development? That&amp;#8217;s okay if you&amp;#8217;re not, because I&amp;#8217;ll help walk you through it. In this tutorial, I&amp;#8217;m going to show you how to build your own Cyanogenmod Rom right from source. This sounds a lot more complicated than it actually is though. However, keep in mind that you will need a lot of patience when doing this.</description>
+    </item>
+    
+  </channel>
+</rss>

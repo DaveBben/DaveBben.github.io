@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Share Wifi on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/share-wifi/</link>
+    <description>Recent content in Share Wifi on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sat, 20 Oct 2018 14:37:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/share-wifi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Share WiFi Connection on Android</title>
+      <link>https://bennettnotes.com/how-to-share-wifi-connection-on-android/</link>
+      <pubDate>Sat, 20 Oct 2018 14:37:18 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-share-wifi-connection-on-android/</guid>
+      <description>Last summer, I was staying at a beautiful resort in the Dominican Republic with no access to mobile data, so I needed to depend on WiFi. Unfortunately, my network access only allowed me to have one device at a time on the network. This was a huge pain because I wanted to connect both my phone and laptop to the network. After some searching, I found out a simple way to share wifi from an android device.</description>
+    </item>
+    
+  </channel>
+</rss>

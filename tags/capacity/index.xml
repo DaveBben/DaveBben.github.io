@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Capacity on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/capacity/</link>
+    <description>Recent content in Capacity on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 23 Oct 2016 23:22:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/capacity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Your Android Actual Battery Capacity</title>
+      <link>https://bennettnotes.com/actual-android-battery-capacity/</link>
+      <pubDate>Sun, 23 Oct 2016 23:22:33 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/actual-android-battery-capacity/</guid>
+      <description>{{ youtube TSSxQOCka_4 {}
+You might think that your battery is fine, but your capacity could be less than when you first bought it. What is your android actual battery capacity?</description>
+    </item>
+    
+  </channel>
+</rss>

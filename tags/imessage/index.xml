@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Imessage on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/imessage/</link>
+    <description>Recent content in Imessage on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Wed, 28 Sep 2016 03:12:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/imessage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Do we need imessage for Android</title>
+      <link>https://bennettnotes.com/need-imessage-android/</link>
+      <pubDate>Wed, 28 Sep 2016 03:12:18 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/need-imessage-android/</guid>
+      <description>{{ youtube AhtOgCX8w1A {}
+Everyone has been talking about having an iMessage for Android. With the recent release of Google Allo, many people were disappointed that Allo did not have SMS fallback? But, do we really need an iMessage for Android?</description>
+    </item>
+    
+  </channel>
+</rss>

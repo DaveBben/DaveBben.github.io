@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Browser on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/browser/</link>
+    <description>Recent content in Browser on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 11 Dec 2016 00:12:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/browser/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Best Extensions for Google Chrome</title>
+      <link>https://bennettnotes.com/best-extensions-google-chrome/</link>
+      <pubDate>Sun, 11 Dec 2016 00:12:15 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/best-extensions-google-chrome/</guid>
+      <description>{{ youtube ZZPjCvOrzGo {}
+The best thing about Google Chrome is all the extensions that are available for it. Now I recently learned that Microsoft Edge also has extensions, but nowhere near as many as google chrome. By no means is this an exhaustive list of all the best extensions for Google Chrome; just a few of my favorites that I use every day.
+Ghostery 
+If you are concerned about your privacy on the internet, then Ghostery is the perfect app for you.</description>
+    </item>
+    
+  </channel>
+</rss>

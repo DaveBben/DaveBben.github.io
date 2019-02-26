@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skype on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/skype/</link>
+    <description>Recent content in Skype on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Fri, 23 Sep 2016 15:59:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/skype/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Use Android as Microphone</title>
+      <link>https://bennettnotes.com/use-android-as-microphone/</link>
+      <pubDate>Fri, 23 Sep 2016 15:59:58 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/use-android-as-microphone/</guid>
+      <description>{{ youtube gN_d-1OVwoU {}
+Have you ever needed a microphone, but did not have one available? Have you ever searched for a way to make a cheap wireless microphone? Needless to say, you can use your Android device as a microphone. There are two ways that this can be accomplished. The first is through traditional cables, and the second is through additional software. If you want to use your Android device as a microphone through USB, Wifi or Bluetooth, then skip to the second method.</description>
+    </item>
+    
+  </channel>
+</rss>

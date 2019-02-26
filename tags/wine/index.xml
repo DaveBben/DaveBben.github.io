@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wine on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/wine/</link>
+    <description>Recent content in Wine on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Mon, 29 Jan 2018 01:11:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/wine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Run Windows Applications (EXE Files) on Android</title>
+      <link>https://bennettnotes.com/run-windows-applications-exe-files-on-android/</link>
+      <pubDate>Mon, 29 Jan 2018 01:11:40 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-windows-applications-exe-files-on-android/</guid>
+      <description>If I had a dollar for the number of times someone asked how to run Windows Exe Files on Android, I would be richer than your top Bitcoin miners. Most of the time, my response would have simply been that it&amp;#8217;s not possible, end of story. Well, that sort of changed this week.
+If you are a Linux user, you have probably heard of Wine. The tl;dr is that Wine allows you to run Windows apps in Linux (it&amp;#8217;s a Windows compatibility layer).</description>
+    </item>
+    
+  </channel>
+</rss>

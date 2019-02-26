@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C720 on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/c720/</link>
+    <description>Recent content in C720 on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Fri, 11 Jul 2014 17:18:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/c720/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install Windows 8 on Chromebook</title>
+      <link>https://bennettnotes.com/install-windows-8-on-chromebook/</link>
+      <pubDate>Fri, 11 Jul 2014 17:18:23 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/install-windows-8-on-chromebook/</guid>
+      <description>Windows 8 is old news now, look at running Windows 10 on your Chromebook! So you want to run Windows 8 on your Chromebook? Well congratulations, you clicked on the right link. Let me first ask you a question. Are you looking for a fully responsive, practical and reliable Windows 8 chromebook system? If so, then go out and buy a Windows netbook. While running Windows 8 on your Chromebook is feasible, there are a lot of driver hurdles and hardware limitations (depending on your Chromebook model) that you will have to overcome before this becomes a practical solution.</description>
+    </item>
+    
+    <item>
+      <title>Install Ubuntu on Chromebook</title>
+      <link>https://bennettnotes.com/intsall-ubuntu-on-chromebook/</link>
+      <pubDate>Thu, 10 Jul 2014 15:44:26 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/intsall-ubuntu-on-chromebook/</guid>
+      <description>Everyone has their own opinion of Chrome OS. Some find it extremely useful and others think it&amp;#8217;s complete garbage. While I would consider myself part of the former group, I can admit that there are places where Chrome OS falls short of a desktop operating system. For exampling, I&amp;#8217;m not able to open a java compiler on Chrome OS or use Wine to play Steam games. However, you can do all these things on Linux.</description>
+    </item>
+    
+  </channel>
+</rss>

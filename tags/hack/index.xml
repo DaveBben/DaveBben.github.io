@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hack on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/hack/</link>
+    <description>Recent content in Hack on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Fri, 03 Jun 2016 14:59:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/hack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hack Android Apps and Games</title>
+      <link>https://bennettnotes.com/hack-android-apps-and-games/</link>
+      <pubDate>Fri, 03 Jun 2016 14:59:06 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/hack-android-apps-and-games/</guid>
+      <description>Wouldn&amp;#8217;t it be great if every game had cheat codes? Well, this might be closer than you think. Using the app Game Guardian, we can change the value of any numerical data within Android games. Yes, you can now achieve an unbeatable high score in your favorite game.
+To do this you will need to have a rooted Android device. The process for this is fairly simple. We need to find the location of the desired attribute then change its value.</description>
+    </item>
+    
+    <item>
+      <title>Enable Ultra High Graphics Dead Trigger 2</title>
+      <link>https://bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</link>
+      <pubDate>Wed, 02 Jul 2014 15:17:46 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</guid>
+      <description>It&amp;#8217;s not surprising that certain games purposefully limit the maximum graphics level that the user could set. However, it becomes an issue when the device you&amp;#8217;re playing on is more than capable of handling the maximum graphics level, even though the developers didn&amp;#8217;t think so. Unfortunately, Dead Trigger 2 is a perfect example of this scenario. Fortunately, with a little file modification you can enable the secret &amp;#8220;ultra&amp;#8221; graphics mode only accessible to latest generation iPhones and Tegra devices.</description>
+    </item>
+    
+    <item>
+      <title>How to Install Xposed Framework</title>
+      <link>https://bennettnotes.com/how-to-install-xposed-framework/</link>
+      <pubDate>Wed, 02 Jul 2014 14:38:13 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/how-to-install-xposed-framework/</guid>
+      <description>Xposed is a popular framework that allows you to modify and customize your Android device without having to flash a new rom. It allows you to use a variety of apps and tools (such as gravity box) that extend what you can achieve with your Android device. If you&amp;#8217;re tinkerer or someone who thrives on complete control, than Xposed it what you want. For more techinical details on Xposed read this.</description>
+    </item>
+    
+    <item>
+      <title>Android Boost Speaker Volume</title>
+      <link>https://bennettnotes.com/android-boost-speaker-volume/</link>
+      <pubDate>Wed, 02 Jul 2014 04:08:11 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-boost-speaker-volume/</guid>
+      <description>Let&amp;#8217;s face it. Even at max volume, sometimes the speaker on your phone just isn&amp;#8217;t loud enough (Yes, I&amp;#8217;m looking at you Nexus 5). However, you could digitally raise the maximum volume that the speaker allows itself to go to. This will require a rooted android device and could run the risk of damaging your speakers if you go too high, so be warned.
+What You will Need:  A rooted Android Device ES File Explorer  Step 1: Mounting the System Open up ES file explorer and enable the root explorer.</description>
+    </item>
+    
+    <item>
+      <title>Android Floating Window</title>
+      <link>https://bennettnotes.com/android-floating-window/</link>
+      <pubDate>Tue, 01 Jul 2014 04:51:01 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/android-floating-window/</guid>
+      <description>One of the most iconic features of the Galaxy Note 3, is the multi-window feature. It&amp;#8217;s extremely cool and makes great use of the abundance of screen real estate. Unfortunately, that&amp;#8217;s not a native Android feature. However, with the help of an Xposed Module, you can achieve the floating affect on any android device. Here&amp;#8217;s how to get Android floating window display:
+What You Will Need:  A rooted Android Device Xposed Installer App Halo App(Android 4.</description>
+    </item>
+    
+  </channel>
+</rss>

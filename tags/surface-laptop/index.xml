@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Surface Laptop on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/surface-laptop/</link>
+    <description>Recent content in Surface Laptop on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Fri, 22 Dec 2017 15:17:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/surface-laptop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Run Linux on Surface Laptop</title>
+      <link>https://bennettnotes.com/run-linux-on-surface-laptop/</link>
+      <pubDate>Fri, 22 Dec 2017 15:17:48 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/run-linux-on-surface-laptop/</guid>
+      <description>It might be crazy to run Linux on Surface Laptop, but there is a way to do it. If you have extra RAM to spare on your Surface Laptop, just use Virtual Box because you&amp;#8217;ll have all the driver support you need and you will not have to change your boot configuration. For the brave, here&amp;#8217;s how to install Linux on Surface Laptop the more traditional way.
+Be Careful! Once we change the boot configuration on your Surface Laptop, you will need to enter your recovery key to unlock your hard drive (which is locked by BitLocker by default).</description>
+    </item>
+    
+  </channel>
+</rss>

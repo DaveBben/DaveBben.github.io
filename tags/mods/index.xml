@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mods on Bennett Notes</title>
+    <link>https://bennettnotes.com/tags/mods/</link>
+    <description>Recent content in Mods on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Mon, 04 Sep 2017 13:49:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://bennettnotes.com/tags/mods/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dark Theme any App</title>
+      <link>https://bennettnotes.com/dark-theme-any-app/</link>
+      <pubDate>Mon, 04 Sep 2017 13:49:37 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/dark-theme-any-app/</guid>
+      <description>I absolutely love dark themes in my apps. Not only is it easier on the eyes, but having a true amoled black theme could save you battery life on certain devices like the Galaxy S8. Unfortunately, not every app comes with a dark theme option. So if you want to dark theme any app on your device you will need to use the theme engine called Substratum. Substratum could give you a dark theme Instagram, dark them Facebook, dark theme Inbox, etc.</description>
+    </item>
+    
+    <item>
+      <title>Fallout 4 Tweaks</title>
+      <link>https://bennettnotes.com/fallout-4-tweaks/</link>
+      <pubDate>Thu, 17 Dec 2015 16:41:21 +0000</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://bennettnotes.com/fallout-4-tweaks/</guid>
+      <description>{{ youtube o1URARqhV0k {}
+Fallout 4 has been one of my favorite games of the year, but it isn&amp;#8217;t perfect. Everyone is aware how&amp;#8230;lacking&amp;#8230; Bethesda can be with their games. However, thanks to the modding community, many of the issues that you might encounter in Fallout 4 can be fixed.
+[adinserter block=&amp;#8221;5&amp;#8243;]
+One of the biggest complaints about Fallout 4 has been the FPS lock and not supporting 21:9 widescreen monitors.</description>
+    </item>
+    
+  </channel>
+</rss>
