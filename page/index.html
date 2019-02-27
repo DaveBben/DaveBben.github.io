@@ -255,8 +255,22 @@
               </p>
               <div class="post-entry">
                 
-                  Searchvar lunrIndex, allPosts;fetch("/js/index.json").then(response = {return response.json();}).then(response = {allPosts = response;lunrIndex = lunr(function() {this.field("title", {boost: 10});this.field("tags", {boost: 5});this.ref("uri");for (var i = 0; i {console.error(error);});document.getElementById('search-button').onclick = function() {search();}function search(){document.getElementById('results').innerHTML ='';let query = document.getElementById('search-field').value;let results = lunrIndex.search(query).map((result)={return allPosts.filter((page)={return (page.
-                  <a href="https://bennettnotes.com/page/search/" class="post-read-more">[Read More]</a>
+                      <div class="input-group">
+      <input type="text" class="form-control" id="search-field" placeholder="Search for..." />
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" id="search-button">Search</button>
+      </span>
+    </div>
+    <!-- /input-group -->
+    <p style="text-align:right; font-size:10px;" id="found"></p>
+    <hr/>
+    <div id="results"></div>
+  </div>
+
+
+
+
+
                 
               </div>
 
@@ -369,6 +383,12 @@
 
 
 
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"
+  integrity="sha256-uScRgGrInD2VnPNpjmlQtB2XRVLczyyZvrTkYi+e31U="
+  crossorigin="anonymous"
+></script>
+<script src="https://bennettnotes.com/js/search.js"></script>
 <script
   async
   src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"

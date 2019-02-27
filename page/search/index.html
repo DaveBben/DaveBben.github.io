@@ -10,9 +10,9 @@
   <title>Search - Bennett Notes</title>
   <meta property="og:title" content="Search" />
   <meta name="twitter:title" content="Search" />
-  <meta name="description" content="Searchvar lunrIndex, allPosts;fetch(&#34;/js/index.json&#34;).then(response = {return response.json();}).then(response = {allPosts = response;lunrIndex = lunr(function() {this.field(&#34;title&#34;, {boost: 10});this.field(&#34;tags&#34;, {boost: 5});this.ref(&#34;uri&#34;);for (var i = 0; i {console.error(error);});document.getElementById(&#39;search-button&#39;).onclick = function() {search();}function search(){document.getElementById(&#39;results&#39;).innerHTML =&#39;&#39;;let query = document.getElementById(&#39;search-field&#39;).value;let results = lunrIndex.search(query).map((result)={return allPosts.filter((page)={return (page.">
-  <meta property="og:description" content="Searchvar lunrIndex, allPosts;fetch(&#34;/js/index.json&#34;).then(response = {return response.json();}).then(response = {allPosts = response;lunrIndex = lunr(function() {this.field(&#34;title&#34;, {boost: 10});this.field(&#34;tags&#34;, {boost: 5});this.ref(&#34;uri&#34;);for (var i = 0; i {console.error(error);});document.getElementById(&#39;search-button&#39;).onclick = function() {search();}function search(){document.getElementById(&#39;results&#39;).innerHTML =&#39;&#39;;let query = document.getElementById(&#39;search-field&#39;).value;let results = lunrIndex.search(query).map((result)={return allPosts.filter((page)={return (page.">
-  <meta name="twitter:description" content="Searchvar lunrIndex, allPosts;fetch(&#34;/js/index.json&#34;).then(response = {return response.json();}).then(response = {allPosts = response;lunrIndex = lunr(function() {this.field(&#34;title&#34;, { …">
+  <meta name="description" content=" Search      ">
+  <meta property="og:description" content=" Search      ">
+  <meta name="twitter:description" content=" Search      ">
   <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -61,9 +61,9 @@
     "name" : "Dave Bennett"
   },
   "headline": "Search",
-  "description" : "Searchvar lunrIndex, allPosts;fetch(&#34;/js/index.json&#34;).then(response = {return response.json();}).then(response = {allPosts = response;lunrIndex = lunr(function() {this.field(&#34;title&#34;, {boost: 10});this.field(&#34;tags&#34;, {boost: 5});this.ref(&#34;uri&#34;);for (var i = 0; i {console.error(error);});document.getElementById(&#39;search-button&#39;).onclick = function() {search();}function search(){document.getElementById(&#39;results&#39;).innerHTML =&#39;&#39;;let query = document.getElementById(&#39;search-field&#39;).value;let results = lunrIndex.search(query).map((result)={return allPosts.filter((page)={return (page.",
+  "description" : " Search      ",
   "inLanguage" : "en",
-  "wordCount": 86,
+  "wordCount": 1,
   "datePublished" : "2019-02-24T09:47:59",
   "dateModified" : "2019-02-24T09:47:59",
   "image" : "https://bennettnotes.com/img/avatar-icon.png",
@@ -83,13 +83,13 @@
 </script>
 
 <meta property="og:title" content="Search" />
-<meta property="og:description" content="Searchvar lunrIndex, allPosts;fetch(&#34;/js/index.json&#34;).then(response = {return response.json();}).then(response = {allPosts = response;lunrIndex = lunr(function() {this.field(&#34;title&#34;, {boost: 10});this.field(&#34;tags&#34;, {boost: 5});this.ref(&#34;uri&#34;);for (var i = 0; i {console.error(error);});document.getElementById(&#39;search-button&#39;).onclick = function() {search();}function search(){document.getElementById(&#39;results&#39;).innerHTML =&#39;&#39;;let query = document.getElementById(&#39;search-field&#39;).value;let results = lunrIndex.search(query).map((result)={return allPosts.filter((page)={return (page.">
+<meta property="og:description" content=" Search      ">
 <meta property="og:image" content="https://bennettnotes.com/img/avatar-icon.png" />
 <meta property="og:url" content="https://bennettnotes.com/page/search/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Bennett Notes" />
   <meta name="twitter:title" content="Search" />
-  <meta name="twitter:description" content="Searchvar lunrIndex, allPosts;fetch(&#34;/js/index.json&#34;).then(response = {return response.json();}).then(response = {allPosts = response;lunrIndex = lunr(function() {this.field(&#34;title&#34;, { …">
+  <meta name="twitter:description" content=" Search      ">
   <meta name="twitter:image" content="https://bennettnotes.com/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@_davebennett" />
@@ -280,87 +280,20 @@
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
             
-        
-    <div class="input-group">
+            <div class="input-group">
       <input type="text" class="form-control" id="search-field" placeholder="Search for..." />
       <span class="input-group-btn">
         <button class="btn btn-default" type="button" id="search-button">Search</button>
       </span>
     </div>
-    
+    <!-- /input-group -->
     <p style="text-align:right; font-size:10px;" id="found"></p>
     <hr/>
     <div id="results"></div>
   </div>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js" integrity="sha256-uScRgGrInD2VnPNpjmlQtB2XRVLczyyZvrTkYi+e31U=" crossorigin="anonymous"></script>
-<script>
-  var lunrIndex, allPosts;
-  fetch("/js/index.json")
-    .then(response => {
-      return response.json();
-    })
-    .then(response => {
-      allPosts = response;
-      lunrIndex = lunr(function() {
-        this.field("title", {
-          boost: 10
-        });
-        this.field("tags", {
-          boost: 5
-        });
-  
-        
-        this.ref("uri");
-        for (var i = 0; i < response.length; ++i) {
-          this.add(response[i]);
-        }
-    })
-  })
-    .catch(error => {
-      console.error(error);
-    });
 
-
-  document.getElementById('search-button').onclick = function() {
-    search();
-  }
-
-function search(){
-    document.getElementById('results').innerHTML ='';
-    let query = document.getElementById('search-field').value;
-    let results = lunrIndex.search(query).map((result)=>{
-      return allPosts.filter((page)=>{
-        return (page.uri === result.ref) && (result.score > 4);
-      })[0];
-    })
-    let totalResults;
-    results = results.filter((p)=>{
-      if(p){
-      return true;
-      }
-    })
-    document.createElement("h1")
-    for(let i = 0; i< 20 && i<results.length; i++){
-      let header = document.createElement("h2");
-      let anchor = document.createElement("a");
-      anchor.setAttribute("href",results[i].uri);
-      anchor.innerText = results[i].title;
-      header.appendChild(anchor);
-      document.getElementById("results").appendChild(header);
-      document.getElementById("found").innerText = `Found ${results.length} results - showing ${i + 1}`;
-
-    }
-}
-    window.addEventListener("keydown", function(event) {
-      if (event.key === "Enter") {
-          event.preventDefault();
-          search();
-      }
-    });
-
-</script>
 
 
 
@@ -482,6 +415,12 @@ function search(){
 
 
 
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"
+  integrity="sha256-uScRgGrInD2VnPNpjmlQtB2XRVLczyyZvrTkYi+e31U="
+  crossorigin="anonymous"
+></script>
+<script src="https://bennettnotes.com/js/search.js"></script>
 <script
   async
   src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
