@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on Pc on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/android-on-pc/</link>
+    <link>https://www.bennettnotes.com/tags/android-on-pc/</link>
     <description>Recent content in Android on Pc on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 19 Oct 2017 02:49:19 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/android-on-pc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/android-on-pc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Run Android Nougat on PC</title>
-      <link>https://bennettnotes.com/run-android-nougat-on-pc/</link>
+      <link>https://www.bennettnotes.com/run-android-nougat-on-pc/</link>
       <pubDate>Thu, 19 Oct 2017 02:49:19 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-android-nougat-on-pc/</guid>
+      <guid>https://www.bennettnotes.com/run-android-nougat-on-pc/</guid>
       <description>Do you have an old computer laying around that you need to find a use for? How about running Android Nougat on your PC? The Android x86 team has successfully ported Android 7.1 over to the desktop CPU architecture. This means you can enjoy your favorite apps and games on any pc or laptop.
 Run Android Nougat on PC The first thing that you need to do is download the Android Nougat x86 ISO file.</description>
     </item>

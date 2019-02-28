@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Team Fortress on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/team-fortress/</link>
+    <link>https://www.bennettnotes.com/tags/team-fortress/</link>
     <description>Recent content in Team Fortress on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 18 Jul 2015 07:00:51 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/team-fortress/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/team-fortress/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Play Team Fortress Classic on Android</title>
-      <link>https://bennettnotes.com/play-team-fortress-classic-on-android/</link>
+      <link>https://www.bennettnotes.com/play-team-fortress-classic-on-android/</link>
       <pubDate>Sat, 18 Jul 2015 07:00:51 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-team-fortress-classic-on-android/</guid>
+      <guid>https://www.bennettnotes.com/play-team-fortress-classic-on-android/</guid>
       <description>Have you ever imagined that you would be able to play a Steam game on your phone? Well, I hope so, because I already demonstrated how to play Portal on your Android device. In any case, it&amp;#8217;s even easier to play Team Fortress Classic on Android. This is all thanks to an app called SDLash3D which uses the SDL library that allows you to do some really cool emulation such as running Windows 95 on your device.</description>
     </item>
     

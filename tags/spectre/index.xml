@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spectre on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/spectre/</link>
+    <link>https://www.bennettnotes.com/tags/spectre/</link>
     <description>Recent content in Spectre on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Fri, 05 Jan 2018 15:50:52 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/spectre/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/spectre/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Meltdown and Spectre – Possible Javascript Vulnerabilities</title>
-      <link>https://bennettnotes.com/meltdown-and-spectre-javascript-vulnerabilities/</link>
+      <link>https://www.bennettnotes.com/meltdown-and-spectre-javascript-vulnerabilities/</link>
       <pubDate>Fri, 05 Jan 2018 15:50:52 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/meltdown-and-spectre-javascript-vulnerabilities/</guid>
+      <guid>https://www.bennettnotes.com/meltdown-and-spectre-javascript-vulnerabilities/</guid>
       <description>This has been a very interesting New Year. So far, 2018 has brought us two of the biggest bugs to hit CPUs in the past 12 years: Meltdown and Spectre. Intel is struggling to get their Meltdown bug under control while Amazon and Microsoft brutally await its impact on their cloud services. Both Meltdown and Spectre are serious issues, but Meltdown is easier to exploit and gives attackers more valuable information.</description>
     </item>
     

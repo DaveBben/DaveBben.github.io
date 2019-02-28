@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Share Internet Pc on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/share-internet-pc/</link>
+    <link>https://www.bennettnotes.com/tags/share-internet-pc/</link>
     <description>Recent content in Share Internet Pc on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Fri, 07 Apr 2017 19:55:11 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/share-internet-pc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/share-internet-pc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android Reverse Tether</title>
-      <link>https://bennettnotes.com/android-reverse-tether/</link>
+      <link>https://www.bennettnotes.com/android-reverse-tether/</link>
       <pubDate>Fri, 07 Apr 2017 19:55:11 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/android-reverse-tether/</guid>
+      <guid>https://www.bennettnotes.com/android-reverse-tether/</guid>
       <description>There might come a time when you need to access the internet from your phone, but you don&amp;#8217;t have access to WiFi or mobile data. When that happens, Android Reverse Tether would be a useful thing to know. Reverse tethering means to share your computer internet connection with your phone (rather than the other way around). There are a couple of ways that you can do it. One way is to create a WiFi hotspot from your computer.</description>
     </item>
     

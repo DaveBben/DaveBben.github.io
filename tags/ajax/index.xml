@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ajax on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/ajax/</link>
+    <link>https://www.bennettnotes.com/tags/ajax/</link>
     <description>Recent content in Ajax on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Wed, 27 Dec 2017 15:12:17 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/ajax/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/ajax/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PHP insert into SQL database from Fetch POST</title>
-      <link>https://bennettnotes.com/php-insert-sql-database-fetch-post/</link>
+      <link>https://www.bennettnotes.com/php-insert-sql-database-fetch-post/</link>
       <pubDate>Wed, 27 Dec 2017 15:12:17 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/php-insert-sql-database-fetch-post/</guid>
+      <guid>https://www.bennettnotes.com/php-insert-sql-database-fetch-post/</guid>
       <description>As a Javascript developer, I always prefer to use NodeJS as my API endpoint when interacting with a backend database. Unfortunately, it&amp;#8217;s not always feasible to use NodeJS (especially in a shared hosting environment) and you might have to fall back to good old PHP. So here&amp;#8217;s a quick refresher on how you can insert an object into an SQL database from javascript using php. If you haven&amp;#8217;t already, check out my previous tutorial on making SQL queries from PHP using fetch API.</description>
     </item>
     

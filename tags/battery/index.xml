@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Battery on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/battery/</link>
+    <link>https://www.bennettnotes.com/tags/battery/</link>
     <description>Recent content in Battery on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,52 +10,52 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 01 Dec 2016 15:22:05 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/battery/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/battery/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Measure Battery Usage in Windows</title>
-      <link>https://bennettnotes.com/measure-battery-usage-windows/</link>
+      <link>https://www.bennettnotes.com/measure-battery-usage-windows/</link>
       <pubDate>Thu, 01 Dec 2016 15:22:05 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/measure-battery-usage-windows/</guid>
+      <guid>https://www.bennettnotes.com/measure-battery-usage-windows/</guid>
       <description>Most people would never guess that there is a tool to measure battery usage in Windows. I first discovered this when trying to figure out what was draining my battery on my Surface Pro 3. For a quick overview of battery drain by app, you can use the Windows Battery Saving settings.
 Windows Battery Saver To access this, type in Windows Battery Saver in the Start Menu search.</description>
     </item>
     
     <item>
       <title>Android Battery Saving Tips – Restrict Snapchat Background Data</title>
-      <link>https://bennettnotes.com/android-battery-saving-tips-disable-snapchat-background-data/</link>
+      <link>https://www.bennettnotes.com/android-battery-saving-tips-disable-snapchat-background-data/</link>
       <pubDate>Tue, 29 Nov 2016 04:31:03 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/android-battery-saving-tips-disable-snapchat-background-data/</guid>
+      <guid>https://www.bennettnotes.com/android-battery-saving-tips-disable-snapchat-background-data/</guid>
       <description>Battery life on Android is a nightmare to deal with unless you know exactly what to look for. Android&amp;#8217;s vague battery statistics can be frustrating for a novice and seasoned user alike. For example, a battery drain labeled as Android System could be Google Play Services performing something in the background, or the Facebook app using the camera, or any other app that makes any API call. And speaking of Facebook, there&amp;#8217;s a lot of conflicting research and anecdotal reports on whether the app is responsible for any sort of excessive battery drain.</description>
     </item>
     
     <item>
       <title>Moto Z Play Review</title>
-      <link>https://bennettnotes.com/moto-z-play-review/</link>
+      <link>https://www.bennettnotes.com/moto-z-play-review/</link>
       <pubDate>Sun, 30 Oct 2016 14:54:17 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/moto-z-play-review/</guid>
+      <guid>https://www.bennettnotes.com/moto-z-play-review/</guid>
       <description>Are you looking for a phone that will give you the best battery life? If so, the $450 unlocked Moto Z Play is what you need. Check out this video of the Moto Z Play.</description>
     </item>
     
     <item>
       <title>Your Android Actual Battery Capacity</title>
-      <link>https://bennettnotes.com/actual-android-battery-capacity/</link>
+      <link>https://www.bennettnotes.com/actual-android-battery-capacity/</link>
       <pubDate>Sun, 23 Oct 2016 23:22:33 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/actual-android-battery-capacity/</guid>
+      <guid>https://www.bennettnotes.com/actual-android-battery-capacity/</guid>
       <description>You might think that your battery is fine, but your capacity could be less than when you first bought it. What is your android actual battery capacity?</description>
     </item>
     
     <item>
       <title>Save Battery Life on Android</title>
-      <link>https://bennettnotes.com/save-battery-life-android/</link>
+      <link>https://www.bennettnotes.com/save-battery-life-android/</link>
       <pubDate>Fri, 10 Jun 2016 14:59:15 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/save-battery-life-android/</guid>
+      <guid>https://www.bennettnotes.com/save-battery-life-android/</guid>
       <description>Every year, smartphones get better and better. We live in the age where the average smartphone has better specs than a two year old computer. Despite all of this technological innovation, battery life is still a major concern for many consumers. It&amp;#8217;s simple, we need longer lasting batteries. Unfortunately, until there is a scientific breakthrough with battery technology, this is unlikely to change. Fortunately, there is a way that you can get the most out of your battery.</description>
     </item>
     

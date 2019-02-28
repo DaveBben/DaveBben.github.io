@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Minecraft on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/minecraft/</link>
+    <link>https://www.bennettnotes.com/tags/minecraft/</link>
     <description>Recent content in Minecraft on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Mon, 20 Jul 2015 18:49:28 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/minecraft/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/minecraft/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Run Minecraft Server on Chromebook</title>
-      <link>https://bennettnotes.com/run-minecraft-server-on-chomebook/</link>
+      <link>https://www.bennettnotes.com/run-minecraft-server-on-chomebook/</link>
       <pubDate>Mon, 20 Jul 2015 18:49:28 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-minecraft-server-on-chomebook/</guid>
+      <guid>https://www.bennettnotes.com/run-minecraft-server-on-chomebook/</guid>
       <description>So do you have a Chromebook sitting around that you have absolutely no idea what to do with? Well, if you or your buddies are minecraft junkies, then why not consider turning your Chromebook into a Minecraft server. It runs slightly faster than using your Android phone as a minecraft server, and offers a playable speed(though it can lag occasionally).
 [adinserter block=&amp;#8221;5&amp;#8243;]
 Now before you do this, you need to make sure that you have Ubuntu Installed on your Chromebook.</description>
@@ -26,19 +26,19 @@ Now before you do this, you need to make sure that you have Ubuntu Installed on
     
     <item>
       <title>Run Minecraft Server on Android</title>
-      <link>https://bennettnotes.com/run-minecraft-server-on-android/</link>
+      <link>https://www.bennettnotes.com/run-minecraft-server-on-android/</link>
       <pubDate>Mon, 18 May 2015 04:22:26 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-minecraft-server-on-android/</guid>
+      <guid>https://www.bennettnotes.com/run-minecraft-server-on-android/</guid>
       <description>Here is how you can run Minecraft server on your Android device. This will allow anyone playing Minecraft on the desktop to connect to the server running on your device. To do this, you will first need to install Linux to your Android device then install java and run the Minecraft server jar file. It is actually a fairly easy process and takes no more than 15 minutes altogether.</description>
     </item>
     
     <item>
       <title>Install Ubuntu 14.04 on Chromebook</title>
-      <link>https://bennettnotes.com/install-ubuntu-14-04-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/install-ubuntu-14-04-on-chromebook/</link>
       <pubDate>Mon, 06 Apr 2015 03:18:10 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/install-ubuntu-14-04-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/install-ubuntu-14-04-on-chromebook/</guid>
       <description>I am always looking for different ways that I can extend the capability of my Chromebook. It&amp;#8217;s not that I don&amp;#8217;t like Chrome OS, but sometimes I need to launch a C compiler or run java apps when I am away from home. I might even get in the mood to play Minecraft during a long car ride. Luckily, there is an easy answer to all of this.</description>
     </item>
     

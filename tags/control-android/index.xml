@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Control Android on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/control-android/</link>
+    <link>https://www.bennettnotes.com/tags/control-android/</link>
     <description>Recent content in Control Android on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 29 Sep 2018 12:51:47 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/control-android/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/control-android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to Control Android from Android</title>
-      <link>https://bennettnotes.com/how-to-control-android-from-android/</link>
+      <link>https://www.bennettnotes.com/how-to-control-android-from-android/</link>
       <pubDate>Sat, 29 Sep 2018 12:51:47 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-control-android-from-android/</guid>
+      <guid>https://www.bennettnotes.com/how-to-control-android-from-android/</guid>
       <description>There is an easy way that you can control one Android device from another Android device. This is useful if you need to perform any type of tech support for someone else&amp;#8217;s device. To control Android from Android we can use the free app TeamViewer Quick Support.
 Compatibility: This is not compatible with every Android device. TeamViewer has a full list of the supported manufacturers. Unfortunately, if you have a Google Pixel device then you will not be able to take advantage of the remote control capabilities; you will only be able to share your screen.</description>
     </item>

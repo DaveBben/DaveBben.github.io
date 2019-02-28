@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nexus on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/nexus/</link>
+    <link>https://www.bennettnotes.com/tags/nexus/</link>
     <description>Recent content in Nexus on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,33 +10,33 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Wed, 05 Oct 2016 03:02:54 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/nexus/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/nexus/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Google Pixel Phone Disappointment</title>
-      <link>https://bennettnotes.com/google-pixel-phone-disappointment/</link>
+      <link>https://www.bennettnotes.com/google-pixel-phone-disappointment/</link>
       <pubDate>Wed, 05 Oct 2016 03:02:54 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/google-pixel-phone-disappointment/</guid>
+      <guid>https://www.bennettnotes.com/google-pixel-phone-disappointment/</guid>
       <description>Google has announced their new phone, the Pixel. It&amp;#8217;s coming off the heels of the forever loved Nexus program. IMO, this new Google Phone is asking too much while offering too little.</description>
     </item>
     
     <item>
       <title>Play PSP Games on Android</title>
-      <link>https://bennettnotes.com/play-psp-games-android/</link>
+      <link>https://www.bennettnotes.com/play-psp-games-android/</link>
       <pubDate>Tue, 17 Feb 2015 19:56:15 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-psp-games-android/</guid>
+      <guid>https://www.bennettnotes.com/play-psp-games-android/</guid>
       <description>Play PSP Games on Android Yes, you can play PSP games on your Android device. This is not a gimmick, nor some sort of absurd remote VNC. This is pure emulation right on your Android device. It is all thanks to the app PPSSPP. Surprisingly, some games work with excellent frame rate and graphics quality (Naruto for example). Keep in mind though, not every game will be compatible and it will not work with every device.</description>
     </item>
     
     <item>
       <title>Run Python on Android</title>
-      <link>https://bennettnotes.com/run-python-android/</link>
+      <link>https://www.bennettnotes.com/run-python-android/</link>
       <pubDate>Tue, 17 Feb 2015 19:14:44 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-python-android/</guid>
+      <guid>https://www.bennettnotes.com/run-python-android/</guid>
       <description>Have you ever wanted to program on your phone? Well, believe it or not, you can craft code right in the palm of your hands. Python is not only a flexible programming language, it is also capable of running on your Android phone thanks to the app QPython3.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 Run Python on Android What You&amp;#8217;ll Need:  QPython3  With QPython3 you have access you to a multitude of tools.</description>
@@ -44,10 +44,10 @@ Run Python on Android What You&amp;#8217;ll Need:  QPython3  With QPython3 you h
     
     <item>
       <title>Adobe Flash Player Android Lollipop</title>
-      <link>https://bennettnotes.com/adobe-flash-player-android-lollipop/</link>
+      <link>https://www.bennettnotes.com/adobe-flash-player-android-lollipop/</link>
       <pubDate>Mon, 29 Dec 2014 05:03:07 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/adobe-flash-player-android-lollipop/</guid>
+      <guid>https://www.bennettnotes.com/adobe-flash-player-android-lollipop/</guid>
       <description>Adobe Flash Player Android Lollipop: At one time, Android fully supported adobe flash player. However, official support ended by the time KitKat was released (though there were still a few hacks that you could use to get it). Of course, HTML5 video players are the preferred option, but unfortunately, there are some porn sites that still rely heavily on adobe flash content.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 &amp;nbsp;
@@ -56,10 +56,10 @@ Well, if you have an Android device running Lollipop you can now access the flas
     
     <item>
       <title>Tor for Android</title>
-      <link>https://bennettnotes.com/tor-android/</link>
+      <link>https://www.bennettnotes.com/tor-android/</link>
       <pubDate>Sun, 21 Dec 2014 05:34:15 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/tor-android/</guid>
+      <guid>https://www.bennettnotes.com/tor-android/</guid>
       <description>Let&amp;#8217;s talk about internet privacy. So as you might be aware of, when you open up a tab in incognito mode you&amp;#8217;re not really browsing anonymously. Your ISP and and any one else who is monitoring your internet can get your location and see the sites you visited. To truly browse the internet privately, you need to use tor.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 To keep it brief, Tor is a mesh of proxy servers that bounces your IP to different locations across the globe.</description>
@@ -67,114 +67,114 @@ To keep it brief, Tor is a mesh of proxy servers that bounces your IP to differ
     
     <item>
       <title>Run Android apps on Chromebook</title>
-      <link>https://bennettnotes.com/run-android-apps-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/run-android-apps-on-chromebook/</link>
       <pubDate>Sun, 21 Sep 2014 22:01:17 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-android-apps-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/run-android-apps-on-chromebook/</guid>
       <description>Recently, Google has released an Android run-time for Chrome OS that will allow developers to easily port their android applications to Chrome OS (Feel free to watch the Keynote for more information). While this is a step in the right direction (and should have been included with Chrome OS from the very beginning, but I digress) there are only four official android apps available for Chrome OS (Evernote, Vine, Sight Words, Duolingo).</description>
     </item>
     
     <item>
       <title>Best Paranoid Android Features</title>
-      <link>https://bennettnotes.com/best-paranoid-android-features/</link>
+      <link>https://www.bennettnotes.com/best-paranoid-android-features/</link>
       <pubDate>Tue, 16 Sep 2014 17:28:03 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/best-paranoid-android-features/</guid>
+      <guid>https://www.bennettnotes.com/best-paranoid-android-features/</guid>
       <description>Paranoid Android is by far one of my favorite custom roms.. It provides a stock like experience with added functionality. Each month the PA team has added a new signature feature to this amazing rom. So here&amp;#8217;s a look at some of the best paranoid android features.
 Dynamic System Bars:   The newest feature found on Paranoid Android is Dynamic System bars. DSB allows you to tint your status and navigation bars to the color of the foreground app.</description>
     </item>
     
     <item>
       <title>Run Android on Chromebook</title>
-      <link>https://bennettnotes.com/run-android-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/run-android-on-chromebook/</link>
       <pubDate>Sun, 07 Sep 2014 05:03:32 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-android-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/run-android-on-chromebook/</guid>
       <description>Are you tired of Chrome OS? Do you want a greater selection of apps and games? Well, running Android on your Chromebook is a practical option. The performance is without compromise and almost everything works (except for the touchpad). You will have access to the entire Google Play store so you can download games and thousands of apps. So here&amp;#8217;s how to run Android on Chromebook.
 What You Will Need:  An Intel Powered Chromebook A USB with at least 2GB of free space Android X86 iSO Rufus  Step 1: Developer Mode Before you can run Android, you will need to put your Chromebook in developer mode.</description>
     </item>
     
     <item>
       <title>Run Windows 95 on Android</title>
-      <link>https://bennettnotes.com/run-windows-95-on-android/</link>
+      <link>https://www.bennettnotes.com/run-windows-95-on-android/</link>
       <pubDate>Fri, 11 Jul 2014 20:05:14 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-windows-95-on-android/</guid>
+      <guid>https://www.bennettnotes.com/run-windows-95-on-android/</guid>
       <description>The 90s called, and they want their operating system back. Windows 95 was unique for its time. However, what once took cutting edge hardware to run can now easily operate on a typical Android device. Yes Virginia, you can run Windows 95 on Android.
 What You Will Need:  Windows 95 Image File Limbo PC Emulator  Step 1: Download Stuff If you have your own bootable image file that you would like to use, feel free to do so.</description>
     </item>
     
     <item>
       <title>How to Root Any Android Device</title>
-      <link>https://bennettnotes.com/how-to-root-any-android-device-2014/</link>
+      <link>https://www.bennettnotes.com/how-to-root-any-android-device-2014/</link>
       <pubDate>Mon, 07 Jul 2014 14:13:13 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-root-any-android-device-2014/</guid>
+      <guid>https://www.bennettnotes.com/how-to-root-any-android-device-2014/</guid>
       <description>There are some things in life that sound too good to be true. However, this isn&amp;#8217;t one of them. George Hortz, a hacker made famous by his iOS jailbreaks and PlayStation hacks has managed to root the Verizon Galaxy S5. So why should you care? Well, he used a recently discovered exploit found in all Linux kernels that were built prior to June 3rd. So in theory (and in practice) his app should work on any Android device that has a kernel build date prior to June 3rd.</description>
     </item>
     
     <item>
       <title>Android Reverse Tether</title>
-      <link>https://bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</link>
+      <link>https://www.bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</link>
       <pubDate>Sun, 06 Jul 2014 23:22:29 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</guid>
+      <guid>https://www.bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</guid>
       <description>Everyone is familiar with tethering. However, many people overlook the ability to reverse tether. Reverse tethering allows you to share your computer&amp;#8217;s internet connection with your phone or tablet. This is useful if you&amp;#8217;re on a metered data plan or in an area which has no wifi and a weak mobile signal. 
 What You Will Need:  A rooted Android Device A Windows PC USB Driver Reverse Tether Zip (Go to this thread to download or direct download here)  Step 1: Install USB Drivers If you don&amp;#8217;t have any device drivers already installed on your computer and you never used adb before, then you will need to install the USB drivers.</description>
     </item>
     
     <item>
       <title>Run Ubuntu 13.10 on Android</title>
-      <link>https://bennettnotes.com/run-ubuntu-13-10-on-android/</link>
+      <link>https://www.bennettnotes.com/run-ubuntu-13-10-on-android/</link>
       <pubDate>Fri, 04 Jul 2014 15:57:44 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-ubuntu-13-10-on-android/</guid>
+      <guid>https://www.bennettnotes.com/run-ubuntu-13-10-on-android/</guid>
       <description>How would it feel to have the power of a desktop operating system in the palm of your hands? If you&amp;#8217;re a power user, and also a fan of Linux, then you came to the right place. Running Ubuntu 13.10 on your Android device is not very hard to do. Don&amp;#8217;t think that this is some slow or stripped down version of Ubuntu. You will have access to all your favorite Linux apps and commands.</description>
     </item>
     
     <item>
       <title>How to Build Custom Cyanogenmod Rom</title>
-      <link>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</link>
+      <link>https://www.bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</link>
       <pubDate>Fri, 04 Jul 2014 08:12:40 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</guid>
+      <guid>https://www.bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</guid>
       <description>Build Custom Cyanogenmod Rom? So are you ready to take on Rom Development? That&amp;#8217;s okay if you&amp;#8217;re not, because I&amp;#8217;ll help walk you through it. In this tutorial, I&amp;#8217;m going to show you how to build your own Cyanogenmod Rom right from source. This sounds a lot more complicated than it actually is though. However, keep in mind that you will need a lot of patience when doing this.</description>
     </item>
     
     <item>
       <title>Enable Ultra High Graphics Dead Trigger 2</title>
-      <link>https://bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</link>
+      <link>https://www.bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</link>
       <pubDate>Wed, 02 Jul 2014 15:17:46 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</guid>
+      <guid>https://www.bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</guid>
       <description>It&amp;#8217;s not surprising that certain games purposefully limit the maximum graphics level that the user could set. However, it becomes an issue when the device you&amp;#8217;re playing on is more than capable of handling the maximum graphics level, even though the developers didn&amp;#8217;t think so. Unfortunately, Dead Trigger 2 is a perfect example of this scenario. Fortunately, with a little file modification you can enable the secret &amp;#8220;ultra&amp;#8221; graphics mode only accessible to latest generation iPhones and Tegra devices.</description>
     </item>
     
     <item>
       <title>How to Install Xposed Framework</title>
-      <link>https://bennettnotes.com/how-to-install-xposed-framework/</link>
+      <link>https://www.bennettnotes.com/how-to-install-xposed-framework/</link>
       <pubDate>Wed, 02 Jul 2014 14:38:13 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-install-xposed-framework/</guid>
+      <guid>https://www.bennettnotes.com/how-to-install-xposed-framework/</guid>
       <description>Xposed is a popular framework that allows you to modify and customize your Android device without having to flash a new rom. It allows you to use a variety of apps and tools (such as gravity box) that extend what you can achieve with your Android device. If you&amp;#8217;re tinkerer or someone who thrives on complete control, than Xposed it what you want. For more techinical details on Xposed read this.</description>
     </item>
     
     <item>
       <title>Android Boost Speaker Volume</title>
-      <link>https://bennettnotes.com/android-boost-speaker-volume/</link>
+      <link>https://www.bennettnotes.com/android-boost-speaker-volume/</link>
       <pubDate>Wed, 02 Jul 2014 04:08:11 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/android-boost-speaker-volume/</guid>
+      <guid>https://www.bennettnotes.com/android-boost-speaker-volume/</guid>
       <description>Let&amp;#8217;s face it. Even at max volume, sometimes the speaker on your phone just isn&amp;#8217;t loud enough (Yes, I&amp;#8217;m looking at you Nexus 5). However, you could digitally raise the maximum volume that the speaker allows itself to go to. This will require a rooted android device and could run the risk of damaging your speakers if you go too high, so be warned.
 What You will Need:  A rooted Android Device ES File Explorer  Step 1: Mounting the System Open up ES file explorer and enable the root explorer.</description>
     </item>
     
     <item>
       <title>How to Play Nintendo DS Games on Android</title>
-      <link>https://bennettnotes.com/how-to-play-nintendo-ds-games-on-android/</link>
+      <link>https://www.bennettnotes.com/how-to-play-nintendo-ds-games-on-android/</link>
       <pubDate>Tue, 01 Jul 2014 15:52:32 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-play-nintendo-ds-games-on-android/</guid>
+      <guid>https://www.bennettnotes.com/how-to-play-nintendo-ds-games-on-android/</guid>
       <description>The Nintendo DS was by far one of my favorite portable game systems. However, these were the days before smartphone gaming became the norm. If you&amp;#8217;re feeling nostalgic and in the mood to play some DS games on your Android device, it&amp;#8217;s very easy thanks to the DraStic DS emulator. Here&amp;#8217;s how to play Nintendo DS games on Android:
 What You&amp;#8217;ll Need:  A Nintendo Game (nds Rom)(You can Google it) DraStic DS Emulator (Demo) DraStic DS Emulator (Full)  Step 1: Transferring the Rom to Your Device The first thing you need to do is transfer the Rom to your device.</description>
     </item>

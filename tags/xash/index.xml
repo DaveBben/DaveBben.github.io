@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xash on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/xash/</link>
+    <link>https://www.bennettnotes.com/tags/xash/</link>
     <description>Recent content in Xash on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 17 Apr 2016 17:00:20 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/xash/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/xash/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Counter Strike on Android</title>
-      <link>https://bennettnotes.com/counter-strike-android/</link>
+      <link>https://www.bennettnotes.com/counter-strike-android/</link>
       <pubDate>Sun, 17 Apr 2016 17:00:20 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/counter-strike-android/</guid>
+      <guid>https://www.bennettnotes.com/counter-strike-android/</guid>
       <description>&amp;nbsp;
 How would you like to play one of the most popular PC games of all time on your Android device? So, maybe playing Half-Life 2 and Team-Fortress classic on Android isn&amp;#8217;t cool enough for you. Well, how about Counter Strike on Android? Of course, this isn&amp;#8217;t going to be the latest Counter Strike Global Offensive with the Source Engine. It&amp;#8217;s going to be the old school original counter strike from the late 90s.</description>
     </item>

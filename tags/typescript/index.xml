@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Typescript on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/typescript/</link>
+    <link>https://www.bennettnotes.com/tags/typescript/</link>
     <description>Recent content in Typescript on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Wed, 07 Mar 2018 00:35:21 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Typescript Getter and Setter</title>
-      <link>https://bennettnotes.com/typescript-getter-setter/</link>
+      <link>https://www.bennettnotes.com/typescript-getter-setter/</link>
       <pubDate>Wed, 07 Mar 2018 00:35:21 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/typescript-getter-setter/</guid>
+      <guid>https://www.bennettnotes.com/typescript-getter-setter/</guid>
       <description>This is something that you probably don&amp;#8217;t ever think about, but getters and setters are implicit on every javascript object. For example, if we take the following:
 person = {}; person.name = &#39;Dave&#39; //uses the implicit setter on the object console.log(person.name) //uses the implicit getter The above code is something that you have probably have seen very often in javascript. However, this doesn&amp;#8217;t give you much control over how properties are accessed or defined.</description>
     </item>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Csploit on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/csploit/</link>
+    <link>https://www.bennettnotes.com/tags/csploit/</link>
     <description>Recent content in Csploit on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,24 +10,24 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Fri, 16 Sep 2016 15:59:21 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/csploit/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/csploit/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android cSploit</title>
-      <link>https://bennettnotes.com/android-csploit-2/</link>
+      <link>https://www.bennettnotes.com/android-csploit-2/</link>
       <pubDate>Fri, 16 Sep 2016 15:59:21 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/android-csploit-2/</guid>
+      <guid>https://www.bennettnotes.com/android-csploit-2/</guid>
       <description>A little while ago, there was this awesome program called dSploit. It was a network security app that provided users with an abundance of tools and operations to test the strength of their network security. Recently, dSploit was merged with a proprietary closed source app that isn&amp;#8217;t free. While you can find older copies of dSploit floating around on the internet, none of them are up to date.</description>
     </item>
     
     <item>
       <title>Android cSploit</title>
-      <link>https://bennettnotes.com/android-csploit/</link>
+      <link>https://www.bennettnotes.com/android-csploit/</link>
       <pubDate>Fri, 16 Sep 2016 15:59:21 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/android-csploit/</guid>
+      <guid>https://www.bennettnotes.com/android-csploit/</guid>
       <description>A little while ago, there was this awesome program called dSploit. It was a network security app that provided users with an abundance of tools and operations to test the strength of their network security. Recently, dSploit was merged with a proprietary closed source app that isn&amp;#8217;t free. While you can find older copies of dSploit floating around on the internet, none of them are up to date.</description>
     </item>
     

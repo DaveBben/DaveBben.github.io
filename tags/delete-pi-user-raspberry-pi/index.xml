@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Delete Pi User Raspberry Pi on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/delete-pi-user-raspberry-pi/</link>
+    <link>https://www.bennettnotes.com/tags/delete-pi-user-raspberry-pi/</link>
     <description>Recent content in Delete Pi User Raspberry Pi on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 07 May 2017 00:13:45 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/delete-pi-user-raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/delete-pi-user-raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Delete Pi User on Raspberry Pi</title>
-      <link>https://bennettnotes.com/delete-pi-user-on-raspberry-pi/</link>
+      <link>https://www.bennettnotes.com/delete-pi-user-on-raspberry-pi/</link>
       <pubDate>Sun, 07 May 2017 00:13:45 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/delete-pi-user-on-raspberry-pi/</guid>
+      <guid>https://www.bennettnotes.com/delete-pi-user-on-raspberry-pi/</guid>
       <description>One of the first things you should do when setting up the Raspberry Pi is to change the default password for the pi user. Personally, I would rather just delete the user altogether and create my own user. So here&amp;#8217;s how I deleted the Pi user on Raspberry Pi.
 Make sure that you backup any important data from your Pi user that you might need.  Step 1: Create a New User Before you begin, make sure that you can SSH into your Raspberry Pi.</description>
     </item>

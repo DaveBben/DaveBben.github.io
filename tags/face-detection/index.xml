@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Face Detection on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/face-detection/</link>
+    <link>https://www.bennettnotes.com/tags/face-detection/</link>
     <description>Recent content in Face Detection on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 12 Mar 2017 04:01:23 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/face-detection/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/face-detection/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Control your Android Phone without Touching It</title>
-      <link>https://bennettnotes.com/control-android-phone-without-touching/</link>
+      <link>https://www.bennettnotes.com/control-android-phone-without-touching/</link>
       <pubDate>Sun, 12 Mar 2017 04:01:23 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/control-android-phone-without-touching/</guid>
+      <guid>https://www.bennettnotes.com/control-android-phone-without-touching/</guid>
       <description>If you are looking for something cool to try, then download Eva Facial Mouse. This app allows you to control your android phone using your face. Using your face as an anchor point, the app moves the cursor on your phone relative to that point. Essentially, you are using your face to control the mouse pointer. While this is not something you should use in a practical setup, it&amp;#8217;s still a cool app to show off to your friends.</description>
     </item>
     

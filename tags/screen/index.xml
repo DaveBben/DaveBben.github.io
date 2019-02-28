@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Screen on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/screen/</link>
+    <link>https://www.bennettnotes.com/tags/screen/</link>
     <description>Recent content in Screen on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Fri, 18 Dec 2015 03:29:00 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/screen/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/screen/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cast Android Screen to PC</title>
-      <link>https://bennettnotes.com/cast-android-screen-to-pc/</link>
+      <link>https://www.bennettnotes.com/cast-android-screen-to-pc/</link>
       <pubDate>Fri, 18 Dec 2015 03:29:00 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/cast-android-screen-to-pc/</guid>
+      <guid>https://www.bennettnotes.com/cast-android-screen-to-pc/</guid>
       <description>Have you ever had a moment where you wish that you could view a picture/video or even a game on a display larger than your phone? Maybe you haven&amp;#8217;t, but it&amp;#8217;s still something really cool to try it. This tutorial will take you through the basics on how to casts Android screen to PC.
 Before we begin, I do want to mention that those of you who are using one of the latest Samsung phones already have this feature built in.</description>
     </item>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Used on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/used/</link>
+    <link>https://www.bennettnotes.com/tags/used/</link>
     <description>Recent content in Used on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Fri, 17 Jun 2016 14:40:49 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/used/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/used/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Least Used Android Features</title>
-      <link>https://bennettnotes.com/least-used-android-features/</link>
+      <link>https://www.bennettnotes.com/least-used-android-features/</link>
       <pubDate>Fri, 17 Jun 2016 14:40:49 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/least-used-android-features/</guid>
+      <guid>https://www.bennettnotes.com/least-used-android-features/</guid>
       <description>There are a lot of cool features on Android, but you might not actually have a use for them. Here are some of my least used features of Android.</description>
     </item>
     

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/javascript/</link>
+    <link>https://www.bennettnotes.com/tags/javascript/</link>
     <description>Recent content in Javascript on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,62 +10,62 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 22 Apr 2018 17:53:29 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>JWT Tokens in Express and NodeJS</title>
-      <link>https://bennettnotes.com/jwt-tokens-in-express-and-nodejs/</link>
+      <link>https://www.bennettnotes.com/jwt-tokens-in-express-and-nodejs/</link>
       <pubDate>Sun, 22 Apr 2018 17:53:29 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/jwt-tokens-in-express-and-nodejs/</guid>
+      <guid>https://www.bennettnotes.com/jwt-tokens-in-express-and-nodejs/</guid>
       <description>The JSON Web Token (JWT) is the easiest standard for protecting APIs and passing in claims data. A JSON Web token allows the server to verify the authenticity of the user and provide them access to protected API routes and data.&amp;nbsp; A simple JWT flow goes as follows:
  The user sends login credentials to the server The server verifies user against&amp;nbsp;the database then returns a JWT token if valid The user sends that token in the header with every request to API.</description>
     </item>
     
     <item>
       <title>How to build a Chrome Extension</title>
-      <link>https://bennettnotes.com/how-to-build-a-chrome-extension/</link>
+      <link>https://www.bennettnotes.com/how-to-build-a-chrome-extension/</link>
       <pubDate>Wed, 28 Mar 2018 15:07:56 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-build-a-chrome-extension/</guid>
+      <guid>https://www.bennettnotes.com/how-to-build-a-chrome-extension/</guid>
       <description>Chrome extensions are really cool. They allow the user to extend the capabilities of their browser and can incorporate really well into existing apps. So let&amp;#8217;s take a look at how to build a Chrome Extension in less than 10 minutes. Chrome Extensions are written in Javascript, so I recommend that you have a basic understanding of Javascript before proceeding with this tutorial.
 What we&amp;#8217;re building We are going to build a simple chrome extension that will allow you to search google for any text that you highlight on a page.</description>
     </item>
     
     <item>
       <title>Google Poly API Javascript and NodeJS</title>
-      <link>https://bennettnotes.com/google-poly-api-javascript-and-nodejs/</link>
+      <link>https://www.bennettnotes.com/google-poly-api-javascript-and-nodejs/</link>
       <pubDate>Mon, 26 Mar 2018 01:56:23 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/google-poly-api-javascript-and-nodejs/</guid>
+      <guid>https://www.bennettnotes.com/google-poly-api-javascript-and-nodejs/</guid>
       <description>Google has been working on an interesting project called Poly. With Poly, you have access to hundreds of 3D objects that can be used to build VR games or with AR content. The interesting about Poly is that all of the graphics are available on demand. Think of it like Google Fonts just for 3D objects. So let&amp;#8217;s take a look at how you can get started with Google Poly API Javascript and NodeJS bundle.</description>
     </item>
     
     <item>
       <title>Meltdown and Spectre – Possible Javascript Vulnerabilities</title>
-      <link>https://bennettnotes.com/meltdown-and-spectre-javascript-vulnerabilities/</link>
+      <link>https://www.bennettnotes.com/meltdown-and-spectre-javascript-vulnerabilities/</link>
       <pubDate>Fri, 05 Jan 2018 15:50:52 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/meltdown-and-spectre-javascript-vulnerabilities/</guid>
+      <guid>https://www.bennettnotes.com/meltdown-and-spectre-javascript-vulnerabilities/</guid>
       <description>This has been a very interesting New Year. So far, 2018 has brought us two of the biggest bugs to hit CPUs in the past 12 years: Meltdown and Spectre. Intel is struggling to get their Meltdown bug under control while Amazon and Microsoft brutally await its impact on their cloud services. Both Meltdown and Spectre are serious issues, but Meltdown is easier to exploit and gives attackers more valuable information.</description>
     </item>
     
     <item>
       <title>GPU Programming in Javascript</title>
-      <link>https://bennettnotes.com/gpu-programming-in-javascript/</link>
+      <link>https://www.bennettnotes.com/gpu-programming-in-javascript/</link>
       <pubDate>Tue, 26 Dec 2017 16:58:09 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/gpu-programming-in-javascript/</guid>
+      <guid>https://www.bennettnotes.com/gpu-programming-in-javascript/</guid>
       <description>You probably don&amp;#8217;t think about Javascript when you hear the words GPU programming. However, it should come as no surprise that there is a library to do anything and that includes GPU Programming in Javascript. Let&amp;#8217;s get one thing clear though, you should probably not do this if you are looking to do serious GPU programming. For serious GPU programming, I recommended that you work with Nvidia&amp;#8217;s CUDA in C and C++.</description>
     </item>
     
     <item>
       <title>Javascript for of vs for in vs for each</title>
-      <link>https://bennettnotes.com/javascript-vs-vs/</link>
+      <link>https://www.bennettnotes.com/javascript-vs-vs/</link>
       <pubDate>Fri, 22 Dec 2017 14:54:56 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/javascript-vs-vs/</guid>
+      <guid>https://www.bennettnotes.com/javascript-vs-vs/</guid>
       <description>If you are new to Javascript (or even a seasoned js developer), you will probably get confused when trying to understand the different types of for loops. So let&amp;#8217;s go through the javascript for of vs for in vs for each loop.
 Standard for loop Suppose we have an array called myArray. Here&amp;#8217;s how you would iterate through it using the standard for loop:
 var myArray = [&#39;Cat&#39;,&#39;Dog&#39;,&#39;Horse&#39;]; for(let i =0; i&amp;lt; myArray.</description>
@@ -73,57 +73,57 @@ var myArray = [&#39;Cat&#39;,&#39;Dog&#39;,&#39;Horse&#39;]; for(let i =0; i&amp
     
     <item>
       <title>Build a Multiplayer game using Javascript</title>
-      <link>https://bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/</link>
+      <link>https://www.bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/</link>
       <pubDate>Sun, 10 Dec 2017 22:27:10 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/</guid>
+      <guid>https://www.bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/</guid>
       <description>In this tutorial, we will take a look at how to build a multiplayer game using Javascript and NodeJS. My goal is to take you through the basic setup so that you can begin focusing on the actual gameplay. When building a full-scale MMO, there are a lot of things to consider like load balancing, network contingencies, etc. For now, we are going to focus on the bare minimum just to help you get an understanding of how you can creatively and effectively use the available tools of NodeJS to get started.</description>
     </item>
     
     <item>
       <title>Javascript Hashcash Proof of Work</title>
-      <link>https://bennettnotes.com/javascript-hashcash-proof-work/</link>
+      <link>https://www.bennettnotes.com/javascript-hashcash-proof-work/</link>
       <pubDate>Mon, 04 Dec 2017 22:39:00 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/javascript-hashcash-proof-work/</guid>
+      <guid>https://www.bennettnotes.com/javascript-hashcash-proof-work/</guid>
       <description>Suppose that you developed an app that will give users free stuff when they click a button. Obviously, there&amp;#8217;s nothing stopping one user from spamming the button one million times and collecting a whole bunch of free stuff. If you wanted to prevent that, you could use something like a CAPTCHA, or perhaps give each user a session and cool off period. You could also implement something called a proof of work system.</description>
     </item>
     
     <item>
       <title>Build a Javascript Blockchain</title>
-      <link>https://bennettnotes.com/javascript-blockchain/</link>
+      <link>https://www.bennettnotes.com/javascript-blockchain/</link>
       <pubDate>Mon, 04 Dec 2017 22:33:00 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/javascript-blockchain/</guid>
+      <guid>https://www.bennettnotes.com/javascript-blockchain/</guid>
       <description>Blockchain! It&amp;#8217;s the mystical buzzword that every company is saying right now. At its core, the basic concept of blockchain is not hard to understand; it&amp;#8217;s essentially a distributed linked list. It&amp;#8217;s also used by the popular cryptocurrency called Bitcoin. The advantages of Blockchain is that it allows for a decentralized collection of data whose integrity is easily verifiable, and the data itself is immutable Keep in mind that a fully robust blockchain will also contain smart contracts, mining algorithms (proof of work/proof of stake) and other flavorful elements that you could enhance the chain with.</description>
     </item>
     
     <item>
       <title>Multithreaded Javascript</title>
-      <link>https://bennettnotes.com/multithreaded-javascript/</link>
+      <link>https://www.bennettnotes.com/multithreaded-javascript/</link>
       <pubDate>Sun, 22 Oct 2017 15:59:58 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/multithreaded-javascript/</guid>
+      <guid>https://www.bennettnotes.com/multithreaded-javascript/</guid>
       <description>For the longest time, Javascript has always been implemented using a single thread in your browser. For the most part, this wasn&amp;#8217;t a problem. If you&amp;#8217;re just using javascript for simple DOM manipulations or form submissions then a single thread is all you need. However, once developers started getting more advanced with their Javascript usage, this eventually led to an issue.
 Let&amp;#8217;s say I have the following single page application (SPA) that shows a list of prime numbers from 1 to 600,000:</description>
     </item>
     
     <item>
       <title>JavaScript Read USB</title>
-      <link>https://bennettnotes.com/javascript-read-usb-2/</link>
+      <link>https://www.bennettnotes.com/javascript-read-usb-2/</link>
       <pubDate>Sun, 15 Oct 2017 17:49:06 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/javascript-read-usb-2/</guid>
+      <guid>https://www.bennettnotes.com/javascript-read-usb-2/</guid>
       <description>You can now officially use JavaScript to read USB devices that are connected to your computer. This is using the new WebUSB API that is still in early draft. As being so, the API could later change or be removed altogether until it receives the final verification.
 In order to use WebUSB you need to be running the latest version of Google Chrome, with the experimental web platform features flag enabled.</description>
     </item>
     
     <item>
       <title>Snapchat using Javascript – Zuck.js</title>
-      <link>https://bennettnotes.com/snapchat-using-javascript/</link>
+      <link>https://www.bennettnotes.com/snapchat-using-javascript/</link>
       <pubDate>Sun, 15 Oct 2017 17:42:01 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/snapchat-using-javascript/</guid>
+      <guid>https://www.bennettnotes.com/snapchat-using-javascript/</guid>
       <description>Stories! Stories are everywhere these days. Snapchat, Instagram, Facebook, Facebook Messenger and Whatsapp all have stories. Hell, it&amp;#8217;s only a matter of time before Microsoft Excel gets a stories update.
 &amp;nbsp;
 
@@ -132,30 +132,30 @@ In any case, if you want to build an app like Snapchat or build an app like Inst
     
     <item>
       <title>Reddit API Application only OAuth in Javascript</title>
-      <link>https://bennettnotes.com/reddit-api-application-oauth-javascript/</link>
+      <link>https://www.bennettnotes.com/reddit-api-application-oauth-javascript/</link>
       <pubDate>Sun, 15 Oct 2017 17:31:14 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/reddit-api-application-oauth-javascript/</guid>
+      <guid>https://www.bennettnotes.com/reddit-api-application-oauth-javascript/</guid>
       <description>Before you begin developing your Reddit application, you will need to make sure that your app is authorized to access the Reddit API. Authorization is done through OAuth tokens that you receive from the Reddit server. The flow is pretty straightforward:
  Application Requests Token App Receives Token that&amp;#8217;s valid for an hour App makes API calls with given token App request new token when the previous token expires  For this tutorial, we are going to build a simple app that grabs the new posts from a subreddit.</description>
     </item>
     
     <item>
       <title>JavaScript Read USB</title>
-      <link>https://bennettnotes.com/javascript-read-usb/</link>
+      <link>https://www.bennettnotes.com/javascript-read-usb/</link>
       <pubDate>Fri, 18 Aug 2017 13:10:40 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/javascript-read-usb/</guid>
+      <guid>https://www.bennettnotes.com/javascript-read-usb/</guid>
       <description>You can now officially use JavaScript to read USB devices that are connected to your computer. This is using the new WebUSB API that is still in early draft. As being so, the API could later change or be removed altogether until it receives the final verification.
 In order to use WebUSB you need to be running the latest version of Google Chrome, with the experimental web platform features flag enabled.</description>
     </item>
     
     <item>
       <title>JavaScript Callbacks</title>
-      <link>https://bennettnotes.com/javascript-callbacks/</link>
+      <link>https://www.bennettnotes.com/javascript-callbacks/</link>
       <pubDate>Thu, 17 Aug 2017 02:29:24 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/javascript-callbacks/</guid>
+      <guid>https://www.bennettnotes.com/javascript-callbacks/</guid>
       <description>In Javascript, a callback function is a function that is passed into another function as an argument. This allows you to invoke that function with a return value. Remember, Javascript&amp;#8217;s implementation within a browser is single threaded (well..until recently at least). That means that all of your code is executed within one linear operation. However, there are some functions in Javascript which are asynchronous. That means that they have the privilege to be invoked anywhere in that line of execution.</description>
     </item>
     

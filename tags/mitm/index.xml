@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mitm on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/mitm/</link>
+    <link>https://www.bennettnotes.com/tags/mitm/</link>
     <description>Recent content in Mitm on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 28 May 2017 03:43:01 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/mitm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/mitm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android WiFi Jammer</title>
-      <link>https://bennettnotes.com/android-wifi-jammer/</link>
+      <link>https://www.bennettnotes.com/android-wifi-jammer/</link>
       <pubDate>Sun, 28 May 2017 03:43:01 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/android-wifi-jammer/</guid>
+      <guid>https://www.bennettnotes.com/android-wifi-jammer/</guid>
       <description>For less than $10, you can have an Android WiFI Jammer up and running. To get started, you are going to need to have the NodeMCU. It&amp;#8217;s a WiFI development chip that&amp;#8217;s usually used in Raspberry Pi and Arduino projects. However, the chip can also be used as a standalone device (it has its own CPU and memory) as long as you give it sufficient power. This means you can power it through another Android phone, your computer, power bank or any device that&amp;#8217;s capable of supplying power over USB.</description>
     </item>
     

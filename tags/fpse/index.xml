@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fpse on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/fpse/</link>
+    <link>https://www.bennettnotes.com/tags/fpse/</link>
     <description>Recent content in Fpse on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 31 Aug 2013 03:01:03 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/fpse/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/fpse/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Play PlayStation Games on Android</title>
-      <link>https://bennettnotes.com/play-playstation-games-on-android/</link>
+      <link>https://www.bennettnotes.com/play-playstation-games-on-android/</link>
       <pubDate>Sat, 31 Aug 2013 03:01:03 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-playstation-games-on-android/</guid>
+      <guid>https://www.bennettnotes.com/play-playstation-games-on-android/</guid>
       <description>Do you miss the good old PlayStation days? I am talking about the original PlayStation with the 1MB Memory cards (I had a lot of those) and the boring yet simplistic outer-body design? If so, there is hope for you. Thanks to multiple apps in the Play Store, you can play PlayStation games on Android.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 Emulation has come so far on Android. It amazes me at just how many titles are compatible with the PlayStation emulators.</description>

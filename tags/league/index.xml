@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>League on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/league/</link>
+    <link>https://www.bennettnotes.com/tags/league/</link>
     <description>Recent content in League on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,24 +10,24 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 16 Jun 2016 15:40:26 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/league/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/league/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>League on Chromebook</title>
-      <link>https://bennettnotes.com/league-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/league-on-chromebook/</link>
       <pubDate>Thu, 16 Jun 2016 15:40:26 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/league-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/league-on-chromebook/</guid>
       <description>I have received many requests to do a video of League on Chromebook. Well, it shouldn&amp;#8217;t be too surprising that it works. All it takes is running Windows on your Chromebook. The biggest limitation that I face was the insufficient hard drive space on my Chromebook (Acer C720). To solve that issue, I installed League to a flash drive. Of course, this had a negative effect on the game&amp;#8217;s load time.</description>
     </item>
     
     <item>
       <title>League of Legends on Linux</title>
-      <link>https://bennettnotes.com/league-of-legends-on-linux/</link>
+      <link>https://www.bennettnotes.com/league-of-legends-on-linux/</link>
       <pubDate>Tue, 25 Aug 2015 16:08:04 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/league-of-legends-on-linux/</guid>
+      <guid>https://www.bennettnotes.com/league-of-legends-on-linux/</guid>
       <description>League players are everywhere. Sure, the majority of them are PC users, but there&amp;#8217;s a growing population of Linux gamers out there who want in on the action. Thanks to the program Play On Linux, which makes use of Wine (a popular program that allows many Windows applications to run on Linux), anyone can play League on their alinux computer.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 I should also add that this procedure will also work on an x86 Chromebook with Crouton installed.</description>

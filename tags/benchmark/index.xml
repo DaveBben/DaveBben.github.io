@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Benchmark on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/benchmark/</link>
+    <link>https://www.bennettnotes.com/tags/benchmark/</link>
     <description>Recent content in Benchmark on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 23 May 2015 15:07:48 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/benchmark/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/benchmark/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LG G4 Gaming Performance</title>
-      <link>https://bennettnotes.com/lg-g4-gaming-performance/</link>
+      <link>https://www.bennettnotes.com/lg-g4-gaming-performance/</link>
       <pubDate>Sat, 23 May 2015 15:07:48 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/lg-g4-gaming-performance/</guid>
+      <guid>https://www.bennettnotes.com/lg-g4-gaming-performance/</guid>
       <description>LG G4 Gaming Performance: Here is a quick look at the LG G4 gaming performance. If you are worried with LG&amp;#8217;s decision to use the Snapdragon 808 over the Snapdragon 810, don&amp;#8217;t be. In my testing, I used graphics heavy games such as GTA Vice City and Goat Simulator along with Real Racing 3. I could not get the device to lag, even with all the in game settings set to the max.</description>
     </item>
     

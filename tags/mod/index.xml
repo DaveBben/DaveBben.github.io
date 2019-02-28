@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mod on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/mod/</link>
+    <link>https://www.bennettnotes.com/tags/mod/</link>
     <description>Recent content in Mod on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,43 +10,43 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Mon, 05 Jan 2015 04:59:02 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/mod/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/mod/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bypass Android Lock screen</title>
-      <link>https://bennettnotes.com/bypass-android-lock-screen/</link>
+      <link>https://www.bennettnotes.com/bypass-android-lock-screen/</link>
       <pubDate>Mon, 05 Jan 2015 04:59:02 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/bypass-android-lock-screen/</guid>
+      <guid>https://www.bennettnotes.com/bypass-android-lock-screen/</guid>
       <description>Locked out of your phone? Well you are in luck. There is a way to bypass your Android lock screen. Now before you get too excited, there are a few stipulations. First, this only works when your security is set to pattern lock. Secondly, you must have a rooted android device. And finally, you need to have adb debugging enabled. I know this might only be a small percentage of people out there, so for those of you who do, here&amp;#8217;s how you can bypass Android lock screen.</description>
     </item>
     
     <item>
       <title>Enable Ultra High Graphics Dead Trigger 2</title>
-      <link>https://bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</link>
+      <link>https://www.bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</link>
       <pubDate>Wed, 02 Jul 2014 15:17:46 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</guid>
+      <guid>https://www.bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</guid>
       <description>It&amp;#8217;s not surprising that certain games purposefully limit the maximum graphics level that the user could set. However, it becomes an issue when the device you&amp;#8217;re playing on is more than capable of handling the maximum graphics level, even though the developers didn&amp;#8217;t think so. Unfortunately, Dead Trigger 2 is a perfect example of this scenario. Fortunately, with a little file modification you can enable the secret &amp;#8220;ultra&amp;#8221; graphics mode only accessible to latest generation iPhones and Tegra devices.</description>
     </item>
     
     <item>
       <title>Android Boost Speaker Volume</title>
-      <link>https://bennettnotes.com/android-boost-speaker-volume/</link>
+      <link>https://www.bennettnotes.com/android-boost-speaker-volume/</link>
       <pubDate>Wed, 02 Jul 2014 04:08:11 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/android-boost-speaker-volume/</guid>
+      <guid>https://www.bennettnotes.com/android-boost-speaker-volume/</guid>
       <description>Let&amp;#8217;s face it. Even at max volume, sometimes the speaker on your phone just isn&amp;#8217;t loud enough (Yes, I&amp;#8217;m looking at you Nexus 5). However, you could digitally raise the maximum volume that the speaker allows itself to go to. This will require a rooted android device and could run the risk of damaging your speakers if you go too high, so be warned.
 What You will Need:  A rooted Android Device ES File Explorer  Step 1: Mounting the System Open up ES file explorer and enable the root explorer.</description>
     </item>
     
     <item>
       <title>Android Floating Window</title>
-      <link>https://bennettnotes.com/android-floating-window/</link>
+      <link>https://www.bennettnotes.com/android-floating-window/</link>
       <pubDate>Tue, 01 Jul 2014 04:51:01 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/android-floating-window/</guid>
+      <guid>https://www.bennettnotes.com/android-floating-window/</guid>
       <description>One of the most iconic features of the Galaxy Note 3, is the multi-window feature. It&amp;#8217;s extremely cool and makes great use of the abundance of screen real estate. Unfortunately, that&amp;#8217;s not a native Android feature. However, with the help of an Xposed Module, you can achieve the floating affect on any android device. Here&amp;#8217;s how to get Android floating window display:
 What You Will Need:  A rooted Android Device Xposed Installer App Halo App(Android 4.</description>
     </item>

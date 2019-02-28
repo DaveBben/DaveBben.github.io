@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tegra 4 on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/tegra-4/</link>
+    <link>https://www.bennettnotes.com/tags/tegra-4/</link>
     <description>Recent content in Tegra 4 on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 08 Jan 2015 19:33:18 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/tegra-4/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/tegra-4/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Play Portal on any Android</title>
-      <link>https://bennettnotes.com/play-portal-on-any-android/</link>
+      <link>https://www.bennettnotes.com/play-portal-on-any-android/</link>
       <pubDate>Thu, 08 Jan 2015 19:33:18 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-portal-on-any-android/</guid>
+      <guid>https://www.bennettnotes.com/play-portal-on-any-android/</guid>
       <description>Ah yes, who doesn&amp;#8217;t love a good game of Portal? If you are lucky enough to own an Nvidia Shield (or any Tegra 4 device), you already have access to the game plus more exclusives. But what if you do not own an Nvidia Shield? Well there is still a way to play Portal thanks to an app called GLTools. GLtTools will emulate the Tegra 4 drivers, so that the app thinks you are using a Tegra 4 device.</description>
     </item>
     

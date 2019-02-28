@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/home/</link>
+    <link>https://www.bennettnotes.com/tags/home/</link>
     <description>Recent content in Home on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 26 Jul 2014 15:13:45 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Disable Lock screen at Home</title>
-      <link>https://bennettnotes.com/disable-lock-screen-at-home/</link>
+      <link>https://www.bennettnotes.com/disable-lock-screen-at-home/</link>
       <pubDate>Sat, 26 Jul 2014 15:13:45 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/disable-lock-screen-at-home/</guid>
+      <guid>https://www.bennettnotes.com/disable-lock-screen-at-home/</guid>
       <description>Let&amp;#8217;s face it, at home, there might not be a huge risk to leaving your phone unlocked. Yes, a sibling could snoop into your phone and take a look at those risque pictures you have saved or see who you have been texting, but that might not be the absolute worst security breach to deal with. Luckily, Android Lollipop adds a trusted device feature that allows you to automatically disable your lock screen if you are on a trusted wifi network or connected to a trusted Bluetooth device.</description>
     </item>
     

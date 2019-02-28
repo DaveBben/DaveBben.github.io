@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hotspot on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/hotspot/</link>
+    <link>https://www.bennettnotes.com/tags/hotspot/</link>
     <description>Recent content in Hotspot on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,24 +10,24 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 20 Oct 2018 14:37:18 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/hotspot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/hotspot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to Share WiFi Connection on Android</title>
-      <link>https://bennettnotes.com/how-to-share-wifi-connection-on-android/</link>
+      <link>https://www.bennettnotes.com/how-to-share-wifi-connection-on-android/</link>
       <pubDate>Sat, 20 Oct 2018 14:37:18 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-share-wifi-connection-on-android/</guid>
+      <guid>https://www.bennettnotes.com/how-to-share-wifi-connection-on-android/</guid>
       <description>Last summer, I was staying at a beautiful resort in the Dominican Republic with no access to mobile data, so I needed to depend on WiFi. Unfortunately, my network access only allowed me to have one device at a time on the network. This was a huge pain because I wanted to connect both my phone and laptop to the network. After some searching, I found out a simple way to share wifi from an android device.</description>
     </item>
     
     <item>
       <title>Reverse Tether</title>
-      <link>https://bennettnotes.com/reverse-tether/</link>
+      <link>https://www.bennettnotes.com/reverse-tether/</link>
       <pubDate>Sat, 02 Jul 2016 13:58:13 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/reverse-tether/</guid>
+      <guid>https://www.bennettnotes.com/reverse-tether/</guid>
       <description>Have you ever been stuck in a situation that you needed WiFi but only had an Ethernet connection available? Unless you&amp;#8217;re looking to connect your phone to an Ethernet connection, you would be all out of options. I found myself in a similar situation when I needed to setup a live stream using a bunch of laptops and only one Ethernet connection with no WiFi available. This is also useful if you are looking to avoid using mobile data.</description>
     </item>
     

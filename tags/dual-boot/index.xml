@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dual Boot on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/dual-boot/</link>
+    <link>https://www.bennettnotes.com/tags/dual-boot/</link>
     <description>Recent content in Dual Boot on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,24 +10,24 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Wed, 15 Mar 2017 02:03:23 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/dual-boot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/dual-boot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dual Boot Windows 10 and Ubuntu</title>
-      <link>https://bennettnotes.com/dual-boot-windows-10-and-ubuntu/</link>
+      <link>https://www.bennettnotes.com/dual-boot-windows-10-and-ubuntu/</link>
       <pubDate>Wed, 15 Mar 2017 02:03:23 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/dual-boot-windows-10-and-ubuntu/</guid>
+      <guid>https://www.bennettnotes.com/dual-boot-windows-10-and-ubuntu/</guid>
       <description>I woke up Sunday Morning with a cool project in mind. I wanted to dual boot Windows 10 and Ubuntu. The real reason for this was because I decided to give Jekyll a try and it was going to be my replacement for WordPress, but I digress. Another major reason to dual-boot Windows 10 and Ubuntu was so that I could keep all of my Android development and Web development stuff within Ubuntu and use Windows solely for video editing and gaming.</description>
     </item>
     
     <item>
       <title>Install Windows 8 on Chromebook</title>
-      <link>https://bennettnotes.com/install-windows-8-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/install-windows-8-on-chromebook/</link>
       <pubDate>Fri, 11 Jul 2014 17:18:23 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/install-windows-8-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/install-windows-8-on-chromebook/</guid>
       <description>Windows 8 is old news now, look at running Windows 10 on your Chromebook! So you want to run Windows 8 on your Chromebook? Well congratulations, you clicked on the right link. Let me first ask you a question. Are you looking for a fully responsive, practical and reliable Windows 8 chromebook system? If so, then go out and buy a Windows netbook. While running Windows 8 on your Chromebook is feasible, there are a lot of driver hurdles and hardware limitations (depending on your Chromebook model) that you will have to overcome before this becomes a practical solution.</description>
     </item>
     

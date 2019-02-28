@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pokemon on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/pokemon/</link>
+    <link>https://www.bennettnotes.com/tags/pokemon/</link>
     <description>Recent content in Pokemon on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 31 Dec 2016 16:03:24 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/pokemon/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/pokemon/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Play Pokemon on Android Smartwatch</title>
-      <link>https://bennettnotes.com/play-pokemon-android-smartwatch/</link>
+      <link>https://www.bennettnotes.com/play-pokemon-android-smartwatch/</link>
       <pubDate>Sat, 31 Dec 2016 16:03:24 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-pokemon-android-smartwatch/</guid>
+      <guid>https://www.bennettnotes.com/play-pokemon-android-smartwatch/</guid>
       <description>Have you ever thought about playing Pokemon on your Android Wear Smartwatch? Neither have I. However, an app called Wear GBC makes this all possible. It is a Gameboy color emulator for Android Wear.
 How to Play Pokemon on Android Smartwatch Here&amp;#8217;s a quick tutorial on how I got this up and running. First download a GBC ROM (.gbc). Then add it via the phone app (you might have to unzip it first if it&amp;#8217;s in a zip file).</description>
     </item>

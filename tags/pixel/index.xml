@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pixel on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/pixel/</link>
+    <link>https://www.bennettnotes.com/tags/pixel/</link>
     <description>Recent content in Pixel on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,24 +10,24 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Wed, 05 Oct 2016 03:02:54 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/pixel/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/pixel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Google Pixel Phone Disappointment</title>
-      <link>https://bennettnotes.com/google-pixel-phone-disappointment/</link>
+      <link>https://www.bennettnotes.com/google-pixel-phone-disappointment/</link>
       <pubDate>Wed, 05 Oct 2016 03:02:54 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/google-pixel-phone-disappointment/</guid>
+      <guid>https://www.bennettnotes.com/google-pixel-phone-disappointment/</guid>
       <description>Google has announced their new phone, the Pixel. It&amp;#8217;s coming off the heels of the forever loved Nexus program. IMO, this new Google Phone is asking too much while offering too little.</description>
     </item>
     
     <item>
       <title>Install Ubuntu on Chromebook</title>
-      <link>https://bennettnotes.com/intsall-ubuntu-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/intsall-ubuntu-on-chromebook/</link>
       <pubDate>Thu, 10 Jul 2014 15:44:26 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/intsall-ubuntu-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/intsall-ubuntu-on-chromebook/</guid>
       <description>Everyone has their own opinion of Chrome OS. Some find it extremely useful and others think it&amp;#8217;s complete garbage. While I would consider myself part of the former group, I can admit that there are places where Chrome OS falls short of a desktop operating system. For exampling, I&amp;#8217;m not able to open a java compiler on Chrome OS or use Wine to play Steam games. However, you can do all these things on Linux.</description>
     </item>
     

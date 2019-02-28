@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Privately on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/privately/</link>
+    <link>https://www.bennettnotes.com/tags/privately/</link>
     <description>Recent content in Privately on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 21 Dec 2014 05:34:15 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/privately/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/privately/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tor for Android</title>
-      <link>https://bennettnotes.com/tor-android/</link>
+      <link>https://www.bennettnotes.com/tor-android/</link>
       <pubDate>Sun, 21 Dec 2014 05:34:15 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/tor-android/</guid>
+      <guid>https://www.bennettnotes.com/tor-android/</guid>
       <description>Let&amp;#8217;s talk about internet privacy. So as you might be aware of, when you open up a tab in incognito mode you&amp;#8217;re not really browsing anonymously. Your ISP and and any one else who is monitoring your internet can get your location and see the sites you visited. To truly browse the internet privately, you need to use tor.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 To keep it brief, Tor is a mesh of proxy servers that bounces your IP to different locations across the globe.</description>

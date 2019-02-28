@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Runescape on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/runescape/</link>
+    <link>https://www.bennettnotes.com/tags/runescape/</link>
     <description>Recent content in Runescape on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 20 Jun 2015 23:24:45 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/runescape/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/runescape/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Play Runescape on Chromebook</title>
-      <link>https://bennettnotes.com/play-runescape-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/play-runescape-on-chromebook/</link>
       <pubDate>Sat, 20 Jun 2015 23:24:45 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-runescape-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/play-runescape-on-chromebook/</guid>
       <description>Back in fourth grade, I used to spend hours playing Runescape. At the time, I thought it was the most exciting and adventurous game out there. However, it&amp;#8217;s been about nine years since I have last played the game, so I am very behind on the latest additions and enhancements. In any case, if you are an active player, you will be happy to know that you can play this on your Chromebook.</description>
     </item>
     

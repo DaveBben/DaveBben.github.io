@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Steam on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/steam/</link>
+    <link>https://www.bennettnotes.com/tags/steam/</link>
     <description>Recent content in Steam on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,25 +10,25 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 17 Apr 2016 17:00:20 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/steam/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/steam/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Counter Strike on Android</title>
-      <link>https://bennettnotes.com/counter-strike-android/</link>
+      <link>https://www.bennettnotes.com/counter-strike-android/</link>
       <pubDate>Sun, 17 Apr 2016 17:00:20 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/counter-strike-android/</guid>
+      <guid>https://www.bennettnotes.com/counter-strike-android/</guid>
       <description>&amp;nbsp;
 How would you like to play one of the most popular PC games of all time on your Android device? So, maybe playing Half-Life 2 and Team-Fortress classic on Android isn&amp;#8217;t cool enough for you. Well, how about Counter Strike on Android? Of course, this isn&amp;#8217;t going to be the latest Counter Strike Global Offensive with the Source Engine. It&amp;#8217;s going to be the old school original counter strike from the late 90s.</description>
     </item>
     
     <item>
       <title>Stream Steam Games Chromebook</title>
-      <link>https://bennettnotes.com/stream-steam-games-chromebook/</link>
+      <link>https://www.bennettnotes.com/stream-steam-games-chromebook/</link>
       <pubDate>Tue, 27 Oct 2015 15:04:47 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/stream-steam-games-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/stream-steam-games-chromebook/</guid>
       <description>Hopefully it is clear by now that Chromebooks are not meant for gaming of any type. However, that hasn&amp;#8217;t stopped many of you from accomplishing things like playing CS:GO on your Chromebook or PS2 Games. However, games like CS:GO and TF2 will work on almost any piece of hardware, but something like Fallout 4 won&amp;#8217;t.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 If you&amp;#8217;re still determined to game from your Chromebook, you can do so via streaming.</description>
@@ -36,19 +36,19 @@ If you&amp;#8217;re still determined to game from your Chromebook, you can do so
     
     <item>
       <title>Play Team Fortress Classic on Android</title>
-      <link>https://bennettnotes.com/play-team-fortress-classic-on-android/</link>
+      <link>https://www.bennettnotes.com/play-team-fortress-classic-on-android/</link>
       <pubDate>Sat, 18 Jul 2015 07:00:51 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-team-fortress-classic-on-android/</guid>
+      <guid>https://www.bennettnotes.com/play-team-fortress-classic-on-android/</guid>
       <description>Have you ever imagined that you would be able to play a Steam game on your phone? Well, I hope so, because I already demonstrated how to play Portal on your Android device. In any case, it&amp;#8217;s even easier to play Team Fortress Classic on Android. This is all thanks to an app called SDLash3D which uses the SDL library that allows you to do some really cool emulation such as running Windows 95 on your device.</description>
     </item>
     
     <item>
       <title>Stream Steam Games to Android</title>
-      <link>https://bennettnotes.com/stream-steam-games-to-android/</link>
+      <link>https://www.bennettnotes.com/stream-steam-games-to-android/</link>
       <pubDate>Mon, 29 Jun 2015 13:51:36 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/stream-steam-games-to-android/</guid>
+      <guid>https://www.bennettnotes.com/stream-steam-games-to-android/</guid>
       <description>Have you ever wanted to play Team Fortress or PlanetSide 2 on your Android device? Well, there is no way to do that, unless you&amp;#8217;re looking to play Team Fortress Classic on your Android device. However, you could stream these games from your computer to your Android device.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 Currently, the most popular method used to stream games to Android is some combination of limelight and Nvidia&amp;#8217;s Game Stream.</description>
@@ -56,19 +56,19 @@ Currently, the most popular method used to stream games to Android is some combi
     
     <item>
       <title>Install Ubuntu 14.04 on Chromebook</title>
-      <link>https://bennettnotes.com/install-ubuntu-14-04-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/install-ubuntu-14-04-on-chromebook/</link>
       <pubDate>Mon, 06 Apr 2015 03:18:10 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/install-ubuntu-14-04-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/install-ubuntu-14-04-on-chromebook/</guid>
       <description>I am always looking for different ways that I can extend the capability of my Chromebook. It&amp;#8217;s not that I don&amp;#8217;t like Chrome OS, but sometimes I need to launch a C compiler or run java apps when I am away from home. I might even get in the mood to play Minecraft during a long car ride. Luckily, there is an easy answer to all of this.</description>
     </item>
     
     <item>
       <title>Counter Strike Global Offensive on Chromebook</title>
-      <link>https://bennettnotes.com/counter-strike-global-offensive-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/counter-strike-global-offensive-on-chromebook/</link>
       <pubDate>Sun, 05 Apr 2015 15:44:44 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/counter-strike-global-offensive-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/counter-strike-global-offensive-on-chromebook/</guid>
       <description>Counter Strike Global Offensive on Chromebook? Are you tired of playing the same old games on your Chromebook? Well, with a little help from Linux and Steam you can play CS:Go on your Chromebook. Of course, this will only work with the Intel powered Chromebooks. As far as performance, it&amp;#8217;s playable. On average, I am getting around 23-30 fps in games. It&amp;#8217;s nowhere close to the performance that I get on my desktop, but is still playable none the less.</description>
     </item>
     

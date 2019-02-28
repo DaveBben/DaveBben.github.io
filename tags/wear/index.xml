@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wear on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/wear/</link>
+    <link>https://www.bennettnotes.com/tags/wear/</link>
     <description>Recent content in Wear on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,24 +10,24 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 22 Dec 2016 15:39:25 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/wear/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/wear/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Best Android Smartwatch 2016</title>
-      <link>https://bennettnotes.com/best-android-smartwatch-2016/</link>
+      <link>https://www.bennettnotes.com/best-android-smartwatch-2016/</link>
       <pubDate>Thu, 22 Dec 2016 15:39:25 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/best-android-smartwatch-2016/</guid>
+      <guid>https://www.bennettnotes.com/best-android-smartwatch-2016/</guid>
       <description>I have been using the Huawei Watch for over two months now and I can safely say that it&amp;#8217;s the best Android smartwatch that I have ever owned. It features a high-quality aluminum design with a crisp 400 x 400 AMOLED display. There&amp;#8217;s even a speaker so that you can make phone calls and listen to music right from the watch. The only two things that I don&amp;#8217;t like about this watch is the weak vibration motor and the annoying pin charging mechanism.</description>
     </item>
     
     <item>
       <title>Play Half Life on Android Wear</title>
-      <link>https://bennettnotes.com/play-half-life-on-android-wear/</link>
+      <link>https://www.bennettnotes.com/play-half-life-on-android-wear/</link>
       <pubDate>Thu, 23 Jul 2015 00:50:43 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-half-life-on-android-wear/</guid>
+      <guid>https://www.bennettnotes.com/play-half-life-on-android-wear/</guid>
       <description>Just because you can, doesn&amp;#8217;t mean you should. But in this case, you totally should. If you recall, I demonstrated how to play Team Fortress Classic on Android using the SDLash app. The app is able to emulate the GoldSource game engine, which was used in many of the classic valve games such as Half-Life and Team Fortress. Right now, I am putting together a tutorial on how to play Half-life on Android, but in the meantime, check out how to do it on Android Wear (albeit a little more complicated).</description>
     </item>
     

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ethernet on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/ethernet/</link>
+    <link>https://www.bennettnotes.com/tags/ethernet/</link>
     <description>Recent content in Ethernet on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 17 Dec 2015 15:16:42 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/ethernet/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/ethernet/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Connect Android to Ethernet</title>
-      <link>https://bennettnotes.com/connect-android-to-ethernet/</link>
+      <link>https://www.bennettnotes.com/connect-android-to-ethernet/</link>
       <pubDate>Thu, 17 Dec 2015 15:16:42 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/connect-android-to-ethernet/</guid>
+      <guid>https://www.bennettnotes.com/connect-android-to-ethernet/</guid>
       <description>Do you want to get the fastest speed available on your Android device? Sure, LTE is fast and all but you&amp;#8217;re hit with really small data caps. WiFi doesn&amp;#8217;t impose the same limitations, but the speed is never consistent. So why not just connect Android to Ethernet?
 Luckily, Android Marshmallow comes to the rescue. Android Marshmallow introduces new drivers that allow you to connect your Android device directly to an Ethernet cable without needing root!</description>
     </item>

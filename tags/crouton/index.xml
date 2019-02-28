@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Crouton on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/crouton/</link>
+    <link>https://www.bennettnotes.com/tags/crouton/</link>
     <description>Recent content in Crouton on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,34 +10,34 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 27 Jul 2017 02:10:14 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/crouton/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/crouton/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Overclock Chromebook</title>
-      <link>https://bennettnotes.com/overclock-chromebook/</link>
+      <link>https://www.bennettnotes.com/overclock-chromebook/</link>
       <pubDate>Thu, 27 Jul 2017 02:10:14 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/overclock-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/overclock-chromebook/</guid>
       <description>Overclock Chromebook? It sounds like something that should be impossible to do. However, with the power of Linux, everything is possible. The Chromebook doesn&amp;#8217;t have the typical bios that you would find on a standard PC. Therefore, you can&amp;#8217;t easily change the CPU frequency. Using Linux, we can achieve a software FSB overclock or underclock. For this tutorial, let&amp;#8217;s focus on underclocking because that&amp;#8217;s the easier thing to do (damn that click bait).</description>
     </item>
     
     <item>
       <title>Install Kali Linux on Chromebook</title>
-      <link>https://bennettnotes.com/install-kali-linux-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/install-kali-linux-on-chromebook/</link>
       <pubDate>Wed, 28 Jun 2017 00:27:26 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/install-kali-linux-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/install-kali-linux-on-chromebook/</guid>
       <description>Kali Linux is a popular security focused operating system. It offers a lot of&amp;#8230;eh&amp;#8230;&amp;#8221;interesting&amp;#8221; use case scenarios. To install Kali Linux on the Chromebook is very easy. Crouton (the popular open source script that is used to install other operating systems on the Chromebook such as Ubuntu on Chromebook) can be used to install Kali Linux on Chromebook.
 Before you begin! You will need to have developer mode enabled on your Chromebook.</description>
     </item>
     
     <item>
       <title>Remove Linux on Chromebook</title>
-      <link>https://bennettnotes.com/remove-linux-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/remove-linux-on-chromebook/</link>
       <pubDate>Sun, 14 May 2017 13:58:12 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/remove-linux-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/remove-linux-on-chromebook/</guid>
       <description>Tired of crouton? If you installed Linux on your Chromebook using the crouton installer and you’re ready to delete it, here&amp;#8217;s how to remove Linux on Chromebook.
 Super Simple On your Chromebook, open up the Chrome browser. Then open up the terminal by typing in the following:
 CRTL + ALT + T Inside of the terminal, type in:
@@ -46,50 +46,50 @@ shell Finally, type in the following command to delete Linux from your Chromeboo
     
     <item>
       <title>Install Linux on Chromebook</title>
-      <link>https://bennettnotes.com/install-linux-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/install-linux-on-chromebook/</link>
       <pubDate>Sun, 14 May 2017 13:48:31 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/install-linux-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/install-linux-on-chromebook/</guid>
       <description>Tired of Chrome OS? Do you want to play games like Minecraft or Steam Games on your Chromebook? Luckily, Linux allows you to accomplish some of that. To install Linux on Chromebook, we are going to use the crouton script. The script takes care of all of the downloading and configuration. All you need to do is run a couple of commands.
 You need to make sure that you have developer mode enabled on your chromebook before attempting this.</description>
     </item>
     
     <item>
       <title>Hearthstone on Chromebook</title>
-      <link>https://bennettnotes.com/hearthstone-on-chromebook-2/</link>
+      <link>https://www.bennettnotes.com/hearthstone-on-chromebook-2/</link>
       <pubDate>Thu, 23 Jun 2016 20:10:19 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/hearthstone-on-chromebook-2/</guid>
+      <guid>https://www.bennettnotes.com/hearthstone-on-chromebook-2/</guid>
       <description>Hearthstone is a very popular game which I coincidentally don&amp;#8217;t play. However, I do spend quite a lot of time on my Chromebook and love seeing how far I can push its compatibility with software. Naturally, the idea of running Hearthstone on Chromebook appealed to me. After all, Counter Strike, TeamFortress and PlayStation 2 games work, so I don&amp;#8217;t see why Hearthstone wouldn&amp;#8217;t.
 If you haven&amp;#8217;t guessed already, we are going to be using Linux to make this work.</description>
     </item>
     
     <item>
       <title>Hearthstone on Chromebook</title>
-      <link>https://bennettnotes.com/hearthstone-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/hearthstone-on-chromebook/</link>
       <pubDate>Thu, 23 Jun 2016 20:10:19 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/hearthstone-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/hearthstone-on-chromebook/</guid>
       <description>Hearthstone is a very popular game which I coincidentally don&amp;#8217;t play. However, I do spend quite a lot of time on my Chromebook and love seeing how far I can push its compatibility with software. Naturally, the idea of running Hearthstone on Chromebook appealed to me. After all, Counter Strike, TeamFortress and PlayStation 2 games work, so I don&amp;#8217;t see why Hearthstone wouldn&amp;#8217;t.
 If you haven&amp;#8217;t guessed already, we are going to be using Linux to make this work.</description>
     </item>
     
     <item>
       <title>Mac OS on Chromebook</title>
-      <link>https://bennettnotes.com/mac-os-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/mac-os-on-chromebook/</link>
       <pubDate>Sat, 13 Feb 2016 19:21:42 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/mac-os-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/mac-os-on-chromebook/</guid>
       <description>Do you ever come across some crazy ideas? Well, this is certainly one of them. Running Mac OS on Chromebook is a lot easier than you think. Now keep in mind, you aren&amp;#8217;t going to be able to do anything intensive on this. This is more a proof concept (like a lot of things that I do) and something just to admire.
 To do this, we are going to be doing some very convoluted emulation.</description>
     </item>
     
     <item>
       <title>Stream Steam Games Chromebook</title>
-      <link>https://bennettnotes.com/stream-steam-games-chromebook/</link>
+      <link>https://www.bennettnotes.com/stream-steam-games-chromebook/</link>
       <pubDate>Tue, 27 Oct 2015 15:04:47 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/stream-steam-games-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/stream-steam-games-chromebook/</guid>
       <description>Hopefully it is clear by now that Chromebooks are not meant for gaming of any type. However, that hasn&amp;#8217;t stopped many of you from accomplishing things like playing CS:GO on your Chromebook or PS2 Games. However, games like CS:GO and TF2 will work on almost any piece of hardware, but something like Fallout 4 won&amp;#8217;t.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 If you&amp;#8217;re still determined to game from your Chromebook, you can do so via streaming.</description>
@@ -97,10 +97,10 @@ If you&amp;#8217;re still determined to game from your Chromebook, you can do so
     
     <item>
       <title>Run Minecraft Server on Chromebook</title>
-      <link>https://bennettnotes.com/run-minecraft-server-on-chomebook/</link>
+      <link>https://www.bennettnotes.com/run-minecraft-server-on-chomebook/</link>
       <pubDate>Mon, 20 Jul 2015 18:49:28 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-minecraft-server-on-chomebook/</guid>
+      <guid>https://www.bennettnotes.com/run-minecraft-server-on-chomebook/</guid>
       <description>So do you have a Chromebook sitting around that you have absolutely no idea what to do with? Well, if you or your buddies are minecraft junkies, then why not consider turning your Chromebook into a Minecraft server. It runs slightly faster than using your Android phone as a minecraft server, and offers a playable speed(though it can lag occasionally).
 [adinserter block=&amp;#8221;5&amp;#8243;]
 Now before you do this, you need to make sure that you have Ubuntu Installed on your Chromebook.</description>
@@ -108,19 +108,19 @@ Now before you do this, you need to make sure that you have Ubuntu Installed on
     
     <item>
       <title>Install Ubuntu 14.04 on Chromebook</title>
-      <link>https://bennettnotes.com/install-ubuntu-14-04-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/install-ubuntu-14-04-on-chromebook/</link>
       <pubDate>Mon, 06 Apr 2015 03:18:10 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/install-ubuntu-14-04-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/install-ubuntu-14-04-on-chromebook/</guid>
       <description>I am always looking for different ways that I can extend the capability of my Chromebook. It&amp;#8217;s not that I don&amp;#8217;t like Chrome OS, but sometimes I need to launch a C compiler or run java apps when I am away from home. I might even get in the mood to play Minecraft during a long car ride. Luckily, there is an easy answer to all of this.</description>
     </item>
     
     <item>
       <title>Install Ubuntu on Chromebook</title>
-      <link>https://bennettnotes.com/intsall-ubuntu-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/intsall-ubuntu-on-chromebook/</link>
       <pubDate>Thu, 10 Jul 2014 15:44:26 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/intsall-ubuntu-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/intsall-ubuntu-on-chromebook/</guid>
       <description>Everyone has their own opinion of Chrome OS. Some find it extremely useful and others think it&amp;#8217;s complete garbage. While I would consider myself part of the former group, I can admit that there are places where Chrome OS falls short of a desktop operating system. For exampling, I&amp;#8217;m not able to open a java compiler on Chrome OS or use Wine to play Steam games. However, you can do all these things on Linux.</description>
     </item>
     

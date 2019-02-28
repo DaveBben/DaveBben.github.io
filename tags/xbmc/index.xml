@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xbmc on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/xbmc/</link>
+    <link>https://www.bennettnotes.com/tags/xbmc/</link>
     <description>Recent content in Xbmc on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Wed, 13 Jan 2016 04:04:12 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/xbmc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/xbmc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Install Kodi on Chromebook</title>
-      <link>https://bennettnotes.com/install-kodi-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/install-kodi-on-chromebook/</link>
       <pubDate>Wed, 13 Jan 2016 04:04:12 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/install-kodi-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/install-kodi-on-chromebook/</guid>
       <description>Kodi (formely Xbmc) has become a popular in-home media platform. Luckily, getting it on your Chromebook is not much of a challenge. However, you will need to make sure that you have Linux installed on your Chromebook first. Here&amp;#8217;s a short video on how to install Kodi on Chromebook.
 Terminal commands:
 sudo apt-get install software-properties-common sudo add-apt-repository ppa:team-xbmc/ppa sudo apt-get update sudo apt-get install kodi </description>

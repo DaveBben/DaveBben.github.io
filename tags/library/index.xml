@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Library on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/library/</link>
+    <link>https://www.bennettnotes.com/tags/library/</link>
     <description>Recent content in Library on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 15 Oct 2017 17:42:01 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/library/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/library/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Snapchat using Javascript – Zuck.js</title>
-      <link>https://bennettnotes.com/snapchat-using-javascript/</link>
+      <link>https://www.bennettnotes.com/snapchat-using-javascript/</link>
       <pubDate>Sun, 15 Oct 2017 17:42:01 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/snapchat-using-javascript/</guid>
+      <guid>https://www.bennettnotes.com/snapchat-using-javascript/</guid>
       <description>Stories! Stories are everywhere these days. Snapchat, Instagram, Facebook, Facebook Messenger and Whatsapp all have stories. Hell, it&amp;#8217;s only a matter of time before Microsoft Excel gets a stories update.
 &amp;nbsp;
 

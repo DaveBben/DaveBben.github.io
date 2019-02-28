@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/windows/</link>
+    <link>https://www.bennettnotes.com/tags/windows/</link>
     <description>Recent content in Windows on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,182 +10,182 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Mon, 29 Jan 2018 01:11:40 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Run Windows Applications (EXE Files) on Android</title>
-      <link>https://bennettnotes.com/run-windows-applications-exe-files-on-android/</link>
+      <link>https://www.bennettnotes.com/run-windows-applications-exe-files-on-android/</link>
       <pubDate>Mon, 29 Jan 2018 01:11:40 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-windows-applications-exe-files-on-android/</guid>
+      <guid>https://www.bennettnotes.com/run-windows-applications-exe-files-on-android/</guid>
       <description>If I had a dollar for the number of times someone asked how to run Windows Exe Files on Android, I would be richer than your top Bitcoin miners. Most of the time, my response would have simply been that it&amp;#8217;s not possible, end of story. Well, that sort of changed this week.
 If you are a Linux user, you have probably heard of Wine. The tl;dr is that Wine allows you to run Windows apps in Linux (it&amp;#8217;s a Windows compatibility layer).</description>
     </item>
     
     <item>
       <title>Stop Windows from Compressing Wallpaper</title>
-      <link>https://bennettnotes.com/stop-windows-from-compressing-wallpaper/</link>
+      <link>https://www.bennettnotes.com/stop-windows-from-compressing-wallpaper/</link>
       <pubDate>Thu, 14 Sep 2017 13:38:15 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/stop-windows-from-compressing-wallpaper/</guid>
+      <guid>https://www.bennettnotes.com/stop-windows-from-compressing-wallpaper/</guid>
       <description>By default, Windows compresses your desktop wallpaper by up to 85% of its original quality. This is done to maximize performance because most people don&amp;#8217;t need a 50 MB image eating up precious RAM. There are two methods that you can use to stop Windows from compressing wallpapers. The first (unconfirmed) method is to use a PNG image file. There have been some reports that on the latest Windows 10 Creator&amp;#8217;s update, PNG images are immune to Windows compression.</description>
     </item>
     
     <item>
       <title>Dual Boot Windows 10 and Ubuntu</title>
-      <link>https://bennettnotes.com/dual-boot-windows-10-and-ubuntu/</link>
+      <link>https://www.bennettnotes.com/dual-boot-windows-10-and-ubuntu/</link>
       <pubDate>Wed, 15 Mar 2017 02:03:23 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/dual-boot-windows-10-and-ubuntu/</guid>
+      <guid>https://www.bennettnotes.com/dual-boot-windows-10-and-ubuntu/</guid>
       <description>I woke up Sunday Morning with a cool project in mind. I wanted to dual boot Windows 10 and Ubuntu. The real reason for this was because I decided to give Jekyll a try and it was going to be my replacement for WordPress, but I digress. Another major reason to dual-boot Windows 10 and Ubuntu was so that I could keep all of my Android development and Web development stuff within Ubuntu and use Windows solely for video editing and gaming.</description>
     </item>
     
     <item>
       <title>Measure Battery Usage in Windows</title>
-      <link>https://bennettnotes.com/measure-battery-usage-windows/</link>
+      <link>https://www.bennettnotes.com/measure-battery-usage-windows/</link>
       <pubDate>Thu, 01 Dec 2016 15:22:05 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/measure-battery-usage-windows/</guid>
+      <guid>https://www.bennettnotes.com/measure-battery-usage-windows/</guid>
       <description>Most people would never guess that there is a tool to measure battery usage in Windows. I first discovered this when trying to figure out what was draining my battery on my Surface Pro 3. For a quick overview of battery drain by app, you can use the Windows Battery Saving settings.
 Windows Battery Saver To access this, type in Windows Battery Saver in the Start Menu search.</description>
     </item>
     
     <item>
       <title>Make Cortana use Google</title>
-      <link>https://bennettnotes.com/make-cortana-use-google/</link>
+      <link>https://www.bennettnotes.com/make-cortana-use-google/</link>
       <pubDate>Sat, 26 Nov 2016 04:21:40 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/make-cortana-use-google/</guid>
+      <guid>https://www.bennettnotes.com/make-cortana-use-google/</guid>
       <description>As you know, Microsoft Cortana has become an integral part of Windows 10. I wouldn&amp;#8217;t mind Cortana so much if Microsoft didn&amp;#8217;t force it upon us. One thing which really bothers me about Cortana is that it defaults to Microsoft Edge and Bing. I am a Google person, so I would prefer if it used Google Search and Google Chrome. Before the Windows 10 Anniversary update, there used to be a way to change the default behavior.</description>
     </item>
     
     <item>
       <title>Control Multiple Computers</title>
-      <link>https://bennettnotes.com/control-multiple-computers/</link>
+      <link>https://www.bennettnotes.com/control-multiple-computers/</link>
       <pubDate>Tue, 22 Nov 2016 21:03:42 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/control-multiple-computers/</guid>
+      <guid>https://www.bennettnotes.com/control-multiple-computers/</guid>
       <description>Does your workstation setup contain more than one computer? I have my main desktop along with my surface setting in front of my at all times. I sometimes hate that I have to reach across my desk and switch between keyboards to type something. Luckily, USB sharing between the two devices is not difficult. Thanks to a garage app by Microsoft, you can control multiple computers with one mouse and keyboard very easily.</description>
     </item>
     
     <item>
       <title>Play PlayStation 3 Games on PC</title>
-      <link>https://bennettnotes.com/play-playstation-3-games-on-pc/</link>
+      <link>https://www.bennettnotes.com/play-playstation-3-games-on-pc/</link>
       <pubDate>Sun, 06 Nov 2016 15:00:15 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-playstation-3-games-on-pc/</guid>
+      <guid>https://www.bennettnotes.com/play-playstation-3-games-on-pc/</guid>
       <description>Although the PlayStation 4 is the latest console from Sony, the PlayStation 3 is still a popular game system that is enjoyed by many. One group of developers have been actively working to bring the PlayStation 3 experience to your PC. RPCS3 is an open source PlayStation 3 emulator. The emulator is still in early alpha stages, so don&amp;#8217;t expect many commercial titles to be compatible. It works well with homebrew games and games which do not require advanced 3D graphics.</description>
     </item>
     
     <item>
       <title>Use Android as Microphone</title>
-      <link>https://bennettnotes.com/use-android-as-microphone/</link>
+      <link>https://www.bennettnotes.com/use-android-as-microphone/</link>
       <pubDate>Fri, 23 Sep 2016 15:59:58 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/use-android-as-microphone/</guid>
+      <guid>https://www.bennettnotes.com/use-android-as-microphone/</guid>
       <description>Have you ever needed a microphone, but did not have one available? Have you ever searched for a way to make a cheap wireless microphone? Needless to say, you can use your Android device as a microphone. There are two ways that this can be accomplished. The first is through traditional cables, and the second is through additional software. If you want to use your Android device as a microphone through USB, Wifi or Bluetooth, then skip to the second method.</description>
     </item>
     
     <item>
       <title>Use Android as Second Monitor</title>
-      <link>https://bennettnotes.com/use-android-as-second-monitor/</link>
+      <link>https://www.bennettnotes.com/use-android-as-second-monitor/</link>
       <pubDate>Fri, 19 Aug 2016 18:31:47 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/use-android-as-second-monitor/</guid>
+      <guid>https://www.bennettnotes.com/use-android-as-second-monitor/</guid>
       <description>Having more than one monitor is useful for any power user (porn on one, games on another). So it&amp;#8217;s possible to use an android device as a secondary monitor, but I recommend actually buying one if you want an easy setup. With that said, if you have a spare Android device laying around, you can use it as another monitor in your setup. To do this, we are going to use Windows and &amp;#8220;trick&amp;#8221; it into thinking that you have another monitor connected and then use TeamViewer to access the &amp;#8220;fake&amp;#8221; monitor.</description>
     </item>
     
     <item>
       <title>Run Windows 7 on Android</title>
-      <link>https://bennettnotes.com/run-windows-7-android/</link>
+      <link>https://www.bennettnotes.com/run-windows-7-android/</link>
       <pubDate>Sun, 15 May 2016 16:00:31 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-windows-7-android/</guid>
+      <guid>https://www.bennettnotes.com/run-windows-7-android/</guid>
       <description>I can&amp;#8217;t believe I&amp;#8217;m saying it, but you can run Windows 7 on your Android device. To be honest, I was convinced that running Windows XP on Android would be the final step in Windows emulation, but I was wrong. Before you get too excited about playing the latest AAA title on your phone, keep in mind that this is nothing further than a proof of concept. The performance is painfully sluggish and the app might crash if Windows starts using too much memory.</description>
     </item>
     
     <item>
       <title>Lock Computer from Android</title>
-      <link>https://bennettnotes.com/lock-computer-android/</link>
+      <link>https://www.bennettnotes.com/lock-computer-android/</link>
       <pubDate>Thu, 31 Dec 2015 16:34:05 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/lock-computer-android/</guid>
+      <guid>https://www.bennettnotes.com/lock-computer-android/</guid>
       <description>Consider this, you are sitting across the room chilling on your couch and you&amp;#8217;re starting to fall asleep. Here&amp;#8217;s the problem, your couch feels so good and you don&amp;#8217;t want to get up to lock your computer, but you need to because you have nosy roommates. So wouldn&amp;#8217;t it be great if you could remotely lock it from your phone? Okay, so even if this situation is completely unbelievable, this is still something cool to try and do.</description>
     </item>
     
     <item>
       <title>Windows XP on Android Wear Smartwatch</title>
-      <link>https://bennettnotes.com/windows-xp-on-android-wear-smartwatch/</link>
+      <link>https://www.bennettnotes.com/windows-xp-on-android-wear-smartwatch/</link>
       <pubDate>Tue, 19 May 2015 15:12:16 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/windows-xp-on-android-wear-smartwatch/</guid>
+      <guid>https://www.bennettnotes.com/windows-xp-on-android-wear-smartwatch/</guid>
       <description>Alan Turing, the great father of computer science, had once said that, &amp;#8220;Machines take me by surprise with great frequency.&amp;#8221; I think we could all relate to that statement in one way or another. From the age of early gaming, to the development of PDA&amp;#8217;s, Smartphones, Smartwatches and even Smart Glasses, there never seems to be a point where technology fails to impress us. What is even more astonishing is how outdated technology can easily become to us within a small amount of time.</description>
     </item>
     
     <item>
       <title>Enable Developer mode on Chromebook</title>
-      <link>https://bennettnotes.com/enable-developer-mode-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/enable-developer-mode-on-chromebook/</link>
       <pubDate>Sat, 04 Apr 2015 16:31:05 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/enable-developer-mode-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/enable-developer-mode-on-chromebook/</guid>
       <description>Are you looking to install Linux on your Chromebook or Windows 10? If so, the first thing that you will need to do is enable developer mode on your Chromebook. Also, these instructions could differ depending on your Chromebook model. For this tutorial, I am going to be using the Acer C720.
 Enable Developer Mode on Chromebook: This process will erase everything on your Chromebook. So backup anything that you might need.</description>
     </item>
     
     <item>
       <title>Install Windows 10 on Chromebook</title>
-      <link>https://bennettnotes.com/install-windows-10-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/install-windows-10-on-chromebook/</link>
       <pubDate>Fri, 03 Apr 2015 19:31:58 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/install-windows-10-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/install-windows-10-on-chromebook/</guid>
       <description>So let&amp;#8217;s say that you bought a Chromebook and realized just how limiting Chrome OS can be, or perhaps you are perfectly content with Chrome OS but want to do a little more with it. Whatever your situation may be, I am here to inform you that you can run Windows 10 on your Chromebook. Yes, I am talking about a complete and nearly functional version of Windows 10. In my quick time of using it, I was able to download and play League of Legends (unbearable frame rate though) watch a couple of YouTube videos and use a few lightweight programs.</description>
     </item>
     
     <item>
       <title>Windows 10 on Chromebook</title>
-      <link>https://bennettnotes.com/windows-10-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/windows-10-on-chromebook/</link>
       <pubDate>Sun, 22 Mar 2015 20:39:26 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/windows-10-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/windows-10-on-chromebook/</guid>
       <description>Yes, you can run Windows 10 on a Chromebook! Now this should not come as too much of a surprise because Chromebooks are pretty much low powered laptops with Chrome OS installed. In addition, Windows 10 is designed to work with devices with lower end specifications. Overall, the performance was fluid. Between browsing through the start menu and opening up Internet Explorer, I did not encounter any issues.
 There are some technical things to mention.</description>
     </item>
     
     <item>
       <title>Windows XP on Android</title>
-      <link>https://bennettnotes.com/windows-xp-android/</link>
+      <link>https://www.bennettnotes.com/windows-xp-android/</link>
       <pubDate>Sat, 19 Jul 2014 13:21:33 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/windows-xp-android/</guid>
+      <guid>https://www.bennettnotes.com/windows-xp-android/</guid>
       <description>Yes Virginia, you can run Windows XP on your Android device. What once took cutting edge hardware to boot, can now work on your typical Android smartphone. Don&amp;#8217;t get too excited though, this will not replace your desktop pc any time soon. The emulation speed is unbearably slow, and you lack any sort of network connectivity. So how does this work? One word, Bochs. Bochs is an app that can emulate practically any 32 bit operating system.</description>
     </item>
     
     <item>
       <title>Run Windows 95 on Android</title>
-      <link>https://bennettnotes.com/run-windows-95-on-android/</link>
+      <link>https://www.bennettnotes.com/run-windows-95-on-android/</link>
       <pubDate>Fri, 11 Jul 2014 20:05:14 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-windows-95-on-android/</guid>
+      <guid>https://www.bennettnotes.com/run-windows-95-on-android/</guid>
       <description>The 90s called, and they want their operating system back. Windows 95 was unique for its time. However, what once took cutting edge hardware to run can now easily operate on a typical Android device. Yes Virginia, you can run Windows 95 on Android.
 What You Will Need:  Windows 95 Image File Limbo PC Emulator  Step 1: Download Stuff If you have your own bootable image file that you would like to use, feel free to do so.</description>
     </item>
     
     <item>
       <title>Install Windows 8 on Chromebook</title>
-      <link>https://bennettnotes.com/install-windows-8-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/install-windows-8-on-chromebook/</link>
       <pubDate>Fri, 11 Jul 2014 17:18:23 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/install-windows-8-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/install-windows-8-on-chromebook/</guid>
       <description>Windows 8 is old news now, look at running Windows 10 on your Chromebook! So you want to run Windows 8 on your Chromebook? Well congratulations, you clicked on the right link. Let me first ask you a question. Are you looking for a fully responsive, practical and reliable Windows 8 chromebook system? If so, then go out and buy a Windows netbook. While running Windows 8 on your Chromebook is feasible, there are a lot of driver hurdles and hardware limitations (depending on your Chromebook model) that you will have to overcome before this becomes a practical solution.</description>
     </item>
     
     <item>
       <title>How to Build Custom Cyanogenmod Rom</title>
-      <link>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</link>
+      <link>https://www.bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</link>
       <pubDate>Fri, 04 Jul 2014 08:12:40 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</guid>
+      <guid>https://www.bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</guid>
       <description>Build Custom Cyanogenmod Rom? So are you ready to take on Rom Development? That&amp;#8217;s okay if you&amp;#8217;re not, because I&amp;#8217;ll help walk you through it. In this tutorial, I&amp;#8217;m going to show you how to build your own Cyanogenmod Rom right from source. This sounds a lot more complicated than it actually is though. However, keep in mind that you will need a lot of patience when doing this.</description>
     </item>
     

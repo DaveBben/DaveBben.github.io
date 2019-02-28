@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gpu on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/gpu/</link>
+    <link>https://www.bennettnotes.com/tags/gpu/</link>
     <description>Recent content in Gpu on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Tue, 26 Dec 2017 16:58:09 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/gpu/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/gpu/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GPU Programming in Javascript</title>
-      <link>https://bennettnotes.com/gpu-programming-in-javascript/</link>
+      <link>https://www.bennettnotes.com/gpu-programming-in-javascript/</link>
       <pubDate>Tue, 26 Dec 2017 16:58:09 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/gpu-programming-in-javascript/</guid>
+      <guid>https://www.bennettnotes.com/gpu-programming-in-javascript/</guid>
       <description>You probably don&amp;#8217;t think about Javascript when you hear the words GPU programming. However, it should come as no surprise that there is a library to do anything and that includes GPU Programming in Javascript. Let&amp;#8217;s get one thing clear though, you should probably not do this if you are looking to do serious GPU programming. For serious GPU programming, I recommended that you work with Nvidia&amp;#8217;s CUDA in C and C++.</description>
     </item>
     

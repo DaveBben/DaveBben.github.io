@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kodi on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/kodi/</link>
+    <link>https://www.bennettnotes.com/tags/kodi/</link>
     <description>Recent content in Kodi on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,25 +10,25 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Fri, 30 Sep 2016 14:59:45 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/kodi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/kodi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Kodi on Firestick</title>
-      <link>https://bennettnotes.com/kodi-on-firestick/</link>
+      <link>https://www.bennettnotes.com/kodi-on-firestick/</link>
       <pubDate>Fri, 30 Sep 2016 14:59:45 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/kodi-on-firestick/</guid>
+      <guid>https://www.bennettnotes.com/kodi-on-firestick/</guid>
       <description>Kodi on Firestick? Kodi (formerly XMBC) is a very popular platform for video entertainment that is designed to work on almost all operating systems. Previously, I shown how you can get Kodi on the Chromebook. You can also install Kodi on Android and Windows. For this tutorial, let&amp;#8217;s take a look at how to install Kodi on the Amazon Firestick.
 The Easy Way: If you have an Android device, do yourself a favor and use this method.</description>
     </item>
     
     <item>
       <title>Install Kodi on Chromebook</title>
-      <link>https://bennettnotes.com/install-kodi-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/install-kodi-on-chromebook/</link>
       <pubDate>Wed, 13 Jan 2016 04:04:12 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/install-kodi-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/install-kodi-on-chromebook/</guid>
       <description>Kodi (formely Xbmc) has become a popular in-home media platform. Luckily, getting it on your Chromebook is not much of a challenge. However, you will need to make sure that you have Linux installed on your Chromebook first. Here&amp;#8217;s a short video on how to install Kodi on Chromebook.
 Terminal commands:
 sudo apt-get install software-properties-common sudo add-apt-repository ppa:team-xbmc/ppa sudo apt-get update sudo apt-get install kodi </description>

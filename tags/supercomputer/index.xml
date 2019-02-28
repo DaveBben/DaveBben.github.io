@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Supercomputer on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/supercomputer/</link>
+    <link>https://www.bennettnotes.com/tags/supercomputer/</link>
     <description>Recent content in Supercomputer on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Wed, 13 Jan 2016 03:20:26 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/supercomputer/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/supercomputer/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to build a Supercomputer</title>
-      <link>https://bennettnotes.com/how-to-build-a-supercomputer/</link>
+      <link>https://www.bennettnotes.com/how-to-build-a-supercomputer/</link>
       <pubDate>Wed, 13 Jan 2016 03:20:26 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-build-a-supercomputer/</guid>
+      <guid>https://www.bennettnotes.com/how-to-build-a-supercomputer/</guid>
       <description>So you want to build a supercomputer? Well, if you checked out my video on quantum computing you&amp;#8217;ll know that scientist are working to make computers stronger and faster than ever. Unfortunately, building a quantum computer is not something you can do at home, unless your home is a laboratory of course. All hope isn&amp;#8217;t lost though, you can still go on to build your very own supercomputer.</description>
     </item>
     

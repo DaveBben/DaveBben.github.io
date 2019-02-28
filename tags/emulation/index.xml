@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emulation on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/emulation/</link>
+    <link>https://www.bennettnotes.com/tags/emulation/</link>
     <description>Recent content in Emulation on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,158 +10,158 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 29 Oct 2017 03:47:36 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/emulation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/emulation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Run Kali Linux 2 on Android</title>
-      <link>https://bennettnotes.com/run-kali-linux-2-android/</link>
+      <link>https://www.bennettnotes.com/run-kali-linux-2-android/</link>
       <pubDate>Sun, 29 Oct 2017 03:47:36 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-kali-linux-2-android/</guid>
+      <guid>https://www.bennettnotes.com/run-kali-linux-2-android/</guid>
       <description>Kali Linux is a popular security-focused operating system that has many tools which could be used for penetration testing. In the past, I demonstrated how to Run Kali Linux on Android (version 1.0) via the terminal. Now let&amp;#8217;s take a look at how to run Kali Linux 2 on Android without root. To do this, we will be using Limbo PC Emulator. It makes use of the SDL library to emulate Kali Linux 2 on Android.</description>
     </item>
     
     <item>
       <title>Run Android Nougat on PC</title>
-      <link>https://bennettnotes.com/run-android-nougat-on-pc/</link>
+      <link>https://www.bennettnotes.com/run-android-nougat-on-pc/</link>
       <pubDate>Thu, 19 Oct 2017 02:49:19 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-android-nougat-on-pc/</guid>
+      <guid>https://www.bennettnotes.com/run-android-nougat-on-pc/</guid>
       <description>Do you have an old computer laying around that you need to find a use for? How about running Android Nougat on your PC? The Android x86 team has successfully ported Android 7.1 over to the desktop CPU architecture. This means you can enjoy your favorite apps and games on any pc or laptop.
 Run Android Nougat on PC The first thing that you need to do is download the Android Nougat x86 ISO file.</description>
     </item>
     
     <item>
       <title>Stream Steam Games to Android 2017</title>
-      <link>https://bennettnotes.com/stream-steam-games-android-2017/</link>
+      <link>https://www.bennettnotes.com/stream-steam-games-android-2017/</link>
       <pubDate>Wed, 01 Feb 2017 02:52:58 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/stream-steam-games-android-2017/</guid>
+      <guid>https://www.bennettnotes.com/stream-steam-games-android-2017/</guid>
       <description>If all Android phones came with DirectX and desktop graphics, then playing native games would be a breeze. Unfortautnetly, that is far from the case. So while you might not be able to play Fallout 4 on android, there is nothing stopping you from streaming it to your device. Here&amp;#8217;s how you can Stream Steams Games to Android.
 What You Will Need:  Nvidia 600 series or better graphics Card GeForce Experience App Moonlight  If your graphics card doesn&amp;#8217;t fit the requirements, then check out my other tutorial on how to Stream Steam Games to Android.</description>
     </item>
     
     <item>
       <title>Play Pokemon on Android Smartwatch</title>
-      <link>https://bennettnotes.com/play-pokemon-android-smartwatch/</link>
+      <link>https://www.bennettnotes.com/play-pokemon-android-smartwatch/</link>
       <pubDate>Sat, 31 Dec 2016 16:03:24 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-pokemon-android-smartwatch/</guid>
+      <guid>https://www.bennettnotes.com/play-pokemon-android-smartwatch/</guid>
       <description>Have you ever thought about playing Pokemon on your Android Wear Smartwatch? Neither have I. However, an app called Wear GBC makes this all possible. It is a Gameboy color emulator for Android Wear.
 How to Play Pokemon on Android Smartwatch Here&amp;#8217;s a quick tutorial on how I got this up and running. First download a GBC ROM (.gbc). Then add it via the phone app (you might have to unzip it first if it&amp;#8217;s in a zip file).</description>
     </item>
     
     <item>
       <title>Hearthstone on Chromebook</title>
-      <link>https://bennettnotes.com/hearthstone-on-chromebook-2/</link>
+      <link>https://www.bennettnotes.com/hearthstone-on-chromebook-2/</link>
       <pubDate>Thu, 23 Jun 2016 20:10:19 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/hearthstone-on-chromebook-2/</guid>
+      <guid>https://www.bennettnotes.com/hearthstone-on-chromebook-2/</guid>
       <description>Hearthstone is a very popular game which I coincidentally don&amp;#8217;t play. However, I do spend quite a lot of time on my Chromebook and love seeing how far I can push its compatibility with software. Naturally, the idea of running Hearthstone on Chromebook appealed to me. After all, Counter Strike, TeamFortress and PlayStation 2 games work, so I don&amp;#8217;t see why Hearthstone wouldn&amp;#8217;t.
 If you haven&amp;#8217;t guessed already, we are going to be using Linux to make this work.</description>
     </item>
     
     <item>
       <title>Hearthstone on Chromebook</title>
-      <link>https://bennettnotes.com/hearthstone-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/hearthstone-on-chromebook/</link>
       <pubDate>Thu, 23 Jun 2016 20:10:19 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/hearthstone-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/hearthstone-on-chromebook/</guid>
       <description>Hearthstone is a very popular game which I coincidentally don&amp;#8217;t play. However, I do spend quite a lot of time on my Chromebook and love seeing how far I can push its compatibility with software. Naturally, the idea of running Hearthstone on Chromebook appealed to me. After all, Counter Strike, TeamFortress and PlayStation 2 games work, so I don&amp;#8217;t see why Hearthstone wouldn&amp;#8217;t.
 If you haven&amp;#8217;t guessed already, we are going to be using Linux to make this work.</description>
     </item>
     
     <item>
       <title>League on Chromebook</title>
-      <link>https://bennettnotes.com/league-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/league-on-chromebook/</link>
       <pubDate>Thu, 16 Jun 2016 15:40:26 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/league-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/league-on-chromebook/</guid>
       <description>I have received many requests to do a video of League on Chromebook. Well, it shouldn&amp;#8217;t be too surprising that it works. All it takes is running Windows on your Chromebook. The biggest limitation that I face was the insufficient hard drive space on my Chromebook (Acer C720). To solve that issue, I installed League to a flash drive. Of course, this had a negative effect on the game&amp;#8217;s load time.</description>
     </item>
     
     <item>
       <title>Mac OS on Chromebook</title>
-      <link>https://bennettnotes.com/mac-os-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/mac-os-on-chromebook/</link>
       <pubDate>Sat, 13 Feb 2016 19:21:42 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/mac-os-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/mac-os-on-chromebook/</guid>
       <description>Do you ever come across some crazy ideas? Well, this is certainly one of them. Running Mac OS on Chromebook is a lot easier than you think. Now keep in mind, you aren&amp;#8217;t going to be able to do anything intensive on this. This is more a proof concept (like a lot of things that I do) and something just to admire.
 To do this, we are going to be doing some very convoluted emulation.</description>
     </item>
     
     <item>
       <title>Run Linux on Android</title>
-      <link>https://bennettnotes.com/run-linux-on-android/</link>
+      <link>https://www.bennettnotes.com/run-linux-on-android/</link>
       <pubDate>Thu, 21 Jan 2016 00:50:08 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-linux-on-android/</guid>
+      <guid>https://www.bennettnotes.com/run-linux-on-android/</guid>
       <description>One of the coolest things that you could possibly do with your Android device is to run Linux on it (A full desktop operating system, in the palm of your hand). If you are asking yourself what Linux is exactly, this might help give you a quick explanation.
 So what advantages would you get out of running Linux on your Android device? Well, besides doing things like running a Minecraft server and building your own cloud, you have a full suite of applications and&amp;#8230;.</description>
     </item>
     
     <item>
       <title>Super Smash Bros Meele on Android</title>
-      <link>https://bennettnotes.com/super-smash-bros-meele-on-android/</link>
+      <link>https://www.bennettnotes.com/super-smash-bros-meele-on-android/</link>
       <pubDate>Sun, 04 Oct 2015 22:06:53 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/super-smash-bros-meele-on-android/</guid>
+      <guid>https://www.bennettnotes.com/super-smash-bros-meele-on-android/</guid>
       <description>One of the best things about Android is that there are a lot of emulators for the platform. You can play games from the PS2, Nintendo DS, PSP, etc. No other mobile platform comes close to the same amount of emulation apps. With that said, one popular emulator that has been lurking around for quite some time is the Dolphin Emulator. It&amp;#8217;s capable of emulating GameCube and Wii games.</description>
     </item>
     
     <item>
       <title>Play Team Fortress Classic on Android</title>
-      <link>https://bennettnotes.com/play-team-fortress-classic-on-android/</link>
+      <link>https://www.bennettnotes.com/play-team-fortress-classic-on-android/</link>
       <pubDate>Sat, 18 Jul 2015 07:00:51 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-team-fortress-classic-on-android/</guid>
+      <guid>https://www.bennettnotes.com/play-team-fortress-classic-on-android/</guid>
       <description>Have you ever imagined that you would be able to play a Steam game on your phone? Well, I hope so, because I already demonstrated how to play Portal on your Android device. In any case, it&amp;#8217;s even easier to play Team Fortress Classic on Android. This is all thanks to an app called SDLash3D which uses the SDL library that allows you to do some really cool emulation such as running Windows 95 on your device.</description>
     </item>
     
     <item>
       <title>Play PS2 Games on Android</title>
-      <link>https://bennettnotes.com/play-ps2-games-on-android/</link>
+      <link>https://www.bennettnotes.com/play-ps2-games-on-android/</link>
       <pubDate>Sat, 04 Jul 2015 20:24:58 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-ps2-games-on-android/</guid>
+      <guid>https://www.bennettnotes.com/play-ps2-games-on-android/</guid>
       <description>I am not lying when I tell you that there is an actual PS2 emulator available for Android. No, I am not talking about one of the many fake ones that you see in the Play Store. I am talking about an actual app with the purpose of emulating the PlayStation 2. Now don&amp;#8217;t get too excited. This app is still in the very early stages. The only commercial title that I have got booting so far has been Final Fantasy X.</description>
     </item>
     
     <item>
       <title>Play Runescape on Chromebook</title>
-      <link>https://bennettnotes.com/play-runescape-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/play-runescape-on-chromebook/</link>
       <pubDate>Sat, 20 Jun 2015 23:24:45 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-runescape-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/play-runescape-on-chromebook/</guid>
       <description>Back in fourth grade, I used to spend hours playing Runescape. At the time, I thought it was the most exciting and adventurous game out there. However, it&amp;#8217;s been about nine years since I have last played the game, so I am very behind on the latest additions and enhancements. In any case, if you are an active player, you will be happy to know that you can play this on your Chromebook.</description>
     </item>
     
     <item>
       <title>Play Sega Genesis Games on Android</title>
-      <link>https://bennettnotes.com/play-sega-genesis-games-on-android/</link>
+      <link>https://www.bennettnotes.com/play-sega-genesis-games-on-android/</link>
       <pubDate>Sat, 13 Jun 2015 03:53:16 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-sega-genesis-games-on-android/</guid>
+      <guid>https://www.bennettnotes.com/play-sega-genesis-games-on-android/</guid>
       <description>The Sega Genesis was my very first game console. What my gaming PC is to me now, was what my Sega Genesis meant to me back in 1999 (if that makes sense). There are so many old titles that I used to love playing. And those cartridges&amp;#8230;damn&amp;#8230;I loved those cartridges. The best thing was that there used to be a huge bin at stores like GameStop, where I could easily pick up a bunch of them for under $10.</description>
     </item>
     
     <item>
       <title>Play Dreamcast Games on Android</title>
-      <link>https://bennettnotes.com/play-dreamcast-games-on-android/</link>
+      <link>https://www.bennettnotes.com/play-dreamcast-games-on-android/</link>
       <pubDate>Sat, 13 Jun 2015 03:35:35 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-dreamcast-games-on-android/</guid>
+      <guid>https://www.bennettnotes.com/play-dreamcast-games-on-android/</guid>
       <description>Ah, the Sega Dreamcast, it brings back old memories. Who am I kidding, I never had the Dreamcast myself. So unfortunately, my personal experience is limited to the only game (Sonic Adventures) that I have ever played on it. But, what I do know is that you can play Dreamcast games on Android!
 What You Will Need:  Reicast or use This One if you are running a Lollipop Device and Experience Crashes with the Play Store version.</description>
     </item>
     
     <item>
       <title>How to Play PS2 Games on Chromebook</title>
-      <link>https://bennettnotes.com/how-to-play-ps2-games-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/how-to-play-ps2-games-on-chromebook/</link>
       <pubDate>Fri, 29 May 2015 03:55:05 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-play-ps2-games-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/how-to-play-ps2-games-on-chromebook/</guid>
       <description>I always said to never underestimate the power of Chromebooks, and here is another reason not to. You can play play PlayStation 2 Games on your Chromebook. In order to do this, you will need to have Linux** installed on your Chromebook. **We are going to use the popular PCSX2 emulator for Linux. So it&amp;#8217;s also important that you have an Intel powered chromebook.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 Now, one word of advice.</description>
@@ -169,56 +169,56 @@ Now, one word of advice.</description>
     
     <item>
       <title>Windows XP on Android Wear Smartwatch</title>
-      <link>https://bennettnotes.com/windows-xp-on-android-wear-smartwatch/</link>
+      <link>https://www.bennettnotes.com/windows-xp-on-android-wear-smartwatch/</link>
       <pubDate>Tue, 19 May 2015 15:12:16 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/windows-xp-on-android-wear-smartwatch/</guid>
+      <guid>https://www.bennettnotes.com/windows-xp-on-android-wear-smartwatch/</guid>
       <description>Alan Turing, the great father of computer science, had once said that, &amp;#8220;Machines take me by surprise with great frequency.&amp;#8221; I think we could all relate to that statement in one way or another. From the age of early gaming, to the development of PDA&amp;#8217;s, Smartphones, Smartwatches and even Smart Glasses, there never seems to be a point where technology fails to impress us. What is even more astonishing is how outdated technology can easily become to us within a small amount of time.</description>
     </item>
     
     <item>
       <title>Run Minecraft Server on Android</title>
-      <link>https://bennettnotes.com/run-minecraft-server-on-android/</link>
+      <link>https://www.bennettnotes.com/run-minecraft-server-on-android/</link>
       <pubDate>Mon, 18 May 2015 04:22:26 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-minecraft-server-on-android/</guid>
+      <guid>https://www.bennettnotes.com/run-minecraft-server-on-android/</guid>
       <description>Here is how you can run Minecraft server on your Android device. This will allow anyone playing Minecraft on the desktop to connect to the server running on your device. To do this, you will first need to install Linux to your Android device then install java and run the Minecraft server jar file. It is actually a fairly easy process and takes no more than 15 minutes altogether.</description>
     </item>
     
     <item>
       <title>Play Portal on any Android</title>
-      <link>https://bennettnotes.com/play-portal-on-any-android/</link>
+      <link>https://www.bennettnotes.com/play-portal-on-any-android/</link>
       <pubDate>Thu, 08 Jan 2015 19:33:18 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-portal-on-any-android/</guid>
+      <guid>https://www.bennettnotes.com/play-portal-on-any-android/</guid>
       <description>Ah yes, who doesn&amp;#8217;t love a good game of Portal? If you are lucky enough to own an Nvidia Shield (or any Tegra 4 device), you already have access to the game plus more exclusives. But what if you do not own an Nvidia Shield? Well there is still a way to play Portal thanks to an app called GLTools. GLtTools will emulate the Tegra 4 drivers, so that the app thinks you are using a Tegra 4 device.</description>
     </item>
     
     <item>
       <title>Run Android apps on Chromebook</title>
-      <link>https://bennettnotes.com/run-android-apps-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/run-android-apps-on-chromebook/</link>
       <pubDate>Sun, 21 Sep 2014 22:01:17 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-android-apps-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/run-android-apps-on-chromebook/</guid>
       <description>Recently, Google has released an Android run-time for Chrome OS that will allow developers to easily port their android applications to Chrome OS (Feel free to watch the Keynote for more information). While this is a step in the right direction (and should have been included with Chrome OS from the very beginning, but I digress) there are only four official android apps available for Chrome OS (Evernote, Vine, Sight Words, Duolingo).</description>
     </item>
     
     <item>
       <title>Run Android on Chromebook</title>
-      <link>https://bennettnotes.com/run-android-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/run-android-on-chromebook/</link>
       <pubDate>Sun, 07 Sep 2014 05:03:32 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-android-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/run-android-on-chromebook/</guid>
       <description>Are you tired of Chrome OS? Do you want a greater selection of apps and games? Well, running Android on your Chromebook is a practical option. The performance is without compromise and almost everything works (except for the touchpad). You will have access to the entire Google Play store so you can download games and thousands of apps. So here&amp;#8217;s how to run Android on Chromebook.
 What You Will Need:  An Intel Powered Chromebook A USB with at least 2GB of free space Android X86 iSO Rufus  Step 1: Developer Mode Before you can run Android, you will need to put your Chromebook in developer mode.</description>
     </item>
     
     <item>
       <title>Play PlayStation Games on Android</title>
-      <link>https://bennettnotes.com/play-playstation-games-on-android/</link>
+      <link>https://www.bennettnotes.com/play-playstation-games-on-android/</link>
       <pubDate>Sat, 31 Aug 2013 03:01:03 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-playstation-games-on-android/</guid>
+      <guid>https://www.bennettnotes.com/play-playstation-games-on-android/</guid>
       <description>Do you miss the good old PlayStation days? I am talking about the original PlayStation with the 1MB Memory cards (I had a lot of those) and the boring yet simplistic outer-body design? If so, there is hope for you. Thanks to multiple apps in the Play Store, you can play PlayStation games on Android.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 Emulation has come so far on Android. It amazes me at just how many titles are compatible with the PlayStation emulators.</description>

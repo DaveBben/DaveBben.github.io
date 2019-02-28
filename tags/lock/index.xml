@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lock on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/lock/</link>
+    <link>https://www.bennettnotes.com/tags/lock/</link>
     <description>Recent content in Lock on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,24 +10,24 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 31 Dec 2015 16:34:05 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/lock/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/lock/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lock Computer from Android</title>
-      <link>https://bennettnotes.com/lock-computer-android/</link>
+      <link>https://www.bennettnotes.com/lock-computer-android/</link>
       <pubDate>Thu, 31 Dec 2015 16:34:05 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/lock-computer-android/</guid>
+      <guid>https://www.bennettnotes.com/lock-computer-android/</guid>
       <description>Consider this, you are sitting across the room chilling on your couch and you&amp;#8217;re starting to fall asleep. Here&amp;#8217;s the problem, your couch feels so good and you don&amp;#8217;t want to get up to lock your computer, but you need to because you have nosy roommates. So wouldn&amp;#8217;t it be great if you could remotely lock it from your phone? Okay, so even if this situation is completely unbelievable, this is still something cool to try and do.</description>
     </item>
     
     <item>
       <title>Lock Phone From Android Wear</title>
-      <link>https://bennettnotes.com/lock-phone-from-android-wear/</link>
+      <link>https://www.bennettnotes.com/lock-phone-from-android-wear/</link>
       <pubDate>Mon, 13 Jul 2015 14:41:56 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/lock-phone-from-android-wear/</guid>
+      <guid>https://www.bennettnotes.com/lock-phone-from-android-wear/</guid>
       <description>Security means everything to me. I am that guy who uses two step authentication on everything, along with safety backups and more. When it comes to security on Android, things aren&amp;#8217;t as tight as I would like them to be. On my S6, my favorite thing to use is the fingerprint scanner. I am aware that the fingerprint scanner does not offer better security than a strong password or lock pattern (although you could easily bypass the Android Lockscreen pattern), however, it will deter most people from trying to snoop around in my phone.</description>
     </item>
     

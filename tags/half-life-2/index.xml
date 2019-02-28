@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Half Life 2 on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/half-life-2/</link>
+    <link>https://www.bennettnotes.com/tags/half-life-2/</link>
     <description>Recent content in Half Life 2 on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 29 Aug 2015 19:35:38 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/half-life-2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/half-life-2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Half Life 2 on Android</title>
-      <link>https://bennettnotes.com/half-life-2-on-android/</link>
+      <link>https://www.bennettnotes.com/half-life-2-on-android/</link>
       <pubDate>Sat, 29 Aug 2015 19:35:38 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/half-life-2-on-android/</guid>
+      <guid>https://www.bennettnotes.com/half-life-2-on-android/</guid>
       <description>Let&amp;#8217;s talk about playing Half Life 2 on Android. If you are lucky enough to own an Nvidia Tegra device (such as the Shield) then you can completely ignore this tutorial because it doesn&amp;#8217;t apply to you. Half Life 2 exists as an exclusive for Nvidia&amp;#8217;s Shield device. Unfortunately, not everyone owns a device that is running the Tegra cpu. Luckily, using the app GlTools, you can emulate the Tegra graphics driver on your device.</description>
     </item>
     

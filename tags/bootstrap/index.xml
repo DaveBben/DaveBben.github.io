@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bootstrap on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/bootstrap/</link>
+    <link>https://www.bennettnotes.com/tags/bootstrap/</link>
     <description>Recent content in Bootstrap on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Wed, 27 Dec 2017 15:19:56 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/bootstrap/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/bootstrap/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bootstrap Navbar Collapse in ReactJS</title>
-      <link>https://bennettnotes.com/bootstrap-navbar-collapse-reactjs/</link>
+      <link>https://www.bennettnotes.com/bootstrap-navbar-collapse-reactjs/</link>
       <pubDate>Wed, 27 Dec 2017 15:19:56 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/bootstrap-navbar-collapse-reactjs/</guid>
+      <guid>https://www.bennettnotes.com/bootstrap-navbar-collapse-reactjs/</guid>
       <description>Bootstrap is an amazing library and works wonders with ReactJS. Unfortunately, you can&amp;#8217;t (or really shouldn&amp;#8217;t) use Bootstrap.js with React because bootstrap directly manipulates the DOM; which could break React&amp;#8217;s nice rendering flow. This becomes a big problem if you wanted to implement a Navbar using plain bootstrap. Take the following for example from Bootstrap&amp;#8217;s documentation:
 &amp;nbsp;
 You could directly take this code and put it in ReactJS (but change class _to _className) and you will have a working Navbar.</description>

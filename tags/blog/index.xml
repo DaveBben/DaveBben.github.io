@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/blog/</link>
+    <link>https://www.bennettnotes.com/tags/blog/</link>
     <description>Recent content in Blog on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 02 Apr 2017 21:12:48 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>No More Internet Privacy</title>
-      <link>https://bennettnotes.com/no-more-internet-privacy/</link>
+      <link>https://www.bennettnotes.com/no-more-internet-privacy/</link>
       <pubDate>Sun, 02 Apr 2017 21:12:48 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/no-more-internet-privacy/</guid>
+      <guid>https://www.bennettnotes.com/no-more-internet-privacy/</guid>
       <description>This video is different that my usual content. In light of recent events, I wanted to highlight some of the concerns of privacy that is being challenged through companies and congress. I don&amp;#8217;t want to persuade you either way, but I just want to make you an informed consumer as to what&amp;#8217;s going on. There has been the recent incident of Verizon installing spyware on Android devices and the repeal of internet privacy laws (S.</description>
     </item>
     

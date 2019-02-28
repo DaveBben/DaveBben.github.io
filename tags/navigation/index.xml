@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Navigation on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/navigation/</link>
+    <link>https://www.bennettnotes.com/tags/navigation/</link>
     <description>Recent content in Navigation on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Mon, 26 Mar 2018 02:00:19 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/navigation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/navigation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>React Native StackNavigator Tutorial</title>
-      <link>https://bennettnotes.com/react-native-stacknavigator-tutorial/</link>
+      <link>https://www.bennettnotes.com/react-native-stacknavigator-tutorial/</link>
       <pubDate>Mon, 26 Mar 2018 02:00:19 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/react-native-stacknavigator-tutorial/</guid>
+      <guid>https://www.bennettnotes.com/react-native-stacknavigator-tutorial/</guid>
       <description>I have spent hours trying to figure out how to actually use the React Native Stacknavigator to navigate between screens. All the tutorials and guides seem to be missing important information, and the official React Native documentation is truly lacking in substance. So I want to save you some headache and give you a quick and easy setup to using the React Native StackNavigator.
 You need to Eject If you created your react-native project using the command:</description>
     </item>

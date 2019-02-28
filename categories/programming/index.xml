@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Bennett Notes</title>
-    <link>https://bennettnotes.com/categories/programming/</link>
+    <link>https://www.bennettnotes.com/categories/programming/</link>
     <description>Recent content in Programming on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,196 +10,196 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 22 Apr 2018 17:53:29 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>JWT Tokens in Express and NodeJS</title>
-      <link>https://bennettnotes.com/jwt-tokens-in-express-and-nodejs/</link>
+      <link>https://www.bennettnotes.com/jwt-tokens-in-express-and-nodejs/</link>
       <pubDate>Sun, 22 Apr 2018 17:53:29 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/jwt-tokens-in-express-and-nodejs/</guid>
+      <guid>https://www.bennettnotes.com/jwt-tokens-in-express-and-nodejs/</guid>
       <description>The JSON Web Token (JWT) is the easiest standard for protecting APIs and passing in claims data. A JSON Web token allows the server to verify the authenticity of the user and provide them access to protected API routes and data.&amp;nbsp; A simple JWT flow goes as follows:
  The user sends login credentials to the server The server verifies user against&amp;nbsp;the database then returns a JWT token if valid The user sends that token in the header with every request to API.</description>
     </item>
     
     <item>
       <title>React Login with Google Firebase</title>
-      <link>https://bennettnotes.com/react-login-with-google-firebase/</link>
+      <link>https://www.bennettnotes.com/react-login-with-google-firebase/</link>
       <pubDate>Wed, 04 Apr 2018 22:14:49 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/react-login-with-google-firebase/</guid>
+      <guid>https://www.bennettnotes.com/react-login-with-google-firebase/</guid>
       <description>There are many opinionated solutions for building a React Login with Google Firebase. I generally prefer an approach where the user isn&amp;#8217;t shown the main UI until he is logged in. And if the user logs out, we immediately kick him back to the login screen. Luckily, this isn&amp;#8217;t hard to do at all.
 Dependencies The only dependency you will need is the Firebase API. You can install this form the Node Package Manager.</description>
     </item>
     
     <item>
       <title>How to build a Chrome Extension</title>
-      <link>https://bennettnotes.com/how-to-build-a-chrome-extension/</link>
+      <link>https://www.bennettnotes.com/how-to-build-a-chrome-extension/</link>
       <pubDate>Wed, 28 Mar 2018 15:07:56 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-build-a-chrome-extension/</guid>
+      <guid>https://www.bennettnotes.com/how-to-build-a-chrome-extension/</guid>
       <description>Chrome extensions are really cool. They allow the user to extend the capabilities of their browser and can incorporate really well into existing apps. So let&amp;#8217;s take a look at how to build a Chrome Extension in less than 10 minutes. Chrome Extensions are written in Javascript, so I recommend that you have a basic understanding of Javascript before proceeding with this tutorial.
 What we&amp;#8217;re building We are going to build a simple chrome extension that will allow you to search google for any text that you highlight on a page.</description>
     </item>
     
     <item>
       <title>Blockchain and Decentralization will NOT fix the Internet</title>
-      <link>https://bennettnotes.com/blockchain-and-decentralization-will-not-fix-the-internet/</link>
+      <link>https://www.bennettnotes.com/blockchain-and-decentralization-will-not-fix-the-internet/</link>
       <pubDate>Mon, 26 Mar 2018 16:34:40 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/blockchain-and-decentralization-will-not-fix-the-internet/</guid>
+      <guid>https://www.bennettnotes.com/blockchain-and-decentralization-will-not-fix-the-internet/</guid>
       <description>Stop saying that blockchain and decentralizing everything will fix the Internet. There has been a lot of news around Cambridge Analytica abusing Facebook profile data, and Facebook for mining user data without explicit permission. Yes, I agree that these are very bad things that need to be addressed. And I also agree that while Facebook is at the front-lines of this digital privacy war, we could also blame many other companies like Google, Twitter, Amazon, etc for similar practices.</description>
     </item>
     
     <item>
       <title>React Native StackNavigator Tutorial</title>
-      <link>https://bennettnotes.com/react-native-stacknavigator-tutorial/</link>
+      <link>https://www.bennettnotes.com/react-native-stacknavigator-tutorial/</link>
       <pubDate>Mon, 26 Mar 2018 02:00:19 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/react-native-stacknavigator-tutorial/</guid>
+      <guid>https://www.bennettnotes.com/react-native-stacknavigator-tutorial/</guid>
       <description>I have spent hours trying to figure out how to actually use the React Native Stacknavigator to navigate between screens. All the tutorials and guides seem to be missing important information, and the official React Native documentation is truly lacking in substance. So I want to save you some headache and give you a quick and easy setup to using the React Native StackNavigator.
 You need to Eject If you created your react-native project using the command:</description>
     </item>
     
     <item>
       <title>Google Poly API Javascript and NodeJS</title>
-      <link>https://bennettnotes.com/google-poly-api-javascript-and-nodejs/</link>
+      <link>https://www.bennettnotes.com/google-poly-api-javascript-and-nodejs/</link>
       <pubDate>Mon, 26 Mar 2018 01:56:23 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/google-poly-api-javascript-and-nodejs/</guid>
+      <guid>https://www.bennettnotes.com/google-poly-api-javascript-and-nodejs/</guid>
       <description>Google has been working on an interesting project called Poly. With Poly, you have access to hundreds of 3D objects that can be used to build VR games or with AR content. The interesting about Poly is that all of the graphics are available on demand. Think of it like Google Fonts just for 3D objects. So let&amp;#8217;s take a look at how you can get started with Google Poly API Javascript and NodeJS bundle.</description>
     </item>
     
     <item>
       <title>React Context API</title>
-      <link>https://bennettnotes.com/react-context-api/</link>
+      <link>https://www.bennettnotes.com/react-context-api/</link>
       <pubDate>Thu, 22 Mar 2018 03:53:44 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/react-context-api/</guid>
+      <guid>https://www.bennettnotes.com/react-context-api/</guid>
       <description>I&amp;#8217;m sure you have probably heard of the fancy new React Context API. It&amp;#8217;s a new way for you to manage application state. If you are building a large react application, you have probably encountered a problem where you needed to access and share data across multiple components. For example, we might have information on the currently authenticated user that multiple components need information on. To solve this issue, you might use a library like Redux or Mobx.</description>
     </item>
     
     <item>
       <title>Typescript Getter and Setter</title>
-      <link>https://bennettnotes.com/typescript-getter-setter/</link>
+      <link>https://www.bennettnotes.com/typescript-getter-setter/</link>
       <pubDate>Wed, 07 Mar 2018 00:35:21 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/typescript-getter-setter/</guid>
+      <guid>https://www.bennettnotes.com/typescript-getter-setter/</guid>
       <description>This is something that you probably don&amp;#8217;t ever think about, but getters and setters are implicit on every javascript object. For example, if we take the following:
 person = {}; person.name = &#39;Dave&#39; //uses the implicit setter on the object console.log(person.name) //uses the implicit getter The above code is something that you have probably have seen very often in javascript. However, this doesn&amp;#8217;t give you much control over how properties are accessed or defined.</description>
     </item>
     
     <item>
       <title>Angular 4 input only numbers Directive</title>
-      <link>https://bennettnotes.com/angular-4-input-numbers-directive/</link>
+      <link>https://www.bennettnotes.com/angular-4-input-numbers-directive/</link>
       <pubDate>Wed, 07 Mar 2018 00:11:23 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/angular-4-input-numbers-directive/</guid>
+      <guid>https://www.bennettnotes.com/angular-4-input-numbers-directive/</guid>
       <description>I was working on a project in Angular 4 and needed to implement input fields that only accept numerical values. My first thought was to simply add the HTML5 type=&amp;#8221;number&amp;#8221; to the input. Unfortunately, this isn&amp;#8217;t supported in Internet Explorer 10 and some of the clients would most likely be using Internet Explorer 10. My only other option was to implement a directive. Thanks to this StackOverflow answer, I was able to modify it to my needs.</description>
     </item>
     
     <item>
       <title>Implementing Token Interceptor and Retry in Angular 4</title>
-      <link>https://bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4-2/</link>
+      <link>https://www.bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4-2/</link>
       <pubDate>Fri, 23 Feb 2018 14:46:58 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4-2/</guid>
+      <guid>https://www.bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4-2/</guid>
       <description>If you are building a web application using Angular 4 or Angular 5 there&amp;#8217;s a good chance that you might be working with JWT tokens. Luckily, implementing token interceptor and retry in Angular 4 and beyond is very easy thanks to the new HTTP Interceptors. Using this, we can add an authorization header to every outbound request while also implementing a retry mechanism for requests that fail due to an expired token.</description>
     </item>
     
     <item>
       <title>Implementing Token Interceptor and Retry in Angular 4</title>
-      <link>https://bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4/</link>
+      <link>https://www.bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4/</link>
       <pubDate>Fri, 23 Feb 2018 14:46:58 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4/</guid>
+      <guid>https://www.bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4/</guid>
       <description>If you are building a web application using Angular 4 or Angular 5 there&amp;#8217;s a good chance that you might be working with JWT tokens. Luckily, implementing token interceptor and retry in Angular 4 and beyond is very easy thanks to the new HTTP Interceptors. Using this, we can add an authorization header to every outbound request while also implementing a retry mechanism for requests that fail due to an expired token.</description>
     </item>
     
     <item>
       <title>Simple CSS Hack Can Steal Internet Passwords</title>
-      <link>https://bennettnotes.com/simple-css-hack-can-steal-internet-passwords/</link>
+      <link>https://www.bennettnotes.com/simple-css-hack-can-steal-internet-passwords/</link>
       <pubDate>Wed, 21 Feb 2018 16:51:25 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/simple-css-hack-can-steal-internet-passwords/</guid>
+      <guid>https://www.bennettnotes.com/simple-css-hack-can-steal-internet-passwords/</guid>
       <description>A user on GitHub just posted an alarming exploit shows how a simple CSS hack can steal internet passwords. It&amp;#8217;s kinda funny how you wouldn&amp;#8217;t really think of CSS when it comes to vulnerabilities and hacking. Since CSS is only used to style a webpage, its threat level is generally considered to be relatively low.
 However, CSS does provide developers with very advanced selectors. In this case, if you wanted to select an input with the value of A in it and turn it red, then CSS allows you to do that.</description>
     </item>
     
     <item>
       <title>How to build a forum</title>
-      <link>https://bennettnotes.com/how-to-build-a-forum/</link>
+      <link>https://www.bennettnotes.com/how-to-build-a-forum/</link>
       <pubDate>Tue, 20 Feb 2018 14:48:40 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-build-a-forum/</guid>
+      <guid>https://www.bennettnotes.com/how-to-build-a-forum/</guid>
       <description>Practically every online community has a forum. It makes sense though because forums are a great way to facilitate online discussion. Now let&amp;#8217;s say that you wanted to build your own online forum. Well, building a very basic forum wouldn&amp;#8217;t be too complicated. Just script together some PHP with an MYSQL database and you will be all set. Unfortunately, this would likely leave you vulnerable to many potential security holes and a terrible user experience.</description>
     </item>
     
     <item>
       <title>Angular 4 Forms</title>
-      <link>https://bennettnotes.com/angular-4-forms-2/</link>
+      <link>https://www.bennettnotes.com/angular-4-forms-2/</link>
       <pubDate>Sat, 13 Jan 2018 15:12:40 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/angular-4-forms-2/</guid>
+      <guid>https://www.bennettnotes.com/angular-4-forms-2/</guid>
       <description>One of my favorite features in Angular are forms. Using Angular 4 forms or Angular 5 forms are very helpful because they provide for quick validation and object mapping. Here&amp;#8217;s how you can create a basic angular 4 form (also works with angular 2, and angular 5).
 HTML You will also notice that I am using Bootstrap for some styling, that is completely optional. Let&amp;#8217;s look at the form HTML:</description>
     </item>
     
     <item>
       <title>Angular 4 Forms</title>
-      <link>https://bennettnotes.com/angular-4-forms/</link>
+      <link>https://www.bennettnotes.com/angular-4-forms/</link>
       <pubDate>Sat, 13 Jan 2018 15:12:40 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/angular-4-forms/</guid>
+      <guid>https://www.bennettnotes.com/angular-4-forms/</guid>
       <description>One of my favorite features in Angular are forms. Using Angular 4 forms or Angular 5 forms are very helpful because they provide for quick validation and object mapping. Here&amp;#8217;s how you can create a basic angular 4 form (also works with angular 2, and angular 5).
 HTML You will also notice that I am using Bootstrap for some styling, that is completely optional. Let&amp;#8217;s look at the form HTML:</description>
     </item>
     
     <item>
       <title>Android Recyclerview for Installed Apps with Checkbox</title>
-      <link>https://bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/</link>
+      <link>https://www.bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/</link>
       <pubDate>Sat, 13 Jan 2018 15:06:53 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/</guid>
+      <guid>https://www.bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/</guid>
       <description>One of the most common reasons that you would want to use the android recyclerview is if you want to show a list of some sort. In this example, let&amp;#8217;s take a look at how you can use the android recyclerview to show a list of installed apps on your device. Within each item, we will also include a checkbox. Here&amp;#8217;s what it will look like:
 Layout Let&amp;#8217;s first take care of creating the layout files.</description>
     </item>
     
     <item>
       <title>Use Machine Learning to Predict the Value of Bitcoin</title>
-      <link>https://bennettnotes.com/use-machine-learning-to-predict-the-value-of-bitcoin/</link>
+      <link>https://www.bennettnotes.com/use-machine-learning-to-predict-the-value-of-bitcoin/</link>
       <pubDate>Mon, 08 Jan 2018 22:41:11 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/use-machine-learning-to-predict-the-value-of-bitcoin/</guid>
+      <guid>https://www.bennettnotes.com/use-machine-learning-to-predict-the-value-of-bitcoin/</guid>
       <description>The day has finally come at which I can use machine learning and bitcoin in the same article. The only thing that would impress me more would be relating the topics of machine learning, bitcoin, and blockchain in the same article, but I digress. Anway, the value of bitcoin is astonishing. It went from $900 to well over $14,000 in less than 6 months time! So hey, let&amp;#8217;s start riding this bubble and try to cash in before its too late.</description>
     </item>
     
     <item>
       <title>Meltdown and Spectre – Possible Javascript Vulnerabilities</title>
-      <link>https://bennettnotes.com/meltdown-and-spectre-javascript-vulnerabilities/</link>
+      <link>https://www.bennettnotes.com/meltdown-and-spectre-javascript-vulnerabilities/</link>
       <pubDate>Fri, 05 Jan 2018 15:50:52 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/meltdown-and-spectre-javascript-vulnerabilities/</guid>
+      <guid>https://www.bennettnotes.com/meltdown-and-spectre-javascript-vulnerabilities/</guid>
       <description>This has been a very interesting New Year. So far, 2018 has brought us two of the biggest bugs to hit CPUs in the past 12 years: Meltdown and Spectre. Intel is struggling to get their Meltdown bug under control while Amazon and Microsoft brutally await its impact on their cloud services. Both Meltdown and Spectre are serious issues, but Meltdown is easier to exploit and gives attackers more valuable information.</description>
     </item>
     
     <item>
       <title>Best Chrome Extensions for Web Development</title>
-      <link>https://bennettnotes.com/best-chrome-extensions-for-web-development/</link>
+      <link>https://www.bennettnotes.com/best-chrome-extensions-for-web-development/</link>
       <pubDate>Thu, 28 Dec 2017 03:13:37 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/best-chrome-extensions-for-web-development/</guid>
+      <guid>https://www.bennettnotes.com/best-chrome-extensions-for-web-development/</guid>
       <description>Google Chrome and its developer tools are an absolute necessity for any web developer. But you shouldn&amp;#8217;t stop there because there are even more great tools and extensions that will help you with web development and design. So let&amp;#8217;s take a look at some of the best Chrome extensions for web development.
 React Developer Tools If you plan on doing development in React, then you should definitely download this extension.</description>
     </item>
     
     <item>
       <title>Bootstrap Navbar Collapse in ReactJS</title>
-      <link>https://bennettnotes.com/bootstrap-navbar-collapse-reactjs/</link>
+      <link>https://www.bennettnotes.com/bootstrap-navbar-collapse-reactjs/</link>
       <pubDate>Wed, 27 Dec 2017 15:19:56 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/bootstrap-navbar-collapse-reactjs/</guid>
+      <guid>https://www.bennettnotes.com/bootstrap-navbar-collapse-reactjs/</guid>
       <description>Bootstrap is an amazing library and works wonders with ReactJS. Unfortunately, you can&amp;#8217;t (or really shouldn&amp;#8217;t) use Bootstrap.js with React because bootstrap directly manipulates the DOM; which could break React&amp;#8217;s nice rendering flow. This becomes a big problem if you wanted to implement a Navbar using plain bootstrap. Take the following for example from Bootstrap&amp;#8217;s documentation:
 &amp;nbsp;
 You could directly take this code and put it in ReactJS (but change class _to _className) and you will have a working Navbar.</description>
@@ -207,47 +207,47 @@ You could directly take this code and put it in ReactJS (but change class _to�
     
     <item>
       <title>PHP Query SQL Database return JSON</title>
-      <link>https://bennettnotes.com/php-query-sql-database-return-json/</link>
+      <link>https://www.bennettnotes.com/php-query-sql-database-return-json/</link>
       <pubDate>Wed, 27 Dec 2017 15:15:04 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/php-query-sql-database-return-json/</guid>
+      <guid>https://www.bennettnotes.com/php-query-sql-database-return-json/</guid>
       <description>As a Javascript developer, I always prefer to use NodeJS as my API endpoint when interacting with a backend database. Unfortunately, it&amp;#8217;s not always feasible to use NodeJS (especially in a shared hosting environment) and you might have to fall back to good old PHP. So here&amp;#8217;s a quick refresher on how you can perform queries to a SQL database using PHP from an Ajax or Fetch call.
 Fetch Call Suppose I have the following XMLhttp request using the fetch API:</description>
     </item>
     
     <item>
       <title>PHP insert into SQL database from Fetch POST</title>
-      <link>https://bennettnotes.com/php-insert-sql-database-fetch-post/</link>
+      <link>https://www.bennettnotes.com/php-insert-sql-database-fetch-post/</link>
       <pubDate>Wed, 27 Dec 2017 15:12:17 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/php-insert-sql-database-fetch-post/</guid>
+      <guid>https://www.bennettnotes.com/php-insert-sql-database-fetch-post/</guid>
       <description>As a Javascript developer, I always prefer to use NodeJS as my API endpoint when interacting with a backend database. Unfortunately, it&amp;#8217;s not always feasible to use NodeJS (especially in a shared hosting environment) and you might have to fall back to good old PHP. So here&amp;#8217;s a quick refresher on how you can insert an object into an SQL database from javascript using php. If you haven&amp;#8217;t already, check out my previous tutorial on making SQL queries from PHP using fetch API.</description>
     </item>
     
     <item>
       <title>GPU Programming in Javascript</title>
-      <link>https://bennettnotes.com/gpu-programming-in-javascript/</link>
+      <link>https://www.bennettnotes.com/gpu-programming-in-javascript/</link>
       <pubDate>Tue, 26 Dec 2017 16:58:09 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/gpu-programming-in-javascript/</guid>
+      <guid>https://www.bennettnotes.com/gpu-programming-in-javascript/</guid>
       <description>You probably don&amp;#8217;t think about Javascript when you hear the words GPU programming. However, it should come as no surprise that there is a library to do anything and that includes GPU Programming in Javascript. Let&amp;#8217;s get one thing clear though, you should probably not do this if you are looking to do serious GPU programming. For serious GPU programming, I recommended that you work with Nvidia&amp;#8217;s CUDA in C and C++.</description>
     </item>
     
     <item>
       <title>Image Classification using Nvidia Digits – Deep Learning</title>
-      <link>https://bennettnotes.com/image-classification-using-nvidia-digits-deep-learning/</link>
+      <link>https://www.bennettnotes.com/image-classification-using-nvidia-digits-deep-learning/</link>
       <pubDate>Sun, 24 Dec 2017 16:22:00 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/image-classification-using-nvidia-digits-deep-learning/</guid>
+      <guid>https://www.bennettnotes.com/image-classification-using-nvidia-digits-deep-learning/</guid>
       <description>Nvidia digits is a great way to get started with deep learning and image classification. It&amp;#8217;s an open source platform that you can run on your computer to do things like image classification, object detection, and processing. It also contains a REST API so that you can easily do all of this through HTTP requests if you desire. For this tutorial, let&amp;#8217;s take a look at image classification using Nvidia digits.</description>
     </item>
     
     <item>
       <title>Javascript for of vs for in vs for each</title>
-      <link>https://bennettnotes.com/javascript-vs-vs/</link>
+      <link>https://www.bennettnotes.com/javascript-vs-vs/</link>
       <pubDate>Fri, 22 Dec 2017 14:54:56 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/javascript-vs-vs/</guid>
+      <guid>https://www.bennettnotes.com/javascript-vs-vs/</guid>
       <description>If you are new to Javascript (or even a seasoned js developer), you will probably get confused when trying to understand the different types of for loops. So let&amp;#8217;s go through the javascript for of vs for in vs for each loop.
 Standard for loop Suppose we have an array called myArray. Here&amp;#8217;s how you would iterate through it using the standard for loop:
 var myArray = [&#39;Cat&#39;,&#39;Dog&#39;,&#39;Horse&#39;]; for(let i =0; i&amp;lt; myArray.</description>
@@ -255,114 +255,114 @@ var myArray = [&#39;Cat&#39;,&#39;Dog&#39;,&#39;Horse&#39;]; for(let i =0; i&amp
     
     <item>
       <title>Subscribe to variable change in Angular 4 Service</title>
-      <link>https://bennettnotes.com/subscribe-to-variable-change-in-angular-4-service/</link>
+      <link>https://www.bennettnotes.com/subscribe-to-variable-change-in-angular-4-service/</link>
       <pubDate>Fri, 22 Dec 2017 14:40:18 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/subscribe-to-variable-change-in-angular-4-service/</guid>
+      <guid>https://www.bennettnotes.com/subscribe-to-variable-change-in-angular-4-service/</guid>
       <description>If you want to subscribe to variable change in Angular 4 service or Angular 5 service, you can use something called the BehaviorSubject from the rxjs library. A behavior subject is like an observable, except that it must be created with an initial value as it is must always return a value even if the subject hasn&amp;#8217;t been updated. A behavior subject will always emit it&amp;#8217;s first value as soon as it&amp;#8217;s described.</description>
     </item>
     
     <item>
       <title>Build a Multiplayer game using Javascript</title>
-      <link>https://bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/</link>
+      <link>https://www.bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/</link>
       <pubDate>Sun, 10 Dec 2017 22:27:10 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/</guid>
+      <guid>https://www.bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/</guid>
       <description>In this tutorial, we will take a look at how to build a multiplayer game using Javascript and NodeJS. My goal is to take you through the basic setup so that you can begin focusing on the actual gameplay. When building a full-scale MMO, there are a lot of things to consider like load balancing, network contingencies, etc. For now, we are going to focus on the bare minimum just to help you get an understanding of how you can creatively and effectively use the available tools of NodeJS to get started.</description>
     </item>
     
     <item>
       <title>Javascript Hashcash Proof of Work</title>
-      <link>https://bennettnotes.com/javascript-hashcash-proof-work/</link>
+      <link>https://www.bennettnotes.com/javascript-hashcash-proof-work/</link>
       <pubDate>Mon, 04 Dec 2017 22:39:00 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/javascript-hashcash-proof-work/</guid>
+      <guid>https://www.bennettnotes.com/javascript-hashcash-proof-work/</guid>
       <description>Suppose that you developed an app that will give users free stuff when they click a button. Obviously, there&amp;#8217;s nothing stopping one user from spamming the button one million times and collecting a whole bunch of free stuff. If you wanted to prevent that, you could use something like a CAPTCHA, or perhaps give each user a session and cool off period. You could also implement something called a proof of work system.</description>
     </item>
     
     <item>
       <title>Javascript Hashcash Proof of Work</title>
-      <link>https://bennettnotes.com/javascript-hashcash-proof-work/</link>
+      <link>https://www.bennettnotes.com/javascript-hashcash-proof-work/</link>
       <pubDate>Mon, 04 Dec 2017 22:39:00 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/javascript-hashcash-proof-work/</guid>
+      <guid>https://www.bennettnotes.com/javascript-hashcash-proof-work/</guid>
       <description>Suppose that you developed an app that will give users free stuff when they click a button. Obviously, there&amp;#8217;s nothing stopping one user from spamming the button one million times and collecting a whole bunch of free stuff. If you wanted to prevent that, you could use something like a CAPTCHA, or perhaps give each user a session and cool off period. You could also implement something called a proof of work system.</description>
     </item>
     
     <item>
       <title>Build a Javascript Blockchain</title>
-      <link>https://bennettnotes.com/javascript-blockchain/</link>
+      <link>https://www.bennettnotes.com/javascript-blockchain/</link>
       <pubDate>Mon, 04 Dec 2017 22:33:00 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/javascript-blockchain/</guid>
+      <guid>https://www.bennettnotes.com/javascript-blockchain/</guid>
       <description>Blockchain! It&amp;#8217;s the mystical buzzword that every company is saying right now. At its core, the basic concept of blockchain is not hard to understand; it&amp;#8217;s essentially a distributed linked list. It&amp;#8217;s also used by the popular cryptocurrency called Bitcoin. The advantages of Blockchain is that it allows for a decentralized collection of data whose integrity is easily verifiable, and the data itself is immutable Keep in mind that a fully robust blockchain will also contain smart contracts, mining algorithms (proof of work/proof of stake) and other flavorful elements that you could enhance the chain with.</description>
     </item>
     
     <item>
       <title>Navigate in ReactJS using React V4 Router</title>
-      <link>https://bennettnotes.com/navigate-in-reactjs-using-react-v4-router/</link>
+      <link>https://www.bennettnotes.com/navigate-in-reactjs-using-react-v4-router/</link>
       <pubDate>Thu, 23 Nov 2017 13:53:59 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/navigate-in-reactjs-using-react-v4-router/</guid>
+      <guid>https://www.bennettnotes.com/navigate-in-reactjs-using-react-v4-router/</guid>
       <description>If you are building a large single page application, there might come a time when you will need to add routes to different pages. Unlike traditional routes, adding routes in ReactJS does not trigger a page reload. This makes your SPA extremely fast and feels more like an actual application rather than a simple website. To navigate in ReactJS we will be using the React v4 router.
 Setting Up React V4 Router Begin by installing the React V4 Router from npm:</description>
     </item>
     
     <item>
       <title>Understanding the JavaScript Spread Operator</title>
-      <link>https://bennettnotes.com/understanding-the-javascript-spread-operator-2/</link>
+      <link>https://www.bennettnotes.com/understanding-the-javascript-spread-operator-2/</link>
       <pubDate>Thu, 23 Nov 2017 05:14:17 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/understanding-the-javascript-spread-operator-2/</guid>
+      <guid>https://www.bennettnotes.com/understanding-the-javascript-spread-operator-2/</guid>
       <description>There&amp;#8217;s a good chance that you have probably come across the Javascript spread operator. If you are unsure, here&amp;#8217;s what it looks like:
 {...} Good luck trying to google search that as you will probably get an empty results page. The Javascript spread operator is a new syntax found in ES6 (ECMAScript2015). The purpose of the spread operator is to allow an iterable like an array or string to be expanded (or spread) across another object or array.</description>
     </item>
     
     <item>
       <title>Understanding the JavaScript Spread Operator</title>
-      <link>https://bennettnotes.com/understanding-the-javascript-spread-operator/</link>
+      <link>https://www.bennettnotes.com/understanding-the-javascript-spread-operator/</link>
       <pubDate>Thu, 23 Nov 2017 05:14:17 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/understanding-the-javascript-spread-operator/</guid>
+      <guid>https://www.bennettnotes.com/understanding-the-javascript-spread-operator/</guid>
       <description>There&amp;#8217;s a good chance that you have probably come across the Javascript spread operator. If you are unsure, here&amp;#8217;s what it looks like:
 {...} Good luck trying to google search that as you will probably get an empty results page. The Javascript spread operator is a new syntax found in ES6 (ECMAScript2015). The purpose of the spread operator is to allow an iterable like an array or string to be expanded (or spread) across another object or array.</description>
     </item>
     
     <item>
       <title>Multithreaded Javascript</title>
-      <link>https://bennettnotes.com/multithreaded-javascript/</link>
+      <link>https://www.bennettnotes.com/multithreaded-javascript/</link>
       <pubDate>Sun, 22 Oct 2017 15:59:58 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/multithreaded-javascript/</guid>
+      <guid>https://www.bennettnotes.com/multithreaded-javascript/</guid>
       <description>For the longest time, Javascript has always been implemented using a single thread in your browser. For the most part, this wasn&amp;#8217;t a problem. If you&amp;#8217;re just using javascript for simple DOM manipulations or form submissions then a single thread is all you need. However, once developers started getting more advanced with their Javascript usage, this eventually led to an issue.
 Let&amp;#8217;s say I have the following single page application (SPA) that shows a list of prime numbers from 1 to 600,000:</description>
     </item>
     
     <item>
       <title>Machine Learning in Javascript</title>
-      <link>https://bennettnotes.com/machine-learning-in-javascript/</link>
+      <link>https://www.bennettnotes.com/machine-learning-in-javascript/</link>
       <pubDate>Sun, 15 Oct 2017 17:57:54 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/machine-learning-in-javascript/</guid>
+      <guid>https://www.bennettnotes.com/machine-learning-in-javascript/</guid>
       <description>There&amp;#8217;s a good chance that you don&amp;#8217;t think of JavaScript when you think of artificial intelligence and machine learning. Instead, you might think of Python and popular libraries like Google&amp;#8217;s Tensorflow. While TensorFlow is very powerful and complex, it does require a steep learning curve. Personally, I&amp;#8217;m just looking to get my feet wet in some simple AI programming. However, I came across a javascript library called Brain.js. This library makes machine learning in javascript plausible and testable.</description>
     </item>
     
     <item>
       <title>JavaScript Read USB</title>
-      <link>https://bennettnotes.com/javascript-read-usb-2/</link>
+      <link>https://www.bennettnotes.com/javascript-read-usb-2/</link>
       <pubDate>Sun, 15 Oct 2017 17:49:06 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/javascript-read-usb-2/</guid>
+      <guid>https://www.bennettnotes.com/javascript-read-usb-2/</guid>
       <description>You can now officially use JavaScript to read USB devices that are connected to your computer. This is using the new WebUSB API that is still in early draft. As being so, the API could later change or be removed altogether until it receives the final verification.
 In order to use WebUSB you need to be running the latest version of Google Chrome, with the experimental web platform features flag enabled.</description>
     </item>
     
     <item>
       <title>Snapchat using Javascript – Zuck.js</title>
-      <link>https://bennettnotes.com/snapchat-using-javascript/</link>
+      <link>https://www.bennettnotes.com/snapchat-using-javascript/</link>
       <pubDate>Sun, 15 Oct 2017 17:42:01 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/snapchat-using-javascript/</guid>
+      <guid>https://www.bennettnotes.com/snapchat-using-javascript/</guid>
       <description>Stories! Stories are everywhere these days. Snapchat, Instagram, Facebook, Facebook Messenger and Whatsapp all have stories. Hell, it&amp;#8217;s only a matter of time before Microsoft Excel gets a stories update.
 &amp;nbsp;
 
@@ -371,30 +371,30 @@ In any case, if you want to build an app like Snapchat or build an app like Inst
     
     <item>
       <title>Reddit API Application only OAuth in Javascript</title>
-      <link>https://bennettnotes.com/reddit-api-application-oauth-javascript/</link>
+      <link>https://www.bennettnotes.com/reddit-api-application-oauth-javascript/</link>
       <pubDate>Sun, 15 Oct 2017 17:31:14 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/reddit-api-application-oauth-javascript/</guid>
+      <guid>https://www.bennettnotes.com/reddit-api-application-oauth-javascript/</guid>
       <description>Before you begin developing your Reddit application, you will need to make sure that your app is authorized to access the Reddit API. Authorization is done through OAuth tokens that you receive from the Reddit server. The flow is pretty straightforward:
  Application Requests Token App Receives Token that&amp;#8217;s valid for an hour App makes API calls with given token App request new token when the previous token expires  For this tutorial, we are going to build a simple app that grabs the new posts from a subreddit.</description>
     </item>
     
     <item>
       <title>JavaScript Read USB</title>
-      <link>https://bennettnotes.com/javascript-read-usb/</link>
+      <link>https://www.bennettnotes.com/javascript-read-usb/</link>
       <pubDate>Fri, 18 Aug 2017 13:10:40 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/javascript-read-usb/</guid>
+      <guid>https://www.bennettnotes.com/javascript-read-usb/</guid>
       <description>You can now officially use JavaScript to read USB devices that are connected to your computer. This is using the new WebUSB API that is still in early draft. As being so, the API could later change or be removed altogether until it receives the final verification.
 In order to use WebUSB you need to be running the latest version of Google Chrome, with the experimental web platform features flag enabled.</description>
     </item>
     
     <item>
       <title>JavaScript Callbacks</title>
-      <link>https://bennettnotes.com/javascript-callbacks/</link>
+      <link>https://www.bennettnotes.com/javascript-callbacks/</link>
       <pubDate>Thu, 17 Aug 2017 02:29:24 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/javascript-callbacks/</guid>
+      <guid>https://www.bennettnotes.com/javascript-callbacks/</guid>
       <description>In Javascript, a callback function is a function that is passed into another function as an argument. This allows you to invoke that function with a return value. Remember, Javascript&amp;#8217;s implementation within a browser is single threaded (well..until recently at least). That means that all of your code is executed within one linear operation. However, there are some functions in Javascript which are asynchronous. That means that they have the privilege to be invoked anywhere in that line of execution.</description>
     </item>
     

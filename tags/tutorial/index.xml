@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorial on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/tutorial/</link>
+    <link>https://www.bennettnotes.com/tags/tutorial/</link>
     <description>Recent content in Tutorial on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,42 +10,42 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Fri, 19 Aug 2016 18:31:47 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Use Android as Second Monitor</title>
-      <link>https://bennettnotes.com/use-android-as-second-monitor/</link>
+      <link>https://www.bennettnotes.com/use-android-as-second-monitor/</link>
       <pubDate>Fri, 19 Aug 2016 18:31:47 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/use-android-as-second-monitor/</guid>
+      <guid>https://www.bennettnotes.com/use-android-as-second-monitor/</guid>
       <description>Having more than one monitor is useful for any power user (porn on one, games on another). So it&amp;#8217;s possible to use an android device as a secondary monitor, but I recommend actually buying one if you want an easy setup. With that said, if you have a spare Android device laying around, you can use it as another monitor in your setup. To do this, we are going to use Windows and &amp;#8220;trick&amp;#8221; it into thinking that you have another monitor connected and then use TeamViewer to access the &amp;#8220;fake&amp;#8221; monitor.</description>
     </item>
     
     <item>
       <title>How to Install Linux</title>
-      <link>https://bennettnotes.com/how-to-install-linux/</link>
+      <link>https://www.bennettnotes.com/how-to-install-linux/</link>
       <pubDate>Mon, 01 Feb 2016 22:02:30 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-install-linux/</guid>
+      <guid>https://www.bennettnotes.com/how-to-install-linux/</guid>
       <description>Now that you are familiar with Linux, how do you go about installing it? Well, the beauty of Linux is that there are many different flavors at your disposal, in the form of distributions. Each distribution offers its own pre-installed software and default desktop and environment. There are thousands of different Linux distributions to choose from. If you are looking for a distribution that fits your needs, check out this list of the top 11 best Linux distributions.</description>
     </item>
     
     <item>
       <title>How to build a Supercomputer</title>
-      <link>https://bennettnotes.com/how-to-build-a-supercomputer/</link>
+      <link>https://www.bennettnotes.com/how-to-build-a-supercomputer/</link>
       <pubDate>Wed, 13 Jan 2016 03:20:26 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-build-a-supercomputer/</guid>
+      <guid>https://www.bennettnotes.com/how-to-build-a-supercomputer/</guid>
       <description>So you want to build a supercomputer? Well, if you checked out my video on quantum computing you&amp;#8217;ll know that scientist are working to make computers stronger and faster than ever. Unfortunately, building a quantum computer is not something you can do at home, unless your home is a laboratory of course. All hope isn&amp;#8217;t lost though, you can still go on to build your very own supercomputer.</description>
     </item>
     
     <item>
       <title>How to Play PS2 Games on Chromebook</title>
-      <link>https://bennettnotes.com/how-to-play-ps2-games-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/how-to-play-ps2-games-on-chromebook/</link>
       <pubDate>Fri, 29 May 2015 03:55:05 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-play-ps2-games-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/how-to-play-ps2-games-on-chromebook/</guid>
       <description>I always said to never underestimate the power of Chromebooks, and here is another reason not to. You can play play PlayStation 2 Games on your Chromebook. In order to do this, you will need to have Linux** installed on your Chromebook. **We are going to use the popular PCSX2 emulator for Linux. So it&amp;#8217;s also important that you have an Intel powered chromebook.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 Now, one word of advice.</description>
@@ -53,19 +53,19 @@ Now, one word of advice.</description>
     
     <item>
       <title>Windows XP on Android Wear Smartwatch</title>
-      <link>https://bennettnotes.com/windows-xp-on-android-wear-smartwatch/</link>
+      <link>https://www.bennettnotes.com/windows-xp-on-android-wear-smartwatch/</link>
       <pubDate>Tue, 19 May 2015 15:12:16 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/windows-xp-on-android-wear-smartwatch/</guid>
+      <guid>https://www.bennettnotes.com/windows-xp-on-android-wear-smartwatch/</guid>
       <description>Alan Turing, the great father of computer science, had once said that, &amp;#8220;Machines take me by surprise with great frequency.&amp;#8221; I think we could all relate to that statement in one way or another. From the age of early gaming, to the development of PDA&amp;#8217;s, Smartphones, Smartwatches and even Smart Glasses, there never seems to be a point where technology fails to impress us. What is even more astonishing is how outdated technology can easily become to us within a small amount of time.</description>
     </item>
     
     <item>
       <title>Create Your Own Personal Cloud Server</title>
-      <link>https://bennettnotes.com/create-your-own-personal-cloud-server/</link>
+      <link>https://www.bennettnotes.com/create-your-own-personal-cloud-server/</link>
       <pubDate>Sat, 09 May 2015 20:34:24 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/create-your-own-personal-cloud-server/</guid>
+      <guid>https://www.bennettnotes.com/create-your-own-personal-cloud-server/</guid>
       <description>Whether it is Dropbox, Google Drive, Skydrive or iCloud, I am sure that we all have our favorite cloud server. Cloud Servers are great because they allow us to easily sync files between all the devices on our network and access content from anywhere. However, a growing concern over cloud servers is privacy. You could be banned from hosting certain content and companies could easily sort through what you are uploading and create targeted ads based on it.</description>
     </item>
     

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jwt on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/jwt/</link>
+    <link>https://www.bennettnotes.com/tags/jwt/</link>
     <description>Recent content in Jwt on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,34 +10,34 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 22 Apr 2018 17:53:29 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/jwt/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/jwt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>JWT Tokens in Express and NodeJS</title>
-      <link>https://bennettnotes.com/jwt-tokens-in-express-and-nodejs/</link>
+      <link>https://www.bennettnotes.com/jwt-tokens-in-express-and-nodejs/</link>
       <pubDate>Sun, 22 Apr 2018 17:53:29 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/jwt-tokens-in-express-and-nodejs/</guid>
+      <guid>https://www.bennettnotes.com/jwt-tokens-in-express-and-nodejs/</guid>
       <description>The JSON Web Token (JWT) is the easiest standard for protecting APIs and passing in claims data. A JSON Web token allows the server to verify the authenticity of the user and provide them access to protected API routes and data.&amp;nbsp; A simple JWT flow goes as follows:
  The user sends login credentials to the server The server verifies user against&amp;nbsp;the database then returns a JWT token if valid The user sends that token in the header with every request to API.</description>
     </item>
     
     <item>
       <title>Implementing Token Interceptor and Retry in Angular 4</title>
-      <link>https://bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4-2/</link>
+      <link>https://www.bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4-2/</link>
       <pubDate>Fri, 23 Feb 2018 14:46:58 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4-2/</guid>
+      <guid>https://www.bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4-2/</guid>
       <description>If you are building a web application using Angular 4 or Angular 5 there&amp;#8217;s a good chance that you might be working with JWT tokens. Luckily, implementing token interceptor and retry in Angular 4 and beyond is very easy thanks to the new HTTP Interceptors. Using this, we can add an authorization header to every outbound request while also implementing a retry mechanism for requests that fail due to an expired token.</description>
     </item>
     
     <item>
       <title>Implementing Token Interceptor and Retry in Angular 4</title>
-      <link>https://bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4/</link>
+      <link>https://www.bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4/</link>
       <pubDate>Fri, 23 Feb 2018 14:46:58 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4/</guid>
+      <guid>https://www.bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4/</guid>
       <description>If you are building a web application using Angular 4 or Angular 5 there&amp;#8217;s a good chance that you might be working with JWT tokens. Luckily, implementing token interceptor and retry in Angular 4 and beyond is very easy thanks to the new HTTP Interceptors. Using this, we can add an authorization header to every outbound request while also implementing a retry mechanism for requests that fail due to an expired token.</description>
     </item>
     

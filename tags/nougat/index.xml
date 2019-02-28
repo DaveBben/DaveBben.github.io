@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nougat on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/nougat/</link>
+    <link>https://www.bennettnotes.com/tags/nougat/</link>
     <description>Recent content in Nougat on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,34 +10,34 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 19 Oct 2017 02:49:19 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/nougat/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/nougat/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Run Android Nougat on PC</title>
-      <link>https://bennettnotes.com/run-android-nougat-on-pc/</link>
+      <link>https://www.bennettnotes.com/run-android-nougat-on-pc/</link>
       <pubDate>Thu, 19 Oct 2017 02:49:19 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-android-nougat-on-pc/</guid>
+      <guid>https://www.bennettnotes.com/run-android-nougat-on-pc/</guid>
       <description>Do you have an old computer laying around that you need to find a use for? How about running Android Nougat on your PC? The Android x86 team has successfully ported Android 7.1 over to the desktop CPU architecture. This means you can enjoy your favorite apps and games on any pc or laptop.
 Run Android Nougat on PC The first thing that you need to do is download the Android Nougat x86 ISO file.</description>
     </item>
     
     <item>
       <title>Android Freeform Mode</title>
-      <link>https://bennettnotes.com/android-freeform-mode/</link>
+      <link>https://www.bennettnotes.com/android-freeform-mode/</link>
       <pubDate>Tue, 04 Jul 2017 19:27:12 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/android-freeform-mode/</guid>
+      <guid>https://www.bennettnotes.com/android-freeform-mode/</guid>
       <description>Android Freeform mode is a new hidden feature in Android Nougat (7.0). According to the Android developer guide, &amp;#8220;Manufacturers of larger devices can choose to enable freeform mode, in which the user can freely resize each activity. If the manufacturer enables this feature, the device offers freeform mode in addition to split-screen mode.&amp;#8221; Although the developer guides species larger devices, this could be enabled on smaller devices as well.</description>
     </item>
     
     <item>
       <title>Top Features Android N</title>
-      <link>https://bennettnotes.com/top-features-android-n/</link>
+      <link>https://www.bennettnotes.com/top-features-android-n/</link>
       <pubDate>Sat, 26 Mar 2016 15:18:48 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/top-features-android-n/</guid>
+      <guid>https://www.bennettnotes.com/top-features-android-n/</guid>
       <description>The Android N Developer Preview has arrived. Here are some of the top new features you can find in Android N.
 &amp;nbsp;</description>
     </item>

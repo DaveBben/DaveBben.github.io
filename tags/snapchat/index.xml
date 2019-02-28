@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Snapchat on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/snapchat/</link>
+    <link>https://www.bennettnotes.com/tags/snapchat/</link>
     <description>Recent content in Snapchat on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 15 Oct 2017 17:42:01 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/snapchat/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/snapchat/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Snapchat using Javascript – Zuck.js</title>
-      <link>https://bennettnotes.com/snapchat-using-javascript/</link>
+      <link>https://www.bennettnotes.com/snapchat-using-javascript/</link>
       <pubDate>Sun, 15 Oct 2017 17:42:01 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/snapchat-using-javascript/</guid>
+      <guid>https://www.bennettnotes.com/snapchat-using-javascript/</guid>
       <description>Stories! Stories are everywhere these days. Snapchat, Instagram, Facebook, Facebook Messenger and Whatsapp all have stories. Hell, it&amp;#8217;s only a matter of time before Microsoft Excel gets a stories update.
 &amp;nbsp;
 
@@ -27,10 +27,10 @@ In any case, if you want to build an app like Snapchat or build an app like Inst
     
     <item>
       <title>Android Battery Saving Tips – Restrict Snapchat Background Data</title>
-      <link>https://bennettnotes.com/android-battery-saving-tips-disable-snapchat-background-data/</link>
+      <link>https://www.bennettnotes.com/android-battery-saving-tips-disable-snapchat-background-data/</link>
       <pubDate>Tue, 29 Nov 2016 04:31:03 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/android-battery-saving-tips-disable-snapchat-background-data/</guid>
+      <guid>https://www.bennettnotes.com/android-battery-saving-tips-disable-snapchat-background-data/</guid>
       <description>Battery life on Android is a nightmare to deal with unless you know exactly what to look for. Android&amp;#8217;s vague battery statistics can be frustrating for a novice and seasoned user alike. For example, a battery drain labeled as Android System could be Google Play Services performing something in the background, or the Facebook app using the camera, or any other app that makes any API call. And speaking of Facebook, there&amp;#8217;s a lot of conflicting research and anecdotal reports on whether the app is responsible for any sort of excessive battery drain.</description>
     </item>
     

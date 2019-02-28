@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Raspberry on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/raspberry/</link>
+    <link>https://www.bennettnotes.com/tags/raspberry/</link>
     <description>Recent content in Raspberry on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,24 +10,24 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Fri, 24 Mar 2017 03:31:24 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/raspberry/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/raspberry/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cheapest Computer You Can Buy</title>
-      <link>https://bennettnotes.com/cheapest-computer-can-buy/</link>
+      <link>https://www.bennettnotes.com/cheapest-computer-can-buy/</link>
       <pubDate>Fri, 24 Mar 2017 03:31:24 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/cheapest-computer-can-buy/</guid>
+      <guid>https://www.bennettnotes.com/cheapest-computer-can-buy/</guid>
       <description>If you are in the market for a computer that will cost you about the same price as a large Starbucks iced coffee, then you are at the right place. Introducing, the Raspberry Pi Zero W. The Raspberry Pu Zero W is the cheapest computer you can buy. This computer isn&amp;#8217;t made for gaming or bitcoin mining. It&amp;#8217;s aimed at developers and enthusiasts to use in their projects. It would also make for a great setup for a small home server.</description>
     </item>
     
     <item>
       <title>Create Your Own Personal Cloud Server</title>
-      <link>https://bennettnotes.com/create-your-own-personal-cloud-server/</link>
+      <link>https://www.bennettnotes.com/create-your-own-personal-cloud-server/</link>
       <pubDate>Sat, 09 May 2015 20:34:24 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/create-your-own-personal-cloud-server/</guid>
+      <guid>https://www.bennettnotes.com/create-your-own-personal-cloud-server/</guid>
       <description>Whether it is Dropbox, Google Drive, Skydrive or iCloud, I am sure that we all have our favorite cloud server. Cloud Servers are great because they allow us to easily sync files between all the devices on our network and access content from anywhere. However, a growing concern over cloud servers is privacy. You could be banned from hosting certain content and companies could easily sort through what you are uploading and create targeted ads based on it.</description>
     </item>
     

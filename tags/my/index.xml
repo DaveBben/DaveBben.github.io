@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/my/</link>
+    <link>https://www.bennettnotes.com/tags/my/</link>
     <description>Recent content in My on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 26 Jun 2016 14:25:42 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/my/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/my/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What’s on my Phone</title>
-      <link>https://bennettnotes.com/whats-on-my-phone/</link>
+      <link>https://www.bennettnotes.com/whats-on-my-phone/</link>
       <pubDate>Sun, 26 Jun 2016 14:25:42 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/whats-on-my-phone/</guid>
+      <guid>https://www.bennettnotes.com/whats-on-my-phone/</guid>
       <description>What&amp;#8217;s on my phone? I want to share with you some of the Android apps that I use on my phone everyday.
 Android Customization:  Nova Launcher Iride UI is Hipster Zooper Widget Zooper Widget Theme  Productivity:  Google Keep Todoist Inbox Evernote Calendar Widget  Texting:  Textra  Social:  Buffer Fenix Sync for Reddit  &amp;nbsp;
 &amp;nbsp;</description>

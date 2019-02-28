@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Operating System on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/operating-system/</link>
+    <link>https://www.bennettnotes.com/tags/operating-system/</link>
     <description>Recent content in Operating System on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,25 +10,25 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Fri, 11 Jul 2014 20:05:14 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/operating-system/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/operating-system/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Run Windows 95 on Android</title>
-      <link>https://bennettnotes.com/run-windows-95-on-android/</link>
+      <link>https://www.bennettnotes.com/run-windows-95-on-android/</link>
       <pubDate>Fri, 11 Jul 2014 20:05:14 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-windows-95-on-android/</guid>
+      <guid>https://www.bennettnotes.com/run-windows-95-on-android/</guid>
       <description>The 90s called, and they want their operating system back. Windows 95 was unique for its time. However, what once took cutting edge hardware to run can now easily operate on a typical Android device. Yes Virginia, you can run Windows 95 on Android.
 What You Will Need:  Windows 95 Image File Limbo PC Emulator  Step 1: Download Stuff If you have your own bootable image file that you would like to use, feel free to do so.</description>
     </item>
     
     <item>
       <title>Install Ubuntu on Chromebook</title>
-      <link>https://bennettnotes.com/intsall-ubuntu-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/intsall-ubuntu-on-chromebook/</link>
       <pubDate>Thu, 10 Jul 2014 15:44:26 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/intsall-ubuntu-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/intsall-ubuntu-on-chromebook/</guid>
       <description>Everyone has their own opinion of Chrome OS. Some find it extremely useful and others think it&amp;#8217;s complete garbage. While I would consider myself part of the former group, I can admit that there are places where Chrome OS falls short of a desktop operating system. For exampling, I&amp;#8217;m not able to open a java compiler on Chrome OS or use Wine to play Steam games. However, you can do all these things on Linux.</description>
     </item>
     

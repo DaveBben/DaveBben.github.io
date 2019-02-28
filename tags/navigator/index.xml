@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Navigator on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/navigator/</link>
+    <link>https://www.bennettnotes.com/tags/navigator/</link>
     <description>Recent content in Navigator on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 23 Nov 2017 13:53:59 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/navigator/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/navigator/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Navigate in ReactJS using React V4 Router</title>
-      <link>https://bennettnotes.com/navigate-in-reactjs-using-react-v4-router/</link>
+      <link>https://www.bennettnotes.com/navigate-in-reactjs-using-react-v4-router/</link>
       <pubDate>Thu, 23 Nov 2017 13:53:59 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/navigate-in-reactjs-using-react-v4-router/</guid>
+      <guid>https://www.bennettnotes.com/navigate-in-reactjs-using-react-v4-router/</guid>
       <description>If you are building a large single page application, there might come a time when you will need to add routes to different pages. Unlike traditional routes, adding routes in ReactJS does not trigger a page reload. This makes your SPA extremely fast and feels more like an actual application rather than a simple website. To navigate in ReactJS we will be using the React v4 router.
 Setting Up React V4 Router Begin by installing the React V4 Router from npm:</description>
     </item>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tool on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/tool/</link>
+    <link>https://www.bennettnotes.com/tags/tool/</link>
     <description>Recent content in Tool on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 02 Apr 2016 15:10:06 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/tool/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/tool/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Read Car Computer with Android</title>
-      <link>https://bennettnotes.com/read-car-computer-android/</link>
+      <link>https://www.bennettnotes.com/read-car-computer-android/</link>
       <pubDate>Sat, 02 Apr 2016 15:10:06 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/read-car-computer-android/</guid>
+      <guid>https://www.bennettnotes.com/read-car-computer-android/</guid>
       <description>You can use a bluetooth OBD II tool with your Android device to read important information from your car&amp;#8217;s computer and even see real time data.
 OBD II: https://goo.gl/rQb68v
 Torque App: https://goo.gl/UDNCDT</description>

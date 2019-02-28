@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rest on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/rest/</link>
+    <link>https://www.bennettnotes.com/tags/rest/</link>
     <description>Recent content in Rest on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 15 Oct 2017 17:31:14 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/rest/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/rest/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Reddit API Application only OAuth in Javascript</title>
-      <link>https://bennettnotes.com/reddit-api-application-oauth-javascript/</link>
+      <link>https://www.bennettnotes.com/reddit-api-application-oauth-javascript/</link>
       <pubDate>Sun, 15 Oct 2017 17:31:14 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/reddit-api-application-oauth-javascript/</guid>
+      <guid>https://www.bennettnotes.com/reddit-api-application-oauth-javascript/</guid>
       <description>Before you begin developing your Reddit application, you will need to make sure that your app is authorized to access the Reddit API. Authorization is done through OAuth tokens that you receive from the Reddit server. The flow is pretty straightforward:
  Application Requests Token App Receives Token that&amp;#8217;s valid for an hour App makes API calls with given token App request new token when the previous token expires  For this tutorial, we are going to build a simple app that grabs the new posts from a subreddit.</description>
     </item>

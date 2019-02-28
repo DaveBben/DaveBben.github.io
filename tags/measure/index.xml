@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Measure on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/measure/</link>
+    <link>https://www.bennettnotes.com/tags/measure/</link>
     <description>Recent content in Measure on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 01 Dec 2016 15:22:05 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/measure/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/measure/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Measure Battery Usage in Windows</title>
-      <link>https://bennettnotes.com/measure-battery-usage-windows/</link>
+      <link>https://www.bennettnotes.com/measure-battery-usage-windows/</link>
       <pubDate>Thu, 01 Dec 2016 15:22:05 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/measure-battery-usage-windows/</guid>
+      <guid>https://www.bennettnotes.com/measure-battery-usage-windows/</guid>
       <description>Most people would never guess that there is a tool to measure battery usage in Windows. I first discovered this when trying to figure out what was draining my battery on my Surface Pro 3. For a quick overview of battery drain by app, you can use the Windows Battery Saving settings.
 Windows Battery Saver To access this, type in Windows Battery Saver in the Start Menu search.</description>
     </item>

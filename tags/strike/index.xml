@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Strike on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/strike/</link>
+    <link>https://www.bennettnotes.com/tags/strike/</link>
     <description>Recent content in Strike on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 05 Apr 2015 15:44:44 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/strike/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/strike/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Counter Strike Global Offensive on Chromebook</title>
-      <link>https://bennettnotes.com/counter-strike-global-offensive-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/counter-strike-global-offensive-on-chromebook/</link>
       <pubDate>Sun, 05 Apr 2015 15:44:44 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/counter-strike-global-offensive-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/counter-strike-global-offensive-on-chromebook/</guid>
       <description>Counter Strike Global Offensive on Chromebook? Are you tired of playing the same old games on your Chromebook? Well, with a little help from Linux and Steam you can play CS:Go on your Chromebook. Of course, this will only work with the Intel powered Chromebooks. As far as performance, it&amp;#8217;s playable. On average, I am getting around 23-30 fps in games. It&amp;#8217;s nowhere close to the performance that I get on my desktop, but is still playable none the less.</description>
     </item>
     

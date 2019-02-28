@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Server on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/server/</link>
+    <link>https://www.bennettnotes.com/tags/server/</link>
     <description>Recent content in Server on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,43 +10,43 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Tue, 20 Feb 2018 14:48:40 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/server/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/server/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to build a forum</title>
-      <link>https://bennettnotes.com/how-to-build-a-forum/</link>
+      <link>https://www.bennettnotes.com/how-to-build-a-forum/</link>
       <pubDate>Tue, 20 Feb 2018 14:48:40 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-build-a-forum/</guid>
+      <guid>https://www.bennettnotes.com/how-to-build-a-forum/</guid>
       <description>Practically every online community has a forum. It makes sense though because forums are a great way to facilitate online discussion. Now let&amp;#8217;s say that you wanted to build your own online forum. Well, building a very basic forum wouldn&amp;#8217;t be too complicated. Just script together some PHP with an MYSQL database and you will be all set. Unfortunately, this would likely leave you vulnerable to many potential security holes and a terrible user experience.</description>
     </item>
     
     <item>
       <title>Raspberry Pi Webserver</title>
-      <link>https://bennettnotes.com/raspberry-pi-webserver/</link>
+      <link>https://www.bennettnotes.com/raspberry-pi-webserver/</link>
       <pubDate>Sun, 07 May 2017 00:19:41 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/raspberry-pi-webserver/</guid>
+      <guid>https://www.bennettnotes.com/raspberry-pi-webserver/</guid>
       <description>One of the reasons that I purchased a Raspberry Pi was so that I can do local website development. Of course, I could have easily set this all up with Windows, but my desktop is already cluttered enough. And with a Raspberry Pi Webserver, I can set up scipts to run independently of my desktop. Here&amp;#8217;s how to setup a Raspberry Pi Webserver
 What You Will Need:  Raspberry Pi  Setup Static IP Address It would be very annoying to have a website that always changes its address.</description>
     </item>
     
     <item>
       <title>Create a VPN Server</title>
-      <link>https://bennettnotes.com/create-a-vpn-server/</link>
+      <link>https://www.bennettnotes.com/create-a-vpn-server/</link>
       <pubDate>Thu, 08 Dec 2016 01:54:17 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/create-a-vpn-server/</guid>
+      <guid>https://www.bennettnotes.com/create-a-vpn-server/</guid>
       <description>There are three routes that you can take when setting up a VPN. You can either use a free one, buy a paid service or make your own. The advantage of free VPNs is that they are easy to setup; just install and they are ready to be used. My favorite VPN on Android is Opera VPN. The downside of Free VPNs is that they typically come with a 500 &amp;#8211; 1GB data cap and are very slow.</description>
     </item>
     
     <item>
       <title>Run Minecraft Server on Chromebook</title>
-      <link>https://bennettnotes.com/run-minecraft-server-on-chomebook/</link>
+      <link>https://www.bennettnotes.com/run-minecraft-server-on-chomebook/</link>
       <pubDate>Mon, 20 Jul 2015 18:49:28 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-minecraft-server-on-chomebook/</guid>
+      <guid>https://www.bennettnotes.com/run-minecraft-server-on-chomebook/</guid>
       <description>So do you have a Chromebook sitting around that you have absolutely no idea what to do with? Well, if you or your buddies are minecraft junkies, then why not consider turning your Chromebook into a Minecraft server. It runs slightly faster than using your Android phone as a minecraft server, and offers a playable speed(though it can lag occasionally).
 [adinserter block=&amp;#8221;5&amp;#8243;]
 Now before you do this, you need to make sure that you have Ubuntu Installed on your Chromebook.</description>
@@ -54,10 +54,10 @@ Now before you do this, you need to make sure that you have Ubuntu Installed on
     
     <item>
       <title>Run Minecraft Server on Android</title>
-      <link>https://bennettnotes.com/run-minecraft-server-on-android/</link>
+      <link>https://www.bennettnotes.com/run-minecraft-server-on-android/</link>
       <pubDate>Mon, 18 May 2015 04:22:26 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-minecraft-server-on-android/</guid>
+      <guid>https://www.bennettnotes.com/run-minecraft-server-on-android/</guid>
       <description>Here is how you can run Minecraft server on your Android device. This will allow anyone playing Minecraft on the desktop to connect to the server running on your device. To do this, you will first need to install Linux to your Android device then install java and run the Minecraft server jar file. It is actually a fairly easy process and takes no more than 15 minutes altogether.</description>
     </item>
     

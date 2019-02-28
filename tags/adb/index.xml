@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adb on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/adb/</link>
+    <link>https://www.bennettnotes.com/tags/adb/</link>
     <description>Recent content in Adb on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Mon, 05 Jan 2015 04:59:02 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/adb/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/adb/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bypass Android Lock screen</title>
-      <link>https://bennettnotes.com/bypass-android-lock-screen/</link>
+      <link>https://www.bennettnotes.com/bypass-android-lock-screen/</link>
       <pubDate>Mon, 05 Jan 2015 04:59:02 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/bypass-android-lock-screen/</guid>
+      <guid>https://www.bennettnotes.com/bypass-android-lock-screen/</guid>
       <description>Locked out of your phone? Well you are in luck. There is a way to bypass your Android lock screen. Now before you get too excited, there are a few stipulations. First, this only works when your security is set to pattern lock. Secondly, you must have a rooted android device. And finally, you need to have adb debugging enabled. I know this might only be a small percentage of people out there, so for those of you who do, here&amp;#8217;s how you can bypass Android lock screen.</description>
     </item>
     

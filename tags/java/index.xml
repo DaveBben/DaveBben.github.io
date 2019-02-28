@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/java/</link>
+    <link>https://www.bennettnotes.com/tags/java/</link>
     <description>Recent content in Java on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,34 +10,34 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 13 Jan 2018 15:06:53 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android Recyclerview for Installed Apps with Checkbox</title>
-      <link>https://bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/</link>
+      <link>https://www.bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/</link>
       <pubDate>Sat, 13 Jan 2018 15:06:53 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/</guid>
+      <guid>https://www.bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/</guid>
       <description>One of the most common reasons that you would want to use the android recyclerview is if you want to show a list of some sort. In this example, let&amp;#8217;s take a look at how you can use the android recyclerview to show a list of installed apps on your device. Within each item, we will also include a checkbox. Here&amp;#8217;s what it will look like:
 Layout Let&amp;#8217;s first take care of creating the layout files.</description>
     </item>
     
     <item>
       <title>Play Runescape on Chromebook</title>
-      <link>https://bennettnotes.com/play-runescape-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/play-runescape-on-chromebook/</link>
       <pubDate>Sat, 20 Jun 2015 23:24:45 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-runescape-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/play-runescape-on-chromebook/</guid>
       <description>Back in fourth grade, I used to spend hours playing Runescape. At the time, I thought it was the most exciting and adventurous game out there. However, it&amp;#8217;s been about nine years since I have last played the game, so I am very behind on the latest additions and enhancements. In any case, if you are an active player, you will be happy to know that you can play this on your Chromebook.</description>
     </item>
     
     <item>
       <title>Install Ubuntu 14.04 on Chromebook</title>
-      <link>https://bennettnotes.com/install-ubuntu-14-04-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/install-ubuntu-14-04-on-chromebook/</link>
       <pubDate>Mon, 06 Apr 2015 03:18:10 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/install-ubuntu-14-04-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/install-ubuntu-14-04-on-chromebook/</guid>
       <description>I am always looking for different ways that I can extend the capability of my Chromebook. It&amp;#8217;s not that I don&amp;#8217;t like Chrome OS, but sometimes I need to launch a C compiler or run java apps when I am away from home. I might even get in the mood to play Minecraft during a long car ride. Luckily, there is an easy answer to all of this.</description>
     </item>
     

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Callback on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/callback/</link>
+    <link>https://www.bennettnotes.com/tags/callback/</link>
     <description>Recent content in Callback on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 17 Aug 2017 02:29:24 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/callback/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/callback/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>JavaScript Callbacks</title>
-      <link>https://bennettnotes.com/javascript-callbacks/</link>
+      <link>https://www.bennettnotes.com/javascript-callbacks/</link>
       <pubDate>Thu, 17 Aug 2017 02:29:24 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/javascript-callbacks/</guid>
+      <guid>https://www.bennettnotes.com/javascript-callbacks/</guid>
       <description>In Javascript, a callback function is a function that is passed into another function as an argument. This allows you to invoke that function with a return value. Remember, Javascript&amp;#8217;s implementation within a browser is single threaded (well..until recently at least). That means that all of your code is executed within one linear operation. However, there are some functions in Javascript which are asynchronous. That means that they have the privilege to be invoked anywhere in that line of execution.</description>
     </item>
     

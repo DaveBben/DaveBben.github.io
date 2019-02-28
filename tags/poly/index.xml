@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Poly on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/poly/</link>
+    <link>https://www.bennettnotes.com/tags/poly/</link>
     <description>Recent content in Poly on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Mon, 26 Mar 2018 01:56:23 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/poly/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/poly/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Google Poly API Javascript and NodeJS</title>
-      <link>https://bennettnotes.com/google-poly-api-javascript-and-nodejs/</link>
+      <link>https://www.bennettnotes.com/google-poly-api-javascript-and-nodejs/</link>
       <pubDate>Mon, 26 Mar 2018 01:56:23 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/google-poly-api-javascript-and-nodejs/</guid>
+      <guid>https://www.bennettnotes.com/google-poly-api-javascript-and-nodejs/</guid>
       <description>Google has been working on an interesting project called Poly. With Poly, you have access to hundreds of 3D objects that can be used to build VR games or with AR content. The interesting about Poly is that all of the graphics are available on demand. Think of it like Google Fonts just for 3D objects. So let&amp;#8217;s take a look at how you can get started with Google Poly API Javascript and NodeJS bundle.</description>
     </item>
     

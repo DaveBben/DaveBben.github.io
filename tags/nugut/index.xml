@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nugut on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/nugut/</link>
+    <link>https://www.bennettnotes.com/tags/nugut/</link>
     <description>Recent content in Nugut on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 26 Mar 2016 15:18:48 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/nugut/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/nugut/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Top Features Android N</title>
-      <link>https://bennettnotes.com/top-features-android-n/</link>
+      <link>https://www.bennettnotes.com/top-features-android-n/</link>
       <pubDate>Sat, 26 Mar 2016 15:18:48 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/top-features-android-n/</guid>
+      <guid>https://www.bennettnotes.com/top-features-android-n/</guid>
       <description>The Android N Developer Preview has arrived. Here are some of the top new features you can find in Android N.
 &amp;nbsp;</description>
     </item>

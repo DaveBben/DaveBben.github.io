@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Download Video on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/download-video/</link>
+    <link>https://www.bennettnotes.com/tags/download-video/</link>
     <description>Recent content in Download Video on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 17 Nov 2018 02:15:11 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/download-video/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/download-video/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to download any video from any site for free</title>
-      <link>https://bennettnotes.com/how-to-download-any-video-from-any-site-for-free/</link>
+      <link>https://www.bennettnotes.com/how-to-download-any-video-from-any-site-for-free/</link>
       <pubDate>Sat, 17 Nov 2018 02:15:11 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-download-any-video-from-any-site-for-free/</guid>
+      <guid>https://www.bennettnotes.com/how-to-download-any-video-from-any-site-for-free/</guid>
       <description>You have probably discovered that downloading videos from certain websites is hard. If you try to download a video from youtube, you have to use one of the ad-infested free YouTube video downloaders. Other sites like Facebook, Instagram and Tumblr are even harder to find downloaders for. Luckily, there is a free and open-source program that will end your struggles and help you download and video from any site for free.</description>
     </item>
     

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Features on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/features/</link>
+    <link>https://www.bennettnotes.com/tags/features/</link>
     <description>Recent content in Features on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,43 +10,43 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Fri, 17 Jun 2016 14:40:49 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/features/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/features/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Least Used Android Features</title>
-      <link>https://bennettnotes.com/least-used-android-features/</link>
+      <link>https://www.bennettnotes.com/least-used-android-features/</link>
       <pubDate>Fri, 17 Jun 2016 14:40:49 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/least-used-android-features/</guid>
+      <guid>https://www.bennettnotes.com/least-used-android-features/</guid>
       <description>There are a lot of cool features on Android, but you might not actually have a use for them. Here are some of my least used features of Android.</description>
     </item>
     
     <item>
       <title>Top Features Android N</title>
-      <link>https://bennettnotes.com/top-features-android-n/</link>
+      <link>https://www.bennettnotes.com/top-features-android-n/</link>
       <pubDate>Sat, 26 Mar 2016 15:18:48 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/top-features-android-n/</guid>
+      <guid>https://www.bennettnotes.com/top-features-android-n/</guid>
       <description>The Android N Developer Preview has arrived. Here are some of the top new features you can find in Android N.
 &amp;nbsp;</description>
     </item>
     
     <item>
       <title>Galaxy S7 Features: Game Launcher</title>
-      <link>https://bennettnotes.com/galaxy-s7-features-game-launcher/</link>
+      <link>https://www.bennettnotes.com/galaxy-s7-features-game-launcher/</link>
       <pubDate>Sun, 13 Mar 2016 15:46:26 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/galaxy-s7-features-game-launcher/</guid>
+      <guid>https://www.bennettnotes.com/galaxy-s7-features-game-launcher/</guid>
       <description>The Galaxy S7 features a Game Launcher that is actually very convenient and easy to use while adding useful features during gameplay.</description>
     </item>
     
     <item>
       <title>Best Paranoid Android Features</title>
-      <link>https://bennettnotes.com/best-paranoid-android-features/</link>
+      <link>https://www.bennettnotes.com/best-paranoid-android-features/</link>
       <pubDate>Tue, 16 Sep 2014 17:28:03 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/best-paranoid-android-features/</guid>
+      <guid>https://www.bennettnotes.com/best-paranoid-android-features/</guid>
       <description>Paranoid Android is by far one of my favorite custom roms.. It provides a stock like experience with added functionality. Each month the PA team has added a new signature feature to this amazing rom. So here&amp;#8217;s a look at some of the best paranoid android features.
 Dynamic System Bars:   The newest feature found on Paranoid Android is Dynamic System bars. DSB allows you to tint your status and navigation bars to the color of the foreground app.</description>
     </item>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emulator on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/emulator/</link>
+    <link>https://www.bennettnotes.com/tags/emulator/</link>
     <description>Recent content in Emulator on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,53 +10,53 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 31 Dec 2016 16:03:24 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/emulator/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/emulator/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Play Pokemon on Android Smartwatch</title>
-      <link>https://bennettnotes.com/play-pokemon-android-smartwatch/</link>
+      <link>https://www.bennettnotes.com/play-pokemon-android-smartwatch/</link>
       <pubDate>Sat, 31 Dec 2016 16:03:24 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-pokemon-android-smartwatch/</guid>
+      <guid>https://www.bennettnotes.com/play-pokemon-android-smartwatch/</guid>
       <description>Have you ever thought about playing Pokemon on your Android Wear Smartwatch? Neither have I. However, an app called Wear GBC makes this all possible. It is a Gameboy color emulator for Android Wear.
 How to Play Pokemon on Android Smartwatch Here&amp;#8217;s a quick tutorial on how I got this up and running. First download a GBC ROM (.gbc). Then add it via the phone app (you might have to unzip it first if it&amp;#8217;s in a zip file).</description>
     </item>
     
     <item>
       <title>Play PlayStation 3 Games on PC</title>
-      <link>https://bennettnotes.com/play-playstation-3-games-on-pc/</link>
+      <link>https://www.bennettnotes.com/play-playstation-3-games-on-pc/</link>
       <pubDate>Sun, 06 Nov 2016 15:00:15 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-playstation-3-games-on-pc/</guid>
+      <guid>https://www.bennettnotes.com/play-playstation-3-games-on-pc/</guid>
       <description>Although the PlayStation 4 is the latest console from Sony, the PlayStation 3 is still a popular game system that is enjoyed by many. One group of developers have been actively working to bring the PlayStation 3 experience to your PC. RPCS3 is an open source PlayStation 3 emulator. The emulator is still in early alpha stages, so don&amp;#8217;t expect many commercial titles to be compatible. It works well with homebrew games and games which do not require advanced 3D graphics.</description>
     </item>
     
     <item>
       <title>Counter Strike on Android</title>
-      <link>https://bennettnotes.com/counter-strike-android/</link>
+      <link>https://www.bennettnotes.com/counter-strike-android/</link>
       <pubDate>Sun, 17 Apr 2016 17:00:20 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/counter-strike-android/</guid>
+      <guid>https://www.bennettnotes.com/counter-strike-android/</guid>
       <description>&amp;nbsp;
 How would you like to play one of the most popular PC games of all time on your Android device? So, maybe playing Half-Life 2 and Team-Fortress classic on Android isn&amp;#8217;t cool enough for you. Well, how about Counter Strike on Android? Of course, this isn&amp;#8217;t going to be the latest Counter Strike Global Offensive with the Source Engine. It&amp;#8217;s going to be the old school original counter strike from the late 90s.</description>
     </item>
     
     <item>
       <title>Play Sega Genesis Games on Android</title>
-      <link>https://bennettnotes.com/play-sega-genesis-games-on-android/</link>
+      <link>https://www.bennettnotes.com/play-sega-genesis-games-on-android/</link>
       <pubDate>Sat, 13 Jun 2015 03:53:16 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-sega-genesis-games-on-android/</guid>
+      <guid>https://www.bennettnotes.com/play-sega-genesis-games-on-android/</guid>
       <description>The Sega Genesis was my very first game console. What my gaming PC is to me now, was what my Sega Genesis meant to me back in 1999 (if that makes sense). There are so many old titles that I used to love playing. And those cartridges&amp;#8230;damn&amp;#8230;I loved those cartridges. The best thing was that there used to be a huge bin at stores like GameStop, where I could easily pick up a bunch of them for under $10.</description>
     </item>
     
     <item>
       <title>Run Windows 95 on Android</title>
-      <link>https://bennettnotes.com/run-windows-95-on-android/</link>
+      <link>https://www.bennettnotes.com/run-windows-95-on-android/</link>
       <pubDate>Fri, 11 Jul 2014 20:05:14 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-windows-95-on-android/</guid>
+      <guid>https://www.bennettnotes.com/run-windows-95-on-android/</guid>
       <description>The 90s called, and they want their operating system back. Windows 95 was unique for its time. However, what once took cutting edge hardware to run can now easily operate on a typical Android device. Yes Virginia, you can run Windows 95 on Android.
 What You Will Need:  Windows 95 Image File Limbo PC Emulator  Step 1: Download Stuff If you have your own bootable image file that you would like to use, feel free to do so.</description>
     </item>

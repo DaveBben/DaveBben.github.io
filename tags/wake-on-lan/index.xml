@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wake on Lan on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/wake-on-lan/</link>
+    <link>https://www.bennettnotes.com/tags/wake-on-lan/</link>
     <description>Recent content in Wake on Lan on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Mon, 01 Feb 2016 22:07:03 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/wake-on-lan/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/wake-on-lan/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Remotely Turn on Computer with Linux</title>
-      <link>https://bennettnotes.com/remotely-turn-on-computer-with-linux/</link>
+      <link>https://www.bennettnotes.com/remotely-turn-on-computer-with-linux/</link>
       <pubDate>Mon, 01 Feb 2016 22:07:03 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/remotely-turn-on-computer-with-linux/</guid>
+      <guid>https://www.bennettnotes.com/remotely-turn-on-computer-with-linux/</guid>
       <description>I really wish more people used WOL. It is probably one of the most underrated things in the world of wired networking. If you aren&amp;#8217;t familiar, WOL (Wake on Lan) allows you to remotely turn on your computer. This could be from another computer or even your Android device. It works by supplying a little bit of power to your Ethernet card to allow it to listen for the &amp;#8220;wake up&amp;#8221; signal.</description>
     </item>
     

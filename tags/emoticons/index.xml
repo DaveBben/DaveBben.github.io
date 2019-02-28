@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emoticons on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/emoticons/</link>
+    <link>https://www.bennettnotes.com/tags/emoticons/</link>
     <description>Recent content in Emoticons on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Mon, 26 Oct 2015 15:49:19 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/emoticons/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/emoticons/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ios Emojis on Android</title>
-      <link>https://bennettnotes.com/ios-emojis-on-android/</link>
+      <link>https://www.bennettnotes.com/ios-emojis-on-android/</link>
       <pubDate>Mon, 26 Oct 2015 15:49:19 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/ios-emojis-on-android/</guid>
+      <guid>https://www.bennettnotes.com/ios-emojis-on-android/</guid>
       <description>Everyone loves those new iOS emojis. One annoying thing about dealing with emojis is that they look different on every platform. Android has the green blobs while ios has the yellow faces.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 In any case, getting the new ios 90 emojis on your Android device is not that difficult, provided that you have a rooted Android device. Keep in mind though, this will only allow you to receive and interpret ios emojis on your device (so no more boxes with X&amp;#8217;s in them when you receive an emoji from your ios friend) but you will not be able to send the new emojis.</description>

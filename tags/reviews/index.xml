@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reviews on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/reviews/</link>
+    <link>https://www.bennettnotes.com/tags/reviews/</link>
     <description>Recent content in Reviews on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 25 Nov 2017 17:15:31 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/reviews/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/reviews/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Google Pixel 2 XL vs Galaxy Note 8</title>
-      <link>https://bennettnotes.com/google-pixel-2-xl-vs-galaxy-note-8/</link>
+      <link>https://www.bennettnotes.com/google-pixel-2-xl-vs-galaxy-note-8/</link>
       <pubDate>Sat, 25 Nov 2017 17:15:31 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/google-pixel-2-xl-vs-galaxy-note-8/</guid>
+      <guid>https://www.bennettnotes.com/google-pixel-2-xl-vs-galaxy-note-8/</guid>
       <description>The Google Pixel 2 XL and the Galaxy Note 8 are two excellent devices. They are so good, that I would be lying if I told you that it was easy to make a decision between these two devices. Deciding which one to buy is going to come down to a lot of personal preference and trivial differences. So let&amp;#8217;s do a comparison of the Google Pixel 2 XL vs Galaxy Note 8.</description>
     </item>
     

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emulators on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/emulators/</link>
+    <link>https://www.bennettnotes.com/tags/emulators/</link>
     <description>Recent content in Emulators on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,33 +10,33 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 23 Jul 2015 00:50:43 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/emulators/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/emulators/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Play Half Life on Android Wear</title>
-      <link>https://bennettnotes.com/play-half-life-on-android-wear/</link>
+      <link>https://www.bennettnotes.com/play-half-life-on-android-wear/</link>
       <pubDate>Thu, 23 Jul 2015 00:50:43 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-half-life-on-android-wear/</guid>
+      <guid>https://www.bennettnotes.com/play-half-life-on-android-wear/</guid>
       <description>Just because you can, doesn&amp;#8217;t mean you should. But in this case, you totally should. If you recall, I demonstrated how to play Team Fortress Classic on Android using the SDLash app. The app is able to emulate the GoldSource game engine, which was used in many of the classic valve games such as Half-Life and Team Fortress. Right now, I am putting together a tutorial on how to play Half-life on Android, but in the meantime, check out how to do it on Android Wear (albeit a little more complicated).</description>
     </item>
     
     <item>
       <title>Play Team Fortress Classic on Android</title>
-      <link>https://bennettnotes.com/play-team-fortress-classic-on-android/</link>
+      <link>https://www.bennettnotes.com/play-team-fortress-classic-on-android/</link>
       <pubDate>Sat, 18 Jul 2015 07:00:51 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-team-fortress-classic-on-android/</guid>
+      <guid>https://www.bennettnotes.com/play-team-fortress-classic-on-android/</guid>
       <description>Have you ever imagined that you would be able to play a Steam game on your phone? Well, I hope so, because I already demonstrated how to play Portal on your Android device. In any case, it&amp;#8217;s even easier to play Team Fortress Classic on Android. This is all thanks to an app called SDLash3D which uses the SDL library that allows you to do some really cool emulation such as running Windows 95 on your device.</description>
     </item>
     
     <item>
       <title>Play PlayStation Games on Android</title>
-      <link>https://bennettnotes.com/play-playstation-games-on-android/</link>
+      <link>https://www.bennettnotes.com/play-playstation-games-on-android/</link>
       <pubDate>Sat, 31 Aug 2013 03:01:03 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-playstation-games-on-android/</guid>
+      <guid>https://www.bennettnotes.com/play-playstation-games-on-android/</guid>
       <description>Do you miss the good old PlayStation days? I am talking about the original PlayStation with the 1MB Memory cards (I had a lot of those) and the boring yet simplistic outer-body design? If so, there is hope for you. Thanks to multiple apps in the Play Store, you can play PlayStation games on Android.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 Emulation has come so far on Android. It amazes me at just how many titles are compatible with the PlayStation emulators.</description>

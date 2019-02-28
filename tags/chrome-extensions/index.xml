@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chrome Extensions on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/chrome-extensions/</link>
+    <link>https://www.bennettnotes.com/tags/chrome-extensions/</link>
     <description>Recent content in Chrome Extensions on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 28 Dec 2017 03:13:37 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/chrome-extensions/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/chrome-extensions/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Best Chrome Extensions for Web Development</title>
-      <link>https://bennettnotes.com/best-chrome-extensions-for-web-development/</link>
+      <link>https://www.bennettnotes.com/best-chrome-extensions-for-web-development/</link>
       <pubDate>Thu, 28 Dec 2017 03:13:37 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/best-chrome-extensions-for-web-development/</guid>
+      <guid>https://www.bennettnotes.com/best-chrome-extensions-for-web-development/</guid>
       <description>Google Chrome and its developer tools are an absolute necessity for any web developer. But you shouldn&amp;#8217;t stop there because there are even more great tools and extensions that will help you with web development and design. So let&amp;#8217;s take a look at some of the best Chrome extensions for web development.
 React Developer Tools If you plan on doing development in React, then you should definitely download this extension.</description>
     </item>

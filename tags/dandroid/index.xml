@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dandroid on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/dandroid/</link>
+    <link>https://www.bennettnotes.com/tags/dandroid/</link>
     <description>Recent content in Dandroid on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 07 Jun 2015 23:33:29 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/dandroid/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/dandroid/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>6 Fun Facts About Android</title>
-      <link>https://bennettnotes.com/6-fun-facts-about-android/</link>
+      <link>https://www.bennettnotes.com/6-fun-facts-about-android/</link>
       <pubDate>Sun, 07 Jun 2015 23:33:29 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/6-fun-facts-about-android/</guid>
+      <guid>https://www.bennettnotes.com/6-fun-facts-about-android/</guid>
       <description>Android is full of surprises! Even when you think you know everything something new gets discovered. While you might be up to date with all the latest information, I am going to attempt to astonish you with 6 fun facts about android that you probably didn&amp;#8217;t know.
 1. The Android Logo used to be scary We all know that Bugdroid is the official Android logo. However, before Android was officially launched, dandroid was the temporary logo used to represent the operating system.</description>
     </item>

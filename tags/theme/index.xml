@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Theme on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/theme/</link>
+    <link>https://www.bennettnotes.com/tags/theme/</link>
     <description>Recent content in Theme on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,25 +10,25 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Tue, 16 Sep 2014 17:28:03 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/theme/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/theme/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Best Paranoid Android Features</title>
-      <link>https://bennettnotes.com/best-paranoid-android-features/</link>
+      <link>https://www.bennettnotes.com/best-paranoid-android-features/</link>
       <pubDate>Tue, 16 Sep 2014 17:28:03 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/best-paranoid-android-features/</guid>
+      <guid>https://www.bennettnotes.com/best-paranoid-android-features/</guid>
       <description>Paranoid Android is by far one of my favorite custom roms.. It provides a stock like experience with added functionality. Each month the PA team has added a new signature feature to this amazing rom. So here&amp;#8217;s a look at some of the best paranoid android features.
 Dynamic System Bars:   The newest feature found on Paranoid Android is Dynamic System bars. DSB allows you to tint your status and navigation bars to the color of the foreground app.</description>
     </item>
     
     <item>
       <title>How to Install Xposed Framework</title>
-      <link>https://bennettnotes.com/how-to-install-xposed-framework/</link>
+      <link>https://www.bennettnotes.com/how-to-install-xposed-framework/</link>
       <pubDate>Wed, 02 Jul 2014 14:38:13 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-install-xposed-framework/</guid>
+      <guid>https://www.bennettnotes.com/how-to-install-xposed-framework/</guid>
       <description>Xposed is a popular framework that allows you to modify and customize your Android device without having to flash a new rom. It allows you to use a variety of apps and tools (such as gravity box) that extend what you can achieve with your Android device. If you&amp;#8217;re tinkerer or someone who thrives on complete control, than Xposed it what you want. For more techinical details on Xposed read this.</description>
     </item>
     

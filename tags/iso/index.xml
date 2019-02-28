@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Iso on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/iso/</link>
+    <link>https://www.bennettnotes.com/tags/iso/</link>
     <description>Recent content in Iso on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Fri, 11 Jul 2014 20:05:14 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/iso/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/iso/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Run Windows 95 on Android</title>
-      <link>https://bennettnotes.com/run-windows-95-on-android/</link>
+      <link>https://www.bennettnotes.com/run-windows-95-on-android/</link>
       <pubDate>Fri, 11 Jul 2014 20:05:14 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-windows-95-on-android/</guid>
+      <guid>https://www.bennettnotes.com/run-windows-95-on-android/</guid>
       <description>The 90s called, and they want their operating system back. Windows 95 was unique for its time. However, what once took cutting edge hardware to run can now easily operate on a typical Android device. Yes Virginia, you can run Windows 95 on Android.
 What You Will Need:  Windows 95 Image File Limbo PC Emulator  Step 1: Download Stuff If you have your own bootable image file that you would like to use, feel free to do so.</description>
     </item>

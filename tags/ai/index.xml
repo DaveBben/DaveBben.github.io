@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ai on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/ai/</link>
+    <link>https://www.bennettnotes.com/tags/ai/</link>
     <description>Recent content in Ai on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,24 +10,24 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 24 Dec 2017 16:22:00 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Image Classification using Nvidia Digits – Deep Learning</title>
-      <link>https://bennettnotes.com/image-classification-using-nvidia-digits-deep-learning/</link>
+      <link>https://www.bennettnotes.com/image-classification-using-nvidia-digits-deep-learning/</link>
       <pubDate>Sun, 24 Dec 2017 16:22:00 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/image-classification-using-nvidia-digits-deep-learning/</guid>
+      <guid>https://www.bennettnotes.com/image-classification-using-nvidia-digits-deep-learning/</guid>
       <description>Nvidia digits is a great way to get started with deep learning and image classification. It&amp;#8217;s an open source platform that you can run on your computer to do things like image classification, object detection, and processing. It also contains a REST API so that you can easily do all of this through HTTP requests if you desire. For this tutorial, let&amp;#8217;s take a look at image classification using Nvidia digits.</description>
     </item>
     
     <item>
       <title>Machine Learning in Javascript</title>
-      <link>https://bennettnotes.com/machine-learning-in-javascript/</link>
+      <link>https://www.bennettnotes.com/machine-learning-in-javascript/</link>
       <pubDate>Sun, 15 Oct 2017 17:57:54 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/machine-learning-in-javascript/</guid>
+      <guid>https://www.bennettnotes.com/machine-learning-in-javascript/</guid>
       <description>There&amp;#8217;s a good chance that you don&amp;#8217;t think of JavaScript when you think of artificial intelligence and machine learning. Instead, you might think of Python and popular libraries like Google&amp;#8217;s Tensorflow. While TensorFlow is very powerful and complex, it does require a steep learning curve. Personally, I&amp;#8217;m just looking to get my feet wet in some simple AI programming. However, I came across a javascript library called Brain.js. This library makes machine learning in javascript plausible and testable.</description>
     </item>
     

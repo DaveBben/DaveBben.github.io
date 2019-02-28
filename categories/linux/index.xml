@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Bennett Notes</title>
-    <link>https://bennettnotes.com/categories/linux/</link>
+    <link>https://www.bennettnotes.com/categories/linux/</link>
     <description>Recent content in Linux on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,83 +10,83 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 14 Dec 2017 04:01:38 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ubuntu install Hangs on Splash Screen Fix</title>
-      <link>https://bennettnotes.com/ubuntu-install-hangs-splash-screen-fix/</link>
+      <link>https://www.bennettnotes.com/ubuntu-install-hangs-splash-screen-fix/</link>
       <pubDate>Thu, 14 Dec 2017 04:01:38 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/ubuntu-install-hangs-splash-screen-fix/</guid>
+      <guid>https://www.bennettnotes.com/ubuntu-install-hangs-splash-screen-fix/</guid>
       <description>When I was trying to install Ubuntu I experienced a very strange issue. The Ubuntu install hangs on splash screen for a very long time. I would select the option to try Ubuntu in the grub menu, and then I would get this strange screen with broken graphics. It looked like the graphics failed to load or something. The Ubuntu install freezes on that screen and would not advance.
 I eventually found out that this issue will occur if you are using an Nvidia Graphics card.</description>
     </item>
     
     <item>
       <title>Raspberry Pi Webserver</title>
-      <link>https://bennettnotes.com/raspberry-pi-webserver/</link>
+      <link>https://www.bennettnotes.com/raspberry-pi-webserver/</link>
       <pubDate>Sun, 07 May 2017 00:19:41 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/raspberry-pi-webserver/</guid>
+      <guid>https://www.bennettnotes.com/raspberry-pi-webserver/</guid>
       <description>One of the reasons that I purchased a Raspberry Pi was so that I can do local website development. Of course, I could have easily set this all up with Windows, but my desktop is already cluttered enough. And with a Raspberry Pi Webserver, I can set up scipts to run independently of my desktop. Here&amp;#8217;s how to setup a Raspberry Pi Webserver
 What You Will Need:  Raspberry Pi  Setup Static IP Address It would be very annoying to have a website that always changes its address.</description>
     </item>
     
     <item>
       <title>Delete Pi User on Raspberry Pi</title>
-      <link>https://bennettnotes.com/delete-pi-user-on-raspberry-pi/</link>
+      <link>https://www.bennettnotes.com/delete-pi-user-on-raspberry-pi/</link>
       <pubDate>Sun, 07 May 2017 00:13:45 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/delete-pi-user-on-raspberry-pi/</guid>
+      <guid>https://www.bennettnotes.com/delete-pi-user-on-raspberry-pi/</guid>
       <description>One of the first things you should do when setting up the Raspberry Pi is to change the default password for the pi user. Personally, I would rather just delete the user altogether and create my own user. So here&amp;#8217;s how I deleted the Pi user on Raspberry Pi.
 Make sure that you backup any important data from your Pi user that you might need.  Step 1: Create a New User Before you begin, make sure that you can SSH into your Raspberry Pi.</description>
     </item>
     
     <item>
       <title>Setup Raspberry Pi 3</title>
-      <link>https://bennettnotes.com/setup-raspberry-pi-3/</link>
+      <link>https://www.bennettnotes.com/setup-raspberry-pi-3/</link>
       <pubDate>Sun, 16 Apr 2017 01:51:37 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/setup-raspberry-pi-3/</guid>
+      <guid>https://www.bennettnotes.com/setup-raspberry-pi-3/</guid>
       <description>The Raspberry Pi 3 is an excellent device for those who want the power of a full desktop with the footprint of a small mobile device. Setting up the raspberry Pi 3 is very easy and only takes 15 minutes.
 What you will need:  Raspberry Pi 3 MicroSD Card (Preferably class 10 or higher) Micro USB Cable and Charger Ethernet Cable (Unless you want to use WiFi) HDMI Cable  Setup Raspberry Pi 3 There are a couple of different operating system that you could use on the Raspberry Pi.</description>
     </item>
     
     <item>
       <title>Top Linux Apps</title>
-      <link>https://bennettnotes.com/top-linux-apps/</link>
+      <link>https://www.bennettnotes.com/top-linux-apps/</link>
       <pubDate>Tue, 28 Mar 2017 15:28:08 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/top-linux-apps/</guid>
+      <guid>https://www.bennettnotes.com/top-linux-apps/</guid>
       <description>I spent a couple of months using Linux as my secondary operating system. During that time, I came across some really useful Linux apps that satisfied my needs. So here&amp;#8217;s my list of the top Linux Apps.
 HTOP To view the running tasks in Linux, all you need to do is open up a terminal window and type in the command top. This will give you a quick running view of all the active processes on your system.</description>
     </item>
     
     <item>
       <title>Cheapest Computer You Can Buy</title>
-      <link>https://bennettnotes.com/cheapest-computer-can-buy/</link>
+      <link>https://www.bennettnotes.com/cheapest-computer-can-buy/</link>
       <pubDate>Fri, 24 Mar 2017 03:31:24 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/cheapest-computer-can-buy/</guid>
+      <guid>https://www.bennettnotes.com/cheapest-computer-can-buy/</guid>
       <description>If you are in the market for a computer that will cost you about the same price as a large Starbucks iced coffee, then you are at the right place. Introducing, the Raspberry Pi Zero W. The Raspberry Pu Zero W is the cheapest computer you can buy. This computer isn&amp;#8217;t made for gaming or bitcoin mining. It&amp;#8217;s aimed at developers and enthusiasts to use in their projects. It would also make for a great setup for a small home server.</description>
     </item>
     
     <item>
       <title>Dual Boot Windows 10 and Ubuntu</title>
-      <link>https://bennettnotes.com/dual-boot-windows-10-and-ubuntu/</link>
+      <link>https://www.bennettnotes.com/dual-boot-windows-10-and-ubuntu/</link>
       <pubDate>Wed, 15 Mar 2017 02:03:23 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/dual-boot-windows-10-and-ubuntu/</guid>
+      <guid>https://www.bennettnotes.com/dual-boot-windows-10-and-ubuntu/</guid>
       <description>I woke up Sunday Morning with a cool project in mind. I wanted to dual boot Windows 10 and Ubuntu. The real reason for this was because I decided to give Jekyll a try and it was going to be my replacement for WordPress, but I digress. Another major reason to dual-boot Windows 10 and Ubuntu was so that I could keep all of my Android development and Web development stuff within Ubuntu and use Windows solely for video editing and gaming.</description>
     </item>
     
     <item>
       <title>Create Shared Network Folder Linux</title>
-      <link>https://bennettnotes.com/create-shared-network-folde-linux-r/</link>
+      <link>https://www.bennettnotes.com/create-shared-network-folde-linux-r/</link>
       <pubDate>Sat, 31 Dec 2016 16:27:11 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/create-shared-network-folde-linux-r/</guid>
+      <guid>https://www.bennettnotes.com/create-shared-network-folde-linux-r/</guid>
       <description>One of the most convenient ways to share data across a network is using a shared network folder. In Windows, setting up a shared network is usually an easy process. However, it&amp;#8217;s not a straightforward to do in Linux (no surprise).
 Create Shared Network Folder Linux To begin, you are going to need to download and install samba
 apt-get install samba apt-get install samba-common-bin Next, create the folder that you want to share.</description>
@@ -94,56 +94,56 @@ apt-get install samba apt-get install samba-common-bin Next, create the folder t
     
     <item>
       <title>Create a VPN Server</title>
-      <link>https://bennettnotes.com/create-a-vpn-server/</link>
+      <link>https://www.bennettnotes.com/create-a-vpn-server/</link>
       <pubDate>Thu, 08 Dec 2016 01:54:17 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/create-a-vpn-server/</guid>
+      <guid>https://www.bennettnotes.com/create-a-vpn-server/</guid>
       <description>There are three routes that you can take when setting up a VPN. You can either use a free one, buy a paid service or make your own. The advantage of free VPNs is that they are easy to setup; just install and they are ready to be used. My favorite VPN on Android is Opera VPN. The downside of Free VPNs is that they typically come with a 500 &amp;#8211; 1GB data cap and are very slow.</description>
     </item>
     
     <item>
       <title>Linux in Windows 10</title>
-      <link>https://bennettnotes.com/linux-in-windows-10/</link>
+      <link>https://www.bennettnotes.com/linux-in-windows-10/</link>
       <pubDate>Sat, 27 Aug 2016 03:15:02 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/linux-in-windows-10/</guid>
+      <guid>https://www.bennettnotes.com/linux-in-windows-10/</guid>
       <description>Microsoft has done something really cool in the Windows 10 Anniversary Update. They gave users the ability to use the Linux Bash Command Line from within Windows. This is not through a virtual machine nor container, but a subsystem that they previously added in an earlier Windows update. Here&amp;#8217;s how you can enable Linux in Windows 10:
 What You Will Need:  Windows 10 Anniversary Update  How To: ­</description>
     </item>
     
     <item>
       <title>Remotely Turn on Computer with Linux</title>
-      <link>https://bennettnotes.com/remotely-turn-on-computer-with-linux/</link>
+      <link>https://www.bennettnotes.com/remotely-turn-on-computer-with-linux/</link>
       <pubDate>Mon, 01 Feb 2016 22:07:03 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/remotely-turn-on-computer-with-linux/</guid>
+      <guid>https://www.bennettnotes.com/remotely-turn-on-computer-with-linux/</guid>
       <description>I really wish more people used WOL. It is probably one of the most underrated things in the world of wired networking. If you aren&amp;#8217;t familiar, WOL (Wake on Lan) allows you to remotely turn on your computer. This could be from another computer or even your Android device. It works by supplying a little bit of power to your Ethernet card to allow it to listen for the &amp;#8220;wake up&amp;#8221; signal.</description>
     </item>
     
     <item>
       <title>How to Install Linux</title>
-      <link>https://bennettnotes.com/how-to-install-linux/</link>
+      <link>https://www.bennettnotes.com/how-to-install-linux/</link>
       <pubDate>Mon, 01 Feb 2016 22:02:30 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-install-linux/</guid>
+      <guid>https://www.bennettnotes.com/how-to-install-linux/</guid>
       <description>Now that you are familiar with Linux, how do you go about installing it? Well, the beauty of Linux is that there are many different flavors at your disposal, in the form of distributions. Each distribution offers its own pre-installed software and default desktop and environment. There are thousands of different Linux distributions to choose from. If you are looking for a distribution that fits your needs, check out this list of the top 11 best Linux distributions.</description>
     </item>
     
     <item>
       <title>How to build a Supercomputer</title>
-      <link>https://bennettnotes.com/how-to-build-a-supercomputer/</link>
+      <link>https://www.bennettnotes.com/how-to-build-a-supercomputer/</link>
       <pubDate>Wed, 13 Jan 2016 03:20:26 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-build-a-supercomputer/</guid>
+      <guid>https://www.bennettnotes.com/how-to-build-a-supercomputer/</guid>
       <description>So you want to build a supercomputer? Well, if you checked out my video on quantum computing you&amp;#8217;ll know that scientist are working to make computers stronger and faster than ever. Unfortunately, building a quantum computer is not something you can do at home, unless your home is a laboratory of course. All hope isn&amp;#8217;t lost though, you can still go on to build your very own supercomputer.</description>
     </item>
     
     <item>
       <title>League of Legends on Linux</title>
-      <link>https://bennettnotes.com/league-of-legends-on-linux/</link>
+      <link>https://www.bennettnotes.com/league-of-legends-on-linux/</link>
       <pubDate>Tue, 25 Aug 2015 16:08:04 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/league-of-legends-on-linux/</guid>
+      <guid>https://www.bennettnotes.com/league-of-legends-on-linux/</guid>
       <description>League players are everywhere. Sure, the majority of them are PC users, but there&amp;#8217;s a growing population of Linux gamers out there who want in on the action. Thanks to the program Play On Linux, which makes use of Wine (a popular program that allows many Windows applications to run on Linux), anyone can play League on their alinux computer.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 I should also add that this procedure will also work on an x86 Chromebook with Crouton installed.</description>
@@ -151,10 +151,10 @@ I should also add that this procedure will also work on an x86 Chromebook with C
     
     <item>
       <title>Create Your Own Personal Cloud Server</title>
-      <link>https://bennettnotes.com/create-your-own-personal-cloud-server/</link>
+      <link>https://www.bennettnotes.com/create-your-own-personal-cloud-server/</link>
       <pubDate>Sat, 09 May 2015 20:34:24 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/create-your-own-personal-cloud-server/</guid>
+      <guid>https://www.bennettnotes.com/create-your-own-personal-cloud-server/</guid>
       <description>Whether it is Dropbox, Google Drive, Skydrive or iCloud, I am sure that we all have our favorite cloud server. Cloud Servers are great because they allow us to easily sync files between all the devices on our network and access content from anywhere. However, a growing concern over cloud servers is privacy. You could be banned from hosting certain content and companies could easily sort through what you are uploading and create targeted ads based on it.</description>
     </item>
     

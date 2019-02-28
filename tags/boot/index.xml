@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Boot on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/boot/</link>
+    <link>https://www.bennettnotes.com/tags/boot/</link>
     <description>Recent content in Boot on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Tue, 18 Aug 2015 01:51:04 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/boot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/boot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to install Mac OS X Yosemite on any PC</title>
-      <link>https://bennettnotes.com/how-to-install-mac-os-x-yosemite-on-any-pc/</link>
+      <link>https://www.bennettnotes.com/how-to-install-mac-os-x-yosemite-on-any-pc/</link>
       <pubDate>Tue, 18 Aug 2015 01:51:04 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-install-mac-os-x-yosemite-on-any-pc/</guid>
+      <guid>https://www.bennettnotes.com/how-to-install-mac-os-x-yosemite-on-any-pc/</guid>
       <description>I will be the first to admit that I prefer Windows over Mac OS any day. Besides being a slight Microsoft fanboy, I do prefer Windows because it meets all of my software and gaming needs, but I digress. In any case, there are still some unfortunate situations when I need to have access to Mac OS.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 Luckily, I&amp;#8217;ll show you an easy way on how to install Mac OS X Yosemite on any pc, regardless of the hardware that you currently have installed (even if it is an AMD CPU).</description>
@@ -26,10 +26,10 @@ Luckily, I&amp;#8217;ll show you an easy way on how to install Mac OS X Yosemite
     
     <item>
       <title>Boot Computer from Android Phone</title>
-      <link>https://bennettnotes.com/boot-computer-from-android-phone/</link>
+      <link>https://www.bennettnotes.com/boot-computer-from-android-phone/</link>
       <pubDate>Thu, 02 Oct 2014 02:09:50 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/boot-computer-from-android-phone/</guid>
+      <guid>https://www.bennettnotes.com/boot-computer-from-android-phone/</guid>
       <description>Have you ever found yourself in a situation where you didn&amp;#8217;t have a flash drive handy? Well, the other day I was trying to re-install Windows on my laptop, and sure enough, my USB flash drive conveniently went missing. Luckily, I was able to use my Nexus 5 to mount the ISO and boot my laptop from it. So here&amp;#8217;s how you can boot computer from Android phone:</description>
     </item>
     

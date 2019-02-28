@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coolest on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/coolest/</link>
+    <link>https://www.bennettnotes.com/tags/coolest/</link>
     <description>Recent content in Coolest on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 09 Jul 2015 14:16:31 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/coolest/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/coolest/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Coolest Apps Android wear 2015</title>
-      <link>https://bennettnotes.com/coolest-apps-android-wear-2015/</link>
+      <link>https://www.bennettnotes.com/coolest-apps-android-wear-2015/</link>
       <pubDate>Thu, 09 Jul 2015 14:16:31 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/coolest-apps-android-wear-2015/</guid>
+      <guid>https://www.bennettnotes.com/coolest-apps-android-wear-2015/</guid>
       <description>I love trying out new things with my smartwatch. Here is a video featuring the coolest Android wear apps 2015. If apps aren&amp;#8217;t your thing, no problem. Check out my video on the Top Android wear games for your device.
 PixToCam  Video for Android Wear Wear Audio recorder Web Browser for Android wear Staylit Wear Have any other cool apps? Feel free to share below.</description>
     </item>

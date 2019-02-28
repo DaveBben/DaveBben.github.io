@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/mac/</link>
+    <link>https://www.bennettnotes.com/tags/mac/</link>
     <description>Recent content in Mac on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Tue, 18 Aug 2015 01:51:04 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to install Mac OS X Yosemite on any PC</title>
-      <link>https://bennettnotes.com/how-to-install-mac-os-x-yosemite-on-any-pc/</link>
+      <link>https://www.bennettnotes.com/how-to-install-mac-os-x-yosemite-on-any-pc/</link>
       <pubDate>Tue, 18 Aug 2015 01:51:04 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-install-mac-os-x-yosemite-on-any-pc/</guid>
+      <guid>https://www.bennettnotes.com/how-to-install-mac-os-x-yosemite-on-any-pc/</guid>
       <description>I will be the first to admit that I prefer Windows over Mac OS any day. Besides being a slight Microsoft fanboy, I do prefer Windows because it meets all of my software and gaming needs, but I digress. In any case, there are still some unfortunate situations when I need to have access to Mac OS.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 Luckily, I&amp;#8217;ll show you an easy way on how to install Mac OS X Yosemite on any pc, regardless of the hardware that you currently have installed (even if it is an AMD CPU).</description>
@@ -26,10 +26,10 @@ Luckily, I&amp;#8217;ll show you an easy way on how to install Mac OS X Yosemite
     
     <item>
       <title>How to Build Custom Cyanogenmod Rom</title>
-      <link>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</link>
+      <link>https://www.bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</link>
       <pubDate>Fri, 04 Jul 2014 08:12:40 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</guid>
+      <guid>https://www.bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</guid>
       <description>Build Custom Cyanogenmod Rom? So are you ready to take on Rom Development? That&amp;#8217;s okay if you&amp;#8217;re not, because I&amp;#8217;ll help walk you through it. In this tutorial, I&amp;#8217;m going to show you how to build your own Cyanogenmod Rom right from source. This sounds a lot more complicated than it actually is though. However, keep in mind that you will need a lot of patience when doing this.</description>
     </item>
     

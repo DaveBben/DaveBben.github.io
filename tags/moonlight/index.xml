@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Moonlight on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/moonlight/</link>
+    <link>https://www.bennettnotes.com/tags/moonlight/</link>
     <description>Recent content in Moonlight on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Wed, 16 May 2018 13:31:10 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/moonlight/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/moonlight/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Stream Games to Chromebook using Moonlight</title>
-      <link>https://bennettnotes.com/stream-games-to-chromebook/</link>
+      <link>https://www.bennettnotes.com/stream-games-to-chromebook/</link>
       <pubDate>Wed, 16 May 2018 13:31:10 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/stream-games-to-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/stream-games-to-chromebook/</guid>
       <description>If you want to play Fortnite or PUBG on a Chromebook, you can do this through streaming. It&amp;#8217;s very easy to stream games to Chromebook using Moonlight. The only requirement is that you need to have an NVidia 600 Series or higher graphics card.
 Enable Streaming in GeForce Experience App The first thing you need to do is enable streaming in the GeForce Experience app.
 Install Moonlight Extension on Chromebook You can go here to download the moonlight extension.</description>

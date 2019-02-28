@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Calendar on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/calendar/</link>
+    <link>https://www.bennettnotes.com/tags/calendar/</link>
     <description>Recent content in Calendar on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Wed, 09 Nov 2016 22:52:55 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/calendar/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/calendar/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Calendar Watch</title>
-      <link>https://bennettnotes.com/calendar-watch/</link>
+      <link>https://www.bennettnotes.com/calendar-watch/</link>
       <pubDate>Wed, 09 Nov 2016 22:52:55 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/calendar-watch/</guid>
+      <guid>https://www.bennettnotes.com/calendar-watch/</guid>
       <description>This is the Calendar Watch. It is a smartwatch by the company What? The Calendar Watch provides a unique take on smartwatches while adding in a good amount of luxury.
 Enter in the Calendar Watch Giveaway Below: Calendar Watch Giveaway
 **Open to anywhere that can physically receive packages from the U.S.**</description>

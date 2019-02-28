@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on Bennett Notes</title>
-    <link>https://bennettnotes.com/categories/windows/</link>
+    <link>https://www.bennettnotes.com/categories/windows/</link>
     <description>Recent content in Windows on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,33 +10,33 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 17 Nov 2018 02:15:11 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/categories/windows/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to download any video from any site for free</title>
-      <link>https://bennettnotes.com/how-to-download-any-video-from-any-site-for-free/</link>
+      <link>https://www.bennettnotes.com/how-to-download-any-video-from-any-site-for-free/</link>
       <pubDate>Sat, 17 Nov 2018 02:15:11 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-download-any-video-from-any-site-for-free/</guid>
+      <guid>https://www.bennettnotes.com/how-to-download-any-video-from-any-site-for-free/</guid>
       <description>You have probably discovered that downloading videos from certain websites is hard. If you try to download a video from youtube, you have to use one of the ad-infested free YouTube video downloaders. Other sites like Facebook, Instagram and Tumblr are even harder to find downloaders for. Luckily, there is a free and open-source program that will end your struggles and help you download and video from any site for free.</description>
     </item>
     
     <item>
       <title>How to Remove Bloatware from Windows 10</title>
-      <link>https://bennettnotes.com/how-to-remove-bloatware-from-windows-10/</link>
+      <link>https://www.bennettnotes.com/how-to-remove-bloatware-from-windows-10/</link>
       <pubDate>Sat, 10 Nov 2018 15:41:56 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-remove-bloatware-from-windows-10/</guid>
+      <guid>https://www.bennettnotes.com/how-to-remove-bloatware-from-windows-10/</guid>
       <description>Believe it or not, Windows 10 comes with a lot of bloatware pre-installed on it. Things like Candy crash, Bing Weather, Bing Sports, etc. If you really wanted to, you could go through the programs and features tool and remove each app individually. However, that would take a lot of unnecessary time and some apps wouldn&amp;#8217;t show up in that menu. To overcome this challenge, a user on GitHub created a Windows 10 bloatware removal script that uses PowerShell to remove the unnecessary apps.</description>
     </item>
     
     <item>
       <title>Best windows 10 Screensavers 2018</title>
-      <link>https://bennettnotes.com/best-windows-10-screensavers-2018/</link>
+      <link>https://www.bennettnotes.com/best-windows-10-screensavers-2018/</link>
       <pubDate>Mon, 10 Sep 2018 00:50:44 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/best-windows-10-screensavers-2018/</guid>
+      <guid>https://www.bennettnotes.com/best-windows-10-screensavers-2018/</guid>
       <description>Here is a collection of some of the best Windows 10 screensavers that you should try.
 Fliqlo Fliqlo is my favorite Windows 10 screensaver of 2018. It has such a clean and minimalistic look that goes great with the design of my room.
 Sun Village This is a screensaver from Nvidia. It&amp;#8217;s a nicely rendered 3D scene with lots of activity happening. It looks bright and vibrant and you can even enable the built-in FPS counter.</description>
@@ -44,75 +44,75 @@ Sun Village This is a screensaver from Nvidia. It&amp;#8217;s a nicely rendered 
     
     <item>
       <title>Dual Boot Windows 10 and Ubuntu</title>
-      <link>https://bennettnotes.com/dual-boot-windows-10-and-ubuntu/</link>
+      <link>https://www.bennettnotes.com/dual-boot-windows-10-and-ubuntu/</link>
       <pubDate>Wed, 15 Mar 2017 02:03:23 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/dual-boot-windows-10-and-ubuntu/</guid>
+      <guid>https://www.bennettnotes.com/dual-boot-windows-10-and-ubuntu/</guid>
       <description>I woke up Sunday Morning with a cool project in mind. I wanted to dual boot Windows 10 and Ubuntu. The real reason for this was because I decided to give Jekyll a try and it was going to be my replacement for WordPress, but I digress. Another major reason to dual-boot Windows 10 and Ubuntu was so that I could keep all of my Android development and Web development stuff within Ubuntu and use Windows solely for video editing and gaming.</description>
     </item>
     
     <item>
       <title>Share Internet Connection Windows</title>
-      <link>https://bennettnotes.com/share-internet-connection-windows/</link>
+      <link>https://www.bennettnotes.com/share-internet-connection-windows/</link>
       <pubDate>Thu, 22 Dec 2016 16:44:42 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/share-internet-connection-windows/</guid>
+      <guid>https://www.bennettnotes.com/share-internet-connection-windows/</guid>
       <description>My friend and I decided to have a small LAN gaming session the other day. There was just one problem, he didn&amp;#8217;t have a wireless adapter for his PC. Luckily, I had my Windows Surface on me and was able to share my internet through that (with the help of this USB Ethernet dongle) to my friend&amp;#8217;s PC.
 To share your internet in Windows, you will need to make sure that you have a device that has an active wireless connection along with an Ethernet port.</description>
     </item>
     
     <item>
       <title>Measure Battery Usage in Windows</title>
-      <link>https://bennettnotes.com/measure-battery-usage-windows/</link>
+      <link>https://www.bennettnotes.com/measure-battery-usage-windows/</link>
       <pubDate>Thu, 01 Dec 2016 15:22:05 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/measure-battery-usage-windows/</guid>
+      <guid>https://www.bennettnotes.com/measure-battery-usage-windows/</guid>
       <description>Most people would never guess that there is a tool to measure battery usage in Windows. I first discovered this when trying to figure out what was draining my battery on my Surface Pro 3. For a quick overview of battery drain by app, you can use the Windows Battery Saving settings.
 Windows Battery Saver To access this, type in Windows Battery Saver in the Start Menu search.</description>
     </item>
     
     <item>
       <title>Make Cortana use Google</title>
-      <link>https://bennettnotes.com/make-cortana-use-google/</link>
+      <link>https://www.bennettnotes.com/make-cortana-use-google/</link>
       <pubDate>Sat, 26 Nov 2016 04:21:40 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/make-cortana-use-google/</guid>
+      <guid>https://www.bennettnotes.com/make-cortana-use-google/</guid>
       <description>As you know, Microsoft Cortana has become an integral part of Windows 10. I wouldn&amp;#8217;t mind Cortana so much if Microsoft didn&amp;#8217;t force it upon us. One thing which really bothers me about Cortana is that it defaults to Microsoft Edge and Bing. I am a Google person, so I would prefer if it used Google Search and Google Chrome. Before the Windows 10 Anniversary update, there used to be a way to change the default behavior.</description>
     </item>
     
     <item>
       <title>Control Multiple Computers</title>
-      <link>https://bennettnotes.com/control-multiple-computers/</link>
+      <link>https://www.bennettnotes.com/control-multiple-computers/</link>
       <pubDate>Tue, 22 Nov 2016 21:03:42 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/control-multiple-computers/</guid>
+      <guid>https://www.bennettnotes.com/control-multiple-computers/</guid>
       <description>Does your workstation setup contain more than one computer? I have my main desktop along with my surface setting in front of my at all times. I sometimes hate that I have to reach across my desk and switch between keyboards to type something. Luckily, USB sharing between the two devices is not difficult. Thanks to a garage app by Microsoft, you can control multiple computers with one mouse and keyboard very easily.</description>
     </item>
     
     <item>
       <title>Play PlayStation 3 Games on PC</title>
-      <link>https://bennettnotes.com/play-playstation-3-games-on-pc/</link>
+      <link>https://www.bennettnotes.com/play-playstation-3-games-on-pc/</link>
       <pubDate>Sun, 06 Nov 2016 15:00:15 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-playstation-3-games-on-pc/</guid>
+      <guid>https://www.bennettnotes.com/play-playstation-3-games-on-pc/</guid>
       <description>Although the PlayStation 4 is the latest console from Sony, the PlayStation 3 is still a popular game system that is enjoyed by many. One group of developers have been actively working to bring the PlayStation 3 experience to your PC. RPCS3 is an open source PlayStation 3 emulator. The emulator is still in early alpha stages, so don&amp;#8217;t expect many commercial titles to be compatible. It works well with homebrew games and games which do not require advanced 3D graphics.</description>
     </item>
     
     <item>
       <title>Reverse Tether</title>
-      <link>https://bennettnotes.com/reverse-tether/</link>
+      <link>https://www.bennettnotes.com/reverse-tether/</link>
       <pubDate>Sat, 02 Jul 2016 13:58:13 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/reverse-tether/</guid>
+      <guid>https://www.bennettnotes.com/reverse-tether/</guid>
       <description>Have you ever been stuck in a situation that you needed WiFi but only had an Ethernet connection available? Unless you&amp;#8217;re looking to connect your phone to an Ethernet connection, you would be all out of options. I found myself in a similar situation when I needed to setup a live stream using a bunch of laptops and only one Ethernet connection with no WiFi available. This is also useful if you are looking to avoid using mobile data.</description>
     </item>
     
     <item>
       <title>How to install Mac OS X Yosemite on any PC</title>
-      <link>https://bennettnotes.com/how-to-install-mac-os-x-yosemite-on-any-pc/</link>
+      <link>https://www.bennettnotes.com/how-to-install-mac-os-x-yosemite-on-any-pc/</link>
       <pubDate>Tue, 18 Aug 2015 01:51:04 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-install-mac-os-x-yosemite-on-any-pc/</guid>
+      <guid>https://www.bennettnotes.com/how-to-install-mac-os-x-yosemite-on-any-pc/</guid>
       <description>I will be the first to admit that I prefer Windows over Mac OS any day. Besides being a slight Microsoft fanboy, I do prefer Windows because it meets all of my software and gaming needs, but I digress. In any case, there are still some unfortunate situations when I need to have access to Mac OS.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 Luckily, I&amp;#8217;ll show you an easy way on how to install Mac OS X Yosemite on any pc, regardless of the hardware that you currently have installed (even if it is an AMD CPU).</description>
@@ -120,10 +120,10 @@ Luckily, I&amp;#8217;ll show you an easy way on how to install Mac OS X Yosemite
     
     <item>
       <title>Run Windows 10 from USB</title>
-      <link>https://bennettnotes.com/run-windows-10-from-usb/</link>
+      <link>https://www.bennettnotes.com/run-windows-10-from-usb/</link>
       <pubDate>Fri, 31 Jul 2015 20:14:52 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-windows-10-from-usb/</guid>
+      <guid>https://www.bennettnotes.com/run-windows-10-from-usb/</guid>
       <description>If you&amp;#8217;re looking for an ultra portable solution for your computing lifestyle, you might be interested in running Windows 10 from USB. It&amp;#8217;s a good solution if you do light work on multiple computers. Now clearly, this is not the most ideal situation. For one, this will surely shortness the life cycle of your USB with the numerous reads and writes it&amp;#8217;ll have to perform. Also, USB speed is much slower than SATA speed.</description>
     </item>
     

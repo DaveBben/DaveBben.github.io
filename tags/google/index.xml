@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/google/</link>
+    <link>https://www.bennettnotes.com/tags/google/</link>
     <description>Recent content in Google on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 11 Dec 2016 00:12:15 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/google/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/google/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Best Extensions for Google Chrome</title>
-      <link>https://bennettnotes.com/best-extensions-google-chrome/</link>
+      <link>https://www.bennettnotes.com/best-extensions-google-chrome/</link>
       <pubDate>Sun, 11 Dec 2016 00:12:15 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/best-extensions-google-chrome/</guid>
+      <guid>https://www.bennettnotes.com/best-extensions-google-chrome/</guid>
       <description>The best thing about Google Chrome is all the extensions that are available for it. Now I recently learned that Microsoft Edge also has extensions, but nowhere near as many as google chrome. By no means is this an exhaustive list of all the best extensions for Google Chrome; just a few of my favorites that I use every day.
 Ghostery 
 If you are concerned about your privacy on the internet, then Ghostery is the perfect app for you.</description>
@@ -26,56 +26,56 @@ If you are concerned about your privacy on the internet, then Ghostery is the pe
     
     <item>
       <title>Make Cortana use Google</title>
-      <link>https://bennettnotes.com/make-cortana-use-google/</link>
+      <link>https://www.bennettnotes.com/make-cortana-use-google/</link>
       <pubDate>Sat, 26 Nov 2016 04:21:40 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/make-cortana-use-google/</guid>
+      <guid>https://www.bennettnotes.com/make-cortana-use-google/</guid>
       <description>As you know, Microsoft Cortana has become an integral part of Windows 10. I wouldn&amp;#8217;t mind Cortana so much if Microsoft didn&amp;#8217;t force it upon us. One thing which really bothers me about Cortana is that it defaults to Microsoft Edge and Bing. I am a Google person, so I would prefer if it used Google Search and Google Chrome. Before the Windows 10 Anniversary update, there used to be a way to change the default behavior.</description>
     </item>
     
     <item>
       <title>Google Pixel Phone Disappointment</title>
-      <link>https://bennettnotes.com/google-pixel-phone-disappointment/</link>
+      <link>https://www.bennettnotes.com/google-pixel-phone-disappointment/</link>
       <pubDate>Wed, 05 Oct 2016 03:02:54 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/google-pixel-phone-disappointment/</guid>
+      <guid>https://www.bennettnotes.com/google-pixel-phone-disappointment/</guid>
       <description>Google has announced their new phone, the Pixel. It&amp;#8217;s coming off the heels of the forever loved Nexus program. IMO, this new Google Phone is asking too much while offering too little.</description>
     </item>
     
     <item>
       <title>Do we need imessage for Android</title>
-      <link>https://bennettnotes.com/need-imessage-android/</link>
+      <link>https://www.bennettnotes.com/need-imessage-android/</link>
       <pubDate>Wed, 28 Sep 2016 03:12:18 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/need-imessage-android/</guid>
+      <guid>https://www.bennettnotes.com/need-imessage-android/</guid>
       <description>Everyone has been talking about having an iMessage for Android. With the recent release of Google Allo, many people were disappointed that Allo did not have SMS fallback? But, do we really need an iMessage for Android?</description>
     </item>
     
     <item>
       <title>6 Fun Facts About Android</title>
-      <link>https://bennettnotes.com/6-fun-facts-about-android/</link>
+      <link>https://www.bennettnotes.com/6-fun-facts-about-android/</link>
       <pubDate>Sun, 07 Jun 2015 23:33:29 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/6-fun-facts-about-android/</guid>
+      <guid>https://www.bennettnotes.com/6-fun-facts-about-android/</guid>
       <description>Android is full of surprises! Even when you think you know everything something new gets discovered. While you might be up to date with all the latest information, I am going to attempt to astonish you with 6 fun facts about android that you probably didn&amp;#8217;t know.
 1. The Android Logo used to be scary We all know that Bugdroid is the official Android logo. However, before Android was officially launched, dandroid was the temporary logo used to represent the operating system.</description>
     </item>
     
     <item>
       <title>Enable Ultra High Graphics Dead Trigger 2</title>
-      <link>https://bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</link>
+      <link>https://www.bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</link>
       <pubDate>Wed, 02 Jul 2014 15:17:46 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</guid>
+      <guid>https://www.bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</guid>
       <description>It&amp;#8217;s not surprising that certain games purposefully limit the maximum graphics level that the user could set. However, it becomes an issue when the device you&amp;#8217;re playing on is more than capable of handling the maximum graphics level, even though the developers didn&amp;#8217;t think so. Unfortunately, Dead Trigger 2 is a perfect example of this scenario. Fortunately, with a little file modification you can enable the secret &amp;#8220;ultra&amp;#8221; graphics mode only accessible to latest generation iPhones and Tegra devices.</description>
     </item>
     
     <item>
       <title>How to Install Xposed Framework</title>
-      <link>https://bennettnotes.com/how-to-install-xposed-framework/</link>
+      <link>https://www.bennettnotes.com/how-to-install-xposed-framework/</link>
       <pubDate>Wed, 02 Jul 2014 14:38:13 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-install-xposed-framework/</guid>
+      <guid>https://www.bennettnotes.com/how-to-install-xposed-framework/</guid>
       <description>Xposed is a popular framework that allows you to modify and customize your Android device without having to flash a new rom. It allows you to use a variety of apps and tools (such as gravity box) that extend what you can achieve with your Android device. If you&amp;#8217;re tinkerer or someone who thrives on complete control, than Xposed it what you want. For more techinical details on Xposed read this.</description>
     </item>
     

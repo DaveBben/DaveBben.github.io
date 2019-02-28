@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tablet on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/tablet/</link>
+    <link>https://www.bennettnotes.com/tags/tablet/</link>
     <description>Recent content in Tablet on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,81 +10,81 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Thu, 01 Dec 2016 15:22:05 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/tablet/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/tablet/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Measure Battery Usage in Windows</title>
-      <link>https://bennettnotes.com/measure-battery-usage-windows/</link>
+      <link>https://www.bennettnotes.com/measure-battery-usage-windows/</link>
       <pubDate>Thu, 01 Dec 2016 15:22:05 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/measure-battery-usage-windows/</guid>
+      <guid>https://www.bennettnotes.com/measure-battery-usage-windows/</guid>
       <description>Most people would never guess that there is a tool to measure battery usage in Windows. I first discovered this when trying to figure out what was draining my battery on my Surface Pro 3. For a quick overview of battery drain by app, you can use the Windows Battery Saving settings.
 Windows Battery Saver To access this, type in Windows Battery Saver in the Start Menu search.</description>
     </item>
     
     <item>
       <title>Boot Computer from Android Phone</title>
-      <link>https://bennettnotes.com/boot-computer-from-android-phone/</link>
+      <link>https://www.bennettnotes.com/boot-computer-from-android-phone/</link>
       <pubDate>Thu, 02 Oct 2014 02:09:50 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/boot-computer-from-android-phone/</guid>
+      <guid>https://www.bennettnotes.com/boot-computer-from-android-phone/</guid>
       <description>Have you ever found yourself in a situation where you didn&amp;#8217;t have a flash drive handy? Well, the other day I was trying to re-install Windows on my laptop, and sure enough, my USB flash drive conveniently went missing. Luckily, I was able to use my Nexus 5 to mount the ISO and boot my laptop from it. So here&amp;#8217;s how you can boot computer from Android phone:</description>
     </item>
     
     <item>
       <title>Run Windows 95 on Android</title>
-      <link>https://bennettnotes.com/run-windows-95-on-android/</link>
+      <link>https://www.bennettnotes.com/run-windows-95-on-android/</link>
       <pubDate>Fri, 11 Jul 2014 20:05:14 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-windows-95-on-android/</guid>
+      <guid>https://www.bennettnotes.com/run-windows-95-on-android/</guid>
       <description>The 90s called, and they want their operating system back. Windows 95 was unique for its time. However, what once took cutting edge hardware to run can now easily operate on a typical Android device. Yes Virginia, you can run Windows 95 on Android.
 What You Will Need:  Windows 95 Image File Limbo PC Emulator  Step 1: Download Stuff If you have your own bootable image file that you would like to use, feel free to do so.</description>
     </item>
     
     <item>
       <title>How to Root Any Android Device</title>
-      <link>https://bennettnotes.com/how-to-root-any-android-device-2014/</link>
+      <link>https://www.bennettnotes.com/how-to-root-any-android-device-2014/</link>
       <pubDate>Mon, 07 Jul 2014 14:13:13 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-root-any-android-device-2014/</guid>
+      <guid>https://www.bennettnotes.com/how-to-root-any-android-device-2014/</guid>
       <description>There are some things in life that sound too good to be true. However, this isn&amp;#8217;t one of them. George Hortz, a hacker made famous by his iOS jailbreaks and PlayStation hacks has managed to root the Verizon Galaxy S5. So why should you care? Well, he used a recently discovered exploit found in all Linux kernels that were built prior to June 3rd. So in theory (and in practice) his app should work on any Android device that has a kernel build date prior to June 3rd.</description>
     </item>
     
     <item>
       <title>Android Reverse Tether</title>
-      <link>https://bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</link>
+      <link>https://www.bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</link>
       <pubDate>Sun, 06 Jul 2014 23:22:29 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</guid>
+      <guid>https://www.bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</guid>
       <description>Everyone is familiar with tethering. However, many people overlook the ability to reverse tether. Reverse tethering allows you to share your computer&amp;#8217;s internet connection with your phone or tablet. This is useful if you&amp;#8217;re on a metered data plan or in an area which has no wifi and a weak mobile signal. 
 What You Will Need:  A rooted Android Device A Windows PC USB Driver Reverse Tether Zip (Go to this thread to download or direct download here)  Step 1: Install USB Drivers If you don&amp;#8217;t have any device drivers already installed on your computer and you never used adb before, then you will need to install the USB drivers.</description>
     </item>
     
     <item>
       <title>Run Ubuntu 13.10 on Android</title>
-      <link>https://bennettnotes.com/run-ubuntu-13-10-on-android/</link>
+      <link>https://www.bennettnotes.com/run-ubuntu-13-10-on-android/</link>
       <pubDate>Fri, 04 Jul 2014 15:57:44 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-ubuntu-13-10-on-android/</guid>
+      <guid>https://www.bennettnotes.com/run-ubuntu-13-10-on-android/</guid>
       <description>How would it feel to have the power of a desktop operating system in the palm of your hands? If you&amp;#8217;re a power user, and also a fan of Linux, then you came to the right place. Running Ubuntu 13.10 on your Android device is not very hard to do. Don&amp;#8217;t think that this is some slow or stripped down version of Ubuntu. You will have access to all your favorite Linux apps and commands.</description>
     </item>
     
     <item>
       <title>How to Build Custom Cyanogenmod Rom</title>
-      <link>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</link>
+      <link>https://www.bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</link>
       <pubDate>Fri, 04 Jul 2014 08:12:40 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</guid>
+      <guid>https://www.bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</guid>
       <description>Build Custom Cyanogenmod Rom? So are you ready to take on Rom Development? That&amp;#8217;s okay if you&amp;#8217;re not, because I&amp;#8217;ll help walk you through it. In this tutorial, I&amp;#8217;m going to show you how to build your own Cyanogenmod Rom right from source. This sounds a lot more complicated than it actually is though. However, keep in mind that you will need a lot of patience when doing this.</description>
     </item>
     
     <item>
       <title>Android Boost Speaker Volume</title>
-      <link>https://bennettnotes.com/android-boost-speaker-volume/</link>
+      <link>https://www.bennettnotes.com/android-boost-speaker-volume/</link>
       <pubDate>Wed, 02 Jul 2014 04:08:11 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/android-boost-speaker-volume/</guid>
+      <guid>https://www.bennettnotes.com/android-boost-speaker-volume/</guid>
       <description>Let&amp;#8217;s face it. Even at max volume, sometimes the speaker on your phone just isn&amp;#8217;t loud enough (Yes, I&amp;#8217;m looking at you Nexus 5). However, you could digitally raise the maximum volume that the speaker allows itself to go to. This will require a rooted android device and could run the risk of damaging your speakers if you go too high, so be warned.
 What You will Need:  A rooted Android Device ES File Explorer  Step 1: Mounting the System Open up ES file explorer and enable the root explorer.</description>
     </item>

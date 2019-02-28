@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reicast on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/reicast/</link>
+    <link>https://www.bennettnotes.com/tags/reicast/</link>
     <description>Recent content in Reicast on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 13 Jun 2015 03:35:35 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/reicast/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/reicast/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Play Dreamcast Games on Android</title>
-      <link>https://bennettnotes.com/play-dreamcast-games-on-android/</link>
+      <link>https://www.bennettnotes.com/play-dreamcast-games-on-android/</link>
       <pubDate>Sat, 13 Jun 2015 03:35:35 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/play-dreamcast-games-on-android/</guid>
+      <guid>https://www.bennettnotes.com/play-dreamcast-games-on-android/</guid>
       <description>Ah, the Sega Dreamcast, it brings back old memories. Who am I kidding, I never had the Dreamcast myself. So unfortunately, my personal experience is limited to the only game (Sonic Adventures) that I have ever played on it. But, what I do know is that you can play Dreamcast games on Android!
 What You Will Need:  Reicast or use This One if you are running a Lollipop Device and Experience Crashes with the Play Store version.</description>
     </item>

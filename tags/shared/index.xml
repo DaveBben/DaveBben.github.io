@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shared on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/shared/</link>
+    <link>https://www.bennettnotes.com/tags/shared/</link>
     <description>Recent content in Shared on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sat, 31 Dec 2016 16:27:11 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/shared/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/shared/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Create Shared Network Folder Linux</title>
-      <link>https://bennettnotes.com/create-shared-network-folde-linux-r/</link>
+      <link>https://www.bennettnotes.com/create-shared-network-folde-linux-r/</link>
       <pubDate>Sat, 31 Dec 2016 16:27:11 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/create-shared-network-folde-linux-r/</guid>
+      <guid>https://www.bennettnotes.com/create-shared-network-folde-linux-r/</guid>
       <description>One of the most convenient ways to share data across a network is using a shared network folder. In Windows, setting up a shared network is usually an easy process. However, it&amp;#8217;s not a straightforward to do in Linux (no surprise).
 Create Shared Network Folder Linux To begin, you are going to need to download and install samba
 apt-get install samba apt-get install samba-common-bin Next, create the folder that you want to share.</description>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Applications on Bennett Notes</title>
-    <link>https://bennettnotes.com/tags/applications/</link>
+    <link>https://www.bennettnotes.com/tags/applications/</link>
     <description>Recent content in Applications on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 21 Sep 2014 22:01:17 +0000</lastBuildDate>
     
-	<atom:link href="https://bennettnotes.com/tags/applications/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/applications/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Run Android apps on Chromebook</title>
-      <link>https://bennettnotes.com/run-android-apps-on-chromebook/</link>
+      <link>https://www.bennettnotes.com/run-android-apps-on-chromebook/</link>
       <pubDate>Sun, 21 Sep 2014 22:01:17 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://bennettnotes.com/run-android-apps-on-chromebook/</guid>
+      <guid>https://www.bennettnotes.com/run-android-apps-on-chromebook/</guid>
       <description>Recently, Google has released an Android run-time for Chrome OS that will allow developers to easily port their android applications to Chrome OS (Feel free to watch the Keynote for more information). While this is a step in the right direction (and should have been included with Chrome OS from the very beginning, but I digress) there are only four official android apps available for Chrome OS (Evernote, Vine, Sight Words, Duolingo).</description>
     </item>
     
