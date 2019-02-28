@@ -519,6 +519,28 @@ Dynamic System Bars:   The newest feature found on Paranoid Android is Dynamic S
 
 
 
+
+
+<script type="text/javascript">
+$(function(){
+  $('#show-comments').on('click', function(){
+    var disqus_shortname = 'https-bennettnotes-com';
+      
+    (function() {
+      var disqus = document.createElement('script'); 
+      disqus.type = 'text/javascript'; 
+      disqus.async = true;
+      disqus.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(disqus);
+    })();
+      
+    $(this).hide(); 
+    });
+  });
+      
+</script>
+<script id="dsq-count-scr" src="//https-bennettnotes-com.disqus.com/count.js" async></script>
+
 <script
   src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"
   integrity="sha256-uScRgGrInD2VnPNpjmlQtB2XRVLczyyZvrTkYi+e31U="
