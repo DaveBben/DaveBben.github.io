@@ -117,8 +117,7 @@ What You Will Need:  Windows 10 Anniversary Update  How To: ­</description>
       <pubDate>Mon, 01 Feb 2016 22:07:03 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://bennettnotes.com/remotely-turn-on-computer-with-linux/</guid>
-      <description>{{ youtube 2vP7z0X0NUc {}
-I really wish more people used WOL. It is probably one of the most underrated things in the world of wired networking. If you aren&amp;#8217;t familiar, WOL (Wake on Lan) allows you to remotely turn on your computer. This could be from another computer or even your Android device. It works by supplying a little bit of power to your Ethernet card to allow it to listen for the &amp;#8220;wake up&amp;#8221; signal.</description>
+      <description>I really wish more people used WOL. It is probably one of the most underrated things in the world of wired networking. If you aren&amp;#8217;t familiar, WOL (Wake on Lan) allows you to remotely turn on your computer. This could be from another computer or even your Android device. It works by supplying a little bit of power to your Ethernet card to allow it to listen for the &amp;#8220;wake up&amp;#8221; signal.</description>
     </item>
     
     <item>
@@ -127,8 +126,7 @@ I really wish more people used WOL. It is probably one of the most underrated th
       <pubDate>Mon, 01 Feb 2016 22:02:30 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://bennettnotes.com/how-to-install-linux/</guid>
-      <description>{{ youtube TkxBKFJZnBA {}
-Now that you are familiar with Linux, how do you go about installing it? Well, the beauty of Linux is that there are many different flavors at your disposal, in the form of distributions. Each distribution offers its own pre-installed software and default desktop and environment. There are thousands of different Linux distributions to choose from. If you are looking for a distribution that fits your needs, check out this list of the top 11 best Linux distributions.</description>
+      <description>Now that you are familiar with Linux, how do you go about installing it? Well, the beauty of Linux is that there are many different flavors at your disposal, in the form of distributions. Each distribution offers its own pre-installed software and default desktop and environment. There are thousands of different Linux distributions to choose from. If you are looking for a distribution that fits your needs, check out this list of the top 11 best Linux distributions.</description>
     </item>
     
     <item>
@@ -137,8 +135,7 @@ Now that you are familiar with Linux, how do you go about installing it? Well, t
       <pubDate>Wed, 13 Jan 2016 03:20:26 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://bennettnotes.com/how-to-build-a-supercomputer/</guid>
-      <description>{{ youtube F8U4TrOlwEQ {}
-So you want to build a supercomputer? Well, if you checked out my video on quantum computing you&amp;#8217;ll know that scientist are working to make computers stronger and faster than ever. Unfortunately, building a quantum computer is not something you can do at home, unless your home is a laboratory of course. All hope isn&amp;#8217;t lost though, you can still go on to build your very own supercomputer.</description>
+      <description>So you want to build a supercomputer? Well, if you checked out my video on quantum computing you&amp;#8217;ll know that scientist are working to make computers stronger and faster than ever. Unfortunately, building a quantum computer is not something you can do at home, unless your home is a laboratory of course. All hope isn&amp;#8217;t lost though, you can still go on to build your very own supercomputer.</description>
     </item>
     
     <item>
@@ -147,8 +144,7 @@ So you want to build a supercomputer? Well, if you checked out my video on quant
       <pubDate>Tue, 25 Aug 2015 16:08:04 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://bennettnotes.com/league-of-legends-on-linux/</guid>
-      <description>{{ youtube TUB0soeTAuw {}
-League players are everywhere. Sure, the majority of them are PC users, but there&amp;#8217;s a growing population of Linux gamers out there who want in on the action. Thanks to the program Play On Linux, which makes use of Wine (a popular program that allows many Windows applications to run on Linux), anyone can play League on their alinux computer.
+      <description>League players are everywhere. Sure, the majority of them are PC users, but there&amp;#8217;s a growing population of Linux gamers out there who want in on the action. Thanks to the program Play On Linux, which makes use of Wine (a popular program that allows many Windows applications to run on Linux), anyone can play League on their alinux computer.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 I should also add that this procedure will also work on an x86 Chromebook with Crouton installed.</description>
     </item>
@@ -159,8 +155,7 @@ I should also add that this procedure will also work on an x86 Chromebook with C
       <pubDate>Sat, 09 May 2015 20:34:24 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://bennettnotes.com/create-your-own-personal-cloud-server/</guid>
-      <description>{{ youtube UY2CZc1ul8U {}
-Whether it is Dropbox, Google Drive, Skydrive or iCloud, I am sure that we all have our favorite cloud server. Cloud Servers are great because they allow us to easily sync files between all the devices on our network and access content from anywhere. However, a growing concern over cloud servers is privacy. You could be banned from hosting certain content and companies could easily sort through what you are uploading and create targeted ads based on it.</description>
+      <description>Whether it is Dropbox, Google Drive, Skydrive or iCloud, I am sure that we all have our favorite cloud server. Cloud Servers are great because they allow us to easily sync files between all the devices on our network and access content from anywhere. However, a growing concern over cloud servers is privacy. You could be banned from hosting certain content and companies could easily sort through what you are uploading and create targeted ads based on it.</description>
     </item>
     
   </channel>

@@ -19,8 +19,7 @@
       <pubDate>Sun, 06 Jul 2014 23:22:29 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</guid>
-      <description>{{ youtube _pmoYJrTgnM {}
-Everyone is familiar with tethering. However, many people overlook the ability to reverse tether. Reverse tethering allows you to share your computer&amp;#8217;s internet connection with your phone or tablet. This is useful if you&amp;#8217;re on a metered data plan or in an area which has no wifi and a weak mobile signal. 
+      <description>Everyone is familiar with tethering. However, many people overlook the ability to reverse tether. Reverse tethering allows you to share your computer&amp;#8217;s internet connection with your phone or tablet. This is useful if you&amp;#8217;re on a metered data plan or in an area which has no wifi and a weak mobile signal. 
 What You Will Need:  A rooted Android Device A Windows PC USB Driver Reverse Tether Zip (Go to this thread to download or direct download here)  Step 1: Install USB Drivers If you don&amp;#8217;t have any device drivers already installed on your computer and you never used adb before, then you will need to install the USB drivers.</description>
     </item>
     

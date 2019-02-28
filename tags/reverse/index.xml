@@ -28,8 +28,7 @@
       <pubDate>Sat, 02 Jul 2016 13:58:13 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://bennettnotes.com/reverse-tether/</guid>
-      <description>{{ youtube ueM2yAPGKBk {}
-Have you ever been stuck in a situation that you needed WiFi but only had an Ethernet connection available? Unless you&amp;#8217;re looking to connect your phone to an Ethernet connection, you would be all out of options. I found myself in a similar situation when I needed to setup a live stream using a bunch of laptops and only one Ethernet connection with no WiFi available.</description>
+      <description>Have you ever been stuck in a situation that you needed WiFi but only had an Ethernet connection available? Unless you&amp;#8217;re looking to connect your phone to an Ethernet connection, you would be all out of options. I found myself in a similar situation when I needed to setup a live stream using a bunch of laptops and only one Ethernet connection with no WiFi available. This is also useful if you are looking to avoid using mobile data.</description>
     </item>
     
     <item>
@@ -38,8 +37,7 @@ Have you ever been stuck in a situation that you needed WiFi but only had an Eth
       <pubDate>Sun, 06 Jul 2014 23:22:29 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</guid>
-      <description>{{ youtube _pmoYJrTgnM {}
-Everyone is familiar with tethering. However, many people overlook the ability to reverse tether. Reverse tethering allows you to share your computer&amp;#8217;s internet connection with your phone or tablet. This is useful if you&amp;#8217;re on a metered data plan or in an area which has no wifi and a weak mobile signal. 
+      <description>Everyone is familiar with tethering. However, many people overlook the ability to reverse tether. Reverse tethering allows you to share your computer&amp;#8217;s internet connection with your phone or tablet. This is useful if you&amp;#8217;re on a metered data plan or in an area which has no wifi and a weak mobile signal. 
 What You Will Need:  A rooted Android Device A Windows PC USB Driver Reverse Tether Zip (Go to this thread to download or direct download here)  Step 1: Install USB Drivers If you don&amp;#8217;t have any device drivers already installed on your computer and you never used adb before, then you will need to install the USB drivers.</description>
     </item>
     

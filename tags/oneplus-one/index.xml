@@ -19,8 +19,7 @@
       <pubDate>Mon, 05 Jan 2015 04:59:02 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://bennettnotes.com/bypass-android-lock-screen/</guid>
-      <description>{{ youtube 2ti6QLmDZc8 {}
-Locked out of your phone? Well you are in luck. There is a way to bypass your Android lock screen. Now before you get too excited, there are a few stipulations. First, this only works when your security is set to pattern lock. Secondly, you must have a rooted android device. And finally, you need to have adb debugging enabled. I know this might only be a small percentage of people out there, so for those of you who do, here&amp;#8217;s how you can bypass Android lock screen.</description>
+      <description>Locked out of your phone? Well you are in luck. There is a way to bypass your Android lock screen. Now before you get too excited, there are a few stipulations. First, this only works when your security is set to pattern lock. Secondly, you must have a rooted android device. And finally, you need to have adb debugging enabled. I know this might only be a small percentage of people out there, so for those of you who do, here&amp;#8217;s how you can bypass Android lock screen.</description>
     </item>
     
     <item>
@@ -29,10 +28,10 @@ Locked out of your phone? Well you are in luck. There is a way to bypass your An
       <pubDate>Mon, 29 Dec 2014 05:03:07 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://bennettnotes.com/adobe-flash-player-android-lollipop/</guid>
-      <description>{{ youtube videoseries?list=PLuaiNB9QarHwYJ_XIbMaIchpfWF1XTeat {}
-Adobe Flash Player Android Lollipop: At one time, Android fully supported adobe flash player. However, official support ended by the time KitKat was released (though there were still a few hacks that you could use to get it). Of course, HTML5 video players are the preferred option, but unfortunately, there are some porn sites that still rely heavily on adobe flash content.
+      <description>Adobe Flash Player Android Lollipop: At one time, Android fully supported adobe flash player. However, official support ended by the time KitKat was released (though there were still a few hacks that you could use to get it). Of course, HTML5 video players are the preferred option, but unfortunately, there are some porn sites that still rely heavily on adobe flash content.
 [adinserter block=&amp;#8221;5&amp;#8243;]
-&amp;nbsp;</description>
+&amp;nbsp;
+Well, if you have an Android device running Lollipop you can now access the flash content once more.</description>
     </item>
     
     <item>
@@ -41,8 +40,7 @@ Adobe Flash Player Android Lollipop: At one time, Android fully supported adobe 
       <pubDate>Sun, 21 Dec 2014 05:34:15 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://bennettnotes.com/tor-android/</guid>
-      <description>{{ youtube X0kAEwKJfhs {}
-Let&amp;#8217;s talk about internet privacy. So as you might be aware of, when you open up a tab in incognito mode you&amp;#8217;re not really browsing anonymously. Your ISP and and any one else who is monitoring your internet can get your location and see the sites you visited. To truly browse the internet privately, you need to use tor.
+      <description>Let&amp;#8217;s talk about internet privacy. So as you might be aware of, when you open up a tab in incognito mode you&amp;#8217;re not really browsing anonymously. Your ISP and and any one else who is monitoring your internet can get your location and see the sites you visited. To truly browse the internet privately, you need to use tor.
 [adinserter block=&amp;#8221;5&amp;#8243;]
 To keep it brief, Tor is a mesh of proxy servers that bounces your IP to different locations across the globe.</description>
     </item>

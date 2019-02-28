@@ -19,8 +19,7 @@
       <pubDate>Mon, 01 Feb 2016 22:07:03 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://bennettnotes.com/remotely-turn-on-computer-with-linux/</guid>
-      <description>{{ youtube 2vP7z0X0NUc {}
-I really wish more people used WOL. It is probably one of the most underrated things in the world of wired networking. If you aren&amp;#8217;t familiar, WOL (Wake on Lan) allows you to remotely turn on your computer. This could be from another computer or even your Android device. It works by supplying a little bit of power to your Ethernet card to allow it to listen for the &amp;#8220;wake up&amp;#8221; signal.</description>
+      <description>I really wish more people used WOL. It is probably one of the most underrated things in the world of wired networking. If you aren&amp;#8217;t familiar, WOL (Wake on Lan) allows you to remotely turn on your computer. This could be from another computer or even your Android device. It works by supplying a little bit of power to your Ethernet card to allow it to listen for the &amp;#8220;wake up&amp;#8221; signal.</description>
     </item>
     
   </channel>

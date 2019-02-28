@@ -19,8 +19,7 @@
       <pubDate>Thu, 05 May 2016 14:46:23 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://bennettnotes.com/fallout-4-tribute/</guid>
-      <description>{{ youtube YHL2e1zpd_g {}
-So I had some leftover Fallout 4 footage lying around and I came across Lune by NCS. I feel like this song would be the perfect soundtrack for this game. So here&amp;#8217;s a short video montage of a few action shots.</description>
+      <description>So I had some leftover Fallout 4 footage lying around and I came across Lune by NCS. I feel like this song would be the perfect soundtrack for this game. So here&amp;#8217;s a short video montage of a few action shots.</description>
     </item>
     
     <item>
@@ -29,10 +28,9 @@ So I had some leftover Fallout 4 footage lying around and I came across Lune by 
       <pubDate>Thu, 17 Dec 2015 16:41:21 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://bennettnotes.com/fallout-4-tweaks/</guid>
-      <description>{{ youtube o1URARqhV0k {}
-Fallout 4 has been one of my favorite games of the year, but it isn&amp;#8217;t perfect. Everyone is aware how&amp;#8230;lacking&amp;#8230; Bethesda can be with their games. However, thanks to the modding community, many of the issues that you might encounter in Fallout 4 can be fixed.
+      <description>Fallout 4 has been one of my favorite games of the year, but it isn&amp;#8217;t perfect. Everyone is aware how&amp;#8230;lacking&amp;#8230; Bethesda can be with their games. However, thanks to the modding community, many of the issues that you might encounter in Fallout 4 can be fixed.
 [adinserter block=&amp;#8221;5&amp;#8243;]
-One of the biggest complaints about Fallout 4 has been the FPS lock and not supporting 21:9 widescreen monitors.</description>
+One of the biggest complaints about Fallout 4 has been the FPS lock and not supporting 21:9 widescreen monitors. If you&amp;#8217;re feeling adventurous, you can dig through the game&amp;#8217;s ini file and adjust the values accordingly, but the easier solution would be to download the Fallout 4 Configuration tool which allows to you use a simple GUI that will make Fallout 4 tweaks.</description>
     </item>
     
   </channel>
