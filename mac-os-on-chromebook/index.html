@@ -111,10 +111,9 @@ To do this, we are going to be doing some very convoluted emulation.">
   <meta name="generator" content="Hugo 0.54.0" />
   <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
 
-
+  
   
   
   
@@ -314,7 +313,7 @@ sudo sh ~/Downloads/change-kernel-flags<code>
 
 <p>This will download a script that will disable module_locking so that the modules can be loaded from outside of Chrome OS.</p>
 
-<p><img class="alignnone wp-image-1384 size-large" src="http://www.davebennett.tech/wp-content/uploads/2016/02/setup-kernel-1024x576.jpg" alt="Setup Kernel" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/setup-kernel-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/setup-kernel-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/setup-kernel-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/setup-kernel.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
+<p><img class="alignnone wp-image-1384 size-large" src="/wp-content/uploads/2016/02/setup-kernel-1024x576.jpg" alt="Setup Kernel" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/setup-kernel-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/setup-kernel-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/setup-kernel-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/setup-kernel.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
 
 <p>Now, start up your Linux environment:</p>
 
@@ -328,7 +327,7 @@ sudo sh ~/Downloads/change-kernel-flags<code>
 
 <p>This will download and execute a script that will install the Linux headers and image and also load the virtual box modules. For more information about the above scripts, <a href="https://github.com/divx118/crouton-packages/blob/master/README.md" target="_blank" rel="noopener">refer to the github.</a> <strong>You might need to reboot after this step.</strong></p>
 
-<p><img class="alignnone size-large wp-image-1383" src="http://www.davebennett.tech/wp-content/uploads/2016/02/headers-1024x576.jpg" alt="Setup Headers Linux" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/headers-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/headers-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/headers-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/headers.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
+<p><img class="alignnone size-large wp-image-1383" src="/wp-content/uploads/2016/02/headers-1024x576.jpg" alt="Setup Headers Linux" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/headers-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/headers-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/headers-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/headers.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
 
 <h2 id="step-2-download-and-install-virtualbox">Step 2: Download and Install Virtualbox</h2>
 
@@ -342,33 +341,33 @@ sudo sh ~/Downloads/change-kernel-flags<code>
 
 <p>Now download <a href="https://www.virtualbox.org/wiki/Linux_Downloads" target="_blank" rel="noopener">VirtualBox for Linux</a>. Choose to open it up with the Ubuntu Software center (apt-get install software-center if you don&#8217;t have it) to install it.</p>
 
-<p><img class="alignnone size-large wp-image-1382" src="http://www.davebennett.tech/wp-content/uploads/2016/02/install-virtualbox-1024x576.jpg" alt="Download and Install VirtualBox" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/install-virtualbox-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/install-virtualbox-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/install-virtualbox-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/install-virtualbox.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
+<p><img class="alignnone size-large wp-image-1382" src="/wp-content/uploads/2016/02/install-virtualbox-1024x576.jpg" alt="Download and Install VirtualBox" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/install-virtualbox-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/install-virtualbox-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/install-virtualbox-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/install-virtualbox.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
 
 <h2 id="step-3-setting-up-the-vm">Step 3: Setting up the VM</h2>
 
 <p>Open up VirtualBox and create a new virtual machine.</p>
 
-<p><img class="alignnone size-large wp-image-1381" src="http://www.davebennett.tech/wp-content/uploads/2016/02/name-1024x576.jpg" alt="New Virtual Machine" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/name-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/name-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/name-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/name.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
+<p><img class="alignnone size-large wp-image-1381" src="/wp-content/uploads/2016/02/name-1024x576.jpg" alt="New Virtual Machine" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/name-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/name-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/name-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/name.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
 
 <p>Make sure that the amount of RAM that you allocate to the VM is less than 1 GB( or somewhere in the green area). Not leaving enough RAM for Chrome OS and Ubuntu will cause the VM to crash.</p>
 
-<p><img class="alignnone size-large wp-image-1380" src="http://www.davebennett.tech/wp-content/uploads/2016/02/Ram-amount-1024x576.jpg" alt="Virtual Machine Ram AMount" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/Ram-amount-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/Ram-amount-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/Ram-amount-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/Ram-amount.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
+<p><img class="alignnone size-large wp-image-1380" src="/wp-content/uploads/2016/02/Ram-amount-1024x576.jpg" alt="Virtual Machine Ram AMount" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/Ram-amount-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/Ram-amount-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/Ram-amount-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/Ram-amount.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
 
 <p>Next, create a new virtual disk image. The recommended size is 20GB. If yo don&#8217;t have enough space available on your Chromebook you can install the image to a USB flash drive. Just be aware that your read and write times will be slower.</p>
 
-<p><img class="alignnone size-large wp-image-1379" src="http://www.davebennett.tech/wp-content/uploads/2016/02/virtual-disk-image-1024x576.jpg" alt="virtual disk image" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
+<p><img class="alignnone size-large wp-image-1379" src="/wp-content/uploads/2016/02/virtual-disk-image-1024x576.jpg" alt="virtual disk image" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
 
-<p><img class="alignnone size-large wp-image-1378" src="http://www.davebennett.tech/wp-content/uploads/2016/02/virtual-disk-image-2-1024x576.jpg" alt="VirtualBox Virtual Disk Image" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image-2-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image-2-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image-2-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image-2.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
+<p><img class="alignnone size-large wp-image-1378" src="/wp-content/uploads/2016/02/virtual-disk-image-2-1024x576.jpg" alt="VirtualBox Virtual Disk Image" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image-2-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image-2-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image-2-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/virtual-disk-image-2.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
 
-<p><img class="alignnone size-large wp-image-1377" src="http://www.davebennett.tech/wp-content/uploads/2016/02/dynamic-1024x576.jpg" alt="Dyanamically Allocated" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/dynamic-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/dynamic-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/dynamic-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/dynamic.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
+<p><img class="alignnone size-large wp-image-1377" src="/wp-content/uploads/2016/02/dynamic-1024x576.jpg" alt="Dyanamically Allocated" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/dynamic-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/dynamic-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/dynamic-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/dynamic.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
 
 <p>Within the settings of your VM, uncheck the boxes <em>Enable Efi</em> and <em>Hardware Clock.</em></p>
 
-<p><img class="alignnone size-large wp-image-1375" src="http://www.davebennett.tech/wp-content/uploads/2016/02/system-1024x576.jpg" alt="Virtual Box Mac OS Settings" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/system-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/system-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/system-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/system.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
+<p><img class="alignnone size-large wp-image-1375" src="/wp-content/uploads/2016/02/system-1024x576.jpg" alt="Virtual Box Mac OS Settings" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/system-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/system-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/system-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/system.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
 
 <p>Under display, allocate the maximum amount of video memory available.</p>
 
-<p><img class="alignnone size-large wp-image-1374" src="http://www.davebennett.tech/wp-content/uploads/2016/02/display-1024x576.jpg" alt="Virtual Box Mac OS Settings" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/display-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/display-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/display-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/display.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
+<p><img class="alignnone size-large wp-image-1374" src="/wp-content/uploads/2016/02/display-1024x576.jpg" alt="Virtual Box Mac OS Settings" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/display-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/display-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/display-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/display.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
 
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"
@@ -380,7 +379,7 @@ sudo sh ~/Downloads/change-kernel-flags<code>
 
 <p>Under Storage, add an optical drive and choose the location of your Mac OS iso file.</p>
 
-<p><img class="alignnone size-large wp-image-1373" src="http://www.davebennett.tech/wp-content/uploads/2016/02/storage-1024x576.jpg" alt="Virtual Box Mac OS Settings" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/storage-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/storage-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/storage-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/storage.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
+<p><img class="alignnone size-large wp-image-1373" src="/wp-content/uploads/2016/02/storage-1024x576.jpg" alt="Virtual Box Mac OS Settings" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/storage-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/storage-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/storage-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/storage.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" /></p>
 
 <p>Finally, you&#8217;re ready to start the VM. Be patient, it might take a few minutes before you see the welcome screen.</p>
 
@@ -395,7 +394,7 @@ sudo sh ~/Downloads/change-kernel-flags<code>
 </p>
 
 <p>
-  <img class="alignnone size-large wp-image-1372" src="http://www.davebennett.tech/wp-content/uploads/2016/02/disk-utilties-1024x576.jpg" alt="Mac OS Install Disk Ultities" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/disk-utilties-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/disk-utilties-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/disk-utilties-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/disk-utilties.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" />
+  <img class="alignnone size-large wp-image-1372" src="/wp-content/uploads/2016/02/disk-utilties-1024x576.jpg" alt="Mac OS Install Disk Ultities" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/disk-utilties-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/disk-utilties-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/disk-utilties-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/disk-utilties.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" />
 </p>
 
 <p>
@@ -403,7 +402,7 @@ sudo sh ~/Downloads/change-kernel-flags<code>
 </p>
 
 <p>
-  <img class="alignnone size-large wp-image-1371" src="http://www.davebennett.tech/wp-content/uploads/2016/02/erase-1024x576.jpg" alt="Mac OS Install Disk Ultities Partition" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/erase-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/erase-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/erase-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/erase.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" />
+  <img class="alignnone size-large wp-image-1371" src="/wp-content/uploads/2016/02/erase-1024x576.jpg" alt="Mac OS Install Disk Ultities Partition" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/erase-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/erase-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/erase-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/erase.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" />
 </p>
 
 <p>
@@ -411,7 +410,7 @@ sudo sh ~/Downloads/change-kernel-flags<code>
 </p>
 
 <p>
-  <img class="alignnone size-large wp-image-1370" src="http://www.davebennett.tech/wp-content/uploads/2016/02/installation-1-1024x576.jpg" alt="Mac OS Install " width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/installation-1-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/installation-1-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/installation-1-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/installation-1.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" />
+  <img class="alignnone size-large wp-image-1370" src="/wp-content/uploads/2016/02/installation-1-1024x576.jpg" alt="Mac OS Install " width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/installation-1-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/installation-1-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/installation-1-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/installation-1.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" />
 </p>
 
 <p>
@@ -419,7 +418,7 @@ sudo sh ~/Downloads/change-kernel-flags<code>
 </p>
 
 <p>
-  <img class="alignnone size-large wp-image-1369" src="http://www.davebennett.tech/wp-content/uploads/2016/02/mac-os-on-chromebook-1-1024x576.jpg" alt="mac os on chromebook" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/mac-os-on-chromebook-1-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/mac-os-on-chromebook-1-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/mac-os-on-chromebook-1-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/mac-os-on-chromebook-1.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" />
+  <img class="alignnone size-large wp-image-1369" src="/wp-content/uploads/2016/02/mac-os-on-chromebook-1-1024x576.jpg" alt="mac os on chromebook" width="720" height="405" srcset="http://localhost/wordpress/wp-content/uploads/2016/02/mac-os-on-chromebook-1-1024x576.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2016/02/mac-os-on-chromebook-1-300x169.jpg 300w, http://localhost/wordpress/wp-content/uploads/2016/02/mac-os-on-chromebook-1-768x432.jpg 768w, http://localhost/wordpress/wp-content/uploads/2016/02/mac-os-on-chromebook-1.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" />
 </p>
 
 
