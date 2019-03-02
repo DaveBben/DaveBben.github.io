@@ -279,11 +279,11 @@
 <p>If you have been reading up on Bitcoin and blockchain, then you are probably familiar with the idea of &#8220;proof of work.&#8221; Proof of work (POW) is a measure that a program or system can implement to deter malicious users from performing Dos attacks or spamming the program&#8217;s resources. Essentially, it forces the user to perform some complex and energy costing calculation before they are able to access the resource. Once the calculation is performed, the answer could be easily verified by other nodes on the network. When dealing with cryptocurrency this is essential because it prevents a computer from spamming the blockchain with a bunch of invalid new blocks.</p>
 
 <ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-format="fluid"
-data-ad-layout="in-article"
-data-ad-client="ca-pub-6594501022141871"
-data-ad-slot="6999463098"></ins>
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
 
 
 <p>The most popular proof of work system is the hashcash proof of work. This proof of work system requires the computer to find a hash of a plaintext string combined with an arbitrary piece of data (nonce) to make a hash that begins with a certain number of zeros. For example, say we have the string &#8220;cat.&#8221; Let&#8217;s say that then creates a hash of &#8220;abchdlerfergh&#8221; using the SHA-256 hash scheme. However, we want the hash to start with three zeroes so it will be &#8220;000ehbskfjek.&#8221; What we will do is take a number starting at 0, then hash it with out plaintext string and see if it gives us the desired output. If it doesn&#8217;t, we will increase the number until it does. A javascript hashcash proof of work implementation would work the exact same way since we are essentially just taking advantage of the crpyto library in NodeJS.</p>
@@ -322,11 +322,11 @@ data-ad-slot="6999463098"></ins>
 }());</pre>
 
 <ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-format="fluid"
-data-ad-layout="in-article"
-data-ad-client="ca-pub-6594501022141871"
-data-ad-slot="6999463098"></ins>
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
 
 
 <p>Once it&#8217;s done, you should get an output that looks like this:</p>

@@ -296,11 +296,11 @@ Fetch Call Suppose I have the following XMLhttp request using the fetch API:">
 <p>This request calls the getname.php file with a query string of the name that we want to find. Take note that I am using a relative path when calling my file, therefore it&#8217;s safe to assume that my front-end and back-end are being served on the same server with the same port.</p>
 
 <ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-format="fluid"
-data-ad-layout="in-article"
-data-ad-client="ca-pub-6594501022141871"
-data-ad-slot="6999463098"></ins>
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
 
 
 <h2 id="database-config">Database Config</h2>
@@ -355,11 +355,11 @@ echo json_encode($names);
 <p>We use the <strong>parse_str </strong>function to get any query strings and we save them to the <strong>query_array</strong> (always save to the result array, never directly assign them to a variable). Recall that our fetch command grabs this script with a query string called <em>name</em>. Therefore, we will have an array with one key with the value <em>name.</em> We also check to make sure that the name value is defined and not null, otherwise, we return a 400 error (though this is not checking for an empty string).</p>
 
 <ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-format="fluid"
-data-ad-layout="in-article"
-data-ad-client="ca-pub-6594501022141871"
-data-ad-slot="6999463098"></ins>
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
 
 
 <p>Finally, it makes the SQL request and pushes all the resulting rows into our names array. We then close the connection and <strong>echo the json_encoded value</strong> of the names array as a response. So our response in javascript will look like:</p>

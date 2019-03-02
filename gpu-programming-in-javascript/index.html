@@ -279,11 +279,11 @@
 <p>Here&#8217;s another thing to keep in mind before you jump in. Just because something can run on the GPU doesn&#8217;t mean that it should. The GPU really excels with doing simple things in parallel on large amounts of data. For example, multiplication on very large matrices is a perfect example of the power of GPU processing over the CPU. So let&#8217;s implement some simple GPU programming in Javascript using matrix multiplication.</p>
 
 <ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-format="fluid"
-data-ad-layout="in-article"
-data-ad-client="ca-pub-6594501022141871"
-data-ad-slot="6999463098"></ins>
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
 
 
 <h2 id="index-html">Index HTML</h2>
@@ -341,11 +341,11 @@ output: [SIZE,SIZE],
 <p>I&#8217;m creating a function on the kernel that will traverse two matrices (in this case our same matrix against itself). This.thread.x and this.thread.y refers to the x and y position of each of the matrices. Since this will be running on WebGL, you are limited to the math operations at your disposal. Also, all loops need to be bound. So you can&#8217;t do for(i=0;i&lt;n;i+=1), instead of that <em>n</em> either needs to be a hardcoded number or a fixed constant.</p>
 
 <ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-format="fluid"
-data-ad-layout="in-article"
-data-ad-client="ca-pub-6594501022141871"
-data-ad-slot="6999463098"></ins>
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
 
 
 <p>Finally, we are declaring the output size of the matrix. Now, let&#8217;s log the output.</p>

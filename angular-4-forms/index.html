@@ -312,11 +312,11 @@ HTML You will also notice that I am using Bootstrap for some styling, that is co
 <p>Now let&#8217;s talk about the inputs. Each input needs to have its <strong>name attribute define</strong>. Also, you need to specify a model using <strong>#someName = &#8220;ngModel&#8221;</strong>. You can look up in the angular docs as to why it is that way, but just know you need that. Also, I am using the line <strong>[(ngModel)]=&#8221;student.firstName&#8221; </strong>to put a two-way bind on the student object and the form input.</p>
 
 <ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-format="fluid"
-data-ad-layout="in-article"
-data-ad-client="ca-pub-6594501022141871"
-data-ad-slot="6999463098"></ins>
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
 
 
 <p>Now here&#8217;s the cool thing, you can add required and regex validators. I only used required in this form. You will notice that underneath each input element I have a div that shows up only if the input doesn&#8217;t meet the regex requirements or was not filled in. There is this thing called touched or dirty. Essentially, touch is if the user has entered the field. Dirty is if the field is invalid and pretty much the same thing for error.</p>

@@ -280,11 +280,11 @@
 <p>For this tutorial, we are going to build a simple app that grabs the new posts from a subreddit. Because we do not need any user data (profile, login, etc), we are going to simply use the <a href="https://github.com/reddit/reddit/wiki/OAuth2" target="_blank" rel="noopener">application only strategy</a>. This allows us to perform the steps above without dealing with the hassle of user login.</p>
 
 <ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-format="fluid"
-data-ad-layout="in-article"
-data-ad-client="ca-pub-6594501022141871"
-data-ad-slot="6999463098"></ins>
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
 
 
 <h2 id="client-id">Client ID</h2>
@@ -324,11 +324,11 @@ const subreddits = ['android'];</pre>
 }</pre>
 
 <ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-format="fluid"
-data-ad-layout="in-article"
-data-ad-client="ca-pub-6594501022141871"
-data-ad-slot="6999463098"></ins>
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
 
 
 <p>After you have the init function and getRandomID function in place, create the grabStories() function. The purpose of this function is to trigger the API call to grab the posts from a predefined subreddit.</p>
@@ -390,11 +390,11 @@ return true;
 <p>This function might look complicated, but it&#8217;s not. Essentially, it&#8217;s just a call to the Reddit API to retrieve an access token. You will get back a json response that will contain the access_token and the amount of seconds that the token is valid for. Usually, this time is 3600 seconds (or one hour). However, it&#8217;s never safe to assume that this will always be the case. So I create a new date in the future that&#8217;s the current time plus the expiration in seconds time and save this to local storage. For this, I added a prototype function to the Date object called addHours.</p>
 
 <ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-format="fluid"
-data-ad-layout="in-article"
-data-ad-client="ca-pub-6594501022141871"
-data-ad-slot="6999463098"></ins>
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
 
 
 <p>Again, thanks to <a href="https://stackoverflow.com/questions/1050720/adding-hours-to-javascript-date-object" target="_blank" rel="noopener">Stackoverflow</a> for this because dealing with dates in Javascript is a mess:</p>

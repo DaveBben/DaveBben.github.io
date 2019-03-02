@@ -266,11 +266,13 @@
             <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" width="300" height="150" allowfullscreen="allowfullscreen" data-src="//www.youtube.com/embed/QQgKNhCO7p0 "></iframe></div>
             <hr>
             
-                <ins class="adsbygoogle"
-                style="display:block"
-                data-ad-client="ca-pub-6594501022141871"
-                data-ad-slot="6223025728"
-                data-ad-format="link"></ins>
+            
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-6594501022141871"
+                 data-ad-slot="6223025728"
+                 data-ad-format="link"
+                 data-full-width-responsive="true"></ins>
             <hr>
 
             
@@ -294,11 +296,11 @@
 <p>For this tutorial, we are going to exclude the nonce field because we will not be implementing a mining algorithm. The block&#8217;s hash is a SHA256 hash that is made from combining all the fields listed above. What&#8217;s cool about a blockchain is that every block will contain the hash of the previous block. This means that the chain becomes immutable. If any of the data in the previous blocks were to change, then the block would contain a new hash, resulting in an invalidation of the rest of the chain.</p>
 
 <ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-format="fluid"
-data-ad-layout="in-article"
-data-ad-client="ca-pub-6594501022141871"
-data-ad-slot="6999463098"></ins>
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
 
 
 <h2 id="block-class">Block Class</h2>
@@ -389,11 +391,11 @@ module.exports = Blockchain;</pre>
 <p>In this class, we created four functions. The <strong>getPreviousHash()</strong> function just returns the hash of the latest block in the chain. We need this because every new block needs to have the hash of the previous block. This function only gets called in the <strong>addBlock() </strong>function.</p>
 
 <ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-format="fluid"
-data-ad-layout="in-article"
-data-ad-client="ca-pub-6594501022141871"
-data-ad-slot="6999463098"></ins>
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
 
 
 <p>In the <strong>addBlock()</strong> function, we a parameter called data that can contain any arbitrary piece of data. We then set all the necessary information we need to form a new block. Before we add the block to the chain, we need to call the <strong>isValid()</strong> function.</p>

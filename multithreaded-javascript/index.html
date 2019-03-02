@@ -303,11 +303,11 @@ Let&#8217;s say I have the following single page application (SPA) that shows a 
 <p>My Index.html has an empty <ul> element that I want to append all the primes that I find to it. I call my single-thread.js file which does all the work.</p>
 
 <ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-format="fluid"
-data-ad-layout="in-article"
-data-ad-client="ca-pub-6594501022141871"
-data-ad-slot="6999463098"></ins>
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
 
 
 <h3 id="single-thread-js">Single-Thread.js</h3>
@@ -343,11 +343,11 @@ return false;
 <p>If you run this in your browser, it will work as intended (printing out all the primes from 1 to 600,000) but will cause for a terrible user experience. The UI will simply lock up until this script finishes executing. In fact, Chrome might even warn you that the page has become unresponsive. So even though I am telling Javascript to append my number to the list in the loop, all UI rendering gets paused until the script completes. Thus, the user is just staring at a blank loading window.</p>
 
 <ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-format="fluid"
-data-ad-layout="in-article"
-data-ad-client="ca-pub-6594501022141871"
-data-ad-slot="6999463098"></ins>
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
 
 
 <h2 id="multithreaded-javascript-using-web-workers">Multithreaded Javascript Using Web Workers</h2>
@@ -398,11 +398,11 @@ data-ad-slot="6999463098"></ins>
 <p>The only thing that I changed was calling the postMessage() function (and removing the <ul> append). Although this function is part of the window&#8217;s properties, you don&#8217;t have to call it with window.postMessage() because you are already inside of a Web Worker context.</p>
 
 <ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-format="fluid"
-data-ad-layout="in-article"
-data-ad-client="ca-pub-6594501022141871"
-data-ad-slot="6999463098"></ins>
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
 
 
 <h3 id="index-html-1">Index.html</h3>
