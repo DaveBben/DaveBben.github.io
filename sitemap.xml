@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.bennettnotes.com/post/how-to-setup-search-on-hugo/</loc>
+    <lastmod>2019-03-04T06:11:06-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/post/ebooks-are-not-social/</loc>
     <lastmod>2019-03-03T18:26:46-05:00</lastmod>
   </url>
@@ -1383,7 +1388,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/</loc>
-    <lastmod>2019-03-03T18:26:46-05:00</lastmod>
+    <lastmod>2019-03-04T06:11:06-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2732,6 +2737,12 @@
   </url>
   
   <url>
+    <loc>https://www.bennettnotes.com/tags/hugo/</loc>
+    <lastmod>2019-03-04T06:11:06-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/tags/hype/</loc>
     <lastmod>2016-03-13T15:42:22+00:00</lastmod>
     <priority>0</priority>
@@ -3082,6 +3093,12 @@
   <url>
     <loc>https://www.bennettnotes.com/tags/loop/</loc>
     <lastmod>2017-12-22T14:54:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bennettnotes.com/tags/lunr/</loc>
+    <lastmod>2019-03-04T06:11:06-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3693,7 +3710,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/post/</loc>
-    <lastmod>2019-03-03T18:26:46-05:00</lastmod>
+    <lastmod>2019-03-04T06:11:06-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3747,7 +3764,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/categories/programming/</loc>
-    <lastmod>2018-04-22T17:53:29+00:00</lastmod>
+    <lastmod>2019-03-04T06:11:06-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4348,6 +4365,12 @@
   <url>
     <loc>https://www.bennettnotes.com/tags/startup/</loc>
     <lastmod>2016-03-18T15:27:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bennettnotes.com/tags/static-site/</loc>
+    <lastmod>2019-03-04T06:11:06-05:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>How to Setup Search on Hugo - Bennett Notes</title>
+  <meta property="og:title" content="How to Setup Search on Hugo" />
+  <meta name="twitter:title" content="How to Setup Search on Hugo" />
+  <meta name="description" content="Here&#39;s how to setup search using lunr on your static Hugo your Jekyll site">
+  <meta property="og:description" content="Here&#39;s how to setup search using lunr on your static Hugo your Jekyll site">
+  <meta name="twitter:description" content="Here&#39;s how to setup search using lunr on your static Hugo your Jekyll site">
+  <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bennett Notes",
+    
+    "url": "https://www.bennettnotes.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https://www.bennettnotes.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://www.bennettnotes.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://www.bennettnotes.com/post/how-to-setup-search-on-hugo/",
+          "name": "How to setup search on hugo"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Dave Bennett"
+  },
+  "headline": "How to Setup Search on Hugo",
+  "description" : "Here&#39;s how to setup search using lunr on your static Hugo your Jekyll site",
+  "inLanguage" : "en",
+  "wordCount": 1009,
+  "datePublished" : "2019-03-04T06:11:06",
+  "dateModified" : "2019-03-04T06:11:06",
+  "image" : "https://www.bennettnotes.com/img/avatar-icon.png",
+  "keywords" : [ "lunr, hugo, static site" ],
+  "mainEntityOfPage" : "https://www.bennettnotes.com/post/how-to-setup-search-on-hugo/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https://www.bennettnotes.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https://www.bennettnotes.com/img/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="How to Setup Search on Hugo" />
+<meta property="og:description" content="Here&#39;s how to setup search using lunr on your static Hugo your Jekyll site">
+<meta property="og:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://www.bennettnotes.com/post/how-to-setup-search-on-hugo/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bennett Notes" />
+  <meta name="twitter:title" content="How to Setup Search on Hugo" />
+  <meta name="twitter:description" content="Here&#39;s how to setup search using lunr on your static Hugo your Jekyll site">
+  <meta name="twitter:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <link href='https://www.bennettnotes.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <meta property="og:url" content="https://www.bennettnotes.com/post/how-to-setup-search-on-hugo/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+<link rel="stylesheet"
+      href="https://www.bennettnotes.com/bundle.min.css"
+      integrity="">
+<meta name="msvalidate.01" content="50CDEA68FD6A5F7983A98164E8C48619" />
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-41393353-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://www.bennettnotes.com">Bennett Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Programming" href="/categories/programming">Programming</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Technology</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories/android">Android</a>
+                
+                  <a href="/categories/chrome-os">Chrome OS</a>
+                
+                  <a href="/categories/gadgets">Gadgets</a>
+                
+                  <a href="/categories/linux">Linux</a>
+                
+                  <a href="/categories/windows">Windows</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Life" href="/categories/life">Life</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/page/search/">Search</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bennett Notes" href="https://www.bennettnotes.com">
+            <img class="avatar-img" src="https://www.bennettnotes.com/img/avatar-icon.png" alt="Bennett Notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>How to Setup Search on Hugo</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+Posted on March 4, 2019
+  
+  
+    &nbsp;|  &nbsp; 5&nbsp;minutes
+  
+  
+  
+    &nbsp;|&nbsp;Dave Bennett
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+            
+        
+
+<p>Setting up search your static site built using Hugo or Jekyll is not as difficult as it sounds. If your static site is hosted on GitHub pages (which mine currently is), then you will not be able to use php or any server side scripting. Therefore, we must rely on a pure javascript solution.</p>
+
+<h2 id="using-lunr-js">Using Lunr.js</h2>
+
+<p>Lunr is a popular library used to parse through data and return the most accurate match based on a search query. We will use it to provide the core search functionality on our site. In order to use lunr, we need to feed it data about every post on our site (title, tags, description). We will use an NPM package that will auto-generate this for us.</p>
+
+<h2 id="step-1">Step 1:</h2>
+
+<p>Make sure you have <a href="https://nodejs.org/en/">Nodejs</a> installed. Then start by initializing a new project in the root of your hugo site directory:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">npm init -y</code></pre></div>
+<p>You should get out an empty package.json. Now let&rsquo;s install the hugo-lunr package. This will allow you to easily run a script that will traverse your post and output a JSON file filled with the info that we can provide to lunr.js.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">npm install hugo-lunr</code></pre></div>
+<p>You will not see the package listed under your dependencies in package.json.</p>
+
+<h2 id="step-2">Step 2:</h2>
+
+<p>Inside of the scripts property, create a new script with the following:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#e6db74">&#34;scripts&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+       <span style="color:#f92672">&#34;index&#34;</span>: <span style="color:#e6db74">&#34;hugo-lunr&#34;</span> 
+}</code></pre></div>
+<p>When you run this script, it will automatically look in the content directory of your hugo site and traverse though each post and output a json in public/lunr.json.</p>
+
+<h3 id="but-wait-my-posts-are-not-in-toml">But wait, my posts are not in TOML</h3>
+
+<p>If you are like me, and prefer to have your posts written in YAML, then you will need to convert them to TOML before hugo-lunr can process them. Modify your script to have the following:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#e6db74">&#34;scripts&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+       <span style="color:#f92672">&#34;index&#34;</span>: <span style="color:#e6db74">&#34;hugo convert toTOML -o ./converted &amp;&amp; hugo-lunr -i \&#34;converted/**\&#34; -o static/js/index.json &amp;&amp; rmdir /s /q \&#34;converted\&#34;&#34;</span>,
+}</code></pre></div>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
+
+
+<h2 id="step-3">Step 3:</h2>
+
+<p>Now it&rsquo;s time to create an actual page for search. Create a new html file called search.html in your content/page directory. In this file, we will setup the html we will want to display for searches to be visible.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;input-group&#34;</span>&gt;
+      &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;form-control&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;search-field&#34;</span> <span style="color:#a6e22e">placeholder</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Search for...&#34;</span> /&gt;
+      &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;input-group-btn&#34;</span>&gt;
+        &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;btn btn-default&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;search-button&#34;</span>&gt;Search&lt;/<span style="color:#f92672">button</span>&gt;
+      &lt;/<span style="color:#f92672">span</span>&gt;
+    &lt;/<span style="color:#f92672">div</span>&gt;
+    <span style="color:#75715e">&lt;!-- /input-group --&gt;</span>
+    &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text-align:right; font-size:10px;&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;found&#34;</span>&gt;&lt;/<span style="color:#f92672">p</span>&gt;
+    &lt;<span style="color:#f92672">hr</span>/&gt;
+    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;results&#34;</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt;
+  &lt;/<span style="color:#f92672">div</span>&gt;</code></pre></div>
+<h2 id="step-4">Step 4:</h2>
+
+<p>Create a javascript file called search.js in your static/js directory.  Put the following inside of that file:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">if</span> ((window.<span style="color:#a6e22e">location</span>.<span style="color:#a6e22e">pathname</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;/page/search/&#34;</span>)) {
+  <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">lunrIndex</span>, <span style="color:#a6e22e">allPosts</span>;
+  <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#34;/js/index.json&#34;</span>)
+    .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">response</span> =&gt; {
+      <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">json</span>();
+    })
+    .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">response</span> =&gt; {
+      <span style="color:#a6e22e">allPosts</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">response</span>;
+      <span style="color:#a6e22e">lunrIndex</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">lunr</span>(<span style="color:#66d9ef">function</span>() {
+        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">field</span>(<span style="color:#e6db74">&#34;title&#34;</span>, {
+          <span style="color:#a6e22e">boost</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">10</span>
+        });
+        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">field</span>(<span style="color:#e6db74">&#34;tags&#34;</span>, {
+          <span style="color:#a6e22e">boost</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">5</span>
+        });
+
+        <span style="color:#75715e">// ref is the result item identifier (I chose the page URL)
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">ref</span>(<span style="color:#e6db74">&#34;uri&#34;</span>);
+        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">length</span>; <span style="color:#f92672">++</span><span style="color:#a6e22e">i</span>) {
+          <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">add</span>(<span style="color:#a6e22e">response</span>[<span style="color:#a6e22e">i</span>]);
+        }
+      });
+    })
+    .<span style="color:#66d9ef">catch</span>(<span style="color:#a6e22e">error</span> =&gt; {
+      <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">error</span>(<span style="color:#a6e22e">error</span>);
+    });
+
+  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;search-button&#34;</span>).<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>() {
+    <span style="color:#a6e22e">search</span>();
+  };
+
+  <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">search</span>() {
+    document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;results&#34;</span>).<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
+    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">query</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;search-field&#34;</span>).<span style="color:#a6e22e">value</span>;
+    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">results</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">lunrIndex</span>.<span style="color:#a6e22e">search</span>(<span style="color:#a6e22e">query</span>).<span style="color:#a6e22e">map</span>(<span style="color:#a6e22e">result</span> =&gt; {
+      <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">allPosts</span>.<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">page</span> =&gt; {
+        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">uri</span> <span style="color:#f92672">===</span> <span style="color:#a6e22e">result</span>.<span style="color:#a6e22e">ref</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">result</span>.<span style="color:#a6e22e">score</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">4</span>;
+      })[<span style="color:#ae81ff">0</span>];
+    });
+    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">totalResults</span>;
+    <span style="color:#a6e22e">results</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">results</span>.<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">p</span> =&gt; {
+      <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">p</span>) {
+        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
+      }
+    });
+    document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#34;h1&#34;</span>);
+    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">20</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">results</span>.<span style="color:#a6e22e">length</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>) {
+      <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">header</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#34;h2&#34;</span>);
+      <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">anchor</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#34;a&#34;</span>);
+      <span style="color:#a6e22e">anchor</span>.<span style="color:#a6e22e">setAttribute</span>(<span style="color:#e6db74">&#34;href&#34;</span>, <span style="color:#a6e22e">results</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">uri</span>);
+      <span style="color:#a6e22e">anchor</span>.<span style="color:#a6e22e">innerText</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">results</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">title</span>;
+      <span style="color:#a6e22e">header</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">anchor</span>);
+      document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;results&#34;</span>).<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">header</span>);
+      document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;found&#34;</span>).<span style="color:#a6e22e">innerText</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`Found </span><span style="color:#e6db74">${</span>
+        <span style="color:#a6e22e">results</span>.<span style="color:#a6e22e">length</span>
+      <span style="color:#e6db74">}</span><span style="color:#e6db74"> results - showing </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">i</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>;
+    }
+  }
+  document
+    .<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;search-field&#34;</span>)
+    .<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;keydown&#34;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">event</span>) {
+      <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">event</span>.<span style="color:#a6e22e">key</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;Enter&#34;</span>) {
+        <span style="color:#a6e22e">event</span>.<span style="color:#a6e22e">preventDefault</span>();
+        <span style="color:#a6e22e">search</span>();
+      }
+    });
+}
+</code></pre></div>
+<p>Let&rsquo;s break down what&rsquo;s happening:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">if</span> ((window.<span style="color:#a6e22e">location</span>.<span style="color:#a6e22e">pathname</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;/page/search/&#34;</span>)) {
+</code></pre></div>
+<p>First we check to make sure that we are only executing this script on the search page because we will be queuing this in the footer (which is present on all pages)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"> <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">lunrIndex</span>, <span style="color:#a6e22e">allPosts</span>;
+  <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#34;/js/index.json&#34;</span>)
+    .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">response</span> =&gt; {
+      <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">json</span>();
+    })
+    .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">response</span> =&gt; {
+      <span style="color:#a6e22e">allPosts</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">response</span>;
+      <span style="color:#a6e22e">lunrIndex</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">lunr</span>(<span style="color:#66d9ef">function</span>() {
+        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">field</span>(<span style="color:#e6db74">&#34;title&#34;</span>, {
+          <span style="color:#a6e22e">boost</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">10</span>
+        });
+        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">field</span>(<span style="color:#e6db74">&#34;tags&#34;</span>, {
+          <span style="color:#a6e22e">boost</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">5</span>
+        });
+
+        <span style="color:#75715e">// ref is the result item identifier (I chose the page URL)
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">ref</span>(<span style="color:#e6db74">&#34;uri&#34;</span>);
+        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">length</span>; <span style="color:#f92672">++</span><span style="color:#a6e22e">i</span>) {
+          <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">add</span>(<span style="color:#a6e22e">response</span>[<span style="color:#a6e22e">i</span>]);
+        }
+      });
+    })
+    .<span style="color:#66d9ef">catch</span>(<span style="color:#a6e22e">error</span> =&gt; {
+      <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">error</span>(<span style="color:#a6e22e">error</span>);
+    });
+</code></pre></div>
+<p>Now we are making a HTTP request to get the JSON generated by hug-lunr. Yes, this is using fetch which might not work on old IE, but I really don&rsquo;t care about that.</p>
+
+<p>Once we have the response we are initializing lunr. This fields that we pass into lunr must match the fields present in the JSON file. Then we loop through the JSON array and add each object into lunr.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;search-button&#34;</span>).<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>() {
+    <span style="color:#a6e22e">search</span>();
+  };
+</code></pre></div>
+<p>The onclick handler for the search button.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">search</span>() {
+    document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;results&#34;</span>).<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
+    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">query</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;search-field&#34;</span>).<span style="color:#a6e22e">value</span>;
+    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">results</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">lunrIndex</span>.<span style="color:#a6e22e">search</span>(<span style="color:#a6e22e">query</span>).<span style="color:#a6e22e">map</span>(<span style="color:#a6e22e">result</span> =&gt; {
+      <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">allPosts</span>.<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">page</span> =&gt; {
+        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">uri</span> <span style="color:#f92672">===</span> <span style="color:#a6e22e">result</span>.<span style="color:#a6e22e">ref</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">result</span>.<span style="color:#a6e22e">score</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">4</span>;
+      })[<span style="color:#ae81ff">0</span>];
+    });
+    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">totalResults</span>;
+    <span style="color:#a6e22e">results</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">results</span>.<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">p</span> =&gt; {
+      <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">p</span>) {
+        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
+      }
+    });
+</code></pre></div>
+<p>When we call search, we will call the search function on lunr with the parameters from the input. Lunr is going to return an array containing a score and URL. We are using the filter function to match that with the items from the response (saved in allposts) so that we can grab the title as well.</p>
+
+<p>I am doing another filter at the end to remove all the null elements. This part could probably be more efficiently done.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#34;h1&#34;</span>);
+    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">20</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">results</span>.<span style="color:#a6e22e">length</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>) {
+      <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">header</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#34;h2&#34;</span>);
+      <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">anchor</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#34;a&#34;</span>);
+      <span style="color:#a6e22e">anchor</span>.<span style="color:#a6e22e">setAttribute</span>(<span style="color:#e6db74">&#34;href&#34;</span>, <span style="color:#a6e22e">results</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">uri</span>);
+      <span style="color:#a6e22e">anchor</span>.<span style="color:#a6e22e">innerText</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">results</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">title</span>;
+      <span style="color:#a6e22e">header</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">anchor</span>);
+      document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;results&#34;</span>).<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">header</span>);
+      document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;found&#34;</span>).<span style="color:#a6e22e">innerText</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`Found </span><span style="color:#e6db74">${</span>
+        <span style="color:#a6e22e">results</span>.<span style="color:#a6e22e">length</span>
+      <span style="color:#e6db74">}</span><span style="color:#e6db74"> results - showing </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">i</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>;
+    }
+  }
+  document
+    .<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;search-field&#34;</span>)
+    .<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;keydown&#34;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">event</span>) {
+      <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">event</span>.<span style="color:#a6e22e">key</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;Enter&#34;</span>) {
+        <span style="color:#a6e22e">event</span>.<span style="color:#a6e22e">preventDefault</span>();
+        <span style="color:#a6e22e">search</span>();
+      }
+    });
+</code></pre></div>
+<p>Writing the output to the DOM.</p>
+
+<h2 id="step-5">Step 5:</h2>
+
+<p>Finally, let&rsquo;s add the lunr.js library and our search.js into the footer. You can create a HTML file called footer in layouts/partials or modify your theme&rsquo;s footer.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">script</span>
+  <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js&#34;</span>
+  <span style="color:#a6e22e">integrity</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sha256-uScRgGrInD2VnPNpjmlQtB2XRVLczyyZvrTkYi+e31U=&#34;</span>
+  <span style="color:#a6e22e">crossorigin</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;anonymous&#34;</span>
+&gt;&lt;/<span style="color:#f92672">script</span>&gt;
+&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ &#34;</span><span style="color:#a6e22e">js</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">search</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">js</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">|</span> <span style="color:#a6e22e">absURL</span> <span style="color:#960050;background-color:#1e0010">}}&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;</code></pre></div>
+<p>That&rsquo;s it. Now you should have a really fast search available on your hugo static website.</p>
+
+<p><img src="/img/search.PNG" alt="Search Static Site" /></p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://www.bennettnotes.com/tags/lunr/">lunr</a>&nbsp;
+            
+              <a href="https://www.bennettnotes.com/tags/hugo/">hugo</a>&nbsp;
+            
+              <a href="https://www.bennettnotes.com/tags/static-site/">static site</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2fhow-to-setup-search-on-hugo%2f&amp;text=How%20to%20Setup%20Search%20on%20Hugo&amp;via=_davebennett" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2fhow-to-setup-search-on-hugo%2f" target="_blank" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.bennettnotes.com%2fpost%2fhow-to-setup-search-on-hugo%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2fhow-to-setup-search-on-hugo%2f&amp;title=How%20to%20Setup%20Search%20on%20Hugo" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2fhow-to-setup-search-on-hugo%2f&amp;title=How%20to%20Setup%20Search%20on%20Hugo" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2fhow-to-setup-search-on-hugo%2f&amp;title=How%20to%20Setup%20Search%20on%20Hugo" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2fhow-to-setup-search-on-hugo%2f&amp;description=How%20to%20Setup%20Search%20on%20Hugo" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+              </div>
+            </section>
+        
+
+        
+          
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://www.bennettnotes.com/post/ebooks-are-not-social/" data-toggle="tooltip" data-placement="top" title="Ebooks are not social">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+          
+          <div class="disqus-comments">                  
+            <button id="show-comments" class="btn btn-default" type="button">Show <span class="disqus-comment-count" data-disqus-url="https://www.bennettnotes.com/post/how-to-setup-search-on-hugo">comments</span></button>
+            <div id="disqus_thread"></div>
+
+            <script type="text/javascript">
+              var disqus_config = function () {
+              this.page.url = 'https:\/\/www.bennettnotes.com\/post\/how-to-setup-search-on-hugo';
+            };
+
+          </script>
+          </div>
+          
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:dave@bennettnotes.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DaveBben" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_davebennett" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DaveBben" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/opensourcegangster" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://www.bennettnotes.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="bennettnotes.com">Dave Bennett</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://www.bennettnotes.com">Bennett Notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Theme by adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+$(function(){
+  $('#show-comments').on('click', function(){
+    var disqus_shortname = 'https-bennettnotes-com';
+      
+    (function() {
+      var disqus = document.createElement('script'); 
+      disqus.type = 'text/javascript'; 
+      disqus.async = true;
+      disqus.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(disqus);
+    })();
+      
+    $(this).hide(); 
+    });
+  });
+      
+</script>
+<script id="dsq-count-scr" src="//https-bennettnotes-com.disqus.com/count.js" async></script>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"
+  integrity="sha256-uScRgGrInD2VnPNpjmlQtB2XRVLczyyZvrTkYi+e31U="
+  crossorigin="anonymous"
+></script>
+<script
+  async
+  src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+
+
+
+
+
+
+
+<script
+    src="https://www.bennettnotes.com/bundle.min.js"
+    integrity=""></script>
+
+
+
+
+  </body>
+</html>
+
