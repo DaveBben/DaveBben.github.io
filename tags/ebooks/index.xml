@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Life on Bennett Notes</title>
-    <link>https://www.bennettnotes.com/categories/life/</link>
-    <description>Recent content in Life on Bennett Notes</description>
+    <title>Ebooks on Bennett Notes</title>
+    <link>https://www.bennettnotes.com/tags/ebooks/</link>
+    <description>Recent content in Ebooks on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 03 Mar 2019 18:26:46 -0500</lastBuildDate>
     
-	<atom:link href="https://www.bennettnotes.com/categories/life/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/ebooks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,15 +21,6 @@
       <guid>https://www.bennettnotes.com/post/ebooks-are-not-social/</guid>
       <description>If you are trying to be more social, consider investing in traditional books over EBooks. I know this sounds crazy, and no, Amazon did not pay me to say this.
 Ebooks are missing an important aspect that we have always took for granted in traditional book. There is no easily visible cover! This means people have no idea on what you&amp;rsquo;re reading. With traditional books, its out in the open for everyone to see.</description>
-    </item>
-    
-    <item>
-      <title>My Computer Science Degree Was Not Worth the Cost</title>
-      <link>https://www.bennettnotes.com/my-computer-science-degree-was-not-worth-the-cost/</link>
-      <pubDate>Fri, 07 Sep 2018 13:07:44 +0000</pubDate>
-      <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://www.bennettnotes.com/my-computer-science-degree-was-not-worth-the-cost/</guid>
-      <description>I am a 2018 college graduate with a bachelor&amp;#8217;s degree in computer science. I recently got hired for my first full-time software developer job. As any new graduate, I was eager to go to work and put this shiny new degree to good use. After just a few weeks on the job, I had a horrible realization. Four years of undergrad and \$80K taught me nothing of value for today&amp;#8217;s job market.</description>
     </item>
     
   </channel>
