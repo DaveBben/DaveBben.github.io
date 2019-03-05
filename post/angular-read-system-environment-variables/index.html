@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Read System Environment Variables in Angular - Bennett Notes</title>
+  <meta property="og:title" content="Read System Environment Variables in Angular" />
+  <meta name="twitter:title" content="Read System Environment Variables in Angular" />
+  <meta name="description" content="How to read system environment variables in Angular 7">
+  <meta property="og:description" content="How to read system environment variables in Angular 7">
+  <meta name="twitter:description" content="How to read system environment variables in Angular 7">
+  <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bennett Notes",
+    
+    "url": "https://www.bennettnotes.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https://www.bennettnotes.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://www.bennettnotes.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://www.bennettnotes.com/post/angular-read-system-environment-variables/",
+          "name": "Read system environment variables in angular"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Dave Bennett"
+  },
+  "headline": "Read System Environment Variables in Angular",
+  "description" : "How to read system environment variables in Angular 7",
+  "inLanguage" : "en",
+  "wordCount": 487,
+  "datePublished" : "2019-03-05T07:14:19",
+  "dateModified" : "2019-03-05T07:14:19",
+  "image" : "https://www.bennettnotes.com/img/avatar-icon.png",
+  "keywords" : [ "angular, nodejs, webpack" ],
+  "mainEntityOfPage" : "https://www.bennettnotes.com/post/angular-read-system-environment-variables/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https://www.bennettnotes.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https://www.bennettnotes.com/img/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Read System Environment Variables in Angular" />
+<meta property="og:description" content="How to read system environment variables in Angular 7">
+<meta property="og:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://www.bennettnotes.com/post/angular-read-system-environment-variables/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bennett Notes" />
+  <meta name="twitter:title" content="Read System Environment Variables in Angular" />
+  <meta name="twitter:description" content="How to read system environment variables in Angular 7">
+  <meta name="twitter:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <link href='https://www.bennettnotes.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <meta property="og:url" content="https://www.bennettnotes.com/post/angular-read-system-environment-variables/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+<link rel="stylesheet"
+      href="https://www.bennettnotes.com/bundle.min.css"
+      integrity="">
+<meta name="msvalidate.01" content="50CDEA68FD6A5F7983A98164E8C48619" />
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-41393353-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://www.bennettnotes.com">Bennett Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Programming" href="/categories/programming">Programming</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Technology</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories/android">Android</a>
+                
+                  <a href="/categories/chrome-os">Chrome OS</a>
+                
+                  <a href="/categories/gadgets">Gadgets</a>
+                
+                  <a href="/categories/linux">Linux</a>
+                
+                  <a href="/categories/windows">Windows</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Life" href="/categories/life">Life</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/page/search/">Search</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bennett Notes" href="https://www.bennettnotes.com">
+            <img class="avatar-img" src="https://www.bennettnotes.com/img/avatar-icon.png" alt="Bennett Notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Read System Environment Variables in Angular</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+    
+    
+  Posted on March 5, 2019
+    
+    
+      &nbsp;|  &nbsp; 3&nbsp;minutes
+    
+    
+    
+      &nbsp;|&nbsp;Dave Bennett
+    
+    
+    
+        &nbsp;|&nbsp;<a href="/categories/programming/">Programming</a>
+    
+    
+  </span>
+  
+  
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+            
+        
+
+<p>I few weeks back I was working on a project where I needed to read system environment in Angular 7 from a Docker container before it builds. After days of searching, I came across a solution from multiple sources on the internet.</p>
+
+<p>Keep one thing in mind, you will only be able to inject environment variables <strong>before</strong> your Angular app builds. Unlike Nodejs, you will not get real time access because you are running in an browser environment.</p>
+
+<h3 id="custom-webpack">Custom Webpack</h3>
+
+<p>This method will involve creating a custom webpack which will use the dotenv package to get the variables.</p>
+
+<h2 id="step-1-install-dependencies-for-custom-webpack">Step 1: Install Dependencies for Custom Webpack</h2>
+
+<p>To read system environment variables in Angular you will first need to install the necessary dependencies that will allow you to to use a custom webpack.</p>
+
+<pre><code>npm i @angular-builders/custom-webpack @angular-builders/dev-server @angular-devkit/build-angular dotenv
+</code></pre>
+
+<p>Notice that we are installing a custom dev server and builder. Because of this, we will manually have to handle this in the Angular.json file.</p>
+
+<h3 id="version-mismatch">Version Mismatch</h3>
+
+<p>I small gotcha, that I ran into was problems with version mismatch between build-angular and the custom webpack. Just for reference, using Angular 7 here are the versions of each that I have installed in my dependencies.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#e6db74">&#34;@angular-builders/custom-webpack&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;^7.2.0&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+<span style="color:#e6db74">&#34;@angular-builders/dev-server&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;^7.2.1&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+<span style="color:#e6db74">&#34;@angular-devkit/build-angular&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;^0.12.3&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+<span style="color:#e6db74">&#34;dotenv&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;^6.2.0&#34;</span><span style="color:#960050;background-color:#1e0010">,</span></code></pre></div>
+<h2 id="step-2-modify-angular-json">Step 2: Modify Angular.json</h2>
+
+<p>Now let&rsquo;s modify the <strong>Angular.json</strong> file to use the custom-webpack on build and the dev-server when serving.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">  <span style="color:#e6db74">&#34;build&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+          <span style="color:#f92672">&#34;builder&#34;</span>: <span style="color:#e6db74">&#34;@angular-builders/custom-webpack:browser&#34;</span>,
+          <span style="color:#f92672">&#34;options&#34;</span>: {
+            <span style="color:#f92672">&#34;customWebpackConfig&#34;</span>:{
+              <span style="color:#f92672">&#34;path&#34;</span>: <span style="color:#e6db74">&#34;./extra-webpack.config.js&#34;</span>
+            },
+            <span style="color:#f92672">&#34;outputPath&#34;</span>: <span style="color:#e6db74">&#34;dist/&#34;</span>,</code></pre></div>
+<p>Notice the property <code>customWebpackConfig</code> that will be the custom webpack file we will create. I&rsquo;m putting it at the root but you can put it anywhere. Also, I am defining the outputPath on build.</p>
+
+<p>Now let&rsquo;s change the serve property:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"> <span style="color:#e6db74">&#34;serve&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+          <span style="color:#f92672">&#34;builder&#34;</span>: <span style="color:#e6db74">&#34;@angular-builders/dev-server:generic&#34;</span>,
+          <span style="color:#f92672">&#34;options&#34;</span>: {
+            <span style="color:#f92672">&#34;browserTarget&#34;</span>: <span style="color:#e6db74">&#34;track-and-trace:build&#34;</span>
+          },</code></pre></div>
+<p>The only thing to change is the builder property.</p>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
+
+
+<h2 id="step-3-webpack-config-js">Step 3: Webpack.config.js</h2>
+
+<p>Now create the <strong>./extra-webpack.config.js</strong> specified earlier. Put the following in that file:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">webpack</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;webpack&#39;</span>);
+
+<span style="color:#a6e22e">module</span>.<span style="color:#a6e22e">exports</span> <span style="color:#f92672">=</span> {
+    <span style="color:#a6e22e">plugins</span><span style="color:#f92672">:</span> [<span style="color:#66d9ef">new</span> <span style="color:#a6e22e">webpack</span>.<span style="color:#a6e22e">DefinePlugin</span>({
+        <span style="color:#e6db74">&#39;process.env&#39;</span><span style="color:#f92672">:</span> {
+            <span style="color:#a6e22e">SERVER</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">JSON</span>.<span style="color:#a6e22e">stringify</span>(<span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">env</span>.<span style="color:#a6e22e">SERVER</span>),
+            <span style="color:#a6e22e">PEER</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">JSON</span>.<span style="color:#a6e22e">stringify</span>(<span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">env</span>.<span style="color:#a6e22e">PEER</span>)
+        }
+    })]
+}
+</code></pre></div>
+<p>I am providing two variables to process.env. One is called <strong>server</strong> and the other is called *<em>peer</em>. Obviously, change these variables to whatever variables that you are looking for.</p>
+
+<h2 id="step-4-typings-d-ts">Step 4: Typings.d.ts</h2>
+
+<p>If you try to use these variables, angular will complain about types definition. To get around that, create a file called <strong>typings.d.ts</strong> inside of your *<em>src/</em> folder and put the following in there:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#66d9ef">declare</span> <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">process</span>: <span style="color:#66d9ef">Process</span>;
+
+<span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">Process</span> {
+    <span style="color:#a6e22e">env</span>: <span style="color:#66d9ef">Env</span>
+}
+
+<span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">Env</span> {
+    <span style="color:#a6e22e">SERVER</span>: <span style="color:#66d9ef">string</span>
+    <span style="color:#a6e22e">PEER</span>: <span style="color:#66d9ef">string</span>
+}
+
+<span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">GlobalEnvironment</span>{
+    <span style="color:#a6e22e">process</span>: <span style="color:#66d9ef">Process</span>;
+}</code></pre></div>
+<h2 id="step-5-usage">Step 5: Usage</h2>
+
+<p>Once all the above steps were done, here is how I read the environment variables in my Angular application.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">BASE_URL</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`http://</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">env</span>.<span style="color:#a6e22e">SERVER</span><span style="color:#e6db74">}</span><span style="color:#e6db74">/`</span>
+</code></pre></div>
+<h2 id="dockerfile">DockerFile</h2>
+
+<p>Like I mentioned earlier, I did this so that I can read the variables when docker builds my application. Here is what my dockerfile looks like:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker"><span style="color:#66d9ef">FROM</span><span style="color:#e6db74"> node:8.12 as build-deps</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">WORKDIR</span><span style="color:#e6db74"> /home/ui/app</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ENV</span><span style="color:#e6db74"> SERVER=bennettnotes.com</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>COPY package.json ./<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> npm install<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>COPY . ./<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> npm run dist</code></pre></div>
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://www.bennettnotes.com/tags/angular/">angular</a>&nbsp;
+            
+              <a href="https://www.bennettnotes.com/tags/nodejs/">nodejs</a>&nbsp;
+            
+              <a href="https://www.bennettnotes.com/tags/webpack/">webpack</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2fangular-read-system-environment-variables%2f&amp;text=Read%20System%20Environment%20Variables%20in%20Angular&amp;via=_davebennett" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2fangular-read-system-environment-variables%2f" target="_blank" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.bennettnotes.com%2fpost%2fangular-read-system-environment-variables%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2fangular-read-system-environment-variables%2f&amp;title=Read%20System%20Environment%20Variables%20in%20Angular" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2fangular-read-system-environment-variables%2f&amp;title=Read%20System%20Environment%20Variables%20in%20Angular" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2fangular-read-system-environment-variables%2f&amp;title=Read%20System%20Environment%20Variables%20in%20Angular" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2fangular-read-system-environment-variables%2f&amp;description=Read%20System%20Environment%20Variables%20in%20Angular" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+              </div>
+            </section>
+        
+
+        
+          
+          
+          <h4 class="see-also">See also</h4>
+          <ul>
+          
+            <li><a href="/jwt-tokens-in-express-and-nodejs/">JWT Tokens in Express and NodeJS</a></li>
+          
+            <li><a href="/angular-4-input-numbers-directive/">Angular 4 input only numbers Directive</a></li>
+          
+            <li><a href="/implementing-token-interceptor-and-retry-in-angular-4/">Implementing Token Interceptor and Retry in Angular 4</a></li>
+          
+          </ul>
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://www.bennettnotes.com/post/how-to-setup-search-on-hugo/" data-toggle="tooltip" data-placement="top" title="How to Setup Search on Hugo">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+          
+          <div class="disqus-comments">                  
+            <button id="show-comments" class="btn btn-default" type="button">Show <span class="disqus-comment-count" data-disqus-url="https://www.bennettnotes.com/post/angular-read-system-environment-variables">comments</span></button>
+            <div id="disqus_thread"></div>
+
+            <script type="text/javascript">
+              var disqus_config = function () {
+              this.page.url = 'https:\/\/www.bennettnotes.com\/post\/angular-read-system-environment-variables';
+            };
+
+          </script>
+          </div>
+          
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:dave@bennettnotes.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DaveBben" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_davebennett" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DaveBben" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/opensourcegangster" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://www.bennettnotes.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="bennettnotes.com">Dave Bennett</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://www.bennettnotes.com">Bennett Notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Theme by adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+$(function(){
+  $('#show-comments').on('click', function(){
+    var disqus_shortname = 'https-bennettnotes-com';
+      
+    (function() {
+      var disqus = document.createElement('script'); 
+      disqus.type = 'text/javascript'; 
+      disqus.async = true;
+      disqus.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(disqus);
+    })();
+      
+    $(this).hide(); 
+    });
+  });
+      
+</script>
+<script id="dsq-count-scr" src="//https-bennettnotes-com.disqus.com/count.js" async></script>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"
+  integrity="sha256-uScRgGrInD2VnPNpjmlQtB2XRVLczyyZvrTkYi+e31U="
+  crossorigin="anonymous"
+></script>
+<script
+  async
+  src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+
+
+
+
+
+
+
+<script
+    src="https://www.bennettnotes.com/bundle.min.js"
+    integrity=""></script>
+
+
+
+
+  </body>
+</html>
+

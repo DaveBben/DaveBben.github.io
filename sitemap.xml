@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.bennettnotes.com/post/angular-read-system-environment-variables/</loc>
+    <lastmod>2019-03-05T07:14:19-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/post/how-to-setup-search-on-hugo/</loc>
     <lastmod>2019-03-04T06:11:06-05:00</lastmod>
   </url>
@@ -1262,7 +1267,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/tags/angular/</loc>
-    <lastmod>2018-03-07T00:11:23+00:00</lastmod>
+    <lastmod>2019-03-05T07:14:19-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1388,7 +1393,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/</loc>
-    <lastmod>2019-03-04T06:11:06-05:00</lastmod>
+    <lastmod>2019-03-05T07:14:19-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3404,7 +3409,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/tags/nodejs/</loc>
-    <lastmod>2018-04-22T17:53:29+00:00</lastmod>
+    <lastmod>2019-03-05T07:14:19-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3710,7 +3715,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/post/</loc>
-    <lastmod>2019-03-04T06:11:06-05:00</lastmod>
+    <lastmod>2019-03-05T07:14:19-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3764,7 +3769,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/categories/programming/</loc>
-    <lastmod>2019-03-04T06:11:06-05:00</lastmod>
+    <lastmod>2019-03-05T07:14:19-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4833,6 +4838,12 @@
   <url>
     <loc>https://www.bennettnotes.com/tags/web-workers/</loc>
     <lastmod>2017-10-22T15:59:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bennettnotes.com/tags/webpack/</loc>
+    <lastmod>2019-03-05T07:14:19-05:00</lastmod>
     <priority>0</priority>
   </url>
   
