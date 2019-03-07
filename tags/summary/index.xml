@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Summary on Bennett Notes</title>
+    <link>https://www.bennettnotes.com/tags/summary/</link>
+    <description>Recent content in Summary on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Wed, 06 Mar 2019 06:02:09 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.bennettnotes.com/tags/summary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scientifically Proven Ways to Be Happy Again</title>
+      <link>https://www.bennettnotes.com/post/scientifically-proven-ways-to-be-happy-again/</link>
+      <pubDate>Wed, 06 Mar 2019 06:02:09 -0500</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/post/scientifically-proven-ways-to-be-happy-again/</guid>
+      <description>During the winter holidays (peek depression season), I took a free online course called The Science of Well-Being offered by Yale University. It was actually recommended in a HackerNews comment that I came across in a thread about different MOOC (Massive Online Open Courses) to take.
+Other than my obsession with self help porn, I took this course because I wanted to learn on how to be happy again with life.</description>
+    </item>
+    
+  </channel>
+</rss>

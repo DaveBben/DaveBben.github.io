@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.bennettnotes.com/post/scientifically-proven-ways-to-be-happy-again/</loc>
+    <lastmod>2019-03-06T06:02:09-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/post/angular-read-system-environment-variables/</loc>
     <lastmod>2019-03-05T07:14:19-05:00</lastmod>
   </url>
@@ -1393,7 +1398,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/</loc>
-    <lastmod>2019-03-05T07:14:19-05:00</lastmod>
+    <lastmod>2019-03-06T06:02:09-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2634,6 +2639,12 @@
   </url>
   
   <url>
+    <loc>https://www.bennettnotes.com/tags/happiness/</loc>
+    <lastmod>2019-03-06T06:02:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/tags/hashcah/</loc>
     <lastmod>2017-12-04T22:39:00+00:00</lastmod>
     <priority>0</priority>
@@ -3025,7 +3036,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/categories/life/</loc>
-    <lastmod>2019-03-03T18:26:46-05:00</lastmod>
+    <lastmod>2019-03-06T06:02:09-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3715,7 +3726,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/post/</loc>
-    <lastmod>2019-03-05T07:14:19-05:00</lastmod>
+    <lastmod>2019-03-06T06:02:09-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4152,6 +4163,12 @@
   </url>
   
   <url>
+    <loc>https://www.bennettnotes.com/tags/self-improvement/</loc>
+    <lastmod>2019-03-06T06:02:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/tags/sense/</loc>
     <lastmod>2014-07-02T14:38:13+00:00</lastmod>
     <priority>0</priority>
@@ -4424,6 +4441,12 @@
   <url>
     <loc>https://www.bennettnotes.com/tags/subscribe/</loc>
     <lastmod>2017-12-22T14:40:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bennettnotes.com/tags/summary/</loc>
+    <lastmod>2019-03-06T06:02:09-05:00</lastmod>
     <priority>0</priority>
   </url>
   
