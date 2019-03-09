@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.bennettnotes.com/post/happiness-and-anticipation/</loc>
+    <lastmod>2019-03-09T12:46:10-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/post/scientifically-proven-ways-to-be-happy-again/</loc>
     <lastmod>2019-03-06T06:02:09-05:00</lastmod>
   </url>
@@ -1398,7 +1403,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/</loc>
-    <lastmod>2019-03-06T06:02:09-05:00</lastmod>
+    <lastmod>2019-03-09T12:46:10-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1417,6 +1422,12 @@
   <url>
     <loc>https://www.bennettnotes.com/tags/better-battery/</loc>
     <lastmod>2016-06-10T14:59:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bennettnotes.com/tags/biology/</loc>
+    <lastmod>2019-03-09T12:46:10-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2640,7 +2651,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/tags/happiness/</loc>
-    <lastmod>2019-03-06T06:02:09-05:00</lastmod>
+    <lastmod>2019-03-09T12:46:10-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3036,7 +3047,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/categories/life/</loc>
-    <lastmod>2019-03-06T06:02:09-05:00</lastmod>
+    <lastmod>2019-03-09T12:46:10-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3726,7 +3737,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/post/</loc>
-    <lastmod>2019-03-06T06:02:09-05:00</lastmod>
+    <lastmod>2019-03-09T12:46:10-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3811,6 +3822,12 @@
   <url>
     <loc>https://www.bennettnotes.com/tags/psx/</loc>
     <lastmod>2016-11-06T15:00:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bennettnotes.com/tags/psychology/</loc>
+    <lastmod>2019-03-09T12:46:10-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4164,7 +4181,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/tags/self-improvement/</loc>
-    <lastmod>2019-03-06T06:02:09-05:00</lastmod>
+    <lastmod>2019-03-09T12:46:10-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4555,6 +4572,12 @@
   <url>
     <loc>https://www.bennettnotes.com/tags/theme/</loc>
     <lastmod>2014-09-16T17:28:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bennettnotes.com/tags/thoughts/</loc>
+    <lastmod>2019-03-09T12:46:10-05:00</lastmod>
     <priority>0</priority>
   </url>
   

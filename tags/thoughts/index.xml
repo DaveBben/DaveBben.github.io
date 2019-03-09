@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thoughts on Bennett Notes</title>
+    <link>https://www.bennettnotes.com/tags/thoughts/</link>
+    <description>Recent content in Thoughts on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sat, 09 Mar 2019 12:46:10 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.bennettnotes.com/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Happiness and Anticipation</title>
+      <link>https://www.bennettnotes.com/post/happiness-and-anticipation/</link>
+      <pubDate>Sat, 09 Mar 2019 12:46:10 -0500</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/post/happiness-and-anticipation/</guid>
+      <description>I am beginning to see the relationship between happiness, anticipation and dopamine.
+Dopamine is a neurotransmitter that is responsible for reward-driven behavior and pleasure seeking. (Psychology Today). When we get a hit of dopamine, we feel good!
+Anticipation is the simple act of looking forward; usually to a pleasurable experience but it could also be negative.
+In my previous post about Proven Ways to be Happy Again, I mentioned this thing called hedonic adaptation.</description>
+    </item>
+    
+  </channel>
+</rss>
