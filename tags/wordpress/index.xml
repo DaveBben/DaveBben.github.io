@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on Bennett Notes</title>
+    <link>https://www.bennettnotes.com/tags/wordpress/</link>
+    <description>Recent content in Wordpress on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Mon, 11 Mar 2019 06:04:23 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.bennettnotes.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why I Switched From WordPress to Hugo</title>
+      <link>https://www.bennettnotes.com/post/why-i-switched-from-wordpress-to-hugo/</link>
+      <pubDate>Mon, 11 Mar 2019 06:04:23 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/post/why-i-switched-from-wordpress-to-hugo/</guid>
+      <description>WordPress isn&amp;rsquo;t awful. In fact, I recommend WordPress to everyone who wants to start a blog. Despite this, I switched from WordPress to Hugo a couple of weeks ago. The real reason came down to cost and simplicity.
+Cost Running a WordPress blog meant that I needed a good shared hosting environment with a MySQL server and PHP execution. I first tried Hostgator, and it was sufficient enough while my blog had less than a hundred of visitors per month.</description>
+    </item>
+    
+  </channel>
+</rss>
