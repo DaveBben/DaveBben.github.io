@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Install Hyperledger Fabric on Kubernetes - Bennett Notes</title> 
+  <meta property="og:title" content="Install Hyperledger Fabric on Kubernetes" />
+  <meta name="twitter:title" content="Install Hyperledger Fabric on Kubernetes" />
+  <meta name="description" content="A step-by-step tutorial on how to install hyperledger fabric on Kubernetes. This setup uses a two node cluster but can be done on a single VM.">
+  <meta property="og:description" content="A step-by-step tutorial on how to install hyperledger fabric on Kubernetes. This setup uses a two node cluster but can be done on a single VM.">
+  <meta name="twitter:description" content="A step-by-step tutorial on how to install hyperledger fabric on Kubernetes. This setup uses a two node cluster but can be done on a single VM.">
+  <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bennett Notes",
+    
+    "url": "https://www.bennettnotes.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https://www.bennettnotes.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://www.bennettnotes.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://www.bennettnotes.com/post/install-hyperledger-fabric-on-kubernetes/",
+          "name": "Install hyperledger fabric on kubernetes"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Dave Bennett"
+  },
+  "headline": "Install Hyperledger Fabric on Kubernetes",
+  "description" : "A step-by-step tutorial on how to install hyperledger fabric on Kubernetes. This setup uses a two node cluster but can be done on a single VM.",
+  "inLanguage" : "en",
+  "wordCount": 1807,
+  "datePublished" : "2019-03-20T17:09:26",
+  "dateModified" : "2019-03-20T17:09:26",
+  "image" : "https://www.bennettnotes.com/img/avatar-icon.png",
+  "keywords" : [ "blockchain, hyperledger, docker, kubernetes" ],
+  "mainEntityOfPage" : "https://www.bennettnotes.com/post/install-hyperledger-fabric-on-kubernetes/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https://www.bennettnotes.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https://www.bennettnotes.com/img/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Install Hyperledger Fabric on Kubernetes" />
+<meta property="og:description" content="A step-by-step tutorial on how to install hyperledger fabric on Kubernetes. This setup uses a two node cluster but can be done on a single VM.">
+<meta property="og:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://www.bennettnotes.com/post/install-hyperledger-fabric-on-kubernetes/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bennett Notes" />
+  <meta name="twitter:title" content="Install Hyperledger Fabric on Kubernetes" />
+  <meta name="twitter:description" content="A step-by-step tutorial on how to install hyperledger fabric on Kubernetes. This setup uses a two node cluster but can be done on a single VM.">
+  <meta name="twitter:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <link href='https://www.bennettnotes.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <meta property="og:url" content="https://www.bennettnotes.com/post/install-hyperledger-fabric-on-kubernetes/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+<link rel="stylesheet"
+      href="https://www.bennettnotes.com/bundle.min.css"
+      integrity="">
+<meta name="msvalidate.01" content="50CDEA68FD6A5F7983A98164E8C48619" />
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-41393353-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://www.bennettnotes.com">Bennett Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Programming" href="/categories/programming">Programming</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Technology</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories/android">Android</a>
+                
+                  <a href="/categories/chrome-os">Chrome OS</a>
+                
+                  <a href="/categories/gadgets">Gadgets</a>
+                
+                  <a href="/categories/linux">Linux</a>
+                
+                  <a href="/categories/windows">Windows</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Life" href="/categories/life">Life</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/page/search/">Search</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bennett Notes" href="https://www.bennettnotes.com">
+            <img class="avatar-img" src="https://www.bennettnotes.com/img/avatar-icon.png" alt="Bennett Notes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Install Hyperledger Fabric on Kubernetes</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+    
+    
+  Posted on March 20, 2019
+    
+    
+      &nbsp;|  &nbsp; 9&nbsp;minutes
+    
+    
+    
+      &nbsp;|&nbsp;Dave Bennett
+    
+    
+    
+        &nbsp;|&nbsp;<a href="/categories/programming/">Programming</a>
+    
+    
+  </span>
+  
+  
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+            
+        
+
+<p>I recently had the &ldquo;amazing 🙄&rdquo; opportunity to spend two weeks figuring out how to install hyperledger fabric on Kubernetes. There aren&rsquo;t many guides on the internet besides <a href="http://www.think-foundry.com/deploy-hyperledger-fabric-on-kubernetes-part-2/">this one</a>. Unfortunately, I found it to be very vague and missing some keys steps.</p>
+
+<p>For this tutorial, let&rsquo;s go step-by-step on how to install hyperledger on kubernetes. We are going to use some information from the guide linked above, along with some stuff my team and I were able to figure out along the way. For this setup, we will be creating a kubernetes cluster with two nodes.</p>
+
+<h2 id="environment">Environment</h2>
+
+<p>We are going to start by installing kubernetes in Ubuntu. I have tried some of the other approaches like using Microk8s and Minikube, but installing barebones kubectl and kubeadm was the only approach that worked for my environment. I am following the instructions outlined on the official <a href="https://kubernetes.io/docs/setup/independent/install-kubeadm/">kubernetes install page</a>.</p>
+
+<h2 id="install-python3-5">Install Python3.5</h2>
+
+<p>There are lots of ways to install Python, here&rsquo;s the quickest:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.5</code></pre></div>
+<h3 id="install-docker-and-docker-compose">Install Docker and Docker-Compose</h3>
+
+<p>Begin by <a href="https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1">installing docker</a> and docker-compose on your system.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo apt-get -y remove docker docker-engine docker.io containerd runc
+sudo apt-get update
+sudo apt-get -y install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository <span style="color:#e6db74">&#34;deb [arch=amd64] https://download.docker.com/linux/ubuntu  $(lsb_release -cs) stable&#34;</span>
+sudo apt-get update
+sudo apt-get -y install -y docker-ce
+sudo apt-get -y install docker-ce docker-ce-cli containerd.io
+sudo curl -L <span style="color:#e6db74">&#34;https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)&#34;</span> -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose</code></pre></div>
+<p>Make sure docker and docker-compose are properly installed</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">docker --version
+docker-compose --version</code></pre></div>
+<p>If they return a version number then you are good to go.</p>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
+
+
+<h2 id="install-kubernetes">Install Kubernetes</h2>
+
+<p>Now let&rsquo;s move on to <a href="https://kubernetes.io/docs/setup/independent/install-kubeadm/">installing kubernetes</a>. Download and install Kubeadm akd Kubectl. You will need to run the following as the <strong>sudo</strong> user.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">apt-get update &amp;&amp; apt-get install -y apt-transport-https curl
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+cat &lt;&lt;EOF &gt;/etc/apt/sources.list.d/kubernetes.list
+deb https://apt.kubernetes.io/ kubernetes-xenial main
+EOF
+apt-get update
+apt-get install -y kubelet kubeadm kubectl
+apt-mark hold kubelet kubeadm kubectl</code></pre></div>
+<h3 id="disable-swap">Disable Swap</h3>
+
+<p>Kubernetes will not run unless swap is disabled.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo swapoff -a</code></pre></div>
+<h3 id="initialize-network">Initialize Network</h3>
+
+<p>We will need our pods to communicate with each other. In order to do this, we will need to install a network add-on. I used the flannel add-on. In order for the flannel add-on to work properly, we will need to pass some extra parameters when we init Kubeadm.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kudeadmn init --pod-network-cidr=10.244.0.0/1
+sysctl net.bridge.bridge-nf-call-iptables=1</code></pre></div>
+<p>After initialization, you should get some extra instructions (posted below) detailing how to run your code as a regular user:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd"><span style="color:#66d9ef">mkdir</span> -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id<span style="color:#75715e"> -g) $HOME/.kube/config</span></code></pre></div>
+<p>It&rsquo;s important that you run the above command, otherwise you will get an error saying <em>can&rsquo;t connect to localhost</em> when you run any kubectl command.</p>
+
+<p>If you are the root user, use this command instead of the above command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">export KUBECONFIG=/etc/kubernetes/kubelet.conf</code></pre></div>
+<p>At then end of the <em>kubeadmn init</em> command you will see instructions for how to join another peer. You should see something like the following:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubeadm join 10.17.189.209:6443<span style="color:#75715e"> — token oyu3i2.md9tnvyp31f5b7ju — discovery-token-ca-cert-hash sha256:2960349cff48d1041ff087735b3dbe995642dad557098bca64717f06959890e7</span></code></pre></div>
+<p>Copy and paste this command into notepad or something. We will use this in a bit.</p>
+
+<h3 id="install-flannel-addon">Install Flannel Addon</h3>
+
+<p>Now you need to install the flannel add-on that I mentioned earlier. Run the following in the command line:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/a70459be0084506e4ec919aa1c114638878db11b/Documentation/kube-flannel.yml</code></pre></div>
+<p>This will install the flannel add-on.</p>
+
+<p>If you don&rsquo;t plan on adding any additional nodes to your setup, then you can run the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubectl taint nodes --all node-role.kubernetes.io/master-</code></pre></div>
+<p>This will allow your master node to schedule pods (it can&rsquo;t by default).</p>
+
+<h3 id="setting-up-additional-nodes">Setting up additional nodes</h3>
+
+<p>If you have another node that you want to setup, you will need to repeat the steps to <strong>install docker</strong> and <strong>install kubernetes</strong>. Afterwards, paste that join command that I told you to copy down earlier</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubeadm join 10.17.189.209:6443<span style="color:#75715e"> — token oyu3i2.md9tnvyp31f5b7ju — discovery-token-ca-cert-hash sha256:2960349cff48d1041ff087735b3dbe995642dad557098bca64717f06959890e7</span></code></pre></div>
+<p>This will join the other node to the network. If you forget the token, then you can run the following command on the master node to retrieve it:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubeadm token list</code></pre></div>
+<p>On the master node, you should be able to see the both nodes in the ready state using this command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubectl get nodes</code></pre></div>
+<p>You won&rsquo;t be able to issue any kubectl command through the worker nodes, unless you copy the admin.conf from the kubernetes directory. You can find more instructions on how to do that on Kubernetes&rsquo; website.</p>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
+
+
+<h2 id="setup-an-nfs">Setup an NFS</h2>
+
+<p>In the example network that we will create, there is a requirement to mount a PersistantVolume as NFS. If you&rsquo;re using a single node, you could change that to hostPath and use your local file system, otherwise you will have to setup a nfs so you can share the necessary data. On your master node install the nfs-server.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo apt-get install nfs-kernel-server</code></pre></div>
+<p>On your worker node, install the nfs-client</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo apt-get install nfs-common</code></pre></div>
+<p>On your master node, make a directory in /opt/share</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo mkdir -p /opt/share</code></pre></div>
+<p>Remove restrictive permission to that folder so that it can be viewed by anybody.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo chown nobody:nogroup /opt/share
+sudo chmod 777 /opt/share</code></pre></div>
+<p>Add the entry to your NFS exports file so that clients can access it.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo nano /etc/exports</code></pre></div>
+<p>Add the following line:</p>
+
+<pre><code>/opt/share      *(rw,sync,no_subtree_check,no_root_squash)
+</code></pre>
+
+<p>Save the file (CRTL + O). Now export the shares and restart the server:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo exportfs -a
+sudo systemctl restart nfs-kernel-server</code></pre></div>
+<p>On the worker node, mount the NFS using the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo mount 10.62.157.209:/opt/share<span style="color:#75715e"> /opt/share</span></code></pre></div>
+<p>The IP address will be the IP address of your master node. To automatically mount it every time, add the following to your fstab:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo nano /etc/fstab
+10.62.157.209:/opt/share<span style="color:#75715e"> /opt/share auto,nofail,noatime,nolock,intr,tcp,actimeo=1800 0 0</span></code></pre></div>
+<p>Save that file and you&rsquo;re good. Try making a test file in the NFS folder and make sure you can see it on both systems.</p>
+
+<h2 id="hyperledger-fabric-on-kubernetes">Hyperledger Fabric on Kubernetes</h2>
+
+<p>Now let&rsquo;s get to the fun part. The configuration of our network will look like the following:</p>
+
+<pre><code>crypto-config
+|--- ordererOrganizations
+|    |--- orgorderer1
+|           |--- msp
+|           |--- ca
+|           |--- tlsca
+|           |--- users
+|           |--- orderers
+|           |--- orderer0.orgorderer1
+|                 |--- msp
+|                 |--- tls
+|
+|--- peerOrganizations
+      |--- org1
+      |     |--- msp
+      |     |--- ca
+      |     |--- tlsca
+      |     |--- users
+      |     |--- peers
+      |           |--- peer0.org1
+      |           |     |--- msp
+      |           |     |--- tls
+      |           |--- peer1.org1
+      |                 |--- msp
+      |                 |--- tls
+      |--- org2
+            |--- msp
+            |--- ca
+            |--- tlsca
+            |--- users
+            |--- peers
+                   |--- peer0.org2
+                   |     |--- msp
+                   |     |--- tls
+                   |--- peer1.org2
+                         |--- msp
+                         |--- tls
+</code></pre>
+
+<p>You can read about it more <a href="http://www.think-foundry.com/deploy-hyperledger-fabric-on-kubernetes-part-1/">here</a></p>
+
+<p>All of these steps will be performed on your master node. Start off in your home directory and clone the following git repo:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">git clone https://github.com/hainingzhang/articles.git</code></pre></div>
+<h3 id="template-changes">Template Changes</h3>
+
+<p>Change to the <em>templates directory</em> directory (inside of Fabric-on-K8s/SetupCluster). You will need to change the following:</p>
+
+<p>In the <strong>fabric_1_0_template_pod_cli.yaml</strong> file, add the following in the <strong>env</strong> section under the <strong>container</strong> section:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">          - name: CORE_VM_DOCKER_HOSTCONFIG_NETWORKMODE
+            value: bridge</code></pre></div>
+<p>Next, change the address of the NFS file share so that it points to your your master node IP address.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">    nfs: 
+      path: /opt/share/channel-artifacts
+      server: <span style="color:#ae81ff">10.62</span>.<span style="color:#ae81ff">157.209</span></code></pre></div>
+<p>Save that file. Next in the <strong>fabric_1_0_template_pod_namespace.yaml</strong> file, change the address of the NFS file share so that it points to your master node IP address.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">  nfs:
+    path: $path
+    server: <span style="color:#ae81ff">10.62</span>.<span style="color:#ae81ff">157.209</span></code></pre></div>
+<p>Save that file. Next in the <strong>fabric_1_0_template_pod_orderer.yaml</strong> file, add the following in the <strong>env</strong> section under the <strong>container</strong> section:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">          - name: CORE_VM_DOCKER_HOSTCONFIG_NETWORKMODE
+            value: bridge</code></pre></div>
+<p>Save that file. Finally in the <strong>fabric_1_0_template_pod_peer.yaml</strong> file, add the following lines in the <strong>env</strong> section under the <strong>container</strong> section:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">        - name: CORE_VM_DOCKER_HOSTCONFIG_NETWORKMODE
+          value: bridge
+        - name: CORE_PEER_ADDRESSAUTODETECT
+          value: <span style="color:#e6db74">&#34;true&#34;</span></code></pre></div>
+<p>Save that file.</p>
+
+<h2 id="building-the-containers">Building the Containers</h2>
+
+<p>Go back to the <em>Fabric-on-K8s</em> folder. We will proceed to download the hyperledger binaries. For this tutorial, we are using hyperledger version 1.1. If you want to use a newer version of hyperledger then you will need to make changes to the config <em>configtx.yaml</em> to support new keywords/formatting. Slight warning, it becomes a pain to do so.</p>
+
+<p>Download the hyperledger binaries in the <em>Fabric-on-K8s</em> directory:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">curl -sSL http://bit.ly/2ysbOFE | bash -s -- 1.4.0</code></pre></div>
+<p>Once the download completes, you will see a folder called <em>fabric samples</em>. Inside of that folder is another folder called <em>bin</em>. Move that bin folder outside of the <em>fabric-samples</em> folder (one layer up).</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">mv ./fabric-samples/bin ./</code></pre></div>
+<p>Now go to the setup cluster folder and run the <em>generateAll.sh</em> file.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">chmod a+x ./generateAll.sh
+./generateAll.sh</code></pre></div>
+<p>Next, run the python script to build the containers:</p>
+
+<pre><code>python transform/run.py
+</code></pre>
+
+<p>All of the containers should now be created. Hopefully you should see a list of containers running that include peer0, peer1, ca and cli when issuing the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubectl get pods --all-namespaces</code></pre></div>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
+
+
+<h2 id="creating-channels">Creating Channels</h2>
+
+<p>Now you need to create the channel block. Go back to your <em>setupCluster</em> folder and run the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">../bin/configtxgen -profile TwoOrgsChannel -outputCreateChannelTx ./channel-artifacts/channel.tx -channelID mychannel</code></pre></div>
+<p>It should output a channel.tx in the channel-artifacts folders. Now create an upgrade channel that will update the anchor of Org1:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">../bin/configtxgen -profile TwoOrgsChannel -outputAnchorPeersUpdate ./channel-artifacts/Org1MSPanchors.tx -channelID mychannel -asOrg Org1MSP</code></pre></div>
+<p>Now do the same thing with Org2:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">../bin/configtxgen -profile TwoOrgsChannel -outputAnchorPeersUpdate ./channel-artifacts/Org2MSPanchors.tx -channelID mychannel -asOrg Org2MSP</code></pre></div>
+<p>Now copy the channel artifacts folder to the /opt/share directory so that it can be accessible from the CLI</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo cp -r ./channel-artifacts /opt/share</code></pre></div>
+<h2 id="installing-and-instantiating-chaincode">Installing and Instantiating Chaincode</h2>
+
+<p>We will need to manually enter into the CLI container to install the chaincode. First, find the ID of your CLI pod:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubectl get pods --namespace org1</code></pre></div>
+<p>You should retrieve a list of pods in Org1. You will need to find the one that has <strong>cli</strong> in its name and enter it:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubectl exec -it cli-2586535453-yclmr bash --namespace=org1</code></pre></div>
+<p>Once you enter into the pod&rsquo;s terminal, create a channel:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer channel create -o orderer0.orgorderer1:7050<span style="color:#75715e"> -c mychannel -f ./channel-artifacts/channel.tx</span></code></pre></div>
+<p>Then copy the channel block to channel artifacts:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">cp mychannel.block ./channel-artifacts</code></pre></div>
+<p>Finally, join this peer to the channel:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer channel join -b ./channel-artifacts/mychannel.block</code></pre></div>
+<p>Now update the anchor peer. You will need to do this once for each organization:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer channel update -o orderer0.orgorderer1:7050<span style="color:#75715e"> -c mychannel -f ./channel-artifacts/Org1MSPanchors.tx</span></code></pre></div>
+<p>Next, change to the <em>channel-artifacts</em> directory inside of that peer. It should be one layer from where you are currently at. Once you are inside of that directory, download the fabric-samples repo.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">git clone https://github.com/hyperledger/fabric-samples.git</code></pre></div>
+<p>Now install the chaincode:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer chaincode install -n mybb -v 1.0 -p github.com/hyperledger/fabric/peer/channel-artifacts/fabric-samples/chaincode/chaincode_example02/go</code></pre></div>
+<p>Afterwards, instantiate the chaincode:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer chaincode instantiate -o orderer0.orgorderer1:7050<span style="color:#75715e"> -C mychannel -n mybb -v 1.0 -c &#39;{&#34;Args&#34;:[&#34;init&#34;,&#34;a&#34;,&#34;100&#34;,&#34;b&#34;,&#34;200&#34;]}&#39;</span></code></pre></div>
+<p>Finally, test a query.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer chaincode query -C mychannel -n mybb -v v0 -c &#39;{<span style="color:#e6db74">&#34;Args&#34;</span>:[&#34;query&#34;<span style="color:#75715e">,&#34;a&#34;]}&#39;</span></code></pre></div>
+<p>If you get back 100, then everything works! You can repeat the channel copy, install and instantiation in the Cli of Org2.</p>
+
+<p>So that&rsquo;s it! From this point you are on your own. Hopefully this helps someone. Like I said, there were a couple of guides on the internet but I ran into a lot of hiccups and quirks trying to get this basic demo working. So hopefully this saves you some time.</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://www.bennettnotes.com/tags/blockchain/">blockchain</a>&nbsp;
+            
+              <a href="https://www.bennettnotes.com/tags/hyperledger/">hyperledger</a>&nbsp;
+            
+              <a href="https://www.bennettnotes.com/tags/docker/">docker</a>&nbsp;
+            
+              <a href="https://www.bennettnotes.com/tags/kubernetes/">kubernetes</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2finstall-hyperledger-fabric-on-kubernetes%2f&amp;text=Install%20Hyperledger%20Fabric%20on%20Kubernetes&amp;via=_davebennett" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2finstall-hyperledger-fabric-on-kubernetes%2f" target="_blank" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.bennettnotes.com%2fpost%2finstall-hyperledger-fabric-on-kubernetes%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2finstall-hyperledger-fabric-on-kubernetes%2f&amp;title=Install%20Hyperledger%20Fabric%20on%20Kubernetes" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2finstall-hyperledger-fabric-on-kubernetes%2f&amp;title=Install%20Hyperledger%20Fabric%20on%20Kubernetes" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2finstall-hyperledger-fabric-on-kubernetes%2f&amp;title=Install%20Hyperledger%20Fabric%20on%20Kubernetes" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2finstall-hyperledger-fabric-on-kubernetes%2f&amp;description=Install%20Hyperledger%20Fabric%20on%20Kubernetes" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+              </div>
+            </section>
+        
+
+        
+          
+          
+          <h4 class="see-also">See also</h4>
+          <ul>
+          
+            <li><a href="/blockchain-and-decentralization-will-not-fix-the-internet/">Blockchain and Decentralization will NOT fix the Internet</a></li>
+          
+            <li><a href="/javascript-hashcash-proof-work/">Javascript Hashcash Proof of Work</a></li>
+          
+            <li><a href="/javascript-blockchain/">Build a Javascript Blockchain</a></li>
+          
+          </ul>
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://www.bennettnotes.com/post/getting-too-absorbed-into-your-side-projects/" data-toggle="tooltip" data-placement="top" title="Getting Too Absorbed in Your Side Projects">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+          
+          <div class="disqus-comments">                  
+            <button id="show-comments" class="btn btn-default" type="button">Show <span class="disqus-comment-count" data-disqus-url="https://www.bennettnotes.com/post/install-hyperledger-fabric-on-kubernetes">comments</span></button>
+            <div id="disqus_thread"></div>
+
+            <script type="text/javascript">
+              var disqus_config = function () {
+              this.page.url = 'https:\/\/www.bennettnotes.com\/post\/install-hyperledger-fabric-on-kubernetes';
+            };
+
+          </script>
+          </div>
+          
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:dave@bennettnotes.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/davebennetttech" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DaveBben" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_davebennett" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DaveBben" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/opensourcegangster" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://www.bennettnotes.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="bennettnotes.com">Dave Bennett</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://www.bennettnotes.com">Bennett Notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Theme by adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+$(function(){
+  $('#show-comments').on('click', function(){
+    var disqus_shortname = 'https-bennettnotes-com';
+      
+    (function() {
+      var disqus = document.createElement('script'); 
+      disqus.type = 'text/javascript'; 
+      disqus.async = true;
+      disqus.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(disqus);
+    })();
+      
+    $(this).hide(); 
+    });
+  });
+      
+</script>
+<script id="dsq-count-scr" src="//https-bennettnotes-com.disqus.com/count.js" async></script>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"
+  integrity="sha256-uScRgGrInD2VnPNpjmlQtB2XRVLczyyZvrTkYi+e31U="
+  crossorigin="anonymous"
+></script>
+<script
+  async
+  src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+
+
+
+
+
+
+
+<script
+    src="https://www.bennettnotes.com/bundle.min.js"
+    integrity=""></script>
+
+
+
+
+  </body>
+</html>
+

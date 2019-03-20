@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.bennettnotes.com/post/install-hyperledger-fabric-on-kubernetes/</loc>
+    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/post/getting-too-absorbed-into-your-side-projects/</loc>
     <lastmod>2019-03-14T07:01:19-04:00</lastmod>
   </url>
@@ -1202,14 +1207,14 @@
   </url>
   
   <url>
-    <loc>https://www.bennettnotes.com/categories/android/</loc>
-    <lastmod>2018-10-20T14:37:18+00:00</lastmod>
+    <loc>https://www.bennettnotes.com/tags/android/</loc>
+    <lastmod>2018-06-27T00:04:21+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.bennettnotes.com/tags/android/</loc>
-    <lastmod>2018-06-27T00:04:21+00:00</lastmod>
+    <loc>https://www.bennettnotes.com/categories/android/</loc>
+    <lastmod>2018-10-20T14:37:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1413,7 +1418,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/</loc>
-    <lastmod>2019-03-14T07:01:19-04:00</lastmod>
+    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1449,7 +1454,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/tags/blockchain/</loc>
-    <lastmod>2018-03-26T16:34:40+00:00</lastmod>
+    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1628,14 +1633,14 @@
   </url>
   
   <url>
-    <loc>https://www.bennettnotes.com/categories/chrome-os/</loc>
-    <lastmod>2018-05-16T13:31:10+00:00</lastmod>
+    <loc>https://www.bennettnotes.com/tags/chrome-os/</loc>
+    <lastmod>2017-01-23T22:53:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.bennettnotes.com/tags/chrome-os/</loc>
-    <lastmod>2017-01-23T22:53:34+00:00</lastmod>
+    <loc>https://www.bennettnotes.com/categories/chrome-os/</loc>
+    <lastmod>2018-05-16T13:31:10+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2014,6 +2019,12 @@
   <url>
     <loc>https://www.bennettnotes.com/tags/display/</loc>
     <lastmod>2016-08-19T18:31:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bennettnotes.com/tags/docker/</loc>
+    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2456,14 +2467,14 @@
   </url>
   
   <url>
-    <loc>https://www.bennettnotes.com/categories/gadgets/</loc>
-    <lastmod>2018-10-26T16:49:11+00:00</lastmod>
+    <loc>https://www.bennettnotes.com/tags/gadgets/</loc>
+    <lastmod>2016-07-04T14:35:32+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.bennettnotes.com/tags/gadgets/</loc>
-    <lastmod>2016-07-04T14:35:32+00:00</lastmod>
+    <loc>https://www.bennettnotes.com/categories/gadgets/</loc>
+    <lastmod>2018-10-26T16:49:11+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2792,6 +2803,12 @@
   </url>
   
   <url>
+    <loc>https://www.bennettnotes.com/tags/hyperledger/</loc>
+    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/tags/image-classification/</loc>
     <lastmod>2017-12-24T16:22:00+00:00</lastmod>
     <priority>0</priority>
@@ -2972,6 +2989,12 @@
   </url>
   
   <url>
+    <loc>https://www.bennettnotes.com/tags/kubernetes/</loc>
+    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/tags/l/</loc>
     <lastmod>2014-09-16T17:28:03+00:00</lastmod>
     <priority>0</priority>
@@ -3056,14 +3079,14 @@
   </url>
   
   <url>
-    <loc>https://www.bennettnotes.com/categories/life/</loc>
-    <lastmod>2019-03-14T07:01:19-04:00</lastmod>
+    <loc>https://www.bennettnotes.com/tags/life/</loc>
+    <lastmod>2016-11-29T04:31:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.bennettnotes.com/tags/life/</loc>
-    <lastmod>2016-11-29T04:31:03+00:00</lastmod>
+    <loc>https://www.bennettnotes.com/categories/life/</loc>
+    <lastmod>2019-03-14T07:01:19-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3080,14 +3103,14 @@
   </url>
   
   <url>
-    <loc>https://www.bennettnotes.com/categories/linux/</loc>
-    <lastmod>2017-12-14T04:01:38+00:00</lastmod>
+    <loc>https://www.bennettnotes.com/tags/linux/</loc>
+    <lastmod>2018-02-20T14:48:40+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.bennettnotes.com/tags/linux/</loc>
-    <lastmod>2018-02-20T14:48:40+00:00</lastmod>
+    <loc>https://www.bennettnotes.com/categories/linux/</loc>
+    <lastmod>2017-12-14T04:01:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3753,7 +3776,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/post/</loc>
-    <lastmod>2019-03-14T07:01:19-04:00</lastmod>
+    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3807,7 +3830,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/categories/programming/</loc>
-    <lastmod>2019-03-11T06:04:23-04:00</lastmod>
+    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4976,14 +4999,14 @@
   </url>
   
   <url>
-    <loc>https://www.bennettnotes.com/categories/windows/</loc>
-    <lastmod>2018-11-17T02:15:11+00:00</lastmod>
+    <loc>https://www.bennettnotes.com/tags/windows/</loc>
+    <lastmod>2018-01-29T01:11:40+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.bennettnotes.com/tags/windows/</loc>
-    <lastmod>2018-01-29T01:11:40+00:00</lastmod>
+    <loc>https://www.bennettnotes.com/categories/windows/</loc>
+    <lastmod>2018-11-17T02:15:11+00:00</lastmod>
     <priority>0</priority>
   </url>
   

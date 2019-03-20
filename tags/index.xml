@@ -493,7 +493,7 @@
     <item>
       <title>Blockchain</title>
       <link>https://www.bennettnotes.com/tags/blockchain/</link>
-      <pubDate>Mon, 26 Mar 2018 16:34:40 +0000</pubDate>
+      <pubDate>Wed, 20 Mar 2019 17:09:26 -0400</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/tags/blockchain/</guid>
       <description></description>
@@ -1324,6 +1324,15 @@
       <pubDate>Fri, 19 Aug 2016 18:31:47 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/tags/display/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://www.bennettnotes.com/tags/docker/</link>
+      <pubDate>Wed, 20 Mar 2019 17:09:26 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/tags/docker/</guid>
       <description></description>
     </item>
     
@@ -2471,6 +2480,15 @@
     </item>
     
     <item>
+      <title>Hyperledger</title>
+      <link>https://www.bennettnotes.com/tags/hyperledger/</link>
+      <pubDate>Wed, 20 Mar 2019 17:09:26 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/tags/hyperledger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Image Classification</title>
       <link>https://www.bennettnotes.com/tags/image-classification/</link>
       <pubDate>Sun, 24 Dec 2017 16:22:00 +0000</pubDate>
@@ -2737,6 +2755,15 @@
       <pubDate>Fri, 30 Sep 2016 14:59:45 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/tags/kodi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://www.bennettnotes.com/tags/kubernetes/</link>
+      <pubDate>Wed, 20 Mar 2019 17:09:26 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/tags/kubernetes/</guid>
       <description></description>
     </item>
     
