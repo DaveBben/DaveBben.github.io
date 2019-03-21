@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.bennettnotes.com/post/complacency-after-college/</loc>
+    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/post/install-hyperledger-fabric-on-kubernetes/</loc>
     <lastmod>2019-03-20T17:09:26-04:00</lastmod>
   </url>
@@ -1418,7 +1423,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/</loc>
-    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
+    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1681,6 +1686,12 @@
   </url>
   
   <url>
+    <loc>https://www.bennettnotes.com/tags/college/</loc>
+    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/tags/comedy/</loc>
     <lastmod>2016-04-09T15:04:37+00:00</lastmod>
     <priority>0</priority>
@@ -1695,6 +1706,12 @@
   <url>
     <loc>https://www.bennettnotes.com/tags/compile/</loc>
     <lastmod>2014-07-04T08:12:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bennettnotes.com/tags/complacency/</loc>
+    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3086,7 +3103,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/categories/life/</loc>
-    <lastmod>2019-03-14T07:01:19-04:00</lastmod>
+    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3339,6 +3356,12 @@
   <url>
     <loc>https://www.bennettnotes.com/tags/motion/</loc>
     <lastmod>2015-04-18T16:09:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bennettnotes.com/tags/motivation/</loc>
+    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3776,7 +3799,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/post/</loc>
-    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
+    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3866,7 +3889,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/tags/psychology/</loc>
-    <lastmod>2019-03-09T12:46:10-05:00</lastmod>
+    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4622,7 +4645,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/tags/thoughts/</loc>
-    <lastmod>2019-03-14T07:01:19-04:00</lastmod>
+    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   
