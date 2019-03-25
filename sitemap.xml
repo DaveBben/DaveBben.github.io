@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.bennettnotes.com/post/scrape-google-search-using-puppeteer/</loc>
+    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/post/complacency-after-college/</loc>
     <lastmod>2019-03-21T06:00:37-04:00</lastmod>
   </url>
@@ -1423,7 +1428,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/</loc>
-    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
+    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2953,7 +2958,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/tags/javascript/</loc>
-    <lastmod>2018-04-22T17:53:29+00:00</lastmod>
+    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3493,7 +3498,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/tags/nodejs/</loc>
-    <lastmod>2019-03-05T07:14:19-05:00</lastmod>
+    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3799,7 +3804,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/post/</loc>
-    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
+    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3853,7 +3858,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/categories/programming/</loc>
-    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
+    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3890,6 +3895,12 @@
   <url>
     <loc>https://www.bennettnotes.com/tags/psychology/</loc>
     <lastmod>2019-03-21T06:00:37-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bennettnotes.com/tags/puppeteer/</loc>
+    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4946,6 +4957,12 @@
   <url>
     <loc>https://www.bennettnotes.com/tags/web-development/</loc>
     <lastmod>2017-12-28T03:13:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bennettnotes.com/tags/web-scraping/</loc>
+    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
     <priority>0</priority>
   </url>
   

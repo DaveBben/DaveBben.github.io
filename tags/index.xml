@@ -2698,7 +2698,7 @@
     <item>
       <title>Javascript</title>
       <link>https://www.bennettnotes.com/tags/javascript/</link>
-      <pubDate>Sun, 22 Apr 2018 17:53:29 +0000</pubDate>
+      <pubDate>Mon, 25 Mar 2019 05:50:08 -0400</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/tags/javascript/</guid>
       <description></description>
@@ -3490,7 +3490,7 @@
     <item>
       <title>Nodejs</title>
       <link>https://www.bennettnotes.com/tags/nodejs/</link>
-      <pubDate>Tue, 05 Mar 2019 07:14:19 -0500</pubDate>
+      <pubDate>Mon, 25 Mar 2019 05:50:08 -0400</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/tags/nodejs/</guid>
       <description></description>
@@ -4051,6 +4051,15 @@
       <pubDate>Thu, 21 Mar 2019 06:00:37 -0400</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/tags/psychology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Puppeteer</title>
+      <link>https://www.bennettnotes.com/tags/puppeteer/</link>
+      <pubDate>Mon, 25 Mar 2019 05:50:08 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/tags/puppeteer/</guid>
       <description></description>
     </item>
     
@@ -5626,6 +5635,15 @@
       <pubDate>Thu, 28 Dec 2017 03:13:37 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Scraping</title>
+      <link>https://www.bennettnotes.com/tags/web-scraping/</link>
+      <pubDate>Mon, 25 Mar 2019 05:50:08 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/tags/web-scraping/</guid>
       <description></description>
     </item>
     

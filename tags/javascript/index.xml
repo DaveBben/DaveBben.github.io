@@ -8,10 +8,21 @@
     <language>en-us</language>
     <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
-    <lastBuildDate>Sun, 22 Apr 2018 17:53:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2019 05:50:08 -0400</lastBuildDate>
     
 	<atom:link href="https://www.bennettnotes.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Scrape Google Search Using Puppeteer</title>
+      <link>https://www.bennettnotes.com/post/scrape-google-search-using-puppeteer/</link>
+      <pubDate>Mon, 25 Mar 2019 05:50:08 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/post/scrape-google-search-using-puppeteer/</guid>
+      <description>For my side project, I needed to scrape Google search using a headless browser. I ended up using the Nodejs library called puppeteer. It&amp;rsquo;s a headless browser that uses chromium.
+Install puppeteer npm install puppeteer Scrape Google Search using Puppeteer First, let&amp;rsquo;s go to the google homepage, type something in, and click the search button.
+try { (async () =&amp;gt; { const browser = await puppeteer.launch(); const page = await browser.</description>
+    </item>
     
     <item>
       <title>JWT Tokens in Express and NodeJS</title>
