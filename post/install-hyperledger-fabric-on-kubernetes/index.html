@@ -485,17 +485,14 @@ sudo systemctl restart nfs-kernel-server</code></pre></div>
 <p>Go back to the <em>Fabric-on-K8s</em> folder. We will proceed to download the hyperledger binaries. For this tutorial, we are using hyperledger version 1.1. If you want to use a newer version of hyperledger then you will need to make changes to the config <em>configtx.yaml</em> to support new keywords/formatting. Slight warning, it becomes a pain to do so.</p>
 
 <p>Download the hyperledger binaries in the <em>Fabric-on-K8s</em> directory:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">curl -sSL http://bit.ly/2ysbOFE | bash -s -- 1.4.0</code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">curl -sSL http://bit.ly/2ysbOFE | bash -s -- 1.1.0</code></pre></div>
 <p>Once the download completes, you will see a folder called <em>fabric samples</em>. Inside of that folder is another folder called <em>bin</em>. Move that bin folder outside of the <em>fabric-samples</em> folder (one layer up).</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">mv ./fabric-samples/bin ./</code></pre></div>
 <p>Now go to the setup cluster folder and run the <em>generateAll.sh</em> file.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">chmod a+x ./generateAll.sh
 ./generateAll.sh</code></pre></div>
 <p>Next, run the python script to build the containers:</p>
-
-<pre><code>python transform/run.py
-</code></pre>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">python transform/run.py</code></pre></div>
 <p>All of the containers should now be created. Hopefully you should see a list of containers running that include peer0, peer1, ca and cli when issuing the following command:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubectl get pods --all-namespaces</code></pre></div>
 <ins class="adsbygoogle"
