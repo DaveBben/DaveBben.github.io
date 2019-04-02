@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.bennettnotes.com/post/i-want-to-do-everything-so-i-do-nothing/</loc>
+    <lastmod>2019-04-02T06:03:59-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/post/scrape-google-search-using-puppeteer/</loc>
     <lastmod>2019-03-25T05:50:08-04:00</lastmod>
   </url>
@@ -1428,7 +1433,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/</loc>
-    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
+    <lastmod>2019-04-02T06:03:59-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3108,7 +3113,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/categories/life/</loc>
-    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
+    <lastmod>2019-04-02T06:03:59-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3804,7 +3809,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/post/</loc>
-    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
+    <lastmod>2019-04-02T06:03:59-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4253,6 +4258,12 @@
   </url>
   
   <url>
+    <loc>https://www.bennettnotes.com/tags/self-discipline/</loc>
+    <lastmod>2019-04-02T06:03:59-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/tags/self-improvement/</loc>
     <lastmod>2019-03-09T12:46:10-05:00</lastmod>
     <priority>0</priority>
@@ -4656,13 +4667,19 @@
   
   <url>
     <loc>https://www.bennettnotes.com/tags/thoughts/</loc>
-    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
+    <lastmod>2019-04-02T06:03:59-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.bennettnotes.com/tags/tile/</loc>
     <lastmod>2017-03-12T22:46:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bennettnotes.com/tags/time-management/</loc>
+    <lastmod>2019-04-02T06:03:59-04:00</lastmod>
     <priority>0</priority>
   </url>
   
