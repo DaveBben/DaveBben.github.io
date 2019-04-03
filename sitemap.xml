@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.bennettnotes.com/post/learning-to-declutter-and-clear-your-mind/</loc>
+    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/post/i-want-to-do-everything-so-i-do-nothing/</loc>
     <lastmod>2019-04-02T06:03:59-04:00</lastmod>
   </url>
@@ -1433,7 +1438,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/</loc>
-    <lastmod>2019-04-02T06:03:59-04:00</lastmod>
+    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1674,6 +1679,12 @@
   <url>
     <loc>https://www.bennettnotes.com/tags/chrubuntu/</loc>
     <lastmod>2014-07-10T15:44:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bennettnotes.com/tags/clear-mind/</loc>
+    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2656,6 +2667,12 @@
   </url>
   
   <url>
+    <loc>https://www.bennettnotes.com/tags/gtd/</loc>
+    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bennettnotes.com/tags/guardian/</loc>
     <lastmod>2016-06-03T14:59:06+00:00</lastmod>
     <priority>0</priority>
@@ -3113,7 +3130,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/categories/life/</loc>
-    <lastmod>2019-04-02T06:03:59-04:00</lastmod>
+    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3809,7 +3826,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/post/</loc>
-    <lastmod>2019-04-02T06:03:59-04:00</lastmod>
+    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4265,7 +4282,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/tags/self-improvement/</loc>
-    <lastmod>2019-03-09T12:46:10-05:00</lastmod>
+    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4667,7 +4684,7 @@
   
   <url>
     <loc>https://www.bennettnotes.com/tags/thoughts/</loc>
-    <lastmod>2019-04-02T06:03:59-04:00</lastmod>
+    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
