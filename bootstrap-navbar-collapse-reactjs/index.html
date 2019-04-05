@@ -62,6 +62,7 @@ You could directly take this code and put it in ReactJS (but change class _to�
   "@context": "http://schema.org",
   "@type": "Article",
   "author": {
+	"@type": "Person",
     "name" : "dave"
   },
   "headline": "Bootstrap Navbar Collapse in ReactJS",
@@ -77,7 +78,7 @@ You could directly take this code and put it in ReactJS (but change class _to�
   "mainEntityOfPage" : "https://www.bennettnotes.com/bootstrap-navbar-collapse-reactjs/",
   "publisher" : {
     "@type": "Organization",
-    "name" : "https://www.bennettnotes.com",
+    "name" : "Bennett Notes",
     "logo" : {
         "@type" : "ImageObject",
         "url" : "https://www.bennettnotes.com/img/avatar-icon.png",
@@ -87,6 +88,7 @@ You could directly take this code and put it in ReactJS (but change class _to�
   }
 }
 </script>
+
 
 <meta property="og:title" content="Bootstrap Navbar Collapse in ReactJS" />
 <meta property="og:description" content="Bootstrap is an amazing library and works wonders with ReactJS. Unfortunately, you can&#8217;t (or really shouldn&#8217;t) use Bootstrap.js with React because bootstrap directly manipulates the DOM; which could break React&#8217;s nice rendering flow. This becomes a big problem if you wanted to implement a Navbar using plain bootstrap. Take the following for example from Bootstrap&#8217;s documentation:

@@ -58,6 +58,7 @@
   "@context": "http://schema.org",
   "@type": "Article",
   "author": {
+	"@type": "Person",
     "name" : "dave"
   },
   "headline": "Overclock Chromebook",
@@ -71,7 +72,7 @@
   "mainEntityOfPage" : "https://www.bennettnotes.com/overclock-chromebook/",
   "publisher" : {
     "@type": "Organization",
-    "name" : "https://www.bennettnotes.com",
+    "name" : "Bennett Notes",
     "logo" : {
         "@type" : "ImageObject",
         "url" : "https://www.bennettnotes.com/img/avatar-icon.png",
@@ -81,6 +82,7 @@
   }
 }
 </script>
+
 
 <meta property="og:title" content="Overclock Chromebook" />
 <meta property="og:description" content="Overclock Chromebook? It sounds like something that should be impossible to do. However, with the power of Linux, everything is possible. The Chromebook doesn&#8217;t have the typical bios that you would find on a standard PC. Therefore, you can&#8217;t easily change the CPU frequency. Using Linux, we can achieve a software FSB overclock or underclock. For this tutorial, let&#8217;s focus on underclocking because that&#8217;s the easier thing to do (damn that click bait).">
@@ -422,9 +424,9 @@ sudo cpufreq-set -c1 -u 1200000</pre>
           <h4 class="see-also">See also</h4>
           <ul>
           
-            <li><a href="/hearthstone-on-chromebook/">Hearthstone on Chromebook</a></li>
-          
             <li><a href="/hearthstone-on-chromebook-2/">Hearthstone on Chromebook</a></li>
+          
+            <li><a href="/hearthstone-on-chromebook/">Hearthstone on Chromebook</a></li>
           
             <li><a href="/mac-os-on-chromebook/">Mac OS on Chromebook</a></li>
           

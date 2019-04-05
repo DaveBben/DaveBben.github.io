@@ -58,6 +58,7 @@
   "@context": "http://schema.org",
   "@type": "Article",
   "author": {
+	"@type": "Person",
     "name" : "dave"
   },
   "headline": "Implementing Token Interceptor and Retry in Angular 4",
@@ -71,7 +72,7 @@
   "mainEntityOfPage" : "https://www.bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4-2/",
   "publisher" : {
     "@type": "Organization",
-    "name" : "https://www.bennettnotes.com",
+    "name" : "Bennett Notes",
     "logo" : {
         "@type" : "ImageObject",
         "url" : "https://www.bennettnotes.com/img/avatar-icon.png",
@@ -81,6 +82,7 @@
   }
 }
 </script>
+
 
 <meta property="og:title" content="Implementing Token Interceptor and Retry in Angular 4" />
 <meta property="og:description" content="If you are building a web application using Angular 4 or Angular 5 there&#8217;s a good chance that you might be working with JWT tokens. Luckily, implementing token interceptor and retry in Angular 4 and beyond is very easy thanks to the new HTTP Interceptors. Using this, we can add an authorization header to every outbound request while also implementing a retry mechanism for requests that fail due to an expired token.">

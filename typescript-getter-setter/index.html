@@ -61,6 +61,7 @@ person = {}; person.name = …">
   "@context": "http://schema.org",
   "@type": "Article",
   "author": {
+	"@type": "Person",
     "name" : "dave"
   },
   "headline": "Typescript Getter and Setter",
@@ -75,7 +76,7 @@ person = {}; person.name = &#39;Dave&#39; //uses the implicit setter on the obje
   "mainEntityOfPage" : "https://www.bennettnotes.com/typescript-getter-setter/",
   "publisher" : {
     "@type": "Organization",
-    "name" : "https://www.bennettnotes.com",
+    "name" : "Bennett Notes",
     "logo" : {
         "@type" : "ImageObject",
         "url" : "https://www.bennettnotes.com/img/avatar-icon.png",
@@ -85,6 +86,7 @@ person = {}; person.name = &#39;Dave&#39; //uses the implicit setter on the obje
   }
 }
 </script>
+
 
 <meta property="og:title" content="Typescript Getter and Setter" />
 <meta property="og:description" content="This is something that you probably don&#8217;t ever think about, but getters and setters are implicit on every javascript object. For example, if we take the following:
