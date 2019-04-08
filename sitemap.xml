@@ -1,5267 +1,2999 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/post/learning-to-declutter-and-clear-your-mind/</loc>
-    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
+    <lastmod>2019-04-05T13:54:28-04:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/post/i-want-to-do-everything-so-i-do-nothing/</loc>
-    <lastmod>2019-04-02T06:03:59-04:00</lastmod>
+    <lastmod>2019-04-02T06:28:46-04:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/post/scrape-google-search-using-puppeteer/</loc>
-    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
+    <lastmod>2019-03-25T06:20:02-04:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/post/complacency-after-college/</loc>
-    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
+    <lastmod>2019-03-22T08:28:37-04:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/post/install-hyperledger-fabric-on-kubernetes/</loc>
-    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
+    <lastmod>2019-03-28T05:49:48-04:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/post/getting-too-absorbed-into-your-side-projects/</loc>
-    <lastmod>2019-03-14T07:01:19-04:00</lastmod>
+    <lastmod>2019-03-14T07:29:45-04:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/post/why-i-switched-from-wordpress-to-hugo/</loc>
-    <lastmod>2019-03-11T06:04:23-04:00</lastmod>
+    <lastmod>2019-03-12T06:33:49-04:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/post/happiness-and-anticipation/</loc>
-    <lastmod>2019-03-09T12:46:10-05:00</lastmod>
+    <lastmod>2019-03-09T13:32:55-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/post/scientifically-proven-ways-to-be-happy-again/</loc>
-    <lastmod>2019-03-06T06:02:09-05:00</lastmod>
+    <lastmod>2019-03-09T13:32:55-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/post/angular-read-system-environment-variables/</loc>
-    <lastmod>2019-03-05T07:14:19-05:00</lastmod>
+    <lastmod>2019-03-05T15:21:33-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/post/how-to-setup-search-on-hugo/</loc>
-    <lastmod>2019-03-04T06:11:06-05:00</lastmod>
+    <lastmod>2019-03-28T05:49:48-04:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/post/ebooks-are-not-social/</loc>
-    <lastmod>2019-03-03T18:26:46-05:00</lastmod>
+    <lastmod>2019-03-03T19:08:50-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/page/search/</loc>
-    <lastmod>2019-02-24T09:47:59-05:00</lastmod>
+    <lastmod>2019-02-27T06:31:21-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-download-any-video-from-any-site-for-free/</loc>
-    <lastmod>2018-11-17T02:15:11+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-remove-bloatware-from-windows-10/</loc>
-    <lastmod>2018-11-10T15:41:56+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/pixel-3-review-dont-romanticize-imperfection/</loc>
-    <lastmod>2018-10-26T16:49:11+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-share-wifi-connection-on-android/</loc>
-    <lastmod>2018-10-20T14:37:18+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-control-android-from-android/</loc>
-    <lastmod>2018-09-29T12:51:47+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/best-windows-10-screensavers-2018/</loc>
-    <lastmod>2018-09-10T00:50:44+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/my-computer-science-degree-was-not-worth-the-cost/</loc>
-    <lastmod>2018-09-07T13:07:44+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-block-all-ads-on-android-without-root-2/</loc>
-    <lastmod>2018-06-27T00:04:21+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-block-all-ads-on-android-without-root/</loc>
-    <lastmod>2018-06-27T00:04:21+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-theme-and-customize-windows-10/</loc>
-    <lastmod>2018-06-08T10:15:45+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/stream-games-to-chromebook/</loc>
-    <lastmod>2018-05-16T13:31:10+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-enable-ultimate-performance-mode-in-windows-10/</loc>
-    <lastmod>2018-05-16T13:27:31+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/jwt-tokens-in-express-and-nodejs/</loc>
-    <lastmod>2018-04-22T17:53:29+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/react-login-with-google-firebase/</loc>
-    <lastmod>2018-04-04T22:14:49+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-build-a-chrome-extension/</loc>
-    <lastmod>2018-03-28T15:07:56+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/blockchain-and-decentralization-will-not-fix-the-internet/</loc>
-    <lastmod>2018-03-26T16:34:40+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/react-native-stacknavigator-tutorial/</loc>
-    <lastmod>2018-03-26T02:00:19+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/google-poly-api-javascript-and-nodejs/</loc>
-    <lastmod>2018-03-26T01:56:23+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/react-context-api/</loc>
-    <lastmod>2018-03-22T03:53:44+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/react-native-android-receive-data-from-share-intent/</loc>
-    <lastmod>2018-03-07T01:11:04+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/typescript-getter-setter/</loc>
-    <lastmod>2018-03-07T00:35:21+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/angular-4-input-numbers-directive/</loc>
-    <lastmod>2018-03-07T00:11:23+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4-2/</loc>
-    <lastmod>2018-02-23T14:46:58+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4/</loc>
-    <lastmod>2018-02-23T14:46:58+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/simple-css-hack-can-steal-internet-passwords/</loc>
-    <lastmod>2018-02-21T16:51:25+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-build-a-forum/</loc>
-    <lastmod>2018-02-20T14:48:40+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/run-windows-applications-exe-files-on-android/</loc>
-    <lastmod>2018-01-29T01:11:40+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/angular-4-forms-2/</loc>
-    <lastmod>2018-01-13T15:12:40+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/angular-4-forms/</loc>
-    <lastmod>2018-01-13T15:12:40+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/</loc>
-    <lastmod>2018-01-13T15:06:53+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/use-machine-learning-to-predict-the-value-of-bitcoin/</loc>
-    <lastmod>2018-01-08T22:41:11+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/meltdown-and-spectre-javascript-vulnerabilities/</loc>
-    <lastmod>2018-01-05T15:50:52+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/best-chrome-extensions-for-web-development/</loc>
-    <lastmod>2017-12-28T03:13:37+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/bootstrap-navbar-collapse-reactjs/</loc>
-    <lastmod>2017-12-27T15:19:56+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/php-query-sql-database-return-json/</loc>
-    <lastmod>2017-12-27T15:15:04+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/php-insert-sql-database-fetch-post/</loc>
-    <lastmod>2017-12-27T15:12:17+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/gpu-programming-in-javascript/</loc>
-    <lastmod>2017-12-26T16:58:09+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/image-classification-using-nvidia-digits-deep-learning/</loc>
-    <lastmod>2017-12-24T16:22:00+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/run-linux-on-surface-laptop/</loc>
-    <lastmod>2017-12-22T15:17:48+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/javascript-vs-vs/</loc>
-    <lastmod>2017-12-22T14:54:56+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/subscribe-to-variable-change-in-angular-4-service/</loc>
-    <lastmod>2017-12-22T14:40:18+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/ubuntu-install-hangs-splash-screen-fix/</loc>
-    <lastmod>2017-12-14T04:01:38+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/build-a-mmo-game-with-javascript-and-nodejs/</loc>
-    <lastmod>2017-12-10T22:27:10+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/javascript-hashcash-proof-work/</loc>
-    <lastmod>2017-12-04T22:39:00+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/javascript-blockchain/</loc>
-    <lastmod>2017-12-04T22:33:00+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/google-pixel-2-xl-vs-galaxy-note-8/</loc>
-    <lastmod>2017-11-25T17:15:31+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/navigate-in-reactjs-using-react-v4-router/</loc>
-    <lastmod>2017-11-23T13:53:59+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/understanding-the-javascript-spread-operator-2/</loc>
-    <lastmod>2017-11-23T05:14:17+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/understanding-the-javascript-spread-operator/</loc>
-    <lastmod>2017-11-23T05:14:17+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/run-kali-linux-2-android/</loc>
-    <lastmod>2017-10-29T03:47:36+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/multithreaded-javascript/</loc>
-    <lastmod>2017-10-22T15:59:58+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/run-android-nougat-on-pc/</loc>
-    <lastmod>2017-10-19T02:49:19+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/machine-learning-in-javascript/</loc>
-    <lastmod>2017-10-15T17:57:54+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/javascript-read-usb-2/</loc>
-    <lastmod>2017-10-15T17:49:06+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/snapchat-using-javascript/</loc>
-    <lastmod>2017-10-15T17:42:01+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/reddit-api-application-oauth-javascript/</loc>
-    <lastmod>2017-10-15T17:31:14+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/run-os-chromebook/</loc>
-    <lastmod>2017-10-12T13:37:00+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/stop-windows-from-compressing-wallpaper/</loc>
-    <lastmod>2017-09-14T13:38:15+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/dark-theme-any-app/</loc>
-    <lastmod>2017-09-04T13:49:37+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/javascript-read-usb/</loc>
-    <lastmod>2017-08-18T13:10:40+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/javascript-callbacks/</loc>
-    <lastmod>2017-08-17T02:29:24+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/overclock-chromebook/</loc>
-    <lastmod>2017-07-27T02:10:14+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/amazon-echo-show-web-browser/</loc>
-    <lastmod>2017-07-20T01:40:08+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/android-freeform-mode/</loc>
-    <lastmod>2017-07-04T19:27:12+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/install-kali-linux-on-chromebook/</loc>
-    <lastmod>2017-06-28T00:27:26+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/play-4k-youtube-videos-android/</loc>
-    <lastmod>2017-06-14T23:38:25+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/android-wifi-jammer/</loc>
-    <lastmod>2017-05-28T03:43:01+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/developer-mode-chromebook/</loc>
-    <lastmod>2017-05-14T14:04:19+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/remove-linux-on-chromebook/</loc>
-    <lastmod>2017-05-14T13:58:12+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/install-linux-on-chromebook/</loc>
-    <lastmod>2017-05-14T13:48:31+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/5-actually-cool-android-tricks/</loc>
-    <lastmod>2017-05-11T23:41:52+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/raspberry-pi-webserver/</loc>
-    <lastmod>2017-05-07T00:19:41+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/delete-pi-user-on-raspberry-pi/</loc>
-    <lastmod>2017-05-07T00:13:45+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/change-navbar-color-android/</loc>
-    <lastmod>2017-04-16T13:48:18+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/setup-raspberry-pi-3/</loc>
-    <lastmod>2017-04-16T01:51:37+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/lg-g6-unboxing/</loc>
-    <lastmod>2017-04-15T15:50:06+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/android-reverse-tether/</loc>
-    <lastmod>2017-04-07T19:55:11+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-install-adb/</loc>
-    <lastmod>2017-04-07T18:46:32+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/no-more-internet-privacy/</loc>
-    <lastmod>2017-04-02T21:12:48+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/top-linux-apps/</loc>
-    <lastmod>2017-03-28T15:28:08+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/cheapest-computer-can-buy/</loc>
-    <lastmod>2017-03-24T03:31:24+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/whats-new-android-o/</loc>
-    <lastmod>2017-03-22T02:36:52+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/dual-boot-windows-10-and-ubuntu/</loc>
-    <lastmod>2017-03-15T02:03:23+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/top-7-android-apps-march-2017/</loc>
-    <lastmod>2017-03-12T22:46:30+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/control-android-phone-without-touching/</loc>
-    <lastmod>2017-03-12T04:01:23+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/stream-steam-games-android-2017/</loc>
-    <lastmod>2017-02-01T02:52:58+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/replace-chrome-os-with-windows/</loc>
-    <lastmod>2017-01-23T22:53:34+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/create-shared-network-folde-linux-r/</loc>
-    <lastmod>2016-12-31T16:27:11+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/play-pokemon-android-smartwatch/</loc>
-    <lastmod>2016-12-31T16:03:24+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/share-internet-connection-windows/</loc>
-    <lastmod>2016-12-22T16:44:42+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/best-android-smartwatch-2016/</loc>
-    <lastmod>2016-12-22T15:39:25+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/top-android-holiday-apps/</loc>
-    <lastmod>2016-12-20T15:45:26+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/best-extensions-google-chrome/</loc>
-    <lastmod>2016-12-11T00:12:15+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/create-a-vpn-server/</loc>
-    <lastmod>2016-12-08T01:54:17+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/measure-battery-usage-windows/</loc>
-    <lastmod>2016-12-01T15:22:05+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/android-battery-saving-tips-disable-snapchat-background-data/</loc>
-    <lastmod>2016-11-29T04:31:03+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/make-cortana-use-google/</loc>
-    <lastmod>2016-11-26T04:21:40+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/control-multiple-computers/</loc>
-    <lastmod>2016-11-22T21:03:42+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/calendar-watch/</loc>
-    <lastmod>2016-11-09T22:52:55+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/play-playstation-3-games-on-pc/</loc>
-    <lastmod>2016-11-06T15:00:15+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/moto-z-play-vs-oneplus-3/</loc>
-    <lastmod>2016-11-01T03:12:05+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/moto-z-play-review/</loc>
-    <lastmod>2016-10-30T14:54:17+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/actual-android-battery-capacity/</loc>
-    <lastmod>2016-10-23T23:22:33+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/moto-z-play-unboxing/</loc>
-    <lastmod>2016-10-21T13:51:57+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/galaxy-note-7-discontinued/</loc>
-    <lastmod>2016-10-12T00:34:12+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/google-pixel-phone-disappointment/</loc>
-    <lastmod>2016-10-05T03:02:54+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/kodi-on-firestick/</loc>
-    <lastmod>2016-09-30T14:59:45+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/need-imessage-android/</loc>
-    <lastmod>2016-09-28T03:12:18+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/use-android-as-microphone/</loc>
-    <lastmod>2016-09-23T15:59:58+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/android-csploit-2/</loc>
-    <lastmod>2016-09-16T15:59:21+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/android-csploit/</loc>
-    <lastmod>2016-09-16T15:59:21+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/galaxy-note-7-exploding/</loc>
-    <lastmod>2016-09-03T14:06:03+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/linux-in-windows-10/</loc>
-    <lastmod>2016-08-27T03:15:02+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/use-android-as-second-monitor/</loc>
-    <lastmod>2016-08-19T18:31:47+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/oneplus-3-review-2/</loc>
-    <lastmod>2016-07-17T14:15:31+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/oneplus-3-review/</loc>
-    <lastmod>2016-07-17T14:15:31+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/oneplus-3-unboxing/</loc>
-    <lastmod>2016-07-08T14:24:11+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/usb-condom-micflip/</loc>
-    <lastmod>2016-07-04T14:35:32+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/top-samsung-galaxy-android-apps/</loc>
-    <lastmod>2016-07-03T14:36:59+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/reverse-tether/</loc>
-    <lastmod>2016-07-02T13:58:13+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/whats-on-my-phone/</loc>
-    <lastmod>2016-06-26T14:25:42+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/hearthstone-on-chromebook-2/</loc>
-    <lastmod>2016-06-23T20:10:19+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/hearthstone-on-chromebook/</loc>
-    <lastmod>2016-06-23T20:10:19+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/least-used-android-features/</loc>
-    <lastmod>2016-06-17T14:40:49+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/league-on-chromebook/</loc>
-    <lastmod>2016-06-16T15:40:26+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/save-battery-life-android/</loc>
-    <lastmod>2016-06-10T14:59:15+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/hack-android-apps-and-games/</loc>
-    <lastmod>2016-06-03T14:59:06+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/run-windows-7-android/</loc>
-    <lastmod>2016-05-15T16:00:31+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/fallout-4-tribute/</loc>
-    <lastmod>2016-05-05T14:46:23+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/laser-keyboard/</loc>
-    <lastmod>2016-05-01T14:51:49+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/counter-strike-android/</loc>
-    <lastmod>2016-04-17T17:00:20+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/vpn-server-android/</loc>
-    <lastmod>2016-04-17T02:30:12+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/college-students-try-vr-horror-porn/</loc>
-    <lastmod>2016-04-09T15:04:37+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/read-car-computer-android/</loc>
-    <lastmod>2016-04-02T15:10:06+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/top-features-android-n/</loc>
-    <lastmod>2016-03-26T15:18:48+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/computer-fire-giveaway/</loc>
-    <lastmod>2016-03-22T15:22:40+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/silent-boot-android/</loc>
-    <lastmod>2016-03-18T15:27:33+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/connect-floppy-drive-galaxy-s7/</loc>
-    <lastmod>2016-03-15T15:33:05+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/galaxy-s7-ram-management/</loc>
-    <lastmod>2016-03-13T15:57:35+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/galaxy-s7-features-game-launcher/</loc>
-    <lastmod>2016-03-13T15:46:26+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/galaxy-s7-review-dont-buy-hype/</loc>
-    <lastmod>2016-03-13T15:42:22+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/galaxy-s7-unboxing/</loc>
-    <lastmod>2016-03-12T17:04:32+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/watercooling-smartphones-explained/</loc>
-    <lastmod>2016-02-23T17:10:18+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/top-android-apps-2016/</loc>
-    <lastmod>2016-02-21T17:14:33+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/root-any-android/</loc>
-    <lastmod>2016-02-14T19:33:24+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/mac-os-on-chromebook/</loc>
-    <lastmod>2016-02-13T19:21:42+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/remotely-turn-on-computer-with-linux/</loc>
-    <lastmod>2016-02-01T22:07:03+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-install-linux/</loc>
-    <lastmod>2016-02-01T22:02:30+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/remix-os-on-chromebook/</loc>
-    <lastmod>2016-01-24T23:02:50+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/run-linux-on-android/</loc>
-    <lastmod>2016-01-21T00:50:08+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/install-kodi-on-chromebook/</loc>
-    <lastmod>2016-01-13T04:04:12+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-build-a-supercomputer/</loc>
-    <lastmod>2016-01-13T03:20:26+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/lock-computer-android/</loc>
-    <lastmod>2015-12-31T16:34:05+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/cast-android-screen-to-pc/</loc>
-    <lastmod>2015-12-18T03:29:00+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/fallout-4-tweaks/</loc>
-    <lastmod>2015-12-17T16:41:21+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/connect-android-to-ethernet/</loc>
-    <lastmod>2015-12-17T15:16:42+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/stream-steam-games-chromebook/</loc>
-    <lastmod>2015-10-27T15:04:47+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/ios-emojis-on-android/</loc>
-    <lastmod>2015-10-26T15:49:19+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/super-smash-bros-meele-on-android/</loc>
-    <lastmod>2015-10-04T22:06:53+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/half-life-2-on-android/</loc>
-    <lastmod>2015-08-29T19:35:38+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/league-of-legends-on-linux/</loc>
-    <lastmod>2015-08-25T16:08:04+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-install-chrome-os-on-pc/</loc>
-    <lastmod>2015-08-20T02:49:32+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-install-mac-os-x-yosemite-on-any-pc/</loc>
-    <lastmod>2015-08-18T01:51:04+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/run-windows-10-from-usb/</loc>
-    <lastmod>2015-07-31T20:14:52+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/play-half-life-on-android-wear/</loc>
-    <lastmod>2015-07-23T00:50:43+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/run-minecraft-server-on-chomebook/</loc>
-    <lastmod>2015-07-20T18:49:28+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/play-team-fortress-classic-on-android/</loc>
-    <lastmod>2015-07-18T07:00:51+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/install-android-on-pc/</loc>
-    <lastmod>2015-07-14T14:33:01+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/lock-phone-from-android-wear/</loc>
-    <lastmod>2015-07-13T14:41:56+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/coolest-apps-android-wear-2015/</loc>
-    <lastmod>2015-07-09T14:16:31+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/play-ps2-games-on-android/</loc>
-    <lastmod>2015-07-04T20:24:58+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/stream-steam-games-to-android/</loc>
-    <lastmod>2015-06-29T13:51:36+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/play-runescape-on-chromebook/</loc>
-    <lastmod>2015-06-20T23:24:45+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/play-sega-genesis-games-on-android/</loc>
-    <lastmod>2015-06-13T03:53:16+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/play-dreamcast-games-on-android/</loc>
-    <lastmod>2015-06-13T03:35:35+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/6-fun-facts-about-android/</loc>
-    <lastmod>2015-06-07T23:33:29+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/lg-g4-quick-review/</loc>
-    <lastmod>2015-06-03T02:13:03+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-play-ps2-games-on-chromebook/</loc>
-    <lastmod>2015-05-29T03:55:05+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/lg-g4-gaming-performance/</loc>
-    <lastmod>2015-05-23T15:07:48+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/windows-xp-on-android-wear-smartwatch/</loc>
-    <lastmod>2015-05-19T15:12:16+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/run-minecraft-server-on-android/</loc>
-    <lastmod>2015-05-18T04:22:26+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/create-your-own-personal-cloud-server/</loc>
-    <lastmod>2015-05-09T20:34:24+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/galaxy-s6-slow-motion-video/</loc>
-    <lastmod>2015-04-18T16:09:34+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/install-ubuntu-14-04-on-chromebook/</loc>
-    <lastmod>2015-04-06T03:18:10+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/counter-strike-global-offensive-on-chromebook/</loc>
-    <lastmod>2015-04-05T15:44:44+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/enable-developer-mode-on-chromebook/</loc>
-    <lastmod>2015-04-04T16:31:05+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/install-windows-10-on-chromebook/</loc>
-    <lastmod>2015-04-03T19:31:58+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/windows-10-on-chromebook/</loc>
-    <lastmod>2015-03-22T20:39:26+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/would-you-only-buy-a-galaxy-or-iphone/</loc>
-    <lastmod>2015-03-06T05:20:35+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/play-psp-games-android/</loc>
-    <lastmod>2015-02-17T19:56:15+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/run-python-android/</loc>
-    <lastmod>2015-02-17T19:14:44+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/play-portal-on-any-android/</loc>
-    <lastmod>2015-01-08T19:33:18+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/bypass-android-lock-screen/</loc>
-    <lastmod>2015-01-05T04:59:02+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/adobe-flash-player-android-lollipop/</loc>
-    <lastmod>2014-12-29T05:03:07+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/tor-android/</loc>
-    <lastmod>2014-12-21T05:34:15+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/boot-computer-from-android-phone/</loc>
-    <lastmod>2014-10-02T02:09:50+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/run-android-apps-on-chromebook/</loc>
-    <lastmod>2014-09-21T22:01:17+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/best-paranoid-android-features/</loc>
-    <lastmod>2014-09-16T17:28:03+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/run-android-on-chromebook/</loc>
-    <lastmod>2014-09-07T05:03:32+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/android-lock-screen-notifications/</loc>
-    <lastmod>2014-09-03T22:56:32+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/disable-lock-screen-at-home/</loc>
-    <lastmod>2014-07-26T15:13:45+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/windows-xp-android/</loc>
-    <lastmod>2014-07-19T13:21:33+00:00</lastmod>
+    <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/run-windows-95-on-android/</loc>
-    <lastmod>2014-07-11T20:05:14+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/install-windows-8-on-chromebook/</loc>
-    <lastmod>2014-07-11T17:18:23+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/intsall-ubuntu-on-chromebook/</loc>
-    <lastmod>2014-07-10T15:44:26+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-root-any-android-device-2014/</loc>
-    <lastmod>2014-07-07T14:13:13+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</loc>
-    <lastmod>2014-07-06T23:22:29+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/run-ubuntu-13-10-on-android/</loc>
-    <lastmod>2014-07-04T15:57:44+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</loc>
-    <lastmod>2014-07-04T08:12:40+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/enable-ultra-high-graphics-dead-trigger-2/</loc>
-    <lastmod>2014-07-02T15:17:46+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-install-xposed-framework/</loc>
-    <lastmod>2014-07-02T14:38:13+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/android-boost-speaker-volume/</loc>
-    <lastmod>2014-07-02T04:08:11+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/how-to-play-nintendo-ds-games-on-android/</loc>
-    <lastmod>2014-07-01T15:52:32+00:00</lastmod>
+    <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/android-floating-window/</loc>
-    <lastmod>2014-07-01T04:51:01+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
+  
+    <url>
     <loc>https://www.bennettnotes.com/play-playstation-games-on-android/</loc>
-    <lastmod>2013-08-31T03:01:03+00:00</lastmod>
+    <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
+
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/4k/</loc>
-    <lastmod>2017-06-14T23:38:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/acer/</loc>
-    <lastmod>2014-07-11T17:18:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/action/</loc>
-    <lastmod>2016-05-05T14:46:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/adb/</loc>
-    <lastmod>2015-01-05T04:59:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/adb-windows/</loc>
-    <lastmod>2017-04-07T18:46:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/adobe/</loc>
-    <lastmod>2014-12-29T05:03:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ads/</loc>
-    <lastmod>2018-06-27T00:04:21+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ai/</loc>
-    <lastmod>2017-12-24T16:22:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ajax/</loc>
-    <lastmod>2017-12-27T15:12:17+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/almost/</loc>
-    <lastmod>2014-07-07T14:13:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/along-side/</loc>
-    <lastmod>2014-07-10T15:44:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/alternative/</loc>
-    <lastmod>2014-07-10T15:44:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/amazon/</loc>
-    <lastmod>2016-09-30T14:59:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/amazon-echo-show/</loc>
-    <lastmod>2017-07-20T01:40:08+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/android/</loc>
-    <lastmod>2018-06-27T00:04:21+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/categories/android/</loc>
-    <lastmod>2018-10-20T14:37:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/android-customize/</loc>
-    <lastmod>2017-04-16T13:48:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/android-development/</loc>
-    <lastmod>2018-01-13T15:06:53+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/android-development-bridge/</loc>
-    <lastmod>2017-04-07T18:46:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/android-emulation/</loc>
-    <lastmod>2016-05-15T16:00:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/android-hacks/</loc>
-    <lastmod>2017-05-28T03:43:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/android-o/</loc>
-    <lastmod>2017-03-22T02:36:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/android-reverse-tether/</loc>
-    <lastmod>2017-04-07T19:55:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/android-tricks/</loc>
-    <lastmod>2017-05-11T23:41:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/android-wear/</loc>
-    <lastmod>2016-12-31T16:03:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/android-wifi-jammer/</loc>
-    <lastmod>2017-05-28T03:43:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/android-x86/</loc>
-    <lastmod>2017-10-19T02:49:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/android-on-pc/</loc>
-    <lastmod>2017-10-19T02:49:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/angular/</loc>
-    <lastmod>2019-03-05T07:14:19-05:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/angular-4/</loc>
-    <lastmod>2018-01-13T15:12:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/animal-crossing/</loc>
-    <lastmod>2014-07-01T15:52:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/anniversary/</loc>
-    <lastmod>2016-08-27T03:15:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/anonymously/</loc>
-    <lastmod>2014-12-21T05:34:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/any/</loc>
-    <lastmod>2014-07-07T14:13:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/api/</loc>
-    <lastmod>2018-03-22T03:53:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/app/</loc>
-    <lastmod>2017-03-12T04:01:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/apple/</loc>
-    <lastmod>2016-09-28T03:12:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/application/</loc>
-    <lastmod>2014-07-07T14:13:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/applications/</loc>
-    <lastmod>2014-09-21T22:01:17+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/apps/</loc>
-    <lastmod>2017-03-28T15:28:08+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/april-update/</loc>
-    <lastmod>2018-05-16T13:27:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/archon/</loc>
-    <lastmod>2014-09-21T22:01:17+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/audio/</loc>
-    <lastmod>2016-09-23T15:59:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/auth/</loc>
-    <lastmod>2018-04-04T22:14:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/autowear/</loc>
-    <lastmod>2015-07-13T14:41:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/awesome-android-features/</loc>
-    <lastmod>2017-05-11T23:41:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/bash/</loc>
-    <lastmod>2016-08-27T03:15:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/battery/</loc>
-    <lastmod>2016-12-01T15:22:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/benchmark/</loc>
-    <lastmod>2015-05-23T15:07:48+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <url>
     <loc>https://www.bennettnotes.com/</loc>
-    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
+    <lastmod>2019-04-05T13:54:28-04:00</lastmod>
+	  
+   <priority>1</priority>
+   
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/best/</loc>
-    <lastmod>2016-12-11T00:12:15+00:00</lastmod>
-    <priority>0</priority>
   </url>
+
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/best-android-smartwatch/</loc>
-    <lastmod>2016-12-22T15:39:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/better-battery/</loc>
-    <lastmod>2016-06-10T14:59:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/biology/</loc>
-    <lastmod>2019-03-09T12:46:10-05:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/bios/</loc>
-    <lastmod>2017-01-23T22:53:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/blockchain/</loc>
-    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/blog/</loc>
-    <lastmod>2017-04-02T21:12:48+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/bluetooth/</loc>
-    <lastmod>2016-09-23T15:59:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/boost/</loc>
-    <lastmod>2014-07-02T04:08:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/boot/</loc>
-    <lastmod>2015-08-18T01:51:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/bootstrap/</loc>
-    <lastmod>2017-12-27T15:19:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/borders/</loc>
-    <lastmod>2016-11-22T21:03:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/browse/</loc>
-    <lastmod>2014-12-21T05:34:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/browser/</loc>
-    <lastmod>2016-12-11T00:12:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/budget/</loc>
-    <lastmod>2016-07-17T14:15:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/budget.smartphopne/</loc>
-    <lastmod>2016-10-21T13:51:57+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/build/</loc>
-    <lastmod>2017-12-10T22:27:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/build-prop/</loc>
-    <lastmod>2017-06-14T23:38:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/buy/</loc>
-    <lastmod>2016-03-13T15:42:22+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/bypass/</loc>
-    <lastmod>2015-01-05T04:59:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/c720/</loc>
-    <lastmod>2014-07-11T17:18:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/c720p/</loc>
-    <lastmod>2014-07-11T17:18:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/calendar/</loc>
-    <lastmod>2016-11-09T22:52:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/callback/</loc>
-    <lastmod>2017-08-17T02:29:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/callback-function/</loc>
-    <lastmod>2017-08-17T02:29:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/camera/</loc>
-    <lastmod>2015-04-18T16:09:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/capacity/</loc>
-    <lastmod>2016-10-23T23:22:33+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/car/</loc>
-    <lastmod>2016-04-02T15:10:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/cast/</loc>
-    <lastmod>2015-12-18T03:29:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/categories/</loc>
-    <lastmod>2018-10-20T14:37:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/change-android-color/</loc>
-    <lastmod>2017-04-16T13:48:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/change-navbar/</loc>
-    <lastmod>2017-04-16T13:48:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/cheap/</loc>
-    <lastmod>2017-03-24T03:31:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/chrome/</loc>
-    <lastmod>2018-03-28T15:07:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/chrome-extensions/</loc>
-    <lastmod>2017-12-28T03:13:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/chrome-os/</loc>
-    <lastmod>2017-01-23T22:53:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/categories/chrome-os/</loc>
-    <lastmod>2018-05-16T13:31:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/chromebook/</loc>
-    <lastmod>2017-10-12T13:37:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/chroot/</loc>
-    <lastmod>2015-04-06T03:18:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/chrubuntu/</loc>
-    <lastmod>2014-07-10T15:44:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/clear-mind/</loc>
-    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/cloud/</loc>
-    <lastmod>2015-05-09T20:34:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/code/</loc>
-    <lastmod>2015-02-17T19:14:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/collapse/</loc>
-    <lastmod>2017-12-27T15:19:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/college/</loc>
-    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/comedy/</loc>
-    <lastmod>2016-04-09T15:04:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/comparison/</loc>
-    <lastmod>2016-11-01T03:12:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/compile/</loc>
-    <lastmod>2014-07-04T08:12:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/complacency/</loc>
-    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/complete-linux-installer/</loc>
-    <lastmod>2014-07-04T15:57:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/compressing/</loc>
-    <lastmod>2017-09-14T13:38:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/computer/</loc>
-    <lastmod>2017-03-24T03:31:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/computer-science/</loc>
-    <lastmod>2018-09-07T13:07:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/computers/</loc>
-    <lastmod>2016-11-22T21:03:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/condom/</loc>
-    <lastmod>2016-07-04T14:35:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/configuration/</loc>
-    <lastmod>2015-12-17T16:41:21+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/connection/</loc>
-    <lastmod>2016-07-02T13:58:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/context/</loc>
-    <lastmod>2018-03-22T03:53:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/control/</loc>
-    <lastmod>2016-11-22T21:03:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/control-android/</loc>
-    <lastmod>2018-09-29T12:51:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/cool/</loc>
-    <lastmod>2016-05-01T14:51:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/cool-android-tricks/</loc>
-    <lastmod>2017-05-11T23:41:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/cool-app/</loc>
-    <lastmod>2017-03-12T04:01:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/coolest/</loc>
-    <lastmod>2015-07-09T14:16:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/cooling/</loc>
-    <lastmod>2016-02-23T17:10:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/cornify/</loc>
-    <lastmod>2017-03-12T22:46:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/cortana/</loc>
-    <lastmod>2016-11-26T04:21:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/counter/</loc>
-    <lastmod>2015-04-05T15:44:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/counter-strike/</loc>
-    <lastmod>2017-02-01T02:52:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/create/</loc>
-    <lastmod>2016-12-31T16:27:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/crouton/</loc>
-    <lastmod>2017-07-27T02:10:14+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/csploit/</loc>
-    <lastmod>2016-09-16T15:59:21+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/css/</loc>
-    <lastmod>2018-02-21T16:51:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/cuda/</loc>
-    <lastmod>2017-12-26T16:58:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/custom/</loc>
-    <lastmod>2014-09-16T17:28:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/custome/</loc>
-    <lastmod>2014-07-04T08:12:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/customization/</loc>
-    <lastmod>2016-06-26T14:25:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/customize/</loc>
-    <lastmod>2014-07-02T14:38:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/cyanogenmod/</loc>
-    <lastmod>2014-07-04T08:12:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/dalvik/</loc>
-    <lastmod>2014-07-02T14:38:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/dandroid/</loc>
-    <lastmod>2015-06-07T23:33:29+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/dark-theme/</loc>
-    <lastmod>2017-09-04T13:49:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/data/</loc>
-    <lastmod>2016-11-29T04:31:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/db/</loc>
-    <lastmod>2014-07-02T04:08:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/dead/</loc>
-    <lastmod>2014-07-02T15:17:46+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/debian/</loc>
-    <lastmod>2014-07-04T15:57:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/decentralization/</loc>
-    <lastmod>2018-03-26T16:34:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/deep-learning/</loc>
-    <lastmod>2017-12-24T16:22:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/degree/</loc>
-    <lastmod>2018-09-07T13:07:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/delete-pi-user-raspberry-pi/</loc>
-    <lastmod>2017-05-07T00:13:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/delete-user/</loc>
-    <lastmod>2017-05-07T00:13:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/desktop/</loc>
-    <lastmod>2014-07-10T15:44:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/developer/</loc>
-    <lastmod>2017-03-22T02:36:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/developer-mode/</loc>
-    <lastmod>2016-01-24T23:02:50+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/developer-mode-chromebook/</loc>
-    <lastmod>2017-05-14T14:04:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/development/</loc>
-    <lastmod>2017-08-18T13:10:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/device/</loc>
-    <lastmod>2017-04-15T15:50:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/dik-image/</loc>
-    <lastmod>2014-07-11T20:05:14+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/diplay/</loc>
-    <lastmod>2014-07-01T04:51:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/directive/</loc>
-    <lastmod>2018-03-07T00:11:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/disable/</loc>
-    <lastmod>2014-07-26T15:13:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/discussion/</loc>
-    <lastmod>2018-03-26T16:34:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/display/</loc>
-    <lastmod>2016-08-19T18:31:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/docker/</loc>
-    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/dolphin/</loc>
-    <lastmod>2014-12-29T05:03:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/download-video/</loc>
-    <lastmod>2018-11-17T02:15:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/doze/</loc>
-    <lastmod>2016-06-10T14:59:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/drag/</loc>
-    <lastmod>2014-07-01T04:51:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/drain/</loc>
-    <lastmod>2016-12-01T15:22:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/dreamcast/</loc>
-    <lastmod>2015-06-13T03:35:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/driver/</loc>
-    <lastmod>2014-07-11T17:18:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/droid/</loc>
-    <lastmod>2015-02-17T19:56:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ds/</loc>
-    <lastmod>2014-07-01T15:52:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/dsploit/</loc>
-    <lastmod>2017-05-28T03:43:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/dual/</loc>
-    <lastmod>2015-08-18T01:51:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/dual-boot/</loc>
-    <lastmod>2017-03-15T02:03:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/dual-booting/</loc>
-    <lastmod>2014-07-10T15:44:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/dvice/</loc>
-    <lastmod>2015-02-17T19:14:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/easy/</loc>
-    <lastmod>2014-07-11T20:05:14+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/easy-way/</loc>
-    <lastmod>2014-07-04T15:57:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ebooks/</loc>
-    <lastmod>2019-03-03T18:26:46-05:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/echo/</loc>
-    <lastmod>2017-07-20T01:40:08+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/editor/</loc>
-    <lastmod>2015-02-17T19:14:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/emojis/</loc>
-    <lastmod>2015-10-26T15:49:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/emoticons/</loc>
-    <lastmod>2015-10-26T15:49:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/emulaiton/</loc>
-    <lastmod>2015-04-06T03:18:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/emulate/</loc>
-    <lastmod>2016-08-27T03:15:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/emulation/</loc>
-    <lastmod>2017-10-29T03:47:36+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/emulator/</loc>
-    <lastmod>2016-12-31T16:03:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/emulators/</loc>
-    <lastmod>2015-07-23T00:50:43+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/enable/</loc>
-    <lastmod>2015-04-04T16:31:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/energy-bar/</loc>
-    <lastmod>2017-03-12T22:46:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/engine/</loc>
-    <lastmod>2017-09-04T13:49:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/entertainment/</loc>
-    <lastmod>2016-09-30T14:59:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/enulator/</loc>
-    <lastmod>2015-06-13T03:35:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ethernet/</loc>
-    <lastmod>2015-12-17T15:16:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/etnwork/</loc>
-    <lastmod>2016-09-16T15:59:21+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/eva-facial-mouse/</loc>
-    <lastmod>2017-03-12T04:01:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/explained/</loc>
-    <lastmod>2016-09-03T14:06:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/exploding/</loc>
-    <lastmod>2016-09-03T14:06:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/exploit/</loc>
-    <lastmod>2016-02-14T19:33:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/exploits/</loc>
-    <lastmod>2018-02-21T16:51:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/express/</loc>
-    <lastmod>2018-04-22T17:53:29+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/extension/</loc>
-    <lastmod>2018-03-28T15:07:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/extensions/</loc>
-    <lastmod>2016-12-11T00:12:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/face-detection/</loc>
-    <lastmod>2017-03-12T04:01:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/face-unlock/</loc>
-    <lastmod>2016-06-17T14:40:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/facts/</loc>
-    <lastmod>2015-06-07T23:33:29+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/fallout/</loc>
-    <lastmod>2016-05-05T14:46:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/fallout-4/</loc>
-    <lastmod>2016-05-05T14:46:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/favorite/</loc>
-    <lastmod>2016-07-03T14:36:59+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/categories/featured/</loc>
-    <lastmod>2016-05-15T16:00:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/features/</loc>
-    <lastmod>2016-06-17T14:40:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/fetch/</loc>
-    <lastmod>2017-12-27T15:15:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/fire/</loc>
-    <lastmod>2016-03-22T15:22:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/firebase/</loc>
-    <lastmod>2018-04-04T22:14:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/firestick/</loc>
-    <lastmod>2016-09-30T14:59:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/flash/</loc>
-    <lastmod>2014-12-29T05:03:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/floating/</loc>
-    <lastmod>2014-07-01T04:51:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/floating-window/</loc>
-    <lastmod>2017-07-04T19:27:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/floppy/</loc>
-    <lastmod>2016-03-15T15:33:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/focus/</loc>
-    <lastmod>2019-03-14T07:01:19-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/folders/</loc>
-    <lastmod>2016-12-31T16:27:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/foreach/</loc>
-    <lastmod>2017-12-22T14:54:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/forms/</loc>
-    <lastmod>2018-01-13T15:12:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/forum/</loc>
-    <lastmod>2018-02-20T14:48:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/fpse/</loc>
-    <lastmod>2013-08-31T03:01:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/framework/</loc>
-    <lastmod>2014-07-02T14:38:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/free/</loc>
-    <lastmod>2014-07-10T15:44:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/freeform/</loc>
-    <lastmod>2017-07-04T19:27:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/from/</loc>
-    <lastmod>2014-10-02T02:09:50+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/fsb/</loc>
-    <lastmod>2017-07-27T02:10:14+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/fun/</loc>
-    <lastmod>2015-06-07T23:33:29+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/funny/</loc>
-    <lastmod>2016-04-09T15:04:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/g3/</loc>
-    <lastmod>2014-07-07T14:13:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/g4/</loc>
-    <lastmod>2015-05-23T15:07:48+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/g6/</loc>
-    <lastmod>2017-04-15T15:50:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/gadgets/</loc>
-    <lastmod>2016-07-04T14:35:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/categories/gadgets/</loc>
-    <lastmod>2018-10-26T16:49:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/galaxy/</loc>
-    <lastmod>2016-09-03T14:06:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/galaxy-note-8/</loc>
-    <lastmod>2017-11-25T17:15:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/galaxy-s7/</loc>
-    <lastmod>2016-03-15T15:33:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/game/</loc>
-    <lastmod>2017-12-10T22:27:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/game-play/</loc>
-    <lastmod>2014-07-02T15:17:46+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/gameboy/</loc>
-    <lastmod>2016-12-31T16:03:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/gamecub/</loc>
-    <lastmod>2015-10-04T22:06:53+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/gameplay/</loc>
-    <lastmod>2016-05-05T14:46:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/games/</loc>
-    <lastmod>2016-11-06T15:00:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/gamie/</loc>
-    <lastmod>2015-08-29T19:35:38+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/gaming/</loc>
-    <lastmod>2017-02-01T02:52:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/gbc/</loc>
-    <lastmod>2016-12-31T16:03:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/genesis/</loc>
-    <lastmod>2015-06-13T03:53:16+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/geohot/</loc>
-    <lastmod>2014-07-07T14:13:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/getter-and-setter/</loc>
-    <lastmod>2018-03-07T00:35:21+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/giveaway/</loc>
-    <lastmod>2016-11-09T22:52:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/gltools/</loc>
-    <lastmod>2015-08-29T19:35:38+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/google/</loc>
-    <lastmod>2016-12-11T00:12:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/google-pixel-2-xl/</loc>
-    <lastmod>2017-11-25T17:15:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/government/</loc>
-    <lastmod>2017-04-02T21:12:48+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/gpu/</loc>
-    <lastmod>2017-12-26T16:58:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/graphics/</loc>
-    <lastmod>2014-07-02T15:17:46+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/gravitybox/</loc>
-    <lastmod>2014-07-02T14:38:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/greenify/</loc>
-    <lastmod>2016-06-10T14:59:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/gs7/</loc>
-    <lastmod>2016-03-13T15:42:22+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/gtd/</loc>
-    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/guardian/</loc>
-    <lastmod>2016-06-03T14:59:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/gui/</loc>
-    <lastmod>2014-07-04T15:57:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/guide/</loc>
-    <lastmod>2014-07-04T08:12:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/hack/</loc>
-    <lastmod>2016-06-03T14:59:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/half/</loc>
-    <lastmod>2015-08-29T19:35:38+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/half-life/</loc>
-    <lastmod>2015-01-08T19:33:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/half-life-2/</loc>
-    <lastmod>2015-08-29T19:35:38+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/handheld/</loc>
-    <lastmod>2016-09-23T15:59:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/happiness/</loc>
-    <lastmod>2019-03-09T12:46:10-05:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/hashcah/</loc>
-    <lastmod>2017-12-04T22:39:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/headphone/</loc>
-    <lastmod>2016-09-23T15:59:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/hearthstone/</loc>
-    <lastmod>2016-06-23T20:10:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/hidden-features/</loc>
-    <lastmod>2017-07-04T19:27:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/high/</loc>
-    <lastmod>2014-07-02T15:17:46+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/history/</loc>
-    <lastmod>2015-06-07T23:33:29+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/holiday/</loc>
-    <lastmod>2016-12-20T15:45:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/home/</loc>
-    <lastmod>2014-07-26T15:13:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/horror/</loc>
-    <lastmod>2016-04-09T15:04:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/host/</loc>
-    <lastmod>2015-05-09T20:34:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/hotspot/</loc>
-    <lastmod>2018-10-20T14:37:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/hover/</loc>
-    <lastmod>2014-09-16T17:28:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/how/</loc>
-    <lastmod>2014-07-04T15:57:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/how-to/</loc>
-    <lastmod>2016-01-13T03:20:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/htc/</loc>
-    <lastmod>2014-07-07T14:13:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/html/</loc>
-    <lastmod>2017-05-07T00:19:41+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/http-interceptor/</loc>
-    <lastmod>2018-02-23T14:46:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/huawei/</loc>
-    <lastmod>2016-12-22T15:39:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/hugo/</loc>
-    <lastmod>2019-03-11T06:04:23-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/hype/</loc>
-    <lastmod>2016-03-13T15:42:22+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/hyperledger/</loc>
-    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/image-classification/</loc>
-    <lastmod>2017-12-24T16:22:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/imessage/</loc>
-    <lastmod>2016-09-28T03:12:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/input/</loc>
-    <lastmod>2016-09-23T15:59:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/instagram/</loc>
-    <lastmod>2017-09-04T13:49:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/install/</loc>
-    <lastmod>2016-02-01T22:02:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/install-adb/</loc>
-    <lastmod>2017-04-07T18:46:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/install-ubuntu-on-chromebook/</loc>
-    <lastmod>2014-07-10T15:44:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/install-windows-10/</loc>
-    <lastmod>2017-01-23T22:53:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/install-windows-10-on-chromebook/</loc>
-    <lastmod>2017-01-23T22:53:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/intel/</loc>
-    <lastmod>2014-07-11T17:18:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/intent/</loc>
-    <lastmod>2018-03-07T01:11:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/internal-storage/</loc>
-    <lastmod>2014-07-10T15:44:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/internet/</loc>
-    <lastmod>2017-04-02T21:12:48+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ios/</loc>
-    <lastmod>2016-07-02T13:58:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ios-9/</loc>
-    <lastmod>2015-10-26T15:49:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ios-emojis-android/</loc>
-    <lastmod>2015-10-26T15:49:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/iphone/</loc>
-    <lastmod>2015-03-06T05:20:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/iso/</loc>
-    <lastmod>2014-07-11T20:05:14+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/iteration/</loc>
-    <lastmod>2017-12-22T14:54:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/jack/</loc>
-    <lastmod>2016-09-23T15:59:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/java/</loc>
-    <lastmod>2018-01-13T15:06:53+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/javascript/</loc>
-    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/json/</loc>
-    <lastmod>2017-12-27T15:15:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/jwt/</loc>
-    <lastmod>2018-04-22T17:53:29+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/kali-chromebook/</loc>
-    <lastmod>2017-06-28T00:27:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/kali-linux/</loc>
-    <lastmod>2017-10-29T03:47:36+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/kali-linux-chromebook/</loc>
-    <lastmod>2017-06-28T00:27:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/keyboard/</loc>
-    <lastmod>2016-05-01T14:51:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/kingroot/</loc>
-    <lastmod>2016-02-14T19:33:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/kodi/</loc>
-    <lastmod>2016-09-30T14:59:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/kubernetes/</loc>
-    <lastmod>2019-03-20T17:09:26-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/l/</loc>
-    <lastmod>2014-09-16T17:28:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/laptop/</loc>
-    <lastmod>2014-07-11T17:18:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/laser/</loc>
-    <lastmod>2016-05-01T14:51:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/launcher/</loc>
-    <lastmod>2016-03-13T15:46:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/league/</loc>
-    <lastmod>2016-06-16T15:40:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/league-on-chromebook/</loc>
-    <lastmod>2016-06-16T15:40:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/least/</loc>
-    <lastmod>2016-06-17T14:40:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/legends/</loc>
-    <lastmod>2015-08-25T16:08:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/level/</loc>
-    <lastmod>2014-07-02T04:08:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/lg/</loc>
-    <lastmod>2017-04-15T15:50:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/lg-g-watch/</loc>
-    <lastmod>2015-05-19T15:12:16+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/lg-g4/</loc>
-    <lastmod>2015-06-03T02:13:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/lg-g6/</loc>
-    <lastmod>2017-04-15T15:50:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/library/</loc>
-    <lastmod>2017-10-15T17:42:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/life/</loc>
-    <lastmod>2016-11-29T04:31:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/categories/life/</loc>
-    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/limbo/</loc>
-    <lastmod>2014-07-11T20:05:14+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/link/</loc>
-    <lastmod>2017-03-12T22:46:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/linux/</loc>
-    <lastmod>2018-02-20T14:48:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/categories/linux/</loc>
-    <lastmod>2017-12-14T04:01:38+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/linux-chromebook/</loc>
-    <lastmod>2017-10-12T13:37:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/linux-on-android/</loc>
-    <lastmod>2016-01-21T00:50:08+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/lite/</loc>
-    <lastmod>2014-07-01T15:52:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/lock/</loc>
-    <lastmod>2015-12-31T16:34:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/lock-screen/</loc>
-    <lastmod>2015-01-05T04:59:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/lockscreen/</loc>
-    <lastmod>2014-07-26T15:13:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/lollipop/</loc>
-    <lastmod>2014-12-29T05:03:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/loop/</loc>
-    <lastmod>2017-12-22T14:54:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/lunr/</loc>
-    <lastmod>2019-03-04T06:11:06-05:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/mac/</loc>
-    <lastmod>2015-08-18T01:51:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/mac-os/</loc>
-    <lastmod>2016-02-13T19:21:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/mac-os-chromebook/</loc>
-    <lastmod>2016-02-13T19:21:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/machine-learning/</loc>
-    <lastmod>2017-12-24T16:22:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/make/</loc>
-    <lastmod>2015-05-09T20:34:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/management/</loc>
-    <lastmod>2016-03-13T15:57:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/mario/</loc>
-    <lastmod>2014-07-01T15:52:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/max/</loc>
-    <lastmod>2014-07-02T04:08:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/measure/</loc>
-    <lastmod>2016-12-01T15:22:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/meele.mario/</loc>
-    <lastmod>2015-10-04T22:06:53+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/meltdown/</loc>
-    <lastmod>2018-01-05T15:50:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/messenger/</loc>
-    <lastmod>2016-09-28T03:12:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/method/</loc>
-    <lastmod>2014-07-07T14:13:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/micflip/</loc>
-    <lastmod>2016-07-04T14:35:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/microphone/</loc>
-    <lastmod>2016-09-23T15:59:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/microsoft/</loc>
-    <lastmod>2016-11-22T21:03:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/minecraft/</loc>
-    <lastmod>2015-07-20T18:49:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/minecraft-server/</loc>
-    <lastmod>2015-07-20T18:49:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/mitm/</loc>
-    <lastmod>2017-05-28T03:43:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/mixer-paths/</loc>
-    <lastmod>2014-07-02T04:08:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/mmo/</loc>
-    <lastmod>2017-12-10T22:27:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/mobile/</loc>
-    <lastmod>2015-01-08T19:33:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/mod/</loc>
-    <lastmod>2015-01-05T04:59:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/mod.rom/</loc>
-    <lastmod>2014-07-02T14:38:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/mode/</loc>
-    <lastmod>2015-04-04T16:31:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/mods/</loc>
-    <lastmod>2017-09-04T13:49:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/monitor/</loc>
-    <lastmod>2016-11-22T21:03:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/moonlight/</loc>
-    <lastmod>2018-05-16T13:31:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/motion/</loc>
-    <lastmod>2015-04-18T16:09:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/motivation/</loc>
-    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/moto/</loc>
-    <lastmod>2016-11-01T03:12:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/moto-z/</loc>
-    <lastmod>2016-11-01T03:12:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/moto-z-play/</loc>
-    <lastmod>2016-11-01T03:12:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/motorola/</loc>
-    <lastmod>2014-07-07T14:13:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/mouse/</loc>
-    <lastmod>2016-11-22T21:03:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/movable/</loc>
-    <lastmod>2014-07-01T04:51:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/multiple/</loc>
-    <lastmod>2016-11-22T21:03:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/multithread/</loc>
-    <lastmod>2017-10-22T15:59:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/multiwindow/</loc>
-    <lastmod>2014-07-01T04:51:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/my/</loc>
-    <lastmod>2016-06-26T14:25:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/navbar/</loc>
-    <lastmod>2017-12-27T15:19:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/navbar-apps/</loc>
-    <lastmod>2017-04-16T13:48:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/navigation/</loc>
-    <lastmod>2018-03-26T02:00:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/navigation-bar/</loc>
-    <lastmod>2017-04-16T13:48:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/navigator/</loc>
-    <lastmod>2017-11-23T13:53:59+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/netbook/</loc>
-    <lastmod>2014-07-11T17:18:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/network/</loc>
-    <lastmod>2016-12-31T16:27:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/new/</loc>
-    <lastmod>2017-03-22T02:36:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/nexus/</loc>
-    <lastmod>2016-10-05T03:02:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/nexus-5/</loc>
-    <lastmod>2014-07-02T04:08:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/nintendo/</loc>
-    <lastmod>2014-07-01T15:52:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/nodejs/</loc>
-    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/note/</loc>
-    <lastmod>2014-07-07T14:13:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/note-7/</loc>
-    <lastmod>2016-09-03T14:06:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/notification/</loc>
-    <lastmod>2017-03-12T22:46:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/notifications/</loc>
-    <lastmod>2017-03-12T22:46:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/nougat/</loc>
-    <lastmod>2017-10-19T02:49:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/nougut/</loc>
-    <lastmod>2016-03-26T15:18:48+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/now-on-tap/</loc>
-    <lastmod>2016-06-17T14:40:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/nugut/</loc>
-    <lastmod>2016-03-26T15:18:48+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/nuogut/</loc>
-    <lastmod>2016-03-26T15:18:48+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/nvidia/</loc>
-    <lastmod>2017-12-24T16:22:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/obd/</loc>
-    <lastmod>2016-04-02T15:10:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/old/</loc>
-    <lastmod>2015-07-14T14:33:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/one-click/</loc>
-    <lastmod>2014-07-07T14:13:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/oneplus/</loc>
-    <lastmod>2016-11-01T03:12:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/oneplus-3/</loc>
-    <lastmod>2016-11-01T03:12:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/oneplus-one/</loc>
-    <lastmod>2015-01-05T04:59:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/online/</loc>
-    <lastmod>2015-06-20T23:24:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/open/</loc>
-    <lastmod>2016-03-13T15:57:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/open-source/</loc>
-    <lastmod>2018-11-17T02:15:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/opensourcegangster/</loc>
-    <lastmod>2016-09-16T15:59:21+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/openvpn/</loc>
-    <lastmod>2016-12-08T01:54:17+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/operating-system/</loc>
-    <lastmod>2014-07-11T20:05:14+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/os/</loc>
-    <lastmod>2014-09-21T22:01:17+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/otg/</loc>
-    <lastmod>2016-03-15T15:33:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/overclock/</loc>
-    <lastmod>2017-07-27T02:10:14+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/owncloud/</loc>
-    <lastmod>2015-05-09T20:34:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
-  <url>
+    <url>
     <loc>https://www.bennettnotes.com/page/</loc>
-    <lastmod>2019-02-24T09:47:59-05:00</lastmod>
-    <priority>0</priority>
-  </url>
+    <lastmod>2019-02-27T06:31:21-05:00</lastmod>
+	  
+       <priority>0</priority>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/paranoid/</loc>
-    <lastmod>2014-09-16T17:28:03+00:00</lastmod>
-    <priority>0</priority>
   </url>
+
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/pc/</loc>
-    <lastmod>2015-12-18T03:29:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/peak/</loc>
-    <lastmod>2014-09-16T17:28:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/performance/</loc>
-    <lastmod>2015-05-23T15:07:48+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/phone/</loc>
-    <lastmod>2016-10-05T03:02:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/php/</loc>
-    <lastmod>2017-12-27T15:15:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/pi/</loc>
-    <lastmod>2017-03-24T03:31:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/pixel/</loc>
-    <lastmod>2016-10-05T03:02:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/pixel-3/</loc>
-    <lastmod>2018-10-26T16:49:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/planetside-2/</loc>
-    <lastmod>2017-02-01T02:52:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/platonlinux/</loc>
-    <lastmod>2015-08-25T16:08:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/play/</loc>
-    <lastmod>2016-11-06T15:00:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/player/</loc>
-    <lastmod>2014-12-29T05:03:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/playstaion-2/</loc>
-    <lastmod>2016-11-06T15:00:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/playstation/</loc>
-    <lastmod>2016-11-06T15:00:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/playstation-2/</loc>
-    <lastmod>2015-07-04T20:24:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/playstation-3/</loc>
-    <lastmod>2016-11-06T15:00:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/pokemon/</loc>
-    <lastmod>2016-12-31T16:03:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/poly/</loc>
-    <lastmod>2018-03-26T01:56:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/porn/</loc>
-    <lastmod>2016-04-09T15:04:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/portal/</loc>
-    <lastmod>2015-01-08T19:33:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/possible/</loc>
-    <lastmod>2014-07-11T17:18:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/post/</loc>
-    <lastmod>2017-12-27T15:12:17+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <url>
     <loc>https://www.bennettnotes.com/post/</loc>
-    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
+    <lastmod>2019-04-05T13:54:28-04:00</lastmod>
+	  
+       <priority>0</priority>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/pow/</loc>
-    <lastmod>2017-12-04T22:39:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
+
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/power/</loc>
-    <lastmod>2016-03-22T15:22:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/power-plans/</loc>
-    <lastmod>2018-05-16T13:27:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/preview/</loc>
-    <lastmod>2017-03-22T02:36:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/privacy/</loc>
-    <lastmod>2017-04-02T21:12:48+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/privately/</loc>
-    <lastmod>2014-12-21T05:34:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/proble/</loc>
-    <lastmod>2017-12-14T04:01:38+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/program/</loc>
-    <lastmod>2015-02-17T19:14:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/categories/programming/</loc>
-    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/categories/programming-native/</loc>
-    <lastmod>2018-03-07T01:11:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/proof-of-work/</loc>
-    <lastmod>2017-12-04T22:39:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ps2/</loc>
-    <lastmod>2015-07-04T20:24:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/psp/</loc>
-    <lastmod>2015-07-04T20:24:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/psx/</loc>
-    <lastmod>2016-11-06T15:00:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/psychology/</loc>
-    <lastmod>2019-03-21T06:00:37-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/puppeteer/</loc>
-    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/python/</loc>
-    <lastmod>2018-01-08T22:41:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/quality/</loc>
-    <lastmod>2014-07-02T15:17:46+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/query/</loc>
-    <lastmod>2017-12-27T15:15:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/quick/</loc>
-    <lastmod>2015-06-03T02:13:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ram/</loc>
-    <lastmod>2016-03-13T15:57:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/rant/</loc>
-    <lastmod>2018-03-26T16:34:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/raspberry/</loc>
-    <lastmod>2017-03-24T03:31:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/raspberry-pi/</loc>
-    <lastmod>2017-05-07T00:19:41+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/raspberry-pi-delete-user/</loc>
-    <lastmod>2017-05-07T00:13:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/react/</loc>
-    <lastmod>2018-04-04T22:14:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/react-native/</loc>
-    <lastmod>2018-03-26T02:00:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/reactjs/</loc>
-    <lastmod>2017-12-27T15:19:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/read/</loc>
-    <lastmod>2016-04-02T15:10:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/recall/</loc>
-    <lastmod>2016-09-03T14:06:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/recovery/</loc>
-    <lastmod>2014-07-04T08:12:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/recurrence/</loc>
-    <lastmod>2017-03-12T22:46:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/recyclerview/</loc>
-    <lastmod>2018-01-13T15:06:53+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/reddit/</loc>
-    <lastmod>2017-10-15T17:31:14+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/reicast/</loc>
-    <lastmod>2015-06-13T03:35:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/remix/</loc>
-    <lastmod>2016-01-24T23:02:50+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/remix-os/</loc>
-    <lastmod>2016-01-24T23:02:50+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/remote/</loc>
-    <lastmod>2018-09-29T12:51:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/remotely/</loc>
-    <lastmod>2016-02-01T22:07:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/remotely-turn-on-computer/</loc>
-    <lastmod>2016-02-01T22:07:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/remove/</loc>
-    <lastmod>2016-03-18T15:27:33+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/remove-bloatware/</loc>
-    <lastmod>2018-11-10T15:41:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/remove-linux-chromebook/</loc>
-    <lastmod>2017-05-14T13:58:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/replace-chrome-os/</loc>
-    <lastmod>2017-01-23T22:53:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/rest/</loc>
-    <lastmod>2017-10-15T17:31:14+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/reverse/</loc>
-    <lastmod>2017-04-07T19:55:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/reverse-tether/</loc>
-    <lastmod>2016-12-22T16:44:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/reverse-tethering/</loc>
-    <lastmod>2016-07-02T13:58:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/reversible/</loc>
-    <lastmod>2016-07-04T14:35:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/review/</loc>
-    <lastmod>2018-10-26T16:49:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/reviews/</loc>
-    <lastmod>2017-11-25T17:15:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/rom/</loc>
-    <lastmod>2015-06-13T03:53:16+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/root/</loc>
-    <lastmod>2017-06-14T23:38:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/root-any-android/</loc>
-    <lastmod>2016-02-14T19:33:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/router/</loc>
-    <lastmod>2017-11-23T13:53:59+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/rpcs3/</loc>
-    <lastmod>2016-11-06T15:00:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/run/</loc>
-    <lastmod>2015-07-20T18:49:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/run-any-os-on-chromebook/</loc>
-    <lastmod>2017-10-12T13:37:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/runescape/</loc>
-    <lastmod>2015-06-20T23:24:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/runtime/</loc>
-    <lastmod>2014-09-21T22:01:17+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/s6/</loc>
-    <lastmod>2015-04-18T16:09:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/s7/</loc>
-    <lastmod>2016-03-13T15:57:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/samba/</loc>
-    <lastmod>2016-12-31T16:27:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/samsung/</loc>
-    <lastmod>2016-07-03T14:36:59+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/save/</loc>
-    <lastmod>2016-11-29T04:31:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/screen/</loc>
-    <lastmod>2015-12-18T03:29:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/screen-pinning/</loc>
-    <lastmod>2016-06-17T14:40:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/screensavers/</loc>
-    <lastmod>2018-09-10T00:50:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/sdl/</loc>
-    <lastmod>2015-07-18T07:00:51+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/search/</loc>
-    <lastmod>2016-11-26T04:21:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/second/</loc>
-    <lastmod>2016-08-19T18:31:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/secure/</loc>
-    <lastmod>2016-12-08T01:54:17+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/security/</loc>
-    <lastmod>2018-04-22T17:53:29+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/sega/</loc>
-    <lastmod>2015-06-13T03:53:16+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/self-discipline/</loc>
-    <lastmod>2019-04-02T06:03:59-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/self-improvement/</loc>
-    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/sense/</loc>
-    <lastmod>2014-07-02T14:38:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/series/</loc>
-    <lastmod>2014-07-10T15:44:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/server/</loc>
-    <lastmod>2018-02-20T14:48:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/service/</loc>
-    <lastmod>2017-12-22T14:40:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/share/</loc>
-    <lastmod>2016-07-02T13:58:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/share-internet/</loc>
-    <lastmod>2016-12-22T16:44:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/share-internet-android/</loc>
-    <lastmod>2017-04-07T19:55:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/share-internet-connection-windows/</loc>
-    <lastmod>2016-12-22T16:44:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/share-internet-pc/</loc>
-    <lastmod>2017-04-07T19:55:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/share-internet-windows/</loc>
-    <lastmod>2016-12-22T16:44:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/share-wifi/</loc>
-    <lastmod>2018-10-20T14:37:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/shared/</loc>
-    <lastmod>2016-12-31T16:27:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/sharing/</loc>
-    <lastmod>2015-12-18T03:29:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/shield/</loc>
-    <lastmod>2017-02-01T02:52:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/shots/</loc>
-    <lastmod>2016-05-05T14:46:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/side-projects/</loc>
-    <lastmod>2019-03-14T07:01:19-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/silent/</loc>
-    <lastmod>2016-03-18T15:27:33+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/silent-boot-android/</loc>
-    <lastmod>2016-03-18T15:27:33+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/six/</loc>
-    <lastmod>2015-06-07T23:33:29+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/skype/</loc>
-    <lastmod>2016-09-23T15:59:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/slow/</loc>
-    <lastmod>2015-04-18T16:09:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/smartphone/</loc>
-    <lastmod>2018-10-26T16:49:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/smartphones/</loc>
-    <lastmod>2016-02-23T17:10:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/smartwatch/</loc>
-    <lastmod>2016-12-31T16:03:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/smash/</loc>
-    <lastmod>2015-10-04T22:06:53+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/snapchat/</loc>
-    <lastmod>2017-10-15T17:42:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/socket/</loc>
-    <lastmod>2017-12-10T22:27:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/softkeys/</loc>
-    <lastmod>2017-04-16T13:48:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/software/</loc>
-    <lastmod>2014-07-04T15:57:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/solution/</loc>
-    <lastmod>2017-12-14T04:01:38+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/sonic/</loc>
-    <lastmod>2015-06-13T03:53:16+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/sony/</loc>
-    <lastmod>2016-11-06T15:00:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/sound/</loc>
-    <lastmod>2016-03-18T15:27:33+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/source/</loc>
-    <lastmod>2015-07-23T00:50:43+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/speaker/</loc>
-    <lastmod>2014-07-02T04:08:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/spectre/</loc>
-    <lastmod>2018-01-05T15:50:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/sql/</loc>
-    <lastmod>2017-12-27T15:15:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/startup/</loc>
-    <lastmod>2016-03-18T15:27:33+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/static-site/</loc>
-    <lastmod>2019-03-04T06:11:06-05:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/steam/</loc>
-    <lastmod>2016-04-17T17:00:20+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/straight/</loc>
-    <lastmod>2014-07-04T08:12:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/stream/</loc>
-    <lastmod>2018-05-16T13:31:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/stream-steam-chromebook/</loc>
-    <lastmod>2015-10-27T15:04:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/stream-steam-games-android/</loc>
-    <lastmod>2017-02-01T02:52:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/streaming/</loc>
-    <lastmod>2015-12-18T03:29:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/strike/</loc>
-    <lastmod>2015-04-05T15:44:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/subscribe/</loc>
-    <lastmod>2017-12-22T14:40:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/summary/</loc>
-    <lastmod>2019-03-06T06:02:09-05:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/supercomputer/</loc>
-    <lastmod>2016-01-13T03:20:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/superuse/</loc>
-    <lastmod>2014-07-07T14:13:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/supply/</loc>
-    <lastmod>2016-03-22T15:22:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/surface/</loc>
-    <lastmod>2016-12-01T15:22:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/surface-laptop/</loc>
-    <lastmod>2017-12-22T15:17:48+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/tablet/</loc>
-    <lastmod>2016-12-01T15:22:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/</loc>
-    <lastmod>2017-06-14T23:38:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/tasker/</loc>
-    <lastmod>2015-07-13T14:41:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/team-fortress/</loc>
-    <lastmod>2015-07-18T07:00:51+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/teamviewer/</loc>
-    <lastmod>2018-09-29T12:51:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/tech/</loc>
-    <lastmod>2016-07-04T14:35:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/tegra-4/</loc>
-    <lastmod>2015-01-08T19:33:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/terminal/</loc>
-    <lastmod>2017-06-14T23:38:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/test/</loc>
-    <lastmod>2015-04-18T16:09:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/tether/</loc>
-    <lastmod>2018-10-20T14:37:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/tether-android/</loc>
-    <lastmod>2017-04-07T19:55:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/tf2/</loc>
-    <lastmod>2015-07-18T07:00:51+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/theme/</loc>
-    <lastmod>2014-09-16T17:28:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/thoughts/</loc>
-    <lastmod>2019-04-03T06:06:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/tile/</loc>
-    <lastmod>2017-03-12T22:46:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/time-management/</loc>
-    <lastmod>2019-04-02T06:03:59-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/to/</loc>
-    <lastmod>2014-07-04T15:57:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/tool/</loc>
-    <lastmod>2016-04-02T15:10:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/top/</loc>
-    <lastmod>2016-07-03T14:36:59+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/top-android-apps/</loc>
-    <lastmod>2017-03-12T22:46:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/tor/</loc>
-    <lastmod>2014-12-21T05:34:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/touchwiz/</loc>
-    <lastmod>2014-07-02T14:38:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/towelroot/</loc>
-    <lastmod>2014-07-07T14:13:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/trailer/</loc>
-    <lastmod>2016-05-05T14:46:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/trailor/</loc>
-    <lastmod>2016-05-05T14:46:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/tribute/</loc>
-    <lastmod>2016-05-05T14:46:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/trick/</loc>
-    <lastmod>2016-11-26T04:21:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/trigger/</loc>
-    <lastmod>2014-07-02T15:17:46+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/trusted-device/</loc>
-    <lastmod>2014-07-26T15:13:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/turn-on/</loc>
-    <lastmod>2016-02-01T22:07:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/tutorial/</loc>
-    <lastmod>2016-08-19T18:31:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/tweaks/</loc>
-    <lastmod>2015-12-17T16:41:21+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/typescript/</loc>
-    <lastmod>2018-03-07T00:35:21+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ubuntu/</loc>
-    <lastmod>2018-02-20T14:48:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ubuntu-16.04/</loc>
-    <lastmod>2017-03-15T02:03:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ultimate-perfomance/</loc>
-    <lastmod>2018-05-16T13:27:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ultra/</loc>
-    <lastmod>2014-07-02T15:17:46+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/unboxing/</loc>
-    <lastmod>2016-10-21T13:51:57+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/update/</loc>
-    <lastmod>2016-08-27T03:15:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/usb/</loc>
-    <lastmod>2016-07-04T14:35:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/usb-booting/</loc>
-    <lastmod>2017-10-12T13:37:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/used/</loc>
-    <lastmod>2016-06-17T14:40:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/uses-for-old-pc/</loc>
-    <lastmod>2015-07-14T14:33:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/ux/</loc>
-    <lastmod>2017-10-22T15:59:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/v4/</loc>
-    <lastmod>2017-11-23T13:53:59+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/video/</loc>
-    <lastmod>2016-09-30T14:59:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/virtual/</loc>
-    <lastmod>2014-07-01T15:52:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/virtual-reality/</loc>
-    <lastmod>2016-04-09T15:04:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/virtualbox/</loc>
-    <lastmod>2014-07-04T08:12:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/virtualiziation/</loc>
-    <lastmod>2014-07-01T15:52:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/vlc/</loc>
-    <lastmod>2016-09-30T14:59:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/vlog/</loc>
-    <lastmod>2016-04-09T15:04:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/vnc/</loc>
-    <lastmod>2016-08-19T18:31:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/volume/</loc>
-    <lastmod>2014-07-02T04:08:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/vpn/</loc>
-    <lastmod>2018-06-27T00:04:21+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/vr/</loc>
-    <lastmod>2018-03-26T01:56:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/wake-on-lan/</loc>
-    <lastmod>2016-02-01T22:07:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/wallpaper/</loc>
-    <lastmod>2017-09-14T13:38:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/watch/</loc>
-    <lastmod>2016-11-09T22:52:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/water/</loc>
-    <lastmod>2016-02-23T17:10:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/wear/</loc>
-    <lastmod>2016-12-22T15:39:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/wearables/</loc>
-    <lastmod>2016-12-22T15:39:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/web/</loc>
-    <lastmod>2015-05-09T20:34:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/web-browser/</loc>
-    <lastmod>2014-12-29T05:03:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/web-development/</loc>
-    <lastmod>2017-12-28T03:13:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/web-scraping/</loc>
-    <lastmod>2019-03-25T05:50:08-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/web-workers/</loc>
-    <lastmod>2017-10-22T15:59:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/webpack/</loc>
-    <lastmod>2019-03-05T07:14:19-05:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/webserver/</loc>
-    <lastmod>2017-05-07T00:19:41+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/website/</loc>
-    <lastmod>2019-03-11T06:04:23-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/websocket/</loc>
-    <lastmod>2017-12-10T22:27:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/webusb/</loc>
-    <lastmod>2017-08-18T13:10:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/what/</loc>
-    <lastmod>2016-11-09T22:52:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/whats/</loc>
-    <lastmod>2016-06-26T14:25:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/wifi/</loc>
-    <lastmod>2016-09-23T15:59:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/wifi-jamnmer/</loc>
-    <lastmod>2017-05-28T03:43:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/wii/</loc>
-    <lastmod>2015-10-04T22:06:53+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/window/</loc>
-    <lastmod>2014-07-01T04:51:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/windows/</loc>
-    <lastmod>2018-01-29T01:11:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/categories/windows/</loc>
-    <lastmod>2018-11-17T02:15:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/windows-10/</loc>
-    <lastmod>2018-11-10T15:41:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/windows-10-chromebook/</loc>
-    <lastmod>2016-06-16T15:40:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/windows-7/</loc>
-    <lastmod>2016-05-15T16:00:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/windows-7-on-android/</loc>
-    <lastmod>2016-05-15T16:00:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/windows-95/</loc>
-    <lastmod>2014-07-11T20:05:14+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/windows-android/</loc>
-    <lastmod>2014-07-19T13:21:33+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/windows-xp-on-android/</loc>
-    <lastmod>2016-05-15T16:00:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/windows-on-android/</loc>
-    <lastmod>2016-05-15T16:00:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/windows-on-chromebook/</loc>
-    <lastmod>2016-06-16T15:40:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/wine/</loc>
-    <lastmod>2018-01-29T01:11:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/wireless/</loc>
-    <lastmod>2016-09-23T15:59:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/with/</loc>
-    <lastmod>2014-07-06T23:22:29+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/without-wiping/</loc>
-    <lastmod>2014-07-10T15:44:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/wol/</loc>
-    <lastmod>2016-02-01T22:07:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/womic/</loc>
-    <lastmod>2016-09-23T15:59:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/wordpress/</loc>
-    <lastmod>2019-03-11T06:04:23-04:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/x86/</loc>
-    <lastmod>2014-07-11T17:18:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/xash/</loc>
-    <lastmod>2016-04-17T17:00:20+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/xbmc/</loc>
-    <lastmod>2016-01-13T04:04:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/xmbc/</loc>
-    <lastmod>2016-09-30T14:59:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/xml/</loc>
-    <lastmod>2014-07-02T04:08:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/xp/</loc>
-    <lastmod>2015-05-19T15:12:16+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/xp-on-android/</loc>
-    <lastmod>2014-07-19T13:21:33+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/xperia/</loc>
-    <lastmod>2014-07-07T14:13:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/xpose/</loc>
-    <lastmod>2014-07-02T14:38:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/xposed/</loc>
-    <lastmod>2014-07-02T14:38:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/yosemite/</loc>
-    <lastmod>2015-08-18T01:51:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/youtube/</loc>
-    <lastmod>2017-06-14T23:38:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/z/</loc>
-    <lastmod>2016-10-21T13:51:57+00:00</lastmod>
-    <priority>0</priority>
-  </url>
   
-  <url>
-    <loc>https://www.bennettnotes.com/tags/zero-w/</loc>
-    <lastmod>2017-03-24T03:31:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
 </urlset>
