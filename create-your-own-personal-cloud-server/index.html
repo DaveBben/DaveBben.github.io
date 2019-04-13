@@ -64,7 +64,7 @@
   "headline": "Create Your Own Personal Cloud Server",
   "description" : "Whether it is Dropbox, Google Drive, Skydrive or iCloud, I am sure that we all have our favorite cloud server. Cloud Servers are great because they allow us to easily sync files between all the devices on our network and access content from anywhere. However, a growing concern over cloud servers is privacy. You could be banned from hosting certain content and companies could easily sort through what you are uploading and create targeted ads based on it.",
   "inLanguage" : "en",
-  "wordCount": 1094,
+  "wordCount": 1092,
   "datePublished" : "2015-05-09T20:34:24",
   "dateModified" : "2019-02-27T21:33:44",
   "image" : "https://www.bennettnotes.com/img/avatar-icon.png",
@@ -296,7 +296,13 @@ if (!doNotTrack) {
 
 <p>Whether it is Dropbox, Google Drive, Skydrive or iCloud, I am sure that we all have our favorite cloud server. Cloud Servers are great because they allow us to easily sync files between all the devices on our network and access content from anywhere. However, a growing concern over cloud servers is privacy. You could be banned from hosting certain content and companies could easily sort through what you are uploading and create targeted ads based on it. Also, each service provides only a limited amount of free space that is quickly filled.</p>
 
-<p>[adinserter block=&#8221;5&#8243;]</p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
+
 
 <p>Whatever your situation may be, you should try to create your own personal cloud server. It gives you all the privacy that you want and does not limit you in terms of storage. In order to build an effective cloud server you will need a device that can be always on. For this reason, I am going to use the raspberry pi. You can keep it running all year long and it hardly has any noticeable impact on your electric bill. Of course you could also use any desktop computer that you might have sitting around. We are going to use the popular software <em>OwnCloud.</em> Owncloud is very easy to setup, but only works on machines running Linux. However, you can connect a client to any operating System on desktop and mobile.</p>
 
@@ -317,7 +323,7 @@ if (!doNotTrack) {
 
 <p>This will display the eth0, broadcast and mask address. Take note of all of these. Then to get the internet IP and gateway type in:</p>
 
-<p><code>netstat -nr </code></p>
+<p><code>netstat -nr</code></p>
 
 <p><img src="/wp-content/uploads/2015/05/netstat-300x169.jpg" alt="" /></p>
 
@@ -355,7 +361,7 @@ if (!doNotTrack) {
 
 <p>Now let&#8217;s set the max file upload and post size. Type in:</p>
 
-<p><code>nano /etc/php5/apache2/php.ini </code></p>
+<p><code>nano /etc/php5/apache2/php.ini</code></p>
 
 <p><img src="/wp-content/uploads/2015/05/max-file-siize-300x169.jpg" alt="" /></p>
 
@@ -371,7 +377,7 @@ if (!doNotTrack) {
 
 <p>Next you need to setup the SSL certificate.</p>
 
-<p><code>sudo nano  /etc/apache2/sites-enabled/000-default </code></p>
+<p><code>sudo nano /etc/apache2/sites-enabled/000-default</code></p>
 
 <p><img src="/wp-content/uploads/2015/05/ovverride-300x169.jpg" alt="" /></p>
 
@@ -403,7 +409,7 @@ service apache2 reload&lt;br />
 
 <p>Now, time to download and setup owncloud. To download tpye in:</p>
 
-<p><code>wget &lt;a href=&quot;https://download.owncloud.org/community/owncloud-8.0.3.tar.bz2&quot;&gt;https://download.owncloud.org/community/owncloud-8.0.3.tar.bz2&lt;/a&gt;</code></p>
+<p><code>wget &lt;a href=&quot;https://download.owncloud.org/community/owncloud-8.0.3.tar.bz2&quot;&gt;https://download.owncloud.org/community/owncloud-8.0.3.tar.bz2&lt;/a&gt;</code></p>
 
 <div>
 </div>

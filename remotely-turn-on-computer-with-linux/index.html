@@ -64,7 +64,7 @@
   "headline": "Remotely Turn on Computer with Linux",
   "description" : "I really wish more people used WOL. It is probably one of the most underrated things in the world of wired networking. If you aren&amp;#8217;t familiar, WOL (Wake on Lan) allows you to remotely turn on your computer. This could be from another computer or even your Android device. It works by supplying a little bit of power to your Ethernet card to allow it to listen for the &amp;#8220;wake up&amp;#8221; signal.",
   "inLanguage" : "en",
-  "wordCount": 218,
+  "wordCount": 216,
   "datePublished" : "2016-02-01T22:07:03",
   "dateModified" : "2019-02-27T21:33:44",
   "image" : "https://www.bennettnotes.com/img/avatar-icon.png",
@@ -306,7 +306,13 @@ if (!doNotTrack) {
 
 <p>I really wish more people used WOL. It is probably one of the most underrated things in the world of wired networking. If you aren&#8217;t familiar, WOL (Wake on Lan) allows you to remotely turn on your computer. This could be from another computer or even your Android device. It works by supplying a little bit of power to your Ethernet card to allow it to listen for the &#8220;wake up&#8221; signal.</p>
 
-<p>[adinserter block=&#8221;5&#8243;]</p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
+
 
 <p>Unfortunately, not every motherboard supports WOL. So you will have to browse your motherboard&#8217;s bios to see if it is available.  For this tutorial, I am going to show you how to do this with Linux. I have a (old) <a href="https://www.youtube.com/watch?v=pDjjMO3az84" target="_blank">Windows tutorial if you are running Windows</a>.</p>
 
@@ -333,7 +339,7 @@ if (!doNotTrack) {
 
 <p><code>sudo ethtool eth0</code></p>
 
-<p>If you see _g _next to <em>Wake-on</em>, then you are good to go. If you see something else (d) then type in the following:</p>
+<p>If you see <em>g _next to _Wake-on</em>, then you are good to go. If you see something else (d) then type in the following:</p>
 
 <p><code>sudo ethool -s eth0 g</code></p>
 
