@@ -1366,7 +1366,7 @@
     <item>
       <title>Docker</title>
       <link>https://www.bennettnotes.com/tags/docker/</link>
-      <pubDate>Wed, 20 Mar 2019 17:09:26 -0400</pubDate>
+      <pubDate>Wed, 17 Apr 2019 08:02:52 -0400</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/tags/docker/</guid>
       <description></description>
@@ -2734,7 +2734,7 @@
     <item>
       <title>Javascript</title>
       <link>https://www.bennettnotes.com/tags/javascript/</link>
-      <pubDate>Mon, 15 Apr 2019 05:46:53 -0400</pubDate>
+      <pubDate>Wed, 17 Apr 2019 08:36:47 -0400</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/tags/javascript/</guid>
       <description></description>
@@ -2755,6 +2755,15 @@
       <pubDate>Sun, 22 Apr 2018 17:53:29 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/tags/jwt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kafka</title>
+      <link>https://www.bennettnotes.com/tags/kafka/</link>
+      <pubDate>Wed, 17 Apr 2019 08:36:47 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/tags/kafka/</guid>
       <description></description>
     </item>
     
@@ -3200,6 +3209,15 @@
     </item>
     
     <item>
+      <title>Microservices</title>
+      <link>https://www.bennettnotes.com/tags/microservices/</link>
+      <pubDate>Wed, 17 Apr 2019 08:36:47 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/tags/microservices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Microsoft</title>
       <link>https://www.bennettnotes.com/tags/microsoft/</link>
       <pubDate>Tue, 22 Nov 2016 21:03:42 +0000</pubDate>
@@ -3526,7 +3544,7 @@
     <item>
       <title>Nodejs</title>
       <link>https://www.bennettnotes.com/tags/nodejs/</link>
-      <pubDate>Mon, 15 Apr 2019 05:46:53 -0400</pubDate>
+      <pubDate>Wed, 17 Apr 2019 08:36:47 -0400</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/tags/nodejs/</guid>
       <description></description>
@@ -6103,6 +6121,15 @@
       <pubDate>Fri, 24 Mar 2017 03:31:24 +0000</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/tags/zero-w/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zookeeper</title>
+      <link>https://www.bennettnotes.com/tags/zookeeper/</link>
+      <pubDate>Wed, 17 Apr 2019 08:02:52 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/tags/zookeeper/</guid>
       <description></description>
     </item>
     

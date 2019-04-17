@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microservices on Bennett Notes</title>
+    <link>https://www.bennettnotes.com/tags/microservices/</link>
+    <description>Recent content in Microservices on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Wed, 17 Apr 2019 08:36:47 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.bennettnotes.com/tags/microservices/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kafka Nodejs Example with Producers and Consumers</title>
+      <link>https://www.bennettnotes.com/post/kafka-nodejs-example/</link>
+      <pubDate>Wed, 17 Apr 2019 08:36:47 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/post/kafka-nodejs-example/</guid>
+      <description>Let&amp;rsquo;s take a look at a Kafka Nodejs example with Producers and Consumers. We will be creating a kafka producer and consumer in Nodejs. If you haven&amp;rsquo;t already, check out my previous tutorial on how to setup Kafka in docker. I already created a topic called cat that I will be using.
+Kafka Producer We are going to use the npm module called kafka-node to interface with our kafka and zookeeper.</description>
+    </item>
+    
+    <item>
+      <title>Setup Kafka Zookeeper in Docker</title>
+      <link>https://www.bennettnotes.com/post/setup-kafka-zookeeper-in-docker/</link>
+      <pubDate>Wed, 17 Apr 2019 08:02:52 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/post/setup-kafka-zookeeper-in-docker/</guid>
+      <description>Setting up Apache Kafka and Zookeeper in docker is easy thanks to popular DockerFiles like wurstmeister/kafka-docker. Let&amp;rsquo;s go through a quick setup of Kafka and Zookeeper in docker on a single node system.
+Prerequisites  Linux System Git Docker Docker-compose  Kafka and Zookeeper Start by cloning the repo:
+git clone https://github.com/wurstmeister/kafka-docker Then change to the kafka-docker directory:
+cd kafka-docker Now let&amp;rsquo;s edit the docker-compose.yml file. Change the Kafka Advertised Hostname to localhost:</description>
+    </item>
+    
+  </channel>
+</rss>
