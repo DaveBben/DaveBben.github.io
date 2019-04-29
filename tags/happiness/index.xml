@@ -8,10 +8,20 @@
     <language>en-us</language>
     <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
-    <lastBuildDate>Sat, 09 Mar 2019 12:46:10 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 29 Apr 2019 05:51:39 -0400</lastBuildDate>
     
 	<atom:link href="https://www.bennettnotes.com/tags/happiness/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What&#39;s bad about coding? You can work for hours with nothing to show for it</title>
+      <link>https://www.bennettnotes.com/post/something-to-show/</link>
+      <pubDate>Mon, 29 Apr 2019 05:51:39 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/post/something-to-show/</guid>
+      <description>Last Saturday, I spent several hours working on my website&amp;rsquo;s code. I added some new meta tags to lazy load images, tried to remove JQuery dependencies from my scripts, added enhancements for accessibility and structured data, and even created a pull request for the theme that I am using (Beautiful Hugo).
+Basically, five hours of my day were eaten up by completing those tasks. Although this was another example of getting too absorbed in your side projects, I was actually proud of myself.</description>
+    </item>
     
     <item>
       <title>Happiness and Anticipation</title>
