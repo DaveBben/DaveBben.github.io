@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
-    <lastBuildDate>Wed, 28 Mar 2018 15:07:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 May 2019 06:58:38 -0400</lastBuildDate>
     
 	<atom:link href="https://www.bennettnotes.com/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Fix: Could not establish connection. Receiving end does not exist</title>
+      <link>https://www.bennettnotes.com/post/fix-receiving-end-does-not-exist/</link>
+      <pubDate>Wed, 08 May 2019 06:58:38 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/post/fix-receiving-end-does-not-exist/</guid>
+      <description>If you are developing a Chrome extension with message passing, then you might have received the following error: Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.. There was some type of behavior change that happened post Chrome 72 that affected the way channels are opened. Essentially, if you try to call runetime.connect() before you have a a channel open, then you will get this error (Stackoverflow).</description>
+    </item>
     
     <item>
       <title>How to build a Chrome Extension</title>

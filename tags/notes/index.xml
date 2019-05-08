@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Extension on Bennett Notes</title>
-    <link>https://www.bennettnotes.com/tags/extension/</link>
-    <description>Recent content in Extension on Bennett Notes</description>
+    <title>Notes on Bennett Notes</title>
+    <link>https://www.bennettnotes.com/tags/notes/</link>
+    <description>Recent content in Notes on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Wed, 08 May 2019 06:58:38 -0400</lastBuildDate>
     
-	<atom:link href="https://www.bennettnotes.com/tags/extension/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/post/fix-receiving-end-does-not-exist/</guid>
       <description>If you are developing a Chrome extension with message passing, then you might have received the following error: Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.. There was some type of behavior change that happened post Chrome 72 that affected the way channels are opened. Essentially, if you try to call runetime.connect() before you have a a channel open, then you will get this error (Stackoverflow).</description>
-    </item>
-    
-    <item>
-      <title>How to build a Chrome Extension</title>
-      <link>https://www.bennettnotes.com/how-to-build-a-chrome-extension/</link>
-      <pubDate>Wed, 28 Mar 2018 15:07:56 +0000</pubDate>
-      <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://www.bennettnotes.com/how-to-build-a-chrome-extension/</guid>
-      <description>Chrome extensions are really cool. They allow the user to extend the capabilities of their browser and can incorporate really well into existing apps. So let&amp;#8217;s take a look at how to build a Chrome Extension in less than 10 minutes. Chrome Extensions are written in Javascript, so I recommend that you have a basic understanding of Javascript before proceeding with this tutorial.
-What we&amp;#8217;re building We are going to build a simple chrome extension that will allow you to search google for any text that you highlight on a page.</description>
     </item>
     
   </channel>

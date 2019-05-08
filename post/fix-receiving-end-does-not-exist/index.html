@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+  <title>How to Fix: Could not establish connection. Receiving end does not exist - Bennett Notes</title> 
+  <meta property="og:title" content="How to Fix: Could not establish connection. Receiving end does not exist" />
+  <meta name="twitter:title" content="How to Fix: Could not establish connection. Receiving end does not …" />
+  <meta name="description" content="If you are developing a Chrome extension with message passing, then you might have received the following error: Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.">
+  <meta property="og:description" content="If you are developing a Chrome extension with message passing, then you might have received the following error: Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.">
+  <meta name="twitter:description" content="If you are developing a Chrome extension with message passing, then you might have received the following error: Unchecked runtime.lastError: Could not establish connection. Receiving end does not …">
+  <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bennett Notes",
+    
+    "url": "https://www.bennettnotes.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https://www.bennettnotes.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://www.bennettnotes.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://www.bennettnotes.com/post/fix-receiving-end-does-not-exist/",
+          "name": "How to fix could not establish connection. receiving end does not exist"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+	"@type": "Person",
+    "name" : "Dave Bennett"
+  },
+  "headline": "How to Fix: Could not establish connection. Receiving end does not exist",
+  "description" : "If you are developing a Chrome extension with message passing, then you might have received the following error: Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.",
+  "inLanguage" : "en",
+  "wordCount": 420,
+  "datePublished" : "2019-05-08T06:58:38",
+  "dateModified" : "2019-05-08T06:58:38",
+  "image" : "  https://www.bennettnotes.com/img/avatar-icon.png",
+  "keywords" : [ "extension, notes, chrome, javascript" ],
+  "mainEntityOfPage" : "https://www.bennettnotes.com/post/fix-receiving-end-does-not-exist/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "Bennett Notes",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https://www.bennettnotes.com/img/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+
+<meta property="og:title" content="How to Fix: Could not establish connection. Receiving end does not exist" />
+<meta property="og:description" content="If you are developing a Chrome extension with message passing, then you might have received the following error: Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.">
+<meta property="og:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://www.bennettnotes.com/post/fix-receiving-end-does-not-exist/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="twitter:title" content="How to Fix: Could not establish connection. Receiving end does not …" />
+  <meta name="twitter:description" content="If you are developing a Chrome extension with message passing, then you might have received the following error: Unchecked runtime.lastError: Could not establish connection. Receiving end does not …">
+  <meta name="twitter:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+
+  <link href='https://www.bennettnotes.com/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_davebennett" />
+  <meta name="twitter:creator" content="@_davebennett" />
+  <meta property="og:url" content="https://www.bennettnotes.com/post/fix-receiving-end-does-not-exist/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bennett Notes" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+  <link rel="stylesheet" rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+<link rel="stylesheet"
+      href="https://www.bennettnotes.com/bundle.min.css"
+      integrity="">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#333333">
+<meta name="msvalidate.01" content="50CDEA68FD6A5F7983A98164E8C48619" />
+<meta name="theme-color" content="#323030" />
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-41393353-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://www.bennettnotes.com">Bennett Notes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Programming" href="/categories/programming">Programming</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Technology</a>
+              <div class="navlinks-children">
+                
+                  <a href="/categories/android">Android</a>
+                
+                  <a href="/categories/chrome-os">Chrome OS</a>
+                
+                  <a href="/categories/gadgets">Gadgets</a>
+                
+                  <a href="/categories/linux">Linux</a>
+                
+                  <a href="/categories/windows">Windows</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Life" href="/categories/life">Life</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/page/search/">Search</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bennett Notes" href="https://www.bennettnotes.com">
+            
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>How to Fix: Could not establish connection. Receiving end does not exist</h1>
+              
+              
+              
+              
+                <p class="post-author">    
+	Dave Bennett
+  </p>
+<span class="post-meta">
+    
+    
+  May 8, 2019
+    
+    
+	• &nbsp;2&nbsp;min read
+    
+    
+
+    
+    
+        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+    
+    
+  </span>
+  
+  
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			<main role="main">
+      <article  class="blog-post">
+            
+        
+
+<p>If you are developing a Chrome extension with message passing, then you might have received the following error: <strong>Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.</strong>. There was some type of behavior change that happened post Chrome 72 that affected the way channels are opened. Essentially, if you try to call runetime.connect() before you have a a channel open, then you will get this error (<a href="https://stackoverflow.com/questions/54181734/chrome-extension-message-passing-unchecked-runtime-lasterror-could-not-establi/54686484#54686484">Stackoverflow</a>).</p>
+
+<p>So here&rsquo;s how I setup Message Passing in my Chrome extension to avoid this error.</p>
+
+<h2 id="manifest-json">Manifest.json</h2>
+
+<p>I originally had my content script defined in my manifest and used the <em>MATCHES</em> property to have it load on all URLs. However, I learned that if you try to submit a Chrome extension to the webstore that uses a content script that can run on any URL, it will be subject to a longer review time and higher scrutiny and might get rejected. So the simple solution was just to inject my script manually through message passing.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+    <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Simple On Page SEO&#34;</span>,
+    <span style="color:#f92672">&#34;version&#34;</span>: <span style="color:#e6db74">&#34;1.2&#34;</span>,
+    <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;SEO on page analyzer. Look for keyword density, keyword checker in title and meta tags.&#34;</span>,
+	<span style="color:#f92672">&#34;manifest_version&#34;</span>: <span style="color:#ae81ff">2</span>,
+	<span style="color:#f92672">&#34;content_security_policy&#34;</span>: <span style="color:#e6db74">&#34;script-src &#39;self&#39; &#39;unsafe-eval&#39;; object-src &#39;self&#39;&#34;</span>,
+      <span style="color:#f92672">&#34;browser_action&#34;</span>: {
+				<span style="color:#f92672">&#34;default_popup&#34;</span>: <span style="color:#e6db74">&#34;popup.html&#34;</span>,
+				<span style="color:#f92672">&#34;default_icon&#34;</span>: <span style="color:#e6db74">&#34;icon.png&#34;</span>
+		 },
+		 <span style="color:#f92672">&#34;icons&#34;</span>: {
+		 <span style="color:#f92672">&#34;128&#34;</span>: <span style="color:#e6db74">&#34;icon.png&#34;</span> },
+       <span style="color:#f92672">&#34;permissions&#34;</span>: [
+				<span style="color:#e6db74">&#34;activeTab&#34;</span>,
+				<span style="color:#e6db74">&#34;storage&#34;</span>
+       ]
+    
+}</code></pre></div>
+<h2 id="popup-script">Popup Script</h2>
+
+<p>Recall that the popup script is the script that is attached to the popup window on your Chrome extension. I first injected my content script to the page once my extension was loaded.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">window.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;load&#39;</span>, (<span style="color:#a6e22e">event</span>) =&gt; {
+  <span style="color:#a6e22e">chrome</span>.<span style="color:#a6e22e">tabs</span>.<span style="color:#a6e22e">executeScript</span>(<span style="color:#66d9ef">null</span>, {
+    <span style="color:#a6e22e">file</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;content.bundle.js&#39;</span>, <span style="color:#75715e">//my content script
+</span><span style="color:#75715e"></span>  }, () =&gt; {
+      <span style="color:#a6e22e">connect</span>() <span style="color:#75715e">//this is where I call my function to establish a connection
+</span><span style="color:#75715e"></span>    });
+  });
+});
+</code></pre></div>
+<p>That injects the script then calls my connect function to establish a connection.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">connect</span>() {
+  <span style="color:#a6e22e">chrome</span>.<span style="color:#a6e22e">tabs</span>.<span style="color:#a6e22e">query</span>({ <span style="color:#a6e22e">active</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>, <span style="color:#a6e22e">currentWindow</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span> }, (<span style="color:#a6e22e">tabs</span>) =&gt; {
+    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">port</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">chrome</span>.<span style="color:#a6e22e">tabs</span>.<span style="color:#a6e22e">connect</span>(<span style="color:#a6e22e">tabs</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">id</span>);
+    <span style="color:#a6e22e">port</span>.<span style="color:#a6e22e">postMessage</span>({ <span style="color:#66d9ef">function</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;html&#39;</span> });
+    <span style="color:#a6e22e">port</span>.<span style="color:#a6e22e">onMessage</span>.<span style="color:#a6e22e">addListener</span>((<span style="color:#a6e22e">response</span>) =&gt; {
+      <span style="color:#a6e22e">html</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">html</span>;
+      <span style="color:#a6e22e">title</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">title</span>;
+      <span style="color:#a6e22e">description</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">description</span>;
+    });
+  });
+}
+</code></pre></div>
+<p>This creates a connection for message passing and immediately posts a message to that new connection.</p>
+
+<h2 id="content-script">Content Script</h2>
+
+<p>Remember that the content script runs on the actual webpage that you are on. In this script I listen for a connection and respond to messages:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">chrome</span>.<span style="color:#a6e22e">runtime</span>.<span style="color:#a6e22e">onConnect</span>.<span style="color:#a6e22e">addListener</span>((<span style="color:#a6e22e">port</span>) =&gt; {
+  <span style="color:#a6e22e">port</span>.<span style="color:#a6e22e">onMessage</span>.<span style="color:#a6e22e">addListener</span>((<span style="color:#a6e22e">msg</span>) =&gt; {
+    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">msg</span>.<span style="color:#66d9ef">function</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;html&#39;</span>) {
+      <span style="color:#a6e22e">port</span>.<span style="color:#a6e22e">postMessage</span>({ <span style="color:#a6e22e">html</span><span style="color:#f92672">:</span> document.<span style="color:#a6e22e">documentElement</span>.<span style="color:#a6e22e">outerHTML</span>, <span style="color:#a6e22e">description</span><span style="color:#f92672">:</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;meta[name=\&#39;description\&#39;]&#34;</span>).<span style="color:#a6e22e">getAttribute</span>(<span style="color:#e6db74">&#39;content&#39;</span>), <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> document.<span style="color:#a6e22e">title</span> });
+    }
+  });
+});
+</code></pre></div>
+<p>Setting up my Chrome extension like this allowed me to do message passing without receiving the error: <strong>Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.</strong></p>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6594501022141871"
+     data-ad-slot="6999463098"></ins>
+
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://www.bennettnotes.com/tags/extension/">extension</a>&nbsp;
+            
+              <a href="https://www.bennettnotes.com/tags/notes/">notes</a>&nbsp;
+            
+              <a href="https://www.bennettnotes.com/tags/chrome/">chrome</a>&nbsp;
+            
+              <a href="https://www.bennettnotes.com/tags/javascript/">javascript</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2ffix-receiving-end-does-not-exist%2f&amp;text=How%20to%20Fix%3a%20Could%20not%20establish%20connection.%20Receiving%20end%20does%20not%20exist&amp;via=_davebennett" target="_blank" rel="noopener" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2ffix-receiving-end-does-not-exist%2f" target="_blank" rel="noopener" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.bennettnotes.com%2fpost%2ffix-receiving-end-does-not-exist%2f" target="_blank" rel="noopener" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2ffix-receiving-end-does-not-exist%2f&amp;title=How%20to%20Fix%3a%20Could%20not%20establish%20connection.%20Receiving%20end%20does%20not%20exist" target="_blank" rel="noopener" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2ffix-receiving-end-does-not-exist%2f&amp;title=How%20to%20Fix%3a%20Could%20not%20establish%20connection.%20Receiving%20end%20does%20not%20exist" target="_blank" rel="noopener" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2ffix-receiving-end-does-not-exist%2f&amp;title=How%20to%20Fix%3a%20Could%20not%20establish%20connection.%20Receiving%20end%20does%20not%20exist" target="_blank" rel="noopener" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.bennettnotes.com%2fpost%2ffix-receiving-end-does-not-exist%2f&amp;description=How%20to%20Fix%3a%20Could%20not%20establish%20connection.%20Receiving%20end%20does%20not%20exist" target="_blank" rel="noopener" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+          
+          <h4 class="see-also">See also</h4>
+          <ul>
+          
+            <li><a href="/how-to-build-a-chrome-extension/">How to build a Chrome Extension</a></li>
+          
+            <li><a href="/javascript-read-usb-2/">JavaScript Read USB</a></li>
+          
+            <li><a href="/post/kafka-nodejs-example/">Kafka Nodejs Example with Producers and Consumers</a></li>
+          
+          </ul>
+          
+        
+	  </article>
+	  </main>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://www.bennettnotes.com/post/run-android-apps-in-chrome-browser/" data-toggle="tooltip" data-placement="top" title="Run Android Apps in Chrome Browser">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+          
+          <div class="disqus-comments">                  
+            <button id="show-comments" class="btn btn-default" type="button">Show <span class="disqus-comment-count" data-disqus-url="https://www.bennettnotes.com/post/fix-receiving-end-does-not-exist">comments</span></button>
+            <div id="disqus_thread"></div>
+
+            <script type="text/javascript">
+              var disqus_config = function () {
+              this.page.url = 'https:\/\/www.bennettnotes.com\/post\/fix-receiving-end-does-not-exist';
+            };
+
+          </script>
+          </div>
+          
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:dave@bennettnotes.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/davebennetttech" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/DaveBben" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_davebennett" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/DaveBben" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/opensourcegangster" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://www.bennettnotes.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="bennettnotes.com">Dave Bennett</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://www.bennettnotes.com">Bennett Notes</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Theme by adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+$(function(){
+  $('#show-comments').on('click', function(){
+    var disqus_shortname = 'https-bennettnotes-com';
+      
+    (function() {
+      var disqus = document.createElement('script'); 
+      disqus.type = 'text/javascript'; 
+      disqus.async = true;
+      disqus.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(disqus);
+    })();
+      
+    $(this).hide(); 
+    });
+  });
+      
+</script>
+<script id="dsq-count-scr" src="//https-bennettnotes-com.disqus.com/count.js" async></script>
+
+<script
+async
+  src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"
+  integrity="sha256-uScRgGrInD2VnPNpjmlQtB2XRVLczyyZvrTkYi+e31U="
+  crossorigin="anonymous"
+></script>
+<script
+  async
+  src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+
+
+
+
+
+
+
+<script
+  async
+    src="https://www.bennettnotes.com/bundle.min.js"
+    integrity=""></script>
+
+
+
+  </body>
+</html>
+
