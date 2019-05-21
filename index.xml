@@ -8,10 +8,20 @@
     <language>en-us</language>
     <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
-    <lastBuildDate>Wed, 08 May 2019 06:58:38 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 21 May 2019 17:54:58 -0400</lastBuildDate>
     
 	<atom:link href="https://www.bennettnotes.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Use Android as Bluetooth Speaker</title>
+      <link>https://www.bennettnotes.com/post/use-android-as-bluetooth-speaker/</link>
+      <pubDate>Tue, 21 May 2019 17:54:58 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/post/use-android-as-bluetooth-speaker/</guid>
+      <description>Have you ever needed to cast music from your PC to your Android device? Let&amp;rsquo;s walk though a quick tutorial that will show you have to use your Android as a bluetooth speaker.
+Download Android Wireless Speaker App Begin by downloading the app wireless speaker for android. All you need to do is download it, and launch it. No further configuration is needed. Take note of that IP address that is listed for your phone in the app.</description>
+    </item>
     
     <item>
       <title>How to Fix: Could not establish connection. Receiving end does not exist</title>
