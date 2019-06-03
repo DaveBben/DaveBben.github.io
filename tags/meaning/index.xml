@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Motivation on Bennett Notes</title>
-    <link>https://www.bennettnotes.com/tags/motivation/</link>
-    <description>Recent content in Motivation on Bennett Notes</description>
+    <title>Meaning on Bennett Notes</title>
+    <link>https://www.bennettnotes.com/tags/meaning/</link>
+    <description>Recent content in Meaning on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Sun, 02 Jun 2019 10:08:42 -0400</lastBuildDate>
     
-	<atom:link href="https://www.bennettnotes.com/tags/motivation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/meaning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/post/why-i-live-for-the-weekends/</guid>
       <description>Everyone tells, &amp;ldquo;Dave, you shouldn&amp;rsquo;t be living just for the weekend!&amp;rdquo; But I wonder, how do people who work in a typical 9-5 corporate environment avoid lusting over the liberty and excitement that the weekend brings. Two whole days to do what you want to do; spending time with family or friends, traveling, working on side projects, gaming, etc. For me, it means two whole days where I don&amp;rsquo;t have to be in a windowless room coding in front of a computer screen for eight hours.</description>
-    </item>
-    
-    <item>
-      <title>Complacency After College</title>
-      <link>https://www.bennettnotes.com/post/complacency-after-college/</link>
-      <pubDate>Thu, 21 Mar 2019 06:00:37 -0400</pubDate>
-      <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://www.bennettnotes.com/post/complacency-after-college/</guid>
-      <description>Up until graduation day, everything made sense. I&amp;rsquo;ll go to class, get good grades, then land a decent paying job so that I can move out of my parents and &amp;ldquo;start my life&amp;rdquo;. Amazingly, all of that happened fresh out of college at 22 years old. Back then, a couple of my peers have told me, &amp;ldquo;Damn dude, you&amp;rsquo;re living the dream.&amp;rdquo; In reality, I felt like I was far from it.</description>
     </item>
     
   </channel>

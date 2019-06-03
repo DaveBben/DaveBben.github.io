@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
-    <lastBuildDate>Mon, 29 Apr 2019 05:51:39 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2019 10:08:42 -0400</lastBuildDate>
     
 	<atom:link href="https://www.bennettnotes.com/tags/happiness/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>I Only Live for the Weekends</title>
+      <link>https://www.bennettnotes.com/post/why-i-live-for-the-weekends/</link>
+      <pubDate>Sun, 02 Jun 2019 10:08:42 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/post/why-i-live-for-the-weekends/</guid>
+      <description>Everyone tells, &amp;ldquo;Dave, you shouldn&amp;rsquo;t be living just for the weekend!&amp;rdquo; But I wonder, how do people who work in a typical 9-5 corporate environment avoid lusting over the liberty and excitement that the weekend brings. Two whole days to do what you want to do; spending time with family or friends, traveling, working on side projects, gaming, etc. For me, it means two whole days where I don&amp;rsquo;t have to be in a windowless room coding in front of a computer screen for eight hours.</description>
+    </item>
     
     <item>
       <title>What&#39;s bad about coding? You can work for hours with nothing to show for it</title>
