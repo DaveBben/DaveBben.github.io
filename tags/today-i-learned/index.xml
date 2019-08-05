@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Today I Learned on Bennett Notes</title>
+    <link>https://www.bennettnotes.com/tags/today-i-learned/</link>
+    <description>Recent content in Today I Learned on Bennett Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
+    <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
+    <lastBuildDate>Sun, 04 Aug 2019 19:58:14 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.bennettnotes.com/tags/today-i-learned/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Make Effective small talk</title>
+      <link>https://www.bennettnotes.com/post/how-to-make-effective-small-talk/</link>
+      <pubDate>Sun, 04 Aug 2019 19:58:14 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/post/how-to-make-effective-small-talk/</guid>
+      <description>Listening to the Jordan Harbinger podcast, I learned a tip about making effective small talk; the F.E.W. approach. Facts, Emotions and Why.
+ Facts:  Start with asking a fact.  &amp;ldquo;Where do you work?&amp;rdquo;   Emotion:  Follow up with an emotion.  &amp;ldquo;How do you like working there?&amp;rdquo;   Why:  Dig a little deeper  &amp;ldquo;What made you choose the career path?&amp;rdquo;    It&amp;rsquo;s important to mix this up with statements of your own in-between the questions so you don&amp;rsquo;t sound like a robot.</description>
+    </item>
+    
+  </channel>
+</rss>
