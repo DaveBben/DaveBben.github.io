@@ -8,10 +8,20 @@
     <language>en-us</language>
     <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
-    <lastBuildDate>Wed, 04 Sep 2019 07:49:02 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2019 05:48:01 -0400</lastBuildDate>
     
 	<atom:link href="https://www.bennettnotes.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Challenges Using Istio</title>
+      <link>https://www.bennettnotes.com/post/challenges-using-istio/</link>
+      <pubDate>Wed, 18 Sep 2019 05:48:01 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/post/challenges-using-istio/</guid>
+      <description>The team and I were searching for solutions that enabled us to secure the communication between the microservices that we have running in our Rancher cluster. Our first application consisted of a set of services that essentially performed CRUD operations using the typical RESTful architecture (GET, POST, PUT, etc).
+We decided to use Istio because it offered a compelling solution that incorporated the use of mTLS (mutual TLS authentication). For us, this meant that we didn&amp;rsquo;t need to manage certificates ourselves our worry about the individual TLS implementation of each service in its respective language.</description>
+    </item>
     
     <item>
       <title>The Four Types of Business Ideas</title>

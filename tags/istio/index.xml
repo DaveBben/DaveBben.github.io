@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kubernetes on Bennett Notes</title>
-    <link>https://www.bennettnotes.com/tags/kubernetes/</link>
-    <description>Recent content in Kubernetes on Bennett Notes</description>
+    <title>Istio on Bennett Notes</title>
+    <link>https://www.bennettnotes.com/tags/istio/</link>
+    <description>Recent content in Istio on Bennett Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
     <lastBuildDate>Wed, 18 Sep 2019 05:48:01 -0400</lastBuildDate>
     
-	<atom:link href="https://www.bennettnotes.com/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bennettnotes.com/tags/istio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,16 +21,6 @@
       <guid>https://www.bennettnotes.com/post/challenges-using-istio/</guid>
       <description>The team and I were searching for solutions that enabled us to secure the communication between the microservices that we have running in our Rancher cluster. Our first application consisted of a set of services that essentially performed CRUD operations using the typical RESTful architecture (GET, POST, PUT, etc).
 We decided to use Istio because it offered a compelling solution that incorporated the use of mTLS (mutual TLS authentication). For us, this meant that we didn&amp;rsquo;t need to manage certificates ourselves our worry about the individual TLS implementation of each service in its respective language.</description>
-    </item>
-    
-    <item>
-      <title>Install Hyperledger Fabric on Kubernetes</title>
-      <link>https://www.bennettnotes.com/post/install-hyperledger-fabric-on-kubernetes/</link>
-      <pubDate>Wed, 20 Mar 2019 17:09:26 -0400</pubDate>
-      <author>dave@bennettnotes.com (Dave Bennett)</author>
-      <guid>https://www.bennettnotes.com/post/install-hyperledger-fabric-on-kubernetes/</guid>
-      <description>I recently had the &amp;ldquo;amazing 🙄&amp;rdquo; opportunity to spend two weeks figuring out how to install hyperledger fabric on Kubernetes. There aren&amp;rsquo;t many guides on the internet besides this one. Unfortunately, I found it to be very vague and missing some keys steps.
-For this tutorial, let&amp;rsquo;s go step-by-step on how to install hyperledger on kubernetes. We are going to use some information from the guide linked above, along with some stuff my team and I were able to figure out along the way.</description>
     </item>
     
   </channel>

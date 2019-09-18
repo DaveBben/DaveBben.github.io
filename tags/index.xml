@@ -2732,6 +2732,15 @@
     </item>
     
     <item>
+      <title>Istio</title>
+      <link>https://www.bennettnotes.com/tags/istio/</link>
+      <pubDate>Wed, 18 Sep 2019 05:48:01 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/tags/istio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Iteration</title>
       <link>https://www.bennettnotes.com/tags/iteration/</link>
       <pubDate>Fri, 22 Dec 2017 14:54:56 +0000</pubDate>
@@ -2851,7 +2860,7 @@
     <item>
       <title>Kubernetes</title>
       <link>https://www.bennettnotes.com/tags/kubernetes/</link>
-      <pubDate>Wed, 20 Mar 2019 17:09:26 -0400</pubDate>
+      <pubDate>Wed, 18 Sep 2019 05:48:01 -0400</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/tags/kubernetes/</guid>
       <description></description>
@@ -3247,7 +3256,7 @@
     <item>
       <title>Microservices</title>
       <link>https://www.bennettnotes.com/tags/microservices/</link>
-      <pubDate>Wed, 17 Apr 2019 08:36:47 -0400</pubDate>
+      <pubDate>Wed, 18 Sep 2019 05:48:01 -0400</pubDate>
       <author>dave@bennettnotes.com (Dave Bennett)</author>
       <guid>https://www.bennettnotes.com/tags/microservices/</guid>
       <description></description>
