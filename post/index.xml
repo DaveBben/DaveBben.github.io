@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
-    <lastBuildDate>Wed, 18 Sep 2019 05:48:01 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 22 Sep 2019 21:58:26 -0400</lastBuildDate>
     
 	<atom:link href="https://www.bennettnotes.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Where Are All the Fun Software Engineer Jobs?</title>
+      <link>https://www.bennettnotes.com/post/where-are-all-the-exciting-software-engineer-jobs/</link>
+      <pubDate>Sun, 22 Sep 2019 21:58:26 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/post/where-are-all-the-exciting-software-engineer-jobs/</guid>
+      <description>My mother called me today and inquired about my week. As usual, I try to steer the conversation toward more exciting topics and away from my occupation. I start out with a, &amp;ldquo;Yeah mom, I&amp;rsquo;m preparing for this fight in my Muay Thai class tonight.&amp;rdquo; Or something like, &amp;ldquo;Guess what Mom? I found ultra cheap tickets to London.&amp;rdquo; Without fail though, she always comes back to the dreaded, &amp;ldquo;That&amp;rsquo;s nice dear, so how&amp;rsquo;s working going?</description>
+    </item>
     
     <item>
       <title>Challenges Using Istio</title>
