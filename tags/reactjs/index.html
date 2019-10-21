@@ -58,7 +58,6 @@
 
   <meta name="generator" content="Hugo 0.54.0" />
   <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
   <link rel="stylesheet" rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
 
@@ -102,7 +101,7 @@ if (!doNotTrack) {
 
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom navbar-inverse">
+    <nav class="navbar navbar-default navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -229,10 +228,7 @@ if (!doNotTrack) {
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   December 27, 2017
@@ -246,7 +242,7 @@ if (!doNotTrack) {
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -255,7 +251,7 @@ if (!doNotTrack) {
               </p>
               <div class="post-entry">
                 
-                  Bootstrap is an amazing library and works wonders with ReactJS. Unfortunately, you can&#8217;t (or really shouldn&#8217;t) use Bootstrap.js with React because bootstrap directly manipulates the DOM; which could break React&#8217;s nice rendering flow. This becomes a big problem if you wanted to implement a Navbar using plain bootstrap. Take the following for example from Bootstrap&#8217;s documentation:
+                Bootstrap is an amazing library and works wonders with ReactJS. Unfortunately, you can&#8217;t (or really shouldn&#8217;t) use Bootstrap.js with React because bootstrap directly manipulates the DOM; which could break React&#8217;s nice rendering flow. This becomes a big problem if you wanted to implement a Navbar using plain bootstrap. Take the following for example from Bootstrap&#8217;s documentation:
 &nbsp;
 You could directly take this code and put it in ReactJS (but change class _to _className) and you will have a working Navbar.
                   
@@ -286,10 +282,7 @@ You could directly take this code and put it in ReactJS (but change class _to�
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   November 23, 2017
@@ -303,7 +296,7 @@ You could directly take this code and put it in ReactJS (but change class _to�
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -312,7 +305,7 @@ You could directly take this code and put it in ReactJS (but change class _to�
               </p>
               <div class="post-entry">
                 
-                  If you are building a large single page application, there might come a time when you will need to add routes to different pages. Unlike traditional routes, adding routes in ReactJS does not trigger a page reload. This makes your SPA extremely fast and feels more like an actual application rather than a simple website. To navigate in ReactJS we will be using the React v4 router.
+                If you are building a large single page application, there might come a time when you will need to add routes to different pages. Unlike traditional routes, adding routes in ReactJS does not trigger a page reload. This makes your SPA extremely fast and feels more like an actual application rather than a simple website. To navigate in ReactJS we will be using the React v4 router.
 Setting Up React V4 Router Begin by installing the React V4 Router from npm:
                   
                 

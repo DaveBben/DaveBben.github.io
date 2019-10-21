@@ -58,7 +58,6 @@
 
   <meta name="generator" content="Hugo 0.54.0" />
   <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
   <link rel="stylesheet" rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
 
@@ -102,7 +101,7 @@ if (!doNotTrack) {
 
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom navbar-inverse">
+    <nav class="navbar navbar-default navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -229,10 +228,7 @@ if (!doNotTrack) {
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   March 25, 2019
@@ -244,7 +240,7 @@ if (!doNotTrack) {
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -253,9 +249,7 @@ if (!doNotTrack) {
               </p>
               <div class="post-entry">
                 
-                  For my side project, I needed to scrape Google search using a headless browser. I ended up using the Nodejs library called puppeteer. It&rsquo;s a headless browser that uses chromium.
-Install puppeteer npm install puppeteer Scrape Google Search using Puppeteer First, let&rsquo;s go to the google homepage, type something in, and click the search button.
-try { (async () =&gt; { const browser = await puppeteer.launch(); const page = await browser.
+                I needed to scrape Google search using Puppeteer for my sideproject. I navigated to google search results and clicked on a link.
                   
                 
               </div>

@@ -58,7 +58,6 @@
 
   <meta name="generator" content="Hugo 0.54.0" />
   <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
   <link rel="stylesheet" rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
 
@@ -102,7 +101,7 @@ if (!doNotTrack) {
 
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom navbar-inverse">
+    <nav class="navbar navbar-default navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -229,10 +228,7 @@ if (!doNotTrack) {
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   April 17, 2019
@@ -244,7 +240,7 @@ if (!doNotTrack) {
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -253,8 +249,7 @@ if (!doNotTrack) {
               </p>
               <div class="post-entry">
                 
-                  Let&rsquo;s take a look at a Kafka Nodejs example with Producers and Consumers. We will be creating a kafka producer and consumer in Nodejs. If you haven&rsquo;t already, check out my previous tutorial on how to setup Kafka in docker. I already created a topic called cat that I will be using.
-Kafka Producer We are going to use the npm module called kafka-node to interface with our kafka and zookeeper.
+                Let&#39;s take a look at a Kafka Nodejs example with Producers and Consumers. Using the library kafka-node, it is very easy write a kafka application in javascript.
                   
                 
               </div>
@@ -283,10 +278,7 @@ if (!doNotTrack) {
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   April 15, 2019
@@ -298,7 +290,7 @@ if (!doNotTrack) {
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -307,8 +299,7 @@ if (!doNotTrack) {
               </p>
               <div class="post-entry">
                 
-                  Flying a drone with javascript probably sounds crazy and hard. Do I use a framework? Will the 10 GB of node_modules weigh it down? NOPE! It&rsquo;s all pretty simple to do.
-The other day I came across a neat drone called the DJI Tello. It is a relatively inexpensive quadcopter that offers a simple SDK which can be accessed over WiFI. Using the NodeJS dgram library, I can send commands via UDP to the drone to perform actions such as takeoff, left 20, and land.
+                Here is how I spend my weekends, flying a drone with javascript and NodeJS. Using the DJI Tello, it&#39;s very easy to do.
                   
                 
               </div>
@@ -337,10 +328,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   March 25, 2019
@@ -352,7 +340,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -361,9 +349,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
               </p>
               <div class="post-entry">
                 
-                  For my side project, I needed to scrape Google search using a headless browser. I ended up using the Nodejs library called puppeteer. It&rsquo;s a headless browser that uses chromium.
-Install puppeteer npm install puppeteer Scrape Google Search using Puppeteer First, let&rsquo;s go to the google homepage, type something in, and click the search button.
-try { (async () =&gt; { const browser = await puppeteer.launch(); const page = await browser.
+                I needed to scrape Google search using Puppeteer for my sideproject. I navigated to google search results and clicked on a link.
                   
                 
               </div>
@@ -392,10 +378,7 @@ try { (async () =&gt; { const browser = await puppeteer.launch(); const page = a
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   March 5, 2019
@@ -407,7 +390,7 @@ try { (async () =&gt; { const browser = await puppeteer.launch(); const page = a
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -416,8 +399,7 @@ try { (async () =&gt; { const browser = await puppeteer.launch(); const page = a
               </p>
               <div class="post-entry">
                 
-                  A few weeks back I was working on a project where I needed to read system environment in Angular 7 from a Docker container before it builds. After days of searching, I came across a solution from multiple sources on the internet.
-Keep one thing in mind, you will only be able to inject environment variables before your Angular app builds. Unlike Nodejs, you will not get real time access because you are running in an browser environment.
+                How to read system environment variables in Angular 7
                   
                 
               </div>
@@ -444,10 +426,7 @@ Keep one thing in mind, you will only be able to inject environment variables be
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   April 22, 2018
@@ -461,7 +440,7 @@ Keep one thing in mind, you will only be able to inject environment variables be
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -470,7 +449,7 @@ Keep one thing in mind, you will only be able to inject environment variables be
               </p>
               <div class="post-entry">
                 
-                  The JSON Web Token (JWT) is the easiest standard for protecting APIs and passing in claims data. A JSON Web token allows the server to verify the authenticity of the user and provide them access to protected API routes and data.&nbsp; A simple JWT flow goes as follows:
+                The JSON Web Token (JWT) is the easiest standard for protecting APIs and passing in claims data. A JSON Web token allows the server to verify the authenticity of the user and provide them access to protected API routes and data.&nbsp; A simple JWT flow goes as follows:
  The user sends login credentials to the server The server verifies user against&nbsp;the database then returns a JWT token if valid The user sends that token in the header with every request to API.
                   
                 
@@ -502,10 +481,7 @@ Keep one thing in mind, you will only be able to inject environment variables be
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   December 10, 2017
@@ -519,7 +495,7 @@ Keep one thing in mind, you will only be able to inject environment variables be
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -528,7 +504,7 @@ Keep one thing in mind, you will only be able to inject environment variables be
               </p>
               <div class="post-entry">
                 
-                  In this tutorial, we will take a look at how to build a multiplayer game using Javascript and NodeJS. My goal is to take you through the basic setup so that you can begin focusing on the actual gameplay. When building a full-scale MMO, there are a lot of things to consider like load balancing, network contingencies, etc. For now, we are going to focus on the bare minimum just to help you get an understanding of how you can creatively and effectively use the available tools of NodeJS to get started.
+                In this tutorial, we will take a look at how to build a multiplayer game using Javascript and NodeJS. My goal is to take you through the basic setup so that you can begin focusing on the actual gameplay. When building a full-scale MMO, there are a lot of things to consider like load balancing, network contingencies, etc. For now, we are going to focus on the bare minimum just to help you get an understanding of how you can creatively and effectively use the available tools of NodeJS to get started.
                   
                 
               </div>

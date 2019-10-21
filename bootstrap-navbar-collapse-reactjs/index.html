@@ -118,7 +118,6 @@ You could directly take this code and put it in ReactJS (but change class _to�
 
   <meta name="generator" content="Hugo 0.54.0" />
   <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
   <link rel="stylesheet" rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
 
@@ -160,7 +159,7 @@ if (!doNotTrack) {
 
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom navbar-inverse">
+    <nav class="navbar navbar-default navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -262,29 +261,7 @@ if (!doNotTrack) {
               
               
               
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
-    
-    
-  December 27, 2017
-    
-	• &nbsp;Modified February 25, 2019
-    
-    
-	• &nbsp;3&nbsp;min read
-    
-    
-
-    
-    
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
-    
-    
-  </span>
-  
-  
+                
               
             </div>
           </div>
@@ -298,20 +275,17 @@ if (!doNotTrack) {
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			<main role="main">
-      <article  class="blog-post">
-            
-            <img src="/wp-content/uploads/2017/12/bootstrap-navbar-collapse-reactjs.jpg" class="thumbnail img-responsive">
-            <hr>
-            
-                <ins class="adsbygoogle"
-                style="display:block"
-                data-ad-client="ca-pub-6594501022141871"
-                data-ad-slot="6223025728"
-                data-ad-format="link"></ins>
-            <hr>
-            
-        
+      <main role="main">
+        <article class="blog-post">
+          
+          <img src="/wp-content/uploads/2017/12/bootstrap-navbar-collapse-reactjs.jpg" class="thumbnail img-responsive">
+          <hr>
+          
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6594501022141871"
+            data-ad-slot="6223025728" data-ad-format="link"></ins>
+          <hr>
+          
+          
 
 <p>Bootstrap is an amazing library and works wonders with ReactJS. Unfortunately, you can&#8217;t (or really shouldn&#8217;t) use Bootstrap.js with React because bootstrap directly manipulates the DOM; which could break React&#8217;s nice rendering flow. This becomes a big problem if you wanted to implement a Navbar using plain bootstrap. Take the following for example from <a href="https://getbootstrap.com/docs/4.0/components/navbar/#nav" target="_blank" rel="noopener">Bootstrap&#8217;s documentatio</a>n:</p>
 
@@ -423,25 +397,48 @@ collapsed: !this.state.collapsed,
 <p>&nbsp;</p>
 
 
-        
+          
           <div class="blog-tags">
             
-              <a href="https://www.bennettnotes.com/tags/bootstrap/">bootstrap</a>&nbsp;
+            <a href="https://www.bennettnotes.com/tags/bootstrap/">bootstrap</a>&nbsp;
             
-              <a href="https://www.bennettnotes.com/tags/collapse/">collapse</a>&nbsp;
+            <a href="https://www.bennettnotes.com/tags/collapse/">collapse</a>&nbsp;
             
-              <a href="https://www.bennettnotes.com/tags/navbar/">navbar</a>&nbsp;
+            <a href="https://www.bennettnotes.com/tags/navbar/">navbar</a>&nbsp;
             
-              <a href="https://www.bennettnotes.com/tags/reactjs/">reactjs</a>&nbsp;
+            <a href="https://www.bennettnotes.com/tags/reactjs/">reactjs</a>&nbsp;
             
           </div>
-        
+          
 
-        
-            <hr/>
-            <section id="social-share">
-              <div class="list-inline footer-links">
-                
+          
+          <span class="post-meta">
+    
+    
+  December 27, 2017
+    
+	• &nbsp;Modified February 25, 2019
+    
+    
+	• &nbsp;3&nbsp;min read
+    
+    
+
+    
+    
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
+    
+    
+  </span>
+  
+  
+          
+
+          
+          <hr />
+          <section id="social-share">
+            <div class="list-inline footer-links">
+              
 
 <div class="share-box" aria-hidden="true">
     <ul class="share">
@@ -497,59 +494,64 @@ collapsed: !this.state.collapsed,
   </div>
   
 
-              </div>
-            </section>
-        
+            </div>
+          </section>
+          
 
-        
+          
           
           
           <h4 class="see-also">See also</h4>
           <ul>
-          
+            
             <li><a href="/navigate-in-reactjs-using-react-v4-router/">Navigate in ReactJS using React V4 Router</a></li>
-          
+            
             <li><a href="/change-navbar-color-android/">Change NavBar Color Android</a></li>
-          
+            
           </ul>
           
-        
-	  </article>
-	  </main>
+          
+        </article>
+      </main>
+   
 
       
-        <ul class="pager blog-pager">
-          
-            <li class="previous">
-              <a href="https://www.bennettnotes.com/php-query-sql-database-return-json/" data-toggle="tooltip" data-placement="top" title="PHP Query SQL Database return JSON">&larr; Previous Post</a>
-            </li>
-          
-          
-            <li class="next">
-              <a href="https://www.bennettnotes.com/best-chrome-extensions-for-web-development/" data-toggle="tooltip" data-placement="top" title="Best Chrome Extensions for Web Development">Next Post &rarr;</a>
-            </li>
-          
-        </ul>
+      <ul class="pager blog-pager">
+        
+        <li class="previous">
+          <a href="https://www.bennettnotes.com/php-query-sql-database-return-json/" data-toggle="tooltip" data-placement="top"
+            title="PHP Query SQL Database return JSON">&larr; Previous Post</a>
+        </li>
+        
+        
+        <li class="next">
+          <a href="https://www.bennettnotes.com/best-chrome-extensions-for-web-development/" data-toggle="tooltip" data-placement="top"
+            title="Best Chrome Extensions for Web Development">Next Post &rarr;</a>
+        </li>
+        
+      </ul>
       
 
 
       
-        
-          
-          <div class="disqus-comments">                  
-            <button id="show-comments" class="btn btn-default" type="button">Show <span class="disqus-comment-count" data-disqus-url="https://www.bennettnotes.com/bootstrap-navbar-collapse-reactjs">comments</span></button>
-            <div id="disqus_thread"></div>
+      
+      
+      <div class="disqus-comments">
+        <button id="show-comments" class="btn btn-default" type="button">Show <span
+            class="disqus-comment-count"
+            data-disqus-url="https://www.bennettnotes.com/bootstrap-navbar-collapse-reactjs">comments</span></button>
+        <div id="disqus_thread"></div>
 
-            <script type="text/javascript">
-              var disqus_config = function () {
-              this.page.url = 'https:\/\/www.bennettnotes.com\/bootstrap-navbar-collapse-reactjs';
-            };
+        <script type="text/javascript">
+          var disqus_config = function () {
+            this.page.url = 'https:\/\/www.bennettnotes.com\/bootstrap-navbar-collapse-reactjs';
+          };
 
-          </script>
-          </div>
-          
-        
-        
+        </script>
+      </div>
+      
+      
+      
       
 
     </div>

@@ -58,7 +58,6 @@
 
   <meta name="generator" content="Hugo 0.54.0" />
   <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
   <link rel="stylesheet" rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
 
@@ -100,7 +99,7 @@ if (!doNotTrack) {
 
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom navbar-inverse">
+    <nav class="navbar navbar-default navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -202,24 +201,7 @@ if (!doNotTrack) {
               
               
               
-                <p class="post-author">    
-Dave Bennett
-  </p>
-<span class="post-meta">
-    
-    
-  April 17, 2019
-    
-    
-	• &nbsp;0&nbsp;min read
-    
-    
-
-    
-    
-  </span>
-  
-  
+                
               
             </div>
           </div>
@@ -244,10 +226,7 @@ Dave Bennett
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   April 17, 2019
@@ -259,7 +238,7 @@ Dave Bennett
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -268,8 +247,7 @@ Dave Bennett
               </p>
               <div class="post-entry">
                 
-                  Let&rsquo;s take a look at a Kafka Nodejs example with Producers and Consumers. We will be creating a kafka producer and consumer in Nodejs. If you haven&rsquo;t already, check out my previous tutorial on how to setup Kafka in docker. I already created a topic called cat that I will be using.
-Kafka Producer We are going to use the npm module called kafka-node to interface with our kafka and zookeeper.
+                Let&#39;s take a look at a Kafka Nodejs example with Producers and Consumers. Using the library kafka-node, it is very easy write a kafka application in javascript.
                   
                 
               </div>
@@ -298,10 +276,7 @@ Dave Bennett
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   April 17, 2019
@@ -313,7 +288,7 @@ Dave Bennett
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -322,10 +297,7 @@ Dave Bennett
               </p>
               <div class="post-entry">
                 
-                  Setting up Apache Kafka and Zookeeper in docker is easy thanks to popular DockerFiles like wurstmeister/kafka-docker. Let&rsquo;s go through a quick setup of Kafka and Zookeeper in docker on a single node system.
-Prerequisites  Linux System Git Docker Docker-compose  Kafka and Zookeeper Start by cloning the repo:
-git clone https://github.com/wurstmeister/kafka-docker Then change to the kafka-docker directory:
-cd kafka-docker Now let&rsquo;s edit the docker-compose.yml file. Change the Kafka Advertised Hostname to localhost:
+                Here&#39;s a quick tutorial on how to setup Apache Kafka and Zookeeper in docker.
                   
                 
               </div>
@@ -354,10 +326,7 @@ cd kafka-docker Now let&rsquo;s edit the docker-compose.yml file. Change the Kaf
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   April 15, 2019
@@ -369,7 +338,7 @@ cd kafka-docker Now let&rsquo;s edit the docker-compose.yml file. Change the Kaf
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -378,8 +347,7 @@ cd kafka-docker Now let&rsquo;s edit the docker-compose.yml file. Change the Kaf
               </p>
               <div class="post-entry">
                 
-                  Flying a drone with javascript probably sounds crazy and hard. Do I use a framework? Will the 10 GB of node_modules weigh it down? NOPE! It&rsquo;s all pretty simple to do.
-The other day I came across a neat drone called the DJI Tello. It is a relatively inexpensive quadcopter that offers a simple SDK which can be accessed over WiFI. Using the NodeJS dgram library, I can send commands via UDP to the drone to perform actions such as takeoff, left 20, and land.
+                Here is how I spend my weekends, flying a drone with javascript and NodeJS. Using the DJI Tello, it&#39;s very easy to do.
                   
                 
               </div>
@@ -408,10 +376,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   April 11, 2019
@@ -423,7 +388,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/life/">Life</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/life/">Life</a></span>
     
     
   </span>
@@ -432,7 +397,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
               </p>
               <div class="post-entry">
                 
-                  I had just finished a YouTube that I spent a week working on; a couple of days working on the graphics, a day of voice recording, and a few more hours coming up with a nice thumbnail. I uploaded it, and eagerly awaited the YouTube algorithm to award my quality work with a burst of views and watch time. I sat and waited in anticipation. Hour one went by, nothing. Okay, maybe it&rsquo;s just a little slow today.
+                I often find that my most successful projects come from things that I don&#39;t really care about.
                   
                 
               </div>
@@ -461,10 +426,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   April 10, 2019
@@ -476,7 +438,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/seo/">SEO</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/seo/">SEO</a></span>
     
     
   </span>
@@ -485,7 +447,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
               </p>
               <div class="post-entry">
                 
-                  I spent the last month focusing a lot on seo (Search Engine optimization). One of the biggest mistakes that I made was using Google&rsquo;s monthly keyword search volume as an indicator on whether a particular keyword has sufficient search volume to pursue. Google&rsquo;s monthly keyword search volume is completely wrong. I found large discrepancies when comparing my actual data from Google analytics to what Google says the traffic should be.
+                Do not focus too much on monthly keyword search volume. Most of it is wrong and targeted towards ads and not queries.
                   
                 
               </div>
@@ -510,10 +472,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   April 3, 2019
@@ -527,7 +486,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/life/">Life</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/life/">Life</a></span>
     
     
   </span>
@@ -536,7 +495,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
               </p>
               <div class="post-entry">
                 
-                  I&rsquo;m a mental hoarder. If you were to look inside my head, you would find all types of mental clutter. Boxes labeled &ldquo;random shower thoughts&rdquo;, trashcans full of personal bullshit, and a closet overflowing with reminders, ideas and useless information. This creates a negative impact on my ability to recall and recollect. I often find myself in this awkward situation where this was something I know I took a mental note of, but I just can&rsquo;t remember what it was.
+                I&#39;m a mental hoarder. My head is like an undiscovered planet with space junk floating all around it. Learning to declutter and clear my mind was essential to alleviating some stress in my life.
                   
                 
               </div>
@@ -565,10 +524,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   April 2, 2019
@@ -582,7 +538,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/life/">Life</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/life/">Life</a></span>
     
     
   </span>
@@ -591,7 +547,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
               </p>
               <div class="post-entry">
                 
-                  One of the most challenging areas of self discipline in life is time management. I often find myself in situations where I do not have enough time to complete all the things that I want to do. And it&rsquo;s not because I am procrastinating; the second I get home from work I jump right into some new side project or video. The problem is that there are simply too many things that I want to do right now, and learning the personal discipline to say no to myself is challenging.
+                One of the most challenging areas of self discipline in life is time management. So often I want to do everything but end up doing nothing because of the perceived lack of time.
                   
                 
               </div>
@@ -618,10 +574,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   March 25, 2019
@@ -633,7 +586,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -642,9 +595,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
               </p>
               <div class="post-entry">
                 
-                  For my side project, I needed to scrape Google search using a headless browser. I ended up using the Nodejs library called puppeteer. It&rsquo;s a headless browser that uses chromium.
-Install puppeteer npm install puppeteer Scrape Google Search using Puppeteer First, let&rsquo;s go to the google homepage, type something in, and click the search button.
-try { (async () =&gt; { const browser = await puppeteer.launch(); const page = await browser.
+                I needed to scrape Google search using Puppeteer for my sideproject. I navigated to google search results and clicked on a link.
                   
                 
               </div>
@@ -673,10 +624,7 @@ try { (async () =&gt; { const browser = await puppeteer.launch(); const page = a
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   March 21, 2019
@@ -690,7 +638,7 @@ try { (async () =&gt; { const browser = await puppeteer.launch(); const page = a
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/life/">Life</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/life/">Life</a></span>
     
     
   </span>
@@ -699,7 +647,7 @@ try { (async () =&gt; { const browser = await puppeteer.launch(); const page = a
               </p>
               <div class="post-entry">
                 
-                  Up until graduation day, everything made sense. I&rsquo;ll go to class, get good grades, then land a decent paying job so that I can move out of my parents and &ldquo;start my life&rdquo;. Amazingly, all of that happened fresh out of college at 22 years old. Back then, a couple of my peers have told me, &ldquo;Damn dude, you&rsquo;re living the dream.&rdquo; In reality, I felt like I was far from it.
+                Complacency after college was extremely hard to deal with. In college, things were always changing. New classes every semester, group projects, parties on the weekends and tons of socializing. After college, you sit at a desk for 8 hours staring at a computer screen. So what&#39;s the solution?
                   
                 
               </div>
@@ -730,10 +678,7 @@ try { (async () =&gt; { const browser = await puppeteer.launch(); const page = a
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   March 20, 2019
@@ -747,7 +692,7 @@ try { (async () =&gt; { const browser = await puppeteer.launch(); const page = a
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -756,8 +701,7 @@ try { (async () =&gt; { const browser = await puppeteer.launch(); const page = a
               </p>
               <div class="post-entry">
                 
-                  I recently had the &ldquo;amazing 🙄&rdquo; opportunity to spend two weeks figuring out how to install hyperledger fabric on Kubernetes. There aren&rsquo;t many guides on the internet besides this one. Unfortunately, I found it to be very vague and missing some keys steps.
-For this tutorial, let&rsquo;s go step-by-step on how to install hyperledger on kubernetes. We are going to use some information from the guide linked above, along with some stuff my team and I were able to figure out along the way.
+                A step-by-step tutorial on how to install hyperledger fabric on Kubernetes. This setup uses a two node cluster but can be done on a single VM.
                   
                 
               </div>

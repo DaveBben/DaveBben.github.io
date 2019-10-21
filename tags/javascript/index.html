@@ -58,7 +58,6 @@
 
   <meta name="generator" content="Hugo 0.54.0" />
   <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
   <link rel="stylesheet" rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
 
@@ -102,7 +101,7 @@ if (!doNotTrack) {
 
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom navbar-inverse">
+    <nav class="navbar navbar-default navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -229,10 +228,7 @@ if (!doNotTrack) {
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   May 8, 2019
@@ -246,7 +242,7 @@ if (!doNotTrack) {
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -255,7 +251,7 @@ if (!doNotTrack) {
               </p>
               <div class="post-entry">
                 
-                  If you are developing a Chrome extension with message passing, then you might have received the following error: Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.. There was some type of behavior change that happened post Chrome 72 that affected the way channels are opened. Essentially, if you try to call runetime.connect() before you have a a channel open, then you will get this error (Stackoverflow).
+                If you are developing a Chrome extension with message passing, then you might have received the following error: Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.
                   
                 
               </div>
@@ -284,10 +280,7 @@ if (!doNotTrack) {
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   April 17, 2019
@@ -299,7 +292,7 @@ if (!doNotTrack) {
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -308,8 +301,7 @@ if (!doNotTrack) {
               </p>
               <div class="post-entry">
                 
-                  Let&rsquo;s take a look at a Kafka Nodejs example with Producers and Consumers. We will be creating a kafka producer and consumer in Nodejs. If you haven&rsquo;t already, check out my previous tutorial on how to setup Kafka in docker. I already created a topic called cat that I will be using.
-Kafka Producer We are going to use the npm module called kafka-node to interface with our kafka and zookeeper.
+                Let&#39;s take a look at a Kafka Nodejs example with Producers and Consumers. Using the library kafka-node, it is very easy write a kafka application in javascript.
                   
                 
               </div>
@@ -338,10 +330,7 @@ if (!doNotTrack) {
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   April 15, 2019
@@ -353,7 +342,7 @@ if (!doNotTrack) {
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -362,8 +351,7 @@ if (!doNotTrack) {
               </p>
               <div class="post-entry">
                 
-                  Flying a drone with javascript probably sounds crazy and hard. Do I use a framework? Will the 10 GB of node_modules weigh it down? NOPE! It&rsquo;s all pretty simple to do.
-The other day I came across a neat drone called the DJI Tello. It is a relatively inexpensive quadcopter that offers a simple SDK which can be accessed over WiFI. Using the NodeJS dgram library, I can send commands via UDP to the drone to perform actions such as takeoff, left 20, and land.
+                Here is how I spend my weekends, flying a drone with javascript and NodeJS. Using the DJI Tello, it&#39;s very easy to do.
                   
                 
               </div>
@@ -392,10 +380,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   March 25, 2019
@@ -407,7 +392,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -416,9 +401,7 @@ The other day I came across a neat drone called the DJI Tello. It is a relativel
               </p>
               <div class="post-entry">
                 
-                  For my side project, I needed to scrape Google search using a headless browser. I ended up using the Nodejs library called puppeteer. It&rsquo;s a headless browser that uses chromium.
-Install puppeteer npm install puppeteer Scrape Google Search using Puppeteer First, let&rsquo;s go to the google homepage, type something in, and click the search button.
-try { (async () =&gt; { const browser = await puppeteer.launch(); const page = await browser.
+                I needed to scrape Google search using Puppeteer for my sideproject. I navigated to google search results and clicked on a link.
                   
                 
               </div>
@@ -447,10 +430,7 @@ try { (async () =&gt; { const browser = await puppeteer.launch(); const page = a
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   April 22, 2018
@@ -464,7 +444,7 @@ try { (async () =&gt; { const browser = await puppeteer.launch(); const page = a
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -473,7 +453,7 @@ try { (async () =&gt; { const browser = await puppeteer.launch(); const page = a
               </p>
               <div class="post-entry">
                 
-                  The JSON Web Token (JWT) is the easiest standard for protecting APIs and passing in claims data. A JSON Web token allows the server to verify the authenticity of the user and provide them access to protected API routes and data.&nbsp; A simple JWT flow goes as follows:
+                The JSON Web Token (JWT) is the easiest standard for protecting APIs and passing in claims data. A JSON Web token allows the server to verify the authenticity of the user and provide them access to protected API routes and data.&nbsp; A simple JWT flow goes as follows:
  The user sends login credentials to the server The server verifies user against&nbsp;the database then returns a JWT token if valid The user sends that token in the header with every request to API.
                   
                 
@@ -505,10 +485,7 @@ try { (async () =&gt; { const browser = await puppeteer.launch(); const page = a
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   March 28, 2018
@@ -522,7 +499,7 @@ try { (async () =&gt; { const browser = await puppeteer.launch(); const page = a
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -531,7 +508,7 @@ try { (async () =&gt; { const browser = await puppeteer.launch(); const page = a
               </p>
               <div class="post-entry">
                 
-                  Chrome extensions are really cool. They allow the user to extend the capabilities of their browser and can incorporate really well into existing apps. So let&#8217;s take a look at how to build a Chrome Extension in less than 10 minutes. Chrome Extensions are written in Javascript, so I recommend that you have a basic understanding of Javascript before proceeding with this tutorial.
+                Chrome extensions are really cool. They allow the user to extend the capabilities of their browser and can incorporate really well into existing apps. So let&#8217;s take a look at how to build a Chrome Extension in less than 10 minutes. Chrome Extensions are written in Javascript, so I recommend that you have a basic understanding of Javascript before proceeding with this tutorial.
 What we&#8217;re building We are going to build a simple chrome extension that will allow you to search google for any text that you highlight on a page.
                   
                 
@@ -559,10 +536,7 @@ What we&#8217;re building We are going to build a simple chrome extension that w
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   March 26, 2018
@@ -576,7 +550,7 @@ What we&#8217;re building We are going to build a simple chrome extension that w
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -585,7 +559,7 @@ What we&#8217;re building We are going to build a simple chrome extension that w
               </p>
               <div class="post-entry">
                 
-                  Google has been working on an interesting project called Poly. With Poly, you have access to hundreds of 3D objects that can be used to build VR games or with AR content. The interesting about Poly is that all of the graphics are available on demand. Think of it like Google Fonts just for 3D objects. So let&#8217;s take a look at how you can get started with Google Poly API Javascript and NodeJS bundle.
+                Google has been working on an interesting project called Poly. With Poly, you have access to hundreds of 3D objects that can be used to build VR games or with AR content. The interesting about Poly is that all of the graphics are available on demand. Think of it like Google Fonts just for 3D objects. So let&#8217;s take a look at how you can get started with Google Poly API Javascript and NodeJS bundle.
                   
                 
               </div>
@@ -612,10 +586,7 @@ What we&#8217;re building We are going to build a simple chrome extension that w
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   January 5, 2018
@@ -629,7 +600,7 @@ What we&#8217;re building We are going to build a simple chrome extension that w
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -638,7 +609,7 @@ What we&#8217;re building We are going to build a simple chrome extension that w
               </p>
               <div class="post-entry">
                 
-                  This has been a very interesting New Year. So far, 2018 has brought us two of the biggest bugs to hit CPUs in the past 12 years: Meltdown and Spectre. Intel is struggling to get their Meltdown bug under control while Amazon and Microsoft brutally await its impact on their cloud services. Both Meltdown and Spectre are serious issues, but Meltdown is easier to exploit and gives attackers more valuable information.
+                This has been a very interesting New Year. So far, 2018 has brought us two of the biggest bugs to hit CPUs in the past 12 years: Meltdown and Spectre. Intel is struggling to get their Meltdown bug under control while Amazon and Microsoft brutally await its impact on their cloud services. Both Meltdown and Spectre are serious issues, but Meltdown is easier to exploit and gives attackers more valuable information.
                   
                 
               </div>
@@ -665,10 +636,7 @@ What we&#8217;re building We are going to build a simple chrome extension that w
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   December 26, 2017
@@ -682,7 +650,7 @@ What we&#8217;re building We are going to build a simple chrome extension that w
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -691,7 +659,7 @@ What we&#8217;re building We are going to build a simple chrome extension that w
               </p>
               <div class="post-entry">
                 
-                  You probably don&#8217;t think about Javascript when you hear the words GPU programming. However, it should come as no surprise that there is a library to do anything and that includes GPU Programming in Javascript. Let&#8217;s get one thing clear though, you should probably not do this if you are looking to do serious GPU programming. For serious GPU programming, I recommended that you work with Nvidia&#8217;s CUDA in C and C++.
+                You probably don&#8217;t think about Javascript when you hear the words GPU programming. However, it should come as no surprise that there is a library to do anything and that includes GPU Programming in Javascript. Let&#8217;s get one thing clear though, you should probably not do this if you are looking to do serious GPU programming. For serious GPU programming, I recommended that you work with Nvidia&#8217;s CUDA in C and C++.
                   
                 
               </div>
@@ -718,10 +686,7 @@ What we&#8217;re building We are going to build a simple chrome extension that w
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   December 22, 2017
@@ -735,7 +700,7 @@ What we&#8217;re building We are going to build a simple chrome extension that w
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -744,7 +709,7 @@ What we&#8217;re building We are going to build a simple chrome extension that w
               </p>
               <div class="post-entry">
                 
-                  If you are new to Javascript (or even a seasoned js developer), you will probably get confused when trying to understand the different types of for loops. So let&#8217;s go through the javascript for of vs for in vs for each loop.
+                If you are new to Javascript (or even a seasoned js developer), you will probably get confused when trying to understand the different types of for loops. So let&#8217;s go through the javascript for of vs for in vs for each loop.
 Standard for loop Suppose we have an array called myArray. Here&#8217;s how you would iterate through it using the standard for loop:
 var myArray = ['Cat','Dog','Horse']; for(let i =0; i&lt; myArray.
                   

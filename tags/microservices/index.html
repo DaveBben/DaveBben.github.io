@@ -58,7 +58,6 @@
 
   <meta name="generator" content="Hugo 0.54.0" />
   <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
   <link rel="stylesheet" rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
 
@@ -102,7 +101,7 @@ if (!doNotTrack) {
 
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom navbar-inverse">
+    <nav class="navbar navbar-default navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -229,10 +228,7 @@ if (!doNotTrack) {
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   September 18, 2019
@@ -244,7 +240,7 @@ if (!doNotTrack) {
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -253,8 +249,7 @@ if (!doNotTrack) {
               </p>
               <div class="post-entry">
                 
-                  The team and I were searching for solutions that enabled us to secure the communication between the microservices that we have running in our Rancher cluster. Our first application consisted of a set of services that essentially performed CRUD operations using the typical RESTful architecture (GET, POST, PUT, etc).
-We decided to use Istio because it offered a compelling solution that incorporated the use of mTLS (mutual TLS authentication). For us, this meant that we didn&rsquo;t need to manage certificates ourselves our worry about the individual TLS implementation of each service in its respective language.
+                The team and I decided to use Istio to secure the communication of our microservices. However, we ran into many challenges using Istio in our environment.
                   
                 
               </div>
@@ -281,10 +276,7 @@ We decided to use Istio because it offered a compelling solution that incorporat
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   April 17, 2019
@@ -296,7 +288,7 @@ We decided to use Istio because it offered a compelling solution that incorporat
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -305,8 +297,7 @@ We decided to use Istio because it offered a compelling solution that incorporat
               </p>
               <div class="post-entry">
                 
-                  Let&rsquo;s take a look at a Kafka Nodejs example with Producers and Consumers. We will be creating a kafka producer and consumer in Nodejs. If you haven&rsquo;t already, check out my previous tutorial on how to setup Kafka in docker. I already created a topic called cat that I will be using.
-Kafka Producer We are going to use the npm module called kafka-node to interface with our kafka and zookeeper.
+                Let&#39;s take a look at a Kafka Nodejs example with Producers and Consumers. Using the library kafka-node, it is very easy write a kafka application in javascript.
                   
                 
               </div>
@@ -335,10 +326,7 @@ We decided to use Istio because it offered a compelling solution that incorporat
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   April 17, 2019
@@ -350,7 +338,7 @@ We decided to use Istio because it offered a compelling solution that incorporat
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -359,10 +347,7 @@ We decided to use Istio because it offered a compelling solution that incorporat
               </p>
               <div class="post-entry">
                 
-                  Setting up Apache Kafka and Zookeeper in docker is easy thanks to popular DockerFiles like wurstmeister/kafka-docker. Let&rsquo;s go through a quick setup of Kafka and Zookeeper in docker on a single node system.
-Prerequisites  Linux System Git Docker Docker-compose  Kafka and Zookeeper Start by cloning the repo:
-git clone https://github.com/wurstmeister/kafka-docker Then change to the kafka-docker directory:
-cd kafka-docker Now let&rsquo;s edit the docker-compose.yml file. Change the Kafka Advertised Hostname to localhost:
+                Here&#39;s a quick tutorial on how to setup Apache Kafka and Zookeeper in docker.
                   
                 
               </div>

@@ -58,7 +58,6 @@
 
   <meta name="generator" content="Hugo 0.54.0" />
   <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
   <link rel="stylesheet" rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
 
@@ -102,7 +101,7 @@ if (!doNotTrack) {
 
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom navbar-inverse">
+    <nav class="navbar navbar-default navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -229,10 +228,7 @@ if (!doNotTrack) {
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   November 23, 2017
@@ -246,7 +242,7 @@ if (!doNotTrack) {
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -255,7 +251,7 @@ if (!doNotTrack) {
               </p>
               <div class="post-entry">
                 
-                  If you are building a large single page application, there might come a time when you will need to add routes to different pages. Unlike traditional routes, adding routes in ReactJS does not trigger a page reload. This makes your SPA extremely fast and feels more like an actual application rather than a simple website. To navigate in ReactJS we will be using the React v4 router.
+                If you are building a large single page application, there might come a time when you will need to add routes to different pages. Unlike traditional routes, adding routes in ReactJS does not trigger a page reload. This makes your SPA extremely fast and feels more like an actual application rather than a simple website. To navigate in ReactJS we will be using the React v4 router.
 Setting Up React V4 Router Begin by installing the React V4 Router from npm:
                   
                 
@@ -285,10 +281,7 @@ Setting Up React V4 Router Begin by installing the React V4 Router from npm:
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   November 23, 2017
@@ -302,7 +295,7 @@ Setting Up React V4 Router Begin by installing the React V4 Router from npm:
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -311,7 +304,7 @@ Setting Up React V4 Router Begin by installing the React V4 Router from npm:
               </p>
               <div class="post-entry">
                 
-                  There&#8217;s a good chance that you have probably come across the Javascript spread operator. If you are unsure, here&#8217;s what it looks like:
+                There&#8217;s a good chance that you have probably come across the Javascript spread operator. If you are unsure, here&#8217;s what it looks like:
 {...} Good luck trying to google search that as you will probably get an empty results page. The Javascript spread operator is a new syntax found in ES6 (ECMAScript2015). The purpose of the spread operator is to allow an iterable like an array or string to be expanded (or spread) across another object or array.
                   
                 
@@ -329,10 +322,7 @@ Setting Up React V4 Router Begin by installing the React V4 Router from npm:
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   November 23, 2017
@@ -346,7 +336,7 @@ Setting Up React V4 Router Begin by installing the React V4 Router from npm:
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -355,7 +345,7 @@ Setting Up React V4 Router Begin by installing the React V4 Router from npm:
               </p>
               <div class="post-entry">
                 
-                  There&#8217;s a good chance that you have probably come across the Javascript spread operator. If you are unsure, here&#8217;s what it looks like:
+                There&#8217;s a good chance that you have probably come across the Javascript spread operator. If you are unsure, here&#8217;s what it looks like:
 {...} Good luck trying to google search that as you will probably get an empty results page. The Javascript spread operator is a new syntax found in ES6 (ECMAScript2015). The purpose of the spread operator is to allow an iterable like an array or string to be expanded (or spread) across another object or array.
                   
                 
@@ -373,10 +363,7 @@ Setting Up React V4 Router Begin by installing the React V4 Router from npm:
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   October 22, 2017
@@ -390,7 +377,7 @@ Setting Up React V4 Router Begin by installing the React V4 Router from npm:
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -399,7 +386,7 @@ Setting Up React V4 Router Begin by installing the React V4 Router from npm:
               </p>
               <div class="post-entry">
                 
-                  For the longest time, Javascript has always been implemented using a single thread in your browser. For the most part, this wasn&#8217;t a problem. If you&#8217;re just using javascript for simple DOM manipulations or form submissions then a single thread is all you need. However, once developers started getting more advanced with their Javascript usage, this eventually led to an issue.
+                For the longest time, Javascript has always been implemented using a single thread in your browser. For the most part, this wasn&#8217;t a problem. If you&#8217;re just using javascript for simple DOM manipulations or form submissions then a single thread is all you need. However, once developers started getting more advanced with their Javascript usage, this eventually led to an issue.
 Let&#8217;s say I have the following single page application (SPA) that shows a list of prime numbers from 1 to 600,000:
                   
                 
@@ -429,10 +416,7 @@ Let&#8217;s say I have the following single page application (SPA) that shows a 
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   October 15, 2017
@@ -446,7 +430,7 @@ Let&#8217;s say I have the following single page application (SPA) that shows a 
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -455,7 +439,7 @@ Let&#8217;s say I have the following single page application (SPA) that shows a 
               </p>
               <div class="post-entry">
                 
-                  There&#8217;s a good chance that you don&#8217;t think of JavaScript when you think of artificial intelligence and machine learning. Instead, you might think of Python and popular libraries like Google&#8217;s Tensorflow. While TensorFlow is very powerful and complex, it does require a steep learning curve. Personally, I&#8217;m just looking to get my feet wet in some simple AI programming. However, I came across a javascript library called Brain.js. This library makes machine learning in javascript plausible and testable.
+                There&#8217;s a good chance that you don&#8217;t think of JavaScript when you think of artificial intelligence and machine learning. Instead, you might think of Python and popular libraries like Google&#8217;s Tensorflow. While TensorFlow is very powerful and complex, it does require a steep learning curve. Personally, I&#8217;m just looking to get my feet wet in some simple AI programming. However, I came across a javascript library called Brain.js. This library makes machine learning in javascript plausible and testable.
                   
                 
               </div>
@@ -480,10 +464,7 @@ Let&#8217;s say I have the following single page application (SPA) that shows a 
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   October 15, 2017
@@ -497,7 +478,7 @@ Let&#8217;s say I have the following single page application (SPA) that shows a 
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -506,7 +487,7 @@ Let&#8217;s say I have the following single page application (SPA) that shows a 
               </p>
               <div class="post-entry">
                 
-                  You can now officially use JavaScript to read USB devices that are connected to your computer. This is using the new WebUSB API that is still in early draft. As being so, the API could later change or be removed altogether until it receives the final verification.
+                You can now officially use JavaScript to read USB devices that are connected to your computer. This is using the new WebUSB API that is still in early draft. As being so, the API could later change or be removed altogether until it receives the final verification.
 In order to use WebUSB you need to be running the latest version of Google Chrome, with the experimental web platform features flag enabled.
                   
                 
@@ -534,10 +515,7 @@ In order to use WebUSB you need to be running the latest version of Google Chrom
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   October 15, 2017
@@ -551,7 +529,7 @@ In order to use WebUSB you need to be running the latest version of Google Chrom
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -560,7 +538,7 @@ In order to use WebUSB you need to be running the latest version of Google Chrom
               </p>
               <div class="post-entry">
                 
-                  Stories! Stories are everywhere these days. Snapchat, Instagram, Facebook, Facebook Messenger and Whatsapp all have stories. Hell, it&#8217;s only a matter of time before Microsoft Excel gets a stories update.
+                Stories! Stories are everywhere these days. Snapchat, Instagram, Facebook, Facebook Messenger and Whatsapp all have stories. Hell, it&#8217;s only a matter of time before Microsoft Excel gets a stories update.
 &nbsp;
 
 In any case, if you want to build an app like Snapchat or build an app like Instagram, there is an easy way to do so. The focus of this tutorial will be about building the story functionality of Snapchat and Instagram into an app.
@@ -590,10 +568,7 @@ In any case, if you want to build an app like Snapchat or build an app like Inst
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   October 15, 2017
@@ -607,7 +582,7 @@ In any case, if you want to build an app like Snapchat or build an app like Inst
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -616,7 +591,7 @@ In any case, if you want to build an app like Snapchat or build an app like Inst
               </p>
               <div class="post-entry">
                 
-                  Before you begin developing your Reddit application, you will need to make sure that your app is authorized to access the Reddit API. Authorization is done through OAuth tokens that you receive from the Reddit server. The flow is pretty straightforward:
+                Before you begin developing your Reddit application, you will need to make sure that your app is authorized to access the Reddit API. Authorization is done through OAuth tokens that you receive from the Reddit server. The flow is pretty straightforward:
  Application Requests Token App Receives Token that&#8217;s valid for an hour App makes API calls with given token App request new token when the previous token expires  For this tutorial, we are going to build a simple app that grabs the new posts from a subreddit.
                   
                 
@@ -644,10 +619,7 @@ In any case, if you want to build an app like Snapchat or build an app like Inst
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   August 18, 2017
@@ -661,7 +633,7 @@ In any case, if you want to build an app like Snapchat or build an app like Inst
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -670,7 +642,7 @@ In any case, if you want to build an app like Snapchat or build an app like Inst
               </p>
               <div class="post-entry">
                 
-                  You can now officially use JavaScript to read USB devices that are connected to your computer. This is using the new WebUSB API that is still in early draft. As being so, the API could later change or be removed altogether until it receives the final verification.
+                You can now officially use JavaScript to read USB devices that are connected to your computer. This is using the new WebUSB API that is still in early draft. As being so, the API could later change or be removed altogether until it receives the final verification.
 In order to use WebUSB you need to be running the latest version of Google Chrome, with the experimental web platform features flag enabled.
                   
                 
@@ -700,10 +672,7 @@ In order to use WebUSB you need to be running the latest version of Google Chrom
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   August 17, 2017
@@ -717,7 +686,7 @@ In order to use WebUSB you need to be running the latest version of Google Chrom
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -726,7 +695,7 @@ In order to use WebUSB you need to be running the latest version of Google Chrom
               </p>
               <div class="post-entry">
                 
-                  In Javascript, a callback function is a function that is passed into another function as an argument. This allows you to invoke that function with a return value. Remember, Javascript&#8217;s implementation within a browser is single threaded (well..until recently at least). That means that all of your code is executed within one linear operation. However, there are some functions in Javascript which are asynchronous. That means that they have the privilege to be invoked anywhere in that line of execution.
+                In Javascript, a callback function is a function that is passed into another function as an argument. This allows you to invoke that function with a return value. Remember, Javascript&#8217;s implementation within a browser is single threaded (well..until recently at least). That means that all of your code is executed within one linear operation. However, there are some functions in Javascript which are asynchronous. That means that they have the privilege to be invoked anywhere in that line of execution.
                   
                 
               </div>

@@ -58,7 +58,6 @@
 
   <meta name="generator" content="Hugo 0.54.0" />
   <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
   <link rel="stylesheet" rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
 
@@ -102,7 +101,7 @@ if (!doNotTrack) {
 
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom navbar-inverse">
+    <nav class="navbar navbar-default navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -229,10 +228,7 @@ if (!doNotTrack) {
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   May 8, 2019
@@ -246,7 +242,7 @@ if (!doNotTrack) {
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -255,7 +251,7 @@ if (!doNotTrack) {
               </p>
               <div class="post-entry">
                 
-                  If you are developing a Chrome extension with message passing, then you might have received the following error: Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.. There was some type of behavior change that happened post Chrome 72 that affected the way channels are opened. Essentially, if you try to call runetime.connect() before you have a a channel open, then you will get this error (Stackoverflow).
+                If you are developing a Chrome extension with message passing, then you might have received the following error: Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.
                   
                 
               </div>
@@ -284,10 +280,7 @@ if (!doNotTrack) {
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	dave
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   March 28, 2018
@@ -301,7 +294,7 @@ if (!doNotTrack) {
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -310,7 +303,7 @@ if (!doNotTrack) {
               </p>
               <div class="post-entry">
                 
-                  Chrome extensions are really cool. They allow the user to extend the capabilities of their browser and can incorporate really well into existing apps. So let&#8217;s take a look at how to build a Chrome Extension in less than 10 minutes. Chrome Extensions are written in Javascript, so I recommend that you have a basic understanding of Javascript before proceeding with this tutorial.
+                Chrome extensions are really cool. They allow the user to extend the capabilities of their browser and can incorporate really well into existing apps. So let&#8217;s take a look at how to build a Chrome Extension in less than 10 minutes. Chrome Extensions are written in Javascript, so I recommend that you have a basic understanding of Javascript before proceeding with this tutorial.
 What we&#8217;re building We are going to build a simple chrome extension that will allow you to search google for any text that you highlight on a page.
                   
                 

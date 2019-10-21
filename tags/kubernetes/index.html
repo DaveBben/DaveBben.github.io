@@ -58,7 +58,6 @@
 
   <meta name="generator" content="Hugo 0.54.0" />
   <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
   <link rel="stylesheet" rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
 
@@ -102,7 +101,7 @@ if (!doNotTrack) {
 
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom navbar-inverse">
+    <nav class="navbar navbar-default navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -229,10 +228,7 @@ if (!doNotTrack) {
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   September 18, 2019
@@ -244,7 +240,7 @@ if (!doNotTrack) {
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -253,8 +249,7 @@ if (!doNotTrack) {
               </p>
               <div class="post-entry">
                 
-                  The team and I were searching for solutions that enabled us to secure the communication between the microservices that we have running in our Rancher cluster. Our first application consisted of a set of services that essentially performed CRUD operations using the typical RESTful architecture (GET, POST, PUT, etc).
-We decided to use Istio because it offered a compelling solution that incorporated the use of mTLS (mutual TLS authentication). For us, this meant that we didn&rsquo;t need to manage certificates ourselves our worry about the individual TLS implementation of each service in its respective language.
+                The team and I decided to use Istio to secure the communication of our microservices. However, we ran into many challenges using Istio in our environment.
                   
                 
               </div>
@@ -281,10 +276,7 @@ We decided to use Istio because it offered a compelling solution that incorporat
               </a>
 
               <p class="post-meta">
-                <p class="post-author">    
-	Dave Bennett
-  </p>
-<span class="post-meta">
+                <span class="post-meta">
     
     
   March 20, 2019
@@ -298,7 +290,7 @@ We decided to use Istio because it offered a compelling solution that incorporat
 
     
     
-        &nbsp;-&nbsp;<a href="/categories/programming/">Programming</a>
+        &nbsp;-&nbsp;<span class="category-link"><a href="/categories/programming/">Programming</a></span>
     
     
   </span>
@@ -307,8 +299,7 @@ We decided to use Istio because it offered a compelling solution that incorporat
               </p>
               <div class="post-entry">
                 
-                  I recently had the &ldquo;amazing 🙄&rdquo; opportunity to spend two weeks figuring out how to install hyperledger fabric on Kubernetes. There aren&rsquo;t many guides on the internet besides this one. Unfortunately, I found it to be very vague and missing some keys steps.
-For this tutorial, let&rsquo;s go step-by-step on how to install hyperledger on kubernetes. We are going to use some information from the guide linked above, along with some stuff my team and I were able to figure out along the way.
+                A step-by-step tutorial on how to install hyperledger fabric on Kubernetes. This setup uses a two node cluster but can be done on a single VM.
                   
                 
               </div>
