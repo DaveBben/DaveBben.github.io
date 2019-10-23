@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Bennett Notes</title>
@@ -8,10 +8,20 @@
     <language>en-us</language>
     <managingEditor>dave@bennettnotes.com (Dave Bennett)</managingEditor>
     <webMaster>dave@bennettnotes.com (Dave Bennett)</webMaster>
-    <lastBuildDate>Sun, 22 Sep 2019 21:58:26 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2019 20:26:35 -0400</lastBuildDate>
     
 	<atom:link href="https://www.bennettnotes.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Yes, I Keep a Google Home in my Bedroom</title>
+      <link>https://www.bennettnotes.com/post/google-home-in-bedroom/</link>
+      <pubDate>Tue, 22 Oct 2019 20:26:35 -0400</pubDate>
+      <author>dave@bennettnotes.com (Dave Bennett)</author>
+      <guid>https://www.bennettnotes.com/post/google-home-in-bedroom/</guid>
+      <description>When it comes to devices like Google Home or Amazon Alexa, I often read comments like the one below from Hacker News:
+ But people willingly bringing always on listening devices in to their homes (beyond what smartphones are already capable of) I just can&amp;rsquo;t comprehend it. Why would people voluntarily do this in exchange for being able to ask for weather, play a playlist, add a todo and a few other parlor tricks.</description>
+    </item>
     
     <item>
       <title>Where Are All the Fun Software Engineer Jobs?</title>

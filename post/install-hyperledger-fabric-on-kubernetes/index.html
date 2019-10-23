@@ -8,25 +8,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
   <title>Install Hyperledger Fabric on Kubernetes - Bennett Notes</title> 
-  <meta property="og:title" content="Install Hyperledger Fabric on Kubernetes" />
-  <meta name="twitter:title" content="Install Hyperledger Fabric on Kubernetes" />
   <meta name="description" content="A step-by-step tutorial on how to install hyperledger fabric on Kubernetes. This setup uses a two node cluster but can be done on a single VM.">
-  <meta property="og:description" content="A step-by-step tutorial on how to install hyperledger fabric on Kubernetes. This setup uses a two node cluster but can be done on a single VM.">
-  <meta name="twitter:description" content="A step-by-step tutorial on how to install hyperledger fabric on Kubernetes. This setup uses a two node cluster but can be done on a single VM.">
   <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
     "name": "Bennett Notes",
     
-    "url": "https://www.bennettnotes.com"
+    "url": "https:\/\/www.bennettnotes.com"
 }
 </script><script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Organization",
   "name": "",
-  "url": "https://www.bennettnotes.com"
+  "url": "https:\/\/www.bennettnotes.com"
   
   
   
@@ -41,14 +37,14 @@
         "@type": "ListItem",
         "position": 1,
         "item": {
-          "@id": "https://www.bennettnotes.com",
+          "@id": "https:\/\/www.bennettnotes.com",
           "name": "home"
         }
     },{
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "https://www.bennettnotes.com/post/install-hyperledger-fabric-on-kubernetes/",
+          "@id": "https:\/\/www.bennettnotes.com\/post\/install-hyperledger-fabric-on-kubernetes\/",
           "name": "Install hyperledger fabric on kubernetes"
         }
     }]
@@ -64,18 +60,18 @@
   "headline": "Install Hyperledger Fabric on Kubernetes",
   "description" : "A step-by-step tutorial on how to install hyperledger fabric on Kubernetes. This setup uses a two node cluster but can be done on a single VM.",
   "inLanguage" : "en",
-  "wordCount": 1807,
+  "wordCount":  1815 ,
   "datePublished" : "2019-03-20T17:09:26",
   "dateModified" : "2019-03-28T05:49:48",
-  "image" : "  https://www.bennettnotes.com/img/avatar-icon.png",
+  "image" : "  https:\/\/www.bennettnotes.com\/img\/avatar-icon.png",
   "keywords" : [ "blockchain, hyperledger, docker, kubernetes" ],
-  "mainEntityOfPage" : "https://www.bennettnotes.com/post/install-hyperledger-fabric-on-kubernetes/",
+  "mainEntityOfPage" : "https:\/\/www.bennettnotes.com\/post\/install-hyperledger-fabric-on-kubernetes\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "Bennett Notes",
     "logo" : {
         "@type" : "ImageObject",
-        "url" : "https://www.bennettnotes.com/img/avatar-icon.png",
+        "url" : "https:\/\/www.bennettnotes.com\/img\/avatar-icon.png",
         "height" :  60 ,
         "width" :  60
     }
@@ -99,16 +95,8 @@
   <meta name="twitter:creator" content="@_davebennett" />
 
   <link href='https://www.bennettnotes.com/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta property="og:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
-  <meta name="twitter:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@_davebennett" />
-  <meta name="twitter:creator" content="@_davebennett" />
-  <meta property="og:url" content="https://www.bennettnotes.com/post/install-hyperledger-fabric-on-kubernetes/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Bennett Notes" />
 
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.59.0" />
   <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
   <link rel="stylesheet" rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
@@ -335,13 +323,13 @@ sysctl net.bridge.bridge-nf-call-iptables=1</code></pre></div>
 <p>After initialization, you should get some extra instructions (posted below) detailing how to run your code as a regular user:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd"><span style="color:#66d9ef">mkdir</span> -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-sudo chown $(id -u):$(id<span style="color:#75715e"> -g) $HOME/.kube/config</span></code></pre></div>
+sudo chown $(id -u):$(id -g) $HOME/.kube/config</code></pre></div>
 <p>It&rsquo;s important that you run the above command, otherwise you will get an error saying <em>can&rsquo;t connect to localhost</em> when you run any kubectl command.</p>
 
 <p>If you are the root user, use this command instead of the above command:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">export KUBECONFIG=/etc/kubernetes/kubelet.conf</code></pre></div>
 <p>At then end of the <em>kubeadmn init</em> command you will see instructions for how to join another peer. You should see something like the following:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubeadm join 10.17.189.209:6443<span style="color:#75715e"> — token oyu3i2.md9tnvyp31f5b7ju — discovery-token-ca-cert-hash sha256:2960349cff48d1041ff087735b3dbe995642dad557098bca64717f06959890e7</span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubeadm join 10.17.189.209:6443 — token oyu3i2.md9tnvyp31f5b7ju — discovery-token-ca-cert-hash sha256:2960349cff48d1041ff087735b3dbe995642dad557098bca64717f06959890e7</code></pre></div>
 <p>Copy and paste this command into notepad or something. We will use this in a bit.</p>
 
 <h3 id="install-flannel-addon">Install Flannel Addon</h3>
@@ -357,7 +345,7 @@ sudo chown $(id -u):$(id<span style="color:#75715e"> -g) $HOME/.kube/config</spa
 <h3 id="setting-up-additional-nodes">Setting up additional nodes</h3>
 
 <p>If you have another node that you want to setup, you will need to repeat the steps to <strong>install docker</strong> and <strong>install kubernetes</strong>. Afterwards, paste that join command that I told you to copy down earlier</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubeadm join 10.17.189.209:6443<span style="color:#75715e"> — token oyu3i2.md9tnvyp31f5b7ju — discovery-token-ca-cert-hash sha256:2960349cff48d1041ff087735b3dbe995642dad557098bca64717f06959890e7</span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubeadm join 10.17.189.209:6443 — token oyu3i2.md9tnvyp31f5b7ju — discovery-token-ca-cert-hash sha256:2960349cff48d1041ff087735b3dbe995642dad557098bca64717f06959890e7</code></pre></div>
 <p>This will join the other node to the network. If you forget the token, then you can run the following command on the master node to retrieve it:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubeadm token list</code></pre></div>
 <p>On the master node, you should be able to see the both nodes in the ready state using this command:</p>
@@ -394,10 +382,10 @@ sudo chmod 777 /opt/share</code></pre></div>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo exportfs -a
 sudo systemctl restart nfs-kernel-server</code></pre></div>
 <p>On the worker node, mount the NFS using the following command:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo mount 10.62.157.209:/opt/share<span style="color:#75715e"> /opt/share</span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo mount 10.62.157.209:/opt/share /opt/share</code></pre></div>
 <p>The IP address will be the IP address of your master node. To automatically mount it every time, add the following to your fstab:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">sudo nano /etc/fstab
-10.62.157.209:/opt/share<span style="color:#75715e"> /opt/share auto,nofail,noatime,nolock,intr,tcp,actimeo=1800 0 0</span></code></pre></div>
+10.62.157.209:/opt/share /opt/share auto,nofail,noatime,nolock,intr,tcp,actimeo=1800 0 0</code></pre></div>
 <p>Save that file and you&rsquo;re good. Try making a test file in the NFS folder and make sure you can see it on both systems.</p>
 
 <h2 id="hyperledger-fabric-on-kubernetes">Hyperledger Fabric on Kubernetes</h2>
@@ -457,11 +445,11 @@ sudo systemctl restart nfs-kernel-server</code></pre></div>
 <p>Next, change the address of the NFS file share so that it points to your your master node IP address.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">    nfs: 
       path: /opt/share/channel-artifacts
-      server: <span style="color:#ae81ff">10.62</span>.<span style="color:#ae81ff">157.209</span></code></pre></div>
+      server: <span style="color:#ae81ff">10.62.157.209</span></code></pre></div>
 <p>Save that file. Next in the <strong>fabric_1_0_template_pod_namespace.yaml</strong> file, change the address of the NFS file share so that it points to your master node IP address.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">  nfs:
     path: $path
-    server: <span style="color:#ae81ff">10.62</span>.<span style="color:#ae81ff">157.209</span></code></pre></div>
+    server: <span style="color:#ae81ff">10.62.157.209</span></code></pre></div>
 <p>Save that file. Next in the <strong>fabric_1_0_template_pod_orderer.yaml</strong> file, add the following in the <strong>env</strong> section under the <strong>container</strong> section:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">          - name: CORE_VM_DOCKER_HOSTCONFIG_NETWORKMODE
             value: bridge</code></pre></div>
@@ -512,21 +500,21 @@ sudo systemctl restart nfs-kernel-server</code></pre></div>
 <p>You should retrieve a list of pods in Org1. You will need to find the one that has <strong>cli</strong> in its name and enter it:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">kubectl exec -it cli-2586535453-yclmr bash --namespace=org1</code></pre></div>
 <p>Once you enter into the pod&rsquo;s terminal, create a channel:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer channel create -o orderer0.orgorderer1:7050<span style="color:#75715e"> -c mychannel -f ./channel-artifacts/channel.tx</span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer channel create -o orderer0.orgorderer1:7050 -c mychannel -f ./channel-artifacts/channel.tx</code></pre></div>
 <p>Then copy the channel block to channel artifacts:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">cp mychannel.block ./channel-artifacts</code></pre></div>
 <p>Finally, join this peer to the channel:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer channel join -b ./channel-artifacts/mychannel.block</code></pre></div>
 <p>Now update the anchor peer. You will need to do this once for each organization:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer channel update -o orderer0.orgorderer1:7050<span style="color:#75715e"> -c mychannel -f ./channel-artifacts/Org1MSPanchors.tx</span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer channel update -o orderer0.orgorderer1:7050 -c mychannel -f ./channel-artifacts/Org1MSPanchors.tx</code></pre></div>
 <p>Next, change to the <em>channel-artifacts</em> directory inside of that peer. It should be one layer from where you are currently at. Once you are inside of that directory, download the fabric-samples repo.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">git clone https://github.com/hyperledger/fabric-samples.git</code></pre></div>
 <p>Now install the chaincode:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer chaincode install -n mybb -v 1.0 -p github.com/hyperledger/fabric/peer/channel-artifacts/fabric-samples/chaincode/chaincode_example02/go</code></pre></div>
 <p>Afterwards, instantiate the chaincode:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer chaincode instantiate -o orderer0.orgorderer1:7050<span style="color:#75715e"> -C mychannel -n mybb -v 1.0 -c &#39;{&#34;Args&#34;:[&#34;init&#34;,&#34;a&#34;,&#34;100&#34;,&#34;b&#34;,&#34;200&#34;]}&#39;</span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer chaincode instantiate -o orderer0.orgorderer1:7050 -C mychannel -n mybb -v 1.0 -c &#39;{<span style="color:#e6db74">&#34;Args&#34;</span>:[<span style="color:#e6db74">&#34;init&#34;</span>,<span style="color:#e6db74">&#34;a&#34;</span>,<span style="color:#e6db74">&#34;100&#34;</span>,<span style="color:#e6db74">&#34;b&#34;</span>,<span style="color:#e6db74">&#34;200&#34;</span>]}&#39;</code></pre></div>
 <p>Finally, test a query.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer chaincode query -C mychannel -n mybb -v v0 -c &#39;{<span style="color:#e6db74">&#34;Args&#34;</span>:[&#34;query&#34;<span style="color:#75715e">,&#34;a&#34;]}&#39;</span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">peer chaincode query -C mychannel -n mybb -v v0 -c &#39;{<span style="color:#e6db74">&#34;Args&#34;</span>:[<span style="color:#e6db74">&#34;query&#34;</span>,<span style="color:#e6db74">&#34;a&#34;</span>]}&#39;</code></pre></div>
 <p>If you get back 100, then everything works! You can repeat the channel copy, install and instantiation in the Cli of Org2.</p>
 
 <p>So that&rsquo;s it! From this point you are on your own. Hopefully this helps someone. Like I said, there were a couple of guides on the internet but I ran into a lot of hiccups and quirks trying to get this basic demo working. So hopefully this saves you some time.</p>

@@ -1,5 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+    <url>
+    <loc>https://www.bennettnotes.com/</loc>
+    <lastmod>2019-10-22T21:07:46-04:00</lastmod>
+  </url>
+
+  
+  
+  
+  
+  
+  
+    <url>
+    <loc>https://www.bennettnotes.com/post/</loc>
+    <lastmod>2019-10-22T21:07:46-04:00</lastmod>
+  </url>
+
+  
+  
+  
+  
+  
+  
+  
+  
+    <url>
+    <loc>https://www.bennettnotes.com/post/google-home-in-bedroom/</loc>
+    <lastmod>2019-10-22T21:07:46-04:00</lastmod>
+  </url>
+
+  
+  
   
   
     <url>
@@ -16,11 +48,27 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/post/the-four-types-of-business-ideas/</loc>
     <lastmod>2019-09-13T07:48:32-04:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -30,11 +78,23 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/post/why-i-live-for-the-weekends/</loc>
     <lastmod>2019-06-03T06:38:26-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -44,6 +104,12 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/post/fix-receiving-end-does-not-exist/</loc>
     <lastmod>2019-05-21T18:31:12-04:00</lastmod>
@@ -51,11 +117,19 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/post/run-android-apps-in-chrome-browser/</loc>
     <lastmod>2019-05-01T06:32:35-04:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -72,11 +146,19 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/post/kafka-nodejs-example/</loc>
     <lastmod>2019-04-17T09:26:19-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -86,11 +168,17 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/post/flying-a-drone-with-javascript/</loc>
     <lastmod>2019-04-15T06:26:06-04:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -100,11 +188,23 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/post/seo-search-volume-does-not-matter/</loc>
     <lastmod>2019-04-10T17:29:53-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -114,11 +214,19 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/post/i-want-to-do-everything-so-i-do-nothing/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -128,11 +236,23 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/post/complacency-after-college/</loc>
     <lastmod>2019-03-22T08:28:37-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -142,6 +262,8 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/post/getting-too-absorbed-into-your-side-projects/</loc>
     <lastmod>2019-03-14T07:29:45-04:00</lastmod>
@@ -149,11 +271,19 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/post/why-i-switched-from-wordpress-to-hugo/</loc>
     <lastmod>2019-03-12T06:33:49-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -170,11 +300,17 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/post/angular-read-system-environment-variables/</loc>
     <lastmod>2019-03-05T15:21:33-05:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -184,9 +320,22 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/post/ebooks-are-not-social/</loc>
     <lastmod>2019-03-03T19:08:50-05:00</lastmod>
+  </url>
+
+  
+  
+    <url>
+    <loc>https://www.bennettnotes.com/page/</loc>
+    <lastmod>2019-02-27T06:31:21-05:00</lastmod>
   </url>
 
   
@@ -198,11 +347,17 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/how-to-download-any-video-from-any-site-for-free/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -212,11 +367,25 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/pixel-3-review-dont-romanticize-imperfection/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -226,11 +395,21 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/how-to-control-android-from-android/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -240,11 +419,19 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/my-computer-science-degree-was-not-worth-the-cost/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -261,11 +448,19 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/how-to-theme-and-customize-windows-10/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -275,6 +470,8 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/how-to-enable-ultimate-performance-mode-in-windows-10/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
@@ -282,11 +479,27 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/jwt-tokens-in-express-and-nodejs/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -310,6 +523,16 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/react-native-stacknavigator-tutorial/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
@@ -324,6 +547,14 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/react-context-api/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
@@ -331,11 +562,19 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/react-native-android-receive-data-from-share-intent/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -352,6 +591,10 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/implementing-token-interceptor-and-retry-in-angular-4-2/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
@@ -366,11 +609,17 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/simple-css-hack-can-steal-internet-passwords/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -380,11 +629,23 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/run-windows-applications-exe-files-on-android/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -401,11 +662,21 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/android-recyclerview-for-installed-apps-with-checkbox/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -415,11 +686,15 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/meltdown-and-spectre-javascript-vulnerabilities/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -429,11 +704,29 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/bootstrap-navbar-collapse-reactjs/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -443,11 +736,23 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/php-insert-sql-database-fetch-post/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -457,11 +762,21 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/image-classification-using-nvidia-digits-deep-learning/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -471,11 +786,23 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/javascript-vs-vs/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -485,11 +812,19 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/ubuntu-install-hangs-splash-screen-fix/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -499,11 +834,25 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/javascript-hashcash-proof-work/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -513,6 +862,10 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/google-pixel-2-xl-vs-galaxy-note-8/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
@@ -520,11 +873,19 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/navigate-in-reactjs-using-react-v4-router/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -541,6 +902,10 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/run-kali-linux-2-android/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
@@ -548,11 +913,23 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/multithreaded-javascript/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -576,11 +953,17 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/snapchat-using-javascript/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -590,11 +973,23 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/run-os-chromebook/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -604,11 +999,23 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/dark-theme-any-app/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -618,11 +1025,23 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/javascript-callbacks/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -632,11 +1051,15 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/amazon-echo-show-web-browser/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -646,11 +1069,25 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/install-kali-linux-on-chromebook/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -660,6 +1097,12 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/android-wifi-jammer/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
@@ -667,11 +1110,23 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/developer-mode-chromebook/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -695,11 +1150,23 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/raspberry-pi-webserver/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -709,6 +1176,18 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/change-navbar-color-android/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
@@ -716,11 +1195,25 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/setup-raspberry-pi-3/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -737,11 +1230,33 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/how-to-install-adb/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -751,11 +1266,15 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/top-linux-apps/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -765,11 +1284,29 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/whats-new-android-o/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -779,11 +1316,31 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/top-7-android-apps-march-2017/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -793,11 +1350,37 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/stream-steam-games-android-2017/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -807,11 +1390,29 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/create-shared-network-folde-linux-r/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -821,11 +1422,25 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/share-internet-connection-windows/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -835,11 +1450,21 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/top-android-holiday-apps/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -849,11 +1474,27 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/create-a-vpn-server/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -863,11 +1504,23 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/android-battery-saving-tips-disable-snapchat-background-data/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -877,11 +1530,31 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/control-multiple-computers/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -891,11 +1564,41 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/play-playstation-3-games-on-pc/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -905,11 +1608,17 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/moto-z-play-review/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -919,11 +1628,17 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/moto-z-play-unboxing/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -940,11 +1655,33 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/kodi-on-firestick/</loc>
     <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -954,11 +1691,37 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/use-android-as-microphone/</loc>
     <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -975,11 +1738,33 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/galaxy-note-7-exploding/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -989,11 +1774,21 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/use-android-as-second-monitor/</loc>
     <lastmod>2019-03-02T14:48:48-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -1017,11 +1812,29 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/usb-condom-micflip/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1031,6 +1844,10 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/reverse-tether/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
@@ -1038,11 +1855,23 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/whats-on-my-phone/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -1059,11 +1888,25 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/least-used-android-features/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1073,11 +1916,27 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/save-battery-life-android/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -1087,6 +1946,10 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/run-windows-7-android/</loc>
     <lastmod>2019-03-02T14:48:48-05:00</lastmod>
@@ -1094,11 +1957,41 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/fallout-4-tribute/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1115,6 +2008,10 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/vpn-server-android/</loc>
     <lastmod>2019-03-02T14:48:48-05:00</lastmod>
@@ -1129,11 +2026,37 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/read-car-computer-android/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1150,11 +2073,27 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/silent-boot-android/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -1164,11 +2103,25 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/galaxy-s7-ram-management/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1178,6 +2131,10 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/galaxy-s7-review-dont-buy-hype/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
@@ -1185,11 +2142,21 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/galaxy-s7-unboxing/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1206,11 +2173,21 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/root-any-android/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1220,11 +2197,21 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/remotely-turn-on-computer-with-linux/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1234,11 +2221,21 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/remix-os-on-chromebook/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -1255,11 +2252,19 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/how-to-build-a-supercomputer/</loc>
     <lastmod>2019-04-17T09:26:19-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -1269,11 +2274,23 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/cast-android-screen-to-pc/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1283,11 +2300,17 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/connect-android-to-ethernet/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -1297,6 +2320,14 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/ios-emojis-on-android/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
@@ -1304,11 +2335,27 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/super-smash-bros-meele-on-android/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1325,11 +2372,19 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/how-to-install-chrome-os-on-pc/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -1339,6 +2394,10 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/run-windows-10-from-usb/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
@@ -1346,11 +2405,21 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/play-half-life-on-android-wear/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1367,6 +2436,12 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/install-android-on-pc/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
@@ -1374,11 +2449,21 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/lock-phone-from-android-wear/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -1395,11 +2480,19 @@
 
   
   
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/stream-steam-games-to-android/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -1409,11 +2502,25 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/play-sega-genesis-games-on-android/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1423,11 +2530,25 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/6-fun-facts-about-android/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1437,11 +2558,17 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/how-to-play-ps2-games-on-chromebook/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -1451,11 +2578,17 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/windows-xp-on-android-wear-smartwatch/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -1465,11 +2598,23 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/create-your-own-personal-cloud-server/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1479,11 +2624,25 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/install-ubuntu-14-04-on-chromebook/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -1493,11 +2652,17 @@
 
   
   
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/enable-developer-mode-on-chromebook/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -1514,11 +2679,15 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/would-you-only-buy-a-galaxy-or-iphone/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
   
   
     <url>
@@ -1528,11 +2697,23 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/run-python-android/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
   
   
     <url>
@@ -1542,6 +2723,14 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/bypass-android-lock-screen/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
@@ -1549,11 +2738,37 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/adobe-flash-player-android-lollipop/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1570,6 +2785,14 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/run-android-apps-on-chromebook/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
@@ -1577,11 +2800,25 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/best-paranoid-android-features/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1598,11 +2835,21 @@
 
   
   
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/disable-lock-screen-at-home/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1612,11 +2859,33 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/run-windows-95-on-android/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1626,11 +2895,51 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/intsall-ubuntu-on-chromebook/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1640,11 +2949,39 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/share-computer-internet-connection-with-android-reverse-tethering/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1654,11 +2991,31 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/how-to-build-custom-cyanogenmod-rom/</loc>
     <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1668,11 +3025,41 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/how-to-install-xposed-framework/</loc>
     <lastmod>2019-02-27T21:33:44-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1682,11 +3069,43 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     <url>
     <loc>https://www.bennettnotes.com/how-to-play-nintendo-ds-games-on-android/</loc>
     <lastmod>2019-02-25T18:25:51-05:00</lastmod>
   </url>
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     <url>
@@ -1696,97 +3115,6 @@
 
   
   
-    <url>
-    <loc>https://www.bennettnotes.com/play-playstation-games-on-android/</loc>
-    <lastmod>2019-04-14T09:18:11-04:00</lastmod>
-  </url>
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   
@@ -1802,1337 +3130,9 @@
   
   
     <url>
-    <loc>https://www.bennettnotes.com/</loc>
-    <lastmod>2019-10-21T17:07:43-04:00</lastmod>
-	  
-   <priority>1</priority>
-   
-  
+    <loc>https://www.bennettnotes.com/play-playstation-games-on-android/</loc>
+    <lastmod>2019-04-14T09:18:11-04:00</lastmod>
   </url>
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    <url>
-    <loc>https://www.bennettnotes.com/page/</loc>
-    <lastmod>2019-02-27T06:31:21-05:00</lastmod>
-	  
-       <priority>0</priority>
-  
-  </url>
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    <url>
-    <loc>https://www.bennettnotes.com/post/</loc>
-    <lastmod>2019-10-21T17:07:43-04:00</lastmod>
-	  
-       <priority>0</priority>
-  
-  </url>
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
 </urlset>

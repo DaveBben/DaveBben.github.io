@@ -8,25 +8,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
   <title>Scrape Google Search Using Puppeteer - Bennett Notes</title> 
-  <meta property="og:title" content="Scrape Google Search Using Puppeteer" />
-  <meta name="twitter:title" content="Scrape Google Search Using Puppeteer" />
   <meta name="description" content="I needed to scrape Google search using Puppeteer for my sideproject. I navigated to google search results and clicked on a link.">
-  <meta property="og:description" content="I needed to scrape Google search using Puppeteer for my sideproject. I navigated to google search results and clicked on a link.">
-  <meta name="twitter:description" content="I needed to scrape Google search using Puppeteer for my sideproject. I navigated to google search results and clicked on a link.">
   <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
     "name": "Bennett Notes",
     
-    "url": "https://www.bennettnotes.com"
+    "url": "https:\/\/www.bennettnotes.com"
 }
 </script><script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Organization",
   "name": "",
-  "url": "https://www.bennettnotes.com"
+  "url": "https:\/\/www.bennettnotes.com"
   
   
   
@@ -41,14 +37,14 @@
         "@type": "ListItem",
         "position": 1,
         "item": {
-          "@id": "https://www.bennettnotes.com",
+          "@id": "https:\/\/www.bennettnotes.com",
           "name": "home"
         }
     },{
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "https://www.bennettnotes.com/post/scrape-google-search-using-puppeteer/",
+          "@id": "https:\/\/www.bennettnotes.com\/post\/scrape-google-search-using-puppeteer\/",
           "name": "Scrape google search using puppeteer"
         }
     }]
@@ -64,18 +60,18 @@
   "headline": "Scrape Google Search Using Puppeteer",
   "description" : "I needed to scrape Google search using Puppeteer for my sideproject. I navigated to google search results and clicked on a link.",
   "inLanguage" : "en",
-  "wordCount": 268,
+  "wordCount":  268 ,
   "datePublished" : "2019-03-25T05:50:08",
   "dateModified" : "2019-03-25T06:20:02",
-  "image" : "  https://www.bennettnotes.com/img/search-results.png",
+  "image" : "  https:\/\/www.bennettnotes.com\/img\/search-results.png",
   "keywords" : [ "javascript, nodejs, web scraping, puppeteer" ],
-  "mainEntityOfPage" : "https://www.bennettnotes.com/post/scrape-google-search-using-puppeteer/",
+  "mainEntityOfPage" : "https:\/\/www.bennettnotes.com\/post\/scrape-google-search-using-puppeteer\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "Bennett Notes",
     "logo" : {
         "@type" : "ImageObject",
-        "url" : "https://www.bennettnotes.com/img/avatar-icon.png",
+        "url" : "https:\/\/www.bennettnotes.com\/img\/avatar-icon.png",
         "height" :  60 ,
         "width" :  60
     }
@@ -99,16 +95,8 @@
   <meta name="twitter:creator" content="@_davebennett" />
 
   <link href='https://www.bennettnotes.com/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta property="og:image" content="https://www.bennettnotes.com/img/search-results.png" />
-  <meta name="twitter:image" content="https://www.bennettnotes.com/img/search-results.png" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@_davebennett" />
-  <meta name="twitter:creator" content="@_davebennett" />
-  <meta property="og:url" content="https://www.bennettnotes.com/post/scrape-google-search-using-puppeteer/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Bennett Notes" />
 
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.59.0" />
   <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
   <link rel="stylesheet" rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
@@ -287,23 +275,23 @@ if (!doNotTrack) {
 
 <p>First, let&rsquo;s go to the google homepage, type something in, and click the search button.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">	<span style="color:#66d9ef">try</span> {
-		(<span style="color:#66d9ef">async</span> () =&gt; {
-			<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">browser</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">puppeteer</span>.<span style="color:#a6e22e">launch</span>();
-			<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">page</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">browser</span>.<span style="color:#a6e22e">newPage</span>();
-			<span style="color:#66d9ef">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#66d9ef">goto</span>(<span style="color:#e6db74">&#39;https://google.com&#39;</span>);
-			<span style="color:#66d9ef">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">type</span>(<span style="color:#e6db74">&#39;input.gLFyf.gsfi&#39;</span>, <span style="color:#e6db74">&#39;itunes podcast&#39;</span>);
+		(<span style="color:#a6e22e">async</span> () =&gt; {
+			<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">browser</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">await</span> <span style="color:#a6e22e">puppeteer</span>.<span style="color:#a6e22e">launch</span>();
+			<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">page</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">await</span> <span style="color:#a6e22e">browser</span>.<span style="color:#a6e22e">newPage</span>();
+			<span style="color:#a6e22e">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#66d9ef">goto</span>(<span style="color:#e6db74">&#39;https://google.com&#39;</span>);
+			<span style="color:#a6e22e">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">type</span>(<span style="color:#e6db74">&#39;input.gLFyf.gsfi&#39;</span>, <span style="color:#e6db74">&#39;itunes podcast&#39;</span>);
 			<span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">keyboard</span>.<span style="color:#a6e22e">press</span>(<span style="color:#e6db74">&#39;Enter&#39;</span>);
 </code></pre></div>
 <p>I&rsquo;m using the <em>type</em> function to insert text into the Google Search input which has the classes <em>.gLFyf.gsfi</em>. Then pressing enter to trigger the search.</p>
 
 <p>Now, let&rsquo;s wait for the page to load.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">waitForSelector</span>(<span style="color:#e6db74">&#39;div#resultStats&#39;</span>);
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">waitForSelector</span>(<span style="color:#e6db74">&#39;div#resultStats&#39;</span>);
 </code></pre></div>
 <p>This is telling puppeteer to wait for this element to become visible. This is the result stat that you see in Google search telling you how many results it found.</p>
 
 <p>Now that the page is visible, let&rsquo;s get the first link and navigate to it.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">links</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">$$</span>(<span style="color:#e6db74">&#39;div.r&#39;</span>);
-<span style="color:#66d9ef">await</span> <span style="color:#a6e22e">links</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">click</span>();
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">links</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">$$</span>(<span style="color:#e6db74">&#39;div.r&#39;</span>);
+<span style="color:#a6e22e">await</span> <span style="color:#a6e22e">links</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">click</span>();
 </code></pre></div>
 <p>The links will be an array of all the div.r elements. If you inspect the Google search HTML, you will see that it corresponds to all the title links that Google shows. Then we select the first one and navigate to it.</p>
 
@@ -312,16 +300,16 @@ if (!doNotTrack) {
 
 <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">goToIteuns</span>() {
 	<span style="color:#66d9ef">try</span> {
-		(<span style="color:#66d9ef">async</span> () =&gt; {
-			<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">browser</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">puppeteer</span>.<span style="color:#a6e22e">launch</span>();
-			<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">page</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">browser</span>.<span style="color:#a6e22e">newPage</span>();
-			<span style="color:#66d9ef">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#66d9ef">goto</span>(<span style="color:#e6db74">&#39;https://google.com&#39;</span>);
-			<span style="color:#66d9ef">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">type</span>(<span style="color:#e6db74">&#39;input.gLFyf.gsfi&#39;</span>, <span style="color:#e6db74">&#39;itunes podcast&#39;</span>);
+		(<span style="color:#a6e22e">async</span> () =&gt; {
+			<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">browser</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">await</span> <span style="color:#a6e22e">puppeteer</span>.<span style="color:#a6e22e">launch</span>();
+			<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">page</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">await</span> <span style="color:#a6e22e">browser</span>.<span style="color:#a6e22e">newPage</span>();
+			<span style="color:#a6e22e">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#66d9ef">goto</span>(<span style="color:#e6db74">&#39;https://google.com&#39;</span>);
+			<span style="color:#a6e22e">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">type</span>(<span style="color:#e6db74">&#39;input.gLFyf.gsfi&#39;</span>, <span style="color:#e6db74">&#39;itunes podcast&#39;</span>);
 			<span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">keyboard</span>.<span style="color:#a6e22e">press</span>(<span style="color:#e6db74">&#39;Enter&#39;</span>);
-			<span style="color:#66d9ef">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">waitForSelector</span>(<span style="color:#e6db74">&#39;div#resultStats&#39;</span>);
-			<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">links</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">$$</span>(<span style="color:#e6db74">&#39;div.r&#39;</span>);
-			<span style="color:#66d9ef">await</span> <span style="color:#a6e22e">links</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">click</span>();
-			<span style="color:#66d9ef">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">screenshot</span>({ <span style="color:#a6e22e">path</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;screenshot.png&#39;</span> });
+			<span style="color:#a6e22e">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">waitForSelector</span>(<span style="color:#e6db74">&#39;div#resultStats&#39;</span>);
+			<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">links</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">$$</span>(<span style="color:#e6db74">&#39;div.r&#39;</span>);
+			<span style="color:#a6e22e">await</span> <span style="color:#a6e22e">links</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">click</span>();
+			<span style="color:#a6e22e">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">screenshot</span>({ <span style="color:#a6e22e">path</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;screenshot.png&#39;</span> });
 		})();
 	} <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">err</span>) {
 		<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">error</span>(<span style="color:#a6e22e">err</span>);

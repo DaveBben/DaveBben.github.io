@@ -8,25 +8,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
   <title>Read System Environment Variables in Angular - Bennett Notes</title> 
-  <meta property="og:title" content="Read System Environment Variables in Angular" />
-  <meta name="twitter:title" content="Read System Environment Variables in Angular" />
   <meta name="description" content="How to read system environment variables in Angular 7">
-  <meta property="og:description" content="How to read system environment variables in Angular 7">
-  <meta name="twitter:description" content="How to read system environment variables in Angular 7">
   <meta name="author" content="Dave Bennett"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
     "name": "Bennett Notes",
     
-    "url": "https://www.bennettnotes.com"
+    "url": "https:\/\/www.bennettnotes.com"
 }
 </script><script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Organization",
   "name": "",
-  "url": "https://www.bennettnotes.com"
+  "url": "https:\/\/www.bennettnotes.com"
   
   
   
@@ -41,14 +37,14 @@
         "@type": "ListItem",
         "position": 1,
         "item": {
-          "@id": "https://www.bennettnotes.com",
+          "@id": "https:\/\/www.bennettnotes.com",
           "name": "home"
         }
     },{
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "https://www.bennettnotes.com/post/angular-read-system-environment-variables/",
+          "@id": "https:\/\/www.bennettnotes.com\/post\/angular-read-system-environment-variables\/",
           "name": "Read system environment variables in angular"
         }
     }]
@@ -64,18 +60,18 @@
   "headline": "Read System Environment Variables in Angular",
   "description" : "How to read system environment variables in Angular 7",
   "inLanguage" : "en",
-  "wordCount": 487,
+  "wordCount":  496 ,
   "datePublished" : "2019-03-05T07:14:19",
   "dateModified" : "2019-03-05T15:21:33",
-  "image" : "  https://www.bennettnotes.com/img/avatar-icon.png",
+  "image" : "  https:\/\/www.bennettnotes.com\/img\/avatar-icon.png",
   "keywords" : [ "angular, nodejs, webpack" ],
-  "mainEntityOfPage" : "https://www.bennettnotes.com/post/angular-read-system-environment-variables/",
+  "mainEntityOfPage" : "https:\/\/www.bennettnotes.com\/post\/angular-read-system-environment-variables\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "Bennett Notes",
     "logo" : {
         "@type" : "ImageObject",
-        "url" : "https://www.bennettnotes.com/img/avatar-icon.png",
+        "url" : "https:\/\/www.bennettnotes.com\/img\/avatar-icon.png",
         "height" :  60 ,
         "width" :  60
     }
@@ -99,16 +95,8 @@
   <meta name="twitter:creator" content="@_davebennett" />
 
   <link href='https://www.bennettnotes.com/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta property="og:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
-  <meta name="twitter:image" content="https://www.bennettnotes.com/img/avatar-icon.png" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@_davebennett" />
-  <meta name="twitter:creator" content="@_davebennett" />
-  <meta property="og:url" content="https://www.bennettnotes.com/post/angular-read-system-environment-variables/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Bennett Notes" />
 
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.59.0" />
   <link rel="alternate" href="https://www.bennettnotes.com/index.xml" type="application/rss+xml" title="Bennett Notes">
   <link rel="stylesheet" rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
@@ -356,7 +344,8 @@ if (!doNotTrack) {
 
 <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">GlobalEnvironment</span>{
     <span style="color:#a6e22e">process</span>: <span style="color:#66d9ef">Process</span>;
-}</code></pre></div>
+}
+</code></pre></div>
 <h2 id="step-5-usage">Step 5: Usage</h2>
 
 <p>Once all the above steps were done, here is how I read the environment variables in my Angular application.</p>
@@ -365,13 +354,13 @@ if (!doNotTrack) {
 <h2 id="dockerfile">DockerFile</h2>
 
 <p>Like I mentioned earlier, I did this so that I can read the variables when docker builds my application. Here is what my dockerfile looks like:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker"><span style="color:#66d9ef">FROM</span><span style="color:#e6db74"> node:8.12 as build-deps</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">WORKDIR</span><span style="color:#e6db74"> /home/ui/app</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ENV</span><span style="color:#e6db74"> SERVER=bennettnotes.com</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span>COPY package.json ./<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> npm install<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span>COPY . ./<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> npm run dist</code></pre></div>
+FROM node:8.12 as build-deps
+WORKDIR /home/ui/app
+ENV SERVER=bennettnotes.com
+COPY package.json ./
+RUN npm install
+COPY . ./
+RUN npm run dist
 
           
           <div class="blog-tags">
